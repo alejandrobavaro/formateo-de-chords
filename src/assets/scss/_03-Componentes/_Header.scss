@@ -1,0 +1,95 @@
+/* Asegúrate de que no haya margen o padding en el body y html */
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+/* Estilos del header */
+.header {
+  // background-color: rgba(0, 0, 0, 0.719);
+  // background-image: url(../..//img/00-fondos/IMG-20240401-WA0023.jpeg);
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5); 
+  box-sizing: border-box; 
+  
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    .logoHeader {
+      max-width: 80px;
+      transition: transform 0.3s ease;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0px; 
+  }
+
+  .navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    font-size: medium;
+
+
+    .nav-link {
+    font-weight: bolder;
+      color: #ffffff; 
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: #ffdcdc; 
+      }
+    }
+  }
+
+  .navbar-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .auth-icon {
+      color: #c0c0c0; // Blanco
+  
+        transition: color 0.3s ease;
+
+      &:hover {
+        color: #c5c5c5; 
+      }
+    }
+  }
+
+//-----------BOTON MENU HAMBURGUESA----------//
+  .menu-icon {
+     font-size: xx-large;
+    color: #ffffff; 
+    // // border: #000000 dotted 1px;
+    // border-radius: 10px;
+    padding: 5px;
+  }
+
+  .auth-welcome-container {
+    display: flex;
+    align-items: center;
+    color: #ffecec; 
+    font-size: large;
+
+    }
+  }
+

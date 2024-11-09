@@ -1,0 +1,70 @@
+.mainContent {
+  padding: 20px;
+  // background-color: #a200ff48;
+  // border-radius: 20px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.botonSeleccion1 {
+  background-color: transparent;
+  // font-size: x-large;
+  // color: #ffffff;
+  border: none;
+  // padding: 3px 15px;
+  border-radius: 20px;
+  // gap: 50px;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+  width: 50%;
+  height: auto;
+
+  &:hover {
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.212);
+  }
+}
+
+.botonSeleccion2 {
+  background-color: transparent;
+  // font-size: x-large;
+  // color: #ffffff;
+  border: none;
+  // padding: 3px 15px;
+  border-radius: 20px;
+  // gap: 50px;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+  width: 50%;
+  height: auto;
+
+  &:hover {
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.212);
+  }
+}
+
+.botonSeleccion3 {
+  background-color: transparent;
+  // font-size: x-large;
+  // color: #ffffff;
+  border: none;
+  // padding: 3px 15px;
+  border-radius: 20px;
+  // gap: 50px;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+  width: 50%;
+  height: auto;
+
+  &:hover {
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.212);
+  }
+}
+
+.lineaSepadadora1{
+  border: 1px white solid;
+}
+

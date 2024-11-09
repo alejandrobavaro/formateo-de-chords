@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap');
+
+/* Estilos generales del Footer */
+.footer-container {
+  display: grid;
+  grid-template-rows: auto auto; 
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: transparent;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column; // Columna por defecto (para móvil y tablet)
+  gap: 20px;
+  width: 100%;
+
+  @media (min-width: 769px) {
+    flex-direction: row; // Fila en pantallas grandes
+    gap: 40px;
+  }
+}
+
+.footer-column {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; // Columna en pantallas pequeñas
+
+  @media (min-width: 769px) {
+    flex-direction: row; // Fila en pantallas grandes
+  }
+
+  .footer-logo {
+    width: 80px;
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column; // Columna en móvil
+  gap: 10px;
+  font-size: small;
+  color: #ffe6ce;
+
+  a {
+    color: #ffe6ce;
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: #ffc188;
+    }
+  }
+
+  @media (min-width: 769px) {
+    flex-direction: row; // Fila en pantallas grandes
+    gap: 20px;
+  }
+}
+
+.trademarkFooter {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  padding: 0;
+  font-family: 'Cinzel Decorative', serif; 
+}
+
+.tituloImportanteFooter4 {
+  font-size: small; 
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: x-small;
+    
+    &:hover {
+      color: #ffe6ce;
+    }
+  }
+}
+
