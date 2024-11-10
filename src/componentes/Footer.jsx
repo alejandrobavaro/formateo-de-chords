@@ -61,7 +61,7 @@ function Footer() {
             <a href="#" target="_blank">
               <img
                 className="footer-logo"
-                src="../../public/img/02-logos/logo-formateo-chords2.png"
+                src="../../img/02-logos/logo-formateo-chords2.png"
                 alt="Logo Derecha"
               />
             </a>
