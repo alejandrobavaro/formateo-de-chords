@@ -109,7 +109,7 @@ const ContactoFormularioSlider = () => {
             <i className="bi bi-person-arms-up" /> MANDANOS UN MENSAJE{""}
             <i className="bi bi-person-arms-up" />
           </h2>
-         <img className="gifTamaño" src="../../public/img/02-logos/logo-formateo-chords.png" alt="" />
+         <img className="gifTamaño" src="../../img/02-logos/logo-formateo-chords.png" alt="" />
         </div>
       </div>
     </div>

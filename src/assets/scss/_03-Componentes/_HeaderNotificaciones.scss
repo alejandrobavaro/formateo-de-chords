@@ -6,9 +6,11 @@
  
   
   .notification-icon {
-    font-size: 24px; // Tamaño del ícono
-    color: #ff9900; // Color del ícono
-  }
+    font-size: small;
+    margin: 0px;
+    color: #ff7300;
+    text-align: left;
+}
   
   .notification-badge {
     position: absolute;

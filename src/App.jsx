@@ -19,12 +19,12 @@ import Sidebar from "./componentes/Sidebar";
 //-----------HOME - MAIN-----------------//
 import MainContent from "./componentes/MainContent";
 import MainWhatsappIcon from "./componentes/MainWhatsappIcon";
-import MainCalendarioPagos from "./componentes/MainCalendarioPagos";
+
 import MainPublicidadSlider from "./componentes/MainPublicidadSlider";
 import ToDo from "./componentes/ToDo";
 import MainNotas from "./componentes/MainNotas";
 
-import MainTemporizadorTareas from "./componentes/MainTemporizadorTareas";
+import MainTemporizador from "./componentes/MainTemporizador";
 //--------------FOOTER----------------//
 import Footer from "./componentes/Footer";
 //-----------CONTACTO-----------------//
@@ -68,10 +68,7 @@ function App() {
                   path="/"
                   element={<ProtectedRoute element={<MainContent />} />}
                 />
-                <Route
-                  path="/calendario-pagos"
-                  element={<ProtectedRoute element={<MainCalendarioPagos />} />}
-                />
+
                 <Route
                   path="/contacto"
                   element={
@@ -116,7 +113,7 @@ function App() {
                 <Route
                   path="/MainTemporizadorTareas"
                   element={
-                    <ProtectedRoute element={<MainTemporizadorTareas />} />
+                    <ProtectedRoute element={<MainTemporizador />} />
                   }
                 />
               </Routes>

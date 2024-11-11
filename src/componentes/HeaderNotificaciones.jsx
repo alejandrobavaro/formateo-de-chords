@@ -6,6 +6,7 @@ const HeaderNotificaciones = ({ reminderCount, onClick }) => {
   return (
     <button className="headerNotificaciones" onClick={onClick}>
       <div className="notification-badge-container">
+  
         <FaBell className="notification-icon" />
         {reminderCount > 0 && (
           <span className="notification-badge">{reminderCount}</span>

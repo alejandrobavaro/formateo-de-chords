@@ -2,6 +2,8 @@
 import React from "react";
 import "../assets/scss/_03-Componentes/_FooterGondraWorldDev.scss";
 
+
+
 function FooterGondraWorldDev() {
   return (
     <div className="trademarkGondraFooter">

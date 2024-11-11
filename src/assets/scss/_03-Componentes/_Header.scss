@@ -8,7 +8,7 @@
   padding: 10px 20px; // Ajusta el padding para mayor espacio
   font-size: small;
   border-bottom: 1px solid #ff91007c;
-  border-radius: 30px;
+  // border-radius: 30px;
   box-sizing: border-box; // Asegura que el padding no afecte el ancho total
 
   @media (max-width: 768px) {
@@ -403,5 +403,117 @@
   }
 }
 
+//---------Header Dropdown Estilos--------------------//
 
+// Estilos para el Dropdown Toggle
+.menu-dropdown-toggle {
+  color: #ff9100; // Color del texto del botón
+  background-color: transparent; // Fondo transparente para el botón
+  border: none; // Sin bordes
+  padding: 5px 10px;
+  font-size: 1rem;
+  transition: color 0.3s ease, background-color 0.3s ease;
 
+  &:hover {
+    color: #ffffff; // Color del texto al pasar el cursor
+    background-color: rgba(255, 145, 0, 0.2); // Fondo suave cuando pasa el cursor
+  }
+
+  &:focus {
+    color: #ffffff; // Color del texto cuando está seleccionado
+    background-color: rgba(255, 145, 0, 0.4); // Fondo más pronunciado cuando está en foco
+  }
+}
+
+// Estilos para el Dropdown Menu (Lista de opciones)
+.dropdown-menu {
+  background-color: #f0f0f0; // Color de fondo del menú
+  border-radius: 5px; // Bordes redondeados
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); // Sombra suave para el menú
+  padding: 10px 0;
+
+  .dropdown-item {
+    color: #333333; // Color del texto de cada ítem
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+    &:hover {
+      background-color: #ff9100; // Fondo al pasar el cursor
+      color: white; // Color del texto cuando está seleccionado
+    }
+
+    &:focus {
+      background-color: #ff9100; // Fondo cuando está en foco
+      color: white; // Color del texto cuando está en foco
+    }
+  }
+
+  .dropdown-header {
+    font-weight: bold;
+    color: #333333; // Color de los encabezados
+    padding: 10px 20px;
+    background-color: #ff9100; // Fondo del encabezado
+    color: white; // Color del texto en el encabezado
+  }
+
+  .dropdown-divider {
+    border-color: #ff9100; // Color de la línea divisoria
+  }
+}
+
+// Estilos para el Dropdown Item cuando está activo (seleccionado)
+.dropdown-item.active {
+  background-color: #ff9100; // Fondo cuando está seleccionado
+  color: white; // Color del texto cuando está seleccionado
+}
+
+//---------Botones y Textos--------------------//
+
+// Estilo para los botones de acción dentro de los dropdowns (si los tienes)
+.tareas-dropdown-toggle {
+  color: #ff9100;
+  border: none;
+  background-color: transparent;
+  padding: 5px 10px;
+  font-size: 1rem;
+  transition: color 0.3s ease, background-color 0.3s ease;
+
+  &:hover {
+    color: white;
+    background-color: rgba(255, 145, 0, 0.2);
+  }
+
+  &:focus {
+    color: white;
+    background-color: rgba(255, 145, 0, 0.4);
+  }
+}
+
+// Estilos para los textos de los botones dentro del Navbar
+.nav-link {
+  color: #ff9100; // Color de los enlaces
+  text-decoration: none;
+  padding: 8px 12px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+
+  &:hover {
+    color: #ffffff;
+    background-color: rgba(255, 145, 0, 0.2); // Fondo al pasar el cursor
+  }
+
+  &:focus {
+    color: #ffffff;
+    background-color: rgba(255, 145, 0, 0.4); // Fondo al estar seleccionado
+  }
+}
+
+// Estilos para los íconos en el Navbar
+.nav-link i {
+  margin-right: 8px; // Espacio entre el ícono y el texto
+  color: #ff9100;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: white;
+  }
+}

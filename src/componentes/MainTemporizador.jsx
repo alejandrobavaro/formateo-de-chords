@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import '../assets/scss/_03-Componentes/_MainTemporizadorTareas.scss';
+import '../assets/scss/_03-Componentes/_MainTemporizador.scss';
 import { FaTrash } from 'react-icons/fa';
 import MainTemporizadorTimePicker from './MainTemporizadorTimePicker';
 import Swal from 'sweetalert2'; // Importa SweetAlert2
 
-const MainTemporizadorTareas = () => {
+const MainTemporizador = () => {
   const [hours, setHours] = useState(0);
   const [minutes, setMinutes] = useState(0);
   const [seconds, setSeconds] = useState(0);
@@ -186,4 +186,4 @@ const MainTemporizadorTareas = () => {
   );
 };
 
-export default MainTemporizadorTareas;
+export default MainTemporizador;

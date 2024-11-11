@@ -34,7 +34,7 @@ const SesionLogin = () => {
           <div className="auth-content">
             <img
               className="auth-image top-image"
-              src="../../public/img/02-logos/logo-formateo-chords.png"
+              src="../../img/02-logos/logo-formateo-chords.png"
               alt=""
             />
             <form onSubmit={handleLogin} className="auth-form">
@@ -67,7 +67,7 @@ const SesionLogin = () => {
             </form>
             <img
               className="auth-image bottom-image"
-              src="../../public/img/02-logos/logo-formateo-chords2.png"
+              src="../../img/02-logos/logo-formateo-chords2.png"
               alt=""
             />
           </div>

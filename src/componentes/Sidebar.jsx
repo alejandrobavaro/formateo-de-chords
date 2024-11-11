@@ -46,31 +46,42 @@ const Sidebar = () => {
         <FiArrowLeftCircle />
       </button>
       <div className="sidebar-content">
-        <h2>
+        {/* <h2>
           <FiCreditCard size={20} color="gray" /> Chords
         </h2>
         <ul>
           <li>
             <Link to="/chordsalmango">Chords Almango</Link>
           </li>
+          <li>
+            <Link to="/chordscovers">Chords Covers</Link>
+          </li>
           <hr />
         </ul>
 
         <h2>
-          <FiBriefcase size={20} color="gray" /> Rentas
+          <FiBriefcase size={20} color="gray" /> Formateo
         </h2>
+
         <ul>
-          <li>
-            <Link to="/chordscovers">Info Extra</Link>
-          </li>
+          <li><Link to="/formateo-chords">Formateo Chords</Link></li>
         </ul>
 
         <h2>
-          <BsClock size={20} color="gray" /> Tiempo
+          <BsClock size={20} color="gray" /> Tareas
         </h2>
         <ul>
           <li>
+            <Link to="/calendario-pagos">
+              Notificaciones{" "}
+              <HeaderNotificaciones reminderCount={notifications.today} />
+            </Link>
+          </li>
+          <li>
             <Link to="/MainTemporizadorTareas">Temporizador</Link>
+          </li>
+          <li>
+            <Link to="/to-do">To-Do</Link>
           </li>
         </ul>
 
@@ -81,18 +92,7 @@ const Sidebar = () => {
           <li>
             <Link to="/ayuda">Ayuda</Link>
           </li>
-        </ul>
-
-     
-        <ul>
-          <li>
-          <h2>
-        <Link to="/calendario-pagos">
-              <HeaderNotificaciones reminderCount={notifications.today} />
-            </Link>
-        </h2>
-          </li>
-        </ul>
+        </ul> */}
       </div>
     </div>
   );
