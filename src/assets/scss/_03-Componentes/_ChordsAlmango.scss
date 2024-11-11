@@ -1,0 +1,139 @@
+.chords-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: transparent;
+  padding: 0px;
+  color: #fff;
+
+  .controls {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    button {
+      background-color: #995d0e;
+      color: #000000;
+      border: none;
+      border-radius: 10px;
+      padding: 10px;
+      cursor: pointer;
+      margin: 0 5px;
+
+      &:hover {
+        background-color: #f7a300;
+      }
+    }
+
+    select {
+      padding: 10px;
+      margin-left: 10px;
+      background-color: #ffd000;
+      border-radius: 10px;
+      color: #4b2608;
+      border: none;
+    }
+  }
+
+  .chords-container {
+    width: 100%;
+    // max-width: 800px;
+    margin-top: 10px;
+
+    .chords-item {
+      background-color: #4b2608cb;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(146, 139, 71, 0.5);
+
+      .song-title {
+        text-align: center;
+        font-size: large;
+        color: #ffd000;
+      }
+
+      .song-artist {
+        text-align: center;
+        font-size: 1.2em;
+        color: #ffd000;
+      }
+
+      .song-details {
+        margin-top: 10px;
+        font-size: 0.9em;
+        color: #d9dace;
+
+        p {
+          margin: 5px 0;
+        }
+
+        strong {
+          color: #ffd000;
+        }
+      }
+
+      .song-prose {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); // Tres columnas para la información adicional
+        margin-top: 20px;
+        .song-prose-section {
+          margin-bottom: 20px;
+
+          .section-title {
+            font-size: 1.2em;
+            color: #ffd000;
+            margin-bottom: 10px;
+          }
+
+          .prose-content {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            .chords-line {
+              margin-bottom: 10px;
+              font-size: 1.1em;
+              color: #ffd000;
+
+              .chord {
+                margin-right: 10px;
+              }
+            }
+
+            .lyrics {
+              font-size: 1.1em;
+              line-height: 1.6;
+              color: #d9dace;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.song-details {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); // Tres columnas para la información adicional
+  gap: 0px;
+  font-size: medium;
+  padding: 0;
+  margin: 0px;
+  border: rgb(255, 184, 104) solid 1px;
+  border-radius: 30px;
+
+  p {
+    margin: 0px;
+    font-size: xx-small; // Tamaño de fuente más pequeño
+    color: #d9dace;
+    text-align: center;
+    line-height: 0px;
+  }
+
+  strong {
+    color: #ffd000;
+    font-weight: bold;
+  }
+}

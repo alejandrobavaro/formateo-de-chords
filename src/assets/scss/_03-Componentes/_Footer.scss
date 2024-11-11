@@ -1,94 +1,114 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap');
-
-/* Estilos generales del Footer */
-.footer-container {
-  display: grid;
-  grid-template-rows: auto auto; 
+footer {
+  color: rgb(255, 196, 0);
   width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 30px;
-  background-color: transparent;
-  border-radius: 20px;
-  text-align: center;
+  padding: 10px;
+  border-top: 1px solid rgba(255, 196, 0, 0.281);
 }
 
-.footer-content {
-  display: flex;
-  flex-direction: column; // Columna por defecto (para móvil y tablet)
-  gap: 20px;
-  width: 100%;
-
-  @media (min-width: 769px) {
-    flex-direction: row; // Fila en pantallas grandes
-    gap: 40px;
-  }
-}
-
-.footer-column {
-  flex: 1;
+.gridPadreFooter {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column; // Columna en pantallas pequeñas
+  max-width: 1080px; // Limita el ancho máximo del contenedor del footer
+  padding: 20px;
+  margin: 0 auto;
+}
 
-  @media (min-width: 769px) {
-    flex-direction: row; // Fila en pantallas grandes
+.footerContentFooter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%; // Asegura que el contenido ocupe todo el ancho del contenedor
+  text-align: center; // Centra el texto para pantallas pequeñas
+}
+
+.ElementsFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; // Permite que los elementos se envuelvan en pantallas pequeñas
+  width: 100%;
+}
+
+.columnaFooter {
+  flex: 1; // Cada columna ocupa el mismo ancho
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px; // Espacio entre columnas para pantallas pequeñas
+
+  @media (max-width: 768px) {
+    margin-bottom: 5px;
   }
+}
 
-  .footer-logo {
-    width: 80px;
+.imagenPublicidadFooter2 {
+  transition: transform 0.3s ease;
+  border-radius: 50px;
+  padding: 0px;
+  max-width: 150px;
+
+  @media (max-width: 480px) {
+    max-width: 100px; // Ajuste de tamaño para móviles
+  }
+}
+
+.imagenFooter1 {
+  width: 80%;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+// Estilos para los enlaces de redes sociales
+.linksFooter {
+  display: flex;
+  justify-content: center; // Alinea los enlaces horizontalmente
+  flex-direction: row; // Organiza los enlaces en fila
+  gap: 20px; // Espacio entre los enlaces
+  font-size: small;
+  color: rgb(255, 251, 0);
+  align-items: center;
+
+  .textoMovimientoFooter {
+    color: rgb(251, 255, 0);
     transition: transform 0.3s ease;
 
     &:hover {
       transform: scale(1.1);
     }
   }
-}
 
-.social-links {
-  display: flex;
-  flex-direction: column; // Columna en móvil
-  gap: 10px;
-  font-size: small;
-  color: #ffe6ce;
-
-  a {
-    color: #ffe6ce;
-    text-decoration: none;
-    transition: color 0.3s ease;
-
-    &:hover {
-      color: #ffc188;
-    }
-  }
-
-  @media (min-width: 769px) {
-    flex-direction: row; // Fila en pantallas grandes
-    gap: 20px;
+  @media (max-width: 480px) {
+    font-size: xx-small; // Tamaño de fuente más pequeño para móviles
+    gap: 10px; // Espacio reducido entre los enlaces en móviles
   }
 }
 
-.trademarkFooter {
-  width: 100%;
-  text-align: center;
-  margin-top: 20px;
-  padding: 0;
-  font-family: 'Cinzel Decorative', serif; 
-}
+// Estilos responsivos
+@media (max-width: 768px) {
+  .ElementsFooter {
+    flex-direction: column; // Cambia a columna para pantallas pequeñas
+  }
 
-.tituloImportanteFooter4 {
-  font-size: small; 
-  
-  a {
-    color: inherit;
-    text-decoration: none;
-    cursor: pointer;
-    font-size: x-small;
-    
-    &:hover {
-      color: #ffe6ce;
-    }
+  .linksFooter {
+    flex-direction: column; // Pasa a columna en móviles
+    gap: 10px; // Ajusta el espacio en móviles
   }
 }
 
+@media (max-width: 480px) {
+  .footerContentFooter {
+    padding: 0px;
+  }
+
+  .columnaFooter {
+    margin-bottom: 0px; // Ajuste de margen para móviles
+  }
+
+  .imagenFooter1 {
+    max-width: 80px; // Ajuste de tamaño para móviles
+  }
+}

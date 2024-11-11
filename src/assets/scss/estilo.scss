@@ -1,22 +1,50 @@
+/*-----------------SASS A CSS------------------------*/
 //------------GENERAL--------------//
 @import "./_01-General/BodyIndexApp";
 
+@import "./_01-General/SweetAlert";
+@import "./_01-General/Toastify";
+
 //------------HEADER--------------//
 @import "./_03-Componentes/Header";
+@import "./_03-Componentes/HeaderNotificaciones";
+@import "./_03-Componentes/HeaderSearchBar.scss";
 
+//------------SIDEBAR--------------//
+@import "./_03-Componentes/Sidebar";
 
-//-----------HOME-MAIN-----------------//
+//-----------HOME - MAIN-----------------//
+@import "./_03-Componentes/MainPublicidadSlider";
 @import "./_03-Componentes/MainContent";
 
-//----------------------------//
-@import "./_03-Componentes/Chords1";
-@import "./_03-Componentes/Chords2";
-@import "./_03-Componentes/Chords3";
+@import "./_03-Componentes/MainCalendarioPagos";
 
-//----------LOGIN LOG OUT------------//
-@import "./_03-Componentes/SesionLoginRegister";
+@import "./_03-Componentes/MainNotas";
+
+@import "./_03-Componentes/ToDo.scss";
+
+@import "./_03-Componentes/MainTemporizadorTareas.scss";
+@import "./_03-Componentes/MainTemporizadorTimePicker.scss";
 
 //--------------FOOTER----------------//
 @import "./_03-Componentes/Footer";
+@import "./_03-Componentes/FooterGondraWorldDev";
+
+@import "./_03-Componentes/Contacto";
 
 
+
+@import "./_03-Componentes/ChordsAlmango";
+
+
+
+
+@import "./_03-Componentes/ConsultasAyuda.scss";
+
+
+
+@import "./_03-Componentes/ChordsCovers.scss";
+
+
+
+@import "./_03-Componentes/SesionLoginRegister";

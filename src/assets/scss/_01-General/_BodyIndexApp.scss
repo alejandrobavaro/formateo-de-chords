@@ -4,21 +4,27 @@
   box-sizing: border-box;
 }
 
+/*--------------Estilos Globales--------------*/
+
 html {
-  font-size: 100%;
+  font-size: 100%; // Establece el tamaño de fuente base.
+  margin-top: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  // overflow-x: hidden; // Ocultar desbordamiento horizontal.
 }
 
 /*--------------Estilos Body--------------*/
 
 body {
+  font-family: "Chelsea Market", system-ui;
   // background-color: rgb(255, 255, 255);
   background-image: url(/img/00-fondos/fondo3b.jpg);
   // background-color: #000000  rebeccapurple;
   background-size: cover; // Asegúrate de que la imagen cubra todo el fondo
   animation: backgroundAnimation 400s linear infinite; // Fondo animado
-  // font-family: 'Oxanium', sans-serif; // Cambia aquí
-  font-family: "Montserrat", sans-serif;
-  text-align: center;
+   text-align: center;
 
   // Animación de desplazamiento de fondo
   @keyframes backgroundAnimation {
@@ -39,29 +45,18 @@ body {
     }
   }
 
-  &.dark-mode {
-    color: #fff4c7; // Amarillo patito
-  }
 
-  &.light-mode {
-    color: #ffffff;
-  }
+
 }
 
 /*--------------Estilos para el Contenedor Principal--------------*/
 
 .app {
+
   padding: 2em;
-  transition: background-color 0.3s, box-shadow 0.3s;
+  transition: background-color 0.3s;
 
-  &.dark-mode {
-    color: #ffcc00; // Amarillo patito
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
-  }
 
-  &.light-mode {
-    color: #cecece;
-  }
 }
 
 .main-content {
@@ -69,20 +64,17 @@ body {
   gap: 2em;
 }
 
-/*--------------Estilos para Textos y Encabezados--------------*/
+.content {
+  flex-grow: 1;
+}
+
+/*--------------Estilos para los Encabezados y Texto--------------*/
 
 p {
-  font-size: medium;
+  font-size: medium; // Tamaño de fuente mediano.
   padding: 20px;
-  color: #ffe6ce;
+  color: rgb(0, 0, 0); // Color del texto de los párrafos.
 
-  body.dark-mode & {
-    color: #ffe6ce;
-  }
-
-  body.light-mode & {
-    color: #000000;
-  }
 }
 
 h1,
@@ -91,37 +83,25 @@ h3,
 h4,
 h5,
 h6 {
-  // margin-bottom: 1em;
-  color: #ffe6ce;
+  margin-bottom: 1em;
 }
 
 h1 {
-  font-family: "Minion Pro", serif; // Aplica Minion Pro
-  font-size: xx-large;
-  color: #ffe6ce;
+  font-size: xx-large; // Tamaño de fuente extra grande.
+
 }
 
-h3,
 h2 {
-  font-family: "Minion Pro", serif; // Aplica Minion Pro
-  font-size: large;
-  color: #ffe6ce;
+  font-size: large; // Tamaño de fuente grande.
+
+
 }
 
-h4,
-h5 {
-  body.dark-mode & {
-    color: #ffe6ce;
-  }
 
-  body.light-mode & {
-    color: #4a4a4a;
-  }
-}
 
 h6 {
-  font-size: xx-small;
-  color: rgb(0, 0, 0);
+  font-size: xx-small; // Tamaño de fuente extra extra pequeño.
+  color: rgb(252, 252, 252); // Color de texto en modo oscuro.
 }
 
 /*--------------Estilos para Listas--------------*/
@@ -131,36 +111,23 @@ li {
 }
 
 ol {
-  list-style-type: circle;
+  list-style-type: circle; // Tipo de lista ordenada con círculos.
 }
 
-td {
-  body.dark-mode & {
-    color: #ffe6ce;
-  }
 
-  body.light-mode & {
-    color: #ffe6ce;
-  }
-}
 
 /*--------------Estilos para Enlaces--------------*/
 
 a {
-  color: rgba(252, 248, 230, 0.857);
-
   &:link,
   &:visited {
-    text-decoration: none;
+    text-decoration: none; // Sin subrayado para los enlaces.
+color: wheat;
 
-    body.light-mode & {
-      color: #ffe6ce;
-    }
   }
 
   &:hover {
-    color: #ffcc00; // Amarillo patito al pasar el mouse
-    animation: shake 0.5s ease;
+    animation: shake 0.5s ease; // Animación de sacudida al pasar el cursor sobre los enlaces.
   }
 }
 
@@ -175,24 +142,4 @@ a {
   100% {
     transform: translateX(0);
   }
-}
-
-/*--------------Estilos para el Contenedor Principal--------------*/
-
-.main-content {
-  display: flex;
-  justify-content: center; // Centra horizontalmente
-  align-items: center; // Centra verticalmente
-  flex-direction: column; // Apila los componentes verticalmente
-  gap: 2em; // Espacio entre los componentes
-
-  .content {
-    max-width: 1200px; // Ajusta según el ancho deseado
-    width: 100%; // Asegúrate de que ocupe el ancho total
-    padding: 0px; // Espacio interno
-  }
-}
-
-.lineafooter1 {
-  border: 1px solid rgb(255, 255, 255);
 }

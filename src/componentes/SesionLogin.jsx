@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate, Navigate } from "react-router-dom";
-import { useAuth } from "../context/SesionAuthContext";
+import { useAuth } from "./SesionAuthContext";
 import LoadingSpinner from "./SesionLoadingSpinner";
 import "../assets/scss/_03-Componentes/_SesionLoginRegister.scss";
 
@@ -34,8 +34,8 @@ const SesionLogin = () => {
           <div className="auth-content">
             <img
               className="auth-image top-image"
-              src="/img/05-img-costados-larga/logopequeño2.png"
-              alt="Arcade Logo"
+              src="../../public/img/02-logos/logo-formateo-chords.png"
+              alt=""
             />
             <form onSubmit={handleLogin} className="auth-form">
               <h2>Login</h2>
@@ -67,8 +67,8 @@ const SesionLogin = () => {
             </form>
             <img
               className="auth-image bottom-image"
-              src="/img/05-img-costados-larga/logopequeño1.png"
-              alt="Retro servicio"
+              src="../../public/img/02-logos/logo-formateo-chords2.png"
+              alt=""
             />
           </div>
         )}
