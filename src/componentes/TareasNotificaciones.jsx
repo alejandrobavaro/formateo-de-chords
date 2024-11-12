@@ -1,8 +1,8 @@
 import React from 'react';
 import { FaBell } from 'react-icons/fa';
-import '../assets/scss/_03-Componentes/_HeaderNotificaciones.scss';
+import '../assets/scss/_03-Componentes/_TareasNotificaciones.scss';
 
-const HeaderNotificaciones = ({ reminderCount, onClick }) => {
+const TareasNotificaciones = ({ reminderCount, onClick }) => {
   return (
     <button className="headerNotificaciones" onClick={onClick}>
       <div className="notification-badge-container">
@@ -16,4 +16,4 @@ const HeaderNotificaciones = ({ reminderCount, onClick }) => {
   );
 };
 
-export default HeaderNotificaciones;
+export default TareasNotificaciones;

@@ -1,11 +1,11 @@
 import React, { createContext, useState, useContext, useCallback } from 'react';
-import '../assets/scss/_03-Componentes/_HeaderNotificaciones.scss'; // Importa los estilos
+import '../assets/scss/_03-Componentes/_TareasNotificaciones.scss'; // Importa los estilos
 
 // Contexto
-const HeaderNotificationsContext = createContext();
+const TareasNotificacionesContext = createContext();
 
 // Proveedor del contexto
-export const HeaderNotificationsProvider = ({ children }) => {
+export const TareasNotificacionesProvider = ({ children }) => {
   const [notifications, setNotifications] = useState({});
 
   // Usar useCallback para evitar la recreación de funciones en cada render
@@ -23,14 +23,14 @@ export const HeaderNotificationsProvider = ({ children }) => {
 
   return (
     <div className="nav-linkHeader">
-      <HeaderNotificationsContext.Provider value={{ notifications, addNotification, removeNotification }}>
+      <TareasNotificacionesContext.Provider value={{ notifications, addNotification, removeNotification }}>
         {children}
-      </HeaderNotificationsContext.Provider>
+      </TareasNotificacionesContext.Provider>
     </div>
   );
 };
 
 // Hook personalizado para usar el contexto
-export const useHeaderNotifications = () => {
-  return useContext(HeaderNotificationsContext);
+export const useTareasNotificaciones = () => {
+  return useContext(TareasNotificacionesContext);
 };

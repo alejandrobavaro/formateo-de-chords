@@ -5,29 +5,27 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 10px 20px; // Ajusta el padding para mayor espacio
-  font-size: small;
+  padding: 10px 20px;
   border-bottom: 1px solid #ff91007c;
-  // border-radius: 30px;
-  box-sizing: border-box; // Asegura que el padding no afecte el ancho total
+  box-sizing: border-box;
 
   @media (max-width: 768px) {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 10px; // Ajusta el padding en móviles
+    padding: 10px;
   }
 }
 
 //---------Logo Header--------------------//
 
 .logoHeader {
-  max-width: 70px; // Ajusta el tamaño máximo del logo
-  height: auto; // Mantiene la proporción del logo
+  max-width: 70px;
+  height: auto;
   transition: transform 0.3s ease;
 
   @media (max-width: 768px) {
-    max-width: 100px; // Tamaño del logo en pantallas pequeñas
+    max-width: 100px;
   }
 
   &:hover {
@@ -41,29 +39,29 @@
   display: flex;
   align-items: center;
   margin: 0;
-  font-size: x-small;
   color: white;
-  white-space: nowrap; // Evita el salto de línea dentro del contenedor
+  white-space: nowrap;
   text-align: center;
 }
 
 .date-text {
   display: flex;
   flex-direction: column;
-  align-items: center; // Centra el contenido horizontalmente
-  gap: 5px; // Espacio entre filas
+  align-items: center;
+  gap: 5px;
 }
 
-.time-row, .weekday-row, .date-row {
-  display: block; // Asegura que cada fila esté en una línea separada
+.time-row,
+.weekday-row,
+.date-row {
+  display: block;
 }
 
 .current-time {
-  font-size: x-small;
   color: #ffe5c8;
 }
 
-.dia{
+.dia {
   color: #fff3dd;
 }
 
@@ -72,7 +70,6 @@
   text-transform: uppercase;
   color: #ffd5c2;
 }
-
 
 //---------Auth Buttons--------------------//
 
@@ -94,9 +91,8 @@
   color: #ffffff;
   margin-bottom: 5px;
 
-
   span {
-    margin-right: 5px; // Espacio entre "Hola" y el nombre de usuario
+    margin-right: 5px;
   }
 
   @media (max-width: 768px) {
@@ -110,10 +106,6 @@
   }
 }
 
-
-
-
-
 .iconoTemporizador {
   color: rgb(255, 255, 255);
   font-size: x-large;
@@ -123,8 +115,6 @@
     color: #ffd2ad;
   }
 }
-
-
 
 //---------Navbar Header--------------------//
 
@@ -138,382 +128,57 @@
   display: flex;
   align-items: center;
   font-size: small;
-  gap: 38px; // Gap por defecto para pantallas grandes
+  gap: 38px;
 
-  // Media queries para dispositivos móviles y tablets
-  @media (max-width: 768px) {
-    gap: 3px; // Gap para pantallas de tablet y móviles
+  @media (max-width: 992px) {
+    gap: 28px;
   }
-}
-
-
-.navbarHeader {
-  display: flex;
-  justify-content: center;
-  width: 100%;
 
   @media (max-width: 768px) {
-    display: none;
+    gap: 18px;
   }
 }
 
-.navbar-navHeader {
-  display: flex;
-  align-items: center;
-  font-size: small;
-  gap: 30px;
-
-  @media (max-width: 768px) {
-    display: none;
-  }
-}
-
-//---------home y BOTONES--------------------//
-
-.nav-linkHeader.home-link {
-  text-align: center;
-  color: #ffbbbb;
-  text-decoration: none;
-
-  &:hover {
-    color: rgba(255, 231, 222, 0.591);
-  }
-}
-
-.textoMenu1 {
-  font-size: small;
-  color: #ffecd3e9;
-
-  &:hover {
-    color: #f4a97d;
-  }
-}
-
-// Estilos generales para los enlaces de navegación
+// Estilos para los enlaces de navegación
 .nav-link {
-  font-size: 1rem;
-  padding: 0.5rem 1rem;
-  transition: background-color 0.3s ease, color 0.3s ease;
-  color: #ffffff; // Color del texto de los enlaces
-
-  &:hover {
-    color: #ff8800; // Color del texto en hover
-  }
-}
-
-// Estilos específicos para el botón HOME
-.home-link {
-  color: #1abc9c; // Color turquesa
-
-  &:hover {
-    color: #ffd900; // Color del texto en hover
-  }
-}
-
-// Estilos específicos para el botón NOTAS
-.notas-link {
-  color: #ffffff; // Color turquesa
- 
-
-  &:hover {
-    color: #ffee00; // Color del texto en hover
-  }
-}
-
-// Estilos específicos para el botón CONTACTO
-.contacto-link {
-
-}
-
-// Estilos específicos para el botón TAREAS EN PROCESO
-.tareas-link {
-  color: #ffffff; // Color turquesa
-
-
-  &:hover {
-    color: #fffb00; // Color del texto en hover
-  }
-}
-
-//---------Contacto--------------------//
-
-.nav-linkHeader {
-  text-align: center;
-  color: #bbffe9;
-  text-decoration: none;
-
-  &:hover {
-    color: rgba(255, 196, 0, 0.591);
-  }
-}
-
-.textoMenuTareas {
-  color: #d5dfff;
-
-  &:hover {
-    color: #d8e752;
-  }
-}
-
-.textoMenu {
-  color: #ffffff;
-
-  &:hover {
-    color: #e5e752;
-  }
-}
-
-.textoMenu2 {
-  font-size: small;
-  color: #ffffff;
-}
-
-//---------Navbar Toggler (Hamburguesa)--------------------//
-.navbar-togglerHeader {
-  border: none;
-  background-color: white;
-  color: white;
-  font-size: xx-large;
-  cursor: pointer;
-  
-  
-
-  @media (min-width: 769px) {
-    display: none;
-    
-  }
-
-  @media (max-width: 768px) {
-    display: block;
-  }
-}
-
-.menu-icon {
   color: #fff;
-  font-size: 1.5rem;
-  cursor: pointer;
-  
-
-  @media (min-width: 769px) {
-    display: none;
-  }
-}
-
-//---------Menu Hamburguesa--------------------//
-
-.menuCompleto {
-  display: none;
-  
-
-  @media (max-width: 768px) {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.9);
-    z-index: 1000;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    display: flex;
-  }
-
-  &.open {
-    display: flex;
-    
-  }
-}
-
-.mobile-menu {
-  display: none;
-
-  @media (max-width: 768px) {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    text-align: center;
-    
-  }
-
-  &.open {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    text-align: center;
-  }
-}
-
-//---------Notificaciones--------------------//
-
-.headerNotificaciones {
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  color: #ffffff;
-  font-size: small;
+  font-weight: 400;
   transition: color 0.3s ease;
 
   &:hover {
-    color: #bbd0cd;
+    color: #ffbd9f;
+    background: none;
   }
 }
 
-
-.notifications-item {
-  color: rgb(255, 255, 255);
-  padding: 0;
-  margin: 0;
-
-  @media (max-width: 768px) {
-
-  }
-}
-
-
-
-//---------Elementos de NavBar--------------------//
-
-.navbar-togglerHeader {
-  border: none;
-  background-color: white;
-  color: white;
-  cursor: pointer;
-  
-
-  @media (min-width: 769px) {
-    display: none;
-  }
-
-  @media (max-width: 768px) {
-    display: block;
-  }
-}
-
-.menu-icon {
-  color: #fff;
-  font-size: xx-large;
-  cursor: pointer;
-  
-
-  @media (min-width: 769px) {
-    display: none;
-  }
-}
-
-//---------Header Dropdown Estilos--------------------//
-
-// Estilos para el Dropdown Toggle
+// Estilos para los dropdowns
 .menu-dropdown-toggle {
-  color: #ff9100; // Color del texto del botón
-  background-color: transparent; // Fondo transparente para el botón
-  border: none; // Sin bordes
-  padding: 5px 10px;
-  font-size: 1rem;
-  transition: color 0.3s ease, background-color 0.3s ease;
+  color: #fff;
+  font-weight: 400;
+  transition: color 0.3s ease;
 
-  &:hover {
-    color: #ffffff; // Color del texto al pasar el cursor
-    background-color: rgba(255, 145, 0, 0.2); // Fondo suave cuando pasa el cursor
-  }
-
+  // Evita que cambie el fondo al hacer clic
+  &:hover,
+  &:active,
   &:focus {
-    color: #ffffff; // Color del texto cuando está seleccionado
-    background-color: rgba(255, 145, 0, 0.4); // Fondo más pronunciado cuando está en foco
+    color: #ffbd9f;
+    background: none;
+    box-shadow: none; // Elimina el efecto de sombreado si se aplica
   }
 }
 
-// Estilos para el Dropdown Menu (Lista de opciones)
+// Cambios de estilo para el menú desplegable
 .dropdown-menu {
-  background-color: #f0f0f0; // Color de fondo del menú
-  border-radius: 5px; // Bordes redondeados
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); // Sombra suave para el menú
-  padding: 10px 0;
+  background-color: #000; // Fondo negro
+  color: #fff; // Letras blancas
 
   .dropdown-item {
-    color: #333333; // Color del texto de cada ítem
-    padding: 10px 20px;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    color: #fff; // Color de texto inicial
+    transition: background-color 0.3s ease;
 
     &:hover {
-      background-color: #ff9100; // Fondo al pasar el cursor
-      color: white; // Color del texto cuando está seleccionado
+      background-color: #333; // Fondo gris al hacer hover
+      color: #fff; // Asegura que el texto permanezca blanco
     }
-
-    &:focus {
-      background-color: #ff9100; // Fondo cuando está en foco
-      color: white; // Color del texto cuando está en foco
-    }
-  }
-
-  .dropdown-header {
-    font-weight: bold;
-    color: #333333; // Color de los encabezados
-    padding: 10px 20px;
-    background-color: #ff9100; // Fondo del encabezado
-    color: white; // Color del texto en el encabezado
-  }
-
-  .dropdown-divider {
-    border-color: #ff9100; // Color de la línea divisoria
-  }
-}
-
-// Estilos para el Dropdown Item cuando está activo (seleccionado)
-.dropdown-item.active {
-  background-color: #ff9100; // Fondo cuando está seleccionado
-  color: white; // Color del texto cuando está seleccionado
-}
-
-//---------Botones y Textos--------------------//
-
-// Estilo para los botones de acción dentro de los dropdowns (si los tienes)
-.tareas-dropdown-toggle {
-  color: #ff9100;
-  border: none;
-  background-color: transparent;
-  padding: 5px 10px;
-  font-size: 1rem;
-  transition: color 0.3s ease, background-color 0.3s ease;
-
-  &:hover {
-    color: white;
-    background-color: rgba(255, 145, 0, 0.2);
-  }
-
-  &:focus {
-    color: white;
-    background-color: rgba(255, 145, 0, 0.4);
-  }
-}
-
-// Estilos para los textos de los botones dentro del Navbar
-.nav-link {
-  color: #ff9100; // Color de los enlaces
-  text-decoration: none;
-  padding: 8px 12px;
-  transition: color 0.3s ease, background-color 0.3s ease;
-
-  &:hover {
-    color: #ffffff;
-    background-color: rgba(255, 145, 0, 0.2); // Fondo al pasar el cursor
-  }
-
-  &:focus {
-    color: #ffffff;
-    background-color: rgba(255, 145, 0, 0.4); // Fondo al estar seleccionado
-  }
-}
-
-// Estilos para los íconos en el Navbar
-.nav-link i {
-  margin-right: 8px; // Espacio entre el ícono y el texto
-  color: #ff9100;
-  transition: color 0.3s ease;
-
-  &:hover {
-    color: white;
   }
 }

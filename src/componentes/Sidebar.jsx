@@ -8,12 +8,12 @@ import {
   FiHelpCircle,
 } from "react-icons/fi";
 import { BsClock } from "react-icons/bs"; // Asegúrate de importar BsClock
-import HeaderNotificaciones from "./HeaderNotificaciones"; // Importa el componente de notificaciones
-import { useHeaderNotifications } from "./HeaderNotificacionesContext"; // Importa el contexto para las notificaciones
+import HeaderNotificaciones from "./TareasNotificaciones"; // Importa el componente de notificaciones
+import { useTareasNotificaciones } from "./TareasNotificacionesContext"; // Importa el contexto para las notificaciones
 
 const Sidebar = () => {
   const [isCollapsed, setIsCollapsed] = useState(false);
-  const { notifications } = useHeaderNotifications(); // Obtén las notificaciones desde el contexto
+  const { notifications } = useTareasNotificaciones(); // Obtén las notificaciones desde el contexto
 
   useEffect(() => {
     const handleResize = () => {

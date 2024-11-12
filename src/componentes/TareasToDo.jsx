@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaTrash, FaCheck } from "react-icons/fa";
 import { BsArrowRight, BsArrowLeft } from "react-icons/bs";
-import "../assets/scss/_03-Componentes/_ToDo.scss";
+import "../assets/scss/_03-Componentes/_TareasToDo.scss";
 
 const colorOptions = [
   { label: "Rojo", value: "#FF5733" },
@@ -56,7 +56,7 @@ const initialTasks = {
 
 const columns = ["todo", "doing", "done", "blocked"];
 
-function ToDo() {
+function TareasToDo() {
   const [tasks, setTasks] = useState(initialTasks);
   const [newTask, setNewTask] = useState({
     title: "",
@@ -325,4 +325,4 @@ function ToDo() {
   );
 }
 
-export default ToDo;
+export default TareasToDo;

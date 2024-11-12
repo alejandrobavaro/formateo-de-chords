@@ -1,4 +1,3 @@
-// Importa los componentes necesarios
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useAuth } from "./SesionAuthContext";
@@ -17,15 +16,17 @@ import {
   FiPhone,
 } from "react-icons/fi";
 import { Navbar, Nav, Container, Dropdown } from "react-bootstrap";
-import HeaderNotificaciones from "./HeaderNotificaciones";
+import HeaderNotificaciones from "./TareasNotificaciones";
 import "../assets/scss/_03-Componentes/_Header.scss";
-import { useHeaderNotifications } from "./HeaderNotificacionesContext";
+import { useTareasNotificaciones } from "./TareasNotificacionesContext";
+import HeaderSearchBar from "./HeaderSearchBar"; // Importamos el componente HeaderSearchBar
 
 const Header = () => {
   const { state, dispatch } = useAuth();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [currentTime, setCurrentTime] = useState(new Date());
-  const { notifications } = useHeaderNotifications(); // Obtener notificaciones desde el contexto
+  const { notifications } = useTareasNotificaciones(); // Obtener notificaciones desde el contexto
+  const [searchQuery, setSearchQuery] = useState(""); // Estado para la búsqueda
 
   // Iconos fijos para cada botón
   const icons = {
@@ -167,6 +168,16 @@ const Header = () => {
                 </Dropdown.Menu>
               </Dropdown>
 
+              <Nav.Item className="searchbar-container">
+                <HeaderSearchBar
+                  categories={["Chords", "Formateo", "Tareas"]}
+                  searchQuery={searchQuery}
+                  setSearchQuery={setSearchQuery}
+                  onCategoryChange={(category) => console.log("Category changed:", category)}
+                />
+              </Nav.Item>
+
+
               {/* Dropdown para TAREAS con íconos y notificaciones */}
               <Dropdown as={Nav.Item} className="nav-link tareas-link">
                 <Dropdown.Toggle
@@ -206,7 +217,7 @@ const Header = () => {
                     to="/main-notas"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
-                    {icons.notas} NOTAS
+                    {icons.notas} Notas
                   </Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
@@ -214,17 +225,10 @@ const Header = () => {
               {/* Dropdown para OTROS */}
               <Dropdown as={Nav.Item} className="nav-link">
                 <Dropdown.Toggle as={Nav.Link} className="menu-dropdown-toggle">
-                  {icons.ayuda} OTROS
+                  {icons.ayuda} CONTACTO
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu>
-                  <Dropdown.Item
-                    as={Link}
-                    to="/ayuda"
-                    onClick={() => setIsMobileMenuOpen(false)}
-                  >
-                    {icons.ayuda} Ayuda
-                  </Dropdown.Item>
                   <Dropdown.Item
                     as={Link}
                     to="/contacto"
@@ -232,19 +236,29 @@ const Header = () => {
                   >
                     {icons.contacto} Contacto
                   </Dropdown.Item>
+
+                  <Dropdown.Item
+                    as={Link}
+                    to="/ayuda"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    {icons.ayuda} Ayuda
+                  </Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
+            </Nav>
 
-              <Navbar.Brand as={Link} to="/" className="logo-container">
+            <Nav className="ml-auto">
+           
+           
+            <Navbar.Brand as={Link} to="/" className="logo-container">
                 <img
                   src="/img/02-logos/logo-formateo-chords2.png"
                   alt="Logo"
                   className="logoHeader"
                 />
               </Navbar.Brand>
-            </Nav>
 
-            <Nav className="">
               <Nav.Item className="auth-buttons-container">
                 {state.isAuthenticated ? (
                   <div className="auth-welcome-container">

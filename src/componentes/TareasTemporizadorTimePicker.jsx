@@ -1,7 +1,7 @@
 import React from 'react';
-import '../assets/scss/_03-Componentes/_MainTemporizadorTimePicker.scss';
+import '../assets/scss/_03-Componentes/_TareasTemporizadorTimePicker.scss';
 
-const MainTemporizadorTimePicker = ({ hours, minutes, seconds, setHours, setMinutes, setSeconds }) => {
+const TareasTemporizadorTimePicker = ({ hours, minutes, seconds, setHours, setMinutes, setSeconds }) => {
   return (
     <div className="main-temporizador-time-picker">
       <div className="time-picker-group">
@@ -44,4 +44,4 @@ const MainTemporizadorTimePicker = ({ hours, minutes, seconds, setHours, setMinu
   );
 };
 
-export default MainTemporizadorTimePicker;
+export default TareasTemporizadorTimePicker;

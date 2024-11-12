@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { FaTrashAlt, FaEdit, FaSave } from 'react-icons/fa'; // Importar el ícono de tacho de basura, el ícono de editar y el ícono de guardar
-import '../assets/scss/_03-Componentes/_MainNotas.scss';
+import '../assets/scss/_03-Componentes/_TareasNotas.scss';
 
-const MainNotas = () => {
+const TareasNotas = () => {
   const [notes, setNotes] = useState([]);
   const [newNote, setNewNote] = useState('');
   const [editingIndex, setEditingIndex] = useState(null);
@@ -100,4 +100,4 @@ const MainNotas = () => {
   );
 };
 
-export default MainNotas;
+export default TareasNotas;

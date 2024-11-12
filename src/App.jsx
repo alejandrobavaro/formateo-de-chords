@@ -10,40 +10,49 @@ import {
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "./assets/scss/_01-General/_BodyIndexApp.scss";
+
 //------------HEADER--------------//
 import Header from "./componentes/Header";
-import { HeaderNotificationsProvider } from "./componentes/HeaderNotificacionesContext";
+
+
+import { TareasNotificacionesProvider } from "./componentes/TareasNotificacionesContext";
+
+
 import HeaderSearchBar from "./componentes/HeaderSearchBar";
+
 //------------SIDEBAR--------------//
 import Sidebar from "./componentes/Sidebar";
+
 //-----------HOME - MAIN-----------------//
 import MainContent from "./componentes/MainContent";
 import MainWhatsappIcon from "./componentes/MainWhatsappIcon";
-
 import MainPublicidadSlider from "./componentes/MainPublicidadSlider";
-import ToDo from "./componentes/ToDo";
-import MainNotas from "./componentes/MainNotas";
 
-import MainTemporizador from "./componentes/MainTemporizador";
+//---------------TAREAS---------------//
+import TareasToDo from "./componentes/TareasToDo";
+import TareasNotas from "./componentes/TareasNotas";
+import TareasTemporizador from "./componentes/TareasTemporizador";
+
 //--------------FOOTER----------------//
 import Footer from "./componentes/Footer";
+
 //-----------CONTACTO-----------------//
 import ContactoLogoRedes from "./componentes/ContactoLogoRedes";
 import ContactoFormularioSlider from "./componentes/ContactoFormularioSlider";
 
-//-----------RENTAS--------------//
-
+//-----------CHORDS--------------//
 import ChordsCovers from "./componentes/ChordsCovers";
-
-//-----------DATA------------//
 import ChordsAlmango from "./componentes/ChordsAlmango";
+
 //-----------LOGIN-LOGOUT-REGISTRO-----------------//
 import { AuthProvider, useAuth } from "./componentes/SesionAuthContext";
 import SesionRegister from "./componentes/SesionRegistrate";
 import SesionLogout from "./componentes/SesionLogout";
 import SesionLogin from "./componentes/SesionLogin";
+
 //-----------OTROS--------------//
 import ConsultasAyuda from "./componentes/ConsultasAyuda";
+
 
 const ProtectedRoute = ({ element, ...rest }) => {
   const { state } = useAuth();
@@ -53,7 +62,7 @@ const ProtectedRoute = ({ element, ...rest }) => {
 function App() {
   return (
     <AuthProvider>
-      <HeaderNotificationsProvider>
+      <TareasNotificacionesProvider>
         <Router>
           <Header />
           <hr className="border border-0 opacity-20" />
@@ -99,11 +108,11 @@ function App() {
                 />
                 <Route
                   path="/to-do"
-                  element={<ProtectedRoute element={<ToDo />} />}
+                  element={<ProtectedRoute element={<TareasToDo />} />}
                 />
                 <Route
                   path="/main-notas"
-                  element={<ProtectedRoute element={<MainNotas />} />}
+                  element={<ProtectedRoute element={<TareasNotas />} />}
                 />
                 <Route
                   path="/HeaderSearchBar"
@@ -112,9 +121,7 @@ function App() {
 
                 <Route
                   path="/MainTemporizadorTareas"
-                  element={
-                    <ProtectedRoute element={<MainTemporizador />} />
-                  }
+                  element={<ProtectedRoute element={<TareasTemporizador />} />}
                 />
               </Routes>
             </div>
@@ -124,7 +131,7 @@ function App() {
           <Footer />
           <MainWhatsappIcon />
         </Router>
-      </HeaderNotificationsProvider>
+      </TareasNotificacionesProvider>
     </AuthProvider>
   );
 }
