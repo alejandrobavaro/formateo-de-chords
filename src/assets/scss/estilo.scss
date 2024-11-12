@@ -35,6 +35,19 @@
 @import "./_03-Componentes/ChordsAlmango";
 @import "./_03-Componentes/ChordsCovers.scss";
 
+
+//----------REPRODUCTOR VIDEO------------//
+
+@import "./_03-Componentes/ReproductorVideo.scss";
+
+//-----------FORMATEO------------------//
+@import "./_03-Componentes/FormateoChords.scss";
+@import "./_03-Componentes/FormateoGacetilla.scss";
+@import "./_03-Componentes/FormateoListas.scss";
+@import "./_03-Componentes/FormateoRiderAudio.scss";
+@import "./_03-Componentes/FormateoRiderVideo.scss";
+@import "./_03-Componentes/FormateoPedidosFecha.scss";
+
 //----------------OTROS------------------//
 @import "./_03-Componentes/ConsultasAyuda.scss";
 @import "./_03-Componentes/_ContactoLogoRedes";
@@ -42,3 +55,4 @@
 
 //------------------LOGIN-REG------------------//
 @import "./_03-Componentes/SesionLoginRegister";
+

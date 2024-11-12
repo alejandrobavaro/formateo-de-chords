@@ -137,3 +137,17 @@
     font-weight: bold;
   }
 }
+
+
+.chords-almango-container {
+  display: flex;
+}
+
+.sidebar {
+  width: 250px; // Ajusta el tamaño según sea necesario
+}
+
+.chords-display {
+  flex-grow: 1;
+  padding: 20px;
+}

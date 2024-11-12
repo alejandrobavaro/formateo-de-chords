@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
 import "../assets/scss/_03-Componentes/_Sidebar.scss";
 import {
   FiArrowLeftCircle,
@@ -8,12 +7,11 @@ import {
   FiHelpCircle,
 } from "react-icons/fi";
 import { BsClock } from "react-icons/bs"; // Asegúrate de importar BsClock
-import HeaderNotificaciones from "./TareasNotificaciones"; // Importa el componente de notificaciones
-import { useTareasNotificaciones } from "./TareasNotificacionesContext"; // Importa el contexto para las notificaciones
+
 
 const Sidebar = () => {
   const [isCollapsed, setIsCollapsed] = useState(false);
-  const { notifications } = useTareasNotificaciones(); // Obtén las notificaciones desde el contexto
+ 
 
   useEffect(() => {
     const handleResize = () => {
@@ -46,53 +44,44 @@ const Sidebar = () => {
         <FiArrowLeftCircle />
       </button>
       <div className="sidebar-content">
-        {/* <h2>
-          <FiCreditCard size={20} color="gray" /> Chords
+        <h2>
+          <FiCreditCard size={20} color="gray" /> Tono
         </h2>
         <ul>
-          <li>
-            <Link to="/chordsalmango">Chords Almango</Link>
-          </li>
-          <li>
-            <Link to="/chordscovers">Chords Covers</Link>
-          </li>
-          <hr />
+          <li>Subir o Bajar Tono</li>
+          <li>Tamaño Texto</li>
+       
         </ul>
 
         <h2>
-          <FiBriefcase size={20} color="gray" /> Formateo
+          <FiBriefcase size={20} color="gray" /> Listados
         </h2>
 
         <ul>
-          <li><Link to="/formateo-chords">Formateo Chords</Link></li>
+          <li>Chords</li>
+          <li>Partes Canción</li>
+          <li>Instrumentos</li>
         </ul>
 
         <h2>
-          <BsClock size={20} color="gray" /> Tareas
+          <BsClock size={20} color="gray" /> Otros
         </h2>
         <ul>
-          <li>
-            <Link to="/calendario-pagos">
-              Notificaciones{" "}
-              <HeaderNotificaciones reminderCount={notifications.today} />
-            </Link>
-          </li>
-          <li>
-            <Link to="/MainTemporizadorTareas">Temporizador</Link>
-          </li>
-          <li>
-            <Link to="/to-do">To-Do</Link>
-          </li>
+          <li>Afinacion</li>
+          <li>Transportador</li>
+          <li>Metronomo</li>
+          <li>To-Do</li>
         </ul>
 
         <h2>
-          <FiHelpCircle size={20} color="gray" /> Otros
+          <FiHelpCircle size={20} color="gray" /> Pistas
         </h2>
         <ul>
-          <li>
-            <Link to="/ayuda">Ayuda</Link>
-          </li>
-        </ul> */}
+          <li>Por Instrumento</li>
+          <li>Todo Mezclado</li>
+          <li>Ver Tonalidad</li>
+        </ul>
+        
       </div>
     </div>
   );

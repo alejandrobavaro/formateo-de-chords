@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from "react";
-import jsPDF from "jspdf"; // Librería para exportar PDF
-import html2canvas from "html2canvas"; // Librería para exportar JPG
+import Sidebar from "./Sidebar"; // Asegúrate de que la ruta del archivo Sidebar es correcta
+import jsPDF from "jspdf";
+import html2canvas from "html2canvas";
 import "../assets/scss/_03-Componentes/_ChordsAlmango.scss";
 
 const ChordsAlmango = () => {
   const [data, setData] = useState([]);
-  const [transposition, setTransposition] = useState(0); // Variable para transposición
+  const [transposition, setTransposition] = useState(0);
   const [exportFormat, setExportFormat] = useState("PDF");
 
   useEffect(() => {
@@ -18,7 +19,6 @@ const ChordsAlmango = () => {
       .catch((error) => console.error("Error al cargar los datos:", error));
   }, []);
 
-  // Función para transponer los acordes
   const transposeChord = (chord) => {
     const chords = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"];
     const index = chords.indexOf(chord);
@@ -27,7 +27,6 @@ const ChordsAlmango = () => {
     return chords[newIndex];
   };
 
-  // Función para transponer acordes en todas las secciones
   const transposeSections = (sections) => {
     return sections.map((section) => ({
       ...section,
@@ -35,7 +34,6 @@ const ChordsAlmango = () => {
     }));
   };
 
-  // Función para exportar como PDF o JPG
   const handleExport = () => {
     const element = document.getElementById("chords-viewer");
     if (exportFormat === "PDF") {
@@ -55,24 +53,20 @@ const ChordsAlmango = () => {
     }
   };
 
-  // Función para cambiar el tono
   const handleTransposeChange = (step) => {
     setTransposition(transposition + step);
   };
 
-  // Renderizar la canción en formato de prosa
   const renderSongProse = (song) => {
     return song.Secciones.map((section, index) => (
       <div key={index} className="song-prose-section">
         <h3 className="section-title">{section.titulo}</h3>
         <div className="prose-content">
-          {/* Acordes en línea */}
           <div className="chords-line">
             {section.acordes.map((chord, i) => (
               <span key={i} className="chord">{chord}</span>
             ))}
           </div>
-          {/* Letra de la canción */}
           <p className="lyrics">{section.letra}</p>
         </div>
       </div>
@@ -80,36 +74,37 @@ const ChordsAlmango = () => {
   };
 
   return (
-    <div className="chords-display">
-      <div className="controls">
-        <button onClick={() => handleTransposeChange(-1)}>Bajar tono</button>
-        <button onClick={() => handleTransposeChange(1)}>Subir tono</button>
-        <select onChange={(e) => setExportFormat(e.target.value)} value={exportFormat}>
-          <option value="PDF">Exportar a PDF</option>
-          <option value="JPG">Exportar a JPG</option>
-        </select>
-        <button onClick={handleExport}>Exportar</button>
-      </div>
-
-      <div id="chords-viewer" className="chords-container">
-        {data.map((song) => (
-          <div key={song.id} className="chords-item">
-            <h1 className="song-title">{song.Cancion}</h1>
-            <h2 className="song-artist">{song.Artista}</h2>
-            <div className="song-details">
-              <p><strong>Género:</strong> {song.Genero}</p>
-              <p><strong>Tempo:</strong> {song.tempo} BPM</p>
-              <p><strong>Compás:</strong> {song.compas}</p>
-              <p><strong>Capo:</strong> {song.capo}</p>
-              <p><strong>Tono Original:</strong> {song.tonoOriginal}</p>
-              <p><strong>Tono Actual:</strong> {song.tonoActual}</p>
+    <div className="chords-almango-container">
+      <Sidebar />
+      <div className="chords-display">
+        <div className="controls">
+          <button onClick={() => handleTransposeChange(-1)}>Bajar tono</button>
+          <button onClick={() => handleTransposeChange(1)}>Subir tono</button>
+          <select onChange={(e) => setExportFormat(e.target.value)} value={exportFormat}>
+            <option value="PDF">Exportar a PDF</option>
+            <option value="JPG">Exportar a JPG</option>
+          </select>
+          <button onClick={handleExport}>Exportar</button>
+        </div>
+        <div id="chords-viewer" className="chords-container">
+          {data.map((song) => (
+            <div key={song.id} className="chords-item">
+              <h1 className="song-title">{song.Cancion}</h1>
+              <h2 className="song-artist">{song.Artista}</h2>
+              <div className="song-details">
+                <p><strong>Género:</strong> {song.Genero}</p>
+                <p><strong>Tempo:</strong> {song.tempo} BPM</p>
+                <p><strong>Compás:</strong> {song.compas}</p>
+                <p><strong>Capo:</strong> {song.capo}</p>
+                <p><strong>Tono Original:</strong> {song.tonoOriginal}</p>
+                <p><strong>Tono Actual:</strong> {song.tonoActual}</p>
+              </div>
+              <div className="song-prose">
+                {renderSongProse(song)}
+              </div>
             </div>
-
-            <div className="song-prose">
-              {renderSongProse(song)}
-            </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
   );

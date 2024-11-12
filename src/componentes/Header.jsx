@@ -116,67 +116,44 @@ const Header = () => {
               </Dropdown>
 
               {/* Dropdown Formateo */}
-              <Dropdown as={Nav.Item} className="nav-link">
-                <Dropdown.Toggle as={Nav.Link} className="menu-dropdown-toggle">
-                  {icons.notas} FORMATEO
-                </Dropdown.Toggle>
+             <Dropdown as={Nav.Item} className="nav-link">
+  <Dropdown.Toggle as={Nav.Link} className="menu-dropdown-toggle">
+    {icons.notas} FORMATEO
+  </Dropdown.Toggle>
+  <Dropdown.Menu>
+    <Dropdown.Header>Formateo:</Dropdown.Header>
+    <Dropdown.Item as={Link} to="/formateo-chords" onClick={() => setIsMobileMenuOpen(false)}>
+      Formateo Chords
+    </Dropdown.Item>
+    <Dropdown.Item as={Link} to="/formateo-listas" onClick={() => setIsMobileMenuOpen(false)}>
+      Formato Listas
+    </Dropdown.Item>
+    <Dropdown.Item as={Link} to="/formateo-rider-audio" onClick={() => setIsMobileMenuOpen(false)}>
+      Formateo Rider Audio
+    </Dropdown.Item>
+    <Dropdown.Item as={Link} to="/formateo-rider-video" onClick={() => setIsMobileMenuOpen(false)}>
+      Formateo Rider Video
+    </Dropdown.Item>
+    <Dropdown.Item as={Link} to="/formateo-gacetilla" onClick={() => setIsMobileMenuOpen(false)}>
+      Formateo Gacetilla
+    </Dropdown.Item>
+    <Dropdown.Item as={Link} to="/pedidos-fecha" onClick={() => setIsMobileMenuOpen(false)}>
+      Pedidos Fecha
+    </Dropdown.Item>
+  </Dropdown.Menu>
+</Dropdown>
 
-                <Dropdown.Menu>
-                  <Dropdown.Header>Formateo:</Dropdown.Header>
-                  <Dropdown.Item
-                    as={Link}
-                    to="/formateo-chords"
-                    onClick={() => setIsMobileMenuOpen(false)}
-                  >
-                    Formateo de Chords
-                  </Dropdown.Item>
-                  <Dropdown.Item
-                    as={Link}
-                    to="/formateo-listas"
-                    onClick={() => setIsMobileMenuOpen(false)}
-                  >
-                    Formateo de Listas
-                  </Dropdown.Item>
-                  <Dropdown.Item
-                    as={Link}
-                    to="/formateo-rider-audio"
-                    onClick={() => setIsMobileMenuOpen(false)}
-                  >
-                    Formateo de Rider Audio
-                  </Dropdown.Item>
-                  <Dropdown.Item
-                    as={Link}
-                    to="/formateo-rider-video"
-                    onClick={() => setIsMobileMenuOpen(false)}
-                  >
-                    Formateo de Rider Video
-                  </Dropdown.Item>
-                  <Dropdown.Item
-                    as={Link}
-                    to="/formateo-gasetilla"
-                    onClick={() => setIsMobileMenuOpen(false)}
-                  >
-                    Formateo de Gasetilla
-                  </Dropdown.Item>
-                  <Dropdown.Item
-                    as={Link}
-                    to="/pedidos-fecha"
-                    onClick={() => setIsMobileMenuOpen(false)}
-                  >
-                    Pedidos de Fecha
-                  </Dropdown.Item>
-                </Dropdown.Menu>
-              </Dropdown>
 
               <Nav.Item className="searchbar-container">
                 <HeaderSearchBar
                   categories={["Chords", "Formateo", "Tareas"]}
                   searchQuery={searchQuery}
                   setSearchQuery={setSearchQuery}
-                  onCategoryChange={(category) => console.log("Category changed:", category)}
+                  onCategoryChange={(category) =>
+                    console.log("Category changed:", category)
+                  }
                 />
               </Nav.Item>
-
 
               {/* Dropdown para TAREAS con íconos y notificaciones */}
               <Dropdown as={Nav.Item} className="nav-link tareas-link">
@@ -249,9 +226,7 @@ const Header = () => {
             </Nav>
 
             <Nav className="ml-auto">
-           
-           
-            <Navbar.Brand as={Link} to="/" className="logo-container">
+              <Navbar.Brand as={Link} to="/" className="logo-container">
                 <img
                   src="/img/02-logos/logo-formateo-chords2.png"
                   alt="Logo"

@@ -1,0 +1,171 @@
+{
+    "formatSettings": {
+      "chordStyle": {
+        "color": "#007bff",  // Azul brillante
+        "textTransform": "uppercase",
+        "fontWeight": "bold"
+      },
+      "lyricsStyle": {
+        "color": "#000000",  // Negro
+        "fontWeight": "normal",
+        "columnLayout": true,  // Texto en dos columnas
+        "compactSpacing": true
+      },
+      "sectionTitles": {
+        "intro": "INTRO",
+        "verse": "ESTROFA",
+        "preChorus": "PRE ESTRIBILLO",
+        "chorus": "ESTRIBILLO",
+        "bridge": "PUENTE",
+        "bis": "BIS",
+        "outro": "FINAL"
+      }
+    },
+   
+
+
+    {
+        "songMetadata": {
+          "title": "Cual es la vida real",
+          "artist": "Ale Gondra",
+          "tempo": 120,
+          "key": "G",
+          "capo": 2,
+          "originalKey": "F#",
+          "sectionsRepeatable": ["chorus", "bis"]
+        },
+        "formatSettings": {
+          "chordStyle": {
+            "color": "#007bff", 
+            "textTransform": "uppercase",
+            "fontWeight": "bold",
+            "fontSize": "1.2em"
+          },
+          "lyricsStyle": {
+            "color": "#000000",
+            "fontWeight": "normal",
+            "columnLayout": true,
+            "compactSpacing": true,
+            "lineHeight": 1.4,
+            "fontSize": "1em"
+          },
+          "sectionTitleStyle": {
+            "color": "#FF4500",
+            "fontWeight": "bold",
+            "fontSize": "1.5em",
+            "textTransform": "uppercase",
+            "alignment": "center",
+            "padding": "10px 0"
+          },
+          "presetFormats": {
+            "intro": {
+              "title": "INTRO",
+              "chordStyle": {
+                "color": "#007bff",
+                "fontWeight": "bold",
+                "textTransform": "uppercase"
+              },
+              "lyricsStyle": {
+                "color": "#000000",
+                "fontWeight": "normal"
+              }
+            },
+            "verse": {
+              "title": "ESTROFA",
+              "chordStyle": {
+                "color": "#007bff",
+                "fontWeight": "bold",
+                "textTransform": "uppercase"
+              },
+              "lyricsStyle": {
+                "color": "#000000",
+                "fontWeight": "normal"
+              }
+            },
+            "chorus": {
+              "title": "ESTRIBILLO",
+              "chordStyle": {
+                "color": "#007bff",
+                "fontWeight": "bold",
+                "textTransform": "uppercase"
+              },
+              "lyricsStyle": {
+                "color": "#000000",
+                "fontWeight": "normal",
+                "italic": true
+              }
+            },
+            "bridge": {
+              "title": "PUENTE",
+              "chordStyle": {
+                "color": "#007bff",
+                "fontWeight": "bold",
+                "textTransform": "uppercase"
+              },
+              "lyricsStyle": {
+                "color": "#000000",
+                "fontWeight": "normal",
+                "underline": true
+              }
+            },
+            "outro": {
+              "title": "FINAL",
+              "chordStyle": {
+                "color": "#007bff",
+                "fontWeight": "bold",
+                "textTransform": "uppercase"
+              },
+              "lyricsStyle": {
+                "color": "#000000",
+                "fontWeight": "normal"
+              }
+            }
+          }
+        },
+        "sections": [
+          {
+            "id": "intro",
+            "title": "INTRO",
+            "chords": ["G", "C", "D"],
+            "lyrics": "Instrumental opening with a gentle rhythm..."
+          },
+          {
+            "id": "verse1",
+            "title": "ESTROFA 1",
+            "chords": ["C", "G", "Am", "F"],
+            "lyrics": "Aquí empieza la primera estrofa de la canción..."
+          },
+          {
+            "id": "chorus",
+            "title": "ESTRIBILLO",
+            "chords": ["G", "D", "Em", "C"],
+            "lyrics": "El coro toma fuerza y se repite..."
+          },
+          {
+            "id": "bridge",
+            "title": "PUENTE",
+            "chords": ["Am", "Em", "F", "C"],
+            "lyrics": "Este es el puente..."
+          },
+          {
+            "id": "outro",
+            "title": "FINAL",
+            "chords": ["C", "G", "Am", "F"],
+            "lyrics": "Cierre instrumental..."
+          }
+        ],
+        "editorTools": {
+          "formatButton": {
+            "tooltip": "Aplica el formato de texto",
+            "presetFormats": true
+          },
+          "transpose": true,
+          "fontAdjustments": {
+            "chordFontSize": ["0.8em", "1em", "1.2em", "1.4em"],
+            "lyricsFontSize": ["0.8em", "1em", "1.2em", "1.4em"]
+          },
+          "exportOptions": ["PDF", "JPG"],
+          "highlightActiveSection": true
+        }
+      }
+      
