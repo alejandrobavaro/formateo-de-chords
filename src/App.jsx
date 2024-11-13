@@ -14,8 +14,8 @@ import "./assets/scss/_01-General/_BodyIndexApp.scss";
 //------------HEADER--------------
 import Header from "./componentes/Header";
 import { TareasNotificacionesProvider } from "./componentes/TareasNotificacionesContext";
+import { HeaderSearchProvider } from "./componentes/HeaderSearchContextBuscadorModular";
 import HeaderSearchBar from "./componentes/HeaderSearchBar";
-
 
 //-----------HOME - MAIN-----------------
 import MainContent from "./componentes/MainContent";
@@ -69,11 +69,13 @@ function App() {
           <Header />
           <hr className="border border-0 opacity-20" />
           <div className="main-content">
-    
+            <HeaderSearchProvider>
+              <HeaderSearchBar />
+            </HeaderSearchProvider>
             <div className="content">
               <Routes>
                 <Route
-                  path="/"
+                  path="*"
                   element={
                     <ProtectedRoute>
                       <MainContent />
@@ -89,10 +91,8 @@ function App() {
                   path="/contacto"
                   element={
                     <ProtectedRoute>
-                      <>
-                        <ContactoLogoRedes />
-                        <ContactoFormularioSlider />
-                      </>
+                      <ContactoLogoRedes />
+                      <ContactoFormularioSlider />
                     </ProtectedRoute>
                   }
                 />

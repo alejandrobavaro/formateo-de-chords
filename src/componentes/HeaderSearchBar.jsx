@@ -2,11 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import '../assets/scss/_03-Componentes/_HeaderSearchBar.scss';
 
-function HeaderSearchBar({ searchQuery = '', setSearchQuery, placeholder = 'Search...' }) {
+function HeaderSearchBar({ searchQuery = '', setSearchQuery = () => {}, placeholder = 'Search...' }) {
   const handleSearchChange = (event) => {
-    if (setSearchQuery) {
-      setSearchQuery(event.target.value);
-    }
+    setSearchQuery(event.target.value);
   };
 
   return (
@@ -23,7 +21,7 @@ function HeaderSearchBar({ searchQuery = '', setSearchQuery, placeholder = 'Sear
 
 HeaderSearchBar.propTypes = {
   searchQuery: PropTypes.string,
-  setSearchQuery: PropTypes.func.isRequired,
+  setSearchQuery: PropTypes.func,
   placeholder: PropTypes.string,
 };
 
