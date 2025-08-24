@@ -74,7 +74,7 @@ Transposición de Do → Re → Mi → Fa...
 - **Información Completa**: Tempo, compás, capo, tonalidad
 - **Exportación Profesional**: Formatos optimizados para músicos
 
-#### 🎸 `ChordsCovers.jsx` - Biblioteca de Covers
+#### 🎸 `ChordsViewer.jsx` - Biblioteca de Covers
 **Función**: Gestión de versiones y adaptaciones musicales
 **Características**:
 - **Filtrado por Género**: Rock, Pop, Jazz, Clásica, etc.
@@ -391,10 +391,10 @@ src/
 - **Features**: Transposición en tiempo real, exportación
 - **Estilos**: `_ChordsAlmango.scss`
 
-### ChordsCovers (`ChordsCovers.jsx`)
+### ChordsViewer (`ChordsViewer.jsx`)
 - **Función**: Biblioteca de covers musicales
 - **Features**: Filtros por género, compartir en redes
-- **Estilos**: `_ChordsCovers.scss`
+- **Estilos**: `_ChordsViewer.scss`
 
 ### Footer (`Footer.jsx`)
 - **Función**: Información y redes sociales

@@ -110,19 +110,11 @@ const Header = () => {
                   </Dropdown.Toggle>
                   {/* Menú desplegable con opciones */}
                   <Dropdown.Menu className="dropdown-menu">
-                    {/* Opción: Chords Almango */}
+              
+                    {/* Opción: Chords Covers - RUTA CORREGIDA */}
                     <Dropdown.Item 
                       as={Link} 
-                      to="/chordsalmango" 
-                      className="dropdown-item" 
-                      onClick={() => setIsMobileMenuOpen(false)}
-                    >
-                      Chords Almango
-                    </Dropdown.Item>
-                    {/* Opción: Chords Covers */}
-                    <Dropdown.Item 
-                      as={Link} 
-                      to="/chordscovers" 
+                      to="/chords-viewer" 
                       className="dropdown-item" 
                       onClick={() => setIsMobileMenuOpen(false)}
                     >

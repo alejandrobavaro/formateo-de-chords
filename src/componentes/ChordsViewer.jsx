@@ -1,75 +1,321 @@
-// components/ChordsViewer.jsx
-import React, { useState, useEffect } from "react";
-import Sidebar from "./Sidebar";
-import SongSheet from "./SongSheet";
+import React, { useState, useEffect, useRef, useContext } from "react";
+import { useLocation } from "react-router-dom";
+import { HeaderSearchContextBuscadorModular } from "./HeaderSearchContext";
 import jsPDF from "jspdf";
 import html2canvas from "html2canvas";
-import { BsDownload, BsFullscreen } from "react-icons/bs";
-import { FiMusic } from "react-icons/fi";
-import "../assets/scss/_03-Componentes/_ChordsViewer.scss";
+import {
+  BsDownload,
+  BsPrinter,
+  BsGear,
+  BsChevronRight,
+  BsChevronLeft
+} from "react-icons/bs";
+import {
+  FiMusic,
+  FiAlertCircle,
+  FiCreditCard,
+  FiBriefcase,
+  FiType,
+  FiPlus,
+  FiMinus,
+  FiRotateCw,
+  FiX
+} from "react-icons/fi";
+import '../assets/scss/_03-Componentes/_ChordsViewer.scss';
 
 const ChordsViewer = () => {
-  const [songData, setSongData] = useState(null);
+  // Estados del componente
+  const [songsData, setSongsData] = useState([]);
+  const [filteredSongs, setFilteredSongs] = useState([]);
+  const [selectedSong, setSelectedSong] = useState(null);
   const [transposition, setTransposition] = useState(0);
-  const [viewMode, setViewMode] = useState('default');
-  const [fontSize, setFontSize] = useState(100);
+  const [fontSize, setFontSize] = useState(90);
+  const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(true);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [isFullscreen, setIsFullscreen] = useState(false);
+  const chordsViewerRef = useRef(null);
+  const printViewRef = useRef(null);
 
+  // Manejar el contexto de forma segura
+  const context = useContext(HeaderSearchContextBuscadorModular);
+  const searchQuery = context?.searchQuery || '';
+  const setSearchQuery = context?.setSearchQuery || (() => {});
+
+  const location = useLocation();
+
+  // Cargar datos
   useEffect(() => {
-    loadSongData();
+    const loadData = async () => {
+      try {
+        setIsLoading(true);
+        setError(null);
+
+        const response = await fetch("/chordscovers.json");
+        if (!response || !response.ok) {
+          throw new Error(`Error HTTP: ${response?.status || 'No response'}`);
+        }
+        const data = await response.json();
+        setSongsData(data);
+        setFilteredSongs(data);
+        if (data.length > 0) setSelectedSong(data[0]);
+      } catch (error) {
+        console.error("Error al cargar los datos:", error);
+        setError(`No se pudieron cargar los datos: ${error.message}`);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+    loadData();
   }, []);
 
-  const loadSongData = async () => {
-    try {
-      setIsLoading(true);
-      const response = await fetch("/chordscovers.json");
-      
-      if (!response.ok) {
-        throw new Error("Error al cargar los datos");
-      }
-
-      const data = await response.json();
-      setSongData(data[0]); // Tomar la primera canción por ahora
-      
-    } catch (error) {
-      console.error("Error al cargar los datos:", error);
-      setError("No se pudieron cargar los datos. Por favor, intenta nuevamente.");
-    } finally {
-      setIsLoading(false);
-    }
-  };
-
-  const handleExportPDF = async () => {
-    const element = document.getElementById("song-sheet");
-    const canvas = await html2canvas(element, {
-      scale: 2,
-      useCORS: true,
-      logging: false
-    });
-
-    const imgData = canvas.toDataURL('image/jpeg', 1.0);
-    const pdf = new jsPDF('p', 'mm', 'a4');
-    const pdfWidth = pdf.internal.pageSize.getWidth();
-    const pdfHeight = pdf.internal.pageSize.getHeight();
-    
-    pdf.addImage(imgData, 'JPEG', 0, 0, pdfWidth, pdfHeight);
-    pdf.save(`${songData.cancion}-${songData.artista}.pdf`);
-  };
-
-  const toggleFullscreen = () => {
-    if (!document.fullscreenElement) {
-      document.documentElement.requestFullscreen().catch(err => {
-        console.error('Error attempting to enable fullscreen:', err);
-      });
-      setIsFullscreen(true);
+  // Filtrar canciones basado en la búsqueda desde el contexto
+  useEffect(() => {
+    if (searchQuery) {
+      const filtered = songsData.filter(song =>
+        song.cancion.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        song.artista.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        song.genero.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        (song.Secciones && song.Secciones.some(section =>
+          section.acordes && section.acordes.some(chord =>
+            chord && chord.toLowerCase().includes(searchQuery.toLowerCase())
+          )
+        ))
+      );
+      setFilteredSongs(filtered);
+      if (filtered.length > 0) setSelectedSong(filtered[0]);
     } else {
-      if (document.exitFullscreen) {
-        document.exitFullscreen();
-        setIsFullscreen(false);
-      }
+      setFilteredSongs(songsData);
     }
+  }, [searchQuery, songsData]);
+
+  // Función para transponer acordes
+  const transposeChord = (chord) => {
+    if (!chord || chord === 'N.C.' || chord === '(E)') return chord;
+
+    const chords = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"];
+    const cleanChord = chord.replace(/[()]/g, '');
+    const index = chords.indexOf(cleanChord);
+    
+    if (index === -1) {
+      const baseChord = cleanChord.replace(/m|7|sus|dim|aug|M/g, '');
+      const modifier = cleanChord.replace(baseChord, '');
+      const baseIndex = chords.indexOf(baseChord);
+      
+      if (baseIndex === -1) return chord;
+      
+      const newIndex = (baseIndex + transposition + 12) % 12;
+      return chords[newIndex] + modifier;
+    }
+    
+    const newIndex = (index + transposition + 12) % 12;
+    return chords[newIndex];
+  };
+
+  // Manejar transposición
+  const handleTranspose = (step) => {
+    setTransposition(prev => prev + step);
+  };
+
+  // Resetear transposición
+  const resetTransposition = () => {
+    setTransposition(0);
+  };
+
+  // Manejar cambio de tamaño de fuente
+  const handleFontSizeChange = (newSize) => {
+    setFontSize(newSize);
+  };
+
+  // Alternar barra lateral
+  const toggleSidebar = () => {
+    setIsSidebarCollapsed(!isSidebarCollapsed);
+  };
+
+  // Preparar vista para impresión/exportación
+  const preparePrintView = () => {
+    return (
+      <div className="print-view" ref={printViewRef}>
+        {selectedSong && (
+          <>
+            <div className="song-header">
+              <h1 className="song-title">{selectedSong.cancion}</h1>
+              <div className="song-subtitle">
+                <span className="artist">{selectedSong.artista}</span>
+                <span className="tono">Tono: {transposeChord(selectedSong.tonoOriginal)}</span>
+              </div>
+              <div className="song-metadata">
+                <span><strong>Género:</strong> {selectedSong.genero}</span>
+                <span><strong>Tempo:</strong> {selectedSong.tempo}</span>
+                <span><strong>Compás:</strong> {selectedSong.compas}</span>
+                <span><strong>Capo:</strong> {selectedSong.capo}</span>
+              </div>
+            </div>
+
+            <div className="chords-viewer print-mode">
+              {selectedSong.Secciones && (
+                <div className="song-sections-columns">
+                  {(() => {
+                    const [firstColumn, secondColumn] = splitSectionsIntoColumns(selectedSong.Secciones);
+                    return (
+                      <>
+                        <div className="column">
+                          {firstColumn.map(section => renderSongSection(section, true))}
+                        </div>
+                        {secondColumn.length > 0 && (
+                          <div className="column">
+                            {secondColumn.map(section => renderSongSection(section, true))}
+                          </div>
+                        )}
+                      </>
+                    );
+                  })()}
+                </div>
+              )}
+            </div>
+          </>
+        )}
+      </div>
+    );
+  };
+
+  // Exportar a PDF
+  const handleExport = async (format) => {
+    try {
+      // Preparar el contenido para exportación
+      const printView = preparePrintView();
+      
+      // Forzar re-render para asegurar que el contenido esté actualizado
+      setTimeout(async () => {
+        const element = printViewRef.current;
+        if (format === "PDF") {
+          const pdf = new jsPDF("p", "mm", "a4");
+          const canvas = await html2canvas(element, { 
+            scale: 2,
+            useCORS: true,
+            logging: false,
+            backgroundColor: '#ffffff'
+          });
+          const imgData = canvas.toDataURL("image/jpeg", 0.9);
+          const imgProps = pdf.getImageProperties(imgData);
+          const pdfWidth = pdf.internal.pageSize.getWidth();
+          const pdfHeight = (imgProps.height * pdfWidth) / imgProps.width;
+
+          pdf.addImage(imgData, "JPEG", 0, 0, pdfWidth, pdfHeight);
+          pdf.save(`${selectedSong.cancion} - ${selectedSong.artista}.pdf`);
+        } else if (format === "JPG") {
+          const canvas = await html2canvas(element, { 
+            scale: 2,
+            useCORS: true,
+            logging: false,
+            backgroundColor: '#ffffff'
+          });
+          const imgData = canvas.toDataURL("image/jpeg", 0.9);
+          const link = document.createElement("a");
+          link.href = imgData;
+          link.download = `${selectedSong.cancion} - ${selectedSong.artista}.jpg`;
+          link.click();
+        }
+      }, 100);
+    } catch (error) {
+      console.error("Error en exportación:", error);
+      alert("Error al exportar: " + error.message);
+    }
+  };
+
+  // Imprimir directamente
+  const handlePrint = () => {
+    const printView = preparePrintView();
+    setTimeout(() => {
+      window.print();
+    }, 100);
+  };
+
+  // Función para renderizar acordes sobre las letras correctamente
+  const renderChordLines = (lyrics, chords) => {
+    if (!chords || chords.length === 0) {
+      return lyrics.split('\n').map((line, index) => (
+        <div key={index} className="line">
+          <div className="lyrics-line">{line}</div>
+        </div>
+      ));
+    }
+
+    const lines = lyrics.split('\n');
+    const chordLines = [];
+    
+    // Si tenemos la misma cantidad de acordes que líneas, colocamos un acorde por línea
+    if (chords.length === lines.length) {
+      return lines.map((line, index) => (
+        <div key={index} className="line">
+          <div className="chords-line">
+            <span className="chord">{transposeChord(chords[index])}</span>
+          </div>
+          <div className="lyrics-line">{line}</div>
+        </div>
+      ));
+    }
+    
+    // Si no, mostramos todos los acordes primero y luego la letra
+    return (
+      <>
+        <div className="chords-line">
+          {chords.map((chord, index) => (
+            <span key={index} className="chord">
+              {transposeChord(chord)}
+            </span>
+          ))}
+        </div>
+        {lines.map((line, index) => (
+          <div key={index} className="line">
+            <div className="lyrics-line">{line}</div>
+          </div>
+        ))}
+      </>
+    );
+  };
+
+  // Renderizar sección de canción con acordes y letra
+  const renderSongSection = (section, isPrintMode = false) => {
+    if (!section.letra || section.letra.trim() === '') {
+      return (
+        <div className="section chords-only" key={section.titulo}>
+          <h3 className="section-title">{section.titulo}</h3>
+          <div className="chords-line">
+            {section.acordes && section.acordes.map((chord, index) => (
+              <span key={index} className="chord">
+                {transposeChord(chord)}
+              </span>
+            ))}
+          </div>
+        </div>
+      );
+    }
+
+    return (
+      <div className="section" key={section.titulo}>
+        <h3 className="section-title">{section.titulo}</h3>
+        <div className={`lyrics-with-chords ${isPrintMode ? 'print-mode' : ''}`}>
+          {renderChordLines(section.letra, section.acordes)}
+        </div>
+      </div>
+    );
+  };
+
+  // Dividir las secciones en dos columnas
+  const splitSectionsIntoColumns = (sections) => {
+    if (!sections) return [[], []];
+    
+    const midPoint = Math.ceil(sections.length / 2);
+    const firstColumn = sections.slice(0, midPoint);
+    const secondColumn = sections.slice(midPoint);
+    
+    return [firstColumn, secondColumn];
+  };
+
+  // Limpiar búsqueda
+  const clearSearch = () => {
+    setSearchQuery('');
+    setFilteredSongs(songsData);
   };
 
   if (isLoading) {
@@ -77,18 +323,22 @@ const ChordsViewer = () => {
       <div className="chords-viewer-container">
         <div className="loading-state">
           <FiMusic className="loading-icon" />
-          <p>Cargando partitura...</p>
+          <p>Cargando acordes...</p>
         </div>
       </div>
     );
   }
 
-  if (error || !songData) {
+  if (error) {
     return (
       <div className="chords-viewer-container">
         <div className="error-state">
-          <p className="error-message">{error || "No se encontraron datos"}</p>
-          <button onClick={loadSongData} className="retry-button">
+          <FiAlertCircle className="error-icon" />
+          <p className="error-message">{error}</p>
+          <button
+            onClick={() => window.location.reload()}
+            className="retry-button"
+          >
             Reintentar
           </button>
         </div>
@@ -97,40 +347,193 @@ const ChordsViewer = () => {
   }
 
   return (
-    <div className={`chords-viewer-container ${isFullscreen ? 'mobile-fullscreen' : ''}`}>
-      <Sidebar 
-        onTransposeChange={setTransposition}
-        onViewModeChange={setViewMode}
-        onFontSizeChange={setFontSize}
-      />
-      
-      <div className="chords-viewer-content">
-        <div className="viewer-controls">
-          <h2 className="viewer-title">
-            <FiMusic className="title-icon" />
-            Visualizador de Partituras
-          </h2>
-          
-          <div className="control-buttons">
-            <button onClick={handleExportPDF} className="control-button export-button">
-              <BsDownload className="button-icon" />
-              Exportar PDF
-            </button>
-            
-            <button onClick={toggleFullscreen} className="control-button fullscreen-button">
-              <BsFullscreen className="button-icon" />
-              Pantalla Completa
-            </button>
-          </div>
-        </div>
+    <div className="chords-viewer-container">
+      {/* Vista de impresión/exportación (oculta) */}
+      <div style={{ display: 'none' }}>
+        {preparePrintView()}
+      </div>
 
-        <div id="song-sheet" className="song-sheet-wrapper">
-          <SongSheet 
-            songData={songData}
-            transposition={transposition}
-            fontSize={fontSize}
-            viewMode={viewMode}
-          />
+      {/* Botón para toggle sidebar */}
+      <button
+        className={`sidebar-toggle-button ${isSidebarCollapsed ? 'collapsed' : ''}`}
+        onClick={toggleSidebar}
+        aria-label="Toggle Sidebar"
+      >
+        {isSidebarCollapsed ? <BsChevronRight /> : <BsChevronLeft />}
+        <BsGear />
+      </button>
+
+      {/* Sidebar */}
+      <div className={`sidebar ${isSidebarCollapsed ? "collapsed" : ""}`}>
+        <div className="sidebar-content">
+          {/* Información de la canción */}
+          {selectedSong && (
+            <div className="song-info-sidebar">
+              <div className="metadata-item">
+                <span className="label">Género:</span>
+                <span className="value">{selectedSong.genero}</span>
+              </div>
+              <div className="metadata-item">
+                <span className="label">Tempo:</span>
+                <span className="value">{selectedSong.tempo}</span>
+              </div>
+              <div className="metadata-item">
+                <span className="label">Compás:</span>
+                <span className="value">{selectedSong.compas}</span>
+              </div>
+              <div className="metadata-item">
+                <span className="label">Capo:</span>
+                <span className="value">{selectedSong.capo}</span>
+              </div>
+              <div className="metadata-item">
+                <span className="label">Tono Original:</span>
+                <span className="value">{selectedSong.tonoOriginal}</span>
+              </div>
+              
+              {selectedSong.informacionExtra && (
+                <p className="song-info">{selectedSong.informacionExtra}</p>
+              )}
+            </div>
+          )}
+
+          {/* Selector de canciones */}
+          <div className="song-selector">
+            <select
+              onChange={(e) => setSelectedSong(filteredSongs[e.target.value])}
+              value={filteredSongs.indexOf(selectedSong)}
+              className="song-dropdown"
+            >
+              {filteredSongs.map((song, index) => (
+                <option key={index} value={index}>
+                  {song.cancion} - {song.artista}
+                </option>
+              ))}
+            </select>
+          </div>
+
+          {/* Sección de Transposición */}
+          <div className="sidebar-section">
+            <h2 className="section-title">
+              <FiCreditCard className="section-icon" />
+              <span>Transponer</span>
+            </h2>
+            <div className="transposition-controls">
+              <button onClick={() => handleTranspose(-1)} className="control-btn">
+                <FiMinus />
+              </button>
+              <span className="transposition-value">{transposition > 0 ? '+' : ''}{transposition}</span>
+              <button onClick={() => handleTranspose(1)} className="control-btn">
+                <FiPlus />
+              </button>
+              <button onClick={resetTransposition} className="control-btn reset">
+                <FiRotateCw />
+              </button>
+            </div>
+          </div>
+          
+          {/* Sección de Tamaño de texto */}
+          <div className="sidebar-section">
+            <h2 className="section-title">
+              <FiType className="section-icon" />
+              <span>Tamaño de texto</span>
+            </h2>
+            <div className="font-size-control">
+              <input
+                type="range"
+                min="70"
+                max="110"
+                step="5"
+                value={fontSize}
+                onChange={(e) => handleFontSizeChange(parseInt(e.target.value))}
+                className="font-size-slider"
+              />
+              <span>{fontSize}%</span>
+            </div>
+          </div>
+          
+          {/* Sección de Exportación */}
+          <div className="sidebar-section">
+            <h2 className="section-title">
+              <FiBriefcase className="section-icon" />
+              <span>Exportar</span>
+            </h2>
+            <div className="export-options">
+              <button onClick={() => handleExport("PDF")} className="export-btn">
+                <BsDownload /> PDF
+              </button>
+              <button onClick={() => handleExport("JPG")} className="export-btn">
+                <BsDownload /> Imagen
+              </button>
+              <button onClick={handlePrint} className="export-btn">
+                <BsPrinter /> Imprimir
+              </button>
+            </div>
+          </div>
+
+          {/* Limpiar búsqueda */}
+          {searchQuery && (
+            <div className="sidebar-section">
+              <button onClick={clearSearch} className="clear-search-btn">
+                <FiX /> Limpiar búsqueda
+              </button>
+            </div>
+          )}
+        </div>
+      </div>
+
+      {/* Contenido principal */}
+      <div className="chords-content">
+        {/* Indicador de búsqueda */}
+        {searchQuery && (
+          <div className="search-results-info">
+            <p>
+              {filteredSongs.length} resultado(s) para: <strong>"{searchQuery}"</strong>
+              <button
+                onClick={clearSearch}
+                className="clear-search-btn"
+              >
+                <FiX /> Limpiar búsqueda
+              </button>
+            </p>
+          </div>
+        )}
+
+        {/* Header de la canción */}
+        {selectedSong && (
+          <div className="song-header">
+            <h1 className="song-title">{selectedSong.cancion}</h1>
+            <div className="song-subtitle">
+              <span className="artist">{selectedSong.artista}</span>
+              <span className="tono">Tono: {transposeChord(selectedSong.tonoOriginal)}</span>
+            </div>
+          </div>
+        )}
+
+        {/* Visor de acordes */}
+        <div
+          ref={chordsViewerRef}
+          className={`chords-viewer font-size-${fontSize}`}
+        >
+          {selectedSong?.Secciones && (
+            <div className="song-sections-columns">
+              {(() => {
+                const [firstColumn, secondColumn] = splitSectionsIntoColumns(selectedSong.Secciones);
+
+                return (
+                  <>
+                    <div className="column">
+                      {firstColumn.map(section => renderSongSection(section))}
+                    </div>
+                    {secondColumn.length > 0 && (
+                      <div className="column">
+                        {secondColumn.map(section => renderSongSection(section))}
+                      </div>
+                    )}
+                  </>
+                );
+              })()}
+            </div>
+          )}
         </div>
       </div>
     </div>

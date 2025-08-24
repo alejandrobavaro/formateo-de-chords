@@ -6,95 +6,53 @@ import {
 } from "react-router-dom";
 
 // ============ IMPORTACIÓN DE ESTILOS ============
-// Frameworks y librerías externas
-import "bootstrap/dist/css/bootstrap.min.css"; // Framework Bootstrap para componentes base
-import "bootstrap-icons/font/bootstrap-icons.css"; // Iconos de Bootstrap
-
-// Estilos globales de la aplicación
-import "./assets/scss/_01-General/_BodyIndexApp.scss";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap-icons/font/bootstrap-icons.css";
+import "./assets/scss/_01-General/_App.scss";
 
 // ============ COMPONENTES DE LA APLICACIÓN ============
+import Header from "./componentes/Header";
+import MainContent from "./componentes/MainContent";
+import MainWhatsappIcon from "./componentes/MainWhatsappIcon";
+import MainPublicidadSlider from "./componentes/MainPublicidadSlider";
+import Footer from "./componentes/Footer";
+import Contacto from "./componentes/Contacto";
+import ChordsViewer from "./componentes/ChordsViewer";
+import FormateoChords from "./componentes/FormateoChords";
+import ConsultasAyuda from "./componentes/ConsultasAyuda";
 
-// Header y Navegación
-import Header from "./componentes/Header"; // Componente principal de navegación
-
-
-// Contenido Principal y Elementos de UI
-import MainContent from "./componentes/MainContent"; // Contenido principal de la página de inicio
-import MainWhatsappIcon from "./componentes/MainWhatsappIcon"; // Botón flotante de WhatsApp
-import MainPublicidadSlider from "./componentes/MainPublicidadSlider"; // Slider de publicidad
-
-// Footer
-import Footer from "./componentes/Footer"; // Footer unificado de la aplicación
-
-// Páginas de Contenido
-import Contacto from "./componentes/Contacto"; // Página de contacto unificada
-import ChordsCovers from "./componentes/ChordsCovers"; // Página de chords covers
-import ChordsAlmango from "./componentes/ChordsAlmango"; // Página de chords almango
-import FormateoChords from "./componentes/FormateoChords"; // Herramienta de formateo de chords
-import ConsultasAyuda from "./componentes/ConsultasAyuda"; // Página de ayuda y consultas
+// ============ CONTEXTO ============
+import { HeaderSearchProvider } from "./componentes/HeaderSearchContext";
 
 // ============ COMPONENTE PRINCIPAL DE LA APLICACIÓN ============
 function App() {
   return (
-    <Router>
-      {/* Estructura principal de la aplicación */}
-      
-      {/* Header de navegación */}
-      <Header />
-      
-      {/* Separador visual entre header y contenido */}
-      <hr className="section-divider" />
-      
-      {/* Contenedor principal del contenido */}
-      <div className="main-content">
+    <HeaderSearchProvider>
+      <Router>
+        {/* Estructura principal de la aplicación */}
+        <Header />
+        <hr className="section-divider" />
         
-  
-        
-        {/* Contenedor de rutas y contenido dinámico */}
-        <div className="content">
-          <Routes>
-            
-            {/* Ruta principal - Página de inicio */}
-            <Route path="/" element={<MainContent />} />
-            
-            {/* Ruta de contacto - Página unificada */}
-            <Route path="/contacto" element={<Contacto />} />
-            
-            {/* Ruta de formateo de chords - Herramienta principal */}
-            <Route path="/formateo-chords" element={<FormateoChords />} />
-            
-            {/* Ruta de chords almango - Biblioteca de acordes */}
-            <Route path="/chordsalmango" element={<ChordsAlmango />} />
-            
-            {/* Ruta de ayuda - Centro de consultas */}
-            <Route path="/ayuda" element={<ConsultasAyuda />} />
-            
-            {/* Ruta de chords covers - Covers musicales */}
-            <Route path="/chordscovers" element={<ChordsCovers />} />
-            
-            {/* Ruta comodín para manejar URLs no encontradas */}
-            <Route path="*" element={<MainContent />} />
-            
-          </Routes>
+        <div className="main-content">
+          <div className="content">
+            <Routes>
+              <Route path="/" element={<MainContent />} />
+              <Route path="/contacto" element={<Contacto />} />
+              <Route path="/formateo-chords" element={<FormateoChords />} />
+              <Route path="/ayuda" element={<ConsultasAyuda />} />
+              <Route path="/chords-viewer" element={<ChordsViewer />} />
+              <Route path="*" element={<MainContent />} />
+            </Routes>
+          </div>
         </div>
-      </div>
-      
-      {/* Separador visual entre contenido y footer */}
-      <hr className="section-divider" />
-      
-      {/* Slider de publicidad */}
-      <MainPublicidadSlider />
-      
-      {/* Footer de la aplicación */}
-      <Footer />
-      
-      {/* Botón flotante de WhatsApp */}
-      <MainWhatsappIcon />
-      
-    </Router>
+        
+        <hr className="section-divider" />
+        <MainPublicidadSlider />
+        <Footer />
+        <MainWhatsappIcon />
+      </Router>
+    </HeaderSearchProvider>
   );
 }
 
-// Exportación del componente principal
 export default App;

@@ -9,7 +9,7 @@ import {
   FiSearch,
   FiFilter
 } from "react-icons/fi";
-import Sidebar from "./Sidebar";
+
 import "../assets/scss/_03-Componentes/_FormateoChords.scss";
 
 const FormateoChords = () => {

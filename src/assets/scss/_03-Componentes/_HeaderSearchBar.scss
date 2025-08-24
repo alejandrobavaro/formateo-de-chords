@@ -1,13 +1,7 @@
 /* =============================================== */
-/* HEADER SEARCH BAR COMPACTO
+/* HEADER SEARCH BAR - Barra de búsqueda compacta
+/* Diseño mobile-first con breakpoints en 768px y 1024px
 /* =============================================== */
-
-$color-primary: #1a1a1a;
-$color-secondary: #e63946;
-$color-accent: #f1faee;
-$color-text: #f8f9fa;
-$font-music: 'Montserrat', 'Arial', sans-serif;
-
 .searchbar {
   width: 100%;
   display: flex;
@@ -18,37 +12,37 @@ $font-music: 'Montserrat', 'Arial', sans-serif;
 
 .searchbar-input {
   width: 100%;
-  background: rgba($color-text, 0.12);
-  color: $color-text;
-  border: 1.5px solid rgba($color-text, 0.25);
+  background: rgba(248, 249, 250, 0.12);
+  color: #f8f9fa;
+  border: 1.5px solid rgba(248, 249, 250, 0.25);
   border-radius: 25px;
   padding: 0.625rem 1.125rem 0.625rem 2.75rem;
   font-size: 0.95rem;
-  font-family: $font-music;
+  font-family: 'Montserrat', 'Arial', sans-serif;
   font-weight: 500;
   transition: all 0.3s ease;
   backdrop-filter: blur(12px);
+}
 
-  &::placeholder {
-    color: rgba($color-text, 0.65);
-    font-style: italic;
-    font-weight: 400;
-    letter-spacing: 0.3px;
-  }
+.searchbar-input::placeholder {
+  color: rgba(248, 249, 250, 0.65);
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+}
 
-  &:hover {
-    border-color: rgba($color-secondary, 0.6);
-    background: rgba($color-text, 0.18);
-    box-shadow: 0 0 12px rgba($color-secondary, 0.15);
-  }
+.searchbar-input:hover {
+  border-color: rgba(230, 57, 70, 0.6);
+  background: rgba(248, 249, 250, 0.18);
+  box-shadow: 0 0 12px rgba(230, 57, 70, 0.15);
+}
 
-  &:focus {
-    outline: none;
-    border-color: $color-secondary;
-    background: rgba($color-text, 0.22);
-    box-shadow: 0 0 0 3px rgba($color-secondary, 0.25);
-    transform: scale(1.02);
-  }
+.searchbar-input:focus {
+  outline: none;
+  border-color: #e63946;
+  background: rgba(248, 249, 250, 0.22);
+  box-shadow: 0 0 0 3px rgba(230, 57, 70, 0.25);
+  transform: scale(1.02);
 }
 
 .searchbar::before {
@@ -57,14 +51,14 @@ $font-music: 'Montserrat', 'Arial', sans-serif;
   left: 1rem;
   top: 50%;
   transform: translateY(-50%);
-  color: rgba($color-text, 0.75);
+  color: rgba(248, 249, 250, 0.75);
   font-size: 0.95rem;
   z-index: 2;
   transition: color 0.3s ease;
 }
 
 .searchbar-input:focus + .searchbar::before {
-  color: $color-secondary;
+  color: #e63946;
 }
 
 /* --- Media Queries para búsqueda --- */
@@ -73,7 +67,6 @@ $font-music: 'Montserrat', 'Arial', sans-serif;
     padding: 0.5625rem 1rem 0.5625rem 2.5rem;
     font-size: 0.9rem;
   }
-
   .searchbar::before {
     left: 0.875rem;
     font-size: 0.9rem;
@@ -85,7 +78,6 @@ $font-music: 'Montserrat', 'Arial', sans-serif;
     padding: 0.5rem 0.875rem 0.5rem 2.25rem;
     font-size: 0.875rem;
   }
-
   .searchbar::before {
     left: 0.75rem;
     font-size: 0.85rem;
@@ -97,7 +89,6 @@ $font-music: 'Montserrat', 'Arial', sans-serif;
     padding: 0.4375rem 0.75rem 0.4375rem 2rem;
     font-size: 0.85rem;
   }
-
   .searchbar::before {
     left: 0.625rem;
     font-size: 0.8rem;
