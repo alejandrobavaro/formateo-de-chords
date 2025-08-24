@@ -1,7 +1,7 @@
 [
   {
     "id": "song1",
-    "imagenReferencia": "/public/img/10-chords/covers-chords/Credence-HaveYouEverSeenTheRain-Tono-A.jpg",
+    "imagenReferencia": "/img/10-chords/covers-chords/Credence-HaveYouEverSeenTheRain-Tono-A.jpg",
     "genero": "Rock Clásico",
     "artista": "Creedence Clearwater Revival",
     "cancion": "Have You Ever Seen The Rain",
@@ -9,9 +9,8 @@
     "compas": "4/4",
     "capo": 0,
     "tonoOriginal": "A",
-    "tonoActual": "A",
     "informacionExtra": "Un clásico de 1970 sobre los altibajos de la vida",
-    "secciones": [
+    "Secciones": [
       {
         "titulo": "INTRO",
         "letra": "",
@@ -35,26 +34,7 @@
         "letra": "I wanna know\nHave you ever seen the rain\nI wanna know\nHave you ever seen the rain\nComing down on a sunny day.",
         "acordes": ["D", "E", "A", "E/G#", "F#m", "E", "D", "D", "E", "A"],
         "duracion": "00:30"
-      },
-      {
-        "titulo": "ESTROFA 3",
-        "letra": "Yesterday and days before\nSun is cold and rain is hard, I know\nBeen that way for all my time.",
-        "acordes": ["A", "E", "A"],
-        "duracion": "00:45"
-      },
-      {
-        "titulo": "ESTROFA 4",
-        "letra": "'Til forever on it goes\nThru the circle fast and slow, I know\nAnd it can't stop, I wonder.",
-        "acordes": ["A", "E", "A"],
-        "duracion": "00:45"
-      },
-      {
-        "titulo": "ESTRIBILLO FINAL",
-        "letra": "I wanna know\nHave you ever seen the rain\nI wanna know\nHave you ever seen the rain\nComing down on a sunny day.",
-        "acordes": ["D", "E", "A", "E/G#", "F#m", "E", "D", "D", "E", "A"],
-        "duracion": "00:30"
       }
     ]
   }
-  
 ]

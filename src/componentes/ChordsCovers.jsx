@@ -1,39 +1,75 @@
+// components/ChordsCovers.jsx (versión corregida)
 import React, { useState, useEffect } from "react";
 import Sidebar from "./Sidebar";
 import jsPDF from "jspdf";
 import html2canvas from "html2canvas";
-import { BsWhatsapp, BsFacebook, BsInstagram, BsEnvelope } from "react-icons/bs";
-import { FaDownload, FaEye, FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import { 
+  BsWhatsapp, 
+  BsFacebook, 
+  BsInstagram, 
+  BsEnvelope,
+  BsDownload,
+  BsEye
+} from "react-icons/bs";
+import { 
+  FiChevronUp, 
+  FiChevronDown, 
+  FiFilter,
+  FiMusic,
+  FiAlertCircle
+} from "react-icons/fi";
 import "../assets/scss/_03-Componentes/_ChordsCovers.scss";
 
 const ChordsCovers = () => {
+  // Estados del componente
   const [almangoData, setAlmangoData] = useState([]);
   const [coversData, setCoversData] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState("TODOS");
   const [transposition, setTransposition] = useState(0);
   const [exportFormat, setExportFormat] = useState("PDF");
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+  const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState(null);
 
+  // Efecto para cargar datos - VERSIÓN CORREGIDA
   useEffect(() => {
-    // Cargar ambos archivos JSON
-    fetch("/chordsalmango.json")
-      .then((response) => response.json())
-      .then((data) => {
-        setAlmangoData(data);
-        console.log("Datos Almango cargados:", data);
-      })
-      .catch((error) => console.error("Error al cargar los datos Almango:", error));
+    const loadData = async () => {
+      try {
+        setIsLoading(true);
+        setError(null);
+        
+        console.log("Iniciando carga de datos...");
+        
+        // Solo cargamos un archivo JSON para evitar el problema
+        const response = await fetch("/chordscovers.json");
+        
+        console.log("Response recibida:", response);
+        
+        if (!response || !response.ok) {
+          throw new Error(`Error HTTP: ${response?.status || 'No response'}`);
+        }
 
-    fetch("/chordscovers.json")
-      .then((response) => response.json())
-      .then((data) => {
+        const data = await response.json();
+        console.log("Datos cargados:", data);
+        
+        // Asignamos los mismos datos a ambos estados para testing
+        setAlmangoData(data);
         setCoversData(data);
-        console.log("Datos Covers cargados:", data);
-      })
-      .catch((error) => console.error("Error al cargar los datos Covers:", error));
+        
+      } catch (error) {
+        console.error("Error completo al cargar los datos:", error);
+        setError(`No se pudieron cargar los datos: ${error.message}`);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    loadData();
   }, []);
 
+  // Función para transponer acordes
   const transposeChord = (chord) => {
+    if (!chord || chord === 'N.C.' || chord === '(E)') return chord;
+    
     const chords = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"];
     const index = chords.indexOf(chord);
     if (index === -1) return chord;
@@ -41,39 +77,40 @@ const ChordsCovers = () => {
     return chords[newIndex];
   };
 
-  const transposeSections = (sections) => {
-    return sections.map((section) => ({
-      ...section,
-      acordes: section.acordes.map(transposeChord),
-    }));
-  };
-
+  // Manejar cambio de transposición
   const handleTransposeChange = (step) => {
-    setTransposition(transposition + step);
+    setTransposition(prev => prev + step);
   };
 
-  const handleExport = () => {
-    const element = document.getElementById("chords-viewer");
-    if (exportFormat === "PDF") {
-      const pdf = new jsPDF("p", "mm", "a4");
-      pdf.html(element, {
-        callback: () => {
-          pdf.save("chords.pdf");
-        },
-      });
-    } else if (exportFormat === "JPG") {
-      html2canvas(element).then((canvas) => {
+  // Manejar exportación
+  const handleExport = async () => {
+    try {
+      const element = document.getElementById("chords-viewer");
+      if (exportFormat === "PDF") {
+        const pdf = new jsPDF("p", "mm", "a4");
+        pdf.html(element, {
+          callback: () => {
+            pdf.save("chords-covers.pdf");
+          },
+        });
+      } else if (exportFormat === "JPG") {
+        const canvas = await html2canvas(element);
         const imgData = canvas.toDataURL("image/jpeg");
-        const pdf = new jsPDF();
-        pdf.addImage(imgData, "JPEG", 0, 0);
-        pdf.save("chords.jpg");
-      });
+        const link = document.createElement("a");
+        link.href = imgData;
+        link.download = "chords-covers.jpg";
+        link.click();
+      }
+    } catch (error) {
+      console.error("Error en exportación:", error);
+      alert("Error al exportar: " + error.message);
     }
   };
 
+  // Manejar cambio de categoría
   const handleCategoryChange = (category) => setSelectedCategory(category);
-  const toggleSidebar = () => setIsSidebarOpen(!isSidebarOpen);
 
+  // Manejar descarga de archivos
   const handleDownload = (url, name) => {
     const link = document.createElement("a");
     link.href = url;
@@ -81,28 +118,32 @@ const ChordsCovers = () => {
     link.click();
   };
 
+  // Manejar vista previa
   const handlePreview = (url) => window.open(url, "_blank");
 
-  const filteredData = coversData.filter(
-    (item) => selectedCategory === "TODOS" || item.genero === selectedCategory
-  );
-
-  const categories = ["TODOS", ...new Set(coversData.map((item) => item.genero))];
-
+  // Compartir por WhatsApp
   const shareOnWhatsApp = (item) => {
-    const message = `Mirá este acorde: ${item.cancion} de ${item.artista}.\nInformación extra: ${item.informacionExtra}`;
+    const message = `🎵 ${item.cancion} - ${item.artista}\n🎶 Género: ${item.genero}\n📊 Información: ${item.informacionExtra}\n\n¡Mirá este acorde en Formateo Chords!`;
     const whatsappUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, "_blank");
   };
 
+  // Renderizar prosa de canción
   const renderSongProse = (song) => {
-    return song.Secciones.map((section, index) => (
-      <div key={index} className="song-prose-section">
-        <h3 className="section-title">{section.titulo}</h3>
+    if (!song.Secciones) return null;
+    
+    return song.Secciones.map((section, sectionIndex) => (
+      <div key={sectionIndex} className="song-prose-section">
+        <h3 className="section-title">
+          <FiMusic className="section-icon" />
+          {section.titulo}
+        </h3>
         <div className="prose-content">
           <div className="chords-line">
-            {section.acordes.map((chord, i) => (
-              <span key={i} className="chord">{chord}</span>
+            {section.acordes && section.acordes.map((chord, chordIndex) => (
+              <span key={chordIndex} className="chord">
+                {transposeChord(chord)}
+              </span>
             ))}
           </div>
           <p className="lyrics">{section.letra}</p>
@@ -111,111 +152,161 @@ const ChordsCovers = () => {
     ));
   };
 
+  // Filtrar datos por categoría
+  const filteredData = coversData.filter && coversData.filter(
+    (item) => selectedCategory === "TODOS" || item.genero === selectedCategory
+  ) || [];
+
+  // Obtener categorías únicas
+  const categories = ["TODOS", ...new Set(coversData.map && coversData.map((item) => item.genero) || [])];
+
+  // Estados de carga y error
+  if (isLoading) {
+    return (
+      <div className="chords-covers-container">
+        <Sidebar />
+        <div className="loading-state">
+          <FiMusic className="loading-icon" />
+          <p>Cargando acordes y covers...</p>
+        </div>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="chords-covers-container">
+        <Sidebar />
+        <div className="error-state">
+          <FiAlertCircle className="error-icon" />
+          <p className="error-message">{error}</p>
+          <button 
+            onClick={() => window.location.reload()} 
+            className="retry-button"
+          >
+            Reintentar
+          </button>
+          <div className="debug-info">
+            <p>Ruta intentada: /chordscovers.json</p>
+            <p>Verifica que el archivo existe en la carpeta public/</p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="chords-covers-container">
       <Sidebar />
-      <div className="controls">
-        <button onClick={() => handleTransposeChange(-1)}>Bajar tono</button>
-        <button onClick={() => handleTransposeChange(1)}>Subir tono</button>
-        <select onChange={(e) => setExportFormat(e.target.value)} value={exportFormat}>
-          <option value="PDF">Exportar a PDF</option>
-          <option value="JPG">Exportar a JPG</option>
-        </select>
-        <button onClick={handleExport}>Exportar</button>
-      </div>
+      
+      <div className="chords-covers-content">
+        
+        {/* Panel de Controles */}
+        <div className="controls-panel">
+          <h2 className="panel-title">
+            <FiMusic className="title-icon" />
+            Biblioteca de Covers
+          </h2>
+          
+          <div className="controls-group">
+            
+            {/* Controles de Transposición */}
+            <div className="transpose-controls">
+              <span className="control-label">Transponer:</span>
+              <button 
+                onClick={() => handleTransposeChange(-1)} 
+                className="control-button"
+                aria-label="Bajar tono"
+              >
+                <FiChevronDown />
+              </button>
+              <span className="transposition-value">{transposition}</span>
+              <button 
+                onClick={() => handleTransposeChange(1)} 
+                className="control-button"
+                aria-label="Subir tono"
+              >
+                <FiChevronUp />
+              </button>
+            </div>
 
-      {/* Almango Section */}
-      <div id="chords-viewer" className="chords-container">
-        {almangoData.map((song) => (
-          <div key={song.id} className="chords-item">
-            <h1 className="song-title">{song.Cancion}</h1>
-            <h2 className="song-artist">{song.Artista}</h2>
-            <div className="song-details">
-              <p><strong>Género:</strong> {song.Genero}</p>
-              <p><strong>Tempo:</strong> {song.tempo} BPM</p>
-              <p><strong>Compás:</strong> {song.compas}</p>
-              <p><strong>Capo:</strong> {song.capo}</p>
-              <p><strong>Tono Original:</strong> {song.tonoOriginal}</p>
-              <p><strong>Tono Actual:</strong> {song.tonoActual}</p>
+            {/* Controles de Exportación */}
+            <div className="export-controls">
+              <select 
+                onChange={(e) => setExportFormat(e.target.value)} 
+                value={exportFormat}
+                className="format-select"
+              >
+                <option value="PDF">Exportar a PDF</option>
+                <option value="JPG">Exportar a JPG</option>
+              </select>
+              <button 
+                onClick={handleExport} 
+                className="export-button"
+              >
+                <BsDownload className="export-icon" />
+                Exportar
+              </button>
             </div>
-            <div className="song-prose">
-              {renderSongProse(song)}
-            </div>
+
           </div>
-        ))}
-      </div>
+        </div>
 
-      {/* Covers Section */}
-      <div className="filter-buttons">
-        {categories.map((category) => (
-          <button
-            key={category}
-            className={selectedCategory === category ? "selected" : ""}
-            onClick={() => handleCategoryChange(category)}
-          >
-            {category}
-          </button>
-        ))}
-      </div>
+        {/* Mostrar datos de prueba si existen */}
+        <div id="chords-viewer" className="chords-container">
+          {almangoData.length > 0 ? (
+            almangoData.map((song, index) => (
+              <div key={index} className="chords-item">
+                <div className="song-header">
+                  <h1 className="song-title">{song.cancion || "Título no disponible"}</h1>
+                  <h2 className="song-artist">{song.artista || "Artista no disponible"}</h2>
+                </div>
 
-      {filteredData.length === 0 ? (
-        <h4>No se encontraron datos en la búsqueda. Verifique su selección.</h4>
-      ) : (
-        <div className="data-container">
-          {filteredData.map((item) => (
-            <div key={item.id} className="data-item">
-              <h3>{item.cancion}</h3>
-              <h5>{item.artista}</h5>
-              <p><strong>Género:</strong> {item.genero}</p>
-              <p><strong>Tempo:</strong> {item.tempo}</p>
-              <p><strong>Compás:</strong> {item.compas}</p>
-              <p><strong>Capo:</strong> {item.capo}</p>
-              <p><strong>Tono Original:</strong> {item.tonoOriginal}</p>
-              <p><strong>Tono Actual:</strong> {item.tonoActual}</p>
-              <p><strong>Información Extra:</strong> {item.informacionExtra}</p>
-
-              {item.imagenReferencia && (
-                <div className="image-thumbnail">
-                  <img src={item.imagenReferencia} alt={`Portada de ${item.cancion}`} />
-                  <div className="image-buttons">
-                    <button onClick={() => handlePreview(item.imagenReferencia)}>
-                      <FaEye /> Vista Previa
-                    </button>
-                    <button onClick={() => handleDownload(item.imagenReferencia, `${item.cancion}.jpg`)}>
-                      <FaDownload /> Descargar
-                    </button>
+                <div className="song-details-grid">
+                  <div className="detail-item">
+                    <span className="detail-label">Género:</span>
+                    <span className="detail-value">{song.genero || "N/A"}</span>
+                  </div>
+                  <div className="detail-item">
+                    <span className="detail-label">Tempo:</span>
+                    <span className="detail-value">{song.tempo || "N/A"}</span>
+                  </div>
+                  <div className="detail-item">
+                    <span className="detail-label">Compás:</span>
+                    <span className="detail-value">{song.compas || "N/A"}</span>
+                  </div>
+                  <div className="detail-item">
+                    <span className="detail-label">Capo:</span>
+                    <span className="detail-value">{song.capo || "N/A"}</span>
+                  </div>
+                  <div className="detail-item">
+                    <span className="detail-label">Tono Original:</span>
+                    <span className="detail-value">{song.tonoOriginal || "N/A"}</span>
+                  </div>
+                  <div className="detail-item">
+                    <span className="detail-label">Tono Actual:</span>
+                    <span className="detail-value">
+                      {transposeChord(song.tonoOriginal) || "N/A"}
+                    </span>
                   </div>
                 </div>
-              )}
 
-              <div className="song-sections">
-                {item.secciones.map((section, index) => (
-                  <div key={index} className="song-section">
-                    <h4>{section.titulo}</h4>
-                    <pre className="chords">{section.acordes.join(" - ")}</pre>
-                    <p className="lyrics">{section.letra}</p>
+                {song.Secciones && (
+                  <div className="song-prose-container">
+                    {renderSongProse(song)}
                   </div>
-                ))}
+                )}
               </div>
-
-              <div className="social-sharing">
-                <button onClick={() => shareOnWhatsApp(item)}>
-                  <BsWhatsapp /> Compartir en WhatsApp
-                </button>
-                <button>
-                  <BsFacebook /> Compartir en Facebook
-                </button>
-                <button>
-                  <BsInstagram /> Compartir en Instagram
-                </button>
-                <button>
-                  <BsEnvelope /> Compartir por Email
-                </button>
-              </div>
+            ))
+          ) : (
+            <div className="no-data">
+              <FiAlertCircle />
+              <p>No hay datos disponibles para mostrar</p>
             </div>
-          ))}
+          )}
         </div>
-      )}
+
+      </div>
     </div>
   );
 };

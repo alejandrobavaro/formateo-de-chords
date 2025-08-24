@@ -1,8 +1,7 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import '../assets/scss/_03-Componentes/_HeaderSearchBar.scss';
 
-function HeaderSearchBar({ searchQuery = '', setSearchQuery = () => {}, placeholder = 'Search...' }) {
+function HeaderSearchBar({ searchQuery = '', setSearchQuery = () => {}, placeholder = 'Buscar...' }) {
   const handleSearchChange = (event) => {
     setSearchQuery(event.target.value);
   };
@@ -14,15 +13,11 @@ function HeaderSearchBar({ searchQuery = '', setSearchQuery = () => {}, placehol
         value={searchQuery}
         onChange={handleSearchChange}
         placeholder={placeholder}
+        className="searchbar-input"
+        aria-label="Buscar"
       />
     </div>
   );
 }
-
-HeaderSearchBar.propTypes = {
-  searchQuery: PropTypes.string,
-  setSearchQuery: PropTypes.func,
-  placeholder: PropTypes.string,
-};
 
 export default HeaderSearchBar;

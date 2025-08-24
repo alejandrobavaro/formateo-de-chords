@@ -1,104 +1,265 @@
+/* =============================================== */
+/* SIDEBAR - Panel lateral de herramientas
+/* Estética unificada con el resto de la aplicación
+/* =============================================== */
+
+/* CONTENEDOR PRINCIPAL DEL SIDEBAR */
 .sidebar {
-  width: auto;
-  background-color: transparent;
-  // border-radius: 35%;
-  border-right: 2px solid #ff910050;
-  padding: 20px;
-  margin: 0px;
+  width: 250px; /* Ancho expandido */
+  background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%); /* Degradado oscuro consistente */
+  border-right: 2px solid #e63946; /* Borde rojo coral */
+  padding: 1rem; /* Padding consistente */
+  margin: 0;
   flex-shrink: 0;
   position: relative;
-  transition: width 0.3s ease-in-out;
+  transition: all 0.3s ease; /* Transición suave */
+  min-height: 100vh; /* Altura completa */
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.3); /* Sombra suave */
+}
 
+/* BOTÓN DE TOGGLE */
+.sidebar-toggle {
+  display: flex; /* Layout flexible */
+  align-items: center; /* Centrado vertical */
+  justify-content: center; /* Centrado horizontal */
+  background: rgba(230, 57, 70, 0.2); /* Fondo rojo semi-transparente */
+  border: 1px solid #e63946; /* Borde rojo */
+  border-radius: 50%; /* Forma circular */
+  color: #ffd166; /* Color dorado */
+  font-size: 1.2rem; /* Tamaño del icono */
+  cursor: pointer; /* Cursor pointer */
+  position: absolute; /* Posicionamiento absoluto */
+  top: 1rem; /* Posición desde arriba */
+  right: -15px; /* Posición desde la derecha */
+  z-index: 1000; /* Por encima de otros elementos */
+  width: 30px; /* Ancho fijo */
+  height: 30px; /* Alto fijo */
+  transition: all 0.3s ease; /* Transición suave */
+
+  /* Estados del botón */
+  &:hover {
+    background: rgba(230, 57, 70, 0.3); /* Fondo más oscuro al hover */
+    transform: scale(1.1); /* Escala ligeramente */
+    box-shadow: 0 0 10px rgba(230, 57, 70, 0.4); /* Sombra al hover */
+  }
+
+  &:focus {
+    outline: 2px solid #e63946; /* Outline para accesibilidad */
+    outline-offset: 2px; /* Espaciado del outline */
+  }
+}
+
+/* CONTENIDO DEL SIDEBAR */
+.sidebar-content {
+  display: flex; /* Layout flexible */
+  flex-direction: column; /* Disposición vertical */
+  gap: 1.5rem; /* Espaciado entre secciones */
+  padding-top: 2rem; /* Espacio superior */
+}
+
+/* SECCIONES DEL SIDEBAR */
+.sidebar-section {
+  border-bottom: 1px solid rgba(255, 209, 102, 0.2); /* Línea divisoria dorada */
+  padding-bottom: 1rem; /* Espacio inferior */
+
+  &:last-child {
+    border-bottom: none; /* Sin borde en la última sección */
+  }
+}
+
+/* TÍTULO DE SECCIÓN */
+.section-title {
+  display: flex; /* Layout flexible */
+  align-items: center; /* Centrado vertical */
+  gap: 0.5rem; /* Espacio entre icono y texto */
+  font-size: 0.95rem; /* Tamaño de fuente */
+  color: #ffd166; /* Color dorado */
+  margin: 0 0 0.75rem 0; /* Margen inferior */
+  padding: 0; /* Sin padding */
+  font-weight: 600; /* Peso semi-negrita */
+  letter-spacing: 0.5px; /* Espaciado entre letras */
+}
+
+/* ICONO DE SECCIÓN */
+.section-icon {
+  font-size: 1.1rem; /* Tamaño del icono */
+  color: #e63946; /* Color rojo coral */
+}
+
+/* TEXTO DE SECCIÓN */
+.section-text {
+  flex: 1; /* Ocupa espacio disponible */
+}
+
+/* LISTA DE SECCIÓN */
+.section-list {
+  list-style: none; /* Sin viñetas */
+  padding: 0; /* Sin padding */
+  margin: 0; /* Sin margen */
+  display: flex; /* Layout flexible */
+  flex-direction: column; /* Disposición vertical */
+  gap: 0.5rem; /* Espaciado entre items */
+}
+
+/* ITEMS DE LISTA */
+.list-item {
+  display: flex; /* Layout flexible */
+  align-items: center; /* Centrado vertical */
+  gap: 0.5rem; /* Espacio entre icono y texto */
+  padding: 0.5rem 0.75rem; /* Padding interno */
+  border-radius: 8px; /* Esquinas redondeadas */
+  transition: all 0.3s ease; /* Transición suave */
+  color: #e9ecef; /* Color de texto */
+  font-size: 0.85rem; /* Tamaño de fuente */
+  cursor: pointer; /* Cursor pointer */
+
+  /* Estados del item */
+  &:hover {
+    background: rgba(255, 209, 102, 0.1); /* Fondo dorado semi-transparente */
+    color: #ffd166; /* Color dorado al hover */
+    transform: translateX(5px); /* Desplazamiento suave */
+  }
+}
+
+/* ICONO DE ITEM */
+.item-icon {
+  font-size: 0.9rem; /* Tamaño del icono */
+  color: #adb5bd; /* Color gris por defecto */
+  transition: color 0.3s ease; /* Transición de color */
+
+  .list-item:hover & {
+    color: #e63946; /* Color rojo al hover */
+  }
+}
+
+/* ESTADO COLAPSADO */
+.sidebar.collapsed {
+  width: 50px; /* Ancho mínimo cuando está colapsado */
+  padding: 1rem 0.5rem; /* Padding reducido */
+
+  /* Ocultar contenido cuando está colapsado */
+  .sidebar-content {
+    display: none; /* Contenido oculto */
+  }
+
+  /* Rotar el icono del botón toggle */
   .sidebar-toggle {
-    display: block;
-    background-color: transparent;
-    border: none;
-    color: #ffae00;
-    font-size: x-large;
-    cursor: pointer;
-    position: absolute;
-    top: 0px;
-    right: 10px;
-    z-index: 1000;
-    transition: transform 0.3s ease-in-out;
-
-    &:focus {
-      outline: none;
-    }
+    right: -12px; /* Posición ajustada */
+    transform: rotate(180deg); /* Rotación 180 grados */
 
     &:hover {
-      transform: scale(1.2);
-    }
-
-    &.pulse {
-      animation: pulse 2s infinite;
-    }
-  }
-
-  h2 {
-    font-size: small;
-    color: #ffc400c6;
-    margin: 5px 0;
-    padding-right: 10px;
-    opacity: 3;
-    text-align: left;
-    transition: opacity 0.3s ease-in-out;
-    position: relative;
-  }
-
-  ul {
-    padding: 0px;
-    margin-left: 20px;
-    text-align: left;
-
-    li {
-      font-size: x-small;
-      margin: 0px;
-      color: #ffffff;
-      text-align: left;
-
-      a {
-        text-decoration: none;
-        color: #ffffff;
-        text-align: left;
-
-        &:hover {
-          color: rgb(255, 208, 0);
-        }
-      }
-    }
-
-    hr {
-      margin: 10px 0;
-      border-top: 1px solid #ffcf87c5;
-      opacity: 0.5;
-      transition: opacity 0.3s ease-in-out;
-    }
-  }
-
-  &.collapsed {
-    width: 30px;
-    padding: 0px 10px;
-
-    .sidebar-content {
-      display: none;
-    }
-
-    .sidebar-toggle {
-      right: 10px;
-      transform: rotate(180deg);
+      transform: rotate(180deg) scale(1.1); /* Mantener rotación al hover */
     }
   }
 }
 
-@keyframes pulse {
-  0% {
+/* ANIMACIÓN DE PULSO PARA LLAMAR LA ATENCIÓN */
+@keyframes pulse-gentle {
+  0%, 100% {
     transform: scale(1);
+    box-shadow: 0 0 0 rgba(230, 57, 70, 0);
   }
   50% {
-    transform: scale(1.2);
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(230, 57, 70, 0.4);
   }
-  100% {
-    transform: scale(1);
+}
+
+/* Clase para animación de pulso */
+.pulse {
+  animation: pulse-gentle 2s infinite; /* Animación infinita */
+}
+
+/* ============= MEDIA QUERIES ============= */
+
+/* --- Tablet (768px) --- */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 200px; /* Ancho reducido para tablet */
+    
+    /* Estado expandido en tablet */
+    &:not(.collapsed) {
+      position: fixed; /* Posición fija */
+      z-index: 1000; /* Por encima de todo */
+      height: 100vh; /* Altura completa */
+      overflow-y: auto; /* Scroll vertical si es necesario */
+    }
   }
+
+  .sidebar.collapsed {
+    width: 40px; /* Más estrecho cuando está colapsado */
+  }
+}
+
+/* --- Mobile (< 480px) --- */
+@media (max-width: 480px) {
+  .sidebar {
+    width: 180px; /* Ancho más estrecho para móviles */
+    
+    /* Estado expandido en móviles */
+    &:not(.collapsed) {
+      box-shadow: 3px 0 15px rgba(0, 0, 0, 0.5); /* Sombra más pronunciada */
+    }
+  }
+
+  .sidebar.collapsed {
+    width: 35px; /* Muy estrecho cuando está colapsado */
+    padding: 0.75rem 0.25rem; /* Padding mínimo */
+  }
+
+  .sidebar-toggle {
+    width: 25px; /* Botón más pequeño */
+    height: 25px;
+    font-size: 1rem; /* Icono más pequeño */
+    right: -10px; /* Posición ajustada */
+  }
+}
+
+/* ============= MEJORAS DE ACCESIBILIDAD ============= */
+
+/* --- Reduce motion --- */
+@media (prefers-reduced-motion: reduce) {
+  .sidebar,
+  .sidebar-toggle,
+  .list-item,
+  .item-icon {
+    transition: none;
+    animation: none;
+  }
+  
+  .list-item:hover {
+    transform: none;
+  }
+  
+  .sidebar-toggle:hover {
+    transform: none;
+  }
+}
+
+/* --- Alto contraste --- */
+@media (prefers-contrast: high) {
+  .sidebar {
+    background: #000000;
+    border-right: 2px solid #ffffff;
+  }
+  
+  .section-title {
+    color: #ffffff;
+  }
+  
+  .list-item {
+    color: #ffffff;
+    
+    &:hover {
+      background: #333333;
+      color: #ff6b6b;
+    }
+  }
+}
+
+/* --- Estados focus para navegación por teclado --- */
+.sidebar-toggle:focus-visible,
+.list-item:focus-visible {
+  outline: 2px solid #e63946;
+  outline-offset: 2px;
 }

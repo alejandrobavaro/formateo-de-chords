@@ -3,219 +3,98 @@ import {
   BrowserRouter as Router,
   Route,
   Routes,
-  Navigate,
 } from "react-router-dom";
 
-//------------ESTILOS--------------
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap-icons/font/bootstrap-icons.css";
+// ============ IMPORTACIÓN DE ESTILOS ============
+// Frameworks y librerías externas
+import "bootstrap/dist/css/bootstrap.min.css"; // Framework Bootstrap para componentes base
+import "bootstrap-icons/font/bootstrap-icons.css"; // Iconos de Bootstrap
+
+// Estilos globales de la aplicación
 import "./assets/scss/_01-General/_BodyIndexApp.scss";
 
-//------------HEADER--------------
-import Header from "./componentes/Header";
-import { TareasNotificacionesProvider } from "./componentes/TareasNotificacionesContext";
-import { HeaderSearchProvider } from "./componentes/HeaderSearchContextBuscadorModular";
-import HeaderSearchBar from "./componentes/HeaderSearchBar";
+// ============ COMPONENTES DE LA APLICACIÓN ============
 
-//-----------HOME - MAIN-----------------
-import MainContent from "./componentes/MainContent";
-import MainWhatsappIcon from "./componentes/MainWhatsappIcon";
-import MainPublicidadSlider from "./componentes/MainPublicidadSlider";
+// Header y Navegación
+import Header from "./componentes/Header"; // Componente principal de navegación
 
-//---------------TAREAS---------------
-import TareasToDo from "./componentes/TareasToDo";
-import TareasNotas from "./componentes/TareasNotas";
-import TareasTemporizador from "./componentes/TareasTemporizador";
 
-//--------------FOOTER----------------
-import Footer from "./componentes/Footer";
+// Contenido Principal y Elementos de UI
+import MainContent from "./componentes/MainContent"; // Contenido principal de la página de inicio
+import MainWhatsappIcon from "./componentes/MainWhatsappIcon"; // Botón flotante de WhatsApp
+import MainPublicidadSlider from "./componentes/MainPublicidadSlider"; // Slider de publicidad
 
-//-----------CONTACTO-----------------
-import ContactoLogoRedes from "./componentes/ContactoLogoRedes";
-import ContactoFormularioSlider from "./componentes/ContactoFormularioSlider";
+// Footer
+import Footer from "./componentes/Footer"; // Footer unificado de la aplicación
 
-//-----------CHORDS--------------
-import ChordsCovers from "./componentes/ChordsCovers";
-import ChordsAlmango from "./componentes/ChordsAlmango";
+// Páginas de Contenido
+import Contacto from "./componentes/Contacto"; // Página de contacto unificada
+import ChordsCovers from "./componentes/ChordsCovers"; // Página de chords covers
+import ChordsAlmango from "./componentes/ChordsAlmango"; // Página de chords almango
+import FormateoChords from "./componentes/FormateoChords"; // Herramienta de formateo de chords
+import ConsultasAyuda from "./componentes/ConsultasAyuda"; // Página de ayuda y consultas
 
-//---------FORMATEO COMPONENTES--------------
-import FormateoChords from "./componentes/FormateoChords";
-import FormateoGacetilla from "./componentes/FormateoGacetilla";
-import FormateoListas from "./componentes/FormateoListas";
-import FormateoRiderAudio from "./componentes/FormateoRiderAudio";
-import FormateoRiderVideo from "./componentes/FormateoRiderVideo";
-import FormateoPedidosFecha from "./componentes/FormateoPedidosFecha";
-
-//-----------LOGIN-LOGOUT-REGISTRO-----------------
-import { AuthProvider, useAuth } from "./componentes/SesionAuthContext";
-import SesionRegister from "./componentes/SesionRegistrate";
-import SesionLogout from "./componentes/SesionLogout";
-import SesionLogin from "./componentes/SesionLogin";
-
-//-----------OTROS--------------
-import ConsultasAyuda from "./componentes/ConsultasAyuda";
-
-// Componente de Rutas Protegidas
-const ProtectedRoute = ({ children }) => {
-  const { state } = useAuth();
-  return state.isAuthenticated ? children : <Navigate to="/login" />;
-};
-
+// ============ COMPONENTE PRINCIPAL DE LA APLICACIÓN ============
 function App() {
   return (
-    <AuthProvider>
-      <TareasNotificacionesProvider>
-        <Router>
-          <Header />
-          <hr className="border border-0 opacity-20" />
-          <div className="main-content">
-            <HeaderSearchProvider>
-              <HeaderSearchBar />
-            </HeaderSearchProvider>
-            <div className="content">
-              <Routes>
-                <Route
-                  path="*"
-                  element={
-                    <ProtectedRoute>
-                      <MainContent />
-                    </ProtectedRoute>
-                  }
-                />
-                <Route path="/login" element={<SesionLogin />} />
-                <Route path="/register" element={<SesionRegister />} />
-                <Route path="/logout" element={<SesionLogout />} />
-
-                {/* Rutas protegidas */}
-                <Route
-                  path="/contacto"
-                  element={
-                    <ProtectedRoute>
-                      <ContactoLogoRedes />
-                      <ContactoFormularioSlider />
-                    </ProtectedRoute>
-                  }
-                />
-
-                <Route
-                  path="/formateo-chords"
-                  element={
-                    <ProtectedRoute>
-                      <FormateoChords />
-                    </ProtectedRoute>
-                  }
-                />
-                <Route
-                  path="/formateo-gacetilla"
-                  element={
-                    <ProtectedRoute>
-                      <FormateoGacetilla />
-                    </ProtectedRoute>
-                  }
-                />
-                <Route
-                  path="/formateo-listas"
-                  element={
-                    <ProtectedRoute>
-                      <FormateoListas />
-                    </ProtectedRoute>
-                  }
-                />
-                <Route
-                  path="/formateo-rider-audio"
-                  element={
-                    <ProtectedRoute>
-                      <FormateoRiderAudio />
-                    </ProtectedRoute>
-                  }
-                />
-                <Route
-                  path="/formateo-rider-video"
-                  element={
-                    <ProtectedRoute>
-                      <FormateoRiderVideo />
-                    </ProtectedRoute>
-                  }
-                />
-                <Route
-                  path="/pedidos-fecha"
-                  element={
-                    <ProtectedRoute>
-                      <FormateoPedidosFecha />
-                    </ProtectedRoute>
-                  }
-                />
-
-                <Route
-                  path="/chordsalmango"
-                  element={
-                    <ProtectedRoute>
-                      <ChordsAlmango />
-                    </ProtectedRoute>
-                  }
-                />
-                <Route
-                  path="/ayuda"
-                  element={
-                    <ProtectedRoute>
-                      <ConsultasAyuda />
-                    </ProtectedRoute>
-                  }
-                />
-                <Route
-                  path="/chordscovers"
-                  element={
-                    <ProtectedRoute>
-                      <ChordsCovers />
-                    </ProtectedRoute>
-                  }
-                />
-                <Route
-                  path="/to-do"
-                  element={
-                    <ProtectedRoute>
-                      <TareasToDo />
-                    </ProtectedRoute>
-                  }
-                />
-                <Route
-                  path="/main-notas"
-                  element={
-                    <ProtectedRoute>
-                      <TareasNotas />
-                    </ProtectedRoute>
-                  }
-                />
-                <Route
-                  path="/HeaderSearchBar"
-                  element={
-                    <ProtectedRoute>
-                      <HeaderSearchBar />
-                    </ProtectedRoute>
-                  }
-                />
-                <Route
-                  path="/MainTemporizadorTareas"
-                  element={
-                    <ProtectedRoute>
-                      <TareasTemporizador />
-                    </ProtectedRoute>
-                  }
-                />
-
-                {/* Ruta para manejar cualquier otra ruta no encontrada */}
-                <Route path="*" element={<MainContent />} />
-              </Routes>
-            </div>
-          </div>
-          <hr className="border border-0 opacity-20" />
-          <MainPublicidadSlider />
-          <Footer />
-          <MainWhatsappIcon />
-        </Router>
-      </TareasNotificacionesProvider>
-    </AuthProvider>
+    <Router>
+      {/* Estructura principal de la aplicación */}
+      
+      {/* Header de navegación */}
+      <Header />
+      
+      {/* Separador visual entre header y contenido */}
+      <hr className="section-divider" />
+      
+      {/* Contenedor principal del contenido */}
+      <div className="main-content">
+        
+  
+        
+        {/* Contenedor de rutas y contenido dinámico */}
+        <div className="content">
+          <Routes>
+            
+            {/* Ruta principal - Página de inicio */}
+            <Route path="/" element={<MainContent />} />
+            
+            {/* Ruta de contacto - Página unificada */}
+            <Route path="/contacto" element={<Contacto />} />
+            
+            {/* Ruta de formateo de chords - Herramienta principal */}
+            <Route path="/formateo-chords" element={<FormateoChords />} />
+            
+            {/* Ruta de chords almango - Biblioteca de acordes */}
+            <Route path="/chordsalmango" element={<ChordsAlmango />} />
+            
+            {/* Ruta de ayuda - Centro de consultas */}
+            <Route path="/ayuda" element={<ConsultasAyuda />} />
+            
+            {/* Ruta de chords covers - Covers musicales */}
+            <Route path="/chordscovers" element={<ChordsCovers />} />
+            
+            {/* Ruta comodín para manejar URLs no encontradas */}
+            <Route path="*" element={<MainContent />} />
+            
+          </Routes>
+        </div>
+      </div>
+      
+      {/* Separador visual entre contenido y footer */}
+      <hr className="section-divider" />
+      
+      {/* Slider de publicidad */}
+      <MainPublicidadSlider />
+      
+      {/* Footer de la aplicación */}
+      <Footer />
+      
+      {/* Botón flotante de WhatsApp */}
+      <MainWhatsappIcon />
+      
+    </Router>
   );
 }
 
+// Exportación del componente principal
 export default App;

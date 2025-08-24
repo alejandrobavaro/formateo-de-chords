@@ -1,153 +1,479 @@
+/* =============================================== */
+/* CHORDS ALMANGO - Visualizador de acordes musicales
+/* Estética unificada con el resto de la aplicación
+/* =============================================== */
+
+/* CONTENEDOR PRINCIPAL */
+.chords-almango-container {
+  display: flex;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+}
+
+/* CONTENEDOR DE VISUALIZACIÓN */
 .chords-display {
+  flex-grow: 1;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* PANEL DE CONTROLES */
+.controls-panel {
+  background: rgba(35, 35, 35, 0.8);
+  border: 1px solid #e63946;
+  border-radius: 12px;
+  padding: 1.5rem;
+  backdrop-filter: blur(10px);
+}
+
+.panel-title {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: #ffd166;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  justify-content: center;
+}
+
+.title-icon {
+  font-size: 1.8rem;
+  color: #e63946;
+}
+
+.controls-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CONTROLES DE TRANSPOSICIÓN */
+.transpose-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: rgba(255, 209, 102, 0.1);
+  padding: 0.75rem 1.25rem;
+  border-radius: 25px;
+  border: 1px solid rgba(255, 209, 102, 0.3);
+}
+
+.control-label {
+  color: #ffd166;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.control-button {
+  background: rgba(230, 57, 70, 0.2);
+  border: 1px solid #e63946;
+  border-radius: 50%;
+  color: #ffd166;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1.2rem;
+
+  &:hover {
+    background: rgba(230, 57, 70, 0.3);
+    transform: scale(1.1);
+  }
+
+  &:focus {
+    outline: 2px solid #e63946;
+    outline-offset: 2px;
+  }
+}
+
+.transposition-value {
+  color: #ffd166;
+  font-weight: 600;
+  font-size: 1.1rem;
+  min-width: 30px;
+  text-align: center;
+}
+
+/* CONTROLES DE EXPORTACIÓN */
+.export-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: rgba(255, 209, 102, 0.1);
+  padding: 0.75rem 1.25rem;
+  border-radius: 25px;
+  border: 1px solid rgba(255, 209, 102, 0.3);
+}
+
+.format-select {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 209, 102, 0.3);
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  color: #ffd166;
+  font-size: 0.9rem;
+  cursor: pointer;
+
+  &:focus {
+    outline: 2px solid #e63946;
+  }
+}
+
+.export-button {
+  background: linear-gradient(135deg, #e63946 0%, #c1121f 100%);
+  border: none;
+  border-radius: 20px;
+  padding: 0.75rem 1.5rem;
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background: linear-gradient(135deg, #c1121f 0%, #e63946 100%);
+    transform: translateY(-2px);
+  }
+
+  &:focus {
+    outline: 2px solid #e63946;
+    outline-offset: 2px;
+  }
+}
+
+.export-icon {
+  font-size: 1.1rem;
+}
+
+/* CONTENEDOR DE ACORDES */
+.chords-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+}
+
+/* ITEM DE ACORDES (CANCIÓN) */
+.chords-item {
+  background: rgba(35, 35, 35, 0.8);
+  border: 1px solid #e63946;
+  border-radius: 15px;
+  padding: 2rem;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* ENCABEZADO DE CANCIÓN */
+.song-header {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(255, 209, 102, 0.3);
+}
+
+.song-title {
+  color: #ffd166;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.5px;
+}
+
+.song-artist {
+  color: #e63946;
+  font-size: 1.5rem;
+  font-weight: 600;
+  opacity: 0.9;
+}
+
+/* GRID DE DETALLES */
+.song-details-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: rgba(255, 209, 102, 0.05);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 209, 102, 0.1);
+}
+
+.detail-item {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
-  background-color: transparent;
-  padding: 0px;
-  color: #fff;
-
-  .controls {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-
-    button {
-      background-color: #995d0e;
-      color: #000000;
-      border: none;
-      border-radius: 10px;
-      padding: 10px;
-      cursor: pointer;
-      margin: 0 5px;
-
-      &:hover {
-        background-color: #f7a300;
-      }
-    }
-
-    select {
-      padding: 10px;
-      margin-left: 10px;
-      background-color: #ffd000;
-      border-radius: 10px;
-      color: #4b2608;
-      border: none;
-    }
-  }
-
-  .chords-container {
-    width: 100%;
-    // max-width: 800px;
-    margin-top: 10px;
-
-    .chords-item {
-      background-color: #4b2608cb;
-      padding: 20px;
-      margin-bottom: 20px;
-      border-radius: 10px;
-      box-shadow: 0 2px 6px rgba(146, 139, 71, 0.5);
-
-      .song-title {
-        text-align: center;
-        font-size: large;
-        color: #ffd000;
-      }
-
-      .song-artist {
-        text-align: center;
-        font-size: 1.2em;
-        color: #ffd000;
-      }
-
-      .song-details {
-        margin-top: 10px;
-        font-size: 0.9em;
-        color: #d9dace;
-
-        p {
-          margin: 5px 0;
-        }
-
-        strong {
-          color: #ffd000;
-        }
-      }
-
-      .song-prose {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr); // Tres columnas para la información adicional
-        margin-top: 20px;
-        .song-prose-section {
-          margin-bottom: 20px;
-
-          .section-title {
-            font-size: 1.2em;
-            color: #ffd000;
-            margin-bottom: 10px;
-          }
-
-          .prose-content {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-
-            .chords-line {
-              margin-bottom: 10px;
-              font-size: 1.1em;
-              color: #ffd000;
-
-              .chord {
-                margin-right: 10px;
-              }
-            }
-
-            .lyrics {
-              font-size: 1.1em;
-              line-height: 1.6;
-              color: #d9dace;
-            }
-          }
-        }
-      }
-    }
-  }
+  gap: 0.25rem;
 }
 
-.song-details {
+.detail-label {
+  color: #ffd166;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.detail-value {
+  color: #e9ecef;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* GRID DE PROSA (ACORDES Y LETRA) */
+.song-prose-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); // Tres columnas para la información adicional
-  gap: 0px;
-  font-size: medium;
-  padding: 0;
-  margin: 0px;
-  border: rgb(255, 184, 104) solid 1px;
-  border-radius: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
 
-  p {
-    margin: 0px;
-    font-size: xx-small; // Tamaño de fuente más pequeño
-    color: #d9dace;
-    text-align: center;
-    line-height: 0px;
-  }
+.song-prose-section {
+  background: rgba(255, 209, 102, 0.05);
+  border: 1px solid rgba(255, 209, 102, 0.1);
+  border-radius: 10px;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
 
-  strong {
-    color: #ffd000;
-    font-weight: bold;
+  &:hover {
+    background: rgba(255, 209, 102, 0.1);
+    transform: translateY(-2px);
   }
 }
 
-
-.chords-almango-container {
+.section-title {
   display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #e63946;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(230, 57, 70, 0.3);
 }
 
-.sidebar {
-  width: 250px; // Ajusta el tamaño según sea necesario
+.section-icon {
+  font-size: 1.1rem;
+  color: #ffd166;
 }
 
-.chords-display {
+.prose-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.chords-line {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.chord {
+  background: linear-gradient(135deg, #e63946 0%, #c1121f 100%);
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 8px rgba(230, 57, 70, 0.3);
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(230, 57, 70, 0.4);
+  }
+}
+
+.lyrics {
+  color: #e9ecef;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin: 0;
+  text-align: left;
+  font-weight: 400;
+}
+
+/* ESTADOS DE CARGA Y ERROR */
+.loading-state,
+.error-state {
   flex-grow: 1;
-  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  text-align: center;
+}
+
+.loading-icon {
+  font-size: 3rem;
+  color: #ffd166;
+  margin-bottom: 1rem;
+  animation: pulse 2s infinite;
+}
+
+.error-message {
+  color: #e63946;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+.retry-button {
+  background: linear-gradient(135deg, #e63946 0%, #c1121f 100%);
+  border: none;
+  border-radius: 25px;
+  padding: 1rem 2rem;
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background: linear-gradient(135deg, #c1121f 0%, #e63946 100%);
+    transform: translateY(-2px);
+  }
+}
+
+/* ANIMACIÓN DE PULSO */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.7;
+    transform: scale(1.1);
+  }
+}
+
+/* ============= MEDIA QUERIES ============= */
+
+/* --- Tablet (768px) --- */
+@media (max-width: 768px) {
+  .chords-display {
+    padding: 1rem;
+  }
+  
+  .controls-group {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .transpose-controls,
+  .export-controls {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .song-details-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .song-prose-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .chords-item {
+    padding: 1.5rem;
+  }
+}
+
+/* --- Mobile (< 480px) --- */
+@media (max-width: 480px) {
+  .chords-display {
+    padding: 0.75rem;
+  }
+  
+  .controls-panel {
+    padding: 1rem;
+  }
+  
+  .panel-title {
+    font-size: 1.2rem;
+  }
+  
+  .song-title {
+    font-size: 1.8rem;
+  }
+  
+  .song-artist {
+    font-size: 1.2rem;
+  }
+  
+  .song-details-grid {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+  
+  .chords-item {
+    padding: 1rem;
+  }
+  
+  .song-prose-section {
+    padding: 1rem;
+  }
+  
+  .chord {
+    font-size: 1rem;
+    padding: 0.375rem 0.75rem;
+  }
+  
+  .lyrics {
+    font-size: 1rem;
+  }
+}
+
+/* ============= MEJORAS DE ACCESIBILIDAD ============= */
+@media (prefers-reduced-motion: reduce) {
+  .chord,
+  .control-button,
+  .export-button,
+  .song-prose-section,
+  .retry-button {
+    transition: none;
+  }
+  
+  .chord:hover,
+  .control-button:hover,
+  .export-button:hover,
+  .song-prose-section:hover,
+  .retry-button:hover {
+    transform: none;
+  }
+  
+  .loading-icon {
+    animation: none;
+  }
+}
+
+/* --- Modo alto contraste --- */
+@media (prefers-contrast: high) {
+  .chords-item {
+    background: #000000;
+    border: 2px solid #ffffff;
+  }
+  
+  .song-details-grid {
+    background: #111111;
+    border: 1px solid #ffffff;
+  }
+  
+  .chord {
+    background: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
+  }
 }

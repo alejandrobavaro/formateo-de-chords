@@ -1,0 +1,469 @@
+/* =============================================== */
+/* CONTACTO UNIFICADO - Componente combinado
+/* Diseño mobile-first con estética consistente
+/* =============================================== */
+
+/* CONTENEDOR PRINCIPAL */
+.contacto-unificado-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+  background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+  border-radius: 15px;
+  border: 1px solid #e63946;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* SECCIÓN 1: LOGOS Y REDES SOCIALES */
+.contacto-logos-redes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1rem 0;
+}
+
+/* CONTENEDOR DE LOGOS */
+.logos-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* LOGO PRINCIPAL */
+.logo-principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.logo-img {
+  width: 180px;
+  height: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.4));
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+/* LOGOS SECUNDARIOS */
+.logos-secundarios {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-secundario {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.3));
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.1) rotate(-5deg);
+  }
+}
+
+/* REDES SOCIALES */
+.redes-sociales {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.75rem;
+  width: 100%;
+  max-width: 600px;
+}
+
+/* ENLACES DE REDES SOCIALES */
+.red-social-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: #ffd166;
+  padding: 0.75rem 1rem;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+  background: rgba(255, 209, 102, 0.1);
+  border: 1px solid rgba(255, 209, 102, 0.2);
+
+  &:hover {
+    color: #e63946;
+    background: rgba(230, 57, 70, 0.15);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(230, 57, 70, 0.2);
+  }
+
+  i {
+    font-size: 1.2rem;
+    transition: transform 0.3s ease;
+  }
+
+  &:hover i {
+    transform: scale(1.2);
+  }
+
+  span {
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+  }
+}
+
+/* LÍNEA DIVISORIA */
+.contacto-divider {
+  border: 0;
+  height: 1px;
+  background: linear-gradient(90deg, 
+    transparent 0%, 
+    #e63946 50%, 
+    transparent 100%);
+  margin: 1rem 0;
+  opacity: 0.6;
+}
+
+/* SECCIÓN 2: FORMULARIO DE CONTACTO */
+.contacto-formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1rem 0;
+}
+
+/* TÍTULO DEL FORMULARIO */
+.formulario-titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  color: #ffd166;
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-align: center;
+
+  i {
+    color: #e63946;
+    font-size: 1.4rem;
+    animation: sparkle 2s infinite;
+  }
+}
+
+/* FORMULARIO DE CONTACTO */
+.formulario-contacto {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* GRUPOS DE FORMULARIO */
+.formulario-grupo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  label {
+    color: #ffd166;
+    font-size: 0.95rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+  }
+
+  input,
+  textarea {
+    padding: 0.875rem 1rem;
+    border: 1px solid rgba(255, 209, 102, 0.3);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+
+    &::placeholder {
+      color: rgba(255, 255, 255, 0.6);
+    }
+
+    &:focus {
+      outline: none;
+      border-color: #e63946;
+      background: rgba(255, 255, 255, 0.15);
+      box-shadow: 0 0 0 3px rgba(230, 57, 70, 0.2);
+    }
+  }
+
+  textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+}
+
+/* ACCIONES DEL FORMULARIO */
+.formulario-acciones {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+/* BOTÓN DE ENVÍO */
+.boton-enviar {
+  background: linear-gradient(135deg, #e63946 0%, #c1121f 100%);
+  color: #ffffff;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+
+  &:hover {
+    background: linear-gradient(135deg, #c1121f 0%, #e63946 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(230, 57, 70, 0.4);
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+}
+
+/* IMAGEN DECORATIVA DEL FORMULARIO */
+.formulario-imagen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.imagen-decorativa {
+  width: 120px;
+  height: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.4));
+  opacity: 0.8;
+  transition: all 0.3s ease;
+
+  &:hover {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+}
+
+/* ANIMACIÓN DE BRILLO */
+@keyframes sparkle {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.7;
+    transform: scale(1.1);
+    color: #ffd166;
+  }
+}
+
+/* ============= BREAKPOINT TABLET (768px) ============= */
+@media (min-width: 768px) {
+  .contacto-unificado-container {
+    padding: 1.5rem;
+  }
+
+  .contacto-logos-redes {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+
+  .logos-container {
+    flex: 1;
+  }
+
+  .redes-sociales {
+    flex: 2;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contacto-formulario {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+
+  .formulario-contacto {
+    flex: 2;
+  }
+
+  .formulario-imagen {
+    flex: 1;
+    justify-content: flex-end;
+  }
+
+  .imagen-decorativa {
+    width: 150px;
+  }
+}
+
+/* ============= BREAKPOINT ESCRITORIO (1024px) ============= */
+@media (min-width: 1024px) {
+  .contacto-unificado-container {
+    padding: 2rem;
+  }
+
+  .logo-img {
+    width: 200px;
+  }
+
+  .logo-secundario {
+    width: 80px;
+    height: 80px;
+  }
+
+  .redes-sociales {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .red-social-link {
+    padding: 1rem 1.25rem;
+    
+    span {
+      font-size: 1rem;
+    }
+  }
+
+  .formulario-titulo {
+    font-size: 1.5rem;
+  }
+
+  .imagen-decorativa {
+    width: 180px;
+  }
+}
+
+/* ============= ESTILOS PARA MÓVIL (< 768px) ============= */
+@media (max-width: 767px) {
+  .contacto-unificado-container {
+    padding: 0.75rem;
+  }
+
+  .logo-img {
+    width: 150px;
+  }
+
+  .logo-secundario {
+    width: 60px;
+    height: 60px;
+  }
+
+  .redes-sociales {
+    grid-template-columns: 1fr;
+  }
+
+  .red-social-link {
+    padding: 0.625rem 0.875rem;
+    
+    span {
+      font-size: 0.85rem;
+    }
+  }
+
+  .formulario-titulo {
+    font-size: 1.1rem;
+    
+    i {
+      font-size: 1.2rem;
+    }
+  }
+
+  .imagen-decorativa {
+    width: 100px;
+  }
+}
+
+/* ============= MÓVILES PEQUEÑOS (< 480px) ============= */
+@media (max-width: 480px) {
+  .contacto-unificado-container {
+    padding: 0.5rem;
+  }
+
+  .logo-img {
+    width: 120px;
+  }
+
+  .logos-secundarios {
+    gap: 0.5rem;
+  }
+
+  .logo-secundario {
+    width: 50px;
+    height: 50px;
+  }
+
+  .red-social-link {
+    padding: 0.5rem 0.75rem;
+    
+    i {
+      font-size: 1rem;
+    }
+    
+    span {
+      font-size: 0.8rem;
+    }
+  }
+
+  .formulario-grupo {
+    input,
+    textarea {
+      padding: 0.75rem;
+      font-size: 0.9rem;
+    }
+  }
+
+  .boton-enviar {
+    padding: 0.875rem 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  .imagen-decorativa {
+    width: 80px;
+  }
+}
+
+/* ============= MEJORAS DE ACCESIBILIDAD ============= */
+@media (prefers-reduced-motion: reduce) {
+  .logo-img,
+  .logo-secundario,
+  .red-social-link,
+  .red-social-link i,
+  .boton-enviar,
+  .imagen-decorativa,
+  .formulario-titulo i {
+    transition: none;
+    animation: none;
+  }
+  
+  .logo-img:hover,
+  .logo-secundario:hover,
+  .red-social-link:hover,
+  .boton-enviar:hover,
+  .imagen-decorativa:hover {
+    transform: none;
+  }
+}
+
+/* ============= ESTADOS FOCUS PARA ACCESIBILIDAD ============= */
+.red-social-link:focus,
+.boton-enviar:focus,
+.formulario-grupo input:focus,
+.formulario-grupo textarea:focus {
+  outline: 2px solid #e63946;
+  outline-offset: 2px;
+}

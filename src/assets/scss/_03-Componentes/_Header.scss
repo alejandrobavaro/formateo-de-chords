@@ -1,184 +1,321 @@
-//---------Header Container--------------------//
+/* =============================================== */
+/* ESTILOS DEL HEADER - Componente de navegación principal
+/* Diseño mobile-first con breakpoints en 768px y 1024px
+/* =============================================== */
 
+/* CONTENEDOR PRINCIPAL DEL HEADER */
 .header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding: 10px 20px;
-  border-bottom: 1px solid #ff91007c;
-  box-sizing: border-box;
-
-  @media (max-width: 768px) {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 10px;
-  }
+  width: 100%; /* Ocupa todo el ancho disponible */
+  background: linear-gradient(135deg, #1a1a1a 0%, #000000da 100%);  
+  border-bottom: 2px solid #e63946; /* Línea inferior roja coral */
+  padding: 0.5rem 0; /* Padding mínimo vertical */
+  position: sticky; /* Header fijo en la parte superior */
+  top: 0; /* Posicionado en la parte superior */
+  z-index: 1000; /* Asegura que esté por encima de otros elementos */
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3); /* Sombra suave para profundidad */
 }
 
-//---------Logo Header--------------------//
+/* LAYOUT DE UNA LÍNEA - Contenedor principal */
+.header-container {
+  display: flex; /* Layout flexible para alinear elementos */
+  align-items: center; /* Centrado vertical */
+  justify-content: space-between; /* Espacio entre elementos */
+  gap: 1.5rem; /* Espaciado entre secciones */
+  padding: 0 1rem; /* Padding horizontal mínimo */
+  height: 70px; /* Altura fija para una línea */
+}
 
+/* SECCIÓN 1: LOGO Y MARCA */
+.logo-container {
+  display: flex; /* Layout flexible para logo y texto */
+  align-items: center; /* Centrado vertical */
+  text-decoration: none; /* Sin subrayado */
+  flex-shrink: 0; /* Evita que se reduzca */
+  gap: 0.75rem; /* Espacio entre logo y texto */
+}
+
+/* Imagen del logo */
 .logoHeader {
-  max-width: 70px;
-  height: auto;
-  transition: transform 0.3s ease;
-
-  @media (max-width: 768px) {
-    max-width: 100px;
-  }
-
-  &:hover {
-    transform: scale(1.1);
-  }
+  width: 50px; /* Ancho fijo */
+  height: 50px; /* Alto fijo */
+  object-fit: contain; /* Mantiene proporciones */
 }
 
-//---------Date Container--------------------//
-
-.date-container {
-  display: flex;
-  align-items: center;
-  margin: 0;
-  color: white;
-  white-space: nowrap;
-  text-align: center;
+/* Contenedor de texto de la marca */
+.brand-text {
+  display: flex; /* Layout flexible */
+  flex-direction: column; /* Disposición vertical */
+  line-height: 1; /* Interlineado compacto */
 }
 
-.date-text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 5px;
+/* Nombre principal de la marca */
+.brand-name {
+  font-size: 1.4rem; /* Tamaño de fuente legible */
+  font-weight: 700; /* Negrita para énfasis */
+  color: #f8f9fa; /* Color claro para contraste */
+  letter-spacing: 1.2px; /* Espaciado entre letras */
+  margin-bottom: 0.1rem; /* Margen inferior mínimo */
 }
 
-.time-row,
-.weekday-row,
-.date-row {
-  display: block;
+/* Subtítulo de la marca */
+.brand-subtitle {
+  font-size: 0.8rem; /* Tamaño más pequeño */
+  font-weight: 600; /* Peso semi-negrita */
+  color: #ffd166; /* Color dorado moderno */
+  letter-spacing: 1.8px; /* Espaciado entre letras */
+  text-transform: uppercase; /* Texto en mayúsculas */
 }
 
-.current-time {
-  color: #ffe5c8;
+/* SECCIÓN 2: BARRA DE BÚSQUEDA */
+.search-section {
+  flex: 1; /* Ocupa espacio disponible */
+  max-width: 400px; /* Ancho máximo */
+  margin: 0 1.5rem; /* Margen horizontal */
 }
 
-.dia {
-  color: #fff3dd;
+/* SECCIÓN 3: NAVEGACIÓN Y MENÚ */
+.nav-section {
+  display: flex; /* Layout flexible */
+  align-items: center; /* Centrado vertical */
+  gap: 0.75rem; /* Espaciado entre elementos */
 }
 
-.numeroFecha {
-  font-size: xx-small;
-  text-transform: uppercase;
-  color: #ffd5c2;
+/* Botón toggle para menú móvil */
+.navbar-toggler {
+  border: 1px solid rgba(248, 249, 250, 0.3); /* Borde sutil */
+  border-radius: 5px; /* Esquinas redondeadas */
+  background: transparent; /* Fondo transparente */
+  padding: 0.5rem 0.625rem; /* Padding adecuado */
 }
 
-//---------Auth Buttons--------------------//
-
-.auth-icon {
-  font-size: x-large;
-  color: #ffbd9f;
-  transition: color 0.3s ease;
-  margin: 0;
-
-  &:hover {
-    color: #ff5e00;
-  }
+/* Icono del menú móvil */
+.menu-icon {
+  font-size: 1.4rem; /* Tamaño adecuado para tacto */
+  color: #f8f9fa; /* Color claro */
 }
 
-.auth-welcome {
-  display: flex;
-  align-items: center;
-  font-size: x-small;
-  color: #ffffff;
-  margin-bottom: 5px;
-
-  span {
-    margin-right: 5px;
-  }
-
-  @media (max-width: 768px) {
-    font-size: 1rem;
-    margin-right: 10px;
-  }
-
-  @media (max-width: 576px) {
-    font-size: 0.9rem;
-    margin-right: 8px;
-  }
+/* Navegación principal - lista de enlaces */
+.nav-primary {
+  display: flex; /* Layout horizontal */
+  align-items: center; /* Centrado vertical */
+  gap: 0.875rem; /* Espaciado entre enlaces */
+  margin: 0; /* Sin margen */
 }
 
-.iconoTemporizador {
-  color: rgb(255, 255, 255);
-  font-size: x-large;
-  transition: color 0.3s ease;
-
-  &:hover {
-    color: #ffd2ad;
-  }
+/* Elementos individuales de navegación */
+.nav-item {
+  position: relative; /* Contexto de posicionamiento */
 }
 
-//---------Navbar Header--------------------//
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-}
-
-// Estilos para .navbar-nav
-.navbar-nav {
-  display: flex;
-  align-items: center;
-  font-size: small;
-  gap: 38px;
-
-  @media (max-width: 992px) {
-    gap: 28px;
-  }
-
-  @media (max-width: 768px) {
-    gap: 18px;
-  }
-}
-
-// Estilos para los enlaces de navegación
+/* Enlaces de navegación */
 .nav-link {
-  color: #fff;
-  font-weight: 400;
-  transition: color 0.3s ease;
-
-  &:hover {
-    color: #ffbd9f;
-    background: none;
-  }
+  color: #f8f9fa !important; /* Color claro forzado */
+  font-size: 0.95rem; /* Tamaño legible */
+  font-weight: 500; /* Peso medio */
+  padding: 0.625rem 1rem !important; /* Padding táctil adecuado */
+  border-radius: 8px; /* Esquinas redondeadas */
+  display: flex; /* Layout flexible para icono + texto */
+  align-items: center; /* Centrado vertical */
+  gap: 0.5rem; /* Espacio entre icono y texto */
+  text-decoration: none; /* Sin subrayado */
+  white-space: nowrap; /* Evita salto de línea */
 }
 
-// Estilos para los dropdowns
-.menu-dropdown-toggle {
-  color: #fff;
-  font-weight: 400;
-  transition: color 0.3s ease;
-
-  // Evita que cambie el fondo al hacer clic
-  &:hover,
-  &:active,
-  &:focus {
-    color: #ffbd9f;
-    background: none;
-    box-shadow: none; // Elimina el efecto de sombreado si se aplica
-  }
-}
-
-// Cambios de estilo para el menú desplegable
+/* Dropdowns - Menús desplegables */
 .dropdown-menu {
-  background-color: #000; // Fondo negro
-  color: #fff; // Letras blancas
+  background: linear-gradient(135deg, #1f1f1f 0%, #1a1a1a 100%); /* Degradado oscuro */
+  border: 1px solid #e63946; /* Borde rojo coral */
+  border-radius: 10px; /* Esquinas redondeadas */
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.4); /* Sombra para profundidad */
+  padding: 0.75rem; /* Padding interno */
+  min-width: 200px; /* Ancho mínimo */
+}
 
-  .dropdown-item {
-    color: #fff; // Color de texto inicial
-    transition: background-color 0.3s ease;
+/* Elementos del dropdown */
+.dropdown-item {
+  color: #f8f9fa; /* Color claro */
+  font-size: 0.9rem; /* Tamaño legible */
+  padding: 0.75rem 1rem; /* Padding táctil */
+  border-radius: 6px; /* Esquinas redondeadas */
+  display: flex; /* Layout flexible */
+  align-items: center; /* Centrado vertical */
+  gap: 0.5rem; /* Espacio entre elementos */
+}
 
-    &:hover {
-      background-color: #333; // Fondo gris al hacer hover
-      color: #fff; // Asegura que el texto permanezca blanco
-    }
+/* ============= BREAKPOINT TABLET (768px) ============= */
+@media (min-width: 768px) {
+  .header-container {
+    gap: 1.25rem; /* Espaciado aumentado */
+    padding: 0 1rem; /* Padding consistente */
+    height: 65px; /* Altura ajustada */
   }
+
+  .logoHeader {
+    width: 45px; /* Logo ligeramente más pequeño */
+    height: 45px;
+  }
+
+  .brand-name {
+    font-size: 1.2rem; /* Texto más compacto */
+  }
+
+  .brand-subtitle {
+    font-size: 0.75rem; /* Subtítulo más pequeño */
+    letter-spacing: 1.5px; /* Espaciado ajustado */
+  }
+
+  .search-section {
+    max-width: 350px; /* Ancho máximo reducido */
+    margin: 0 1rem; /* Margen ajustado */
+  }
+
+  .nav-link {
+    font-size: 0.9rem; /* Texto más compacto */
+    padding: 0.5625rem 0.875rem !important; /* Padding reducido */
+  }
+
+  .nav-primary {
+    gap: 0.75rem; /* Espaciado reducido */
+  }
+}
+
+/* ============= BREAKPOINT ESCRITORIO (1024px) ============= */
+@media (min-width: 1024px) {
+  .header-container {
+    gap: 2rem; /* Espaciado aumentado */
+    padding: 0 2rem; /* Padding aumentado */
+  }
+
+  .logoHeader {
+    width: 55px; /* Logo más grande */
+    height: 55px;
+  }
+
+  .brand-name {
+    font-size: 1.5rem; /* Texto más grande */
+  }
+
+  .brand-subtitle {
+    font-size: 0.85rem; /* Subtítulo más legible */
+  }
+
+  .nav-primary {
+    gap: 1.25rem; /* Espaciado aumentado */
+  }
+
+  .nav-link {
+    font-size: 1rem; /* Texto más legible */
+    padding: 0.75rem 1.125rem !important; /* Padding aumentado */
+  }
+}
+
+/* ============= ESTILOS PARA MÓVIL (< 768px) ============= */
+@media (max-width: 767px) {
+  .header {
+    padding: 0.375rem 0; /* Padding reducido */
+  }
+
+  .header-container {
+    gap: 0.875rem; /* Espaciado reducido */
+    padding: 0 0.875rem; /* Padding reducido */
+    height: 60px; /* Altura reducida */
+  }
+
+  /* Oculta el texto de la marca en móviles para ahorrar espacio */
+  .brand-text {
+    display: none;
+  }
+
+  .logoHeader {
+    width: 45px; /* Logo de tamaño medio */
+    height: 45px;
+  }
+
+  .search-section {
+    flex: 1; /* Ocupa espacio disponible */
+    margin: 0 0.625rem; /* Margen reducido */
+    max-width: none; /* Sin ancho máximo */
+  }
+
+  /* Menú colapsable en móviles */
+  .nav-primary {
+    flex-direction: column; /* Disposición vertical */
+    gap: 0.625rem; /* Espaciado reducido */
+    padding: 1.25rem; /* Padding interno */
+    background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%); /* Fondo consistente */
+    border: 1px solid #e63946; /* Borde rojo */
+    border-radius: 12px; /* Esquinas redondeadas */
+    margin-top: 0.75rem; /* Margen superior */
+  }
+
+  .nav-link {
+    justify-content: center; /* Centrado horizontal */
+    padding: 0.875rem 1.25rem !important; /* Padding táctil aumentado */
+    width: 100%; /* Ancho completo */
+    text-align: center; /* Texto centrado */
+    font-size: 1rem; /* Tamaño aumentado para legibilidad */
+  }
+
+  /* Dropdown adaptado para móviles */
+  .dropdown-menu {
+    width: 100%; /* Ancho completo */
+    text-align: center; /* Texto centrado */
+    position: static !important; /* Posición normal */
+    transform: none !important; /* Sin transformación */
+    margin-top: 0.5rem; /* Margen superior */
+  }
+
+  .navbar-toggler {
+    padding: 0.4375rem 0.5625rem; /* Padding reducido */
+  }
+
+  .menu-icon {
+    font-size: 1.3rem; /* Tamaño aumentado para tacto */
+  }
+}
+
+/* ============= MÓVILES PEQUEÑOS (< 480px) ============= */
+@media (max-width: 480px) {
+  .header-container {
+    padding: 0 0.625rem; /* Padding mínimo */
+    gap: 0.625rem; /* Espaciado mínimo */
+    height: 55px; /* Altura mínima */
+  }
+
+  .logoHeader {
+    width: 40px; /* Logo más pequeño */
+    height: 40px;
+  }
+
+  .navbar-toggler {
+    padding: 0.375rem 0.5rem; /* Padding mínimo */
+  }
+
+  .menu-icon {
+    font-size: 1.2rem; /* Tamaño adecuado */
+  }
+
+  .search-section {
+    margin: 0 0.5rem; /* Margen mínimo */
+  }
+}
+
+/* ============= ESTADOS DE INTERACCIÓN ============= */
+/* Efecto hover en enlaces */
+.nav-link:hover {
+  color: #e63946 !important; /* Color rojo al hover */
+  background: rgba(230, 57, 70, 0.1); /* Fondo semi-transparente */
+}
+
+/* Efecto hover en elementos de dropdown */
+.dropdown-item:hover {
+  color: #e63946; /* Color rojo al hover */
+  background: rgba(230, 57, 70, 0.1); /* Fondo semi-transparente */
+}
+
+/* Estados de focus para accesibilidad */
+.nav-link:focus-visible,
+.dropdown-toggle:focus-visible {
+  outline: 2px solid #e63946; /* Outline visible */
+  outline-offset: 2px; /* Espaciado del outline */
 }
