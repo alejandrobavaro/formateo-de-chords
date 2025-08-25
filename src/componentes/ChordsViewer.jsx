@@ -55,9 +55,20 @@ const ChordsViewer = () => {
           throw new Error(`Error HTTP: ${response?.status || 'No response'}`);
         }
         const data = await response.json();
-        setSongsData(data);
-        setFilteredSongs(data);
-        if (data.length > 0) setSelectedSong(data[0]);
+        console.log("Datos cargados:", data); // Para debug
+        
+        // Manejar tanto array como objeto individual
+        let songsArray = [];
+        if (Array.isArray(data)) {
+          songsArray = data;
+        } else if (typeof data === 'object' && data !== null) {
+          // Si es un objeto individual, convertirlo a array
+          songsArray = [data];
+        }
+        
+        setSongsData(songsArray);
+        setFilteredSongs(songsArray);
+        if (songsArray.length > 0) setSelectedSong(songsArray[0]);
       } catch (error) {
         console.error("Error al cargar los datos:", error);
         setError(`No se pudieron cargar los datos: ${error.message}`);
@@ -70,15 +81,28 @@ const ChordsViewer = () => {
 
   // Filtrar canciones basado en la búsqueda desde el contexto
   useEffect(() => {
-    if (searchQuery) {
+    if (searchQuery && songsData.length > 0) {
       const filtered = songsData.filter(song =>
         song.cancion.toLowerCase().includes(searchQuery.toLowerCase()) ||
         song.artista.toLowerCase().includes(searchQuery.toLowerCase()) ||
         song.genero.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        (song.Secciones && song.Secciones.some(section =>
-          section.acordes && section.acordes.some(chord =>
-            chord && chord.toLowerCase().includes(searchQuery.toLowerCase())
+        // Para estructura nueva
+        (song.contenido && song.contenido.some(col => 
+          col.secciones.some(section => 
+            section.lineas.some(linea => 
+              (linea.letra && linea.letra.toLowerCase().includes(searchQuery.toLowerCase())) ||
+              (linea.acordes && linea.acordes.some(acorde => 
+                acorde && acorde.toLowerCase().includes(searchQuery.toLowerCase())
+              ))
+            )
           )
+        )) ||
+        // Para estructura antigua
+        (song.Secciones && song.Secciones.some(section =>
+          section.letra.toLowerCase().includes(searchQuery.toLowerCase()) ||
+          (section.acordes && section.acordes.some(chord =>
+            chord && chord.toLowerCase().includes(searchQuery.toLowerCase())
+          ))
         ))
       );
       setFilteredSongs(filtered);
@@ -90,14 +114,14 @@ const ChordsViewer = () => {
 
   // Función para transponer acordes
   const transposeChord = (chord) => {
-    if (!chord || chord === 'N.C.' || chord === '(E)') return chord;
+    if (!chord || chord === 'N.C.' || chord === '(E)' || chord === '-' || chord === '–') return chord;
 
     const chords = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"];
     const cleanChord = chord.replace(/[()]/g, '');
     const index = chords.indexOf(cleanChord);
     
     if (index === -1) {
-      const baseChord = cleanChord.replace(/m|7|sus|dim|aug|M/g, '');
+      const baseChord = cleanChord.replace(/m|7|sus|dim|aug|M|\/.*/g, '');
       const modifier = cleanChord.replace(baseChord, '');
       const baseIndex = chords.indexOf(baseChord);
       
@@ -152,18 +176,64 @@ const ChordsViewer = () => {
             </div>
 
             <div className="chords-viewer print-mode">
-              {selectedSong.Secciones && (
+              {/* Formato nuevo */}
+              {selectedSong.contenido && (
+                <div className="song-columns">
+                  {selectedSong.contenido.map((columna, colIndex) => (
+                    <div key={colIndex} className="column">
+                      {columna.secciones.map((seccion, secIndex) => (
+                        <div key={secIndex} className="section">
+                          {seccion.titulo && <h3 className="section-title">{seccion.titulo}</h3>}
+                          <div className="song-lines">
+                            {seccion.lineas.map((linea, lineIndex) => (
+                              <div key={lineIndex} className="line">
+                                {linea.acordes && linea.acordes.length > 0 && (
+                                  <div className="chords-line">
+                                    {linea.acordes.map((acorde, chordIndex) => (
+                                      <span key={chordIndex} className="chord">
+                                        {transposeChord(acorde)}
+                                      </span>
+                                    ))}
+                                  </div>
+                                )}
+                                {linea.letra && <div className="lyrics-line">{linea.letra}</div>}
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  ))}
+                </div>
+              )}
+              
+              {/* Formato antiguo */}
+              {selectedSong.Secciones && !selectedSong.contenido && (
                 <div className="song-sections-columns">
                   {(() => {
                     const [firstColumn, secondColumn] = splitSectionsIntoColumns(selectedSong.Secciones);
                     return (
                       <>
                         <div className="column">
-                          {firstColumn.map(section => renderSongSection(section, true))}
+                          {firstColumn.map((section, index) => (
+                            <div key={index} className="section">
+                              <h3 className="section-title">{section.titulo}</h3>
+                              <div className="lyrics-with-chords print-mode">
+                                {renderChordLines(section.letra, section.acordes)}
+                              </div>
+                            </div>
+                          ))}
                         </div>
                         {secondColumn.length > 0 && (
                           <div className="column">
-                            {secondColumn.map(section => renderSongSection(section, true))}
+                            {secondColumn.map((section, index) => (
+                              <div key={index} className="section">
+                                <h3 className="section-title">{section.titulo}</h3>
+                                <div className="lyrics-with-chords print-mode">
+                                  {renderChordLines(section.letra, section.acordes)}
+                                </div>
+                              </div>
+                            ))}
                           </div>
                         )}
                       </>
@@ -178,13 +248,63 @@ const ChordsViewer = () => {
     );
   };
 
+  // Función para renderizar líneas de acordes (formato antiguo)
+  const renderChordLines = (lyrics, chords) => {
+    if (!chords || chords.length === 0) {
+      return lyrics.split('\n').map((line, index) => (
+        <div key={index} className="line">
+          <div className="lyrics-line">{line}</div>
+        </div>
+      ));
+    }
+
+    const lines = lyrics.split('\n');
+    
+    // Si tenemos la misma cantidad de acordes que líneas, colocamos un acorde por línea
+    if (chords.length === lines.length) {
+      return lines.map((line, index) => (
+        <div key={index} className="line">
+          <div className="chords-line">
+            <span className="chord">{transposeChord(chords[index])}</span>
+          </div>
+          <div className="lyrics-line">{line}</div>
+        </div>
+      ));
+    }
+    
+    // Si no, mostramos todos los acordes primero y luego la letra
+    return (
+      <>
+        <div className="chords-line">
+          {chords.map((chord, index) => (
+            <span key={index} className="chord">
+              {transposeChord(chord)}
+            </span>
+          ))}
+        </div>
+        {lines.map((line, index) => (
+          <div key={index} className="line">
+            <div className="lyrics-line">{line}</div>
+          </div>
+        ))}
+      </>
+    );
+  };
+
+  // Dividir las secciones en dos columnas (formato antiguo)
+  const splitSectionsIntoColumns = (sections) => {
+    if (!sections) return [[], []];
+    
+    const midPoint = Math.ceil(sections.length / 2);
+    const firstColumn = sections.slice(0, midPoint);
+    const secondColumn = sections.slice(midPoint);
+    
+    return [firstColumn, secondColumn];
+  };
+
   // Exportar a PDF
   const handleExport = async (format) => {
     try {
-      // Preparar el contenido para exportación
-      const printView = preparePrintView();
-      
-      // Forzar re-render para asegurar que el contenido esté actualizado
       setTimeout(async () => {
         const element = printViewRef.current;
         if (format === "PDF") {
@@ -224,98 +344,29 @@ const ChordsViewer = () => {
 
   // Imprimir directamente
   const handlePrint = () => {
-    const printView = preparePrintView();
     setTimeout(() => {
       window.print();
     }, 100);
-  };
-
-  // Función para renderizar acordes sobre las letras correctamente
-  const renderChordLines = (lyrics, chords) => {
-    if (!chords || chords.length === 0) {
-      return lyrics.split('\n').map((line, index) => (
-        <div key={index} className="line">
-          <div className="lyrics-line">{line}</div>
-        </div>
-      ));
-    }
-
-    const lines = lyrics.split('\n');
-    const chordLines = [];
-    
-    // Si tenemos la misma cantidad de acordes que líneas, colocamos un acorde por línea
-    if (chords.length === lines.length) {
-      return lines.map((line, index) => (
-        <div key={index} className="line">
-          <div className="chords-line">
-            <span className="chord">{transposeChord(chords[index])}</span>
-          </div>
-          <div className="lyrics-line">{line}</div>
-        </div>
-      ));
-    }
-    
-    // Si no, mostramos todos los acordes primero y luego la letra
-    return (
-      <>
-        <div className="chords-line">
-          {chords.map((chord, index) => (
-            <span key={index} className="chord">
-              {transposeChord(chord)}
-            </span>
-          ))}
-        </div>
-        {lines.map((line, index) => (
-          <div key={index} className="line">
-            <div className="lyrics-line">{line}</div>
-          </div>
-        ))}
-      </>
-    );
-  };
-
-  // Renderizar sección de canción con acordes y letra
-  const renderSongSection = (section, isPrintMode = false) => {
-    if (!section.letra || section.letra.trim() === '') {
-      return (
-        <div className="section chords-only" key={section.titulo}>
-          <h3 className="section-title">{section.titulo}</h3>
-          <div className="chords-line">
-            {section.acordes && section.acordes.map((chord, index) => (
-              <span key={index} className="chord">
-                {transposeChord(chord)}
-              </span>
-            ))}
-          </div>
-        </div>
-      );
-    }
-
-    return (
-      <div className="section" key={section.titulo}>
-        <h3 className="section-title">{section.titulo}</h3>
-        <div className={`lyrics-with-chords ${isPrintMode ? 'print-mode' : ''}`}>
-          {renderChordLines(section.letra, section.acordes)}
-        </div>
-      </div>
-    );
-  };
-
-  // Dividir las secciones en dos columnas
-  const splitSectionsIntoColumns = (sections) => {
-    if (!sections) return [[], []];
-    
-    const midPoint = Math.ceil(sections.length / 2);
-    const firstColumn = sections.slice(0, midPoint);
-    const secondColumn = sections.slice(midPoint);
-    
-    return [firstColumn, secondColumn];
   };
 
   // Limpiar búsqueda
   const clearSearch = () => {
     setSearchQuery('');
     setFilteredSongs(songsData);
+  };
+
+  // Encontrar el índice de la canción seleccionada
+  const findSongIndex = () => {
+    if (!Array.isArray(filteredSongs) || !selectedSong) return 0;
+    return filteredSongs.findIndex(song => song.id === selectedSong.id);
+  };
+
+  // Función para manejar el cambio de canción en el selector
+  const handleSongChange = (e) => {
+    const index = parseInt(e.target.value);
+    if (Array.isArray(filteredSongs) && filteredSongs[index]) {
+      setSelectedSong(filteredSongs[index]);
+    }
   };
 
   if (isLoading) {
@@ -396,20 +447,22 @@ const ChordsViewer = () => {
             </div>
           )}
 
-          {/* Selector de canciones */}
-          <div className="song-selector">
-            <select
-              onChange={(e) => setSelectedSong(filteredSongs[e.target.value])}
-              value={filteredSongs.indexOf(selectedSong)}
-              className="song-dropdown"
-            >
-              {filteredSongs.map((song, index) => (
-                <option key={index} value={index}>
-                  {song.cancion} - {song.artista}
-                </option>
-              ))}
-            </select>
-          </div>
+          {/* Selector de canciones - Solo mostrar si hay más de una canción */}
+          {filteredSongs.length > 1 && (
+            <div className="song-selector">
+              <select
+                onChange={handleSongChange}
+                value={findSongIndex()}
+                className="song-dropdown"
+              >
+                {Array.isArray(filteredSongs) && filteredSongs.map((song, index) => (
+                  <option key={index} value={index}>
+                    {song.cancion} - {song.artista}
+                  </option>
+                ))}
+              </select>
+            </div>
+          )}
 
           {/* Sección de Transposición */}
           <div className="sidebar-section">
@@ -487,7 +540,7 @@ const ChordsViewer = () => {
         {searchQuery && (
           <div className="search-results-info">
             <p>
-              {filteredSongs.length} resultado(s) para: <strong>"{searchQuery}"</strong>
+              {Array.isArray(filteredSongs) ? filteredSongs.length : 0} resultado(s) para: <strong>"{searchQuery}"</strong>
               <button
                 onClick={clearSearch}
                 className="clear-search-btn"
@@ -514,19 +567,64 @@ const ChordsViewer = () => {
           ref={chordsViewerRef}
           className={`chords-viewer font-size-${fontSize}`}
         >
-          {selectedSong?.Secciones && (
+          {/* Formato nuevo */}
+          {selectedSong?.contenido && (
+            <div className="song-columns">
+              {selectedSong.contenido.map((columna, colIndex) => (
+                <div key={colIndex} className="column">
+                  {columna.secciones.map((seccion, secIndex) => (
+                    <div key={secIndex} className="section">
+                      {seccion.titulo && <h3 className="section-title">{seccion.titulo}</h3>}
+                      <div className="song-lines">
+                        {seccion.lineas.map((linea, lineIndex) => (
+                          <div key={lineIndex} className="line">
+                            {linea.acordes && linea.acordes.length > 0 && (
+                              <div className="chords-line">
+                                {linea.acordes.map((acorde, chordIndex) => (
+                                  <span key={chordIndex} className="chord">
+                                    {transposeChord(acorde)}
+                                  </span>
+                                ))}
+                              </div>
+                            )}
+                            {linea.letra && <div className="lyrics-line">{linea.letra}</div>}
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              ))}
+            </div>
+          )}
+          
+          {/* Formato antiguo */}
+          {selectedSong?.Secciones && !selectedSong.contenido && (
             <div className="song-sections-columns">
               {(() => {
                 const [firstColumn, secondColumn] = splitSectionsIntoColumns(selectedSong.Secciones);
-
                 return (
                   <>
                     <div className="column">
-                      {firstColumn.map(section => renderSongSection(section))}
+                      {firstColumn.map((section, index) => (
+                        <div key={index} className="section">
+                          <h3 className="section-title">{section.titulo}</h3>
+                          <div className="lyrics-with-chords">
+                            {renderChordLines(section.letra, section.acordes)}
+                          </div>
+                        </div>
+                      ))}
                     </div>
                     {secondColumn.length > 0 && (
                       <div className="column">
-                        {secondColumn.map(section => renderSongSection(section))}
+                        {secondColumn.map((section, index) => (
+                          <div key={index} className="section">
+                            <h3 className="section-title">{section.titulo}</h3>
+                            <div className="lyrics-with-chords">
+                              {renderChordLines(section.letra, section.acordes)}
+                            </div>
+                          </div>
+                        ))}
                       </div>
                     )}
                   </>
