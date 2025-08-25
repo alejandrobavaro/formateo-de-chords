@@ -21,6 +21,8 @@ import ChordsViewer from "./componentes/ChordsViewer";
 import FormateoChords from "./componentes/FormateoChords";
 import ConsultasAyuda from "./componentes/ConsultasAyuda";
 
+import SongSheet from "./componentes/SongSheet";
+
 // ============ CONTEXTO ============
 import { HeaderSearchProvider } from "./componentes/HeaderSearchContext";
 
@@ -35,14 +37,15 @@ function App() {
         
         <div className="main-content">
           <div className="content">
-            <Routes>
-              <Route path="/" element={<MainContent />} />
-              <Route path="/contacto" element={<Contacto />} />
-              <Route path="/formateo-chords" element={<FormateoChords />} />
-              <Route path="/ayuda" element={<ConsultasAyuda />} />
-              <Route path="/chords-viewer" element={<ChordsViewer />} />
-              <Route path="*" element={<MainContent />} />
-            </Routes>
+          <Routes>
+  <Route path="/" element={<MainContent />} />
+  <Route path="/contacto" element={<Contacto />} />
+  <Route path="/formateo-chords" element={<FormateoChords />} />
+  <Route path="/ayuda" element={<ConsultasAyuda />} />
+  <Route path="/chords-viewer" element={<ChordsViewer />} />
+  <Route path="/song-sheet" element={<SongSheet />} /> 
+  <Route path="*" element={<MainContent />} />
+</Routes>
           </div>
         </div>
         

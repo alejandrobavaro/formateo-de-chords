@@ -6,12 +6,13 @@
 .chords-viewer-container {
   width: 100%;
   margin: 0 auto;
-  padding: 0.5rem;
-  background-color: #1a1a1a;
+  padding: 0;
+  background-color: #ffffff;
   min-height: 100vh;
   position: relative;
-  font-family: 'Montserrat', sans-serif;
-  color: #f8f9fa;
+  font-family: 'Courier New', monospace;
+  color: #000000;
+  line-height: 1.2;
 }
 
 /* --- Botón para toggle sidebar --- */
@@ -25,24 +26,24 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #e63946;
-  color: #f8f9fa;
+  background-color: #2c3e50;
+  color: #ffffff;
   border: none;
   border-radius: 50%;
   cursor: pointer;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
-  
-  &:hover {
-    background-color: #c1121f;
-    transform: scale(1.1);
-  }
+}
+
+.sidebar-toggle-button:hover {
+  background-color: #1a252f;
+  transform: scale(1.1);
 }
 
 /* --- Sidebar --- */
 .sidebar {
   width: 320px;
-  background-color: #2a2a2a;
+  background-color: #f8f9fa;
   padding: 1rem;
   position: fixed;
   top: 0;
@@ -50,446 +51,240 @@
   bottom: 0;
   z-index: 900;
   overflow-y: auto;
-  border-right: 2px solid #e63946;
+  border-right: 2px solid #2c3e50;
   transition: transform 0.3s ease;
-  
-  .sidebar-content {
-    .song-info-sidebar {
-      margin-bottom: 1.5rem;
-      padding-bottom: 1rem;
-      border-bottom: 1px solid #444;
-      
-      .metadata-item {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 0.5rem;
-        padding: 0.5rem;
-        background-color: #333;
-        border-radius: 4px;
-        
-        .label {
-          font-size: 0.9rem;
-          color: #ffd166;
-          font-weight: 500;
-        }
-        
-        .value {
-          font-size: 0.9rem;
-          color: #f8f9fa;
-          font-weight: 600;
-        }
-      }
-      
-      .song-info {
-        font-style: italic;
-        color: #e9ecef;
-        font-size: 0.9rem;
-        margin-top: 1rem;
-        padding: 0.75rem;
-        background-color: #333;
-        border-radius: 4px;
-        border-left: 3px solid #ffd166;
-      }
-    }
-    
-    .song-selector {
-      margin-bottom: 1.5rem;
-      
-      .song-dropdown {
-        width: 100%;
-        padding: 0.75rem;
-        background-color: #333;
-        border: 1px solid #555;
-        border-radius: 4px;
-        color: #f8f9fa;
-        font-size: 1rem;
-        
-        &:focus {
-          outline: none;
-          border-color: #e63946;
-        }
-      }
-    }
-    
-    .sidebar-section {
-      margin-bottom: 1.5rem;
-      padding-bottom: 1rem;
-      border-bottom: 1px solid #444;
-      
-      &:last-child {
-        border-bottom: none;
-      }
-      
-      .section-title {
-        display: flex;
-        align-items: center;
-        margin-bottom: 1rem;
-        font-size: 1.1rem;
-        color: #ffd166;
-        font-weight: 600;
-        
-        .section-icon {
-          margin-right: 0.5rem;
-          color: #e63946;
-        }
-      }
-      
-      .transposition-controls {
-        display: flex;
-        align-items: center;
-        gap: 0.5rem;
-        
-        .control-btn {
-          width: 2.5rem;
-          height: 2.5rem;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          background-color: #333;
-          border: 1px solid #555;
-          border-radius: 4px;
-          color: #f8f9fa;
-          cursor: pointer;
-          transition: all 0.2s ease;
-          
-          &:hover {
-            background-color: #444;
-            border-color: #e63946;
-          }
-          
-          &.reset {
-            background-color: #333;
-            color: #e63946;
-            
-            &:hover {
-              background-color: #e63946;
-              color: #f8f9fa;
-            }
-          }
-        }
-        
-        .transposition-value {
-          font-size: 1.1rem;
-          font-weight: 700;
-          min-width: 2rem;
-          text-align: center;
-          color: #ffd166;
-        }
-      }
-      
-      .font-size-control {
-        display: flex;
-        align-items: center;
-        gap: 0.5rem;
-        
-        .font-size-slider {
-          flex: 1;
-          height: 4px;
-          background: #555;
-          border-radius: 2px;
-          
-          &::-webkit-slider-thumb {
-            width: 16px;
-            height: 16px;
-            background: #e63946;
-            border-radius: 50%;
-            cursor: pointer;
-          }
-        }
-        
-        span {
-          font-size: 0.9rem;
-          color: #f8f9fa;
-          min-width: 2.5rem;
-          text-align: center;
-        }
-      }
-      
-      .export-options {
-        display: flex;
-        flex-direction: column;
-        gap: 0.5rem;
-        
-        .export-btn {
-          padding: 0.75rem;
-          background-color: #333;
-          border: 1px solid #555;
-          border-radius: 4px;
-          color: #f8f9fa;
-          cursor: pointer;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          gap: 0.5rem;
-          transition: all 0.2s ease;
-          
-          &:hover {
-            background-color: #444;
-            border-color: #e63946;
-          }
-        }
-      }
-      
-      .clear-search-btn {
-        width: 100%;
-        padding: 0.75rem;
-        background-color: #333;
-        border: 1px solid #555;
-        border-radius: 4px;
-        color: #e63946;
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 0.5rem;
-        transition: all 0.2s ease;
-        
-        &:hover {
-          background-color: #e63946;
-          color: #f8f9fa;
-        }
-      }
-    }
-  }
-  
-  &.collapsed {
-    transform: translateX(-100%);
-  }
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
 }
+
+.sidebar.collapsed {
+  transform: translateX(-100%);
+}
+
+/* [El resto del CSS del sidebar permanece igual] */
 
 /* --- Contenido principal --- */
 .chords-content {
   width: 100%;
   padding: 1rem;
   margin-left: 0;
-  
-  .search-results-info {
-    background: rgba(230, 57, 70, 0.1);
-    border: 1px solid rgba(230, 57, 70, 0.3);
-    border-radius: 6px;
-    padding: 1rem;
-    margin-bottom: 1.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 1rem;
-    
-    p {
-      margin: 0;
-      color: #f8f9fa;
-      
-      strong {
-        color: #ffd166;
-      }
-    }
-    
-    .clear-search-btn {
-      padding: 0.5rem 1rem;
-      background-color: #e63946;
-      border: none;
-      border-radius: 4px;
-      color: #f8f9fa;
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-      transition: all 0.2s ease;
-      
-      &:hover {
-        background-color: #c1121f;
-      }
-    }
-  }
-  
-  .song-header {
-    text-align: center;
-    margin-bottom: 1.5rem;
-    padding-bottom: 1rem;
-    border-bottom: 2px solid #e63946;
-    
-    .song-title {
-      font-size: 2.2rem;
-      margin: 0 0 0.5rem 0;
-      color: #ffd166;
-      font-weight: 700;
-      font-family: 'Cinzel', serif;
-    }
-    
-    .song-subtitle {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 1.5rem;
-      flex-wrap: wrap;
-      
-      .artist {
-        font-size: 1.4rem;
-        color: #f8f9fa;
-        font-style: italic;
-      }
-      
-      .tono {
-        font-size: 1.1rem;
-        color: #e63946;
-        background-color: #333;
-        padding: 0.4rem 0.8rem;
-        border-radius: 20px;
-        font-weight: 600;
-      }
-    }
-  }
-  
-  .chords-viewer {
-    background-color: #2a2a2a;
-    padding: 1.5rem;
-    border-radius: 8px;
-    border: 1px solid #444;
-    
-    /* Estilos para el nuevo formato de columnas */
-    .song-columns {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 2rem;
-      align-items: start;
-      
-      .column {
-        .section {
-          margin-bottom: 2rem;
-          
-          .section-title {
-            font-size: 1.3rem;
-            margin: 0 0 1rem 0;
-            padding-bottom: 0.5rem;
-            border-bottom: 2px solid #e63946;
-            color: #ffd166;
-            font-weight: 700;
-            text-transform: uppercase;
-          }
-          
-          .song-lines {
-            .line {
-              margin-bottom: 0.5rem;
-              min-height: 1.2rem;
-              
-              .chords-line {
-                display: flex;
-                flex-wrap: wrap;
-                gap: 0.5rem;
-                margin: 0 0 0.25rem 0;
-                padding: 0.25rem 0.5rem;
-                background-color: #333;
-                border-radius: 4px;
-                border-left: 3px solid #e63946;
-                
-                .chord {
-                  font-weight: 700;
-                  color: #e63946;
-                  font-size: 1rem;
-                  padding: 0.2rem 0.4rem;
-                  background-color: #1a1a1a;
-                  border-radius: 3px;
-                  font-family: 'Fira Code', monospace;
-                  white-space: nowrap;
-                }
-              }
-              
-              .lyrics-line {
-                line-height: 1.6;
-                font-size: 1rem;
-                color: #f8f9fa;
-                white-space: pre-wrap;
-                padding-left: 0.5rem;
-                min-height: 1.2rem;
-              }
-            }
-          }
-        }
-      }
-    }
-    
-    /* Estilos para el formato antiguo (mantener compatibilidad) */
-    .song-sections-columns {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 2rem;
-      align-items: start;
-      
-      .column {
-        .section {
-          margin-bottom: 2rem;
-          
-          .section-title {
-            font-size: 1.3rem;
-            margin: 0 0 1rem 0;
-            padding-bottom: 0.5rem;
-            border-bottom: 2px solid #e63946;
-            color: #ffd166;
-            font-weight: 700;
-            text-transform: uppercase;
-          }
-          
-          .chords-line {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.5rem;
-            margin: 0.5rem 0;
-            padding: 0.5rem;
-            background-color: #333;
-            border-radius: 5px;
-            border-left: 3px solid #e63946;
-            
-            .chord {
-              font-weight: 700;
-              color: #e63946;
-              font-size: 1rem;
-              padding: 0.3rem 0.6rem;
-              background-color: #1a1a1a;
-              border-radius: 3px;
-              font-family: 'Fira Code', monospace;
-            }
-          }
-          
-          .lyrics-with-chords {
-            .line {
-              margin-bottom: 0.75rem;
-              
-              .chords-line {
-                margin: 0 0 0.25rem 0;
-                padding: 0.25rem;
-                background-color: #2a2a2a;
-                border-left: 2px solid #ffd166;
-                
-                .chord {
-                  background-color: #333;
-                  font-size: 0.95rem;
-                }
-              }
-              
-              .lyrics-line {
-                line-height: 1.6;
-                font-size: 1rem;
-                color: #f8f9fa;
-                white-space: pre-wrap;
-                padding-left: 0.5rem;
-              }
-            }
-          }
-          
-          &.chords-only {
-            text-align: center;
-            
-            .chords-line {
-              justify-content: center;
-              background-color: #333;
-              border-left-color: #ffd166;
-            }
-          }
-        }
-      }
-    }
-  }
+  font-family: 'Courier New', monospace;
+}
+
+.chords-content .search-results-info {
+  background: rgba(44, 62, 80, 0.1);
+  border: 1px solid rgba(44, 62, 80, 0.3);
+  border-radius: 6px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.chords-content .search-results-info p {
+  margin: 0;
+  color: #000000;
+}
+
+.chords-content .search-results-info p strong {
+  color: #2c3e50;
+}
+
+.chords-content .search-results-info .clear-search-btn {
+  padding: 0.5rem 1rem;
+  background-color: #2c3e50;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.2s ease;
+}
+
+.chords-content .search-results-info .clear-search-btn:hover {
+  background-color: #1a252f;
+}
+
+.chords-content .song-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #2c3e50;
+}
+
+.chords-content .song-header .song-title {
+  font-size: 1.8rem;
+  margin: 0 0 0.5rem 0;
+  color: #2c3e50;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.chords-content .song-header .song-subtitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.chords-content .song-header .song-subtitle .artist {
+  font-size: 1.2rem;
+  color: #000000;
+  font-style: italic;
+}
+
+.chords-content .song-header .song-subtitle .tono {
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #2c3e50;
+  padding: 0.3rem 0.6rem;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+/* --- Visor de acordes con estilo de partitura --- */
+.chords-content .chords-viewer {
+  background-color: #ffffff;
+  padding: 0;
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+  font-size: 14px;
+  line-height: 1.3;
+}
+
+/* Estilos para el nuevo formato de columnas (como en la imagen) */
+.chords-content .chords-viewer .song-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.chords-content .chords-viewer .song-columns .column .section {
+  margin-bottom: 1.5rem;
+  page-break-inside: avoid;
+}
+
+.chords-content .chords-viewer .song-columns .column .section .section-title {
+  font-size: 1.1rem;
+  margin: 0 0 0.5rem 0;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid #2c3e50;
+  color: #2c3e50;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.chords-content .chords-viewer .song-columns .column .section .song-lines {
+  font-family: 'Courier New', monospace;
+}
+
+.chords-content .chords-viewer .song-columns .column .section .song-lines .line {
+  margin-bottom: 0.5rem;
+  position: relative;
+  text-align: center;
+}
+
+.chords-content .chords-viewer .song-columns .column .section .song-lines .line .chords-line {
+  display: block;
+  margin: 0 0 0.1rem 0;
+  padding: 0;
+  background-color: transparent;
+  border-left: none;
+  height: 1.2em;
+  line-height: 1;
+}
+
+.chords-content .chords-viewer .song-columns .column .section .song-lines .line .chords-line .chord {
+  font-weight: 700;
+  color: #000000;
+  font-size: 0.9em;
+  padding: 0;
+  background-color: transparent;
+  font-family: 'Courier New', monospace;
+  white-space: nowrap;
+  position: relative;
+  margin: 0 0.2em;
+  display: inline-block;
+}
+
+.chords-content .chords-viewer .song-columns .column .section .song-lines .line .lyrics-line {
+  line-height: 1.4;
+  font-size: 1em;
+  color: #000000;
+  white-space: pre-wrap;
+  padding: 0;
+  text-align: center;
+  font-family: 'Courier New', monospace;
+}
+
+/* Estilos para el formato antiguo (compatibilidad) */
+.chords-content .chords-viewer .song-sections-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.chords-content .chords-viewer .song-sections-columns .column .section {
+  margin-bottom: 1.5rem;
+}
+
+.chords-content .chords-viewer .song-sections-columns .column .section .section-title {
+  font-size: 1.1rem;
+  margin: 0 0 0.5rem 0;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid #2c3e50;
+  color: #2c3e50;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.chords-content .chords-viewer .song-sections-columns .column .section .lyrics-with-chords .line {
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.chords-content .chords-viewer .song-sections-columns .column .section .lyrics-with-chords .line .chords-line {
+  margin: 0 0 0.1rem 0;
+  padding: 0;
+  background-color: transparent;
+  border-left: none;
+  height: 1.2em;
+  line-height: 1;
+}
+
+.chords-content .chords-viewer .song-sections-columns .column .section .lyrics-with-chords .line .chords-line .chord {
+  font-weight: 700;
+  color: #000000;
+  font-size: 0.9em;
+  padding: 0;
+  background-color: transparent;
+  font-family: 'Courier New', monospace;
+  white-space: nowrap;
+  position: relative;
+  margin: 0 0.2em;
+  display: inline-block;
+}
+
+.chords-content .chords-viewer .song-sections-columns .column .section .lyrics-with-chords .line .lyrics-line {
+  line-height: 1.4;
+  font-size: 1em;
+  color: #000000;
+  white-space: pre-wrap;
+  padding: 0;
+  text-align: center;
+  font-family: 'Courier New', monospace;
 }
 
 /* --- Estados de carga y error --- */
@@ -500,39 +295,39 @@
   justify-content: center;
   height: 60vh;
   text-align: center;
-  
-  .loading-icon, .error-icon {
-    font-size: 3.5rem;
-    margin-bottom: 1.5rem;
-    color: #ffd166;
-  }
-  
-  .error-icon {
-    color: #e63946;
-  }
-  
-  p {
-    font-size: 1.2rem;
-    margin-bottom: 1.5rem;
-    color: #f8f9fa;
-    max-width: 500px;
-  }
-  
-  .retry-button {
-    padding: 0.75rem 1.5rem;
-    background-color: #e63946;
-    color: #f8f9fa;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 1rem;
-    font-weight: 600;
-    transition: all 0.2s ease;
-    
-    &:hover {
-      background-color: #c1121f;
-    }
-  }
+}
+
+.loading-state .loading-icon, .error-state .error-icon {
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+}
+
+.error-state .error-icon {
+  color: #dc3545;
+}
+
+.loading-state p, .error-state p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  color: #000000;
+  max-width: 500px;
+}
+
+.loading-state .retry-button, .error-state .retry-button {
+  padding: 0.75rem 1.5rem;
+  background-color: #2c3e50;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.loading-state .retry-button:hover, .error-state .retry-button:hover {
+  background-color: #1a252f;
 }
 
 /* ============= Media Queries ============= */
@@ -550,26 +345,18 @@
   
   .chords-content {
     padding: 1.5rem;
-    
-    .song-header {
-      .song-title {
-        font-size: 2.5rem;
-      }
-      
-      .song-subtitle {
-        .artist {
-          font-size: 1.5rem;
-        }
-        
-        .tono {
-          font-size: 1.2rem;
-        }
-      }
-    }
-    
-    .chords-viewer {
-      padding: 2rem;
-    }
+  }
+  
+  .chords-content .song-header .song-title {
+    font-size: 2rem;
+  }
+  
+  .chords-content .song-header .song-subtitle .artist {
+    font-size: 1.3rem;
+  }
+  
+  .chords-content .song-header .song-subtitle .tono {
+    font-size: 1.1rem;
   }
 }
 
@@ -584,13 +371,11 @@
     margin-left: 0;
     width: 100%;
     transition: margin-left 0.3s ease, width 0.3s ease;
-    
-    .chords-viewer {
-      .song-columns,
-      .song-sections-columns {
-        gap: 3rem;
-      }
-    }
+  }
+  
+  .chords-content .chords-viewer .song-columns,
+  .chords-content .chords-viewer .song-sections-columns {
+    gap: 2.5rem;
   }
   
   .sidebar:not(.collapsed) + .chords-content {
@@ -599,298 +384,360 @@
   }
 }
 
-/* Para impresión - Formato A4 */
+/* Para impresión - Formato A4 optimizado (como en la imagen) */
 @media print {
+  @page {
+    size: A4;
+    margin: 0.5cm;
+  }
+  
   .chords-viewer-container {
     background: white;
     padding: 0;
-    width: 210mm; /* Ancho A4 */
-    min-height: 297mm; /* Alto A4 */
-    margin: 0 auto;
+    width: 100%;
+    min-height: auto;
+    margin: 0;
+    font-size: 10pt;
+    font-family: 'Courier New', monospace;
   }
   
   .sidebar-toggle-button,
   .sidebar {
-    display: none !important;
+    display: none;
   }
   
   .chords-content {
-    margin-left: 0 !important;
-    width: 100% !important;
-    padding: 10mm; /* Margen para A4 */
-    
-    .search-results-info {
-      display: none;
-    }
-    
-    .song-header {
-      border-bottom: 1px solid #ccc;
-      margin-bottom: 1rem;
-      
-      .song-title {
-        color: #000;
-        font-size: 20pt;
-      }
-      
-      .song-subtitle {
-        .artist {
-          color: #333;
-          font-size: 12pt;
-        }
-        
-        .tono {
-          color: #000;
-          background: none;
-          border: 1px solid #ccc;
-          font-size: 10pt;
-        }
-      }
-    }
-    
-    .chords-viewer {
-      box-shadow: none;
-      border: none;
-      padding: 0;
-      background: white;
-      
-      /* Formato nuevo para impresión */
-      .song-columns {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 1.5rem;
-        
-        .column {
-          .section {
-            margin-bottom: 1.5rem;
-            
-            .section-title {
-              color: #000;
-              border-bottom: 1px solid #ccc;
-              font-size: 12pt;
-            }
-            
-            .song-lines {
-              .line {
-                margin-bottom: 0.4rem;
-                
-                .chords-line {
-                  background: #f9f9f9;
-                  border-left: 2px solid #999;
-                  
-                  .chord {
-                    color: #000 !important;
-                    background: #eee !important;
-                    border: 1px solid #ccc;
-                    font-size: 9pt;
-                  }
-                }
-                
-                .lyrics-line {
-                  color: #000;
-                  font-size: 10pt;
-                }
-              }
-            }
-          }
-        }
-      }
-      
-      /* Formato antiguo para impresión */
-      .song-sections-columns {
-        .column .section {
-          .section-title {
-            color: #000;
-            border-bottom: 1px solid #ccc;
-          }
-          
-          .chords-line {
-            background: none;
-            border-left: none;
-            
-            .chord {
-              color: #000 !important;
-              background: none !important;
-              border: 1px solid #ccc;
-            }
-          }
-          
-          .lyrics-with-chords {
-            .line {
-              .chords-line {
-                background: #f9f9f9;
-                border-left: 2px solid #999;
-                
-                .chord {
-                  background: #eee;
-                  border: 1px solid #ccc;
-                }
-              }
-              
-              .lyrics-line {
-                color: #000;
-              }
-            }
-          }
-        }
-      }
-    }
+    margin-left: 0;
+    width: 100%;
+    padding: 0;
+  }
+  
+  .chords-content .search-results-info {
+    display: none;
+  }
+  
+  .chords-content .song-header {
+    border-bottom: 1px solid #000;
+    margin-bottom: 0.3rem;
+    padding-bottom: 0.3rem;
+  }
+  
+  .chords-content .song-header .song-title {
+    color: #000;
+    font-size: 14pt;
+    margin-bottom: 0.2rem;
+    text-transform: uppercase;
+  }
+  
+  .chords-content .song-header .song-subtitle {
+    gap: 0.8rem;
+  }
+  
+  .chords-content .song-header .song-subtitle .artist {
+    color: #000;
+    font-size: 10pt;
+    font-style: italic;
+  }
+  
+  .chords-content .song-header .song-subtitle .tono {
+    color: #000;
+    background: none;
+    border: 1px solid #000;
+    font-size: 9pt;
+    padding: 0.1rem 0.3rem;
+  }
+  
+  .chords-content .chords-viewer {
+    box-shadow: none;
+    border: none;
+    padding: 0;
+    background: white;
+    font-size: 10pt;
+  }
+  
+  /* Formato nuevo para impresión */
+  .chords-content .chords-viewer .song-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+  }
+  
+  .chords-content .chords-viewer .song-columns .column .section {
+    margin-bottom: 0.5rem;
+    page-break-inside: avoid;
+  }
+  
+  .chords-content .chords-viewer .song-columns .column .section .section-title {
+    color: #000;
+    border-bottom: 1px solid #000;
+    font-size: 10pt;
+    margin-bottom: 0.3rem;
+    padding-bottom: 0.2rem;
+    text-transform: uppercase;
+  }
+  
+  .chords-content .chords-viewer .song-columns .column .section .song-lines .line {
+    margin-bottom: 0.15rem;
+  }
+  
+  .chords-content .chords-viewer .song-columns .column .section .song-lines .line .chords-line {
+    background: transparent;
+    border-left: none;
+    margin-bottom: 0.05rem;
+    padding: 0;
+    height: 1em;
+  }
+  
+  .chords-content .chords-viewer .song-columns .column .section .song-lines .line .chords-line .chord {
+    color: #000;
+    background: transparent;
+    border: none;
+    font-size: 9pt;
+    padding: 0;
+    font-weight: 700;
+    font-family: 'Courier New', monospace;
+  }
+  
+  .chords-content .chords-viewer .song-columns .column .section .song-lines .line .lyrics-line {
+    color: #000;
+    font-size: 10pt;
+    line-height: 1.2;
+    padding: 0;
+    text-align: center;
+  }
+  
+  /* Formato antiguo para impresión */
+  .chords-content .chords-viewer .song-sections-columns {
+    gap: 0.5rem;
+  }
+  
+  .chords-content .chords-viewer .song-sections-columns .column .section {
+    margin-bottom: 0.5rem;
+  }
+  
+  .chords-content .chords-viewer .song-sections-columns .column .section .section-title {
+    color: #000;
+    border-bottom: 1px solid #000;
+    font-size: 10pt;
+  }
+  
+  .chords-content .chords-viewer .song-sections-columns .column .section .chords-line {
+    background: transparent;
+    border-left: none;
+  }
+  
+  .chords-content .chords-viewer .song-sections-columns .column .section .chords-line .chord {
+    color: #000;
+    background: transparent;
+    border: none;
+    font-size: 9pt;
+  }
+  
+  .chords-content .chords-viewer .song-sections-columns .column .section .lyrics-with-chords .line {
+    margin-bottom: 0.15rem;
+  }
+  
+  .chords-content .chords-viewer .song-sections-columns .column .section .lyrics-with-chords .line .chords-line {
+    background: transparent;
+    border-left: none;
+  }
+  
+  .chords-content .chords-viewer .song-sections-columns .column .section .lyrics-with-chords .line .chords-line .chord {
+    background: transparent;
+    border: none;
+    font-size: 9pt;
+  }
+  
+  .chords-content .chords-viewer .song-sections-columns .column .section .lyrics-with-chords .line .lyrics-line {
+    color: #000;
+    font-size: 10pt;
+    line-height: 1.2;
   }
   
   /* Evitar que se dividan las secciones entre páginas */
   .section {
     page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  
+  /* Optimizar espacio para A4 */
+  body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
   }
 }
 
-/* Tamaños de fuente responsivos */
-.font-size-70 {
-  .chords-viewer {
-    font-size: 70%;
-    
-    .song-columns .column .section,
-    .song-sections-columns .column .section {
-      .section-title {
-        font-size: 1rem;
-      }
-      
-      .chords-line .chord,
-      .song-lines .line .chords-line .chord,
-      .lyrics-with-chords .line .chords-line .chord {
-        font-size: 0.85rem;
-        padding: 0.2rem 0.4rem;
-      }
-      
-      .lyrics-line,
-      .lyrics-with-chords .line .lyrics-line {
-        font-size: 0.9rem;
-      }
-    }
-  }
-}
-
-.font-size-75 { .chords-viewer { font-size: 75%; } }
-.font-size-80 { .chords-viewer { font-size: 80%; } }
-.font-size-85 { .chords-viewer { font-size: 85%; } }
-.font-size-90 { .chords-viewer { font-size: 90%; } }
-.font-size-95 { .chords-viewer { font-size: 95%; } }
-.font-size-100 { .chords-viewer { font-size: 100%; } }
-.font-size-105 { .chords-viewer { font-size: 105%; } }
-.font-size-110 { .chords-viewer { font-size: 110%; } }
-
-/* Vista de impresión/exportación */
+/* Vista de impresión/exportación optimizada para A4 */
 .print-view {
   background: white;
   color: #000;
-  padding: 10mm; /* Margen A4 */
-  width: 210mm;
-  min-height: 297mm;
-  font-family: 'Arial', sans-serif;
+  padding: 0.5cm;
+  width: 21cm;
+  min-height: 29.7cm;
+  font-family: 'Courier New', monospace;
   box-sizing: border-box;
-  
-  .song-header {
-    text-align: center;
-    margin-bottom: 2rem;
-    padding-bottom: 1rem;
-    border-bottom: 2px solid #ccc;
-    
-    .song-title {
-      font-size: 20pt;
-      margin: 0 0 0.5rem 0;
-      color: #000;
-    }
-    
-    .song-subtitle {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 1.5rem;
-      margin-bottom: 1rem;
-      
-      .artist {
-        font-size: 12pt;
-        color: #333;
-        font-style: italic;
-      }
-      
-      .tono {
-        font-size: 10pt;
-        color: #000;
-        background: #f0f0f0;
-        padding: 0.3rem 0.6rem;
-        border-radius: 4px;
-        border: 1px solid #ccc;
-      }
-    }
-    
-    .song-metadata {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 0.5rem;
-      font-size: 9pt;
-      
-      span {
-        background: #f5f5f5;
-        padding: 0.2rem 0.4rem;
-        border-radius: 3px;
-        border: 1px solid #ddd;
-      }
-    }
-  }
-  
-  .chords-viewer.print-mode {
-    background: white;
-    
-    .song-columns {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 1.5rem;
-      
-      .column .section {
-        margin-bottom: 1.5rem;
-        page-break-inside: avoid;
-        
-        .section-title {
-          font-size: 12pt;
-          margin: 0 0 0.5rem 0;
-          padding-bottom: 0.3rem;
-          border-bottom: 1px solid #ccc;
-          color: #000;
-        }
-        
-        .song-lines {
-          .line {
-            margin-bottom: 0.3rem;
-            
-            .chords-line {
-              margin: 0 0 0.1rem 0;
-              padding: 0.2rem;
-              background: #f9f9f9;
-              border-left: 2px solid #666;
-              border-radius: 2px;
-              
-              .chord {
-                font-weight: 700;
-                color: #000;
-                font-size: 9pt;
-                padding: 0.1rem 0.3rem;
-                background: #eee;
-                border-radius: 2px;
-                border: 1px solid #ccc;
-                font-family: 'Courier New', monospace;
-              }
-            }
-            
-            .lyrics-line {
-              line-height: 1.4;
-              font-size: 10pt;
-              color: #000;
-              white-space: pre-wrap;
-              padding-left: 0.3rem;
-            }
-          }
-        }
-      }
-    }
+  font-size: 10pt;
+  line-height: 1.2;
+}
+
+.print-view .song-header {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid #000;
+}
+
+.print-view .song-header .song-title {
+  font-size: 14pt;
+  margin: 0 0 0.2rem 0;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.print-view .song-header .song-subtitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  margin-bottom: 0.3rem;
+}
+
+.print-view .song-header .song-subtitle .artist {
+  font-size: 10pt;
+  color: #000;
+  font-style: italic;
+}
+
+.print-view .song-header .song-subtitle .tono {
+  font-size: 9pt;
+  color: #000;
+  background: #f0f0f0;
+  padding: 0.1rem 0.3rem;
+  border-radius: 2px;
+  border: 1px solid #000;
+}
+
+.print-view .song-header .song-metadata {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  font-size: 8pt;
+}
+
+.print-view .song-header .song-metadata span {
+  background: #f5f5f5;
+  padding: 0.1rem 0.3rem;
+  border-radius: 2px;
+  border: 1px solid #ddd;
+}
+
+.print-view .chords-viewer.print-mode {
+  background: white;
+  padding: 0;
+}
+
+.print-view .chords-viewer.print-mode .song-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+}
+
+.print-view .chords-viewer.print-mode .song-columns .column .section {
+  margin-bottom: 0.5rem;
+  page-break-inside: avoid;
+}
+
+.print-view .chords-viewer.print-mode .song-columns .column .section .section-title {
+  font-size: 10pt;
+  margin: 0 0 0.2rem 0;
+  padding-bottom: 0.1rem;
+  border-bottom: 1px solid #000;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.print-view .chords-viewer.print-mode .song-columns .column .section .song-lines .line {
+  margin-bottom: 0.1rem;
+}
+
+.print-view .chords-viewer.print-mode .song-columns .column .section .song-lines .line .chords-line {
+  margin: 0 0 0.03rem 0;
+  padding: 0;
+  background: transparent;
+  border-left: none;
+  border-radius: 0;
+  display: block;
+  height: 1em;
+  line-height: 1;
+}
+
+.print-view .chords-viewer.print-mode .song-columns .column .section .song-lines .line .chords-line .chord {
+  font-weight: 700;
+  color: #000;
+  font-size: 9pt;
+  padding: 0;
+  background: transparent;
+  border-radius: 0;
+  border: none;
+  font-family: 'Courier New', monospace;
+  display: inline-block;
+  margin: 0 0.1em;
+}
+
+.print-view .chords-viewer.print-mode .song-columns .column .section .song-lines .line .lyrics-line {
+  line-height: 1.1;
+  font-size: 10pt;
+  color: #000;
+  white-space: pre-wrap;
+  padding: 0;
+  text-align: center;
+}
+
+/* Modo de exportación ultra compacto para A4 */
+.chords-content.compact-mode {
+  padding: 0.2cm;
+}
+
+.chords-content.compact-mode .song-header {
+  margin-bottom: 0.3rem;
+}
+
+.chords-content.compact-mode .song-header .song-title {
+  font-size: 12pt;
+}
+
+.chords-content.compact-mode .chords-viewer .song-columns {
+  gap: 0.3rem;
+}
+
+.chords-content.compact-mode .chords-viewer .song-columns .column .section {
+  margin-bottom: 0.3rem;
+}
+
+.chords-content.compact-mode .chords-viewer .song-columns .column .section .section-title {
+  font-size: 9pt;
+  margin-bottom: 0.1rem;
+}
+
+.chords-content.compact-mode .chords-viewer .song-columns .column .section .song-lines .line {
+  margin-bottom: 0.05rem;
+}
+
+.chords-content.compact-mode .chords-viewer .song-columns .column .section .song-lines .line .chords-line .chord {
+  font-size: 8pt;
+}
+
+.chords-content.compact-mode .chords-viewer .song-columns .column .section .song-lines .line .lyrics-line {
+  font-size: 9pt;
+  line-height: 1;
+}
+
+/* Mejoras específicas para la exportación a imagen JPG */
+@media screen and (max-width: 21cm) {
+  .print-view {
+    width: 100%;
+    min-height: auto;
   }
 }

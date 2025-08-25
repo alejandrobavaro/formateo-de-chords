@@ -57,7 +57,6 @@ Transposición de Do → Re → Mi → Fa...
 **Herramientas incluidas**:
 ```
 🎵 Transposición (Subir/Bajar tonos)
-🔍 Ajuste de Tamaño de Texto
 📝 Listados de Acordes
 🎼 Partes de Canción (Intro, Verso, Coro, Puente)
 🎸 Instrumentos (Guitarra, Piano, Bajo, Ukulele)
@@ -145,7 +144,6 @@ graph TD
 ```mermaid
 graph TD
     A[Visualizar acordes] --> B[Transponer si es necesario];
-    B --> C[Ajustar tamaño de texto];
     C --> D[Organizar secciones];
     D --> E[Previsualizar cambios];
 ```
