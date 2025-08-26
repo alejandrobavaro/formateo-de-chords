@@ -1,14 +1,10 @@
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-} from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 // ============ IMPORTACIÓN DE ESTILOS ============
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import "./assets/scss/_01-General/_App.scss";
+import "./assets/scss/estilo.scss"; // Cambiado a importar el archivo principal
 
 // ============ COMPONENTES DE LA APLICACIÓN ============
 import Header from "./componentes/Header";
@@ -17,14 +13,12 @@ import MainWhatsappIcon from "./componentes/MainWhatsappIcon";
 import MainPublicidadSlider from "./componentes/MainPublicidadSlider";
 import Footer from "./componentes/Footer";
 import Contacto from "./componentes/Contacto";
-import ChordsViewer from "./componentes/ChordsViewer";
+import ChordsViewerIndex from "./componentes/ChordsViewer/ChordsViewerIndex"; // Corregida la ruta
 import FormateoChords from "./componentes/FormateoChords";
 import ConsultasAyuda from "./componentes/ConsultasAyuda";
 
-import SongSheet from "./componentes/SongSheet";
-
 // ============ CONTEXTO ============
-import { HeaderSearchProvider } from "./componentes/HeaderSearchContext";
+import { HeaderSearchProvider } from "./componentes/ChordsViewer/HeaderSearchContext"; // Corregida la ruta
 
 // ============ COMPONENTE PRINCIPAL DE LA APLICACIÓN ============
 function App() {
@@ -37,15 +31,14 @@ function App() {
         
         <div className="main-content">
           <div className="content">
-          <Routes>
-  <Route path="/" element={<MainContent />} />
-  <Route path="/contacto" element={<Contacto />} />
-  <Route path="/formateo-chords" element={<FormateoChords />} />
-  <Route path="/ayuda" element={<ConsultasAyuda />} />
-  <Route path="/chords-viewer" element={<ChordsViewer />} />
-  <Route path="/song-sheet" element={<SongSheet />} /> 
-  <Route path="*" element={<MainContent />} />
-</Routes>
+            <Routes>
+              <Route path="/" element={<MainContent />} />
+              <Route path="/contacto" element={<Contacto />} />
+              <Route path="/formateo-chords" element={<FormateoChords />} />
+              <Route path="/ayuda" element={<ConsultasAyuda />} />
+              <Route path="/chords-viewer" element={<ChordsViewerIndex />} />
+              <Route path="*" element={<MainContent />} />
+            </Routes>
           </div>
         </div>
         

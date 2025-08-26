@@ -1,33 +1,19 @@
-// Importación de React y hooks necesarios
 import React, { useState } from "react";
-
-// Importación de componentes de enrutamiento de React Router
 import { Link } from "react-router-dom";
-
-// Importación de iconos de React Icons
-import { BsList, BsSearch } from "react-icons/bs";
+import { BsList } from "react-icons/bs";
 import { FiHome, FiPhone, FiHelpCircle, FiFileText, FiMusic } from "react-icons/fi";
-
-// Importación de componentes de Bootstrap
 import { Navbar, Nav, Container, Dropdown } from "react-bootstrap";
-
-// Importación del componente de barra de búsqueda personalizado
-import HeaderSearchBar from "./HeaderSearchBar";
-
-// Importación de estilos SCSS
+import HeaderSearchBar from "./ChordsViewer/HeaderSearchBar"; // Corregida la ruta
 import "../assets/scss/_03-Componentes/_Header.scss";
 
-// ... (importaciones existentes)
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [searchQuery, setSearchQuery] = useState("");
   const icons = {
     home: <FiHome size={16} />,
     chords: <FiMusic size={16} />,
     formateo: <FiFileText size={16} />,
     contacto: <FiPhone size={16} />,
     ayuda: <FiHelpCircle size={16} />,
-    search: <BsSearch size={14} />
   };
 
   const handleToggleMobileMenu = () => setIsMobileMenuOpen(!isMobileMenuOpen);
@@ -48,11 +34,7 @@ const Header = () => {
             </div>
           </Navbar.Brand>
           <div className="search-section">
-            <HeaderSearchBar
-              searchQuery={searchQuery}
-              setSearchQuery={setSearchQuery}
-              placeholder="Buscar acordes, canciones..."
-            />
+            <HeaderSearchBar placeholder="Buscar acordes, canciones..." />
           </div>
           <div className="nav-section">
             <Navbar.Toggle aria-controls="basic-navbar-nav" className="navbar-toggler">
@@ -75,14 +57,6 @@ const Header = () => {
                       onClick={() => setIsMobileMenuOpen(false)}
                     >
                       Chords Covers
-                    </Dropdown.Item>
-                    <Dropdown.Item
-                      as={Link}
-                      to="/song-sheet"
-                      className="dropdown-item"
-                      onClick={() => setIsMobileMenuOpen(false)}
-                    >
-                      Song Sheet
                     </Dropdown.Item>
                   </Dropdown.Menu>
                 </Dropdown>

@@ -1,58 +1,26 @@
 /*-----------------SASS A CSS------------------------*/
 //------------GENERAL--------------//
-@import "./_01-General/BodyIndexApp";
-
-@import "./_01-General/SweetAlert";
-@import "./_01-General/Toastify";
+@import "./_01-General/App";
 
 //------------HEADER--------------//
 @import "./_03-Componentes/Header";
-@import "./_03-Componentes/HeaderSearchBar.scss";
-
-//------------SIDEBAR--------------//
-@import "./_03-Componentes/Sidebar";
-
+@import "./_03-Componentes/HeaderSearchBar";
 
 //-----------HOME - MAIN-----------------//
 @import "./_03-Componentes/MainPublicidadSlider";
-@import "./_03-Componentes/MainContent";
-
-//---------------TAREAS------------------//
-
-@import "./_03-Componentes/TareasNotificaciones";
-
-@import "./_03-Componentes/TareasNotas";
-@import "./_03-Componentes/TareasToDo.scss";
-@import "./_03-Componentes/TareasTemporizador.scss";
-@import "./_03-Componentes/TareasTemporizadorTimePicker.scss";
 
 //--------------FOOTER----------------//
 @import "./_03-Componentes/Footer";
-@import "./_03-Componentes/FooterGondraWorldDev";
 
 //------------CHORDS------------------//
-
-@import "./_03-Componentes/ChordsAlmango";
-@import "./_03-Componentes/ChordsViewer.scss";
-
+@import "./_03-Componentes/ChordsViewer/ChordsViewerIndex"; // Corregido
 
 //----------REPRODUCTOR VIDEO------------//
-
-@import "./_03-Componentes/ReproductorVideo.scss";
+@import "./_03-Componentes/ReproductorVideo";
 
 //-----------FORMATEO------------------//
-@import "./_03-Componentes/FormateoChords.scss";
-@import "./_03-Componentes/FormateoGacetilla.scss";
-@import "./_03-Componentes/FormateoListas.scss";
-@import "./_03-Componentes/FormateoRiderAudio.scss";
-@import "./_03-Componentes/FormateoRiderVideo.scss";
-@import "./_03-Componentes/FormateoPedidosFecha.scss";
+@import "./_03-Componentes/FormateoChords";
 
 //----------------OTROS------------------//
-@import "./_03-Componentes/ConsultasAyuda.scss";
-@import "./_03-Componentes/_Contacto";
-@import "./_03-Componentes/_ContactoFormularioSlider";
-
-//------------------LOGIN-REG------------------//
-@import "./_03-Componentes/SesionLoginRegister";
-
+@import "./_03-Componentes/ConsultasAyuda";
+@import "./_03-Componentes/Contacto";

@@ -1,0 +1,659 @@
+{
+  "id": 9,
+  "title": "Take On Me (Transportado - 3er Traste)",
+  "artist": "A-Ha",
+  "originalKey": "F",
+  "capo": "3er traste",
+  "tempo": "Upbeat",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Em9", "A", "D", "G", "G/F#"]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "A", "D", "G", "G/F#"]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "A", "Em", "A"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "We're talking away"
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": "I don't know what"
+        },
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "lyric",
+          "content": "I'm to say"
+        },
+        {
+          "type": "chord",
+          "content": "G/F#"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "I'll say it anyway"
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": "Today is another day to find you"
+        },
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "G/F#"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "Shying away"
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "Bm"
+        },
+        {
+          "type": "lyric",
+          "content": "I'll be coming for your love, ok?"
+        },
+        {
+          "type": "chord",
+          "content": "G"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": []
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["D", "A/C#", "Bm", "G"]
+            },
+            {
+              "type": "lyric",
+              "content": "Take on me (take on me)"
+            },
+            {
+              "type": "chords",
+              "content": ["D", "A/C#", "Bm", "G"]
+            },
+            {
+              "type": "lyric",
+              "content": "Take me on (take on me)"
+            },
+            {
+              "type": "chords",
+              "content": ["D", "A/C#", "Bm", "G"]
+            },
+            {
+              "type": "lyric",
+              "content": "I'll be gone"
+            },
+            {
+              "type": "chords",
+              "content": ["D", "(A/C# - G - A)"]
+            },
+            {
+              "type": "lyric",
+              "content": "In a day or two."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "So needless to say"
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": "I'm odds and ends but I'll be"
+        },
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "G/F#"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "Stumbling anyway"
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": "Slowly learning that life is ok"
+        },
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "G/F#"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "Say after me"
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "Bm"
+        },
+        {
+          "type": "lyric",
+          "content": "It's no better to be, safe than sorry."
+        },
+        {
+          "type": "chord",
+          "content": "G"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": []
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["D", "A/C#", "Bm", "G"]
+            },
+            {
+              "type": "lyric",
+              "content": "Take on me (take on me)"
+            },
+            {
+              "type": "chords",
+              "content": ["D", "A/C#", "Bm", "G"]
+            },
+            {
+              "type": "lyric",
+              "content": "Take me on (take on me)"
+            },
+            {
+              "type": "chords",
+              "content": ["D", "A/C#", "Bm", "G"]
+            },
+            {
+              "type": "lyric",
+              "content": "I'll be gone"
+            },
+            {
+              "type": "chords",
+              "content": ["D", "(A/C# - G - A)"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PUENTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F#m", "C", "F#m"]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "A"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTRO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Em9", "A"]
+        },
+        {
+          "type": "chords",
+          "content": ["Em9", "A"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SECCIÓN FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Em9", "A", "D", "G", "G/F#"]
+        },
+        {
+          "type": "text",
+          "content": "x3"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "Oh the things that you say"
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": "Is it life or just to play my"
+        },
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "G/F#"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "Worries away"
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": "You're all the things"
+        },
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "G/F#"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "I've got to remember"
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "Bm"
+        },
+        {
+          "type": "lyric",
+          "content": "You're shying away, I'll be coming for you anyway."
+        },
+        {
+          "type": "chord",
+          "content": "G"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": []
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["D", "A/C#", "Bm", "G"]
+            },
+            {
+              "type": "lyric",
+              "content": "Take on me (take on me)"
+            },
+            {
+              "type": "chords",
+              "content": ["D", "A/C#", "Bm", "G"]
+            },
+            {
+              "type": "lyric",
+              "content": "Take me on (take on me)"
+            },
+            {
+              "type": "chords",
+              "content": ["D", "A/C#", "Bm", "G"]
+            },
+            {
+              "type": "lyric",
+              "content": "I'll be gone"
+            },
+            {
+              "type": "chords",
+              "content": ["D", "(A/C# - G - A)"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": []
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["D", "A/C#", "Bm", "G"]
+            },
+            {
+              "type": "lyric",
+              "content": "Take on me (take on me)"
+            },
+            {
+              "type": "chords",
+              "content": ["D", "A/C#", "Bm", "G"]
+            },
+            {
+              "type": "lyric",
+              "content": "Take me on (take on me)"
+            },
+            {
+              "type": "chords",
+              "content": ["D", "A/C#", "Bm", "G"]
+            },
+            {
+              "type": "lyric",
+              "content": "I'll be gone"
+            },
+            {
+              "type": "chords",
+              "content": ["D", "(A/C# - G - A)"]
+            },
+            {
+              "type": "lyric",
+              "content": "In a day or two."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Em9", "A"]
+        },
+        {
+          "type": "chords",
+          "content": ["Em9", "A", "A"]
+        }
+      ]
+    }
+  ]
+}

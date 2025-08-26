@@ -1,5 +1,9 @@
-/* _ReproductorVideo.scss - Versión actualizada */
+/* =============================================== */
+/* REPRODUCTOR DE VIDEO - Estilos para el componente de reproductor de video con animaciones y efectos visuales */
+/* =============================================== */
+/* --- Elemento raíz --- */
 .video-player {
+  width: 100%;
   max-width: 900px;
   margin: 20px auto;
   padding: 20px;
@@ -7,19 +11,29 @@
   border-radius: 15px;
   border: 1px solid #e63946;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  transition: all 0.5s ease;
+  overflow: hidden;
+  position: relative;
 
   &.theater-mode {
     max-width: 100%;
     border-radius: 0;
     border: none;
-    
+    margin: 0;
+    padding: 0;
+
     .video-header,
     .controls,
     .chapters-section {
       background: rgba(0, 0, 0, 0.8);
     }
+
+    .video-container {
+      height: 80vh;
+    }
   }
 
+  /* --- Encabezado --- */
   .video-header {
     display: flex;
     align-items: center;
@@ -29,6 +43,7 @@
     background: rgba(35, 35, 35, 0.8);
     border-radius: 10px;
     border: 1px solid #ffd166;
+    animation: fadeIn 0.8s ease;
 
     .music-icon {
       font-size: 2rem;
@@ -53,19 +68,25 @@
     }
   }
 
-  .video-frame {
+  /* --- Contenedor del video --- */
+  .video-container {
     width: 100%;
     height: 500px;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
     transition: height 0.3s ease;
+    margin-bottom: 20px;
+    position: relative;
 
-    &.theater-mode {
-      height: 600px;
+    .video-frame {
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
     }
   }
 
+  /* --- Controles --- */
   .controls {
     display: flex;
     flex-wrap: wrap;
@@ -76,6 +97,7 @@
     background: rgba(35, 35, 35, 0.8);
     border-radius: 12px;
     border: 1px solid rgba(255, 209, 102, 0.3);
+    animation: slideUp 0.5s ease;
 
     .control-btn {
       display: flex;
@@ -89,6 +111,9 @@
       cursor: pointer;
       transition: all 0.3s ease;
       min-width: 80px;
+      position: relative;
+      overflow: hidden;
+      z-index: 1;
 
       &:hover {
         background: rgba(255, 209, 102, 0.2);
@@ -110,7 +135,7 @@
       &.nav-btn {
         background: rgba(230, 57, 70, 0.2);
         border-color: rgba(230, 57, 70, 0.5);
-        
+
         &:hover {
           background: rgba(230, 57, 70, 0.3);
         }
@@ -126,14 +151,59 @@
         font-weight: 500;
       }
     }
+
+    /* --- Control de volumen --- */
+    .volume-control {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+
+      .volume-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 12px;
+        background: rgba(255, 209, 102, 0.1);
+        border: 1px solid rgba(255, 209, 102, 0.3);
+        border-radius: 8px;
+        color: #ffd166;
+        cursor: pointer;
+        transition: all 0.3s ease;
+
+        &:hover {
+          background: rgba(255, 209, 102, 0.2);
+        }
+      }
+
+      .volume-slider {
+        width: 80px;
+        height: 4px;
+        -webkit-appearance: none;
+        background: rgba(255, 209, 102, 0.3);
+        border-radius: 2px;
+        outline: none;
+        transition: all 0.3s ease;
+
+        &::-webkit-slider-thumb {
+          -webkit-appearance: none;
+          width: 12px;
+          height: 12px;
+          border-radius: 50%;
+          background: #ffd166;
+          cursor: pointer;
+        }
+      }
+    }
   }
 
+  /* --- Lista de reproducción --- */
   .playlist-container {
     margin: 20px 0;
     padding: 20px;
     background: rgba(35, 35, 35, 0.8);
     border-radius: 12px;
     border: 1px solid rgba(255, 209, 102, 0.3);
+    animation: fadeIn 0.8s ease;
 
     h3 {
       color: #ffd166;
@@ -169,65 +239,80 @@
         background: #ffd166;
         border-radius: 3px;
       }
-    }
 
-    .playlist-item {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      padding: 12px 15px;
-      background: rgba(255, 255, 255, 0.05);
-      border-radius: 8px;
-      cursor: pointer;
-      transition: all 0.3s ease;
-      border: 1px solid transparent;
+      .playlist-item {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        padding: 12px 15px;
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 8px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        border: 1px solid transparent;
 
-      &:hover {
-        background: rgba(255, 209, 102, 0.1);
-        border-color: rgba(255, 209, 102, 0.3);
-      }
+        &:hover {
+          background: rgba(255, 209, 102, 0.1);
+          border-color: rgba(255, 209, 102, 0.3);
+        }
 
-      &.active {
-        background: linear-gradient(135deg, #e63946 0%, #c1121f 100%);
-        color: white;
-        
-        .playlist-number {
+        &.active {
+          background: linear-gradient(135deg, #e63946 0%, #c1121f 100%);
           color: white;
+
+          .playlist-number {
+            color: white;
+          }
+
+          .now-playing {
+            background: rgba(255, 255, 255, 0.2);
+          }
         }
-        
+
+        .playlist-thumbnail {
+          width: 60px;
+          height: 40px;
+          border-radius: 4px;
+          object-fit: cover;
+        }
+
+        .playlist-info {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+        }
+
+        .playlist-number {
+          font-weight: bold;
+          color: #ffd166;
+          min-width: 25px;
+        }
+
+        .playlist-title {
+          flex: 1;
+          font-weight: 500;
+        }
+
         .now-playing {
-          background: rgba(255, 255, 255, 0.2);
+          background: rgba(37, 211, 102, 0.2);
+          color: #25D366;
+          padding: 4px 10px;
+          border-radius: 12px;
+          font-size: 0.8rem;
+          font-weight: 600;
         }
-      }
-
-      .playlist-number {
-        font-weight: bold;
-        color: #ffd166;
-        min-width: 25px;
-      }
-
-      .playlist-title {
-        flex: 1;
-        font-weight: 500;
-      }
-
-      .now-playing {
-        background: rgba(37, 211, 102, 0.2);
-        color: #25D366;
-        padding: 4px 10px;
-        border-radius: 12px;
-        font-size: 0.8rem;
-        font-weight: 600;
       }
     }
   }
 
+  /* --- Secciones de la canción --- */
   .chapters-section {
     margin: 20px 0;
     padding: 20px;
     background: rgba(35, 35, 35, 0.8);
     border-radius: 12px;
     border: 1px solid rgba(255, 209, 102, 0.3);
+    animation: fadeIn 0.8s ease;
 
     h3 {
       color: #ffd166;
@@ -267,6 +352,7 @@
     }
   }
 
+  /* --- Información del video --- */
   .video-info {
     text-align: center;
     margin-top: 15px;
@@ -279,7 +365,18 @@
   }
 }
 
-/* Responsive */
+/* --- Animaciones --- */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* --- Responsive --- */
 @media (max-width: 768px) {
   .video-player {
     margin: 10px;
@@ -295,9 +392,9 @@
       }
     }
 
-    .video-frame {
+    .video-container {
       height: 300px;
-      
+
       &.theater-mode {
         height: 400px;
       }

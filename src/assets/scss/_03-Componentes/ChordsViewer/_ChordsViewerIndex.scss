@@ -1,0 +1,77 @@
+/* =============================================== */
+/* CHORDS VIEWER INDEX - Contenedor Principal */
+/* =============================================== */
+
+.chords-viewer-container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  color: #000000;
+}
+
+.chords-header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 0.5rem;
+  text-align: center;
+  
+  h1 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+}
+
+.chords-controls-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+}
+
+.chords-content {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  min-height: calc(100vh - 120px);
+}
+
+.chords-loading,
+.chords-error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  font-size: 1.1rem;
+  font-family: Arial, sans-serif;
+}
+
+.chords-error {
+  color: #e74c3c;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .chords-header {
+    padding: 0.3rem;
+    
+    h1 {
+      font-size: 0.9rem;
+      margin-bottom: 0.3rem;
+    }
+  }
+  
+  .chords-controls-top {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .chords-content {
+    min-height: calc(100vh - 100px);
+  }
+}

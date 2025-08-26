@@ -1,0 +1,140 @@
+/* =============================================== */
+/* CONTROLS - Controles de visualización */
+/* =============================================== */
+
+.controls-compact {
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .control-group {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.3rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    
+    label {
+      font-weight: 600;
+      color: white;
+      font-size: 0.8rem;
+      font-family: Arial, sans-serif;
+      min-width: 50px;
+    }
+  }
+  
+  .font-size-slider {
+    width: 60px;
+    height: 6px;
+    border-radius: 3px;
+    background: #ddd;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+    
+    &:hover {
+      opacity: 1;
+    }
+    
+    &::-webkit-slider-thumb {
+      appearance: none;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: #3498db;
+      cursor: pointer;
+    }
+    
+    &::-moz-range-thumb {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: #3498db;
+      cursor: pointer;
+      border: none;
+    }
+  }
+  
+  .control-btn {
+    padding: 0.3rem 0.5rem;
+    background-color: white;
+    color: #2c3e50;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.8rem;
+    min-width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    &:hover {
+      background-color: #e0e0e0;
+    }
+    
+    &.reset {
+      background-color: #ff6b6b;
+      color: white;
+      
+      &:hover {
+        background-color: #ee5a5a;
+      }
+    }
+  }
+  
+  .transposition-value {
+    font-weight: 700;
+    min-width: 2rem;
+    text-align: center;
+    color: white;
+    font-size: 0.9rem;
+  }
+  
+  .a4-toggle {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    
+    &:checked {
+      accent-color: #3498db;
+    }
+  }
+  
+  /* RESPONSIVE */
+  @media (max-width: 768px) {
+    .controls-compact {
+      gap: 0.5rem;
+    }
+    
+    .control-group {
+      gap: 0.2rem;
+      padding: 0.2rem;
+      
+      label {
+        font-size: 0.7rem;
+        min-width: 40px;
+      }
+    }
+    
+    .font-size-slider {
+      width: 50px;
+    }
+    
+    .control-btn {
+      padding: 0.2rem 0.4rem;
+      font-size: 0.7rem;
+      min-width: 24px;
+      height: 24px;
+    }
+    
+    .transposition-value {
+      min-width: 1.5rem;
+      font-size: 0.8rem;
+    }
+  }
