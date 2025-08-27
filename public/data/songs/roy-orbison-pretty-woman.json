@@ -1,0 +1,539 @@
+{
+    "id": 13,
+    "title": "Pretty Woman",
+    "artist": "Roy Orbison",
+    "originalKey": "A",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "text",
+            "content": "(Batería Sola 1 vuelta)"
+          },
+          {
+            "type": "text",
+            "content": "RIFF en E"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Pretty woman,"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "Walkin' down the street"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Pretty woman,"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "The kind I like to meet"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Pretty woman,"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "I don't believe you,"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "You're not the truth."
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "No one could look as good as you..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "RIFF",
+        "lines": [
+          {
+            "type": "text",
+            "content": "RIFF en E - Mercy!!"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Pretty woman,"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "Won't you pardon me,"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Pretty woman,"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "I couldn't help but see,"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Pretty woman,"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "That you look lovely"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "As can be,"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "Are you lonely just like me?"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "RIFF",
+        "lines": [
+          {
+            "type": "text",
+            "content": "RIFF en E - wooowww!"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "BIS",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Dm"
+              },
+              {
+                "type": "lyric",
+                "content": "Pretty woman,"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Stop awhile,"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "Pretty woman,"
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": "Talk awhile,"
+              },
+              {
+                "type": "chord",
+                "content": "Dm"
+              },
+              {
+                "type": "lyric",
+                "content": "Pretty woman,"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Give your smile to me…"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "Dm"
+              },
+              {
+                "type": "lyric",
+                "content": "Pretty woman,"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Yeah, yeah, yeah"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "Pretty woman,"
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": "Look my way"
+              },
+              {
+                "type": "chord",
+                "content": "Dm"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Say you'll stay with me…"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PUENTE",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F#m"
+              },
+              {
+                "type": "lyric",
+                "content": "'Cuz I need you,"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "I'll treat you right"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "Come with me baby"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "chord",
+                "content": "F#m"
+              },
+              {
+                "type": "lyric",
+                "content": "Be mine toniiiiiiiiiiight…………"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "RIFF",
+        "lines": [
+          {
+            "type": "text",
+            "content": "RIFF en E"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Pretty woman,"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "Don't walk on by,"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Pretty woman,"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "Don't make me cry,"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Pretty woman,"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "Don't walk away, hey, ok"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "If that's the way it must be, ok"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "I guess I'll go on home, it's late"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "There'll be tomorrow night, but wait"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "BATERÍA",
+        "lines": [
+          {
+            "type": "text",
+            "content": "(Batería Sola 1 vuelta)"
+          },
+          {
+            "type": "text",
+            "content": "What do I see?"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "RIFF FINAL",
+        "lines": [
+          {
+            "type": "text",
+            "content": "RIFF en E"
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "Is she walkin' back to meeeeeeee?"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "Yeaaaaah, she's walkin' back to me"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "Oh, oh, pretty woman"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

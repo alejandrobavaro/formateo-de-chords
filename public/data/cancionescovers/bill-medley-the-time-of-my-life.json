@@ -1,0 +1,515 @@
+{
+    "id": 25,
+    "title": "The Time of My Life",
+    "artist": "Bill Medley",
+    "originalKey": "C",
+    "tempo": "Upbeat",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C"]
+          },
+          {
+            "type": "chords",
+            "content": ["C"]
+          },
+          {
+            "type": "chords",
+            "content": ["C"]
+          },
+          {
+            "type": "chords",
+            "content": ["C"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "lyric",
+            "content": "I've been waiting for so long"
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "Now I've finally found someone to stand by me."
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "lyric",
+            "content": "We saw the writing on the wall"
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "As we felt this magical fantasy."
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "lyric",
+            "content": "Now with passion in our eyes"
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "There's no way we could disguise it secretly."
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "lyric",
+            "content": "So we take each other's hand"
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "'Cause we seem to understand the urgency."
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "(Just remember)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "You're the one thing,"
+              },
+              {
+                "type": "chord",
+                "content": "D#"
+              },
+              {
+                "type": "lyric",
+                "content": "I can't get enough of,"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "So I'll tell you something,"
+              },
+              {
+                "type": "chord",
+                "content": "G7"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "This could be love because."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "Am7"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "lyric",
+                "content": "I've had the time of my life"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "No, I never felt this way before"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "Am7"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "lyric",
+                "content": "Yes, I swear it's the truth,"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "chord",
+                "content": "Gm7"
+              },
+              {
+                "type": "lyric",
+                "content": "And I owe it all to you."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C"]
+          },
+          {
+            "type": "chords",
+            "content": ["C"]
+          },
+          {
+            "type": "chords",
+            "content": ["C"]
+          },
+          {
+            "type": "chords",
+            "content": ["C"]
+          },
+          {
+            "type": "text",
+            "content": "(Hey, baby!)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "lyric",
+            "content": "With my body and soul"
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "I want you more than you'll ever know."
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "lyric",
+            "content": "So we'll just let it go"
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "Don't be afraid to lose control."
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "lyric",
+            "content": "Yes, I know what's on your mind"
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "When you say 'Stay with me tonight.'"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "(Just remember)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "You're the one thing,"
+              },
+              {
+                "type": "chord",
+                "content": "D#"
+              },
+              {
+                "type": "lyric",
+                "content": "I can't get enough of,"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "So I'll tell you something,"
+              },
+              {
+                "type": "chord",
+                "content": "G7"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "This could be love because."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "Am7"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "lyric",
+                "content": "I've had the time of my life"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "No, I never felt this way before"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "Am7"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "lyric",
+                "content": "Yes, I swear it's the truth,"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "chord",
+                "content": "Gm7"
+              },
+              {
+                "type": "lyric",
+                "content": "And I owe it all to you."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C"]
+          },
+          {
+            "type": "chords",
+            "content": ["C"]
+          },
+          {
+            "type": "chords",
+            "content": ["C"]
+          },
+          {
+            "type": "chords",
+            "content": ["C"]
+          },
+          {
+            "type": "text",
+            "content": "(Hey, baby!)"
+          }
+        ]
+      }
+    ]
+  }
+  

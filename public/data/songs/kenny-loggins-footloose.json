@@ -1,0 +1,625 @@
+{
+    "id": 18,
+    "title": "Footloose",
+    "artist": "Kenny Loggins",
+    "originalKey": "F",
+    "tempo": "Upbeat",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F", "A#", "F"]
+          },
+          {
+            "type": "chords",
+            "content": ["F", "A#", "F"]
+          },
+          {
+            "type": "chords",
+            "content": ["F", "A#", "F"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "I been working so hard"
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "I’m punching my card"
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "Eight hours for what?"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "Oh, tell me what I got"
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "lyric",
+            "content": "I got this feeling"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "That time's just holding me down"
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "chord",
+            "content": "B°"
+          },
+          {
+            "type": "lyric",
+            "content": "I'll hit the ceiling"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "D#"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "Or else I'll tear up this town"
+          },
+          {
+            "type": "lyric",
+            "content": "Tonight I gotta cut"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "lyric",
+                "content": "Loose, Footloose kick off your Sunday shoes"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "lyric",
+                "content": "Please, Louise, pull me off my knees"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "lyric",
+                "content": "Jack, Get back! C'mon before we crack"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "D#"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "Lose your blues, everybody cut Footloose"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "You're playing so cool"
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "Obeying every rule"
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "Dig way down in your heart"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "You're burning yearning for some"
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "lyric",
+            "content": "Somebody to tell you"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "That life ain't passing you by"
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "chord",
+            "content": "B°"
+          },
+          {
+            "type": "lyric",
+            "content": "I'm trying to tell you"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "D#"
+          },
+          {
+            "type": "lyric",
+            "content": "It will if you don't even try"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "You'll get by if you'd only"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "lyric",
+                "content": "Cut loose, Footloose kick off your Sunday shoes"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "lyric",
+                "content": "Oowhee Marie, shake it, shake it for me"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "lyric",
+                "content": "Whoa Milo, c'mon, c'mon let’s go"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "D#"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "Lose your blues, everybody cut Footloose"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PUENTE",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "You got to turn me around"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "And put your feet on the ground"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "Now take a hold of your"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "(Ahhhhh)"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "I'm turning it Loose"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "lyric",
+                "content": "Footloose kick off your Sunday shoes"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "lyric",
+                "content": "Please, Louise, pull me off my knees"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "lyric",
+                "content": "Jack, Get back! C'mon before we crack"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "D#"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "Lose your blues, everybody cut Footloose"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "content": "(Yeah, ooh-oh-oh) Cut Footloose"
+          },
+          {
+            "type": "text",
+            "content": "(Yeah, ooh-oh-oh) Cut Footloose"
+          },
+          {
+            "type": "text",
+            "content": "(Yeah, ooh-oh-oh) Cut Footloose"
+          },
+          {
+            "type": "text",
+            "content": "(Ohh)"
+          }
+        ]
+      }
+    ]
+  }
+  

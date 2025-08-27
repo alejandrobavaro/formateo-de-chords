@@ -1,0 +1,622 @@
+{
+    "id": 15,
+    "title": "Crazy Little Thing Called Love",
+    "artist": "Queen",
+    "originalKey": "D",
+    "tempo": "Upbeat",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D", "(D-D9)"]
+          },
+          {
+            "type": "chords",
+            "content": ["D", "(D-D9)"]
+          },
+          {
+            "type": "chords",
+            "content": ["D", "(D-D9)"]
+          },
+          {
+            "type": "chords",
+            "content": ["D", "(D-D9)"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "text",
+            "content": "(D-D9)"
+          },
+          {
+            "type": "lyric",
+            "content": "This thing, called love,"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "I just can't handle it."
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "text",
+            "content": "(D-D9)"
+          },
+          {
+            "type": "lyric",
+            "content": "This thing, called love,"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "I must get round to it."
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "I ain't ready,"
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Crazy little thing called love."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "text",
+            "content": "(D-D9)"
+          },
+          {
+            "type": "lyric",
+            "content": "This thing, called love,"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "It cries in cradle at night."
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "It swings, it jives,"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "It shakes all over like a jellyfish,"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "I kinda like it,"
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Crazy little thing called love."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "There goes my baby,"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "She knows how to rock and roll,"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "lyric",
+                "content": "She drives me crazy,"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "She gives me hot and cold fever."
+              },
+              {
+                "type": "text",
+                "content": "(CORTE)"
+              },
+              {
+                "type": "text",
+                "content": "RIFF D-C#-C + A-G#G"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "BAJADA",
+        "lines": [
+          {
+            "type": "text",
+            "content": "BAJADA (A-G-F#-E)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "text",
+            "content": "(D-D9)"
+          },
+          {
+            "type": "lyric",
+            "content": "I gotta be cool, relax,"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Get hip, get on my tracks,"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "text",
+            "content": "(D-D9)"
+          },
+          {
+            "type": "lyric",
+            "content": "Take a back seat, hitch-hike,"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "And take a long ride on my motorbike."
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Until I'm ready,"
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Crazy little thing called love."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A#", "D", "A#"]
+          },
+          {
+            "type": "text",
+            "content": "(E-A-F)"
+          },
+          {
+            "type": "text",
+            "content": "RIFF D-C#-C + A-G#G"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO VOCES",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "lyric",
+                "content": "I gotta be cool, relax,"
+              },
+              {
+                "type": "lyric",
+                "content": "Get hip, get on my tracks,"
+              },
+              {
+                "type": "lyric",
+                "content": "Take a back seat, hitch-hike,"
+              },
+              {
+                "type": "lyric",
+                "content": "And take a long ride on my motorbike."
+              },
+              {
+                "type": "lyric",
+                "content": "Until I'm ready (YEAH FREDDIE)"
+              },
+              {
+                "type": "lyric",
+                "content": "Crazy little thing called love."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "BAJADA",
+        "lines": [
+          {
+            "type": "text",
+            "content": "BAJADA (A-G-F#-E)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "text",
+            "content": "(D-D9)"
+          },
+          {
+            "type": "lyric",
+            "content": "This thing, called love,"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "I just can't handle it."
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "text",
+            "content": "(D-D9)"
+          },
+          {
+            "type": "lyric",
+            "content": "This thing, called love,"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "I must get round to it."
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "I ain't ready,"
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Crazy little thing called love."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "Crazy little thing called love."
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "Crazy little thing called love."
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "Crazy little thing called love."
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "Crazy little thing called love."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

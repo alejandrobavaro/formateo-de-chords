@@ -1,0 +1,753 @@
+{
+    "id": 26,
+    "title": "Your Love",
+    "artist": "The Outfield",
+    "originalKey": "Am",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "Am", "G"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Josie's on a vacation far away"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Come around and talk it over."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "So many things that I'd like to say,"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "You know I like my girls a little bit older."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": []
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "I just wanna use your love tonight,"
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "I don't wanna lose your love tonight."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "I ain't got many friends left to talk to,"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "No-one's around when I'm in trouble."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "You know I'd do anything for you,"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "Stay the night - we'll keep it under cover."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": []
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "I just wanna use your love tonight,"
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "I don't wanna lose your love tonight."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INSTRUMENTAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D#9", "F9"]
+          },
+          {
+            "type": "chords",
+            "content": ["D#9", "F9"]
+          },
+          {
+            "type": "chords",
+            "content": ["D#9", "F9"]
+          },
+          {
+            "type": "chords",
+            "content": ["D#9", "F9"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": []
+      },
+      {
+        "type": "voice",
+        "name": "2º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D#9"
+          },
+          {
+            "type": "chord",
+            "content": "F9"
+          },
+          {
+            "type": "lyric",
+            "content": "Try to stop my hands from shakin',"
+          },
+          {
+            "type": "chord",
+            "content": "D#9"
+          },
+          {
+            "type": "chord",
+            "content": "F9"
+          },
+          {
+            "type": "lyric",
+            "content": "Somethin' in my mind's not makin' sense,"
+          },
+          {
+            "type": "chord",
+            "content": "D#9"
+          },
+          {
+            "type": "chord",
+            "content": "F9"
+          },
+          {
+            "type": "lyric",
+            "content": "It's been awhile since we've been all alone"
+          },
+          {
+            "type": "chord",
+            "content": "D#9"
+          },
+          {
+            "type": "chord",
+            "content": "F9"
+          },
+          {
+            "type": "lyric",
+            "content": "I can't hide the way I'm feelin'."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "As you leave me,"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "please would you close the door."
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "And forget what I told you."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Just 'cause you're right,"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "That don't mean I'm wrong,"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Another shoulder to cry upon."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO SIN BANDA",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": []
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "I just wanna use your love tonight,"
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "I don't wanna lose your love tonight."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO CON BANDA",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": []
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "I don't wanna lose your love tonight."
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "I don't wanna lose your love tonight."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO",
+        "lines": [
+          {
+            "type": "text",
+            "content": "SOLO: BAJA INTENSIDAD"
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "F", "G"]
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "F", "G"]
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "F", "G"]
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "F", "G"]
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "F", "G"]
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "F", "G"]
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "F", "G"]
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "F", "G"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO SIN BANDA (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": []
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "I just wanna use your love tonight,"
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "I don't wanna lose your love tonight."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO CON BANDA (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": []
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "I just wanna use your love tonight,"
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "I don't wanna lose your love tonight."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": []
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": "I don't wanna lose your love tonight."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

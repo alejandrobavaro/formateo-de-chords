@@ -1,0 +1,602 @@
+{
+    "albums": [
+      {
+        "album_id": "1",
+        "album_name": "Ponele Onda",
+        "year": "",
+        "songs": [
+          {
+            "id": "101",
+            "title": "Ponele Onda",
+            "artist": "Almango",
+            "file": "almango-ponele-onda.json",
+            "track_number": 1,
+            "original_file": "1D - 01 - Ponele Onda - Almango (Final Master) ®.doc"
+          },
+          {
+            "id": "102",
+            "title": "Ser uno mas",
+            "artist": "Almango",
+            "file": "almango-ser-uno-mas.json",
+            "track_number": 2,
+            "original_file": "1D - 02 - Ser uno mas - Almango (Final Master) ®.doc"
+          },
+          {
+            "id": "103",
+            "title": "Ideal",
+            "artist": "Almango",
+            "file": "almango-ideal.json",
+            "track_number": 3,
+            "original_file": "1D - 03 - Ideal - Almango (Final Master) ®.doc"
+          },
+          {
+            "id": "104",
+            "title": "Por siempre hoy",
+            "artist": "Almango",
+            "file": "almango-por-siempre-hoy.json",
+            "track_number": 4,
+            "original_file": "1D - 04 - Por siempre hoy - Almango (Final Master) ®.doc"
+          },
+          {
+            "id": "105",
+            "title": "Pinceladas",
+            "artist": "Almango",
+            "file": "almango-pinceladas.json",
+            "track_number": 5,
+            "original_file": "1D - 05 - Pinceladas - Almango (Final Master) ®.doc"
+          },
+          {
+            "id": "106",
+            "title": "Tiki Bombon",
+            "artist": "Almango",
+            "file": "almango-tiki-bombon.json",
+            "track_number": 6,
+            "original_file": "1D - 06 - Tiki Bombon - Almango (Final Master) ®.doc"
+          },
+          {
+            "极": "107",
+            "title": "Despedida",
+            "artist": "Almango",
+            "file": "almango-despedida.json",
+            "track_number": 7,
+            "original_file": "1D - 07 - Despedida - Almango (Final Master) ®.doc"
+          },
+          {
+            "id": "108",
+            "title": "Buena sorpresa",
+            "artist": "Almango",
+            "file": "almango-buena-sorpresa.json",
+            "track_number": 8,
+            "original_file": "1D - 08 - Buena sorpresa - Almango (Final Master) ®.doc"
+          },
+          {
+            "id": "109",
+            "title": "Verte",
+            "artist": "Almango",
+            "file": "almango-verte.json",
+            "track_number": 9,
+            "original_file": "1D - 09 - Verte - Almango - (Final Master) ®.doc"
+          },
+          {
+            "id": "110",
+            "title": "I Wanna",
+            "artist": "Almango",
+            "file": "almango-i-wanna.json",
+            "track_number": 10,
+            "original_file": "1D - 10 - I Wanna - Almango (Final Master) ®.doc"
+          },
+          {
+            "id": "111",
+            "title": "Triste Final",
+            "artist": "Almango",
+            "file": "almango-triste-final.json",
+            "track_number": 11,
+            "original_file": "1D - 11 - Triste Final - Almango (Final Master) ®.doc"
+          },
+          {
+            "id": "112",
+            "title": "Adonde Fuiste",
+            "artist": "Almango",
+            "file": "almango-adonde-fuiste-v1.json",
+            "track_number": 12,
+            "original_file": "1D - 12 - Adonde Fuiste - Almango - Version 1 (Final Master) ®.doc",
+            "version": "Version 1"
+          },
+          {
+            "id": "113",
+            "title": "Ella",
+            "artist": "Almango",
+            "file": "almango-ella.json",
+            "track_number": 13,
+            "original_file": "1D - 极3 - Ella - Almango (Final Master) ®.doc"
+          },
+          {
+            "id": "114",
+            "title": "Good Morning Mdp",
+            "artist": "Almango",
+            "file": "almango-good-morning-mdp.json",
+            "track_number": 14,
+            "original_file": "1D - 14 - Good Morning Mdp - Almango (Final Master) ®.doc"
+          },
+          {
+            "id": "115",
+            "title": "Adonde Fuiste",
+            "artist": "Almango",
+            "file": "almango-adonde-fuiste-v2.json",
+            "track_number": 15,
+            "original_file": "1D - 15 - Adonde Fuiste - Almango - Version 2 (Final Master) ®.doc",
+            "version": "Version 2"
+          }
+        ]
+      },
+      {
+        "album_id": "2",
+        "album_name": "Con Lorca Hasta la Luna",
+        "year": "",
+        "songs": [
+          {
+            "id": "213",
+            "title": "El poeta",
+            "artist": "Almango",
+            "file": "almango-el-poeta.json",
+            "track_number": 13,
+            "original_file": "2D - 13 - El poeta - Almango (Final Master) ®.doc"
+          },
+          {
+            "id": "214",
+            "title": "La Casada Infiel",
+            "artist": "Almango",
+            "file": "almango-la-casada-infiel.json",
+            "track_number": 14,
+            "original_file": "2D - 14 - La Casada Infiel - Almango (Final Master) ®.doc"
+          },
+          {
+            "id": "215",
+            "title": "Huye Reina mia",
+            "artist": "Almango",
+            "file": "almango-huye-reina-mia.json",
+            "track_number": 15,
+            "original_file": "2D - 15 - Huye Reina mia - Almango (Final Master) ®.doc"
+          },
+          {
+            "id": "216",
+            "title": "Bodas de Sangre",
+            "artist": "Amango",
+            "file": "amango-bodas-de-sangre.json",
+            "track_number": 16,
+            "original_file": "2D - 16 - Bodas de Sangre - Amango (Final Master) ®.doc"
+          },
+          {
+            "id": "217",
+            "title": "Cuba",
+            "artist": "Amango",
+            "file": "amango-cuba.json",
+            "track_number": 17,
+            "original_file": "2D - 17 - Cuba - Amango (Final Master) ®.doc"
+          },
+          {
+            "id": "218",
+            "title": "Cancion Otoñal",
+            "artist": "Almango",
+            "file": "almango-cancion-otonal.json",
+            "track_number": 18,
+            "original_file": "2D - 18 - Cancion Otoñal - Almango (Final Master) ®.doc"
+          },
+          {
+            "id": "219",
+            "title": "La luna y la Muerte",
+            "artist": "Almango",
+            "file": "almango-la-luna-y-la-muerte.json",
+            "track_number": 19,
+            "original_file": "2D - 19 - La luna y la Muerte - Almango (Final Master) ®.doc"
+          },
+          {
+            "id": "220",
+            "title": "Mundo",
+            "artist": "Almango",
+            "file": "almango-mundo.json",
+            "track_number": 20,
+            "original_file": "2D - 20 - Mundo - Almango (Final Master) ®.doc"
+          },
+          {
+            "id": "221",
+            "title": "Deshojar la luna",
+            "artist": "Almango",
+            "file": "almango-deshojar-la-luna.json",
+            "track_number": 21,
+            "original_file": "2D - 21 - Deshojar la luna - Almango (Final Master) ®.doc"
+          },
+          {
+            "id": "222",
+            "title": "El llanto de la guitarra",
+            "artist": "Almango",
+            "file": "almango-el-llanto-de-la-guitarra.json",
+            "track_number": 22,
+            "original_file": "2D - 22 - El llanto de la guitarra - Almango (Final Master) ®.doc"
+          },
+          {
+            "id": "223",
+            "title": "Perdido por el mar",
+            "artist": "Almango",
+            "file": "almango-perdido-por-el-mar.json",
+            "track_number": 23,
+            "original_file": "2D - 23 - Perdido por el mar - Almango (Final Master) ®.doc"
+          },
+          {
+            "id": "224",
+            "title": "Con Lorca hasta la Luna",
+            "artist": "Almango",
+            "file": "almango-con-lorca-hasta-la-luna.json",
+            "track_number": 24,
+            "original_file": "2D - 24 - Con Lorca hasta la Luna - Almango (Final Master) ®.doc"
+          }
+        ]
+      },
+      {
+        "album_id": "3",
+        "album_name": "Con Vos Hasta la Luna",
+        "year": "",
+        "songs": [
+          {
+            "id": "301",
+            "title": "A nuestro mundo le falta amor",
+            "artist": "Ale Gondra",
+            "file": "ale-gondra-a-nuestro-mundo-le-falta-amor.json",
+            "track_number": 1,
+            "original_file": "2D - 01 - A nuestro mundo le falta amor - Ale Gondra (Final Master) ®.doc"
+          },
+          {
+            "id": "302",
+            "title": "Infieles",
+            "artist": "Ale Gondra",
+            "file": "ale-gondra-infieles.json",
+            "track_number": 2,
+            "original_file": "2D - 02 - Infieles - Ale Gondra (Final Master) ®.doc"
+          },
+          {
+            "id": "303",
+            "title": "Good bye my sweet love",
+            "artist": "Almango",
+            "file": "almango-good-bye-my-sweet-love.json",
+            "track_number": 3,
+            "original_file": "2D - 03 - Good bye my sweet love - Almango (Final Master) ®.doc"
+          },
+          {
+            "id": "304",
+            "title": "Sale el Sol",
+            "artist": "Ale Gondra",
+            "file": "ale-gondra-sale-el-sol.json",
+            "track_number": 4,
+            "original_file极": "2D - 04 - Sale el Sol - Ale Gondra (Final Master) ®.doc"
+          },
+          {
+            "id": "305",
+            "title": "Si tu sonries",
+            "artist": "Ale Gondra",
+            "file": "ale-gondra-si-tu-sonries.json",
+            "track_number": 5,
+            "original_file": "2D - 05 - Si tu sonries - Ale Gondra (Final Master) ®.doc"
+          },
+          {
+            "id": "306",
+            "title": "Todo Cambiara o no",
+            "artist": "Almango",
+            "file": "almango-todo-cambiara-o-no.json",
+            "track_number": 6,
+            "original_file": "2D - 06 - Todo Cambiara o no - Almango (Final Master) ®.doc"
+          },
+          {
+            "id": "307",
+            "title": "Feeling Music",
+            "artist": "Almango",
+            "file": "almango-feeling-music.json",
+            "track_number": 7,
+            "original_file": "2D - 07 - Feeling Music - Almango (Final Master) ®.doc"
+          },
+          {
+            "id": "308",
+            "title": "Un Mundo Mejor",
+            "artist": "极lmango",
+            "file": "almango-un-mundo-mejor.json",
+            "track_number": 8,
+            "original_file": "2D - 08 - Un Mundo Mejor - Almango (Final Master) ®.doc"
+          },
+          {
+            "id": "309",
+            "title": "Libre sin ti",
+            "artist": "Almango",
+            "file": "almango-libre-sin-ti.json",
+            "track_number": 9,
+            "original_file": "2D - 09 - Libre sin ti - Almango (Final Master) ®.doc"
+          },
+          {
+            "id": "310",
+            "title": "Next",
+            "artist": "Almango",
+            "file": "almango-next.json",
+            "track_number": 10,
+            "original_file": "2D - 10 - Next - Almango (Final Master) ®.极oc"
+          },
+          {
+            "id": "311",
+            "title": "Que el destino lo decida",
+            "artist": "Almango",
+            "file": "almango-que-el-destino-lo-decida.json",
+            "track_number": 11,
+            "original_file": "2D - 11 - Que el destino lo decida - Almango (Final Master) ®.doc"
+          },
+          {
+            "id": "312",
+            "title": "Con Vos hasta la Luna",
+            "artist": "Almango",
+            "file": "almango-con-vos-hasta-la-luna.json",
+            "track_number": 12,
+            "original_file": "2极 - 12 - Con Vos hasta la Luna - Almango (Final Master) ®.doc"
+          }
+        ]
+      },
+      {
+        "album_id": "4",
+        "album_name": "Fundidos in the Night",
+        "year": "",
+        "songs": [
+          {
+            "id": "401",
+            "title": "Fundidos in the Night",
+            "artist": "Almango",
+            "file": "almango-fundidos-in-the-night.json",
+            "track_number": 1,
+            "original_file": "3D - 01 - Fundidos in the Night - Almango (Final Master) ®.doc"
+          },
+          {
+            "id": "402",
+            "title": "Donde esta el amor",
+            "artist": "Almango",
+            "file": "almango-donde-esta-el-amor.json",
+            "track_number": 2,
+            "original_file": "3D - 02 - Donde esta el amor - Almango (Final Master) ®.doc"
+          },
+          {
+            "id": "403",
+            "title": "Let me see you",
+            "artist": "Almango",
+            "file": "almango-let-me-see-you.json",
+            "track_number": 3,
+            "original_file": "3D - 03 - Let me see you - Almango (Final Master) ®.doc"
+          },
+          {
+            "id": "404",
+            "title": "No te Rindas",
+            "artist": "Ale Gondra",
+            "file": "ale-gondra-no-te-rindas.json",
+            "track_number": 4,
+            "original_file": "3D - 04 - No te Rindas - Ale Gondra (Final Master) ®.doc"
+          },
+          {
+            "id": "405",
+            "title": "Fuck You",
+            "artist": "Almango",
+            "file": "almango-fuck-you.json",
+            "track_number": 5,
+            "original_file": "3D - 05 - Fuck You - Almango (Final Master) ®.doc"
+          },
+          {
+            "id": "406",
+            "title": "I Wanna Rx",
+            "artist": "Almango",
+            "file": "almango-i-wanna-rx.json",
+            "track_number": 6,
+            "original_file": "3D - 06 - I Wanna Rx - Almango (Final Master) ®.doc"
+          },
+          {
+            "id": "407",
+            "title": "Voy a Salir",
+            "artist": "Almango",
+            "file": "almango-voy-a-salir.json",
+            "track_number": 7,
+            "original_file": "3D - 07 - Voy a Salir - Almango (Final Master) ®.doc"
+          },
+          {
+            "id": "408",
+            "title": "Pinceladas",
+            "artist": "Ale Gondra & Melody",
+            "file": "ale-gondra-melody-pinceladas.json",
+            "track_number": 8,
+            "original_file": "3D - 08 - Pinceladas - Ale Gondra & Melody (Final Master) ®.doc"
+          },
+          {
+            "id": "409",
+            "title": "Entregare mi corazon",
+            "artist": "Almango",
+            "file": "almango-entregare-mi-corazon.json",
+            "track_number": 9,
+            "original_file": "3D - 09 - Entregare mi corazon - Almango (Final Master) ®.doc"
+          },
+          {
+            "id": "410",
+            "title": "Fiesta",
+            "artist": "Almango",
+            "file": "almango-fiesta.json",
+            "track_number": 10,
+            "original_file": "3D - 10 - Fiesta - Almango (Final Master) ®.doc"
+          },
+          {
+            "id": "411",
+            "title": "Let´s do it Now",
+            "artist": "Almango",
+            "file": "almango-lets-do-it-now.json",
+            "track_number": 11,
+            "original_file": "3D - 11 - Let´s do it Now - Almango (Final Master) ®.doc"
+          },
+          {
+            "id": "412",
+            "title": "Maldita Mujer",
+            "artist": "Almango",
+            "file": "almango-maldita-mujer.json",
+            "track_number": 12,
+            "original_file": "3D - 12 - Maldita Mujer - Almango (Final Master) ®.doc"
+          },
+          {
+            "id": "413",
+            "title": "Gracias por elegirme",
+            "artist": "Almango",
+            "file": "almango-gracias-por-elegirme.json",
+            "track_number": 13,
+            "original_file": "3D - 13 - Gracias por elegirme - Almango (Final Master) ®.doc",
+            "key": "A"
+          },
+          {
+            "id": "414",
+            "title": "Si no estas",
+            "artist": "Ale Gondra & Maryan G",
+            "file": "ale-gondra-maryan-g-si-no-estas.json",
+            "track_number": 14,
+            "original_file": "3D - 14 - Si no estas - Ale Gondra & Maryan G (Final Master) ®.doc"
+          },
+          {
+            "id": "415",
+            "title": "A donde Fuiste Rx",
+            "artist": "Almango",
+            "file": "almango-a-donde-fuiste-rx.json",
+            "track_number": 15,
+            "original_file": "3D - 15 - A donde Fuiste Rx - Almango (Final Master) ®.doc"
+          },
+          {
+            "id": "416",
+            "title": "En Mardel tenes todo",
+            "artist": "Almango",
+            "file": "almango-en-mardel-tenes-todo.json",
+            "track_number": 16,
+            "original_file": "3D - 16 - En Mardel tenes todo - Almango (Final Master) ®.doc"
+          }
+        ]
+      },
+      {
+        "album_id": "5",
+        "album_name": "Nadie Nos Va a Parar",
+        "year": "",
+        "songs": [
+          {
+            "id": "501",
+            "title": "Hipnotizame",
+            "artist": "Almango",
+            "file": "almango-hipnotizame.json",
+            "track_number": 1,
+            "original_file": "4D - 01 - Hipnotizame - Almango (Final Master) ®.doc"
+          },
+          {
+            "id": "502",
+            "title": "Sexy Woman",
+            "artist": "Almango",
+            "file": "almango-sexy-woman.json",
+            "track_number": 2,
+            "original_file": "4D - 02 - Sexy Woman - Almango (Final Master).doc"
+          },
+          {
+            "id": "503",
+            "title": "Descontrol",
+            "artist": "Almango",
+            "file": "almango-descontrol.json",
+            "track_number": 3,
+            "original_file": "4D - 03 - Descontrol - Almango (Final Master) ®.doc"
+          },
+          {
+            "id": "504",
+            "title": "Asesina",
+            "artist": "Almango",
+            "file": "almango-asesina.json",
+            "track_number": 4,
+            "original_file": "4D - 04 - Asesina - Almango (Final Master) ®.doc"
+          },
+          {
+            "id": "505",
+            "title": "Crazy Love",
+            "artist": "Almango",
+            "file": "almango-crazy-love.json",
+            "track_number": 5,
+            "original_file": "4D - 05 - Crazy Love - Almango (Final Master) ®.doc"
+          },
+          {
+            "id": "506",
+            "title": "Nadie nos va a parar",
+            "artist": "Almango",
+            "file": "almango-nadie-nos-va-a-parar.json",
+            "track_number": 6,
+            "original_file": "4D - 06 - Nadie nos va a parar - Almango (Final Master) ®.doc"
+          },
+          {
+            "id": "507",
+            "title": "Me Perdí",
+            "artist": "Almango",
+            "file": "almango-me-perdi.json",
+            "track_number": 7,
+            "original_file": "4D - 07 - Me Perdí - Almango (Final Master) ®.doc"
+          },
+          {
+            "id": "508",
+            "title": "Sexótica",
+            "artist": "Almango",
+            "file": "almango-sexotica.json",
+            "track_number极": 8,
+            "original_file": "4D - 08 - Sexótica - Almango (Final Master) ®.doc"
+          },
+          {
+            "id": "509",
+            "title": "More Time",
+            "artist": "Almango",
+            "file": "almango-more-time.json",
+            "track_number": 9,
+            "original_file": "4D - 09 - More Time - Almango (Final Master) ®.doc"
+          },
+          {
+            "id": "510",
+            "title": "Sed",
+            "artist": "Almango",
+            "file": "almango-sed.json",
+            "track_number": 10,
+            "original_file": "4D - 极0 - Sed - Almango (Final Master) ®.doc"
+          },
+          {
+            "id": "511",
+            "title": "Temptation",
+            "artist": "Almango",
+            "file": "almango-temptation.json",
+            "track_number": 11,
+            "original_file": "4D - 11 - Temptation - Almango (Final Master) ®.doc"
+          },
+          {
+            "id": "512",
+            "title": "Actitud",
+            "artist": "Almango",
+            "file": "almango-actitud.json",
+            "track_number": 12,
+            "original_file": "4D - 12 - Actitud - Almango (Final Master) ®.doc"
+          },
+          {
+            "id": "513",
+            "title": "Abre Tus Ojos",
+            "artist": "Almango",
+            "file": "almango-abre-tus-ojos.json",
+            "track_number": 13,
+            "original_file": "4D - 13 - Abre Tus Ojos - Almango (Final Master) ®.doc"
+          },
+          {
+            "id": "514",
+            "title": "Mil Pedazos",
+            "artist": "Almango",
+            "file": "almango-mil-pedazos.json",
+            "track_number": 14,
+            "original_file": "4D - 14 - Mil Pedazos - Almango (Final Master) ®.doc"
+          },
+          {
+            "id": "515",
+            "title": "Parte de tu realidad",
+            "artist": "Almango",
+            "file": "almango-parte-de-tu-realidad.json",
+            "track_number": 15,
+            "original_file": "4D - 15 - Parte de tu realidad - Almango (Final Master) ®.doc"
+          }
+        ]
+      }
+    ]
+  }

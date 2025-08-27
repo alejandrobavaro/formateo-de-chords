@@ -1,0 +1,454 @@
+{
+    "id": 17,
+    "title": "Walk Of Life",
+    "artist": "Dire Straits",
+    "originalKey": "E",
+    "tempo": "Upbeat",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "A", "B", "A", "(B)"]
+          },
+          {
+            "type": "chords",
+            "content": ["E", "A", "B", "A", "(B)"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "Here comes Johnny singing oldies Goldie's,"
+          },
+          {
+            "type": "lyric",
+            "content": "Be-Bop-A-Lula, Baby What I Say."
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "Here comes Johnny, singing I Gotta Woman,"
+          },
+          {
+            "type": "lyric",
+            "content": "Down in the tunnels, trying to make it pay."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "He got the action, He got the motion,"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "Yeah the boy can play,"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "Dedication, devotion."
+              },
+              {
+                "type": "text",
+                "content": "(Corte)"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "Turning all the night time into the day."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "He do the song about the sweet lovin' woman,"
+              },
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "He do the song about the knife,"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "He do the walk, he do the walk of life,"
+              },
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "lyric",
+                "content": "Yeah, he do the walk of life."
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "A", "B", "A", "B"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "Here comes Johnny and he'll tell you the story,"
+          },
+          {
+            "type": "lyric",
+            "content": "Hand me down my walkin' shoes,"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "Here come Johnny with the power and the glory,"
+          },
+          {
+            "type": "lyric",
+            "content": "Backbeat the talkin' blues."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "He got the action, He got the motion,"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "Yeah the boy can play,"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "Dedication, devotion."
+              },
+              {
+                "type": "text",
+                "content": "(Corte)"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "Turning all the night time into the day."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "He do the song about the sweet lovin' woman,"
+              },
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "He do the song about the knife,"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "He do the walk, he do the walk of life,"
+              },
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "lyric",
+                "content": "Yeah, he do the walk of life."
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "A", "B", "A", "(B)"]
+          },
+          {
+            "type": "chords",
+            "content": ["E", "A", "B", "A", "(B)"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "Here comes Johnny singing oldies Goldie's,"
+          },
+          {
+            "type": "lyric",
+            "content": "Be-Bop-A-Lula, Baby What I Say."
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "Here comes Johnny, singing I Gotta Woman,"
+          },
+          {
+            "type": "lyric",
+            "content": "Down in the tunnels, trying to make it pay."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "He do the song about the sweet lovin' woman,"
+              },
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "He do the song about the knife,"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "He do the walk, he do the walk of life,"
+              },
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "lyric",
+                "content": "Yeah, he do the walk of life."
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "A", "B", "A", "B"]
+          }
+        ]
+      }
+    ]
+  }
+  

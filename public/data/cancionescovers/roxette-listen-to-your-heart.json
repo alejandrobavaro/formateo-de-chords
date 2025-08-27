@@ -1,0 +1,511 @@
+{
+    "id": 33,
+    "title": "Listen to Your Heart",
+    "artist": "Roxette",
+    "originalKey": "F#m",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "I know there’s something"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "in the wake of your smile,"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "I get a notion from the look"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "in your eyes,"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "You've built a love"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "but that love falls apart,"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Your little piece of heaven,"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "lyric",
+            "content": "turns too dark."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": []
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F#m"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "Listen to your heart"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "When he's calling for you,"
+              },
+              {
+                "type": "chord",
+                "content": "F#m"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "Listen to your heart"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "There's nothing else you can do"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "I don't know where you're going,"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "And I don't know why,"
+              },
+              {
+                "type": "chord",
+                "content": "F#m"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "But listen to your heart,"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "chord",
+                "content": "F#m"
+              },
+              {
+                "type": "lyric",
+                "content": "Before… you tell him goodbye…"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F#m", "D", "E", "F#m"]
+          },
+          {
+            "type": "chords",
+            "content": ["F#m", "D", "E", "F#m"]
+          },
+          {
+            "type": "chords",
+            "content": ["A", "E", "D", "A"]
+          },
+          {
+            "type": "chords",
+            "content": ["F#m", "D", "E"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Sometimes you wonder"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "if this fight is worthwhile,"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "The precious moments"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "are all lost in the tide,"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "They're swept away"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "and nothing is what it seems,"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "The feeling of belonging"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "lyric",
+            "content": "to your dreams..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": []
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F#m"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "Listen to your heart"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "When he's calling for you,"
+              },
+              {
+                "type": "chord",
+                "content": "F#m"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "Listen to your heart"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "There's nothing else you can do"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "I don't know where you're going,"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "And I don't know why,"
+              },
+              {
+                "type": "chord",
+                "content": "F#m"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "But listen to your heart,"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "chord",
+                "content": "F#m"
+              },
+              {
+                "type": "lyric",
+                "content": "Before… you tell him goodbye…"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F#m", "D", "E", "F#m"]
+          },
+          {
+            "type": "chords",
+            "content": ["F#m", "D", "E", "F#m"]
+          },
+          {
+            "type": "chords",
+            "content": ["A", "E", "D", "A"]
+          },
+          {
+            "type": "chords",
+            "content": ["F#m", "D", "E"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "F#m"
+          }
+        ]
+      }
+    ]
+  }
+  

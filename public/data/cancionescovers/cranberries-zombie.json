@@ -1,0 +1,488 @@
+{
+    "id": 31,
+    "title": "Zombie",
+    "artist": "The Cranberries",
+    "originalKey": "C#m",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C#m", "A", "E", "B"]
+          },
+          {
+            "type": "chords",
+            "content": ["C#m", "A", "E", "B"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "C#m"
+          },
+          {
+            "type": "lyric",
+            "content": "Another head hangs lowly,"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Child is slowly taken,"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "lyric",
+            "content": "And the violence caused such silence,"
+          },
+          {
+            "type": "chord",
+            "content": "C#m"
+          },
+          {
+            "type": "chord",
+            "content": "A7"
+          },
+          {
+            "type": "lyric",
+            "content": "Who are we mistaken?"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C#m"
+              },
+              {
+                "type": "lyric",
+                "content": "But you see, it's not me,"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "It's not my family,"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "In your head, in your head,"
+              },
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "lyric",
+                "content": "They are fighting."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "C#m"
+          },
+          {
+            "type": "lyric",
+            "content": "With their tanks and their bombs"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "And their bombs, and their guns"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "In your head, in your head"
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "lyric",
+            "content": "They are crying."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C#m"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "In your head, in your head,"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "lyric",
+                "content": "Zombie, zombie, zombie."
+              },
+              {
+                "type": "chord",
+                "content": "C#m"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "What's in your head, in your head,"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "lyric",
+                "content": "Zombie, zombie, zombie..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C#m", "A", "E", "B"]
+          },
+          {
+            "type": "chords",
+            "content": ["C#m", "A", "E", "B"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "C#m"
+          },
+          {
+            "type": "lyric",
+            "content": "Another mother's breaking,"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Heart is taking over,"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "lyric",
+            "content": "When the violence causes silence,"
+          },
+          {
+            "type": "chord",
+            "content": "C#m"
+          },
+          {
+            "type": "chord",
+            "content": "A7"
+          },
+          {
+            "type": "lyric",
+            "content": "We must be mistaken."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C#m"
+              },
+              {
+                "type": "lyric",
+                "content": "It's the same old theme,"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "Since nineteen-sixteen,"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "In your head, in your head,"
+              },
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "lyric",
+                "content": "They're still fighting."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "C#m"
+          },
+          {
+            "type": "lyric",
+            "content": "With their tanks and their bombs,"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "And their bombs, and their guns,"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "In your head, in your head"
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "lyric",
+            "content": "They are dying."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C#m"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "In your head, in your head,"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "lyric",
+                "content": "Zombie, zombie, zombie."
+              },
+              {
+                "type": "chord",
+                "content": "C#m"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "What's in your head, in your head,"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "lyric",
+                "content": "Zombie, zombie, zombie..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C#m", "A", "E", "B"]
+          },
+          {
+            "type": "chords",
+            "content": ["C#m", "A", "E", "B"]
+          },
+          {
+            "type": "chords",
+            "content": ["C#m", "A", "E", "B"]
+          },
+          {
+            "type": "chords",
+            "content": ["C#m", "A", "E", "B"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "C#m"
+          }
+        ]
+      }
+    ]
+  }
+  

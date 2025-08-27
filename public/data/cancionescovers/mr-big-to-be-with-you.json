@@ -1,0 +1,504 @@
+{
+    "id": 38,
+    "title": "To Be With You",
+    "artist": "Mr. Big",
+    "originalKey": "C#m",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "C#m"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "A9"
+          },
+          {
+            "type": "lyric",
+            "content": "Hold on little girl."
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "Show me what he's done to you."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "C#m"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "A9"
+          },
+          {
+            "type": "lyric",
+            "content": "Stand up little girl."
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "A broken heart can't be that bad."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A9"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "A9"
+          },
+          {
+            "type": "lyric",
+            "content": "When it's through, it's through."
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "Fate will twist the both of you."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "So come on baby, come on over."
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "lyric",
+            "content": "Let me be the one to show you."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "chord",
+                "content": "A9"
+              },
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "I'm the one who wants to be with you"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "chord",
+                "content": "A9"
+              },
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "Deep inside I hope you'll feel it too."
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "chord",
+                "content": "A9"
+              },
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "Waited on a line of greens and blues"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "chord",
+                "content": "A9"
+              },
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "Just to be the next to be with you."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "C#m"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "A9"
+          },
+          {
+            "type": "lyric",
+            "content": "Build up your confidence so you can"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "be on top for once."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "C#m"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "A9"
+          },
+          {
+            "type": "lyric",
+            "content": "Wake up! Who cares about little boys"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "that talk too much?"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A9"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "A9"
+          },
+          {
+            "type": "lyric",
+            "content": "I've seen it all go down."
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "Your game of love was all rained out."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "So come on baby, come on over."
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "lyric",
+            "content": "Let me be the one to hold you."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "BIS",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A9"
+              },
+              {
+                "type": "lyric",
+                "content": "Why be alone when we can be"
+              },
+              {
+                "type": "chord",
+                "content": "C#m"
+              },
+              {
+                "type": "lyric",
+                "content": "together baby?"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "You can make my life worthwhile."
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "I can make you start to smile."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN x2)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "chord",
+                "content": "A9"
+              },
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "I'm the one who wants to be with you"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "chord",
+                "content": "A9"
+              },
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "Deep inside I hope you'll feel it too."
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "chord",
+                "content": "A9"
+              },
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "Waited on a line of greens and blues"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "chord",
+                "content": "A9"
+              },
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "Just to be the next to be with you."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

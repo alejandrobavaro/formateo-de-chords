@@ -1,0 +1,587 @@
+{
+    "id": 35,
+    "title": "It's My Life",
+    "artist": "Bon Jovi",
+    "originalKey": "Am",
+    "tempo": "Upbeat",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "/F-E"]
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "/F-E"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "chord",
+            "content": "/F-E"
+          },
+          {
+            "type": "lyric",
+            "content": "This ain't a song for the broken hearted."
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "chord",
+            "content": "/F-E"
+          },
+          {
+            "type": "lyric",
+            "content": "A silent prayer for the faith departed."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am5"
+          },
+          {
+            "type": "lyric",
+            "content": "I ain't gonna be just a face in the crowd."
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D5"
+          },
+          {
+            "type": "lyric",
+            "content": "Gonna hear my voice when I shout it out loud."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Am5"
+              },
+              {
+                "type": "chord",
+                "content": "F5"
+              },
+              {
+                "type": "lyric",
+                "content": "It's my life and it's now or never"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C5"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "I ain't gonna live forever"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Am5"
+              },
+              {
+                "type": "chord",
+                "content": "F5"
+              },
+              {
+                "type": "lyric",
+                "content": "I just wanna live while I'm alive..."
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G5"
+              },
+              {
+                "type": "text",
+                "content": "(-G-G#)"
+              },
+              {
+                "type": "lyric",
+                "content": "(It's my Life...)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am5"
+          },
+          {
+            "type": "chord",
+            "content": "F5"
+          },
+          {
+            "type": "lyric",
+            "content": "My heart is like an open"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "C5"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Highway. Like Franky said I did it my way."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am5"
+          },
+          {
+            "type": "chord",
+            "content": "F5"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "I just wanna live while I'm alive"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "It's my Life."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "/F-E"]
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "/F-E"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "chord",
+            "content": "/F-E"
+          },
+          {
+            "type": "lyric",
+            "content": "This is for ones who stood their ground."
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "chord",
+            "content": "/F-E"
+          },
+          {
+            "type": "lyric",
+            "content": "Like Tommy and Gina, they won't back down"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am5"
+          },
+          {
+            "type": "lyric",
+            "content": "Tomorrow's getting harder make no mistake."
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D5"
+          },
+          {
+            "type": "lyric",
+            "content": "Luck ain't even lucky got to make your own breaks."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Am5"
+              },
+              {
+                "type": "chord",
+                "content": "F5"
+              },
+              {
+                "type": "lyric",
+                "content": "It's my life and it's now or never"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C5"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "I ain't gonna live forever"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Am5"
+              },
+              {
+                "type": "chord",
+                "content": "F5"
+              },
+              {
+                "type": "lyric",
+                "content": "I just wanna live while I'm alive..."
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G5"
+              },
+              {
+                "type": "text",
+                "content": "(-G-G#)"
+              },
+              {
+                "type": "lyric",
+                "content": "(It's my Life...)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F", "G"]
+          },
+          {
+            "type": "chords",
+            "content": ["F", "G"]
+          },
+          {
+            "type": "chords",
+            "content": ["G", "G#", "Am"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PUENTE",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": "You better stand tall when they're calling you out"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": "Don't bend don't break baby don't back down."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN x2)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Am5"
+              },
+              {
+                "type": "chord",
+                "content": "F5"
+              },
+              {
+                "type": "lyric",
+                "content": "It's my life and it's now or never"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C5"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "I ain't gonna live forever"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Am5"
+              },
+              {
+                "type": "chord",
+                "content": "F5"
+              },
+              {
+                "type": "lyric",
+                "content": "I just wanna live while I'm alive..."
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G5"
+              },
+              {
+                "type": "text",
+                "content": "(-G-G#)"
+              },
+              {
+                "type": "lyric",
+                "content": "(It's my Life...)"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

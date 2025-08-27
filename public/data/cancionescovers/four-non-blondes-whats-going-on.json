@@ -1,0 +1,595 @@
+{
+    "id": 30,
+    "title": "What's Going On",
+    "artist": "Four Non Blondes",
+    "originalKey": "E",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "F#m", "A", "E"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "Twenty Five years and my life is still"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Trying to get up that great big hill of hope"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "For a destination."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "I realized quickly when I knew that I should"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "That the world was made of this"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "brotherhood of man"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "For whatever that means."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "'N So I cry sometimes when I'm lying in bed"
+              },
+              {
+                "type": "chord",
+                "content": "F#m"
+              },
+              {
+                "type": "lyric",
+                "content": "Just to get it all out"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "what's in my head and I,"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "I am feeling a little peculiar."
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "So I wake in the morning and I step outside"
+              },
+              {
+                "type": "chord",
+                "content": "F#m"
+              },
+              {
+                "type": "lyric",
+                "content": "and I take a deep breath and I get real high"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "I scream at the top of my lungs"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "WHAT'S GOING ON?"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": []
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "chord",
+                "content": "F#m"
+              },
+              {
+                "type": "lyric",
+                "content": "And I said Heyeyeyeyey Heyeyey"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "I said Hey What's going on?"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "chord",
+                "content": "F#m"
+              },
+              {
+                "type": "lyric",
+                "content": "And I said Heyeyeyeyey Heyeyey"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "I said Hey What's going on?"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "F#m", "A", "E"]
+          },
+          {
+            "type": "chords",
+            "content": ["E", "F#m", "A", "E"]
+          },
+          {
+            "type": "chords",
+            "content": ["E", "F#m", "A", "E"]
+          },
+          {
+            "type": "chords",
+            "content": ["E", "F#m", "A", "E"]
+          },
+          {
+            "type": "chords",
+            "content": ["E", "F#m", "A", "E"]
+          },
+          {
+            "type": "chords",
+            "content": ["E", "F#m", "A", "E"]
+          },
+          {
+            "type": "chords",
+            "content": ["E", "F#m", "A", "E"]
+          },
+          {
+            "type": "chords",
+            "content": ["E", "F#m", "A", "E"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO",
+        "lines": [
+          {
+            "type": "text",
+            "content": "SOLO"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "And I try, oh my god do I try"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "I try all the time, in this institution."
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "And I pray, oh my god do I pray"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "I pray every single day for a revolution."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "'N So I cry sometimes when I'm lying in bed"
+              },
+              {
+                "type": "chord",
+                "content": "F#m"
+              },
+              {
+                "type": "lyric",
+                "content": "Just to get it all out"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "what's in my head and I,"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "I am feeling a little peculiar."
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "So I wake in the morning and I step outside"
+              },
+              {
+                "type": "chord",
+                "content": "F#m"
+              },
+              {
+                "type": "lyric",
+                "content": "and I take a deep breath and I get real high"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "I scream at the top of my lungs"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "WHAT'S GOING ON?"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN x2)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": []
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "chord",
+                "content": "F#m"
+              },
+              {
+                "type": "lyric",
+                "content": "And I said Heyeyeyeyey Heyeyey"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "I said Hey What's going on?"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "chord",
+                "content": "F#m"
+              },
+              {
+                "type": "lyric",
+                "content": "And I said Heyeyeyeyey Heyeyey"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "I said Hey What's going on?"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "F#m", "A", "E"]
+          },
+          {
+            "type": "chords",
+            "content": ["E", "F#m", "A", "E"]
+          },
+          {
+            "type": "chords",
+            "content": ["E", "F#m", "A", "E"]
+          },
+          {
+            "type": "chords",
+            "content": ["E", "F#m", "A", "E"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "text",
+            "content": "SOLO"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL (SIN BANDA)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "Twenty Five years and my life is still"
+              },
+              {
+                "type": "chord",
+                "content": "F#m"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "Trying to get up that great big hill of hope"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "For a destination."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

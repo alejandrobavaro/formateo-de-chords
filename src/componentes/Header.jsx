@@ -3,11 +3,17 @@ import { Link } from "react-router-dom";
 import { BsList } from "react-icons/bs";
 import { FiHome, FiPhone, FiHelpCircle, FiFileText, FiMusic } from "react-icons/fi";
 import { Navbar, Nav, Container, Dropdown } from "react-bootstrap";
-import HeaderSearchBar from "./ChordsViewer/HeaderSearchBar"; // Corregida la ruta
+import HeaderSearchBar from "./ChordsViewer/HeaderSearchBar";
 import "../assets/scss/_03-Componentes/_Header.scss";
 
+/**
+ * Componente Header principal con navegación y búsqueda
+ */
 const Header = () => {
+  // Estado para controlar el menú móvil
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  
+  // Iconos para los items de navegación
   const icons = {
     home: <FiHome size={16} />,
     chords: <FiMusic size={16} />,
@@ -16,12 +22,17 @@ const Header = () => {
     ayuda: <FiHelpCircle size={16} />,
   };
 
+  /**
+   * Alternar visibilidad del menú móvil
+   */
   const handleToggleMobileMenu = () => setIsMobileMenuOpen(!isMobileMenuOpen);
 
   return (
     <header className="header">
       <Navbar expand="lg" className="navbar">
         <Container className="header-container">
+          
+          {/* Logo y marca */}
           <Navbar.Brand as={Link} to="/" className="logo-container">
             <img
               src="/img/02-logos/logo-formateo-chords.png"
@@ -33,18 +44,25 @@ const Header = () => {
               <span className="brand-subtitle">CHORDS</span>
             </div>
           </Navbar.Brand>
+          
+          {/* Sección de búsqueda */}
           <div className="search-section">
             <HeaderSearchBar placeholder="Buscar acordes, canciones..." />
           </div>
+          
+          {/* Sección de navegación */}
           <div className="nav-section">
             <Navbar.Toggle aria-controls="basic-navbar-nav" className="navbar-toggler">
               <BsList className="menu-icon" onClick={handleToggleMobileMenu} />
             </Navbar.Toggle>
+            
             <Navbar.Collapse
               id="basic-navbar-nav"
               className={`navbar-collapse ${isMobileMenuOpen ? "show" : ""}`}
             >
               <Nav className="nav-primary">
+                
+                {/* Dropdown de Acordes */}
                 <Dropdown as={Nav.Item} className="nav-item">
                   <Dropdown.Toggle as={Nav.Link} className="nav-link dropdown-toggle">
                     {icons.chords} Acordes
@@ -60,6 +78,8 @@ const Header = () => {
                     </Dropdown.Item>
                   </Dropdown.Menu>
                 </Dropdown>
+                
+                {/* Enlace a Formateo */}
                 <Nav.Link
                   as={Link}
                   to="/formateo-chords"
@@ -68,6 +88,8 @@ const Header = () => {
                 >
                   {icons.formateo} Formateo
                 </Nav.Link>
+                
+                {/* Enlace a Contacto */}
                 <Nav.Link
                   as={Link}
                   to="/contacto"
@@ -76,6 +98,8 @@ const Header = () => {
                 >
                   {icons.contacto} Contacto
                 </Nav.Link>
+                
+                {/* Enlace a Ayuda */}
                 <Nav.Link
                   as={Link}
                   to="/ayuda"
@@ -84,6 +108,7 @@ const Header = () => {
                 >
                   {icons.ayuda} Ayuda
                 </Nav.Link>
+                
               </Nav>
             </Navbar.Collapse>
           </div>

@@ -23,7 +23,7 @@ const ChordsViewerIndex = () => {
     const loadSongs = async () => {
       try {
         setLoading(true);
-        const response = await fetch('/data/songs.json');
+        const response = await fetch('/data/cancionescasamiento.json');
         if (!response.ok) {
           throw new Error('No se pudo cargar la lista de canciones');
         }

@@ -1,0 +1,632 @@
+{
+    "id": 23,
+    "title": "Another Day in Paradise",
+    "artist": "Phil Collins",
+    "originalKey": "Em",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em7", "D", "Am7"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em7", "D", "Am7"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em7", "D", "Am7"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em7", "D", "Am7"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Em7"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "Am7"
+          },
+          {
+            "type": "lyric",
+            "content": "She calls out to the man on the street,"
+          },
+          {
+            "type": "chord",
+            "content": "Em7"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "'Sir can you help me?'"
+          },
+          {
+            "type": "chord",
+            "content": "Em7"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "Am7"
+          },
+          {
+            "type": "lyric",
+            "content": "It's cold and I've nowhere to sleep,"
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Is there somewhere you can tell me?"
+          },
+          {
+            "type": "chord",
+            "content": "Em7"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "Am7"
+          },
+          {
+            "type": "lyric",
+            "content": "He walks on... doesn't look back"
+          },
+          {
+            "type": "chord",
+            "content": "Em7"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "He pretends, he can't hear her"
+          },
+          {
+            "type": "chord",
+            "content": "Em7"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "Am7"
+          },
+          {
+            "type": "lyric",
+            "content": "Starts to whistle as he crosses the street"
+          },
+          {
+            "type": "chord",
+            "content": "Em7"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "She's embarrassed to be there..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": []
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "chord",
+                "content": "Bm7"
+              },
+              {
+                "type": "lyric",
+                "content": "Oh, think twice,"
+              },
+              {
+                "type": "chord",
+                "content": "Am7"
+              },
+              {
+                "type": "lyric",
+                "content": "Cause it's another day for you"
+              },
+              {
+                "type": "chord",
+                "content": "Bm7"
+              },
+              {
+                "type": "lyric",
+                "content": "and me in Paradise."
+              },
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "chord",
+                "content": "Bm7"
+              },
+              {
+                "type": "lyric",
+                "content": "Oh, think twice,"
+              },
+              {
+                "type": "chord",
+                "content": "Am7"
+              },
+              {
+                "type": "lyric",
+                "content": "Cause it's another day for you..."
+              },
+              {
+                "type": "chords",
+                "content": ["D", "Am7", "D", "Am7"]
+              },
+              {
+                "type": "chord",
+                "content": "Em7"
+              },
+              {
+                "type": "lyric",
+                "content": "you and me in Pa-ra-dice."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em7", "D", "Am7"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em7", "D", "Am7"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em7", "D", "Am7"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em7", "D", "Am7"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "lyric",
+            "content": "Just think about it"
+          },
+          {
+            "type": "chord",
+            "content": "Em7"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "Am7"
+          },
+          {
+            "type": "lyric",
+            "content": "She calls out to the man on the street"
+          },
+          {
+            "type": "chord",
+            "content": "Em7"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "He can see she's been crying"
+          },
+          {
+            "type": "chord",
+            "content": "Em7"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "Am7"
+          },
+          {
+            "type": "lyric",
+            "content": "She's got blisters on the soles of her feet"
+          },
+          {
+            "type": "chord",
+            "content": "Em7"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "She can't walk but she's trying..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": []
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "chord",
+                "content": "Bm7"
+              },
+              {
+                "type": "lyric",
+                "content": "Oh, think twice,"
+              },
+              {
+                "type": "chord",
+                "content": "Am7"
+              },
+              {
+                "type": "lyric",
+                "content": "Cause it's another day for you"
+              },
+              {
+                "type": "chord",
+                "content": "Bm7"
+              },
+              {
+                "type": "lyric",
+                "content": "and me in Paradise."
+              },
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "chord",
+                "content": "Bm7"
+              },
+              {
+                "type": "lyric",
+                "content": "Oh, think twice,"
+              },
+              {
+                "type": "chord",
+                "content": "Am7"
+              },
+              {
+                "type": "lyric",
+                "content": "Cause it's another day for you..."
+              },
+              {
+                "type": "chords",
+                "content": ["D", "Am7", "D", "Am7"]
+              },
+              {
+                "type": "chord",
+                "content": "Em7"
+              },
+              {
+                "type": "lyric",
+                "content": "you and me in Pa-ra-dice."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em7", "D", "Am7"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em7", "D", "Am7"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em7", "D", "Am7"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em7", "D", "Am7"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Em7"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "Am7"
+          },
+          {
+            "type": "lyric",
+            "content": "You can tell from the lines on her face"
+          },
+          {
+            "type": "chord",
+            "content": "Em7"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "You can see that she's been there"
+          },
+          {
+            "type": "chord",
+            "content": "Em7"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "Am7"
+          },
+          {
+            "type": "lyric",
+            "content": "Probably been moved on from every place"
+          },
+          {
+            "type": "chord",
+            "content": "Em7"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Cause she didn't fit in there..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": []
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "chord",
+                "content": "Bm7"
+              },
+              {
+                "type": "lyric",
+                "content": "Oh, think twice,"
+              },
+              {
+                "type": "chord",
+                "content": "Am7"
+              },
+              {
+                "type": "lyric",
+                "content": "Cause it's another day for you"
+              },
+              {
+                "type": "chord",
+                "content": "Bm7"
+              },
+              {
+                "type": "lyric",
+                "content": "and me in Paradise."
+              },
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "chord",
+                "content": "Bm7"
+              },
+              {
+                "type": "lyric",
+                "content": "Oh, think twice,"
+              },
+              {
+                "type": "chord",
+                "content": "Am7"
+              },
+              {
+                "type": "lyric",
+                "content": "Cause it's another day for you..."
+              },
+              {
+                "type": "chords",
+                "content": ["D", "Am7", "D", "Am7"]
+              },
+              {
+                "type": "chord",
+                "content": "Em7"
+              },
+              {
+                "type": "lyric",
+                "content": "you and me in Pa-ra-dice."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am7"
+          },
+          {
+            "type": "chord",
+            "content": "Em7"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "Am7"
+          },
+          {
+            "type": "lyric",
+            "content": "It's just another day for you and me"
+          },
+          {
+            "type": "chord",
+            "content": "Em7"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "Am7"
+          },
+          {
+            "type": "lyric",
+            "content": "In paradise (it's just a...)"
+          }
+        ]
+      }
+    ]
+  }
+  
