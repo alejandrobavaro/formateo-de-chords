@@ -1,0 +1,508 @@
+{
+    "id": "electric-light-orchestra-last-train-to-london",
+    "title": "Last Train to London",
+    "artist": "Electric Light Orchestra",
+    "originalKey": "Cm",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Bm"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "lyric",
+            "content": "It was 9-29, 9-29 back street big city"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "The sun was going' down, there was music all around"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "lyric",
+            "content": "It felt so right"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "lyric",
+            "content": "It was one of those nights"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "One of those nights when you feel the world stop turning"
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "You were standing there, there was music in the air"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "I should have been away, but I knew I'd have to stay"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Last train to London, just heading out"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Last train to London, just leaving town"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "But I really want tonight to last forever"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "I really wanna be with you"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "lyric",
+                "content": "Let the music play on down the line tonight"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "lyric",
+            "content": "It was one of those nights"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "One of those nights when you feel the fire is burning"
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "Everybody was there, everybody to share, it felt so right."
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "lyric",
+            "content": "There you were on your own"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "Looking like you were the only one around"
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "I had to be with you, nothing else that I could do"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "I should have been away, but I knew I'd have to say"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Last train to London, just heading out"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Last train to London, just leaving town"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "But I really want tonight to last forever"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "I really wanna be with you"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "lyric",
+                "content": "Let the music play on down the line tonight"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Bm", "F#m", "Em", "F#m", "Bm"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "lyric",
+            "content": "Underneath a starry sky"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "Time was still but hours must really have rushed by"
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "I didn't realize, but love was in your eyes"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "I really should have gone, but love went on and on"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN FINAL)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Last train to London, just heading out"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Last train to London, just leaving town"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "But I really want tonight to last forever"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "I really wanna be with you"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "lyric",
+                "content": "Let the music play on down the line tonight"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

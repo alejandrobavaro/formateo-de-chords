@@ -1,0 +1,581 @@
+{
+    "id": "eurythmics-sweet-dreams",
+    "title": "Sweet Dreams",
+    "artist": "Eurythmics",
+    "originalKey": "Bm",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Bm", "G", "F#"]
+          },
+          {
+            "type": "chords",
+            "content": ["Bm", "G", "F#"]
+          },
+          {
+            "type": "chords",
+            "content": ["G", "F#", "Bm", "D", "G", "F#m"]
+          },
+          {
+            "type": "text",
+            "content": "Ahhhhhh - Ohhhhhh"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "Sweet dreams are made of this,"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "Who am I to disagree?,"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "Travel the world and the seven seas,"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "Everybody's looking for something."
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "Some of them want to use you,"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "Some of them want to get used by you"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "Some of them want to abuse you,"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "Some of them want to be abused."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "F#", "Bm", "D", "G", "F#m"]
+          },
+          {
+            "type": "text",
+            "content": "Ahhhhhh - Ohhhhhh"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "Sweet dreams are made of this,"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "Who am I to disagree?,"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "Travel the world and the seven seas,"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "Everybody's looking for something."
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "Some of them want to use you,"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "Some of them want to get used by you"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "Some of them want to abuse you,"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "Some of them want to be abused."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "F#", "Bm", "D", "G", "F#m"]
+          },
+          {
+            "type": "text",
+            "content": "Ahhhhhh - Ohhhhhh"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "BIS",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Cm"
+              },
+              {
+                "type": "lyric",
+                "content": "Hold your head up, movin' on,"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "Keep your head up, movin' on,"
+              },
+              {
+                "type": "chord",
+                "content": "Cm"
+              },
+              {
+                "type": "lyric",
+                "content": "Hold your head up, movin' on,"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "Keep your head up, movin' on,"
+              },
+              {
+                "type": "chord",
+                "content": "Cm"
+              },
+              {
+                "type": "lyric",
+                "content": "Hold your head up, movin' on,"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "Keep your head up, movin' on."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO SINTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Bm", "G", "F#"]
+          },
+          {
+            "type": "chords",
+            "content": ["Bm", "G", "F#"]
+          },
+          {
+            "type": "chords",
+            "content": ["Bm", "G", "F#"]
+          },
+          {
+            "type": "chords",
+            "content": ["Bm", "G", "F#"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "F#"
+          },
+          {
+            "type": "lyric",
+            "content": "Some of them want to get used by you"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "F#"
+          },
+          {
+            "type": "lyric",
+            "content": "Some of them want to abuse you"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "F#"
+          },
+          {
+            "type": "lyric",
+            "content": "Some of them want to be abused"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN FINAL)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "F#", "Bm", "D", "G", "F#m"]
+          },
+          {
+            "type": "text",
+            "content": "Ahhhhhh - Ohhhhhh"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "Sweet dreams are made of this"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "Who am I to disagree?"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "Travel the world and the seven seas"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "Everybody's looking for something..."
+          }
+        ]
+      }
+    ]
+  }
+  

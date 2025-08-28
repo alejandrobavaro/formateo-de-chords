@@ -1,0 +1,472 @@
+{
+    "id": "joe-cocker-you-can-leave-your-hat-on",
+    "title": "You Can Leave Your Hat On",
+    "artist": "Joe Cocker",
+    "originalKey": "B",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "B", "D", "B", "D", "B", "A", "B", "D", "B", "D", "F#", "A"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "B7"
+          },
+          {
+            "type": "lyric",
+            "content": "Baby take off your coat - real slow."
+          },
+          {
+            "type": "chord",
+            "content": "B7"
+          },
+          {
+            "type": "lyric",
+            "content": "And take off your shoes - I'll take your shoes"
+          },
+          {
+            "type": "chord",
+            "content": "B7"
+          },
+          {
+            "type": "lyric",
+            "content": "Baby take off your dress - yes yes yes."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "B7"
+              },
+              {
+                "type": "lyric",
+                "content": "You can leave your hat on"
+              },
+              {
+                "type": "chord",
+                "content": "D#"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "chord",
+                "content": "F#7"
+              },
+              {
+                "type": "lyric",
+                "content": "You can leave your hat on"
+              },
+              {
+                "type": "chord",
+                "content": "B7"
+              },
+              {
+                "type": "lyric",
+                "content": "You can leave your hat on."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "B7"
+          },
+          {
+            "type": "lyric",
+            "content": "Go on over there - turn on the light."
+          },
+          {
+            "type": "text",
+            "content": "Yeah all the lights."
+          },
+          {
+            "type": "chord",
+            "content": "B7"
+          },
+          {
+            "type": "lyric",
+            "content": "Come back here stand on this chair –"
+          },
+          {
+            "type": "text",
+            "content": "Yeah that's right"
+          },
+          {
+            "type": "chord",
+            "content": "B7"
+          },
+          {
+            "type": "lyric",
+            "content": "Raise your arms up to the air - no shake 'em"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "B7"
+              },
+              {
+                "type": "lyric",
+                "content": "You give me a reason to live"
+              },
+              {
+                "type": "chord",
+                "content": "D#"
+              },
+              {
+                "type": "lyric",
+                "content": "You give me a reason to live"
+              },
+              {
+                "type": "chord",
+                "content": "E7"
+              },
+              {
+                "type": "lyric",
+                "content": "You give me a reason to live"
+              },
+              {
+                "type": "chord",
+                "content": "F#"
+              },
+              {
+                "type": "chord",
+                "content": "B7"
+              },
+              {
+                "type": "lyric",
+                "content": "You give me a reason to live"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "chord",
+                "content": "E7"
+              },
+              {
+                "type": "chord",
+                "content": "B7"
+              },
+              {
+                "type": "lyric",
+                "content": "Sweet darling"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "chord",
+                "content": "E7"
+              },
+              {
+                "type": "chord",
+                "content": "B7"
+              },
+              {
+                "type": "lyric",
+                "content": "You can leave your hat on, baby."
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "chord",
+                "content": "E7"
+              },
+              {
+                "type": "chord",
+                "content": "B7"
+              },
+              {
+                "type": "lyric",
+                "content": "You can leave your hat on"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "chord",
+                "content": "E7"
+              },
+              {
+                "type": "chord",
+                "content": "B7"
+              },
+              {
+                "type": "lyric",
+                "content": "You can leave your hat on."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "content": "Repetir 2 veces"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO SAXO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "E7", "B7"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "B7"
+          },
+          {
+            "type": "lyric",
+            "content": "Suspicious minds a talkin'- try'n' to tear us apart"
+          },
+          {
+            "type": "chord",
+            "content": "B7"
+          },
+          {
+            "type": "lyric",
+            "content": "They don't believe in this love of mine"
+          },
+          {
+            "type": "text",
+            "content": "They don't know I love you."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PUENTE BIS",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "B7"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "They don't know what love is"
+              },
+              {
+                "type": "chord",
+                "content": "B7"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "They don't know what love is"
+              },
+              {
+                "type": "chord",
+                "content": "B7"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "They don't know what love is"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "I know what love is."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN FINAL)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "chord",
+                "content": "E7"
+              },
+              {
+                "type": "chord",
+                "content": "B7"
+              },
+              {
+                "type": "lyric",
+                "content": "Sweet darling"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "chord",
+                "content": "E7"
+              },
+              {
+                "type": "chord",
+                "content": "B7"
+              },
+              {
+                "type": "lyric",
+                "content": "You can leave your hat on, baby."
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "chord",
+                "content": "E7"
+              },
+              {
+                "type": "chord",
+                "content": "B7"
+              },
+              {
+                "type": "lyric",
+                "content": "You can leave your hat on"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "chord",
+                "content": "E7"
+              },
+              {
+                "type": "chord",
+                "content": "B7"
+              },
+              {
+                "type": "lyric",
+                "content": "You can leave your hat on."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "content": "Repetir 4 veces"
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,581 @@
+{
+    "id": "inxs-new-sensation",
+    "title": "New Sensation",
+    "artist": "INXS",
+    "originalKey": "D",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D", "D4"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "D4"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Live baby live,"
+          },
+          {
+            "type": "chord",
+            "content": "D4"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "D4"
+          },
+          {
+            "type": "lyric",
+            "content": "Now that the day is over."
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "I got a new sensation,"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "In perfect moments,"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Impossible to refuse."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "Dsus"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Sleep baby sleep,"
+          },
+          {
+            "type": "chord",
+            "content": "D4"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "D4"
+          },
+          {
+            "type": "lyric",
+            "content": "Now that the night is over."
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "And the sun comes,"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Like a god into our room,"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "All perfect light and promises."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "Gotta hold on you,"
+              },
+              {
+                "type": "text",
+                "content": "(A new sensation, a new sensation)"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "Right now, I'm gonna take you over,"
+              },
+              {
+                "type": "text",
+                "content": "(A new sensation, a new sensation)"
+              },
+              {
+                "type": "chords",
+                "content": ["D", "C", "B", "A"]
+              },
+              {
+                "type": "text",
+                "content": "(A new sensation, a new sensation)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "D4"
+          },
+          {
+            "type": "lyric",
+            "content": "Dream baby dream,"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "D4"
+          },
+          {
+            "type": "lyric",
+            "content": "Of all that's come and going,"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "And you will find out in the end."
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "There really is"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "There really is no difference."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "D4"
+          },
+          {
+            "type": "lyric",
+            "content": "Cry, baby cry,"
+          },
+          {
+            "type": "chord",
+            "content": "D4"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "D4"
+          },
+          {
+            "type": "lyric",
+            "content": "When you got to get it out."
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "I'll be your shoulder,"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "You can tell me all."
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Don't keep it in ya,"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Well that's the reason, why I'm here."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "Hey hey, Are you ready for,"
+              },
+              {
+                "type": "text",
+                "content": "(A new sensation, a new sensation)"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "Right now, Gonna take you on a"
+              },
+              {
+                "type": "text",
+                "content": "(A new sensation, a new sensation)"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "text",
+                "content": "(A new sensation, a new sensation)"
+              },
+              {
+                "type": "chords",
+                "content": ["D", "C", "B", "A"]
+              },
+              {
+                "type": "text",
+                "content": "(A new sensation)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "D4"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Hate baby hate,"
+          },
+          {
+            "type": "chord",
+            "content": "D4"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "D4"
+          },
+          {
+            "type": "lyric",
+            "content": "When there's nothing left for you."
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "You're only human what can you do,"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "It'll soon be over,"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Don't let your pain take over you."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "D4"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Love baby love,"
+          },
+          {
+            "type": "chord",
+            "content": "D4"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "D4"
+          },
+          {
+            "type": "lyric",
+            "content": "It's written all over your face."
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "There's nothing better we could do,"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Than live forever,"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Well that's all we've got to do."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN FINAL)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "Hey now I'm gonna take a new sensation,"
+              },
+              {
+                "type": "text",
+                "content": "(A new sensation, a new sensation)"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "Right now"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "Gotta hold on you"
+              },
+              {
+                "type": "text",
+                "content": "(A new sensation, a new sensation)"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "text",
+                "content": "(A new sensation, a new sensation)"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "text",
+                "content": "(A new sensation)"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

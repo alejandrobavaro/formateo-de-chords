@@ -1,0 +1,527 @@
+{
+    "id": "kiss-i-was-made-for-loving-you",
+    "title": "I Was Made for Lovin' You",
+    "artist": "Kiss",
+    "originalKey": "Bm",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Bm", "E", "Bm", "A"]
+          },
+          {
+            "type": "chords",
+            "content": ["Bm", "E", "Bm", "A"]
+          },
+          {
+            "type": "chords",
+            "content": ["Bm", "E", "Bm", "A"]
+          },
+          {
+            "type": "chords",
+            "content": ["Bm", "E", "Bm", "A"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Tonight, I wanna give it all to you"
+          },
+          {
+            "type": "chord",
+            "content": "F#"
+          },
+          {
+            "type": "lyric",
+            "content": "In the darkness"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "lyric",
+            "content": "There's so much I wanna do."
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "And tonight I wanna lay it at your feet"
+          },
+          {
+            "type": "chord",
+            "content": "F#"
+          },
+          {
+            "type": "lyric",
+            "content": "Cause girl, I was made for you"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "And girl, you were made for me."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "lyric",
+                "content": "I was made for lovin' you baby"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "chords",
+                "content": ["Bm", "A"]
+              },
+              {
+                "type": "lyric",
+                "content": "You were made for lovin' me"
+              },
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "lyric",
+                "content": "And I can't get enough of you baby"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "chords",
+                "content": ["Bm", "A"]
+              },
+              {
+                "type": "lyric",
+                "content": "Can you get enough of me."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Tonight, I wanna see it in your eyes"
+          },
+          {
+            "type": "chord",
+            "content": "F#"
+          },
+          {
+            "type": "lyric",
+            "content": "Feel the magic"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "There's something that drives me wild."
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Tonight, we're gonna make it all come true"
+          },
+          {
+            "type": "chord",
+            "content": "F#"
+          },
+          {
+            "type": "lyric",
+            "content": "Cause girl, you were made for me"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "And girl I was made for you."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO 1",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "lyric",
+                "content": "I was made for lovin' you baby"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "chords",
+                "content": ["Bm", "A"]
+              },
+              {
+                "type": "lyric",
+                "content": "You were made for lovin' me"
+              },
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "lyric",
+                "content": "And I can't get enough of you baby"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "chords",
+                "content": ["Bm", "A"]
+              },
+              {
+                "type": "lyric",
+                "content": "Can you get enough of me."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO 2",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "lyric",
+                "content": "I was made for lovin' you baby"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "chords",
+                "content": ["Bm", "A"]
+              },
+              {
+                "type": "lyric",
+                "content": "You were made for lovin' me"
+              },
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "lyric",
+                "content": "And I can't get enough of you baby"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "chords",
+                "content": ["Bm", "A"]
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Can you get enough of me."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "BIS",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "Oh,"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "Can't get enough,"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "Oh, oh"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "I can't get enough,"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "Oh, oh"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "I can't get enough."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "content": "Repetir 3 veces"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "CAMBIO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "E", "F#"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Bm", "E", "Bm", "A"]
+          },
+          {
+            "type": "chords",
+            "content": ["Bm", "E", "Bm", "A"]
+          },
+          {
+            "type": "chords",
+            "content": ["Bm", "E", "Bm", "A"]
+          },
+          {
+            "type": "chords",
+            "content": ["Bm", "E", "Bm", "A"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO 1 (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "lyric",
+                "content": "I was made for lovin' you baby"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "chords",
+                "content": ["Bm", "A"]
+              },
+              {
+                "type": "lyric",
+                "content": "You were made for lovin' me"
+              },
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "lyric",
+                "content": "And I can't get enough of you baby"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "chords",
+                "content": ["Bm", "A"]
+              },
+              {
+                "type": "lyric",
+                "content": "Can you get enough of me."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "content": "Repetir 2 veces"
+          }
+        ]
+      }
+    ]
+  }
+  
