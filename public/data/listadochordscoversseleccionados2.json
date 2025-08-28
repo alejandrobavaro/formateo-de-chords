@@ -1,0 +1,88 @@
+{
+  "songs": [
+    {
+      "id": "abba-dancing-queen",
+      "title": "Dancing Queen",
+      "artist": "ABBA",
+      "file": "abba-dancing-queen.json",
+      "key": "A"
+    },
+    {
+      "id": "backstreet-boys-i-want-it-that-way",
+      "title": "I Want It That Way",
+      "artist": "Backstreet Boys",
+      "file": "backstreet-boys-i-want-it-that-way.json",
+      "key": "A"
+    },
+    {
+      "id": "beatles-come-together",
+      "title": "Come Together",
+      "artist": "Beatles",
+      "file": "beatles-come-together.json",
+      "key": "Dm"
+    },
+    {
+      "id": "beatles-twist-and-shout",
+      "title": "Twist and Shout",
+      "artist": "Beatles",
+      "file": "beatles-twist-and-shout.json",
+      "key": "D"
+    },
+    {
+      "id": "bon-jovi-always",
+      "title": "Always",
+      "artist": "Bon Jovi",
+      "file": "bon-jovi-always.json",
+      "key": "D"
+    },
+    {
+      "id": "bon-jovi-i-will-be-there-for-you",
+      "title": "I'll Be There for You",
+      "artist": "Bon Jovi",
+      "file": "bon-jovi-i-will-be-there-for-you.json",
+      "key": "C#m"
+    },
+    {
+      "id": "elton-john-dont-let-the-sun-go-down-on-me",
+      "title": "Don't Let the Sun Go Down on Me",
+      "artist": "Elton John",
+      "file": "elton-john-dont-let-the-sun-go-down-on-me.json",
+      "key": "F"
+    },
+    {
+      "id": "fugees-killing-me-softly",
+      "title": "Killing Me Softly",
+      "artist": "Fugees",
+      "file": "fugees-killing-me-softly.json",
+      "key": "Dm"
+    },
+    {
+      "id": "green-day-time-of-your-life",
+      "title": "Time of Your Life",
+      "artist": "Green Day",
+      "file": "green-day-time-of-your-life.json",
+      "key": "G"
+    },
+    {
+      "id": "kiss-rock-and-roll-all-nite",
+      "title": "Rock and Roll All Nite",
+      "artist": "KISS",
+      "file": "kiss-rock-and-roll-all-nite.json",
+      "key": "D"
+    },
+    {
+      "id": "pink-floyd-wish-you-were-here",
+      "title": "Wish You Were Here",
+      "artist": "Pink Floyd",
+      "file": "pink-floyd-wish-you-were-here.json",
+      "key": "G"
+    },
+    {
+      "id": "u2-one",
+      "title": "One",
+      "artist": "U2",
+      "file": "u2-one.json",
+      "key": "D"
+    }
+  ]
+}

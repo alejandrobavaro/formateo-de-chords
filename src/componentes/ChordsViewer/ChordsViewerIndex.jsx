@@ -7,29 +7,36 @@ import "../../assets/scss/_03-Componentes/ChordsViewer/_ChordsViewerIndex.scss";
 // Lista de todos los archivos JSON disponibles
 const SONG_LIBRARIES = [
   { 
-    id: 'casamiento', 
-    name: 'Set List Casamiento', 
-    path: '/data/cancionescasamiento.json',
-    basePath: '/data/songs/'  // Ruta base para archivos individuales
-  },
-  { 
-    id: 'covers', 
-    name: 'Covers Varios', 
-    path: '/data/cancionescovers.json',
-    basePath: '/data/songs/'  // Ruta base para archivos individuales
+    id: 'alegondra', 
+    name: 'Chords Discos - Ale Gondra Music', 
+    path: '/data/cancionesalegondramusic.json',
+    basePath: '/data/cancionesalegondramusic/' 
   },
   { 
     id: 'almangopop', 
-    name: 'Almango Pop Original', 
+    name: 'Chords Discos - Almango Pop Music', 
     path: '/data/cancionesalmangopop.json',
-    basePath: '/data/cancionesalmangopop/'  // Ruta específica para Almango
+    basePath: '/data/cancionesalmangopop/'  
+  },
+   { 
+    id: 'casamiento', 
+    name: 'Chords - Set List Casamiento', 
+    path: '/data/cancionescasamiento.json',
+    basePath: '/data/cancionesshowcasamiento/'  
   },
   { 
-    id: 'alegondra', 
-    name: 'Ale Gondra Music', 
-    path: '/data/cancionesalegondramusic.json',
-    basePath: '/data/cancionesalegondramusic/'  // Ruta específica para Ale Gondra
+    id: 'covers1', 
+    name: 'Chords - Covers Seleccionados 1', 
+    path: '/data/listadochordscoversseleccionados1.json',
+    basePath: '/data/cancionescoversseleccionados1/' 
+  }, 
+  { 
+    id: 'covers2', 
+    name: 'Chords - Covers Seleccionados 2', 
+    path: '/data/listadochordscoversseleccionados2.json',
+    basePath: '/data/cancionescoversseleccionados2/' 
   }
+
 ];
 
 const ChordsViewerIndex = () => {
@@ -215,7 +222,7 @@ const ChordsViewerIndex = () => {
           </ul>
           <p>Estructura esperada:</p>
           <ul>
-            <li><strong>Covers/Casamiento:</strong> <code>public/data/songs/archivo.json</code></li>
+            <li><strong>Covers/Casamiento:</strong> <code>public/data/cancionesshowcasamiento/archivo.json</code></li>
             <li><strong>Almango Pop:</strong> <code>public/data/cancionesalmangopop/archivo.json</code></li>
             <li><strong>Ale Gondra:</strong> <code>public/data/cancionesalegondramusic/archivo.json</code></li>
           </ul>

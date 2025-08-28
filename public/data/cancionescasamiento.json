@@ -1,63 +1,63 @@
 {
   "songs": [
     {
-      "id": 1,
+      "id": "creedence-have-you-ever-seen-the-rain",
       "title": "Have You Ever Seen The Rain",
       "artist": "Creedence Clearwater Revival",
       "file": "creedence-have-you-ever-seen-the-rain.json",
       "key": "A"
     },
     {
-      "id": 2,
+      "id": "creedence-proud-mary",
       "title": "Proud Mary",
       "artist": "Creedence Clearwater Revival",
       "file": "creedence-proud-mary.json",
       "key": "A"
     },
     {
-      "id": 3,
+      "id": "bonnie-tyler-its-a-heartache",
       "title": "It's a Heartache",
       "artist": "Bonnie Tyler",
       "file": "bonnie-tyler-its-a-heartache.json",
       "key": "A"
     },
     {
-      "id": 4,
+      "id": "beatles-stand-by-me",
       "title": "Stand by Me",
       "artist": "Beatles",
       "file": "beatles-stand-by-me.json",
       "key": "G"
     },
     {
-      "id": 5,
+      "id": "police-every-breath-you-take",
       "title": "Every Breath You Take",
       "artist": "Police",
       "file": "police-every-breath-you-take.json",
       "key": "G"
     },
     {
-      "id": 6,
+      "id": "queen-radio-ga-ga",
       "title": "Radio Ga Ga",
       "artist": "Queen",
       "file": "queen-radio-ga-ga.json",
       "key": "D"
     },
     {
-      "id": 7,
+      "id": "queen-i-want-to-break-free",
       "title": "I Want to Break Free",
       "artist": "Queen",
       "file": "queen-i-want-to-break-free.json",
       "key": "C"
     },
     {
-      "id": 8,
+      "id": "a-ha-take-on-me",
       "title": "Take on Me",
       "artist": "A-ha",
       "file": "a-ha-take-on-me.json",
       "key": "F"
     },
     {
-      "id": 9,
+      "id": "a-ha-take-on-me-transportado",
       "title": "Take on Me (Transportado - 3er Traste)",
       "artist": "A-ha",
       "file": "a-ha-take-on-me-transportado.json",
@@ -65,77 +65,77 @@
       "capo": 3
     },
     {
-      "id": 10,
+      "id": "erasure-little-respect",
       "title": "Little Respect",
       "artist": "Erasure",
       "file": "erasure-little-respect.json",
       "key": "A"
     },
     {
-      "id": 11,
+      "id": "depeche-mode-i-just-cant-get-enough",
       "title": "I Just Can't Get Enough",
       "artist": "Depeche Mode",
       "file": "depeche-mode-i-just-cant-get-enough.json",
       "key": "G"
     },
     {
-      "id": 12,
+      "id": "lipps-inc-funkytown",
       "title": "Funkytown",
       "artist": "Lipps Inc",
       "file": "lipps-inc-funkytown.json",
       "key": "Gm"
     },
     {
-      "id": 13,
+      "id": "roy-orbison-pretty-woman",
       "title": "Pretty Woman",
       "artist": "Roy Orbison",
       "file": "roy-orbison-pretty-woman.json",
       "key": "A"
     },
     {
-      "id": 14,
+      "id": "the-wonders-that-thing-you-do",
       "title": "That Thing You Do",
       "artist": "The Wonders",
       "file": "the-wonders-that-thing-you-do.json",
       "key": "D"
     },
     {
-      "id": 15,
+      "id": "queen-crazy-little-thing-called-love",
       "title": "Crazy Little Thing Called Love",
       "artist": "Queen",
       "file": "queen-crazy-little-thing-called-love.json",
       "key": "D"
     },
     {
-      "id": 16,
+      "id": "creedence-travelin-band",
       "title": "Travelin Band",
       "artist": "Creedence Clearwater Revival",
       "file": "creedence-travelin-band.json",
       "key": "E"
     },
     {
-      "id": 17,
+      "id": "dire-straits-walk-of-life",
       "title": "Walk Of Life",
       "artist": "Dire Straits",
       "file": "dire-straits-walk-of-life.json",
       "key": "E"
     },
     {
-      "id": 18,
+      "id": "kenny-loggins-footloose",
       "title": "Footloose",
       "artist": "Kenny Loggins",
       "file": "kenny-loggins-footloose.json",
       "key": "F"
     },
     {
-      "id": 19,
+      "id": "magneto-vuela-vuela",
       "title": "Vuela Vuela",
       "artist": "Magneto",
       "file": "magneto-vuela-vuela.json",
       "key": "Em"
     },
     {
-      "id": 20,
+      "id": "bananarama-venus",
       "title": "Venus",
       "artist": "Bananarama",
       "file": "bananarama-venus.json",

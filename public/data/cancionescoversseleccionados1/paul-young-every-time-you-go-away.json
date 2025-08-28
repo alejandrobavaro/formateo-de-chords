@@ -1,0 +1,480 @@
+{
+  "id": 52,
+  "title": "Every Time You Go Away",
+  "artist": "Paul Young",
+  "originalKey": "F",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F9", "Dm", "Bb", "F", "C"]
+        },
+        {
+          "type": "chords",
+          "content": ["F9", "Dm", "Bb", "F", "C"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ",
+          "color": "principal",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F9"
+            },
+            {
+              "type": "chord",
+              "content": "Am"
+            },
+            {
+              "type": "lyric",
+              "content": "Hey!, if we can solve any problem"
+            },
+            {
+              "type": "chord",
+              "content": "Bb"
+            },
+            {
+              "type": "chord",
+              "content": "F"
+            },
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "Then why do we lose so many tears"
+            },
+            {
+              "type": "chord",
+              "content": "F9"
+            },
+            {
+              "type": "chord",
+              "content": "Am"
+            },
+            {
+              "type": "lyric",
+              "content": "Oh, and so you go again"
+            },
+            {
+              "type": "chord",
+              "content": "Bb"
+            },
+            {
+              "type": "chord",
+              "content": "F"
+            },
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "When the leading man appears"
+            },
+            {
+              "type": "chord",
+              "content": "Dm"
+            },
+            {
+              "type": "chord",
+              "content": "A7"
+            },
+            {
+              "type": "lyric",
+              "content": "Always the same thing"
+            },
+            {
+              "type": "chord",
+              "content": "Bb"
+            },
+            {
+              "type": "chord",
+              "content": "Bº"
+            },
+            {
+              "type": "lyric",
+              "content": "Can't you see, we've got everything goin' on and on and on"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ",
+          "color": "principal",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F9"
+            },
+            {
+              "type": "chord",
+              "content": "Dm"
+            },
+            {
+              "type": "chord",
+              "content": "Gm"
+            },
+            {
+              "type": "chord",
+              "content": "Gm7"
+            },
+            {
+              "type": "lyric",
+              "content": "Every time you go away you take a piece"
+            },
+            {
+              "type": "chord",
+              "content": "F9"
+            },
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "of me with you"
+            },
+            {
+              "type": "chord",
+              "content": "F9"
+            },
+            {
+              "type": "chord",
+              "content": "Dm"
+            },
+            {
+              "type": "chord",
+              "content": "Gm"
+            },
+            {
+              "type": "chord",
+              "content": "Gm7"
+            },
+            {
+              "type": "lyric",
+              "content": "Every time you go away you take a piece"
+            },
+            {
+              "type": "chord",
+              "content": "F9"
+            },
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "of me with you"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA PARTE",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ",
+          "color": "principal",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F9"
+            },
+            {
+              "type": "chord",
+              "content": "Am"
+            },
+            {
+              "type": "lyric",
+              "content": "Go on and go free, yeah"
+            },
+            {
+              "type": "chord",
+              "content": "Bb9"
+            },
+            {
+              "type": "chord",
+              "content": "F"
+            },
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "Maybe you're too close to see"
+            },
+            {
+              "type": "chord",
+              "content": "F9"
+            },
+            {
+              "type": "chord",
+              "content": "Am"
+            },
+            {
+              "type": "lyric",
+              "content": "I can feel your body move"
+            },
+            {
+              "type": "chord",
+              "content": "Bb9"
+            },
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "It doesn't mean that much to me"
+            },
+            {
+              "type": "chord",
+              "content": "Dm"
+            },
+            {
+              "type": "chord",
+              "content": "A7"
+            },
+            {
+              "type": "lyric",
+              "content": "I can't go on sayin' the same thing"
+            },
+            {
+              "type": "chord",
+              "content": "Bb"
+            },
+            {
+              "type": "chord",
+              "content": "Bº"
+            },
+            {
+              "type": "lyric",
+              "content": "Just can't you see, we've got everything do you even know we know"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ",
+          "color": "principal",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F9"
+            },
+            {
+              "type": "chord",
+              "content": "Dm"
+            },
+            {
+              "type": "chord",
+              "content": "Gm"
+            },
+            {
+              "type": "chord",
+              "content": "Gm7"
+            },
+            {
+              "type": "lyric",
+              "content": "Every time you go away you take a piece"
+            },
+            {
+              "type": "chord",
+              "content": "F"
+            },
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "of me with you, oh"
+            },
+            {
+              "type": "chord",
+              "content": "F9"
+            },
+            {
+              "type": "chord",
+              "content": "Dm"
+            },
+            {
+              "type": "chord",
+              "content": "Gm"
+            },
+            {
+              "type": "chord",
+              "content": "Gm7"
+            },
+            {
+              "type": "lyric",
+              "content": "Every time you go away you take a piece"
+            },
+            {
+              "type": "chord",
+              "content": "F"
+            },
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "of me with you"
+            },
+            {
+              "type": "chord",
+              "content": "Dm"
+            },
+            {
+              "type": "chord",
+              "content": "A7"
+            },
+            {
+              "type": "lyric",
+              "content": "I can't go on sayin' the same thing"
+            },
+            {
+              "type": "chord",
+              "content": "Bb"
+            },
+            {
+              "type": "chord",
+              "content": "Bº"
+            },
+            {
+              "type": "lyric",
+              "content": "'Cause baby, can't you see, we've got everything goin' on and on and on"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN FINAL)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ",
+          "color": "principal",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F9"
+            },
+            {
+              "type": "chord",
+              "content": "Dm"
+            },
+            {
+              "type": "chord",
+              "content": "Gm"
+            },
+            {
+              "type": "chord",
+              "content": "Gm7"
+            },
+            {
+              "type": "lyric",
+              "content": "Every time you go away you take a piece"
+            },
+            {
+              "type": "chord",
+              "content": "F"
+            },
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "of me with you, oh"
+            },
+            {
+              "type": "chord",
+              "content": "F9"
+            },
+            {
+              "type": "chord",
+              "content": "Dm"
+            },
+            {
+              "type": "chord",
+              "content": "Gm"
+            },
+            {
+              "type": "chord",
+              "content": "Gm7"
+            },
+            {
+              "type": "lyric",
+              "content": "Every time you go away you take a piece"
+            },
+            {
+              "type": "chord",
+              "content": "F"
+            },
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "of me with you"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Repetir 3 veces"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,651 @@
+{
+    "id": 44,
+    "title": "Under Pressure",
+    "artist": "Queen",
+    "originalKey": "C",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "G/C", "F/C", "G/C"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "G/C"
+          },
+          {
+            "type": "lyric",
+            "content": "Pressure pushing down on me,"
+          },
+          {
+            "type": "chord",
+            "content": "F/C"
+          },
+          {
+            "type": "chord",
+            "content": "G/C"
+          },
+          {
+            "type": "lyric",
+            "content": "Pressing down on you no man ask for."
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "G/B"
+          },
+          {
+            "type": "lyric",
+            "content": "Under pressure, that burns a building down,"
+          },
+          {
+            "type": "chord",
+            "content": "F/A"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "Splits a family in two, puts people on streets..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "G/C", "F/A", "G"]
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "content": "Ummm barabe, ummm barabaa, yreraaa…."
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "It’s the terror of knowing,"
+              },
+              {
+                "type": "chord",
+                "content": "G/F"
+              },
+              {
+                "type": "lyric",
+                "content": "What this world is about,"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "Watching some good friends,"
+              },
+              {
+                "type": "chord",
+                "content": "G/F"
+              },
+              {
+                "type": "lyric",
+                "content": "Screaming, let me out."
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "G/F"
+              },
+              {
+                "type": "lyric",
+                "content": "Pray tomorrow, gets me high and high n’ higher."
+              },
+              {
+                "type": "chord",
+                "content": "C/E"
+              },
+              {
+                "type": "chords",
+                "content": ["F", "G"]
+              },
+              {
+                "type": "lyric",
+                "content": "Pressure on people, people on streets..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "G/C", "F/A", "G"]
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "content": "Terere, barabaa, okeei."
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "G/C"
+          },
+          {
+            "type": "lyric",
+            "content": "Chipping around, kick my brains around the floor."
+          },
+          {
+            "type": "chord",
+            "content": "F/A"
+          },
+          {
+            "type": "chord",
+            "content": "G/B"
+          },
+          {
+            "type": "lyric",
+            "content": "These are the days, it never rains but it pours."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "G/C", "F/A", "G"]
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "content": "Ummm barabe, ummm barabaa, yreraaa…."
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "G/B"
+          },
+          {
+            "type": "lyric",
+            "content": "People on streets... yreraaa..."
+          },
+          {
+            "type": "chord",
+            "content": "F/A"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "People on streets... yreraaa... yreraaa..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "It’s the terror of knowing,"
+              },
+              {
+                "type": "chord",
+                "content": "G/F"
+              },
+              {
+                "type": "lyric",
+                "content": "What this world is about,"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "Watching some good friends,"
+              },
+              {
+                "type": "chord",
+                "content": "G/F"
+              },
+              {
+                "type": "lyric",
+                "content": "Screaming, let me out."
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "G/F"
+              },
+              {
+                "type": "lyric",
+                "content": "Pray tomorrow, gets me high and high n’ higher."
+              },
+              {
+                "type": "chord",
+                "content": "C/E"
+              },
+              {
+                "type": "chords",
+                "content": ["F", "G"]
+              },
+              {
+                "type": "lyric",
+                "content": "Pressure on people, people on streets..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "BIS",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "lyric",
+                "content": "Turned away from it all like a blind man,"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "lyric",
+                "content": "Sat on a fence but it don’t work."
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "Keep coming up with love but,"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "lyric",
+                "content": "It’s so slashed and torn."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SUBIDA",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Gm"
+              },
+              {
+                "type": "chord",
+                "content": "D#"
+              },
+              {
+                "type": "lyric",
+                "content": "Whyyyyyy, why, whyyyyy... love..."
+              },
+              {
+                "type": "chord",
+                "content": "Gm"
+              },
+              {
+                "type": "lyric",
+                "content": "Insanity laughs under pressure we’re cracking."
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chords",
+                "content": ["F", "G"]
+              },
+              {
+                "type": "lyric",
+                "content": "Can’t we give ourselves, one more chance."
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chords",
+                "content": ["F", "G"]
+              },
+              {
+                "type": "lyric",
+                "content": "Why can’t we give love that one more chance."
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "Why can’t we give love, give love..."
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "Give love, give love... give love, give love..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "BIS FINAL",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "Cause love’s such an old fashioned word,"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "And love dares you to care for the people on..."
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "The edge of the night. And love dares you..."
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "To change our way of..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "G/F"
+              },
+              {
+                "type": "lyric",
+                "content": "Caring about ourselves,"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "G/F"
+              },
+              {
+                "type": "lyric",
+                "content": "This is our last dance,"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "G/F"
+              },
+              {
+                "type": "lyric",
+                "content": "This is our last dance......"
+              },
+              {
+                "type": "chord",
+                "content": "C/E"
+              },
+              {
+                "type": "chords",
+                "content": ["F", "G"]
+              },
+              {
+                "type": "lyric",
+                "content": "This is ourselves."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "G/C", "F/A", "G"]
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "content": "Under pressure..."
+      },
+      {
+        "type": "chords",
+        "content": ["F", "G"]
+      },
+      {
+        "type": "text",
+        "content": "Under pressure..."
+      },
+      {
+        "type": "chord",
+        "content": "C"
+      },
+      {
+        "type": "text",
+        "content": "Pressure..."
+      }
+    ]
+  }
+  

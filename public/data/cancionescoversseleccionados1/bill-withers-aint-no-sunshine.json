@@ -1,0 +1,505 @@
+{
+    "id": 51,
+    "title": "Ain't No Sunshine",
+    "artist": "Bill Withers",
+    "originalKey": "Am",
+    "tempo": "Slow",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "ESTROFA",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Am7"
+              },
+              {
+                "type": "lyric",
+                "content": "Ain't no sunshine when she's gone,"
+              },
+              {
+                "type": "chord",
+                "content": "Am7"
+              },
+              {
+                "type": "lyric",
+                "content": "It's not warm when she's away."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Em7"
+              },
+              {
+                "type": "lyric",
+                "content": "Ain't no sunshine when she's gone,"
+              },
+              {
+                "type": "chord",
+                "content": "Dm7"
+              },
+              {
+                "type": "lyric",
+                "content": "And she's always gone too long,"
+              },
+              {
+                "type": "chord",
+                "content": "Am7"
+              },
+              {
+                "type": "chords",
+                "content": ["Em7", "G", "Am7"]
+              },
+              {
+                "type": "lyric",
+                "content": "Anytime she goes away."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ENTRA BATERÍA Y BAJO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Am7"
+              },
+              {
+                "type": "chords",
+                "content": ["Em7", "G"]
+              },
+              {
+                "type": "lyric",
+                "content": "Wonder this time where she's gone,"
+              },
+              {
+                "type": "chord",
+                "content": "Am7"
+              },
+              {
+                "type": "chords",
+                "content": ["Em7", "G"]
+              },
+              {
+                "type": "chord",
+                "content": "Am7"
+              },
+              {
+                "type": "lyric",
+                "content": "Wonder if she's gone to stay,"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Em7"
+              },
+              {
+                "type": "lyric",
+                "content": "Ain't no sunshine when she's gone,"
+              },
+              {
+                "type": "chord",
+                "content": "Dm7"
+              },
+              {
+                "type": "lyric",
+                "content": "And this house just ain't no home,"
+              },
+              {
+                "type": "chord",
+                "content": "Am7"
+              },
+              {
+                "type": "chords",
+                "content": ["Em7", "G", "Am7"]
+              },
+              {
+                "type": "lyric",
+                "content": "Anytime she goes away."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PUENTE",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Am7"
+              },
+              {
+                "type": "lyric",
+                "content": "I know, I know, I know, I know,"
+              },
+              {
+                "type": "chord",
+                "content": "Am7"
+              },
+              {
+                "type": "lyric",
+                "content": "I know, I know, I know, I know,"
+              },
+              {
+                "type": "chord",
+                "content": "Am7"
+              },
+              {
+                "type": "lyric",
+                "content": "I know, I know, I know, I know,"
+              },
+              {
+                "type": "chord",
+                "content": "Am7"
+              },
+              {
+                "type": "lyric",
+                "content": "I know, I know, I know, I know,"
+              },
+              {
+                "type": "chord",
+                "content": "Am7"
+              },
+              {
+                "type": "lyric",
+                "content": "I know, I know, I know, I know,"
+              },
+              {
+                "type": "chord",
+                "content": "Am7"
+              },
+              {
+                "type": "lyric",
+                "content": "I know, I know, I know, I know,"
+              },
+              {
+                "type": "chord",
+                "content": "Am7"
+              },
+              {
+                "type": "lyric",
+                "content": "I know, I know..."
+              },
+              {
+                "type": "chord",
+                "content": "Am7"
+              },
+              {
+                "type": "lyric",
+                "content": "Hey, I ought to leave the young thing alone,"
+              },
+              {
+                "type": "chord",
+                "content": "Am7"
+              },
+              {
+                "type": "chords",
+                "content": ["Em7", "G"]
+              },
+              {
+                "type": "chord",
+                "content": "Am7"
+              },
+              {
+                "type": "lyric",
+                "content": "But ain't no sunshine when she's gone."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am7", "Em7", "G", "Am7"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em7", "Dm7", "Am7", "Em7", "G", "Am7"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PUENTE (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Am7"
+              },
+              {
+                "type": "lyric",
+                "content": "I know, I know, I know, I know,"
+              },
+              {
+                "type": "chord",
+                "content": "Am7"
+              },
+              {
+                "type": "lyric",
+                "content": "I know, I know, I know, I know,"
+              },
+              {
+                "type": "chord",
+                "content": "Am7"
+              },
+              {
+                "type": "lyric",
+                "content": "I know, I know, I know, I know,"
+              },
+              {
+                "type": "chord",
+                "content": "Am7"
+              },
+              {
+                "type": "lyric",
+                "content": "I know, I know, I know, I know,"
+              },
+              {
+                "type": "chord",
+                "content": "Am7"
+              },
+              {
+                "type": "lyric",
+                "content": "I know, I know, I know, I know,"
+              },
+              {
+                "type": "chord",
+                "content": "Am7"
+              },
+              {
+                "type": "lyric",
+                "content": "I know, I know..."
+              },
+              {
+                "type": "chord",
+                "content": "Am7"
+              },
+              {
+                "type": "lyric",
+                "content": "Hey, I ought to leave the young thing alone,"
+              },
+              {
+                "type": "chord",
+                "content": "Am7"
+              },
+              {
+                "type": "chords",
+                "content": ["Em7", "G"]
+              },
+              {
+                "type": "chord",
+                "content": "Am7"
+              },
+              {
+                "type": "lyric",
+                "content": "But ain't no sunshine when she's gone."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Am7"
+              },
+              {
+                "type": "lyric",
+                "content": "Only darkness everyday..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Em7"
+              },
+              {
+                "type": "lyric",
+                "content": "Ain't no sunshine when she's gone"
+              },
+              {
+                "type": "chord",
+                "content": "Dm7"
+              },
+              {
+                "type": "lyric",
+                "content": "And this house just ain't no home"
+              },
+              {
+                "type": "chord",
+                "content": "Am7"
+              },
+              {
+                "type": "chords",
+                "content": ["Em7", "G", "Am7"]
+              },
+              {
+                "type": "lyric",
+                "content": "Anytime she goes away."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Am7"
+              },
+              {
+                "type": "chords",
+                "content": ["Em7", "G", "Am7"]
+              },
+              {
+                "type": "lyric",
+                "content": "Anytime she goes away."
+              },
+              {
+                "type": "chord",
+                "content": "Am7"
+              },
+              {
+                "type": "chords",
+                "content": ["Em7", "G", "Am7"]
+              },
+              {
+                "type": "lyric",
+                "content": "Anytime she goes away."
+              },
+              {
+                "type": "chord",
+                "content": "Am7"
+              },
+              {
+                "type": "chords",
+                "content": ["Em7", "G", "Am7"]
+              },
+              {
+                "type": "lyric",
+                "content": "Anytime she goes away."
+              },
+              {
+                "type": "chord",
+                "content": "Am7"
+              },
+              {
+                "type": "chords",
+                "content": ["Em7", "G", "Am7"]
+              },
+              {
+                "type": "lyric",
+                "content": "Anytime she goes away..."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

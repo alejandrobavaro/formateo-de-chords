@@ -48,7 +48,7 @@ const ChordsViewerIndex = () => {
   const loadSong = async (song) => {
     try {
       setLoading(true);
-      const response = await fetch(`/data/songs/${song.file}`);
+      const response = await fetch(`/data/cancionesshowcasamiento/${song.file}`);
       if (!response.ok) {
         throw new Error(`No se pudo cargar la canción: ${song.title}`);
       }

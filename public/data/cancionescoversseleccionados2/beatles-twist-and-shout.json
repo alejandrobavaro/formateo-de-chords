@@ -1,0 +1,764 @@
+{
+    "id": "beatles-twist-and-shout",
+    "title": "Twist and Shout",
+    "artist": "The Beatles",
+    "originalKey": "A",
+    "tempo": "Upbeat",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A5", "D", "E", "E7"]
+          },
+          {
+            "type": "chords",
+            "content": ["A5", "D", "E", "E7"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A5"
+          },
+          {
+            "type": "lyric",
+            "content": "Well, shake it up, baby, now"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "(Shake it up, baby)"
+          },
+          {
+            "type": "chord",
+            "content": "A5"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "Twist and shout (twist and shout)"
+          },
+          {
+            "type": "text",
+            "content": "Come on, come on, come on, come on"
+          },
+          {
+            "type": "chord",
+            "content": "A5"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "Baby, now (come on, baby)"
+          },
+          {
+            "type": "chord",
+            "content": "A5"
+          },
+          {
+            "type": "lyric",
+            "content": "Come on and work it on out"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "(Work it on out)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A5"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "Well, work it on out (work it on out)"
+          },
+          {
+            "type": "chord",
+            "content": "A5"
+          },
+          {
+            "type": "lyric",
+            "content": "You know you look so good"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "(Look so good)"
+          },
+          {
+            "type": "chord",
+            "content": "A5"
+          },
+          {
+            "type": "lyric",
+            "content": "You know you got me goin' now"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "(Got me goin')"
+          },
+          {
+            "type": "chord",
+            "content": "A5"
+          },
+          {
+            "type": "lyric",
+            "content": "Just like I knew you would"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "(Like I knew you would)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A5"
+          },
+          {
+            "type": "lyric",
+            "content": "Well, shake it up, baby, now"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "(Shake it up, baby)"
+          },
+          {
+            "type": "chord",
+            "content": "A5"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "Twist and shout (twist and shout)"
+          },
+          {
+            "type": "text",
+            "content": "Come on, come on, come on, come on"
+          },
+          {
+            "type": "chord",
+            "content": "A5"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "Baby, now (come on, baby)"
+          },
+          {
+            "type": "chord",
+            "content": "A5"
+          },
+          {
+            "type": "lyric",
+            "content": "Come on and work it on out"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "(Work it on out)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A5"
+          },
+          {
+            "type": "lyric",
+            "content": "You know you twist, little girl"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "(Twist, little girl)"
+          },
+          {
+            "type": "chord",
+            "content": "A5"
+          },
+          {
+            "type": "lyric",
+            "content": "You know you twist so fine"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "(Twist so fine)"
+          },
+          {
+            "type": "chord",
+            "content": "A5"
+          },
+          {
+            "type": "lyric",
+            "content": "Come on and twist a little closer now"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "(Twist a little closer)"
+          },
+          {
+            "type": "chord",
+            "content": "A5"
+          },
+          {
+            "type": "lyric",
+            "content": "And let me know that you're mine"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "(Let me know you're mine)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A5", "D", "E", "E7"]
+          },
+          {
+            "type": "chords",
+            "content": ["A5", "D", "E", "E7"]
+          },
+          {
+            "type": "chords",
+            "content": ["A5", "D", "E", "E7"]
+          },
+          {
+            "type": "chords",
+            "content": ["A5", "D", "E", "E7"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "Ah! Ah! Ah! Ah! Ah!"
+          },
+          {
+            "type": "chord",
+            "content": "A5"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "Baby, now (shake it up, baby)"
+          },
+          {
+            "type": "chord",
+            "content": "A5"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "Twist and shout (twist and shout)"
+          },
+          {
+            "type": "text",
+            "content": "Come on, come on, come on, come on"
+          },
+          {
+            "type": "chord",
+            "content": "A5"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "Baby, now (come on, baby)"
+          },
+          {
+            "type": "chord",
+            "content": "A5"
+          },
+          {
+            "type": "lyric",
+            "content": "Come on and work it on out"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "(Work it on out)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A5"
+          },
+          {
+            "type": "lyric",
+            "content": "You know you twist, little girl"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "(Twist, little girl)"
+          },
+          {
+            "type": "chord",
+            "content": "A5"
+          },
+          {
+            "type": "lyric",
+            "content": "You know you twist so fine"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "(Twist so fine)"
+          },
+          {
+            "type": "chord",
+            "content": "A5"
+          },
+          {
+            "type": "lyric",
+            "content": "Come on and twist a little closer now"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "(Twist a little closer)"
+          },
+          {
+            "type": "chord",
+            "content": "A5"
+          },
+          {
+            "type": "lyric",
+            "content": "And let me know that you're mine"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "(Let me know you're mine)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "text",
+            "content": "Well shake it, shake it, shake it"
+          },
+          {
+            "type": "chord",
+            "content": "A5"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "Baby, now (shake it up, baby)"
+          },
+          {
+            "type": "text",
+            "content": "Well shake it, shake it, shake it"
+          },
+          {
+            "type": "chord",
+            "content": "A5"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "Baby, now (shake it up, baby)"
+          },
+          {
+            "type": "text",
+            "content": "Well shake it, shake it, shake it"
+          },
+          {
+            "type": "chord",
+            "content": "A5"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "Baby, now (shake it up, baby)"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "Ah! Ah! Ah! Ah! Ah!"
+          }
+        ]
+      }
+    ]
+  }
+  

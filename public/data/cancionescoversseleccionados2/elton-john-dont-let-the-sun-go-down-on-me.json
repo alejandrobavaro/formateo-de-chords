@@ -1,0 +1,616 @@
+{
+    "id": 56,
+    "title": "Don't Let the Sun Go Down on Me",
+    "artist": "Elton John",
+    "originalKey": "D",
+    "tempo": "Slow",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "A/G", "D/F#", "A/E", "D/F#", "E"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A/E"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "chord",
+            "content": "D/A"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "chord",
+            "content": "D/A"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "I can't light no more of your darkness"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "G/D"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "A/E"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "A/E"
+          },
+          {
+            "type": "lyric",
+            "content": "All my pictures seem to fade to black and white"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "A/E"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "chord",
+            "content": "D/A"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "I'm growing tired and time stands still before me"
+          },
+          {
+            "type": "chord",
+            "content": "A7/C#"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "G/D"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "A/E"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "A/E"
+          },
+          {
+            "type": "lyric",
+            "content": "Frozen here on the ladder of my life"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "A/E"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "chord",
+            "content": "D/A"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "It's too late to save myself from falling"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "G/D"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "A/E"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "A/E"
+          },
+          {
+            "type": "lyric",
+            "content": "I took a chance and changed your way of life"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "A/E"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "chord",
+            "content": "D/A"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "chord",
+            "content": "A7/C#"
+          },
+          {
+            "type": "lyric",
+            "content": "But you misread my meaning when I met you"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "G/D"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "A/E"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "Closed the door and left me blinded by the light"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "chord",
+                "content": "A/G"
+              },
+              {
+                "type": "lyric",
+                "content": "Don't let the sun go down on me"
+              },
+              {
+                "type": "chord",
+                "content": "F#m7"
+              },
+              {
+                "type": "chord",
+                "content": "B7/D#"
+              },
+              {
+                "type": "lyric",
+                "content": "Although I search myself, it's always someone else I see"
+              },
+              {
+                "type": "chord",
+                "content": "A/E"
+              },
+              {
+                "type": "chord",
+                "content": "D/E"
+              },
+              {
+                "type": "chord",
+                "content": "E7"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "I'd just allow a fragment of your life to wander free"
+              },
+              {
+                "type": "chord",
+                "content": "A/G"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "D/F#"
+              },
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "chord",
+                "content": "A/C#"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "A/E"
+              },
+              {
+                "type": "lyric",
+                "content": "But losing everything is like the sun going down on me"
+              },
+              {
+                "type": "chord",
+                "content": "D/E"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "A/E"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "chord",
+            "content": "D/A"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "chord",
+            "content": "D/A"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "I can't find oh the right romantic line"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "G/D"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "A/E"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "A/E"
+          },
+          {
+            "type": "lyric",
+            "content": "But see me once and see the way I feel"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "A/E"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "chord",
+            "content": "D/A"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "chord",
+            "content": "A7/C#"
+          },
+          {
+            "type": "lyric",
+            "content": "Don't discard me (baby no) just because you think I mean you harm"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "G/D"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "A/E"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "But these cuts I have, oh they need love to help me heal"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "chord",
+                "content": "A/G"
+              },
+              {
+                "type": "lyric",
+                "content": "Don't let the sun go down on me"
+              },
+              {
+                "type": "chord",
+                "content": "F#m7"
+              },
+              {
+                "type": "chord",
+                "content": "B7/D#"
+              },
+              {
+                "type": "lyric",
+                "content": "Although I search myself, it's always someone else I see"
+              },
+              {
+                "type": "chord",
+                "content": "A/E"
+              },
+              {
+                "type": "chord",
+                "content": "D/E"
+              },
+              {
+                "type": "chord",
+                "content": "E7"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "I'd just allow a fragment of your life to wander free"
+              },
+              {
+                "type": "chord",
+                "content": "A/G"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "D/F#"
+              },
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "chord",
+                "content": "A/C#"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "A/E"
+              },
+              {
+                "type": "lyric",
+                "content": "But losing everything is like the sun going down on me"
+              },
+              {
+                "type": "chord",
+                "content": "D/E"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "A/G", "D/F#", "F", "G", "A"]
+          }
+        ]
+      }
+    ]
+  }
+  

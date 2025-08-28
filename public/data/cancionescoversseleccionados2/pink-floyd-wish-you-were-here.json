@@ -1,0 +1,455 @@
+{
+    "id": 61,
+    "title": "Wish You Were Here",
+    "artist": "Pink Floyd",
+    "originalKey": "Em",
+    "tempo": "Slow",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "A", "Em", "A"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "A", "Em", "A"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "A", "Em", "A"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "A", "Em", "A"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "A", "Em", "A"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "A", "Em", "A"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "A", "Em", "A"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "A", "Em", "A"]
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "So, so you think you can tell,"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Heaven from Hell,"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "Blue skies from pain."
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Can you tell a green field"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "From a cold steel rail,"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "A smile from a veil,"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Do you think you can tell?"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "And did they get you to trade"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Your heroes for ghosts,"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "Hot ashes for trees,"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Hot air for a cool breeze,"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Cold comfort for change,"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "And did you exchange"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "A walk on part in the war"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "For a lead role in a cage?"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "A", "Em", "A"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "A", "Em", "A"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "A", "Em", "A"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "A", "Em", "A"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "A", "Em", "A"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "A", "Em", "A"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "A", "Em", "A"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "A", "Em", "A"]
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "How I wish,"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "How I wish you were here."
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "We're just two lost souls,"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "Swimming in a fish bowl,"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Year after year,"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Running over the same old ground."
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "What have we found?"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "The same old fears."
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Wish you were here!"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "A", "Em", "A"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "A", "Em", "A"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "A", "Em", "A"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "A", "Em", "A"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "A", "Em", "A"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "A", "Em", "A"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "A", "Em", "A"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "A", "Em", "A"]
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "How I wish,"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "How I wish you were here."
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "We're just two lost souls,"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "Swimming in a fish bowl,"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Year after year,"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Running over the same old ground."
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "What have we found?"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "The same old fears."
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Wish you were here!"
+          }
+        ]
+      }
+    ]
+  }
+  

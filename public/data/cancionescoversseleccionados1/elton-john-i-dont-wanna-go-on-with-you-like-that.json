@@ -1,0 +1,556 @@
+{
+    "id": 41,
+    "title": "I Don't Wanna Go On With You Like That",
+    "artist": "Elton John",
+    "originalKey": "Am",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "Dm7"]
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "Dm7"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "I've always said that one's enough to love"
+          },
+          {
+            "type": "chord",
+            "content": "Dm7"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Now I hear you're bragging one is not enough"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "Something tells me you're not satisfied"
+          },
+          {
+            "type": "chord",
+            "content": "Dm7"
+          },
+          {
+            "type": "chord",
+            "content": "Gsus4"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "You got plans to make me one of four or five"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "I guess this kind of thing's just in your blood"
+          },
+          {
+            "type": "chord",
+            "content": "Dm7"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "But you won't catch me carving up my love"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "I ain't no puzzle piece that needs to fit"
+          },
+          {
+            "type": "chord",
+            "content": "Dm7"
+          },
+          {
+            "type": "chord",
+            "content": "Gsus4"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "If it takes more than me let's call it quits"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": "`Cause I don't wanna go on with you like that"
+              },
+              {
+                "type": "chord",
+                "content": "Dm7"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Don't wanna be a feather in your cap"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "I just wanna tell you honey I ain't mad"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": "But I don't wanna go on with you like that."
+              },
+              {
+                "type": "chords",
+                "content": ["Am", "Dm7", "G", "Am"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "It gets so hard sometimes to understand"
+          },
+          {
+            "type": "chord",
+            "content": "Dm7"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "This vicious circle's getting out of hand"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "Don't need an extra eye to see"
+          },
+          {
+            "type": "chord",
+            "content": "Dm7"
+          },
+          {
+            "type": "chord",
+            "content": "Gsus4"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "That the fire spreads faster in a breeze"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": "`Cause I don't wanna go on with you like that"
+              },
+              {
+                "type": "chord",
+                "content": "Dm7"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Don't wanna be a feather in your cap"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "I just wanna tell you honey I ain't mad"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": "But I don't wanna go on with you like that."
+              },
+              {
+                "type": "chords",
+                "content": ["Am", "Dm7", "G", "Am"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "Dm7"]
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "Dm7"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Dm7"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "One more set of boots on your welcome mat"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "You just have to quit `em if you want me back"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "But I don't wanna go on with you like that"
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "Dm7", "G", "Am"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Dm7"
+          },
+          {
+            "type": "lyric",
+            "content": "Oh if you wanna spread it around sister that's just fine"
+          },
+          {
+            "type": "chord",
+            "content": "C/E"
+          },
+          {
+            "type": "lyric",
+            "content": "But I don't wanna second-hander feeding me lines"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "If you wanna hold someone in the middle of the night"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "E7/G#"
+          },
+          {
+            "type": "lyric",
+            "content": "Call out the guards and turn out the light"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": "`Cause I don't wanna go on with you like that"
+              },
+              {
+                "type": "chord",
+                "content": "Dm7"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Don't wanna be a feather in your cap"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "I just wanna tell you honey I ain't mad"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": "But I don't wanna go on with you like that."
+              },
+              {
+                "type": "chords",
+                "content": ["Am", "Dm7", "G", "Am"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (FINAL)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": "`Cause I don't wanna go on with you like that"
+              },
+              {
+                "type": "chord",
+                "content": "Dm7"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Don't wanna be a feather in your cap"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "I just wanna tell you honey I ain't mad"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": "But I don't wanna go on with you like that."
+              },
+              {
+                "type": "chords",
+                "content": ["Am", "Dm7", "G", "Am"]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

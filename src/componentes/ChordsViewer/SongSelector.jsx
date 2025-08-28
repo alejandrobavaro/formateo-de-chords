@@ -46,7 +46,8 @@ const SongSelector = ({ songs = [], selectedSong, onSelectSong }) => {
           onChange={(e) => {
             const songId = e.target.value;
             if (songId) {
-              const song = safeSongs.find(s => s.id === parseInt(songId));
+              // ✅ CORRECCIÓN: Buscar por ID directamente sin convertir a número
+              const song = safeSongs.find(s => s.id === songId);
               if (song && onSelectSong) {
                 onSelectSong(song);
               }

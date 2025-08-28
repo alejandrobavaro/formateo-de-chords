@@ -1,0 +1,561 @@
+{
+    "id": 60,
+    "title": "Time of Your Life",
+    "artist": "Green Day",
+    "originalKey": "G",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G5", "C9", "D5"]
+          },
+          {
+            "type": "chords",
+            "content": ["G5", "C9", "D5"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G5"
+          },
+          {
+            "type": "lyric",
+            "content": "Another turning point"
+          },
+          {
+            "type": "chord",
+            "content": "C9"
+          },
+          {
+            "type": "chord",
+            "content": "D5"
+          },
+          {
+            "type": "lyric",
+            "content": "A fork stuck in the road"
+          },
+          {
+            "type": "chord",
+            "content": "G5"
+          },
+          {
+            "type": "lyric",
+            "content": "Time grabs you by the wrist,"
+          },
+          {
+            "type": "chord",
+            "content": "C9"
+          },
+          {
+            "type": "chord",
+            "content": "D5"
+          },
+          {
+            "type": "lyric",
+            "content": "Directs you where to go."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "chord",
+                "content": "D5"
+              },
+              {
+                "type": "lyric",
+                "content": "So make the best of this test"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "G5"
+              },
+              {
+                "type": "lyric",
+                "content": "And don't ask why"
+              },
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "chord",
+                "content": "D5"
+              },
+              {
+                "type": "lyric",
+                "content": "It's not a question"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "G5"
+              },
+              {
+                "type": "lyric",
+                "content": "But a lesson learned in time."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "chord",
+                "content": "G5"
+              },
+              {
+                "type": "lyric",
+                "content": "It's something unpredictable,"
+              },
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "chord",
+                "content": "G5"
+              },
+              {
+                "type": "lyric",
+                "content": "But in the end is right,"
+              },
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "chord",
+                "content": "D5"
+              },
+              {
+                "type": "chord",
+                "content": "G5"
+              },
+              {
+                "type": "lyric",
+                "content": "I hope you had the time of your life."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G5", "C9", "D5"]
+          },
+          {
+            "type": "chords",
+            "content": ["G5", "C9", "D5"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "So take the photographs"
+          },
+          {
+            "type": "chord",
+            "content": "C9"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "And still frames in your mind"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Hang it on a shelf in good"
+          },
+          {
+            "type": "chord",
+            "content": "C9"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Health and good time."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "Tattoos of memories"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "And dead skin on trial"
+              },
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "For what it's worth"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "It was worth all the while."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "chord",
+                "content": "G5"
+              },
+              {
+                "type": "lyric",
+                "content": "It's something unpredictable,"
+              },
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "chord",
+                "content": "G5"
+              },
+              {
+                "type": "lyric",
+                "content": "But in the end is right,"
+              },
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "chord",
+                "content": "D5"
+              },
+              {
+                "type": "chord",
+                "content": "G5"
+              },
+              {
+                "type": "lyric",
+                "content": "I hope you had the time of your life."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INSTRUMENTAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G5", "C9", "D5"]
+          },
+          {
+            "type": "chords",
+            "content": ["G5", "C9", "D5"]
+          },
+          {
+            "type": "chords",
+            "content": ["G5", "C9", "D5"]
+          },
+          {
+            "type": "chords",
+            "content": ["G5", "C9", "D5"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "D", "C", "G"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "chord",
+                "content": "G5"
+              },
+              {
+                "type": "lyric",
+                "content": "It's something unpredictable,"
+              },
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "chord",
+                "content": "G5"
+              },
+              {
+                "type": "lyric",
+                "content": "But in the end is right,"
+              },
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "chord",
+                "content": "D5"
+              },
+              {
+                "type": "chord",
+                "content": "G5"
+              },
+              {
+                "type": "lyric",
+                "content": "I hope you had the time of your life."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G5", "C9", "D5"]
+          },
+          {
+            "type": "chords",
+            "content": ["G5", "C9", "D5"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN FINAL)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "chord",
+                "content": "G5"
+              },
+              {
+                "type": "lyric",
+                "content": "It's something unpredictable,"
+              },
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "chord",
+                "content": "G5"
+              },
+              {
+                "type": "lyric",
+                "content": "But in the end is right,"
+              },
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "chord",
+                "content": "D5"
+              },
+              {
+                "type": "chord",
+                "content": "G5"
+              },
+              {
+                "type": "lyric",
+                "content": "I hope you had the time of your life."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G5", "C9", "D5"]
+          },
+          {
+            "type": "chords",
+            "content": ["G5", "C9", "D5"]
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          }
+        ]
+      }
+    ]
+  }
+  
