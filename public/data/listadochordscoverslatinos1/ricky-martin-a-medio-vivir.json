@@ -1,0 +1,577 @@
+{
+    "id": "ricky-martin-a-medio-vivir",
+    "title": "A Medio Vivir",
+    "artist": "Ricky Martin",
+    "originalKey": "A",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "E", "D"]
+          },
+          {
+            "type": "chords",
+            "content": ["A", "E", "D"]
+          },
+          {
+            "type": "chords",
+            "content": ["Gm", "E", "D"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "/Gm"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "Después de tanto tiempo que ha pasado"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Te parecerá mentira,"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Pero no me acostumbro."
+          },
+          {
+            "type": "chord",
+            "content": "/Gm"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "Parece como hubiera sido ayer,"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Ese primer día en que, nos"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Vimos desnudos."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "chord",
+                "content": "Cim7maj"
+              },
+              {
+                "type": "chord",
+                "content": "/Gm"
+              },
+              {
+                "type": "lyric",
+                "content": "Y siempre pensé, la vida debe de continuar,"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "chord",
+                "content": "A7"
+              },
+              {
+                "type": "lyric",
+                "content": "Pero sin ti, todo se quedó por la mitad."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "chord",
+                "content": "/Dm"
+              },
+              {
+                "type": "chord",
+                "content": "/Gm"
+              },
+              {
+                "type": "lyric",
+                "content": "A medio vivir, a medio sentir"
+              },
+              {
+                "type": "chord",
+                "content": "B7"
+              },
+              {
+                "type": "lyric",
+                "content": "Y se me pasa la vida,"
+              },
+              {
+                "type": "chord",
+                "content": "B7"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "Y no encuentro salida, sin ti."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "/Gm"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "Después de tanto tiempo que ha pasado"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Aún te espero como siempre,"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "En el mismo sitio."
+          },
+          {
+            "type": "chord",
+            "content": "/Gm"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "Aun así logro sentir tu pecho"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Presionado con el mío."
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Y tus latidos,"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "chord",
+                "content": "Cim7maj"
+              },
+              {
+                "type": "chord",
+                "content": "/Gm"
+              },
+              {
+                "type": "lyric",
+                "content": "Y cada vez se me hace más difícil cada vez"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "chord",
+                "content": "A7"
+              },
+              {
+                "type": "lyric",
+                "content": "Y es que sin ti, todo se quedó por la mitad."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "chord",
+                "content": "/Dm"
+              },
+              {
+                "type": "chord",
+                "content": "/Gm"
+              },
+              {
+                "type": "lyric",
+                "content": "A medio vivir, a medio sentir"
+              },
+              {
+                "type": "chord",
+                "content": "B7"
+              },
+              {
+                "type": "lyric",
+                "content": "Y se me pasa la vida,"
+              },
+              {
+                "type": "chord",
+                "content": "B7"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "Y no encuentro salida, sin ti."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D", "E", "/Dm"]
+          },
+          {
+            "type": "chords",
+            "content": ["/Gm", "B7", "D", "E"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "/Gm"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "Llevamos mucho tiempo hablando y no"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Te seguiré aburriendo más,"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Con mi discurso."
+          },
+          {
+            "type": "chord",
+            "content": "/Gm"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "Solo te he llamado por saber"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Si por si acaso tú también,"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Necesitabas..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO (REPETICIÓN FINAL)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "chord",
+                "content": "Cim7maj"
+              },
+              {
+                "type": "lyric",
+                "content": "No está de más, hablar de vez en cuando"
+              },
+              {
+                "type": "chord",
+                "content": "/Gm"
+              },
+              {
+                "type": "lyric",
+                "content": "No está de más."
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "chord",
+                "content": "/Gm"
+              },
+              {
+                "type": "lyric",
+                "content": "Y es que sin ti, respiro con un solo pulmón"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "Y es que sin ti, todo se quedó por la mitad."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "E", "D"]
+          },
+          {
+            "type": "chords",
+            "content": ["A", "E", "D"]
+          },
+          {
+            "type": "text",
+            "content": "(TODO EN CEJILLA)"
+          },
+          {
+            "type": "chords",
+            "content": ["/D#", "/Dm", "/Cm", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "A medio vivir,"
+          },
+          {
+            "type": "lyric",
+            "content": "A medio vivir."
+          }
+        ]
+      }
+    ]
+  }
+  

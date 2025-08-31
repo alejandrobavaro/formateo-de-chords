@@ -1,16 +1,28 @@
+// ===============================================
+// FOOTER - Componente de pie de página
+// Incluye:
+// - Logos
+// - Redes sociales
+// - Botones de Contacto y Ayuda (trasladados desde Header)
+// - Créditos de autor
+// ===============================================
+
 import React from "react";
+import { Link } from "react-router-dom"; // 👈 Necesario para Contacto y Ayuda
+import { FiPhone, FiHelpCircle } from "react-icons/fi"; // 👈 Íconos de botones
 import "../assets/scss/_03-Componentes/_Footer.scss";
 
 function Footer() {
   return (
     <footer className="footer-container">
+      
       {/* Línea divisoria superior */}
       <hr className="footer-divider" />
       
       {/* Contenedor principal del footer */}
       <div className="footer-content">
         
-        {/* Sección de logos y redes sociales - EN UNA SOLA LÍNEA */}
+        {/* ---------------- SECCIÓN PRINCIPAL (logos, redes, botones) ---------------- */}
         <div className="footer-main-section">
           
           {/* Logo izquierdo */}
@@ -24,50 +36,32 @@ function Footer() {
             </a>
           </div>
 
-          {/* Redes sociales en el centro - COMPACTO */}
+          {/* Redes sociales en el centro */}
           <div className="footer-social-section">
             <div className="social-links">
-              {/* Enlaces de redes sociales solo con iconos */}
-              <a
-                href="https://www.instagram.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="social-link"
-                aria-label="Instagram"
-              >
+              <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="Instagram">
                 <i className="bi bi-instagram social-icon" />
               </a>
-
-              <a
-                href="https://www.youtube.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="social-link"
-                aria-label="YouTube"
-              >
+              <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="YouTube">
                 <i className="bi bi-youtube social-icon" />
               </a>
-
-              <a
-                href="https://www.facebook.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="social-link"
-                aria-label="Facebook"
-              >
+              <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="Facebook">
                 <i className="bi bi-facebook social-icon" />
               </a>
-
-              <a
-                href="https://www.twitter.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="social-link"
-                aria-label="Twitter"
-              >
+              <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="Twitter">
                 <i className="bi bi-twitter social-icon" />
               </a>
             </div>
+          </div>
+
+          {/* 🔹 BOTONES DE CONTACTO Y AYUDA */}
+          <div className="footer-links-section">
+            <Link to="/contacto" className="footer-link">
+              <FiPhone size={16} /> Contacto
+            </Link>
+            <Link to="/ayuda" className="footer-link">
+              <FiHelpCircle size={16} /> Ayuda
+            </Link>
           </div>
 
           {/* Logo derecho */}
@@ -85,7 +79,7 @@ function Footer() {
         {/* Línea divisoria inferior */}
         <hr className="footer-divider" />
 
-        {/* Sección de derechos de autor y marca - COMPACTA */}
+        {/* Créditos */}
         <div className="footer-copyright">
           <a 
             href="https://alejandrobavaro.github.io/gondraworld-dev/" 
@@ -94,13 +88,10 @@ function Footer() {
             className="copyright-link"
           >
             <div className="copyright-content">
-              {/* Icono de brillo izquierdo */}
               <i className="bi bi-brilliance copyright-icon" />
-              
-              {/* Texto de derechos de autor */}
-              <span className="copyright-text">Gondra World Dev</span>
-              
-              {/* Icono de brillo derecho */}
+              <span className="copyright-text">
+                Gondra World Dev
+              </span>
               <i className="bi bi-brilliance copyright-icon" />
             </div>
           </a>

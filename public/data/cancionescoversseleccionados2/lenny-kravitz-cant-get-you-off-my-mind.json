@@ -1,0 +1,528 @@
+{
+    "id": "lenny-kravitz-cant-get-you-off-my-mind",
+    "title": "Can't Get You Off My Mind",
+    "artist": "Lenny Kravitz",
+    "originalKey": "G",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "Am"]
+          },
+          {
+            "type": "chords",
+            "content": ["G", "Am"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Life is just a lonely highway"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "I'm out here on the open road"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "I'm old enough to see behind me"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "And young enough to feel my soul."
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "I don't wanna lose you baby"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "And I don't wanna be alone"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "Don't wanna live my days without you"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "For now I got to be without you."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "I've got a pocket full of money"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "A pocket full of keys that have no bounds"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "But then I think of loving"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "And I just can't get you off of my mind"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "VUELTA PASE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "G"]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "text",
+                "content": "Babe.."
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": "Can't you see that this is killing me."
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "I don't wanna push you baby"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "And I don't want you to be told"
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": "It's just that I can't breathe without you"
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": "Feel like I'm gonna lose control"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "I've got a pocket full of money"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "A pocket full of keys that have no bounds"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "But then I think of loving"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "And I just can't get you off of my mind"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "VUELTA PASE (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "G"]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "text",
+                "content": "Babe.."
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": "Can't you see that this is killing me."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "BIS",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "D#7"
+              },
+              {
+                "type": "lyric",
+                "content": "Am I a fool to think"
+              },
+              {
+                "type": "lyric",
+                "content": "That there's a little hope?"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Yeah, tell me baby."
+              },
+              {
+                "type": "chord",
+                "content": "D#7"
+              },
+              {
+                "type": "lyric",
+                "content": "What are the rules, the reasons,"
+              },
+              {
+                "type": "lyric",
+                "content": "And the do's and don'ts?"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Yeah."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "BAJADA",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "D/F#", "F"]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "lyric",
+                "content": "Tell me baby, tell me baby"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "What do you feel inside?"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "Am"]
+          },
+          {
+            "type": "chords",
+            "content": ["G", "Am"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN FINAL)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "I've got a pocket full of money"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "A pocket full of keys that have no bounds, oh yeah!"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "But when it comes to lovin'"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "I just can't get you off my mind, yeah."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL VUELTA EXTRA",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "I just can't get you off my mind, yeah."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

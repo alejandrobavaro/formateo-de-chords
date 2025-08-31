@@ -1,76 +1,151 @@
-/* =============================================== */
-/* SONG SELECTOR - Selector de canciones */
-/* =============================================== */
+.song-selector-unificado {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+}
 
-.song-selector-container {
-    display: flex;
-    justify-content: center;
+.selector-item {
+  flex: 1 1 0%;
+  min-width: 180px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  outline: none;
+  border: 2px solid #666; // Borde más oscuro para mejor contraste
+  background: #ffffff; // Fondo blanco puro
+  color: #222222; // Texto más oscuro para mejor contraste
+  box-sizing: border-box;
+  font-family: inherit;
+  transition: all 0.2s ease;
+  
+  // Mejor contraste para estados de enfoque
+  &:focus {
+    border-color: #e63946; // Color de acento del proyecto
+    box-shadow: 0 0 0 3px rgba(230, 57, 70, 0.2); // Sombra de enfoque
   }
   
-  .selector-search-combo {
-    display: flex;
-    gap: 0.8rem;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
+  // Estilos para las opciones del select
+  option {
+    background: #ffffff;
+    color: #222222;
+    padding: 8px;
+  }
+}
+
+.search-input {
+  border: 2px solid #666; // Mismo borde que el select para consistencia
+  border-radius: 999px;
+  padding: 10px 16px;
+  background: #ffffff;
+  color: #222222;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  flex: 1 1 0%;
+  transition: all 0.2s ease;
+  
+  &:focus {
+    border-color: #e63946;
+    box-shadow: 0 0 0 3px rgba(230, 57, 70, 0.2), 0 2px 6px rgba(0, 0, 0, 0.1);
   }
   
-  .song-select {
-    padding: 0.5rem 0.8rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 0.9rem;
-    min-width: 250px;
-    font-family: Arial, sans-serif;
-    background-color: white;
-    color: #2c3e50;
-    cursor: pointer;
+  &::placeholder {
+    color: #666; // Placeholder con mejor contraste
+    opacity: 0.8;
+  }
+}
+
+.selector-item:disabled {
+  background: #f5f5f5;
+  color: #666; // Texto gris oscuro en lugar de negro puro
+  border-color: #ccc;
+  cursor: not-allowed;
+  
+  option {
+    background: #f5f5f5;
+    color: #666;
+  }
+}
+
+/* Estados de hover para mejor interactividad */
+.selector-item:not(:disabled):hover {
+  border-color: #999;
+}
+
+.search-input:hover {
+  border-color: #999;
+}
+
+/* Estilos específicos para el select en diferentes navegadores */
+select.selector-item {
+  // Estilo para Firefox
+  -moz-appearance: none;
+  // Estilo para Chrome/Safari
+  -webkit-appearance: none;
+  // Estilo para Edge
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23222222'%3e%3cpath d='M7 10l5 5 5-5z'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 16px;
+  padding-right: 40px;
+  
+  &:disabled {
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23666'%3e%3cpath d='M7 10l5 5 5-5z'/%3e%3c/svg%3e");
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .song-selector-unificado {
+    flex-direction: column;
+    gap: 10px;
+    align-items: stretch;
+  }
+  
+  .selector-item {
+    min-width: auto;
+    width: 100%;
+  }
+  
+  select.selector-item {
+    background-position: right 10px center;
+  }
+}
+
+/* Modo oscuro opcional - si tu aplicación tiene modo oscuro */
+@media (prefers-color-scheme: dark) {
+  .selector-item {
+    background: #2a2a2a;
+    color: #ffffff;
+    border-color: #666;
     
-    &:focus {
-      outline: none;
-      border-color: #3498db;
-      box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+    option {
+      background: #2a2a2a;
+      color: #ffffff;
     }
   }
   
-  .search-box {
-    position: relative;
+  .search-input {
+    background: #2a2a2a;
+    color: #ffffff;
+    border-color: #666;
     
-    .search-input {
-      padding: 0.5rem 0.8rem;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      font-size: 0.9rem;
-      width: 200px;
-      font-family: Arial, sans-serif;
-      background-color: white;
-      color: #2c3e50;
-      
-      &:focus {
-        outline: none;
-        border-color: #3498db;
-        box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
-      }
-      
-      &::placeholder {
-        color: #7f8c8d;
-      }
+    &::placeholder {
+      color: #999;
     }
   }
   
-  /* RESPONSIVE */
-  @media (max-width: 768px) {
-    .selector-search-combo {
-      flex-direction: column;
-      gap: 0.5rem;
-      width: 100%;
-      max-width: 300px;
-    }
+  .selector-item:disabled {
+    background: #3a3a3a;
+    color: #999;
+    border-color: #555;
     
-    .song-select,
-    .search-input {
-      width: 100% !important;
-      min-width: auto !important;
-      font-size: 0.8rem;
+    option {
+      background: #3a3a3a;
+      color: #999;
     }
   }
+  
+ 
+}

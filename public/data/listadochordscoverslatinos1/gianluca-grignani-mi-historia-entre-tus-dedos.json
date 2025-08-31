@@ -1,0 +1,635 @@
+{
+    "id": "gianluca-grignani-mi-historia-entre-tus-dedos",
+    "title": "Mi Historia Entre Tus Dedos",
+    "artist": "Gianluca Grignani",
+    "originalKey": "Dm",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Dm", "G", "Cmaj7", "F"]
+          },
+          {
+            "type": "chords",
+            "content": ["Dm", "G", "Cmaj7", "F"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Dm"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "Cmaj7"
+          },
+          {
+            "type": "lyric",
+            "content": "Yo pienso que, no son tan inútiles"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "Las noches que te di."
+          },
+          {
+            "type": "chord",
+            "content": "Dm"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "Cmaj7"
+          },
+          {
+            "type": "lyric",
+            "content": "Te marchas y qué, yo ni intento discutírtelo,"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "Lo sabes y lo sé."
+          },
+          {
+            "type": "chord",
+            "content": "Dm"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Al menos quédate sólo esta noche,"
+          },
+          {
+            "type": "chord",
+            "content": "Cmaj7"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "Prometo no tocarte ¿Estás segura?"
+          },
+          {
+            "type": "chord",
+            "content": "Dm"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Hay veces que me voy sintiendo solo."
+          },
+          {
+            "type": "chord",
+            "content": "Cmaj7"
+          },
+          {
+            "type": "lyric",
+            "content": "Porque conozco esa sonrisa,"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "Tan definitiva."
+          },
+          {
+            "type": "chord",
+            "content": "Cmaj7"
+          },
+          {
+            "type": "lyric",
+            "content": "Tu sonrisa que a mí mismo"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "Me abrió tu paraíso."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Dm"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "Cmaj7"
+          },
+          {
+            "type": "lyric",
+            "content": "Se dice que, con cada hombre"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "Hay una como tú"
+          },
+          {
+            "type": "chord",
+            "content": "Dm"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "Cmaj7"
+          },
+          {
+            "type": "lyric",
+            "content": "Pero mi sitio luego, lo ocuparás con alguno,"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "Igual que yo, o mejor, lo dudo."
+          },
+          {
+            "type": "chord",
+            "content": "Dm"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "Cmaj7"
+          },
+          {
+            "type": "lyric",
+            "content": "Porque esta vez agachas la mirada,"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "Me pides que sigamos siendo amigos"
+          },
+          {
+            "type": "chord",
+            "content": "Dm7"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "Cmaj7"
+          },
+          {
+            "type": "lyric",
+            "content": "Amigos para qué, maldita sea,"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "A un amigo lo perdono, pero a ti te amo"
+          },
+          {
+            "type": "chord",
+            "content": "Cmaj7"
+          },
+          {
+            "type": "lyric",
+            "content": "Pueden parecer banales,"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "Mis instintos naturales."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "Hay una cosa que yo no te he dicho aún"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Que mis problemas sabes que se llaman tú"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "chord",
+                "content": "Am7"
+              },
+              {
+                "type": "lyric",
+                "content": "Sólo por eso tú me ves hacerme el duro"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Para sentirme un poquito más seguro."
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "Y si no quieres ni decir en qué he fallado"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Recuerda que también a ti te he perdonado"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "chord",
+                "content": "Am7"
+              },
+              {
+                "type": "lyric",
+                "content": "Y en cambio tú, dices lo siento, no te quiero"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "E7"
+              },
+              {
+                "type": "chord",
+                "content": "Am7"
+              },
+              {
+                "type": "lyric",
+                "content": "Y te me vas con esta historia entre tus dedos."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Dm"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "Cmaj7"
+          },
+          {
+            "type": "lyric",
+            "content": "Qué vas a hacer, busca una excusa,"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "Y luego márchate."
+          },
+          {
+            "type": "chord",
+            "content": "Dm7"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "Cmaj7"
+          },
+          {
+            "type": "lyric",
+            "content": "Porque de mí, no debieras preocuparte,"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "No debes provocarme."
+          },
+          {
+            "type": "chord",
+            "content": "Dm"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "Cmaj7"
+          },
+          {
+            "type": "lyric",
+            "content": "Que yo te escribiré un par de canciones,"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "Tratando de ocultar mis emociones"
+          },
+          {
+            "type": "chord",
+            "content": "Dm"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "Cmaj7"
+          },
+          {
+            "type": "lyric",
+            "content": "Pensando, pero poco en las palabras,"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "Y hablaré de la sonrisa, tan definitiva"
+          },
+          {
+            "type": "chord",
+            "content": "Cmaj7"
+          },
+          {
+            "type": "lyric",
+            "content": "Tu sonrisa que a mí mismo,"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "Me abrió tu paraíso."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "Hay una cosa que yo no te he dicho aún"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Que mis problemas sabes que se llaman tú"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "chord",
+                "content": "Am7"
+              },
+              {
+                "type": "lyric",
+                "content": "Sólo por eso tú me ves hacerme el duro"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Para sentirme un poquito más seguro."
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "Y si no quieres ni decir en qué he fallado"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Recuerda que también a ti te he perdonado"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "chord",
+                "content": "Am7"
+              },
+              {
+                "type": "lyric",
+                "content": "Y en cambio tú, dices lo siento, no te quiero"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "E7"
+              },
+              {
+                "type": "chord",
+                "content": "Am7"
+              },
+              {
+                "type": "lyric",
+                "content": "Y te me vas con esta historia entre tus dedos."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Dm"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "Cmaj7"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "Naaa na na na, Naaa na na na."
+              },
+              {
+                "type": "text",
+                "content": "Repetir 3 veces"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

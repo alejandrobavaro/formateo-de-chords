@@ -1,11 +1,12 @@
 /* =============================================== */
-/* REPRODUCTOR DE VIDEO - Estilos para el componente de reproductor de video con animaciones y efectos visuales */
+/* REPRODUCTOR DE VIDEO - Estilos completos mejorados */
 /* =============================================== */
+
 /* --- Elemento raíz --- */
 .video-player {
   width: 100%;
-  max-width: 900px;
-  margin: 20px auto;
+  max-width: 100%;
+  margin: 0;
   padding: 20px;
   background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
   border-radius: 15px;
@@ -71,7 +72,7 @@
   /* --- Contenedor del video --- */
   .video-container {
     width: 100%;
-    height: 500px;
+    aspect-ratio: 16 / 9; /* Mantiene proporción responsive */
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
@@ -97,6 +98,7 @@
     background: rgba(35, 35, 35, 0.8);
     border-radius: 12px;
     border: 1px solid rgba(255, 209, 102, 0.3);
+    width: 100%;
     animation: slideUp 0.5s ease;
 
     .control-btn {
@@ -204,6 +206,7 @@
     border-radius: 12px;
     border: 1px solid rgba(255, 209, 102, 0.3);
     animation: fadeIn 0.8s ease;
+    width: 100%;
 
     h3 {
       color: #ffd166;
@@ -313,6 +316,7 @@
     border-radius: 12px;
     border: 1px solid rgba(255, 209, 102, 0.3);
     animation: fadeIn 0.8s ease;
+    width: 100%;
 
     h3 {
       color: #ffd166;
@@ -379,8 +383,7 @@
 /* --- Responsive --- */
 @media (max-width: 768px) {
   .video-player {
-    margin: 10px;
-    padding: 15px;
+    padding: 10px;
 
     .video-header {
       flex-direction: column;
@@ -393,7 +396,7 @@
     }
 
     .video-container {
-      height: 300px;
+      aspect-ratio: 16 / 9;
 
       &.theater-mode {
         height: 400px;

@@ -1,0 +1,686 @@
+{
+    "id": "lynyrd-skynyrd-sweet-home-alabama",
+    "title": "Sweet Home Alabama",
+    "artist": "Lynyrd Skynyrd",
+    "originalKey": "D",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D", "C", "G"]
+          },
+          {
+            "type": "chords",
+            "content": ["D", "C", "G"]
+          },
+          {
+            "type": "chords",
+            "content": ["D", "C", "G"]
+          },
+          {
+            "type": "chords",
+            "content": ["D", "C", "G"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Big wheels keep on turning"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Carry me home to see my kin"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Singing songs about the Southland"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "I miss Alabamy once again"
+          },
+          {
+            "type": "text",
+            "content": "And I think it's a sin, yes"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D", "C", "G"]
+          },
+          {
+            "type": "chords",
+            "content": ["D", "C", "G"]
+          },
+          {
+            "type": "chords",
+            "content": ["D", "C", "G"]
+          },
+          {
+            "type": "chords",
+            "content": ["D", "C", "G"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Well I heard mister Young sing about her"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Well, I heard ole Neil put her down"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Well, I hope Neil Young will remember"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "A Southern man don't need him around. Anyhow."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Sweet home Alabama"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Where the skies are so blue"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Sweet Home Alabama"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Lord, I'm coming home to you."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D", "C", "G"]
+          },
+          {
+            "type": "chords",
+            "content": ["D", "C", "G"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "text",
+            "content": "(F-C)"
+          },
+          {
+            "type": "lyric",
+            "content": "In Birmingham they love the governor"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Now we all did what we could do"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Now Watergate does not bother me"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Does your conscience bother you?"
+          },
+          {
+            "type": "text",
+            "content": "Tell the truth."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Sweet home Alabama"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Where the skies are so blue"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Sweet Home Alabama"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Lord, I'm coming home to you."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D", "C", "G"]
+          },
+          {
+            "type": "chords",
+            "content": ["D", "C", "G"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Now Muscle Shoals has got the Swappers"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "And they've been known to pick a song or two"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Lord they get me off so much"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "They pick me up when I'm feeling blue,"
+          },
+          {
+            "type": "text",
+            "content": "Now how about you?"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN FINAL)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "text",
+                "content": "(F-C)"
+              },
+              {
+                "type": "lyric",
+                "content": "Sweet home Alabama"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Where the skies are so blue"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Sweet Home Alabama"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Lord, I'm coming home to you."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D", "C", "G"]
+          },
+          {
+            "type": "chords",
+            "content": ["D", "C", "G"]
+          },
+          {
+            "type": "chords",
+            "content": ["D", "C", "G"]
+          },
+          {
+            "type": "chords",
+            "content": ["D", "C", "G"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "F"]
+          }
+        ]
+      }
+    ]
+  }
+  

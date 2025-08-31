@@ -1,171 +1,583 @@
-{
-    "formatSettings": {
-      "chordStyle": {
-        "color": "#007bff",  // Azul brillante
-        "textTransform": "uppercase",
-        "fontWeight": "bold"
-      },
-      "lyricsStyle": {
-        "color": "#000000",  // Negro
-        "fontWeight": "normal",
-        "columnLayout": true,  // Texto en dos columnas
-        "compactSpacing": true
-      },
-      "sectionTitles": {
-        "intro": "INTRO",
-        "verse": "ESTROFA",
-        "preChorus": "PRE ESTRIBILLO",
-        "chorus": "ESTRIBILLO",
-        "bridge": "PUENTE",
-        "bis": "BIS",
-        "outro": "FINAL"
-      }
-    },
-   
-
-
-    {
-        "songMetadata": {
-          "title": "Cual es la vida real",
-          "artist": "Ale Gondra",
-          "tempo": 120,
-          "key": "G",
-          "capo": 2,
-          "originalKey": "F#",
-          "sectionsRepeatable": ["chorus", "bis"]
-        },
-        "formatSettings": {
-          "chordStyle": {
-            "color": "#007bff", 
-            "textTransform": "uppercase",
-            "fontWeight": "bold",
-            "fontSize": "1.2em"
-          },
-          "lyricsStyle": {
-            "color": "#000000",
-            "fontWeight": "normal",
-            "columnLayout": true,
-            "compactSpacing": true,
-            "lineHeight": 1.4,
-            "fontSize": "1em"
-          },
-          "sectionTitleStyle": {
-            "color": "#FF4500",
-            "fontWeight": "bold",
-            "fontSize": "1.5em",
-            "textTransform": "uppercase",
-            "alignment": "center",
-            "padding": "10px 0"
-          },
-          "presetFormats": {
-            "intro": {
-              "title": "INTRO",
-              "chordStyle": {
-                "color": "#007bff",
-                "fontWeight": "bold",
-                "textTransform": "uppercase"
-              },
-              "lyricsStyle": {
-                "color": "#000000",
-                "fontWeight": "normal"
-              }
-            },
-            "verse": {
-              "title": "ESTROFA",
-              "chordStyle": {
-                "color": "#007bff",
-                "fontWeight": "bold",
-                "textTransform": "uppercase"
-              },
-              "lyricsStyle": {
-                "color": "#000000",
-                "fontWeight": "normal"
-              }
-            },
-            "chorus": {
-              "title": "ESTRIBILLO",
-              "chordStyle": {
-                "color": "#007bff",
-                "fontWeight": "bold",
-                "textTransform": "uppercase"
-              },
-              "lyricsStyle": {
-                "color": "#000000",
-                "fontWeight": "normal",
-                "italic": true
-              }
-            },
-            "bridge": {
-              "title": "PUENTE",
-              "chordStyle": {
-                "color": "#007bff",
-                "fontWeight": "bold",
-                "textTransform": "uppercase"
-              },
-              "lyricsStyle": {
-                "color": "#000000",
-                "fontWeight": "normal",
-                "underline": true
-              }
-            },
-            "outro": {
-              "title": "FINAL",
-              "chordStyle": {
-                "color": "#007bff",
-                "fontWeight": "bold",
-                "textTransform": "uppercase"
-              },
-              "lyricsStyle": {
-                "color": "#000000",
-                "fontWeight": "normal"
-              }
-            }
-          }
-        },
-        "sections": [
-          {
-            "id": "intro",
-            "title": "INTRO",
-            "chords": ["G", "C", "D"],
-            "lyrics": "Instrumental opening with a gentle rhythm..."
-          },
-          {
-            "id": "verse1",
-            "title": "ESTROFA 1",
-            "chords": ["C", "G", "Am", "F"],
-            "lyrics": "Aquí empieza la primera estrofa de la canción..."
-          },
-          {
-            "id": "chorus",
-            "title": "ESTRIBILLO",
-            "chords": ["G", "D", "Em", "C"],
-            "lyrics": "El coro toma fuerza y se repite..."
-          },
-          {
-            "id": "bridge",
-            "title": "PUENTE",
-            "chords": ["Am", "Em", "F", "C"],
-            "lyrics": "Este es el puente..."
-          },
-          {
-            "id": "outro",
-            "title": "FINAL",
-            "chords": ["C", "G", "Am", "F"],
-            "lyrics": "Cierre instrumental..."
-          }
-        ],
-        "editorTools": {
-          "formatButton": {
-            "tooltip": "Aplica el formato de texto",
-            "presetFormats": true
-          },
-          "transpose": true,
-          "fontAdjustments": {
-            "chordFontSize": ["0.8em", "1em", "1.2em", "1.4em"],
-            "lyricsFontSize": ["0.8em", "1em", "1.2em", "1.4em"]
-          },
-          "exportOptions": ["PDF", "JPG"],
-          "highlightActiveSection": true
-        }
-      }
-      
+[
+  {
+    "name": "G",
+    "description": "Acorde mayor de Sol",
+    "category": "Mayor",
+    "fingering": "3-2-0-0-0-3",
+    "notes": "G-B-D"
+  },
+  {
+    "name": "C",
+    "description": "Acorde mayor de Do",
+    "category": "Mayor",
+    "fingering": "0-3-2-0-1-0",
+    "notes": "C-E-G"
+  },
+  {
+    "name": "D",
+    "description": "Acorde mayor de Re",
+    "category": "Mayor",
+    "fingering": "0-0-0-2-3-2",
+    "notes": "D-F#-A"
+  },
+  {
+    "name": "E",
+    "description": "Acorde mayor de Mi",
+    "category": "Mayor",
+    "fingering": "0-2-2-1-0-0",
+    "notes": "E-G#-B"
+  },
+  {
+    "name": "A",
+    "description": "Acorde mayor de La",
+    "category": "Mayor",
+    "fingering": "0-0-2-2-2-0",
+    "notes": "A-C#-E"
+  },
+  {
+    "name": "F",
+    "description": "Acorde mayor de Fa",
+    "category": "Mayor",
+    "fingering": "1-3-3-2-1-1",
+    "notes": "F-A-C"
+  },
+  {
+    "name": "B",
+    "description": "Acorde mayor de Si",
+    "category": "Mayor",
+    "fingering": "x-2-4-4-4-2",
+    "notes": "B-D#-F#"
+  },
+  {
+    "name": "F#",
+    "description": "Acorde mayor de Fa sostenido",
+    "category": "Mayor",
+    "fingering": "2-4-4-3-2-2",
+    "notes": "F#-A#-C#"
+  },
+  {
+    "name": "C#",
+    "description": "Acorde mayor de Do sostenido",
+    "category": "Mayor",
+    "fingering": "x-4-6-6-6-4",
+    "notes": "C#-E#-G#"
+  },
+  {
+    "name": "G#",
+    "description": "Acorde mayor de Sol sostenido",
+    "category": "Mayor",
+    "fingering": "4-6-6-5-4-4",
+    "notes": "G#-C-D#"
+  },
+  {
+    "name": "D#",
+    "description": "Acorde mayor de Re sostenido",
+    "category": "Mayor",
+    "fingering": "x-6-8-8-8-6",
+    "notes": "D#-G-A#"
+  },
+  {
+    "name": "A#",
+    "description": "Acorde mayor de La sostenido",
+    "category": "Mayor",
+    "fingering": "6-8-8-7-6-6",
+    "notes": "A#-D-F"
+  },
+  {
+    "name": "Am",
+    "description": "Acorde menor de La",
+    "category": "Menor",
+    "fingering": "0-0-2-2-1-0",
+    "notes": "A-C-E"
+  },
+  {
+    "name": "Em",
+    "description": "Acorde menor de Mi",
+    "category": "Menor",
+    "fingering": "0-2-2-0-0-0",
+    "notes": "E-G-B"
+  },
+  {
+    "name": "Dm",
+    "description": "Acorde menor de Re",
+    "category": "Menor",
+    "fingering": "x-x-0-2-3-1",
+    "notes": "D-F-A"
+  },
+  {
+    "name": "Bm",
+    "description": "Acorde menor de Si",
+    "category": "Menor",
+    "fingering": "x-2-4-4-3-2",
+    "notes": "B-D-F#"
+  },
+  {
+    "name": "Gm",
+    "description": "Acorde menor de Sol",
+    "category": "Menor",
+    "fingering": "3-5-5-3-3-3",
+    "notes": "G-Bb-D"
+  },
+  {
+    "name": "Cm",
+    "description": "Acorde menor de Do",
+    "category": "Menor",
+    "fingering": "x-3-5-5-4-3",
+    "notes": "C-Eb-G"
+  },
+  {
+    "name": "Fm",
+    "description": "Acorde menor de Fa",
+    "category": "Menor",
+    "fingering": "1-3-3-1-1-1",
+    "notes": "F-Ab-C"
+  },
+  {
+    "name": "F#m",
+    "description": "Acorde menor de Fa sostenido",
+    "category": "Menor",
+    "fingering": "2-4-4-2-2-2",
+    "notes": "F#-A-C#"
+  },
+  {
+    "name": "C#m",
+    "description": "Acorde menor de Do sostenido",
+    "category": "Menor",
+    "fingering": "x-4-6-6-5-4",
+    "notes": "C#-E-G#"
+  },
+  {
+    "name": "G#m",
+    "description": "Acorde menor de Sol sostenido",
+    "category": "Menor",
+    "fingering": "4-6-6-4-4-4",
+    "notes": "G#-B-D#"
+  },
+  {
+    "name": "D#m",
+    "description": "Acorde menor de Re sostenido",
+    "category": "Menor",
+    "fingering": "x-6-8-8-7-6",
+    "notes": "D#-F#-A#"
+  },
+  {
+    "name": "A#m",
+    "description": "Acorde menor de La sostenido",
+    "category": "Menor",
+    "fingering": "6-8-8-6-6-6",
+    "notes": "A#-C#-F"
+  },
+  {
+    "name": "G7",
+    "description": "Acorde de séptima de Sol",
+    "category": "Séptima",
+    "fingering": "3-2-0-0-0-1",
+    "notes": "G-B-D-F"
+  },
+  {
+    "name": "C7",
+    "description": "Acorde de séptima de Do",
+    "category": "Séptima",
+    "fingering": "0-3-2-3-1-0",
+    "notes": "C-E-G-Bb"
+  },
+  {
+    "name": "D7",
+    "description": "Acorde de séptima de Re",
+    "category": "Séptima",
+    "fingering": "x-x-0-2-1-2",
+    "notes": "D-F#-A-C"
+  },
+  {
+    "name": "E7",
+    "description": "Acorde de séptima de Mi",
+    "category": "Séptima",
+    "fingering": "0-2-0-1-0-0",
+    "notes": "E-G#-B-D"
+  },
+  {
+    "name": "A7",
+    "description": "Acorde de séptima de La",
+    "category": "Séptima",
+    "fingering": "0-0-2-0-2-0",
+    "notes": "A-C#-E-G"
+  },
+  {
+    "name": "B7",
+    "description": "Acorde de séptima de Si",
+    "category": "Séptima",
+    "fingering": "x-2-1-2-0-2",
+    "notes": "B-D#-F#-A"
+  },
+  {
+    "name": "F7",
+    "description": "Acorde de séptima de Fa",
+    "category": "Séptima",
+    "fingering": "1-3-1-2-1-1",
+    "notes": "F-A-C-Eb"
+  },
+  {
+    "name": "F#7",
+    "description": "Acorde de séptima de Fa sostenido",
+    "category": "Séptima",
+    "fingering": "2-4-2-3-2-2",
+    "notes": "F#-A#-C#-E"
+  },
+  {
+    "name": "C#7",
+    "description": "Acorde de séptima de Do sostenido",
+    "category": "Séptima",
+    "fingering": "x-4-6-4-5-4",
+    "notes": "C#-E#-G#-B"
+  },
+  {
+    "name": "Gm7",
+    "description": "Acorde menor séptima de Sol",
+    "category": "Menor Séptima",
+    "fingering": "3-5-3-3-3-3",
+    "notes": "G-Bb-D-F"
+  },
+  {
+    "name": "Cm7",
+    "description": "Acorde menor séptima de Do",
+    "category": "Menor Séptima",
+    "fingering": "x-3-5-3-4-3",
+    "notes": "C-Eb-G-Bb"
+  },
+  {
+    "name": "Dm7",
+    "description": "Acorde menor séptima de Re",
+    "category": "Menor Séptima",
+    "fingering": "x-x-0-2-1-1",
+    "notes": "D-F-A-C"
+  },
+  {
+    "name": "Am7",
+    "description": "Acorde menor séptima de La",
+    "category": "Menor Séptima",
+    "fingering": "0-0-2-0-1-0",
+    "notes": "A-C-E-G"
+  },
+  {
+    "name": "Em7",
+    "description": "Acorde menor séptima de Mi",
+    "category": "Menor Séptima",
+    "fingering": "0-2-0-0-0-0",
+    "notes": "E-G-B-D"
+  },
+  {
+    "name": "Bm7",
+    "description": "Acorde menor séptima de Si",
+    "category": "Menor Séptima",
+    "fingering": "x-2-4-2-3-2",
+    "notes": "B-D-F#-A"
+  },
+  {
+    "name": "Fm7",
+    "description": "Acorde menor séptima de Fa",
+    "category": "Menor Séptima",
+    "fingering": "1-3-1-1-1-1",
+    "notes": "F-Ab-C-Eb"
+  },
+  {
+    "name": "Gmaj7",
+    "description": "Acorde mayor séptima de Sol",
+    "category": "Mayor Séptima",
+    "fingering": "3-2-0-0-0-2",
+    "notes": "G-B-D-F#"
+  },
+  {
+    "name": "Cmaj7",
+    "description": "Acorde mayor séptima de Do",
+    "category": "Mayor Séptima",
+    "fingering": "0-3-2-0-0-0",
+    "notes": "C-E-G-B"
+  },
+  {
+    "name": "Dmaj7",
+    "description": "Acorde mayor séptima de Re",
+    "category": "Mayor Séptima",
+    "fingering": "x-x-0-2-2-2",
+    "notes": "D-F#-A-C#"
+  },
+  {
+    "name": "Emaj7",
+    "description": "Acorde mayor séptima de Mi",
+    "category": "Mayor Séptima",
+    "fingering": "0-2-1-1-0-0",
+    "notes": "E-G#-B-D#"
+  },
+  {
+    "name": "Amaj7",
+    "description": "Acorde mayor séptima de La",
+    "category": "Mayor Séptima",
+    "fingering": "0-0-2-1-2-0",
+    "notes": "A-C#-E-G#"
+  },
+  {
+    "name": "Fmaj7",
+    "description": "Acorde mayor séptima de Fa",
+    "category": "Mayor Séptima",
+    "fingering": "0-3-2-1-1-0",
+    "notes": "F-A-C-E"
+  },
+  {
+    "name": "Bmaj7",
+    "description": "Acorde mayor séptima de Si",
+    "category": "Mayor Séptima",
+    "fingering": "x-2-4-3-4-2",
+    "notes": "B-D#-F#-A#"
+  },
+  {
+    "name": "Gsus4",
+    "description": "Acorde suspendido de Sol",
+    "category": "Suspendido",
+    "fingering": "3-3-0-0-1-3",
+    "notes": "G-C-D"
+  },
+  {
+    "name": "Csus4",
+    "description": "Acorde suspendido de Do",
+    "category": "Suspendido",
+    "fingering": "0-3-3-0-1-0",
+    "notes": "C-F-G"
+  },
+  {
+    "name": "Dsus4",
+    "description": "Acorde suspendido de Re",
+    "category": "Suspendido",
+    "fingering": "0-0-0-2-3-3",
+    "notes": "D-G-A"
+  },
+  {
+    "name": "Esus4",
+    "description": "Acorde suspendido de Mi",
+    "category": "Suspendido",
+    "fingering": "0-2-2-2-0-0",
+    "notes": "E-A-B"
+  },
+  {
+    "name": "Asus4",
+    "description": "Acorde suspendido de La",
+    "category": "Suspendido",
+    "fingering": "0-0-2-2-3-0",
+    "notes": "A-D-E"
+  },
+  {
+    "name": "Fsus4",
+    "description": "Acorde suspendido de Fa",
+    "category": "Suspendido",
+    "fingering": "1-3-3-3-1-1",
+    "notes": "F-Bb-C"
+  },
+  {
+    "name": "Gsus2",
+    "description": "Acorde suspendido de Sol (2nda)",
+    "category": "Suspendido",
+    "fingering": "3-0-0-0-3-3",
+    "notes": "G-A-D"
+  },
+  {
+    "name": "Csus2",
+    "description": "Acorde suspendido de Do (2nda)",
+    "category": "Suspendido",
+    "fingering": "0-3-0-0-1-0",
+    "notes": "C-D-G"
+  },
+  {
+    "name": "Dsus2",
+    "description": "Acorde suspendido de Re (2nda)",
+    "category": "Suspendido",
+    "fingering": "0-0-0-2-3-0",
+    "notes": "D-E-A"
+  },
+  {
+    "name": "Esus2",
+    "description": "Acorde suspendido de Mi (2nda)",
+    "category": "Suspendido",
+    "fingering": "0-2-2-0-0-0",
+    "notes": "E-F#-B"
+  },
+  {
+    "name": "Asus2",
+    "description": "Acorde suspendido de La (2nda)",
+    "category": "Suspendido",
+    "fingering": "0-0-2-2-0-0",
+    "notes": "A-B-E"
+  },
+  {
+    "name": "Fsus2",
+    "description": "Acorde suspendido de Fa (2nda)",
+    "category": "Suspendido",
+    "fingering": "1-3-3-1-1-1",
+    "notes": "F-G-C"
+  },
+  {
+    "name": "G6",
+    "description": "Acorde de sexta de Sol",
+    "category": "Sexta",
+    "fingering": "3-2-0-0-0-0",
+    "notes": "G-B-D-E"
+  },
+  {
+    "name": "C6",
+    "description": "Acorde de sexta de Do",
+    "category": "Sexta",
+    "fingering": "x-3-2-2-1-0",
+    "notes": "C-E-G-A"
+  },
+  {
+    "name": "D6",
+    "description": "Acorde de sexta de Re",
+    "category": "Sexta",
+    "fingering": "x-x-0-2-0-2",
+    "notes": "D-F#-A-B"
+  },
+  {
+    "name": "E6",
+    "description": "Acorde de sexta de Mi",
+    "category": "Sexta",
+    "fingering": "0-2-2-1-2-0",
+    "notes": "E-G#-B-C#"
+  },
+  {
+    "name": "A6",
+    "description": "Acorde de sexta de La",
+    "category": "Sexta",
+    "fingering": "0-0-2-2-2-2",
+    "notes": "A-C#-E-F#"
+  },
+  {
+    "name": "F6",
+    "description": "Acorde de sexta de Fa",
+    "category": "Sexta",
+    "fingering": "1-3-3-2-3-1",
+    "notes": "F-A-C-D"
+  },
+  {
+    "name": "G9",
+    "description": "Acorde de novena de Sol",
+    "category": "Novena",
+    "fingering": "3-2-0-0-0-3",
+    "notes": "G-B-D-F-A"
+  },
+  {
+    "name": "C9",
+    "description": "Acorde de novena de Do",
+    "category": "Novena",
+    "fingering": "x-3-2-3-3-3",
+    "notes": "C-E-G-Bb-D"
+  },
+  {
+    "name": "D9",
+    "description": "Acorde de novena de Re",
+    "category": "Novena",
+    "fingering": "x-x-0-2-1-2",
+    "notes": "D-F#-A-C-E"
+  },
+  {
+    "name": "E9",
+    "description": "Acorde de novena de Mi",
+    "category": "Novena",
+    "fingering": "0-2-0-1-0-0",
+    "notes": "E-G#-B-D-F#"
+  },
+  {
+    "name": "A9",
+    "description": "Acorde de novena de La",
+    "category": "Novena",
+    "fingering": "0-0-2-0-2-0",
+    "notes": "A-C#-E-G-B"
+  },
+  {
+    "name": "B9",
+    "description": "Acorde de novena de Si",
+    "category": "Novena",
+    "fingering": "x-2-1-2-2-2",
+    "notes": "B-D#-F#-A-C#"
+  },
+  {
+    "name": "Gdim",
+    "description": "Acorde disminuido de Sol",
+    "category": "Disminuido",
+    "fingering": "3-4-5-3-x-x",
+    "notes": "G-Bb-Db"
+  },
+  {
+    "name": "Cdim",
+    "description": "Acorde disminuido de Do",
+    "category": "Disminuido",
+    "fingering": "x-3-4-5-4-x",
+    "notes": "C-Eb-Gb"
+  },
+  {
+    "name": "Ddim",
+    "description": "Acorde disminuido de Re",
+    "category": "Disminuido",
+    "fingering": "x-x-0-1-0-1",
+    "notes": "D-F-Ab"
+  },
+  {
+    "name": "Edim",
+    "description": "Acorde disminuido de Mi",
+    "category": "Disminuido",
+    "fingering": "0-2-0-1-0-0",
+    "notes": "E-G-Bb"
+  },
+  {
+    "name": "Adim",
+    "description": "Acorde disminuido de La",
+    "category": "Disminuido",
+    "fingering": "0-0-1-2-1-0",
+    "notes": "A-C-Eb"
+  },
+  {
+    "name": "F#dim",
+    "description": "Acorde disminuido de Fa sostenido",
+    "category": "Disminuido",
+    "fingering": "2-3-4-2-x-x",
+    "notes": "F#-A-C"
+  },
+  {
+    "name": "Gaug",
+    "description": "Acorde aumentado de Sol",
+    "category": "Aumentado",
+    "fingering": "3-2-1-0-0-3",
+    "notes": "G-B-D#"
+  },
+  {
+    "name": "Caug",
+    "description": "Acorde aumentado de Do",
+    "category": "Aumentado",
+    "fingering": "x-3-2-1-1-0",
+    "notes": "C-E-G#"
+  },
+  {
+    "name": "Daug",
+    "description": "Acorde aumentado de Re",
+    "category": "Aumentado",
+    "fingering": "x-x-0-3-3-2",
+    "notes": "D-F#-A#"
+  },
+  {
+    "name": "Eaug",
+    "description": "Acorde aumentado de Mi",
+    "category": "Aumentado",
+    "fingering": "0-2-2-1-1-0",
+    "notes": "E-G#-C"
+  },
+  {
+    "name": "Aaug",
+    "description": "Acorde aumentado de La",
+    "category": "Aumentado",
+    "fingering": "0-0-2-1-1-0",
+    "notes": "A-C#-F"
+  },
+  {
+    "name": "Faug",
+    "description": "Acorde aumentado de Fa",
+    "category": "Aumentado",
+    "fingering": "1-3-3-2-2-1",
+    "notes": "F-A-C#"
+  }
+]

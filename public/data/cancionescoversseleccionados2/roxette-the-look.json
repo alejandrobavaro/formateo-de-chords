@@ -1,0 +1,602 @@
+{
+    "id": "roxette-the-look",
+    "title": "The Look",
+    "artist": "Roxette",
+    "originalKey": "A",
+    "tempo": "Upbeat",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "G", "A"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Walking like a man"
+          },
+          {
+            "type": "lyric",
+            "content": "Hitting like a hammer"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "She's a juvenile scam"
+          },
+          {
+            "type": "lyric",
+            "content": "Never was a quitter"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Tasty like a raindrop"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "She's got the look"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Heavenly bound"
+          },
+          {
+            "type": "lyric",
+            "content": "'Cause heaven's got a number"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "When she's spinning me around"
+          },
+          {
+            "type": "lyric",
+            "content": "Kissing is a color"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Her loving is a wild dog"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "She's got the look"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "She's got the look (She's Got The Look)"
+              },
+              {
+                "type": "lyric",
+                "content": "She's got the look (She's Got The Look)"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "What in the world can make,"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "A brown-eyed girl turn blue."
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "When everything,"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "I'll ever do I'll do for you."
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "And I go: la la la la la she's got the look."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Fire in the ice"
+          },
+          {
+            "type": "lyric",
+            "content": "Naked to the T-bone"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Is a lover's disguise"
+          },
+          {
+            "type": "lyric",
+            "content": "Banging on the head drum"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Shaking like a mad bull"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "She's got the look"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Swaying to the band"
+          },
+          {
+            "type": "lyric",
+            "content": "Moving like a hammer"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "She's a miracle man"
+          },
+          {
+            "type": "lyric",
+            "content": "Loving is the ocean"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Kissing is the wet sand,"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "She's got the look"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "She's got the look (She's Got The Look)"
+              },
+              {
+                "type": "lyric",
+                "content": "She's got the look (She's Got The Look)"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "What in the world can make,"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "A brown-eyed girl turn blue."
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "When everything,"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "I'll ever do I'll do for you."
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "And I go: la la la la la she's got the look."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "E", "E", "A", "G"]
+          },
+          {
+            "type": "chords",
+            "content": ["E", "E", "E", "A"]
+          },
+          {
+            "type": "chords",
+            "content": ["E", "A"]
+          },
+          {
+            "type": "chords",
+            "content": ["E", "E", "E", "A", "G"]
+          },
+          {
+            "type": "chords",
+            "content": ["D", "A", "G"]
+          },
+          {
+            "type": "chords",
+            "content": ["D", "A"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO HABLADO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "Walking like a man, hitting like a hammer"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "She's a juvenile scam, never was a quitter"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "Tasty like a raindrop"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "She's got the look."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN FINAL)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "She goes, Na na na na na"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "Na na na na na na"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "She's got the look."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN FINAL X3)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "She's got the look (She's Got The Look)"
+              },
+              {
+                "type": "lyric",
+                "content": "She's got the look (She's Got The Look)"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "What in the world can make,"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "A brown-eyed girl turn blue."
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "When everything,"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "I'll ever do I'll do for you."
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "And I go: la la la la la she's got the look."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "content": "Repetir 3 veces"
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,541 @@
+{
+    "id": "the-knack-my-sharona",
+    "title": "My Sharona",
+    "artist": "The Knack",
+    "originalKey": "G",
+    "tempo": "Upbeat",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G5", "C", "A#"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G5"
+          },
+          {
+            "type": "lyric",
+            "content": "My little pretty one, my pretty one,"
+          },
+          {
+            "type": "lyric",
+            "content": "When you gonna give me some time,"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "lyric",
+            "content": "My Sharona."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G5"
+          },
+          {
+            "type": "lyric",
+            "content": "Ooh, you make my motor run, motor run."
+          },
+          {
+            "type": "lyric",
+            "content": "Gun it coming off of the line,"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "lyric",
+            "content": "My Sharona."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G5"
+              },
+              {
+                "type": "lyric",
+                "content": "Never gonna stop, give it up."
+              },
+              {
+                "type": "lyric",
+                "content": "Such a dirty mind."
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "lyric",
+                "content": "I always get it up, for the touch"
+              },
+              {
+                "type": "lyric",
+                "content": "Of the younger kind."
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "D#"
+              },
+              {
+                "type": "lyric",
+                "content": "My, my, my, myyi, yi, whoo!"
+              },
+              {
+                "type": "chord",
+                "content": "G5"
+              },
+              {
+                "type": "chords",
+                "content": ["G5", "C", "A#"]
+              },
+              {
+                "type": "lyric",
+                "content": "M-m-m- my Sharona."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G5"
+          },
+          {
+            "type": "lyric",
+            "content": "Come a little closer, huh, a-will ya huh,"
+          },
+          {
+            "type": "lyric",
+            "content": "Close enough to look in my eyes,"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "lyric",
+            "content": "My Sharona."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G5"
+          },
+          {
+            "type": "lyric",
+            "content": "Keeping it a mystery, it gets to me."
+          },
+          {
+            "type": "lyric",
+            "content": "Running down the length of my thigh,"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "lyric",
+            "content": "My Sharona."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G5"
+              },
+              {
+                "type": "lyric",
+                "content": "Never gonna stop, give it up."
+              },
+              {
+                "type": "lyric",
+                "content": "Such a dirty mind."
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "lyric",
+                "content": "I always get it up, for the touch"
+              },
+              {
+                "type": "lyric",
+                "content": "Of the younger kind."
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "D#"
+              },
+              {
+                "type": "lyric",
+                "content": "My, my, my, myyi, yi, whoo!"
+              },
+              {
+                "type": "chord",
+                "content": "G5"
+              },
+              {
+                "type": "chords",
+                "content": ["G5", "C", "A#"]
+              },
+              {
+                "type": "lyric",
+                "content": "M-m-m- my Sharona."
+              },
+              {
+                "type": "chord",
+                "content": "G5"
+              },
+              {
+                "type": "chords",
+                "content": ["G5", "C", "A#"]
+              },
+              {
+                "type": "lyric",
+                "content": "M-m-m- my Sharona."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G5", "C", "D#"]
+          },
+          {
+            "type": "chords",
+            "content": ["G5", "C", "D#"]
+          },
+          {
+            "type": "chords",
+            "content": ["G5", "C", "D#"]
+          },
+          {
+            "type": "chords",
+            "content": ["G5", "C", "D#"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "VUELTA CON D A INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D", "G5", "C", "A#"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G5"
+          },
+          {
+            "type": "lyric",
+            "content": "Ooh, you gonna give to me, give to me?"
+          },
+          {
+            "type": "lyric",
+            "content": "Is it just a matter of time,"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "lyric",
+            "content": "My Sharona."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G5"
+          },
+          {
+            "type": "lyric",
+            "content": "Is it D-D-destiny, D-destiny,"
+          },
+          {
+            "type": "lyric",
+            "content": "Or is it just a game in my mind,"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "lyric",
+            "content": "My Sharona."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN FINAL)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G5"
+              },
+              {
+                "type": "lyric",
+                "content": "Never gonna stop, give it up."
+              },
+              {
+                "type": "lyric",
+                "content": "Such a dirty mind."
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "lyric",
+                "content": "I always get it up, for the touch"
+              },
+              {
+                "type": "lyric",
+                "content": "Of the younger kind."
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "D#"
+              },
+              {
+                "type": "lyric",
+                "content": "My, my, my, myyi, yi, whoo!"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "D#"
+              },
+              {
+                "type": "lyric",
+                "content": "My, my, my, myyi, yi, whoo!"
+              },
+              {
+                "type": "chord",
+                "content": "G5"
+              },
+              {
+                "type": "chords",
+                "content": ["G5", "C", "A#"]
+              },
+              {
+                "type": "lyric",
+                "content": "M-m-m- my Sharona."
+              },
+              {
+                "type": "chord",
+                "content": "G5"
+              },
+              {
+                "type": "chords",
+                "content": ["G5", "C", "A#"]
+              },
+              {
+                "type": "lyric",
+                "content": "M-m-m- my Sharona."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "G", "F", "G"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G5", "G5", "G5", "G5"]
+          },
+          {
+            "type": "chord",
+            "content": "G5"
+          },
+          {
+            "type": "chords",
+            "content": ["G5", "C", "A#"]
+          },
+          {
+            "type": "lyric",
+            "content": "M-m-m- my Sharona."
+          },
+          {
+            "type": "chord",
+            "content": "G5"
+          },
+          {
+            "type": "chords",
+            "content": ["G5", "C", "A#"]
+          },
+          {
+            "type": "lyric",
+            "content": "M-m-m- my Sharona."
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -5,7 +5,7 @@
       "title": "Dancing Queen",
       "artist": "ABBA",
       "file": "abba-dancing-queen.json",
-      "key": "A"
+      "key": "D"
     },
     {
       "id": "backstreet-boys-i-want-it-that-way",
@@ -15,6 +15,13 @@
       "key": "A"
     },
     {
+      "id": "backstreetboys-everybody",
+      "title": "Everybody",
+      "artist": "Backstreet Boys",
+      "file": "backstreetboys-everybody.json",
+      "key": "D"
+    },
+    {
       "id": "beatles-come-together",
       "title": "Come Together",
       "artist": "Beatles",
@@ -22,11 +29,25 @@
       "key": "Dm"
     },
     {
+      "id": "beatles-i-saw-her-standing-there",
+      "title": "I Saw Her Standing There",
+      "artist": "Beatles",
+      "file": "beatles-i-saw-her-standing-there.json",
+      "key": "E"
+    },
+    {
       "id": "beatles-twist-and-shout",
       "title": "Twist and Shout",
       "artist": "Beatles",
       "file": "beatles-twist-and-shout.json",
-      "key": "D"
+      "key": "A"
+    },
+    {
+      "id": "bee-gees-stayin-alive",
+      "title": "Stayin' Alive",
+      "artist": "Bee Gees",
+      "file": "bee-gees-stayin-alive.json",
+      "key": "Bm"
     },
     {
       "id": "bon-jovi-always",
@@ -43,11 +64,39 @@
       "key": "C#m"
     },
     {
+      "id": "bryan-adams-summer-of-69",
+      "title": "Summer of '69",
+      "artist": "Bryan Adams",
+      "file": "bryan-adams-summer-of-69.json",
+      "key": "C"
+    },
+    {
+      "id": "cake-i-will-survive",
+      "title": "I Will Survive",
+      "artist": "Cake",
+      "file": "cake-i-will-survive.json",
+      "key": "D"
+    },
+    {
+      "id": "electric-light-orchestra-last-train-to-london",
+      "title": "Last Train to London",
+      "artist": "Electric Light Orchestra",
+      "file": "electric-light-orchestra-last-train-to-london.json",
+      "key": "Bm"
+    },
+    {
       "id": "elton-john-dont-let-the-sun-go-down-on-me",
       "title": "Don't Let the Sun Go Down on Me",
       "artist": "Elton John",
       "file": "elton-john-dont-let-the-sun-go-down-on-me.json",
       "key": "F"
+    },
+    {
+      "id": "eurythmics-sweet-dreams",
+      "title": "Sweet Dreams",
+      "artist": "Eurythmics",
+      "file": "eurythmics-sweet-dreams.json",
+      "key": "Bm"
     },
     {
       "id": "fugees-killing-me-softly",
@@ -57,6 +106,20 @@
       "key": "Dm"
     },
     {
+      "id": "green-day-basket-case",
+      "title": "Basket Case",
+      "artist": "Green Day",
+      "file": "green-day-basket-case.json",
+      "key": "D"
+    },
+    {
+      "id": "green-day-she",
+      "title": "She",
+      "artist": "Green Day",
+      "file": "green-day-she.json",
+      "key": "A"
+    },
+    {
       "id": "green-day-time-of-your-life",
       "title": "Time of Your Life",
       "artist": "Green Day",
@@ -64,11 +127,67 @@
       "key": "G"
     },
     {
+      "id": "green-day-wake-me-up-when-september-ends",
+      "title": "Wake Me Up When September Ends",
+      "artist": "Green Day",
+      "file": "green-day-wake-me-up-when-september-ends.json",
+      "key": "B"
+    },
+    {
+      "id": "haddaway-what-is-love",
+      "title": "What Is Love",
+      "artist": "Haddaway",
+      "file": "haddaway-what-is-love.json",
+      "key": "D"
+    },
+    {
+      "id": "inxs-new-sensation",
+      "title": "New Sensation",
+      "artist": "INXS",
+      "file": "inxs-new-sensation.json",
+      "key": "D"
+    },
+    {
+      "id": "joe-cocker-you-can-leave-your-hat-on",
+      "title": "You Can Leave Your Hat On",
+      "artist": "Joe Cocker",
+      "file": "joe-cocker-you-can-leave-your-hat-on.json",
+      "key": "B"
+    },
+    {
+      "id": "kiss-i-was-made-for-loving-you",
+      "title": "I Was Made for Loving You",
+      "artist": "KISS",
+      "file": "kiss-i-was-made-for-loving-you.json",
+      "key": "Bm"
+    },
+    {
       "id": "kiss-rock-and-roll-all-nite",
       "title": "Rock and Roll All Nite",
       "artist": "KISS",
       "file": "kiss-rock-and-roll-all-nite.json",
+      "key": "G"
+    },
+    {
+      "id": "lenny-kravitz-cant-get-you-off-my-mind",
+      "title": "Can't Get You Off My Mind",
+      "artist": "Lenny Kravitz",
+      "file": "lenny-kravitz-cant-get-you-off-my-mind.json",
+      "key": "G"
+    },
+    {
+      "id": "lynyrd-skynyrd-sweet-home-alabama",
+      "title": "Sweet Home Alabama",
+      "artist": "Lynyrd Skynyrd",
+      "file": "lynyrd-skynyrd-sweet-home-alabama.json",
       "key": "D"
+    },
+    {
+      "id": "oasis-stand-by-me",
+      "title": "Stand by Me",
+      "artist": "Oasis",
+      "file": "oasis-stand-by-me.json",
+      "key": "G"
     },
     {
       "id": "pink-floyd-wish-you-were-here",
@@ -78,10 +197,66 @@
       "key": "G"
     },
     {
+      "id": "queen-another-one-bites-the-dust",
+      "title": "Another One Bites the Dust",
+      "artist": "Queen",
+      "file": "queen-another-one-bites-the-dust.json",
+      "key": "Dm"
+    },
+    {
+      "id": "queen-hello-mary-lou-live-wembley-86",
+      "title": "Hello Mary Lou (Live Wembley '86)",
+      "artist": "Queen",
+      "file": "queen-hello-mary-lou-live-wembley-86.json",
+      "key": "C"
+    },
+    {
+      "id": "queen-tie-your-mother-down",
+      "title": "Tie Your Mother Down",
+      "artist": "Queen",
+      "file": "queen-tie-your-mother-down.json",
+      "key": "A"
+    },
+    {
+      "id": "queen-we-will-rock-you",
+      "title": "We Will Rock You",
+      "artist": "Queen",
+      "file": "queen-we-will-rock-you.json",
+      "key": "C"
+    },
+    {
+      "id": "rolling-stones-dead-flowers",
+      "title": "Dead Flowers",
+      "artist": "Rolling Stones",
+      "file": "rolling-stones-dead-flowers.json",
+      "key": "C"
+    },
+    {
+      "id": "roxette-the-look",
+      "title": "The Look",
+      "artist": "Roxette",
+      "file": "roxette-the-look.json",
+      "key": "C"
+    },
+    {
+      "id": "the-knack-my-sharona",
+      "title": "My Sharona",
+      "artist": "The Knack",
+      "file": "the-knack-my-sharona.json",
+      "key": "G"
+    },
+    {
       "id": "u2-one",
       "title": "One",
       "artist": "U2",
       "file": "u2-one.json",
+      "key": "A"
+    },
+    {
+      "id": "village-people-ymca",
+      "title": "YMCA",
+      "artist": "Village People",
+      "file": "village-people-ymca.json",
       "key": "D"
     }
   ]

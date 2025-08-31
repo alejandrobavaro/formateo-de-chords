@@ -1,0 +1,32 @@
+{
+    "songs": [
+      {
+        "id": "gianluca-grignani-mi-historia-entre-tus-dedos",
+        "title": "Mi Historia Entre Tus Dedos",
+        "artist": "Gianluca Grignani",
+        "file": "gianluca-grignani-mi-historia-entre-tus-dedos.json",
+        "key": "Em"
+      },
+      {
+        "id": "jessy-y-joy-corre",
+        "title": "Corre",
+        "artist": "Jessy & Joy",
+        "file": "jessy-y-joy-corre.json",
+        "key": "G"
+      },
+      {
+        "id": "ricky-martin-a-medio-vivir",
+        "title": "A Medio Vivir",
+        "artist": "Ricky Martin",
+        "file": "ricky-martin-a-medio-vivir.json",
+        "key": "Dm"
+      },
+      {
+        "id": "ricky-martin-adios",
+        "title": "Adiós",
+        "artist": "Ricky Martin",
+        "file": "ricky-martin-adios.json",
+        "key": "Am"
+      }
+    ]
+  }

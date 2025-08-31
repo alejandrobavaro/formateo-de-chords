@@ -1,463 +1,447 @@
 /* =============================================== */
-/* SONG VIEWER - Visualizador de canciones A4 */
+/* SONG VIEWER - Tamaño automático y tono destacado */
 /* =============================================== */
 
 .song-viewer {
+  background: white;
+  width: 210mm;
+  height: 297mm;
+  margin: 0 auto;
+  padding: 0;
+  font-family: Arial, sans-serif !important;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  color: #000000;
+  
+  &.a4-outline {
+    outline: 1px dashed #2c3e50;
+  }
+  
+  /* Modo pantalla completa */
+  &.fullscreen {
+    width: 100vw;
+    height: 100vh;
+    
+    .chords-viewer {
+      height: calc(100vh - 80px);
+    }
+    
+    .fullscreen-toggle {
+      top: 10px;
+      right: 10px;
+    }
+  }
+}
+
+/* Botón de pantalla completa */
+.fullscreen-toggle {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 5px;
+  cursor: pointer;
+  z-index: 10;
+  font-size: 16px;
+  color: #2c3e50;
+  
+  &:hover {
     background: white;
-    width: 210mm;
-    height: 297mm;
-    margin: 0 auto;
-    padding: 0;
-    font-family: Arial, sans-serif !important;
-    position: relative;
-    overflow: hidden;
-    box-sizing: border-box;
-    font-size: 14px;
-    
-    &.a4-outline {
-      outline: 1px dashed #2c3e50;
-    }
+    border-color: #2c3e50;
   }
+}
+
+/* TÍTULO CON TONO DESTACADO */
+.song-header {
+  text-align: center;
+  padding: 3mm 0;
+  border-bottom: 1px solid #000;
+  margin: 0;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
   
-  .song-header {
-    text-align: center;
-    padding: 0.1rem;
-    border-bottom: 1px solid #000;
+  .song-title {
     margin: 0;
-    height: 5%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
-    
-    .song-title {
-      margin: 0;
-      font-size: 14px;
-      color: #000;
-      font-weight: 700;
-      line-height: 1;
-    }
-  }
-  
-  .chords-viewer {
-    padding: 0.2rem;
-    font-family: Arial, sans-serif !important;
-    line-height: 1;
-    margin: 0;
-    height: 85%;
-    overflow: hidden;
-    box-sizing: border-box;
-    transition: font-size 0.3s ease;
-  }
-  
-  .song-columns {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 0.3rem;
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    box-sizing: border-box;
-  }
-  
-  .column {
-    display: flex;
-    flex-direction: column;
-    gap: 0.05rem;
-    margin: 0;
-    padding: 0;
-    align-items: center;
-    height: 100%;
-    overflow: hidden;
-    box-sizing: border-box;
-  }
-  
-  /* TÍTULOS DE SECCIÓN */
-  .section-header {
-    width: 100%;
-    text-align: left;
-    margin: 0.1rem 0;
-    padding: 0 0.2rem;
-    box-sizing: border-box;
-  }
-  
-  .section-title {
+    color: #000;
     font-weight: 700;
-    text-transform: uppercase;
-    color: #000000;
-    margin: 0;
+    line-height: 1.1;
     padding: 0;
-    display: block;
-  }
-  
-  /* BLOQUES DE VOZ CON COLORES */
-  .voice-section {
-    width: 100%;
-    padding: 0.1rem;
-    border-radius: 1px;
-    margin: 0.05rem 0;
-    display: flex;
-    align-items: flex-start;
-    gap: 0.2rem;
-    box-sizing: border-box;
+    font-size: 18px !important;
     
-    /* VOZ ALE - ROSADO */
-    &.voice-ale {
-      background-color: #ffe6e6 !important;
-      border-left: 2px solid #ff4444;
-    }
-    
-    /* VOZ PATO - VERDE */
-    &.voice-pato {
-      background-color: #e6ffe6 !important;
-      border-left: 2px solid #44ff44;
-    }
-    
-    /* AMBOS - AMARILLO */
-    &.voice-ambos {
-      background-color: #ffffe6 !important;
-      border-left: 2px solid #ffdd00;
+    .tono-destacado {
+      color: #ff3366; /* Color rosa/rojo que destaca */
+      font-weight: 800;
     }
   }
+}
+
+/* CONTENIDO */
+.chords-viewer {
+  padding: 0;
+  font-family: Arial, sans-serif !important;
+  line-height: 1.1;
+  margin: 0;
+  height: calc(100% - 60px);
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.song-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2mm;
+  margin: 0;
+  padding: 0 2mm;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3mm;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  height: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+/* TÍTULOS DE SECCIÓN */
+.section-header {
+  width: 100%;
+  text-align: left;
+  margin: 1.5mm 0 0.8mm 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 0;
+  padding: 0.5mm 1mm;
+  display: inline-block;
+  background-color: #f0f0f0;
+  border-radius: 1mm;
+}
+
+/* BLOQUES DE VOZ CON COLORES */
+.voice-section {
+  width: 100%;
+  padding: 0;
+  margin: 1mm 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
   
-  /* ETIQUETA VERTICAL COMPACTA */
-  .voice-label-vertical {
-    writing-mode: vertical-rl;
-    transform: rotate(180deg);
-    text-orientation: mixed;
+  /* VOZ ALE - ROSADO */
+  &.voice-ale {
+    background-color: #ffe6e6 !important;
+    border-left: 2px solid #ff4444;
+  }
+  
+  /* VOZ PATO - VERDE */
+  &.voice-pato {
+    background-color: #e6ffe6 !important;
+    border-left: 2px solid #44ff44;
+  }
+  
+  /* AMBOS - AMARILLO */
+  &.voice-ambos {
+    background-color: #ffffe6 !important;
+    border-left: 2px solid #ffdd00;
+  }
+}
+
+/* ETIQUETA HORIZONTAL COMPACTA */
+.voice-label-horizontal {
+  width: 100%;
+  text-align: left;
+  padding: 0;
+  margin: 0 0 0.5mm 0;
+  box-sizing: border-box;
+  
+  .voice-name {
     font-weight: 700;
     color: #2c3e50;
     background-color: #f0f8ff;
-    border-radius: 1px;
-    text-align: center;
+    border-radius: 0.5mm;
+    padding: 0 1mm;
+    display: inline-block;
+  }
+}
+
+.voice-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2mm;
+  flex-grow: 1;
+  min-width: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* LÍNEAS DE CANCIÓN */
+.song-line {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.1mm;
+  margin: 0;
+  min-height: auto;
+  line-height: 1.1;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.song-line-combined {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.1mm;
+  margin: 0;
+  min-height: auto;
+  line-height: 1.1;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* ACORDES */
+.chords-line {
+  display: flex;
+  gap: 1mm;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.chord {
+  font-weight: 700;
+  color: #0000ff !important;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+}
+
+/* LETRAS */
+.lyrics-line {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.1;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* TEXTO SECUNDARIO */
+.text-line {
+  font-style: italic;
+  color: #666;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* DIVISORES */
+.section-divider {
+  height: 0.3mm;
+  background-color: #ccc;
+  margin: 1mm 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* BOTONES DE EXPORTACIÓN */
+.export-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  padding: 4px;
+  border-top: 1px solid #ddd;
+  margin-top: 3px;
+  height: auto;
+  align-items: center;
+  box-sizing: border-box;
+  
+  .export-btn {
+    padding: 4px 8px;
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-right: 0.1rem;
-    flex-shrink: 0;
-    height: auto;
+    gap: 4px;
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+    font-size: 12px !important;
     
-    span {
-      letter-spacing: 0.3px;
+    &:hover {
+      background-color: #1a252f;
     }
   }
+}
+
+/* VISTA DE IMPRESIÓN EXACTA */
+.print-container {
+  position: absolute;
+  left: -9999px;
+  width: 210mm;
+  height: 297mm;
+}
+
+.print-view {
+  width: 210mm;
+  height: 297mm;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  font-family: Arial, sans-serif;
+  line-height: 1.1;
+  box-sizing: border-box;
+}
+
+.song-header-print {
+  text-align: center;
+  padding: 3mm 0;
+  border-bottom: 1px solid #000;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
   
-  .voice-content {
-    display: flex;
-    flex-direction: column;
-    gap: 0.02rem;
-    flex-grow: 1;
-    min-width: 0;
-    box-sizing: border-box;
-  }
-  
-  /* LÍNEAS DE CANCIÓN COMPACTAS */
-  .song-line {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.02rem;
-    margin: 0.05rem 0;
-    min-height: 12px;
-    line-height: 1;
-    width: 100%;
-    box-sizing: border-box;
-  }
-  
-  .song-line-combined {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.02rem;
-    margin: 0.05rem 0;
-    min-height: 12px;
-    line-height: 1;
-    width: 100%;
-    box-sizing: border-box;
-  }
-  
-  /* ACORDES COMPACTOS */
-  .chords-line {
-    display: flex;
-    gap: 0.1rem;
-    justify-content: center;
-    flex-wrap: wrap;
+  .song-title-print {
     margin: 0;
-    padding: 0;
-    width: 100%;
-    box-sizing: border-box;
-  }
-  
-  .chord {
     font-weight: 700;
-    color: #0000ff !important;
-    margin: 0;
-    padding: 0;
-    white-space: nowrap;
+    color: #000;
+    font-size: 18px !important;
+    
+    .tono-destacado {
+      color: #ff3366; /* Mismo color destacado para impresión */
+      font-weight: 800;
+    }
+  }
+}
+
+.chords-content-print {
+  padding: 0;
+  height: calc(100% - 14mm);
+  box-sizing: border-box;
+  
+  .song-columns-print {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2mm;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0 2mm;
   }
   
-  /* LETRAS COMPACTAS */
-  .lyrics-line {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1;
-    text-align: center;
-    width: 100%;
+  .column-print {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3mm;
+    align-items: center;
+    height: 100%;
+    overflow: hidden;
     box-sizing: border-box;
   }
-  
-  /* TEXTO SECUNDARIO COMPACTO */
-  .text-line {
-    font-style: italic;
-    color: #666;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1;
-    text-align: center;
-    width: 100%;
-    box-sizing: border-box;
+}
+
+/* ESTILOS DE IMPRESIÓN SIN MÁRGENES */
+@media print {
+  @page {
+    margin: 0 !important;
+    padding: 0 !important;
+    size: A4;
   }
   
-  /* DIVISORES DELGADOS */
-  .section-divider {
-    height: 0.5px;
-    background-color: #ccc;
-    margin: 0.1rem 0;
-    padding: 0;
-    width: 100%;
-    box-sizing: border-box;
+  .song-viewer {
+    width: 210mm !important;
+    height: 297mm !important;
+    margin: 0 !important;
+    padding: 0 !important;
   }
   
-  /* BOTONES DE EXPORTACIÓN */
   .export-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 0.2rem;
-    padding: 0.2rem;
-    border-top: 1px solid #ddd;
-    margin-top: 0.2rem;
-    height: 10%;
-    align-items: center;
-    box-sizing: border-box;
-    
-    .export-btn {
-      padding: 0.15rem 0.3rem;
-      background-color: #2c3e50;
-      color: white;
-      border: none;
-      border-radius: 1px;
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-      gap: 0.1rem;
-      font-weight: 600;
-      font-size: 0.6rem;
-      font-family: Arial, sans-serif;
-      
-      &:hover {
-        background-color: #1a252f;
-      }
-    }
+    display: none !important;
   }
   
-  /* VISTA DE IMPRESIÓN EXACTA */
-  .print-container {
-    position: absolute;
-    left: -9999px;
-    width: 210mm;
-    height: 297mm;
+  .fullscreen-toggle {
+    display: none !important;
   }
   
-  .print-view {
-    width: 210mm;
-    height: 297mm;
-    padding: 0;
-    margin: 0;
-    background-color: white;
-    font-family: Arial, sans-serif;
-    line-height: 1;
-    box-sizing: border-box;
+  /* GARANTIZAR COLORES EN IMPRESIÓN */
+  .voice-section,
+  .voice-label-horizontal .voice-name,
+  .chord,
+  .tono-destacado {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .song-viewer {
+    width: 100vw;
+    height: auto;
+    min-height: 297mm;
   }
   
-  .song-header-print {
-    text-align: center;
-    padding: 0.1rem;
-    border-bottom: 1px solid #000;
-    height: 5%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
-    
-    .song-title-print {
-      margin: 0;
-      font-weight: 700;
-      color: #000;
-    }
+  .song-columns {
+    grid-template-columns: 1fr;
   }
   
-  .chords-content-print {
-    padding: 0.2rem;
-    height: 95%;
-    box-sizing: border-box;
-    
-    .song-columns-print {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 0.3rem;
-      height: 100%;
-      box-sizing: border-box;
-    }
-    
-    .column-print {
-      display: flex;
-      flex-direction: column;
-      gap: 0.05rem;
-      align-items: center;
-      height: 100%;
-      overflow: hidden;
-      box-sizing: border-box;
-    }
+  .song-header .song-title {
+    font-size: 16px !important;
   }
   
-  /* AJUSTES DE TAMAÑO AUTOMÁTICO */
-  .chords-viewer[style*="font-size: 8px"] {
-    .section-title { font-size: 8px; }
-    .chord { font-size: 8px; }
-    .lyrics-line { font-size: 9px; }
-    .voice-label-vertical { font-size: 6px; padding: 0.1rem 0.02rem; }
-    .text-line { font-size: 7px; }
+  .fullscreen-toggle {
+    top: 3px;
+    right: 3px;
+    padding: 3px;
+    font-size: 14px;
   }
-  
-  .chords-viewer[style*="font-size: 9px"] {
-    .section-title { font-size: 9px; }
-    .chord { font-size: 9px; }
-    .lyrics-line { font-size: 10px; }
-    .voice-label-vertical { font-size: 7px; padding: 0.12rem 0.03rem; }
-    .text-line { font-size: 8px; }
-  }
-  
-  .chords-viewer[style*="font-size: 10px"] {
-    .section-title { font-size: 10px; }
-    .chord { font-size: 10px; }
-    .lyrics-line { font-size: 11px; }
-    .voice-label-vertical { font-size: 8px; padding: 0.14rem 0.03rem; }
-    .text-line { font-size: 9px; }
-  }
-  
-  .chords-viewer[style*="font-size: 11px"] {
-    .section-title { font-size: 11px; }
-    .chord { font-size: 11px; }
-    .lyrics-line { font-size: 12px; }
-    .voice-label-vertical { font-size: 9px; padding: 0.16rem 0.04rem; }
-    .text-line { font-size: 10px; }
-  }
-  
-  .chords-viewer[style*="font-size: 12px"] {
-    .section-title { font-size: 12px; }
-    .chord { font-size: 12px; }
-    .lyrics-line { font-size: 13px; }
-    .voice-label-vertical { font-size: 10px; padding: 0.18rem 0.04rem; }
-    .text-line { font-size: 11px; }
-  }
-  
-  .chords-viewer[style*="font-size: 13px"] {
-    .section-title { font-size: 13px; }
-    .chord { font-size: 13px; }
-    .lyrics-line { font-size: 14px; }
-    .voice-label-vertical { font-size: 11px; padding: 0.2rem 0.05rem; }
-    .text-line { font-size: 12px; }
-  }
-  
-  .chords-viewer[style*="font-size: 14px"] {
-    .section-title { font-size: 14px; }
-    .chord { font-size: 14px; }
-    .lyrics-line { font-size: 15px; }
-    .voice-label-vertical { font-size: 12px; padding: 0.22rem 0.05rem; }
-    .text-line { font-size: 13px; }
-  }
-  
-  .chords-viewer[style*="font-size: 15px"] {
-    .section-title { font-size: 15px; }
-    .chord { font-size: 15px; }
-    .lyrics-line { font-size: 16px; }
-    .voice-label-vertical { font-size: 13px; padding: 0.24rem 0.06rem; }
-    .text-line { font-size: 14px; }
-  }
-  
-  .chords-viewer[style*="font-size: 16px"] {
-    .section-title { font-size: 16px; }
-    .chord { font-size: 16px; }
-    .lyrics-line { font-size: 17px; }
-    .voice-label-vertical { font-size: 14px; padding: 0.26rem 0.06rem; }
-    .text-line { font-size: 15px; }
-  }
-  
-  .chords-viewer[style*="font-size: 17px"] {
-    .section-title { font-size: 17px; }
-    .chord { font-size: 17px; }
-    .lyrics-line { font-size: 18px; }
-    .voice-label-vertical { font-size: 15px; padding: 0.28rem 0.07rem; }
-    .text-line { font-size: 16px; }
-  }
-  
-  .chords-viewer[style*="font-size: 18px"] {
-    .section-title { font-size: 18px; }
-    .chord { font-size: 18px; }
-    .lyrics-line { font-size: 19px; }
-    .voice-label-vertical { font-size: 16px; padding: 0.3rem 0.07rem; }
-    .text-line { font-size: 17px; }
-  }
-  
-  /* ESTILOS DE IMPRESIÓN SIN MÁRGENES */
-  @media print {
-    @page {
-      margin: 0 !important;
-      padding: 0 !important;
-      size: A4;
-    }
-    
-    .song-viewer {
-      width: 210mm !important;
-      height: 297mm !important;
-      margin: 0 !important;
-      padding: 0 !important;
-    }
-    
-    .export-buttons {
-      display: none !important;
-    }
-    
-    /* GARANTIZAR COLORES EN IMPRESIÓN */
-    .voice-section,
-    .voice-label-vertical,
-    .chord {
-      -webkit-print-color-adjust: exact !important;
-      print-color-adjust: exact !important;
-    }
-  }
-  
-  /* RESPONSIVE */
-  @media (max-width: 768px) {
-    .song-viewer {
-      width: 100vw;
-      height: auto;
-      min-height: 297mm;
-    }
-    
-    .song-columns {
-      grid-template-columns: 1fr;
-    }
-  }
-  
-  /* ESTADOS */
-  .song-loading {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-    font-size: 16px;
-    color: #666;
-  }
+}
+
+/* ESTADOS */
+.song-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  color: #666;
+  font-size: 16px;
+}
+
+/* Forzar tamaño fijo para el título */
+.song-title {
+  font-size: 18px !important;
+}
+
+.song-title-print {
+  font-size: 18px !important;
+}

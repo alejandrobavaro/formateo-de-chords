@@ -1,0 +1,624 @@
+{
+    "id": "ricky-martin-adios",
+    "title": "Adiós",
+    "artist": "Ricky Martin",
+    "originalKey": "Em",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "B7"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "B7"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "B7"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "B7"]
+          },
+          {
+            "type": "chords",
+            "content": ["B", "D#", "F#", "G#", "C", "B"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "chord",
+            "content": "B7"
+          },
+          {
+            "type": "lyric",
+            "content": "Dame sólo una vez, solo quiero otra vez,"
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "chord",
+            "content": "B7"
+          },
+          {
+            "type": "lyric",
+            "content": "Te juro, me marcho después,"
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "chord",
+            "content": "B7"
+          },
+          {
+            "type": "lyric",
+            "content": "No pienso jugar a ser juez,"
+          },
+          {
+            "type": "lyric",
+            "content": "Seducido, yo me rindo a tus pies"
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "chord",
+            "content": "B7"
+          },
+          {
+            "type": "lyric",
+            "content": "Sé que yo lo... Sé que te lo puedo."
+          },
+          {
+            "type": "lyric",
+            "content": "Si quieres I will try,"
+          },
+          {
+            "type": "lyric",
+            "content": "Pero prefiero decirte en francés:"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "lyric",
+                "content": "Vous vous voulez vous coucher"
+              },
+              {
+                "type": "chord",
+                "content": "B7"
+              },
+              {
+                "type": "lyric",
+                "content": "Mon amour dites Moi,"
+              },
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "lyric",
+                "content": "C'est moi qui vais repartir demain,"
+              },
+              {
+                "type": "chord",
+                "content": "B7"
+              },
+              {
+                "type": "lyric",
+                "content": "Il faut oublier je te dis au revoir!"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "chord",
+                "content": "B7"
+              },
+              {
+                "type": "lyric",
+                "content": "Adiós... Te tengo que decir adiós."
+              },
+              {
+                "type": "lyric",
+                "content": "Me estoy volviendo loco"
+              },
+              {
+                "type": "lyric",
+                "content": "Loco, loco, loco, loco por tu amor"
+              },
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "chord",
+                "content": "B7"
+              },
+              {
+                "type": "lyric",
+                "content": "Adiós... Te tengo que decir adiós."
+              },
+              {
+                "type": "lyric",
+                "content": "Me estoy volviendo loco"
+              },
+              {
+                "type": "lyric",
+                "content": "Loco, loco, loco, loco por tu amor ¡Adiós!"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "B7"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "B7"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "B7"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "B7"]
+          },
+          {
+            "type": "chords",
+            "content": ["B", "D#", "F#", "G#", "C", "B"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "chord",
+            "content": "B7"
+          },
+          {
+            "type": "lyric",
+            "content": "¿Cómo paro el dolor? Dímelo,"
+          },
+          {
+            "type": "lyric",
+            "content": "¡Por favor! No quiero perder el control"
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "chord",
+            "content": "B7"
+          },
+          {
+            "type": "lyric",
+            "content": "Ahogando mi pena en alcohol"
+          },
+          {
+            "type": "lyric",
+            "content": "Y dejando que me ganes de un gol"
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "chord",
+            "content": "B7"
+          },
+          {
+            "type": "lyric",
+            "content": "Deja que en ti, deja que en mí prenda la llama otra vez"
+          },
+          {
+            "type": "lyric",
+            "content": "Si quieres let me try,"
+          },
+          {
+            "type": "lyric",
+            "content": "Pero prefiero decirte en francés:"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "lyric",
+                "content": "Vous vous voulez vous coucher"
+              },
+              {
+                "type": "chord",
+                "content": "B7"
+              },
+              {
+                "type": "lyric",
+                "content": "Mon amour dites Moi,"
+              },
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "lyric",
+                "content": "C'est moi qui vais repartir demain,"
+              },
+              {
+                "type": "chord",
+                "content": "B7"
+              },
+              {
+                "type": "lyric",
+                "content": "Il faut oublier je te dis au revoir!"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "chord",
+                "content": "B7"
+              },
+              {
+                "type": "lyric",
+                "content": "Adiós... Te tengo que decir adiós."
+              },
+              {
+                "type": "lyric",
+                "content": "Me estoy volviendo loco"
+              },
+              {
+                "type": "lyric",
+                "content": "Loco, loco, loco, loco por tu amor"
+              },
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "chord",
+                "content": "B7"
+              },
+              {
+                "type": "lyric",
+                "content": "Adiós... Te tengo que decir adiós."
+              },
+              {
+                "type": "lyric",
+                "content": "Me estoy volviendo loco"
+              },
+              {
+                "type": "lyric",
+                "content": "Loco, loco, loco, loco por tu amor ¡Adiós!"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "B7"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "B7"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "B7"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "B7"]
+          },
+          {
+            "type": "chords",
+            "content": ["B", "D#", "F#", "G#", "C", "B"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "BIS",
+        "lines": [
+          {
+            "type": "text",
+            "content": "(Solo marca bombo)"
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "chord",
+                "content": "B7"
+              },
+              {
+                "type": "lyric",
+                "content": "Me vuelve loco de la forma"
+              },
+              {
+                "type": "lyric",
+                "content": "En que besas poco a poco"
+              },
+              {
+                "type": "lyric",
+                "content": "Perdona si al marcharme me equivoco."
+              },
+              {
+                "type": "lyric",
+                "content": "Pero esta noche te tengo que dejar ¡Sí, suavecito!"
+              },
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "chord",
+                "content": "B7"
+              },
+              {
+                "type": "lyric",
+                "content": "Me vuelve loco de la forma"
+              },
+              {
+                "type": "lyric",
+                "content": "En que besas poco a poco"
+              },
+              {
+                "type": "lyric",
+                "content": "Perdona si al marcharme me equivoco."
+              },
+              {
+                "type": "lyric",
+                "content": "Pero esta noche te tengo que dejar."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "B7"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "B7"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "B7"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "B7"]
+          },
+          {
+            "type": "chords",
+            "content": ["B", "D#", "F#", "G#", "C", "B"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN FINAL)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "chord",
+                "content": "B7"
+              },
+              {
+                "type": "lyric",
+                "content": "Adiós... Te tengo que decir adiós."
+              },
+              {
+                "type": "lyric",
+                "content": "Me estoy volviendo loco"
+              },
+              {
+                "type": "lyric",
+                "content": "Loco, loco, loco, loco por tu amor"
+              },
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "chord",
+                "content": "B7"
+              },
+              {
+                "type": "lyric",
+                "content": "Adiós... Te tengo que decir adiós."
+              },
+              {
+                "type": "lyric",
+                "content": "Me estoy volviendo loco"
+              },
+              {
+                "type": "lyric",
+                "content": "Loco, loco, loco, loco por tu amor ¡Adiós!"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN FINAL)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "B7"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "B7"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "B7"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "B7"]
+          },
+          {
+            "type": "chords",
+            "content": ["B", "D#", "F#", "G#", "C", "B"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "text",
+        "content": "¡Ay, Dios mío, qué novela."
+      }
+    ]
+  }
+  

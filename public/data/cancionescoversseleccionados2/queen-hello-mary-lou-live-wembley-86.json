@@ -1,0 +1,292 @@
+{
+    "id": "queen-hello-mary-lou-live-wembley-86",
+    "title": "Hello Mary Lou (Live Wembley 86)",
+    "artist": "Queen",
+    "originalKey": "C",
+    "tempo": "Upbeat",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "F"]
+          },
+          {
+            "type": "chords",
+            "content": ["C", "F"]
+          },
+          {
+            "type": "chords",
+            "content": ["C", "F"]
+          },
+          {
+            "type": "chords",
+            "content": ["C", "F"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "Hello Mary Lou, goodbye heart,"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Sweet Mary Lou I'm so in love with you."
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": "I knew Mary Lou we'd never part,"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "So hello Mary Lou, goodbye heart."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "She passed me by one sunny day,"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "Flashed those big brown eyes my way,"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "And oh, I wanted you forever more."
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "Now I'm not one who gets around,"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "Swear my feet stuck to the ground,"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "And though I never did meet you before,"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "Hello Mary Lou, goodbye heart,"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Sweet Mary Lou I'm so in love with you."
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": "I knew Mary Lou we'd never part,"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "So hello Mary Lou, goodbye heart."
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "So hello Mary Lou, goodbye heart,"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "Yes hello Mary Lou, goodbye heart,"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "C"]
+          }
+        ]
+      }
+    ]
+  }
+  

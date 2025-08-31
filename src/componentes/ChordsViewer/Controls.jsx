@@ -1,4 +1,5 @@
-import React from 'react';
+// src/componentes/ChordsViewer/Controls.jsx
+import React from "react";
 import "../../assets/scss/_03-Componentes/ChordsViewer/_Controls.scss";
 
 const Controls = ({
@@ -7,45 +8,56 @@ const Controls = ({
   transposition,
   setTransposition,
   showA4Outline,
-  setShowA4Outline
+  setShowA4Outline,
 }) => {
   return (
-    <div className="controls-compact">
+    <div className="controls-unificado">
+      {/* Grupo de transposición */}
       <div className="control-group">
-        <label>Tamaño:</label>
+        <label>Transposición</label>
+        <div className="btn-group">
+          <button
+            onClick={() => setTransposition(transposition - 1)}
+            className="control-btn"
+          >
+            -
+          </button>
+          <span className="transposition-value">
+            {transposition > 0 ? "+" : ""}
+            {transposition}
+          </span>
+          <button
+            onClick={() => setTransposition(transposition + 1)}
+            className="control-btn"
+          >
+            +
+          </button>
+          <button
+            onClick={() => setTransposition(0)}
+            className="control-btn reset"
+          >
+            R
+          </button>
+        </div>
+      </div>
+
+      {/* Grupo de tamaño de fuente */}
+      <div className="control-group">
+        <label>Tamaño</label>
         <input
           type="range"
-          min="8"
-          max="18"
-          step="1"
+          min="12"
+          max="28"
           value={fontSize}
-          onChange={(e) => setFontSize(parseInt(e.target.value))}
+          onChange={(e) => setFontSize(Number(e.target.value))}
           className="font-size-slider"
         />
-        <span>{fontSize}px</span>
+        <span className="font-size-value">{fontSize}px</span>
       </div>
-      
-      <div className="control-group">
-        <label>Transp.:</label>
-        <button 
-          onClick={() => setTransposition(transposition - 1)}
-          className="control-btn"
-        >-</button>
-        <span className="transposition-value">
-          {transposition > 0 ? '+' : ''}{transposition}
-        </span>
-        <button 
-          onClick={() => setTransposition(transposition + 1)}
-          className="control-btn"
-        >+</button>
-        <button 
-          onClick={() => setTransposition(0)}
-          className="control-btn reset"
-        >R</button>
-      </div>
-      
-      <div className="control-group">
-        <label>A4:</label>
+
+      {/* Grupo de bordes */}
+      <div className="control-group toggle-group">
+        <label>Bordes A4</label>
         <input
           type="checkbox"
           checked={showA4Outline}

@@ -1,36 +1,33 @@
-//---------contenedor principal--------------------//
+// ================================================
+// MAIN CONTENT - Reproductor arriba, Galería debajo
+// ================================================
 
+//---------contenedor principal--------------------//
 .mainContent {
   width: 100%;
+  min-height: 100vh;
   background-color: transparent;
-  padding: 10px;
-  border-bottom: 2px solid #00f7ff7c;
-  border-radius: 30px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
 }
 
 //---------contenedor principal de los elementos--------------------//
-
 .mainContentContainer {
-  display: grid;
-  grid-template-columns: 1fr 1fr; /* Dos columnas iguales */
-  gap: 20px; /* Espacio entre elementos */
+  display: flex;
+  flex-direction: column; /* 👈 apila los items verticalmente */
   width: 100%;
-  max-width: 1200px; /* Ajusta según sea necesario */
-  padding: 10px;
+  max-width: 1400px; /* opcional: limitar en pantallas muy grandes */
+  padding: 0;
   box-sizing: border-box;
 }
 
-//---------items del grid--------------------//
-
+//---------items del contenedor--------------------//
 .gridItem {
+  width: 100%;
+  background-color: transparent;
+  padding: 10px 0; /* un poco de respiro entre bloques */
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: transparent;
-  width: 100%;
-  height: auto;
-  padding: 10px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Opcional: Agrega una sombra para mejorar la visualización */
 }
-

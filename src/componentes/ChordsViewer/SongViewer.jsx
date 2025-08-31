@@ -1,14 +1,34 @@
-import React, { useRef, useState, useEffect } from 'react';
-import { BsDownload, BsPrinter } from "react-icons/bs";
+import React, { useRef, useState, useEffect, useCallback } from 'react';
+import { BsDownload, BsPrinter, BsArrowsFullscreen, BsFullscreenExit } from "react-icons/bs";
 import html2canvas from "html2canvas";
 import jsPDF from "jspdf";
 import "../../assets/scss/_03-Componentes/ChordsViewer/_SongViewer.scss";
 
-const SongViewer = ({ song, fontSize, transposition, showA4Outline }) => {
+const SongViewer = ({ song, transposition, showA4Outline, fullscreenMode }) => {
   const printViewRef = useRef(null);
+  const viewerRef = useRef(null);
   const [contentScale, setContentScale] = useState(1);
-  const [autoFontSize, setAutoFontSize] = useState(fontSize);
+  const [autoFontSize, setAutoFontSize] = useState(16); // Empezar en 16px
+  const [isFullscreen, setIsFullscreen] = useState(false);
+  const [columns, setColumns] = useState([[], []]);
   
+  // Función para pantalla completa
+  const toggleFullscreen = () => {
+    if (!document.fullscreenElement) {
+      if (viewerRef.current.requestFullscreen) {
+        viewerRef.current.requestFullscreen().catch(err => {
+          console.error('Error attempting to enable fullscreen:', err);
+        });
+        setIsFullscreen(true);
+      }
+    } else {
+      if (document.exitFullscreen) {
+        document.exitFullscreen();
+        setIsFullscreen(false);
+      }
+    }
+  };
+
   // Función para transponer acordes
   const transposeChord = (chord) => {
     if (!chord || ['N.C.', '(E)', '-', '–', '', 'X'].includes(chord.trim())) {
@@ -50,11 +70,7 @@ const SongViewer = ({ song, fontSize, transposition, showA4Outline }) => {
         scale: 2,
         useCORS: true,
         logging: false,
-        backgroundColor: '#ffffff',
-        width: 210,
-        height: 297,
-        windowWidth: 210,
-        windowHeight: 297
+        backgroundColor: '#ffffff'
       });
       
       const imgData = canvas.toDataURL("image/jpeg", 0.95);
@@ -77,9 +93,7 @@ const SongViewer = ({ song, fontSize, transposition, showA4Outline }) => {
         scale: 2,
         useCORS: true,
         logging: false,
-        backgroundColor: '#ffffff',
-        width: 210,
-        height: 297
+        backgroundColor: '#ffffff'
       });
       
       const imgData = canvas.toDataURL("image/jpeg", 0.95);
@@ -96,51 +110,120 @@ const SongViewer = ({ song, fontSize, transposition, showA4Outline }) => {
     window.print();
   };
 
-  // Ajustar escala automáticamente según el contenido
+  // Algoritmo automático de ajuste de tamaño
   useEffect(() => {
-    const adjustScale = () => {
+    const adjustFontSizeAutomatically = () => {
       if (!song || !song.content) return;
       
-      // Calcular densidad de contenido
-      const totalLines = song.content.reduce((count, item) => {
-        if (item.type === "voice" && item.lines) {
-          return count + item.lines.length;
+      const fontSizesToTry = [16, 15, 14, 13, 12]; // Orden de tamaños a probar
+      let optimalFontSize = 12; // Tamaño mínimo por defecto
+      
+      // Función para calcular altura aproximada del contenido
+      const calculateContentHeight = (content, testFontSize) => {
+        if (!content) return 0;
+        
+        let totalHeight = 0;
+        const lineHeight = 1.1;
+        const baseLineHeight = 4.5;
+        
+        content.forEach(item => {
+          if (item.type === "section") {
+            totalHeight += baseLineHeight * 1.8 * (12 / testFontSize);
+          } else if (item.type === "voice") {
+            totalHeight += baseLineHeight * 1.5 * (12 / testFontSize);
+            if (item.lines) {
+              totalHeight += calculateContentHeight(item.lines, testFontSize);
+            }
+          } else if (item.type === "combined") {
+            totalHeight += baseLineHeight * 1.3 * (12 / testFontSize);
+          } else if (item.type === "chords" || item.type === "chord") {
+            totalHeight += baseLineHeight * 1.1 * (12 / testFontSize);
+          } else if (item.type === "lyric") {
+            totalHeight += baseLineHeight * 1.0 * (12 / testFontSize);
+          } else if (item.type === "text") {
+            totalHeight += baseLineHeight * 0.9 * (12 / testFontSize);
+          } else if (item.type === "divider") {
+            totalHeight += baseLineHeight * 0.4 * (12 / testFontSize);
+          }
+        });
+        
+        return totalHeight;
+      };
+      
+      // Probar cada tamaño de fuente hasta encontrar el óptimo
+      for (const fontSize of fontSizesToTry) {
+        const contentHeight = calculateContentHeight(song.content, fontSize);
+        
+        // Si el contenido cabe en la altura máxima (270mm para A4)
+        if (contentHeight <= 270) {
+          optimalFontSize = fontSize;
+          break; // Usar el primer tamaño que quepa
         }
-        return count + 1;
-      }, 0);
-      
-      // Ajustar tamaño de fuente basado en densidad de contenido
-      let calculatedFontSize = fontSize;
-      
-      if (totalLines > 50) {
-        calculatedFontSize = Math.max(8, fontSize - 3);
-      } else if (totalLines > 40) {
-        calculatedFontSize = Math.max(9, fontSize - 2);
-      } else if (totalLines > 30) {
-        calculatedFontSize = Math.max(10, fontSize - 1);
-      } else if (totalLines < 15) {
-        calculatedFontSize = Math.min(18, fontSize + 3);
-      } else if (totalLines < 20) {
-        calculatedFontSize = Math.min(17, fontSize + 2);
-      } else if (totalLines < 25) {
-        calculatedFontSize = Math.min(16, fontSize + 1);
       }
       
-      setAutoFontSize(calculatedFontSize);
+      setAutoFontSize(optimalFontSize);
+      
+      // Balancear columnas
+      const balancedColumns = balanceColumns(song.content);
+      setColumns(balancedColumns);
       
       // Ajustar escala para vista de impresión
       const content = printViewRef.current;
       if (!content) return;
       
       const contentHeight = content.scrollHeight;
-      const maxHeight = 280;
+      const maxHeight = 270;
       const scale = Math.min(1, maxHeight / contentHeight);
       
       setContentScale(scale);
     };
 
-    adjustScale();
-  }, [song, fontSize]);
+    adjustFontSizeAutomatically();
+  }, [song]);
+
+  // Función para balancear columnas
+  const balanceColumns = (content) => {
+    if (!content || content.length === 0) return [[], []];
+    
+    // Calcular pesos aproximados de cada elemento
+    const elementWeights = content.map(item => {
+      if (item.type === "section") return 3;
+      if (item.type === "voice") return item.lines ? item.lines.length + 2 : 2;
+      if (item.type === "combined") return 1.5;
+      if (item.type === "chords") return 1.2;
+      if (item.type === "chord") return 1.1;
+      if (item.type === "lyric") return 1;
+      if (item.type === "text") return 0.8;
+      if (item.type === "divider") return 0.3;
+      return 1;
+    });
+    
+    const totalWeight = elementWeights.reduce((sum, weight) => sum + weight, 0);
+    const targetWeight = totalWeight / 2;
+    
+    let currentWeight = 0;
+    let splitIndex = 0;
+    
+    // Encontrar el mejor punto de división
+    for (let i = 0; i < elementWeights.length; i++) {
+      currentWeight += elementWeights[i];
+      
+      if (currentWeight >= targetWeight) {
+        // Preferir dividir en límites naturales (secciones o voces)
+        if (i < content.length - 1 && 
+            (content[i + 1].type === "section" || content[i + 1].type === "voice")) {
+          splitIndex = i + 1;
+        } else {
+          splitIndex = i + 1;
+        }
+        break;
+      }
+    }
+    
+    splitIndex = Math.max(1, Math.min(splitIndex, content.length - 1));
+    
+    return [content.slice(0, splitIndex), content.slice(splitIndex)];
+  };
 
   // Función para procesar líneas
   const processLines = (lines) => {
@@ -182,7 +265,7 @@ const SongViewer = ({ song, fontSize, transposition, showA4Outline }) => {
     return processedLines;
   };
 
-  // Renderizar contenido con tamaño automático
+  // Función para renderizar contenido
   const renderContent = (content) => {
     if (!content) return null;
     
@@ -201,8 +284,8 @@ const SongViewer = ({ song, fontSize, transposition, showA4Outline }) => {
         case "voice":
           return (
             <div key={index} className={`voice-section voice-${item.color}`}>
-              <div className="voice-label-vertical">
-                <span>{item.name}</span>
+              <div className="voice-label-horizontal">
+                <span className="voice-name">{item.name}</span>
               </div>
               <div className="voice-content">
                 {item.lines && renderContent(processLines(item.lines))}
@@ -275,17 +358,19 @@ const SongViewer = ({ song, fontSize, transposition, showA4Outline }) => {
     });
   };
 
-  const [firstColumn, secondColumn] = song && song.content ? 
-    [song.content.slice(0, Math.ceil(song.content.length / 2)), 
-     song.content.slice(Math.ceil(song.content.length / 2))] : 
-    [[], []];
+  const [firstColumn, secondColumn] = columns;
 
   if (!song) {
     return <div className="song-loading">Cargando canción...</div>;
   }
 
   return (
-    <div className={`song-viewer ${showA4Outline ? 'a4-outline' : ''}`}>
+    <div className={`song-viewer ${showA4Outline ? 'a4-outline' : ''} ${isFullscreen ? 'fullscreen' : ''}`} ref={viewerRef}>
+      {/* Botón de pantalla completa */}
+      <button className="fullscreen-toggle" onClick={toggleFullscreen}>
+        {isFullscreen ? <BsFullscreenExit /> : <BsArrowsFullscreen />}
+      </button>
+
       {/* Vista de impresión/exportación */}
       <div className="print-container">
         <div 
@@ -299,7 +384,7 @@ const SongViewer = ({ song, fontSize, transposition, showA4Outline }) => {
         >
           <div className="song-header-print">
             <h1 className="song-title-print">
-              {song.artist} - {song.title} (TONO: {transposeChord(song.originalKey)})
+              {song.artist} - {song.title} <span className="tono-destacado">(TONO: {transposeChord(song.originalKey)})</span>
             </h1>
           </div>
 
@@ -319,7 +404,7 @@ const SongViewer = ({ song, fontSize, transposition, showA4Outline }) => {
       {/* Contenido principal visible */}
       <div className="song-header">
         <h1 className="song-title">
-          {song.artist} - {song.title} (TONO: {transposeChord(song.originalKey)})
+          {song.artist} - {song.title} <span className="tono-destacado">(TONO: {transposeChord(song.originalKey)})</span>
         </h1>
       </div>
 

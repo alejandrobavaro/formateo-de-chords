@@ -1,0 +1,748 @@
+{
+    "id": "village-people-ymca",
+    "title": "YMCA",
+    "artist": "Village People",
+    "originalKey": "G",
+    "tempo": "Upbeat",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Young man there's no need to feel down"
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "I said, young man pick yourself off the ground"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "I said young man 'cause you're in a new town"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "There's no need to be unhappy."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Young man there's a place you can go"
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "I said, young man when you're short on your dough"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "You can stay there"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "I'm sure you will find many ways to have a good time."
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "text",
+            "content": "(It's fun to stay at the)"
+          },
+          {
+            "type": "voice",
+            "name": "CORO",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "YMCA"
+              },
+              {
+                "type": "lyric",
+                "content": "It's fun to stay at the Y-M-C-A."
+              },
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "lyric",
+                "content": "YMCA"
+              },
+              {
+                "type": "lyric",
+                "content": "It's fun to stay at the Y-M-C-A."
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": "They have everything for a young man to enjoy"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "You can hang out with all the boys."
+              },
+              {
+                "type": "text",
+                "content": "(It's fun to stay at the)"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "YMCA"
+              },
+              {
+                "type": "lyric",
+                "content": "It's fun to stay at the Y-M-C-A."
+              },
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "lyric",
+                "content": "YMCA"
+              },
+              {
+                "type": "lyric",
+                "content": "It's fun to stay at the Y-M-C-A."
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": "You can get yourself clean"
+              },
+              {
+                "type": "lyric",
+                "content": "You can have a good meal"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "You can do whatever you feel."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Young man, are you listening to me?"
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "I said, young man, what do you want to be?"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "I said, young man, you can make real your dreams."
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "But you've got to know this one thing!"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "No man does it all by himself."
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "I said, young man, put your pride on the shelf,"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "And just go there, to the Y.M.C.A."
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "I'm sure they can help you today."
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "text",
+            "content": "(It's fun to stay at the)"
+          },
+          {
+            "type": "voice",
+            "name": "CORO",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "YMCA"
+              },
+              {
+                "type": "lyric",
+                "content": "It's fun to stay at the Y-M-C-A."
+              },
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "lyric",
+                "content": "YMCA"
+              },
+              {
+                "type": "lyric",
+                "content": "It's fun to stay at the Y-M-C-A."
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": "They have everything for a young man to enjoy"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "You can hang out with all the boys."
+              },
+              {
+                "type": "text",
+                "content": "(It's fun to stay at the)"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "YMCA"
+              },
+              {
+                "type": "lyric",
+                "content": "It's fun to stay at the Y-M-C-A."
+              },
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "lyric",
+                "content": "YMCA"
+              },
+              {
+                "type": "lyric",
+                "content": "It's fun to stay at the Y-M-C-A."
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": "You can get yourself clean"
+              },
+              {
+                "type": "lyric",
+                "content": "You can have a good meal"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "You can do whatever you feel."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "content": "Repetir 2 veces"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Young man, I was once in your shoes."
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "I said, I was down and out with the blues."
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "I felt no man cared if I were alive."
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "I felt the whole world was so jive."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "That's when someone came up to me,"
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "Said, young man, take a walk up the street."
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "It's a place there called the Y.M.C.A."
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "They can start you back on your way."
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN FINAL)",
+        "lines": [
+          {
+            "type": "text",
+            "content": "(It's fun to stay at the)"
+          },
+          {
+            "type": "voice",
+            "name": "CORO",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "YMCA"
+              },
+              {
+                "type": "lyric",
+                "content": "It's fun to stay at the Y-M-C-A."
+              },
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "lyric",
+                "content": "YMCA"
+              },
+              {
+                "type": "lyric",
+                "content": "It's fun to stay at the Y-M-C-A."
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": "They have everything for a young man to enjoy"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "You can hang out with all the boys."
+              },
+              {
+                "type": "text",
+                "content": "(It's fun to stay at the)"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "YMCA"
+              },
+              {
+                "type": "lyric",
+                "content": "It's fun to stay at the Y-M-C-A."
+              },
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "lyric",
+                "content": "YMCA"
+              },
+              {
+                "type": "lyric",
+                "content": "It's fun to stay at the Y-M-C-A."
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": "You can get yourself clean"
+              },
+              {
+                "type": "lyric",
+                "content": "You can have a good meal"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "You can do whatever you feel."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "content": "Repetir 4 veces"
+          }
+        ]
+      }
+    ]
+  }
+  

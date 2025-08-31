@@ -1,0 +1,578 @@
+{
+    "id": "cake-i-will-survive",
+    "title": "I Will Survive",
+    "artist": "Cake",
+    "originalKey": "Am",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "Dm", "G", "C", "F", "B", "E"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "chord",
+            "content": "Dm"
+          },
+          {
+            "type": "lyric",
+            "content": "At first I was afraid, I was petrified"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "I kept thinkin' I could never live"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "Without you by my side."
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "But then I spent so many nights"
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "lyric",
+            "content": "Just thinking how you’ve done me wrong"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "And I grew strong, I learned how to get along."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "chord",
+            "content": "Dm"
+          },
+          {
+            "type": "lyric",
+            "content": "And so you're back, from outer space,"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "I just walked in to find you here with that"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "That look upon your face,"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "I should have changed my fucking lock,"
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "lyric",
+            "content": "I would have made you leave your key"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "If I’d have known for just one second you'd be back to bother me."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "chord",
+                "content": "Dm"
+              },
+              {
+                "type": "lyric",
+                "content": "Oh now go, walk out the door,"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Just turn around now,"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "You're not welcome anymore."
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "Weren't you the one who tried"
+              },
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "lyric",
+                "content": "To break me with desire?"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "Did you think I'd crumble?"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "Did you think I'd lay down and die?..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "chord",
+                "content": "Dm"
+              },
+              {
+                "type": "lyric",
+                "content": "Oh not I, I will survive, Yeah,"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "As long as I know how to love,"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "I know I'll be alive."
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "I've got all my life to live."
+              },
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "lyric",
+                "content": "I've got all my love to give,"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "I will survive, I will survive, Yeah, yeah..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "Dm", "G", "C", "F", "Bm", "B", "E"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "chord",
+            "content": "Dm"
+          },
+          {
+            "type": "lyric",
+            "content": "It took all the strength I had just not to fall apart,"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "I’m tryin' hard to mend the pieces"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "Of my broken heart,"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "And I spent oh so many nights just"
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "lyric",
+            "content": "Feelin' sorry for myself,"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "I used to cry, but now I hold my head up high."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "chord",
+            "content": "Dm"
+          },
+          {
+            "type": "lyric",
+            "content": "And you’ll see me with somebody new,"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "I'm not that stupid little person still"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "In love with you."
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "And so you thought you’d just drop"
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "lyric",
+            "content": "By and you expect me to be free,"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "But now I'm saving all my lovin'"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "For someone who's lovin' me."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "chord",
+                "content": "Dm"
+              },
+              {
+                "type": "lyric",
+                "content": "Oh now go, walk out the door,"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Just turn around now,"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "You're not welcome anymore."
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "Weren't you the one who tried"
+              },
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "lyric",
+                "content": "To break me with desire?"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "Did you think I'd crumble?"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "Did you think I'd lay down and die?..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN FINAL)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "chord",
+                "content": "Dm"
+              },
+              {
+                "type": "lyric",
+                "content": "Oh not I, I will survive, Yeah,"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "As long as I know how to love,"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "I know I'll be alive."
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "I've got all my life to live."
+              },
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "lyric",
+                "content": "I've got all my love to give,"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "I will survive, I will survive, Yeah, yeah..."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

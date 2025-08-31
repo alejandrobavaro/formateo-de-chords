@@ -1,0 +1,704 @@
+{
+    "id": "haddaway-what-is-love",
+    "title": "What Is Love",
+    "artist": "Haddaway",
+    "originalKey": "Em",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "G", "Bm", "D"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "What is love? Baby, don't hurt me,"
+              },
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "Don't hurt me no more."
+              },
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "What is love? Baby, don't hurt me,"
+              },
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "Don't hurt me no more."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Whoa, whoa, whoa, ooh, ooh,"
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Whoa, whoa, whoa, ooh, ooh..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "G", "Bm", "D"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "lyric",
+            "content": "Oh I don't know, why you're not fair,"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "I give you my love, but you don't care."
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "lyric",
+            "content": "What is right, and what is wrong,"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Gimme a sign"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "What is love? Baby, don't hurt me,"
+              },
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "Don't hurt me no more."
+              },
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "What is love? Baby, don't hurt me,"
+              },
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "Don't hurt me no more."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Whoa, whoa, whoa, ooh, ooh,"
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Whoa, whoa, whoa, ooh, ooh..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "G", "Bm", "D"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "lyric",
+            "content": "Oh I don't know what can I do,"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "What else can I say, it's up to you,"
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "lyric",
+            "content": "I know we're one, just me and you,"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "I can't go on..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "What is love? Baby, don't hurt me,"
+              },
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "Don't hurt me no more."
+              },
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "What is love? Baby, don't hurt me,"
+              },
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "Don't hurt me no more."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Whoa, whoa, whoa, ooh, ooh,"
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Whoa, whoa, whoa, ooh, ooh..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PUENTE",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "Whoa, whoa, whoa, ooh, ooh,"
+              },
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "Whoa, whoa, whoa, ooh, ooh..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "G", "Bm", "D"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN FINAL)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "What is love? Baby, don't hurt me,"
+              },
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "Don't hurt me no more."
+              },
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "What is love? Baby, don't hurt me,"
+              },
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "Don't hurt me no more."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Whoa, whoa, whoa, ooh, ooh,"
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Whoa, whoa, whoa, ooh, ooh..."
+          }
+        ]
+      }
+    ]
+  }
+  

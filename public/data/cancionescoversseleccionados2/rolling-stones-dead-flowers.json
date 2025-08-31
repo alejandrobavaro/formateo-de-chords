@@ -1,0 +1,686 @@
+{
+    "id": "rolling-stones-dead-flowers",
+    "title": "Dead Flowers",
+    "artist": "The Rolling Stones",
+    "originalKey": "D",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Dsus2", "D", "A", "G", "D"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Well when you're sittin' there,"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "In your silk upholstered chair"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Talkin' to some rich folk"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "That you know"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Well I hope you won't see me,"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "In my ragged company"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "'Cause you know"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "I could never be alone"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "Take me down little Suzie, take me down,"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "I know you think you're the queen,"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "Of the underground."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "Dsus4"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "Dsus2"
+              },
+              {
+                "type": "lyric",
+                "content": "Send me dead flowers every morning,"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "Dsus4"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "Dsus2"
+              },
+              {
+                "type": "lyric",
+                "content": "Send me dead flowers by the mail."
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "Dsus4"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "Dsus2"
+              },
+              {
+                "type": "lyric",
+                "content": "Send me dead flowers at my wedding,"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "And I won't forget to put roses on your grave"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Well when you're sittin' back,"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "In your rose pink Cadillac"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Makin' bets on Kentucky"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Derby day,"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Well I'll be in my basement room"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "With a needle and a spoon"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "And another girl can take my pain away"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "Take me down little Suzie, take me down,"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "I know you think you're the queen,"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "Of the underground."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "Dsus4"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "Dsus2"
+              },
+              {
+                "type": "lyric",
+                "content": "Send me dead flowers every morning,"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "Dsus4"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "Dsus2"
+              },
+              {
+                "type": "lyric",
+                "content": "Send me dead flowers by the mail."
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "Dsus4"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "Dsus2"
+              },
+              {
+                "type": "lyric",
+                "content": "Send me dead flowers at my wedding,"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "And I won't forget to put roses on your grave"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Dsus2", "D", "A", "G", "D"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO (REPETICIÓN FINAL)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "Take me down little Suzie, take me down,"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "I know you think you're the queen,"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "Of the underground."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN FINAL)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "Dsus4"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "Dsus2"
+              },
+              {
+                "type": "lyric",
+                "content": "Send me dead flowers every morning,"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "Dsus4"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "Dsus2"
+              },
+              {
+                "type": "lyric",
+                "content": "Send me dead flowers by the mail."
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "Dsus4"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "Dsus2"
+              },
+              {
+                "type": "lyric",
+                "content": "Send me dead flowers at my wedding,"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "And I won't forget to put roses on your grave"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

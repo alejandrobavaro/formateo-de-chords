@@ -1,0 +1,478 @@
+{
+    "id": "beatles-i-saw-her-standing-there",
+    "title": "I Saw Her Standing There",
+    "artist": "The Beatles",
+    "originalKey": "E",
+    "tempo": "Upbeat",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E7", "E7"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "Well, she was just seventeen,"
+          },
+          {
+            "type": "chord",
+            "content": "A7"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "You know what I mean,"
+          },
+          {
+            "type": "chord",
+            "content": "B7"
+          },
+          {
+            "type": "lyric",
+            "content": "And the way she looked was way beyond compare,"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "chord",
+            "content": "A7"
+          },
+          {
+            "type": "lyric",
+            "content": "So how could I dance with another,"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "chord",
+            "content": "B7"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "Oh when I saw her standing there"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "Well she looked at me,"
+          },
+          {
+            "type": "chord",
+            "content": "A7"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "And I, I could see,"
+          },
+          {
+            "type": "chord",
+            "content": "B7"
+          },
+          {
+            "type": "lyric",
+            "content": "That before too long I'd fall in love with her,"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "chord",
+            "content": "A7"
+          },
+          {
+            "type": "lyric",
+            "content": "She wouldn't dance with another,"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "chord",
+            "content": "B7"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "Oh when I saw her standing there"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A7"
+              },
+              {
+                "type": "lyric",
+                "content": "Well my heart went boom"
+              },
+              {
+                "type": "lyric",
+                "content": "When I crossed that room,"
+              },
+              {
+                "type": "chord",
+                "content": "B7"
+              },
+              {
+                "type": "chord",
+                "content": "A7"
+              },
+              {
+                "type": "lyric",
+                "content": "And I held her hand in mine."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "Oh we danced through the night,"
+          },
+          {
+            "type": "chord",
+            "content": "A7"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "And we held each other tight,"
+          },
+          {
+            "type": "chord",
+            "content": "B7"
+          },
+          {
+            "type": "lyric",
+            "content": "And before too long I fell in love with her,"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "chord",
+            "content": "A7"
+          },
+          {
+            "type": "lyric",
+            "content": "Now I'll never dance with another,"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "chord",
+            "content": "B7"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "Oh when I saw her standing there"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A7"
+              },
+              {
+                "type": "lyric",
+                "content": "Well my heart went boom"
+              },
+              {
+                "type": "lyric",
+                "content": "When I crossed that room,"
+              },
+              {
+                "type": "chord",
+                "content": "B7"
+              },
+              {
+                "type": "chord",
+                "content": "A7"
+              },
+              {
+                "type": "lyric",
+                "content": "And I held her hand in mine."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "Oh we danced through the night,"
+          },
+          {
+            "type": "chord",
+            "content": "A7"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "And we held each other tight,"
+          },
+          {
+            "type": "chord",
+            "content": "B7"
+          },
+          {
+            "type": "lyric",
+            "content": "And before too long I fell in love with her,"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "chord",
+            "content": "A7"
+          },
+          {
+            "type": "lyric",
+            "content": "Now I'll never dance with another,"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "chord",
+            "content": "B7"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "Oh since I saw her standing there"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E7", "B7", "E7", "A7", "E7", "B7", "E7", "B7"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN FINAL)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A7"
+              },
+              {
+                "type": "lyric",
+                "content": "Well my heart went boom"
+              },
+              {
+                "type": "lyric",
+                "content": "When I crossed that room,"
+              },
+              {
+                "type": "chord",
+                "content": "B7"
+              },
+              {
+                "type": "chord",
+                "content": "A7"
+              },
+              {
+                "type": "lyric",
+                "content": "And I held her hand in mine."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "B7"
+              },
+              {
+                "type": "chord",
+                "content": "E7"
+              },
+              {
+                "type": "lyric",
+                "content": "Oh since I saw her standing there."
+              },
+              {
+                "type": "chord",
+                "content": "B7"
+              },
+              {
+                "type": "chord",
+                "content": "A7"
+              },
+              {
+                "type": "chord",
+                "content": "E7"
+              },
+              {
+                "type": "lyric",
+                "content": "Oh since I saw her standing there."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

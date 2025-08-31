@@ -1,0 +1,588 @@
+{
+    "id": "queen-another-one-bites-the-dust",
+    "title": "Another One Bites The Dust",
+    "artist": "Queen",
+    "originalKey": "D",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "text",
+            "content": "RIFF BAJO: (D-F-D-G) x4"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Dm"
+          },
+          {
+            "type": "lyric",
+            "content": "Steve walks warily down the street"
+          },
+          {
+            "type": "chord",
+            "content": "Gm"
+          },
+          {
+            "type": "lyric",
+            "content": "With the brim pulled way down low"
+          },
+          {
+            "type": "chord",
+            "content": "Dm"
+          },
+          {
+            "type": "lyric",
+            "content": "Ain't no sound but the sound of his feet,"
+          },
+          {
+            "type": "chord",
+            "content": "Gm"
+          },
+          {
+            "type": "lyric",
+            "content": "Machine guns ready to go."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "chord",
+                "content": "Fm"
+              },
+              {
+                "type": "lyric",
+                "content": "Are you ready, hey! Are you ready for this?"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "chord",
+                "content": "Fm"
+              },
+              {
+                "type": "lyric",
+                "content": "Are you hanging on the edge of your seat?"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "chord",
+                "content": "Fm"
+              },
+              {
+                "type": "lyric",
+                "content": "Out of the doorway the bullets rip,"
+              },
+              {
+                "type": "chord",
+                "content": "Gm"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "text",
+                "content": "(F)"
+              },
+              {
+                "type": "lyric",
+                "content": "To the sound of the beat. Yeah!"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "text",
+            "content": "RIFF BAJO: (D-F-D-G)"
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Dm"
+              },
+              {
+                "type": "chord",
+                "content": "Gm"
+              },
+              {
+                "type": "lyric",
+                "content": "Another One Bites The Dust,"
+              },
+              {
+                "type": "chord",
+                "content": "Dm"
+              },
+              {
+                "type": "chord",
+                "content": "Gm"
+              },
+              {
+                "type": "lyric",
+                "content": "Another One Bites The Dust,"
+              },
+              {
+                "type": "chord",
+                "content": "Dm"
+              },
+              {
+                "type": "lyric",
+                "content": "And another one gone,"
+              },
+              {
+                "type": "lyric",
+                "content": "And another one gone,"
+              },
+              {
+                "type": "chord",
+                "content": "Dm"
+              },
+              {
+                "type": "lyric",
+                "content": "Another One Bites The Dust."
+              },
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Hey! I'm gonna get you too."
+              },
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "text",
+                "content": "-"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "text",
+                "content": "(F)"
+              },
+              {
+                "type": "lyric",
+                "content": "Another One Bites The Dust."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "text",
+            "content": "RIFF BAJO: (D-F-D-G) x2"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Dm"
+          },
+          {
+            "type": "lyric",
+            "content": "How do you think"
+          },
+          {
+            "type": "chord",
+            "content": "Gm"
+          },
+          {
+            "type": "lyric",
+            "content": "I'm going to get along,"
+          },
+          {
+            "type": "chord",
+            "content": "Dm"
+          },
+          {
+            "type": "lyric",
+            "content": "Without you, when you're gone"
+          },
+          {
+            "type": "chord",
+            "content": "Dm"
+          },
+          {
+            "type": "lyric",
+            "content": "You took me for everything that I had,"
+          },
+          {
+            "type": "chord",
+            "content": "Gm"
+          },
+          {
+            "type": "lyric",
+            "content": "And kicked me out on my own."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "chord",
+                "content": "Fm"
+              },
+              {
+                "type": "lyric",
+                "content": "Are you ready, hey! Are you ready for this?"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "chord",
+                "content": "Fm"
+              },
+              {
+                "type": "lyric",
+                "content": "Are you hanging on the edge of your seat?"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "chord",
+                "content": "Fm"
+              },
+              {
+                "type": "lyric",
+                "content": "Out of the doorway the bullets rip,"
+              },
+              {
+                "type": "chord",
+                "content": "Gm"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "text",
+                "content": "(F)"
+              },
+              {
+                "type": "lyric",
+                "content": "To the sound of the beat. Yeah!"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "text",
+            "content": "RIFF BAJO: (D-F-D-G)"
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Dm"
+              },
+              {
+                "type": "chord",
+                "content": "Gm"
+              },
+              {
+                "type": "lyric",
+                "content": "Another One Bites The Dust,"
+              },
+              {
+                "type": "chord",
+                "content": "Dm"
+              },
+              {
+                "type": "chord",
+                "content": "Gm"
+              },
+              {
+                "type": "lyric",
+                "content": "Another One Bites The Dust,"
+              },
+              {
+                "type": "chord",
+                "content": "Dm"
+              },
+              {
+                "type": "lyric",
+                "content": "And another one gone,"
+              },
+              {
+                "type": "lyric",
+                "content": "And another one gone,"
+              },
+              {
+                "type": "chord",
+                "content": "Dm"
+              },
+              {
+                "type": "lyric",
+                "content": "Another One Bites The Dust."
+              },
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Hey! I'm gonna get you too."
+              },
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "text",
+                "content": "-"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "text",
+                "content": "(F)"
+              },
+              {
+                "type": "lyric",
+                "content": "Another One Bites The Dust."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "content": "Repetir 2 veces"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Dm"
+          },
+          {
+            "type": "lyric",
+            "content": "There're plenty of ways you can hurt a man"
+          },
+          {
+            "type": "chord",
+            "content": "Dm"
+          },
+          {
+            "type": "chord",
+            "content": "Gm"
+          },
+          {
+            "type": "lyric",
+            "content": "And bring him to the ground."
+          },
+          {
+            "type": "chord",
+            "content": "Dm"
+          },
+          {
+            "type": "lyric",
+            "content": "You can beat him. You can cheat him"
+          },
+          {
+            "type": "chord",
+            "content": "Dm"
+          },
+          {
+            "type": "lyric",
+            "content": "You can treat him bad and leave him"
+          },
+          {
+            "type": "chord",
+            "content": "Gm"
+          },
+          {
+            "type": "lyric",
+            "content": "When he's down."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO (REPETICIÓN FINAL)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "chord",
+                "content": "Fm"
+              },
+              {
+                "type": "lyric",
+                "content": "Are you ready, hey! Are you ready for this?"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "chord",
+                "content": "Fm"
+              },
+              {
+                "type": "lyric",
+                "content": "Are you hanging on the edge of your seat?"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "chord",
+                "content": "Fm"
+              },
+              {
+                "type": "lyric",
+                "content": "Out of the doorway the bullets rip,"
+              },
+              {
+                "type": "chord",
+                "content": "Gm"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "text",
+                "content": "(F)"
+              },
+              {
+                "type": "lyric",
+                "content": "To the sound of the beat. Yeah!"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

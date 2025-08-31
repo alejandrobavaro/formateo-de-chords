@@ -1,10 +1,8 @@
 /*-----------------SASS A CSS------------------------*/
-//------------GENERAL--------------//
 @import "./_01-General/App";
 
-//------------HEADER--------------//
+
 @import "./_03-Componentes/Header";
-@import "./_03-Componentes/HeaderSearchBar";
 
 //-----------HOME - MAIN-----------------//
 @import "./_03-Componentes/MainPublicidadSlider";
@@ -13,13 +11,13 @@
 @import "./_03-Componentes/Footer";
 
 //------------CHORDS------------------//
-@import "./_03-Componentes/ChordsViewer/ChordsViewerIndex"; // Corregido
+@import "./_03-Componentes/ChordsViewer/ChordsViewerIndex";
 
 //----------REPRODUCTOR VIDEO------------//
 @import "./_03-Componentes/ReproductorVideo";
 
 //-----------FORMATEO------------------//
-@import "./_03-Componentes/FormateoChords";
+@import "./_03-Componentes/BibliotecaAcordes";
 
 //----------------OTROS------------------//
 @import "./_03-Componentes/ConsultasAyuda";

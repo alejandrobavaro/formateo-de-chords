@@ -1,0 +1,935 @@
+{
+    "id": "oasis-stand-by-me",
+    "title": "Stand by Me",
+    "artist": "Oasis",
+    "originalKey": "G",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "B7", "C", "D"]
+          },
+          {
+            "type": "chords",
+            "content": ["G", "B7", "C", "D"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "B7"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "Made a meal and threw it up on Sunday I've"
+          },
+          {
+            "type": "chord",
+            "content": "G/B"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Gotta lot of things to learn"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "B7"
+          },
+          {
+            "type": "lyric",
+            "content": "Said I would and I'll be leaving one day"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "G/B"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Before my heart starts to burn"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "So what's the matter with you?"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "Sing me something new.. don't you know"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "The cold and wind and rain don't know"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "They only seem to come and go away"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "B7"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "Times are hard when things have got no meaning"
+          },
+          {
+            "type": "chord",
+            "content": "G/B"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "I've found a key upon the floor"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "B7"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "Maybe you and I will not believe the things we find"
+          },
+          {
+            "type": "chord",
+            "content": "G/B"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Behind the door"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "So what's the matter with you?"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "Sing me something new.. don't you know"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "The cold and wind and rain don't know"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "They only seem to come and go away"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": "Stand by me - nobody knows the way it's gonna be"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": "Stand by me - nobody knows the way it's gonna be"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": "Stand by me - nobody knows the way it's gonna be"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": "Stand by me - nobody knows"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "Yeah, nobody knows......"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "The way it's gonna be"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "B7"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "If you're leaving will you take me with you"
+          },
+          {
+            "type": "chord",
+            "content": "G/B"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "I'm tired of talking on my phone"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "B7"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "There is one thing I can never give you"
+          },
+          {
+            "type": "chord",
+            "content": "G/B"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "My heart can never be your home"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "So what's the matter with you?"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "Sing me something new.. don't you know"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "The cold and wind and rain don't know"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "They only seem to come and go away"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": "Stand by me - nobody knows the way it's gonna be"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": "Stand by me - nobody knows the way it's gonna be"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": "Stand by me - nobody knows the way it's gonna be"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": "Stand by me - nobody knows"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "Yeah, nobody knows......"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "The way it's gonna be"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "The way it's gonna be...."
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "The way it's gonna be..."
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "Maybe I can see yeah.... don't you know"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "The cold and wind and rain don't know"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "They only seem to come and go away"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN FINAL)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": "Stand by me - nobody knows the way it's gonna be"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": "Stand by me - nobody knows the way it's gonna be"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": "Stand by me - nobody knows the way it's gonna be"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": "Stand by me - nobody knows"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "Yeah, nobody knows......"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "The way it's gonna be"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

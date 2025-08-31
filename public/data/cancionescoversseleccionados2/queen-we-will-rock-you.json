@@ -1,0 +1,443 @@
+{
+    "id": "queen-we-will-rock-you",
+    "title": "We Will Rock You",
+    "artist": "Queen",
+    "originalKey": "Em",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "text",
+            "content": "Percusión x4"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "Buddy, you're a boy,"
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "Make a big noise, playin' in the street,"
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Gonna be a big man someday..."
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "You got mud on your face,"
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "You big disgrace,"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Kickin' your can, all over the place."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "CORO",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "text",
+                "content": "(Singing...)"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "We will, we will rock you,"
+              },
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+            "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "We will, we will rock you."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "Buddy, you're a young man, hard man,"
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "Shouting in the street,"
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Gonna take on the world someday..."
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "You got blood on your face,"
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "A big disgrace,"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Wavin' your banner, all over the place."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "CORO",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "text",
+                "content": "(Singing...)"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "We will, we will rock you,"
+              },
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "We will, we will rock you."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "Buddy, you're an old man, poor man,"
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "Pleadin' with your eyes,"
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Gonna make you some peace someday..."
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "You got mud on your face,"
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "Big disgrace,"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Somebody better put you back into your place."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN FINAL)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "CORO",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "text",
+                "content": "(Singing...)"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "We will, we will rock you,"
+              },
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "We will, we will rock you."
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "CORO",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "text",
+                "content": "(Singing...)"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "We will, we will rock you,"
+              },
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "We will, we will rock you."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "A", "G", "A", "A9"]
+          }
+        ]
+      }
+    ]
+  }
+  
