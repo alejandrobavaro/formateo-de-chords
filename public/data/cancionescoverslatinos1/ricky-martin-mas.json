@@ -1,0 +1,483 @@
+{
+    "id": "ricky-martin-mas",
+    "title": "Más",
+    "artist": "Ricky Martin",
+    "originalKey": "Em",
+    "tempo": "Allegro",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO 1",
+        "lines": [
+          {
+            "type": "text",
+            "content": "(Sin banda)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "C5", "G5", "D5"]
+          },
+          {
+            "type": "lyric",
+            "content": "Muévelo ooo."
+          },
+          {
+            "type": "lyric",
+            "content": "Súbelo ooo."
+          },
+          {
+            "type": "lyric",
+            "content": "Muévelo ooo."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "Tico era un Boricua de Manhattan"
+          },
+          {
+            "type": "chord",
+            "content": "C5"
+          },
+          {
+            "type": "lyric",
+            "content": "Cantaba en el subway"
+          },
+          {
+            "type": "chord",
+            "content": "G5"
+          },
+          {
+            "type": "lyric",
+            "content": "Con su beat box y su electric guitar"
+          },
+          {
+            "type": "chord",
+            "content": "D5"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "Por las noches era DJ"
+          },
+          {
+            "type": "chord",
+            "content": "C5"
+          },
+          {
+            "type": "lyric",
+            "content": "Se paraban en las sillas"
+          },
+          {
+            "type": "chord",
+            "content": "G5"
+          },
+          {
+            "type": "lyric",
+            "content": "Y él ponía el mundo a girar"
+          },
+          {
+            "type": "chord",
+            "content": "D5"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "C5"]
+          },
+          {
+            "type": "lyric",
+            "content": "Que bellos tiempos"
+          },
+          {
+            "type": "chords",
+            "content": ["G5", "D5"]
+          },
+          {
+            "type": "lyric",
+            "content": "Cuando se bailaba hasta morir"
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "C5", "G5", "D5"]
+          },
+          {
+            "type": "lyric",
+            "content": "Saltando al cielo, con esa locura de vivir."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "C5"]
+          },
+          {
+            "type": "lyric",
+            "content": "Hay que pedirle más, más, más a la vida"
+          },
+          {
+            "type": "chord",
+            "content": "G5"
+          },
+          {
+            "type": "lyric",
+            "content": "Que sea hasta que se apague el sol"
+          },
+          {
+            "type": "chord",
+            "content": "D5"
+          },
+          {
+            "type": "lyric",
+            "content": "Y la luna. Y que no importe"
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "C5"]
+          },
+          {
+            "type": "lyric",
+            "content": "Más, más, más lo que digan"
+          },
+          {
+            "type": "chords",
+            "content": ["G5", "D5"]
+          },
+          {
+            "type": "lyric",
+            "content": "Como si fuera la última noche de tus días"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PUENTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "C5"]
+          },
+          {
+            "type": "lyric",
+            "content": "Muévelo o, muévelo, llévalo pa' arriba"
+          },
+          {
+            "type": "chords",
+            "content": ["G5", "D5"]
+          },
+          {
+            "type": "lyric",
+            "content": "Súbelo o, súbelo con adrenalina"
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "C5"]
+          },
+          {
+            "type": "lyric",
+            "content": "Gózalo o, gózalo que tu cuerpo pida"
+          },
+          {
+            "type": "chords",
+            "content": ["G5", "D5"]
+          },
+          {
+            "type": "lyric",
+            "content": "Muévelo ooo."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "Martica era una chica de Miami"
+          },
+          {
+            "type": "chord",
+            "content": "C5"
+          },
+          {
+            "type": "lyric",
+            "content": "Que siempre soñaba"
+          },
+          {
+            "type": "chord",
+            "content": "G5"
+          },
+          {
+            "type": "lyric",
+            "content": "Ser modelo y conquistar Nueva York"
+          },
+          {
+            "type": "chord",
+            "content": "D5"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "Maquillada todo el día"
+          },
+          {
+            "type": "chord",
+            "content": "C5"
+          },
+          {
+            "type": "lyric",
+            "content": "Los tacones le dolían"
+          },
+          {
+            "type": "chord",
+            "content": "G5"
+          },
+          {
+            "type": "lyric",
+            "content": "Y la coronamos reina del show."
+          },
+          {
+            "type": "chord",
+            "content": "D5"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "C5"]
+          },
+          {
+            "type": "lyric",
+            "content": "Que bellos tiempos"
+          },
+          {
+            "type": "chords",
+            "content": ["G5", "D5"]
+          },
+          {
+            "type": "lyric",
+            "content": "Cuando se bailaba hasta morir"
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "C5", "G5", "D5"]
+          },
+          {
+            "type": "lyric",
+            "content": "Saltando al cielo, con esa locura de vivir."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN X2)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "C5"]
+          },
+          {
+            "type": "lyric",
+            "content": "Hay que pedirle más, más, más a la vida"
+          },
+          {
+            "type": "chord",
+            "content": "G5"
+          },
+          {
+            "type": "lyric",
+            "content": "Que sea hasta que se apague el sol"
+          },
+          {
+            "type": "chord",
+            "content": "D5"
+          },
+          {
+            "type": "lyric",
+            "content": "Y la luna. Y que no importe"
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "C5"]
+          },
+          {
+            "type": "lyric",
+            "content": "Más, más, más lo que digan"
+          },
+          {
+            "type": "chords",
+            "content": ["G5", "D5"]
+          },
+          {
+            "type": "lyric",
+            "content": "Como si fuera la última noche de tus días"
+          },
+          {
+            "type": "text",
+            "content": "(Repetir 2 veces)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PUENTE (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "C5"]
+          },
+          {
+            "type": "lyric",
+            "content": "Muévelo o, muévelo, llévalo pa' arriba"
+          },
+          {
+            "type": "chords",
+            "content": ["G5", "D5"]
+          },
+          {
+            "type": "lyric",
+            "content": "Súbelo o, súbelo con adrenalina"
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "C5"]
+          },
+          {
+            "type": "lyric",
+            "content": "Gózalo o, gózalo que tu cuerpo pida"
+          },
+          {
+            "type": "chords",
+            "content": ["G5", "D5"]
+          },
+          {
+            "type": "lyric",
+            "content": "Muévelo ooo."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "BIS",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "C5", "G5", "D5"]
+          },
+          {
+            "type": "lyric",
+            "content": "Nunca te detengas. Haz lo que tú sientas."
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "C5", "G5", "D5"]
+          },
+          {
+            "type": "lyric",
+            "content": "Sigue tu destino. Fuera del camino."
+          }
+        ]
+      }
+    ]
+  }
+  

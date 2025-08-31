@@ -1,5 +1,5 @@
-// src/componentes/ChordsViewer/Controls.jsx
 import React from "react";
+import { BsDownload, BsPrinter } from "react-icons/bs";
 import "../../assets/scss/_03-Componentes/ChordsViewer/_Controls.scss";
 
 const Controls = ({
@@ -9,6 +9,10 @@ const Controls = ({
   setTransposition,
   showA4Outline,
   setShowA4Outline,
+  onExportPDF,
+  onExportJPG,
+  onPrint,
+  hasSelectedSong
 }) => {
   return (
     <div className="controls-unificado">
@@ -19,6 +23,7 @@ const Controls = ({
           <button
             onClick={() => setTransposition(transposition - 1)}
             className="control-btn"
+            disabled={!hasSelectedSong}
           >
             -
           </button>
@@ -29,12 +34,14 @@ const Controls = ({
           <button
             onClick={() => setTransposition(transposition + 1)}
             className="control-btn"
+            disabled={!hasSelectedSong}
           >
             +
           </button>
           <button
             onClick={() => setTransposition(0)}
             className="control-btn reset"
+            disabled={!hasSelectedSong}
           >
             R
           </button>
@@ -51,6 +58,7 @@ const Controls = ({
           value={fontSize}
           onChange={(e) => setFontSize(Number(e.target.value))}
           className="font-size-slider"
+          disabled={!hasSelectedSong}
         />
         <span className="font-size-value">{fontSize}px</span>
       </div>
@@ -63,7 +71,39 @@ const Controls = ({
           checked={showA4Outline}
           onChange={() => setShowA4Outline(!showA4Outline)}
           className="a4-toggle"
+          disabled={!hasSelectedSong}
         />
+      </div>
+
+      {/* BOTONES DE EXPORTACIÓN */}
+      <div className="control-group export-group">
+        <label>Exportar</label>
+        <div className="export-buttons">
+          <button 
+            onClick={onExportPDF} 
+            className="export-btn" 
+            title="Exportar PDF"
+            disabled={!hasSelectedSong}
+          >
+            <BsDownload /> PDF
+          </button>
+          <button 
+            onClick={onExportJPG} 
+            className="export-btn" 
+            title="Exportar JPG"
+            disabled={!hasSelectedSong}
+          >
+            <BsDownload /> JPG
+          </button>
+          <button 
+            onClick={onPrint} 
+            className="export-btn" 
+            title="Imprimir"
+            disabled={!hasSelectedSong}
+          >
+            <BsPrinter />
+          </button>
+        </div>
       </div>
     </div>
   );

@@ -10,9 +10,9 @@ import "../assets/scss/_03-Componentes/_GaleriaHomeCancioneros.scss"; // Estilos
 
 // Lista de archivos JSON que se cargarán al montar el componente
 const jsonFiles = [
-  "/data/cancionesalegondramusic.json",
-  "/data/cancionesalmangopop.json",
-  "/data/cancionescasamiento.json",
+  "/data/listadocancionesalegondramusic.json",
+  "/data/listadocancionesalmangopop.json",
+  "/data/listadocancionescasamiento.json",
   "/data/listadochordscoversseleccionados1.json",
   "/data/listadochordscoversseleccionados2.json"
 ];

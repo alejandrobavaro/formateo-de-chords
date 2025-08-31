@@ -1,0 +1,209 @@
+{
+    "id": "ricky-martin-por-arriba-por-abajo",
+    "title": "Por arriba, por abajo",
+    "artist": "Ricky Martin",
+    "originalKey": "E",
+    "tempo": "Upbeat / Latin Pop",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "Am", "E", "Am", "E", "Am", "E", "Am"]
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "VERSO 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "Santa Cecilia, yo quiero cantar"
+          },
+          {
+            "type": "chords",
+            "content": ["E", "Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "Ay, san Melitón, enséñame el son"
+          },
+          {
+            "type": "chords",
+            "content": ["E", "Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "Santa Lucia, la quiero mirar"
+          },
+          {
+            "type": "chords",
+            "content": ["E", "Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "Yo te lo pido san corazón"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "PRE ESTRIBILLO 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "Am", "E", "Am", "E", "Am", "E", "Am", "E", "Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "Santa Paciencia, Santa Piedad, Santa rumbita, la quiero gozar, Santa tristeza, San se acabó, Solo con ella bailo yo."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "E", "Am", "Am", "Am", "E", "E", "E", "Am", "Am", "Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "Por arriba, por abajo, Calientitos, Bien pegados"
+          },
+          {
+            "type": "chords",
+            "content": ["E", "Am", "E", "Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "Por arriba, por abajo, Angelitos, Sin pecado, Bomboya!"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "INSTRUMENTAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "E"]
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "VERSO 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "Santa Virginia, no sé si atacar"
+          },
+          {
+            "type": "chords",
+            "content": ["E", "Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "San Valentín, la deseo un montón"
+          },
+          {
+            "type": "chords",
+            "content": ["E", "Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "Santa inocencia, la quiero tocar"
+          },
+          {
+            "type": "chords",
+            "content": ["E", "Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "Ay, no me dejes san corazón"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "PRE ESTRIBILLO 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "Am", "E", "Am", "E", "Am", "E", "Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "Santa mentira, Santa verdad, Santa bolero, la quiero abrazar, Santa alegría, San se acabó, Solo con ella bailo yo."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "Am", "E", "Am", "E", "Am", "E", "Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "Por arriba, por abajo, Calientitos Bien pegados, Por arriba, por abajo, Angelitos Sin pecado"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "BIS",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "F#", "E", "F#", "E", "F#", "E", "F#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Ayy ayyy ayyy ayyy"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "Am", "E", "Am", "E", "Am", "E", "Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "Por arriba, por abajo, Calientitos Bien pegados, Por arriba, por abajo, Angelitos Sin pecado"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "INTRO FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "Am", "E", "Am", "E", "Am", "E", "Am"]
+          }
+        ]
+      }
+    ]
+  }
+  

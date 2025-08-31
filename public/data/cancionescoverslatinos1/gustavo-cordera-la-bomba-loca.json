@@ -1,0 +1,142 @@
+{
+    "id": "gustavo-cordera-la-bomba-loca",
+    "title": "La Bomba Loca",
+    "artist": "Gustavo Cordera",
+    "originalKey": "Bm",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Bm", "G", "D", "F#7"]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "VERSO 1",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {"type": "chord", "content": "Bm"},
+              {"type": "lyric", "content": "Con vos juego esta noche"},
+              {"type": "chord", "content": "G"},
+              {"type": "lyric", "content": "Juego a la bomba loca"},
+              {"type": "chord", "content": "D"},
+              {"type": "lyric", "content": "Yo te enciendo tocando"},
+              {"type": "chord", "content": "F#7"},
+              {"type": "lyric", "content": "Y bailando me brotas de amor..."}
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "VERSO 2",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {"type": "chord", "content": "Bm"},
+              {"type": "lyric", "content": "Si no te encuentro me voy a morir"},
+              {"type": "chord", "content": "G"},
+              {"type": "lyric", "content": "Y si me muero quiero resucitar"},
+              {"type": "chord", "content": "D"},
+              {"type": "lyric", "content": "Esta noche te quiero conmigo, loca"},
+              {"type": "chord", "content": "F#7"},
+              {"type": "lyric", "content": "Dejé mi sangre muy lejos de aquí"},
+              {"type": "chord", "content": "G"},
+              {"type": "lyric", "content": "Y casi ya no me queda vigor"},
+              {"type": "chord", "content": "D"},
+              {"type": "lyric", "content": "Acercate así mi guitarra toca por vos..."}
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "VERSO 3",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {"type": "chord", "content": "Bm"},
+              {"type": "lyric", "content": "No sé quién manda adentro de mí"},
+              {"type": "chord", "content": "G"},
+              {"type": "lyric", "content": "Sin darme cuenta de a poco me fui"},
+              {"type": "chord", "content": "D"},
+              {"type": "lyric", "content": "Lo que ves es solo una apariencia"},
+              {"type": "chord", "content": "F#7"},
+              {"type": "lyric", "content": "Bamboleame el corazón, que se está por enfriar"},
+              {"type": "chord", "content": "Bm"},
+              {"type": "lyric", "content": "Acercate, haremos un cocktail de amor..."},
+              {"type": "chord", "content": "G"},
+              {"type": "lyric", "content": "Haremos un cocktail de amor, haremos los dos"},
+              {"type": "chord", "content": "D"},
+              {"type": "lyric", "content": "Con tu vientre haremos un cocktail"}
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "PUENTE",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {"type": "chord", "content": "Bm"},
+              {"type": "lyric", "content": "Tus piernas guardan el secreto de la inmortalidad,"},
+              {"type": "chord", "content": "Bm"},
+              {"type": "lyric", "content": "tu sonrisa, las cuentas del cielo,"},
+              {"type": "chord", "content": "Bm"},
+              {"type": "lyric", "content": "tu danza desfachatada me hace sonrojar,"},
+              {"type": "chord", "content": "F#7"},
+              {"type": "lyric", "content": "que paz sobre mí, quémame los miedos."}
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "CORO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {"type": "chords", "content": ["Bm", "G", "D", "F#7"]},
+              {"type": "lyric", "content": "Con vos juego esta noche, juego a la bomba loca, yo te enciendo tocando, y bailando me brotas."},
+              {"type": "chords", "content": ["Bm", "G", "D", "F#7"]},
+              {"type": "lyric", "content": "Dios es música... Dios es música... Dios es música... Dios es música..."}
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Bm", "G", "D", "F#7"]
+          }
+        ]
+      }
+    ]
+  }
+  

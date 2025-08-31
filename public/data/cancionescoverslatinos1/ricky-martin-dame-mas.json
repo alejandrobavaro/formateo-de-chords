@@ -1,0 +1,125 @@
+{
+    "id": 2,
+    "title": "Dame Más (Loaded)",
+    "artist": "Ricky Martin",
+    "originalKey": "Dm",
+    "tempo": "Upbeat",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Dm", "A#", "C", "A"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          { "type": "chord", "content": "Dm" },
+          { "type": "lyric", "content": "Ella baila con swing" },
+          { "type": "chord", "content": "A#" },
+          { "type": "lyric", "content": "Eso me gusta a mí" },
+          { "type": "chord", "content": "C" },
+          { "type": "lyric", "content": "Veloz como un homerun de Soza" },
+          { "type": "chord", "content": "A" },
+          { "type": "lyric", "content": "Está rica, está sabrosa" }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          { "type": "chord", "content": "Dm" },
+          { "type": "lyric", "content": "Mírenla bien" },
+          { "type": "chord", "content": "A#" },
+          { "type": "lyric", "content": "Ella es todo para mí" },
+          { "type": "chord", "content": "C" },
+          { "type": "lyric", "content": "Soy su perro fiel" },
+          { "type": "chord", "content": "A" },
+          { "type": "lyric", "content": "La quiero muy dentro de mí" }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          { "type": "chords", "content": ["Dm", "A#", "C", "A"] },
+          { "type": "lyric", "content": "Ella me atrapa con su red, con sus encantos de mujer" },
+          { "type": "chords", "content": ["Dm", "A#", "C", "A"] },
+          { "type": "lyric", "content": "Tantas veces quise creer, para luego perder la fe" },
+          { "type": "chords", "content": ["F", "D#"] },
+          { "type": "lyric", "content": "Pero recuerdo el ayer, aquellas noches de placer" },
+          { "type": "chords", "content": ["F", "D#", "A"] },
+          { "type": "lyric", "content": "Nunca me basta quiero más, más" },
+          { "type": "chord", "content": "Dm" },
+          { "type": "lyric", "content": "Dame la libertad para entrar en tu alma hacerte soñar" },
+          { "type": "chord", "content": "A" },
+          { "type": "lyric", "content": "Suelta la piel, aprieta el control, mueve ese cuerpo hazlo con sabor" },
+          { "type": "chord", "content": "Dm" },
+          { "type": "lyric", "content": "Y ahora dale no pares, no dejes de bailar" },
+          { "type": "chord", "content": "A" },
+          { "type": "lyric", "content": "Que la fiesta es una fiesta, goza" }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "2º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          { "type": "chord", "content": "Dm" },
+          { "type": "lyric", "content": "Ando muy feliz, vagando por ahí" },
+          { "type": "chord", "content": "A#" },
+          { "type": "lyric", "content": "No me hables de problemas y te procuro soy de roca" },
+          { "type": "chord", "content": "C" },
+          { "type": "lyric", "content": "Qué bello es vivir, sin miedo de seguir" },
+          { "type": "chord", "content": "A" },
+          { "type": "lyric", "content": "Mírenla bien, la quiero muy dentro de mí" }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (Reprise)",
+        "lines": [
+          { "type": "chords", "content": ["Dm", "A#", "C", "A"] },
+          { "type": "lyric", "content": "Ella me atrapa con su red, con sus encantos de mujer" },
+          { "type": "chords", "content": ["Dm", "A#", "C", "A"] },
+          { "type": "lyric", "content": "Tantas veces quise creer, para luego perder la fe" },
+          { "type": "chords", "content": ["F", "D#"] },
+          { "type": "lyric", "content": "Pero recuerdo el ayer, aquellas noches de placer" },
+          { "type": "chords", "content": ["F", "D#", "A"] },
+          { "type": "lyric", "content": "Nunca me basta quiero más, más" }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "CORO FINAL",
+        "lines": [
+          { "type": "lyric", "content": "Sigue sigue sigue dame más" },
+          { "type": "lyric", "content": "Sigue sigue sigue dame más" }
+        ]
+      }
+    ]
+  }
+  

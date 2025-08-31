@@ -1,0 +1,543 @@
+{
+    "id": "ricky-martin-te-extraño-te-olvido-te-amo",
+    "title": "Te Extraño, Te Olvido, Te Amo",
+    "artist": "Ricky Martin",
+    "originalKey": "D",
+    "tempo": "Moderato",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D", "A", "Bm", "A", "G", "Em", "A"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Traigo en los bolsillos tanta soledad,"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "lyric",
+            "content": "desde que te fuiste no me queda más,"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "que una foto dice un triste sentimiento."
+          },
+          {
+            "type": "chord",
+            "content": "D/F#"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Lo que más lastima es tanta confusión,"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "lyric",
+            "content": "en cada resquicio de mi corazón,"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "cómo hacerte a un lado de mis pensamientos."
+          },
+          {
+            "type": "chord",
+            "content": "D/F#"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "A", "Bm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Por ti, por ti, por ti."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "He dejado todo sin mirar atrás,"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "aposté la vida y me dejé ganar."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "Te extraño, porque vive en mí tu recuerdo,"
+          },
+          {
+            "type": "chords",
+            "content": ["Bm", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "te olvido, a cada minuto lo intento,"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D/F#"]
+          },
+          {
+            "type": "lyric",
+            "content": "te amo, es que ya no tengo remedio,"
+          },
+          {
+            "type": "chords",
+            "content": ["A"]
+          },
+          {
+            "type": "lyric",
+            "content": "te extraño, te olvido y te amo de nuevo."
+          },
+          {
+            "type": "text",
+            "content": "(Repetir 2 veces)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 2",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "He perdido todo hasta la identidad,"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Asus4"
+              },
+              {
+                "type": "lyric",
+                "content": "y si lo pidieras más podría dar,"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "D/F#"
+              },
+              {
+                "type": "lyric",
+                "content": "es que cuando se ama nada es demasiado."
+              },
+              {
+                "type": "chord",
+                "content": "Asus4"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "Me enseñaste el límite de la pasión,"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "lyric",
+                "content": "y no me enseñaste a decir adiós,"
+              },
+              {
+                "type": "chord",
+                "content": "Asus4"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "D/F#"
+              },
+              {
+                "type": "lyric",
+                "content": "he aprendido ahora que te has marchado..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "A", "Bm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Por ti, por ti, por ti."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "He dejado todo sin mirar atrás,"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "aposté la vida y me dejé ganar."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "Te extraño, porque vive en mí tu recuerdo,"
+          },
+          {
+            "type": "chords",
+            "content": ["Bm", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "te olvido, a cada minuto lo intento,"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D/F#"]
+          },
+          {
+            "type": "lyric",
+            "content": "te amo, es que ya no tengo remedio,"
+          },
+          {
+            "type": "chords",
+            "content": ["A"]
+          },
+          {
+            "type": "lyric",
+            "content": "te extraño, te olvido y te amo de nuevo."
+          },
+          {
+            "type": "text",
+            "content": "(Repetir 2 veces)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO (MODULACIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "B", "C#m", "B", "A", "G#m", "B"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (MODULACIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Te extraño, porque vive en mí tu recuerdo,"
+          },
+          {
+            "type": "chords",
+            "content": ["C#m", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "te olvido, a cada minuto lo intento,"
+          },
+          {
+            "type": "chords",
+            "content": ["A", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "te amo, es que ya no tengo remedio,"
+          },
+          {
+            "type": "chords",
+            "content": ["B"]
+          },
+          {
+            "type": "lyric",
+            "content": "te extraño, te olvido y te amo de nuevo."
+          },
+          {
+            "type": "text",
+            "content": "(Repetir 2 veces)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "No, no, no, noooo."
+          },
+          {
+            "type": "chords",
+            "content": ["E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Te extraño..."
+          }
+        ]
+      }
+    ]
+  }
+  

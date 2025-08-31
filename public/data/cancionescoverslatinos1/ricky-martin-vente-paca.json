@@ -1,0 +1,642 @@
+{
+    "id": "ricky-martin-vente-paca",
+    "title": "Vente Pa'ca",
+    "artist": "Ricky Martin",
+    "originalKey": "Em",
+    "tempo": "Allegro",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "A", "D", "G", "Em", "A", "Bm"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "Ven te cuento de una vez,"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Tu descanso está en la cama de mis pies."
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "Ven te cuento, un, dos, tres."
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "lyric",
+            "content": "Mis pasitos son descansos sin estrés."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "A", "D", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Dime si hay otro lugar para dejar mi corazón."
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "¡Ay!, tienes razón,"
+          },
+          {
+            "type": "chords",
+            "content": ["Bm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Mejor por qué no, nos vamos los dos."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "Si tú quieres nos bañamos,"
+          },
+          {
+            "type": "lyric",
+            "content": "Si tú quieres nos soplamos,"
+          },
+          {
+            "type": "chords",
+            "content": ["A"]
+          },
+          {
+            "type": "lyric",
+            "content": "pa' secarnos lo mojao."
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Si tu boca quiere beso,"
+          },
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "y tu cuerpo quiere de eso arreglamos."
+          },
+          {
+            "type": "chords",
+            "content": ["Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "Si tú quieres un atajo, y lo quieres por abajo,"
+          },
+          {
+            "type": "chords",
+            "content": ["A"]
+          },
+          {
+            "type": "lyric",
+            "content": "yo te llevo bien callao,"
+          },
+          {
+            "type": "chords",
+            "content": ["Bm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Vente pa' 'ca, vente pa' 'ca, vente pa' 'ca ah."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "A", "D", "G", "Em", "A", "Bm"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "Enamorados, qué calor,"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Nos comimos boca a boca en el sillón."
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "Fue por hambre, fue por sed,"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "lyric",
+            "content": "Me bebiste a fondo blanco con tu piel."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "A", "D", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Dime si hay otro lugar para dejar mi corazón."
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "¡Ay!, tienes razón,"
+          },
+          {
+            "type": "chords",
+            "content": ["Bm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Mejor por qué no, nos vamos los dos."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "Si tú quieres nos bañamos,"
+          },
+          {
+            "type": "lyric",
+            "content": "Si tú quieres nos soplamos,"
+          },
+          {
+            "type": "chords",
+            "content": ["A"]
+          },
+          {
+            "type": "lyric",
+            "content": "pa' secarnos lo mojao."
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Si tu boca quiere beso,"
+          },
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "y tu cuerpo quiere de eso arreglamos."
+          },
+          {
+            "type": "chords",
+            "content": ["Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "Si tú quieres un atajo, y lo quieres por abajo,"
+          },
+          {
+            "type": "chords",
+            "content": ["A"]
+          },
+          {
+            "type": "lyric",
+            "content": "yo te llevo bien callao,"
+          },
+          {
+            "type": "chords",
+            "content": ["Bm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Vente pa' 'ca, vente pa' 'ca, vente pa' 'ca ah."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "A", "D", "G", "Em", "A", "Bm"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "RAP",
+        "lines": [
+          {
+            "type": "lyric",
+            "content": "All right, all right baby pretty boy, dirty boy."
+          },
+          {
+            "type": "chords",
+            "content": ["Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "Como me duele, seduce,"
+          },
+          {
+            "type": "chords",
+            "content": ["A"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y cuando le apagan las luces,"
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Ella se luce y yo se lo hago otra vez."
+          },
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "Llevo tanto tiempo mirando reaccionar,"
+          },
+          {
+            "type": "chords",
+            "content": ["A"]
+          },
+          {
+            "type": "lyric",
+            "content": "Dime qué estás esperando, baby no hay demora,"
+          },
+          {
+            "type": "chords",
+            "content": ["Bm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Pégate a mí, que rico a mí, no dejes que pasen las horas."
+          },
+          {
+            "type": "chords",
+            "content": ["Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "Tu booty me arrebata, tu sonrisa me atrapa,"
+          },
+          {
+            "type": "chords",
+            "content": ["A"]
+          },
+          {
+            "type": "lyric",
+            "content": "Quiero tenerte siempre y no dejarte sola,"
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Esta historia no se acaba, pues vamos pa' mi cama,"
+          },
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Esta noche tú te enamoras."
+          },
+          {
+            "type": "chords",
+            "content": ["Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "Dime de una vez, si es que al lado tuyo yo estaré,"
+          },
+          {
+            "type": "chords",
+            "content": ["A"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["Bm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Todo lo que pidas te daré, esta noche tú te enamoras."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "Si tú quieres nos bañamos,"
+          },
+          {
+            "type": "lyric",
+            "content": "Si tú quieres nos soplamos,"
+          },
+          {
+            "type": "chords",
+            "content": ["A"]
+          },
+          {
+            "type": "lyric",
+            "content": "pa' secarnos lo mojao."
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Si tu boca quiere beso,"
+          },
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "y tu cuerpo quiere de eso arreglamos."
+          },
+          {
+            "type": "chords",
+            "content": ["Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "Si tú quieres un atajo, y lo quieres por abajo,"
+          },
+          {
+            "type": "chords",
+            "content": ["A"]
+          },
+          {
+            "type": "lyric",
+            "content": "yo te llevo bien callao,"
+          },
+          {
+            "type": "chords",
+            "content": ["Bm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Vente pa' 'ca, vente pa' 'ca, vente pa' 'ca ah."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "A", "D", "G", "Em", "A", "Bm"]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "lyric",
+            "content": "Vente pa' 'ca, vente pa' 'ca, vente pa' 'ca ah."
+          }
+        ]
+      }
+    ]
+  }
+  

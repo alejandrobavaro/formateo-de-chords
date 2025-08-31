@@ -1,0 +1,590 @@
+{
+    "id": "ricky-martin-lo-mejor-de-mi-vida-eres-tu",
+    "title": "Lo Mejor de Mi Vida Eres Tú",
+    "artist": "Ricky Martin",
+    "originalKey": "Cm",
+    "tempo": "Moderato",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Cm", "G#", "D#", "A#", "Cm", "G#", "D#", "A#"]
+          },
+          {
+            "type": "text",
+            "content": "(Repetir 2 veces)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Cm"
+          },
+          {
+            "type": "lyric",
+            "content": "Yo me siento al fin feliz,"
+          },
+          {
+            "type": "chord",
+            "content": "G#"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chord",
+            "content": "D#"
+          },
+          {
+            "type": "lyric",
+            "content": "la tristeza no es para mí."
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Cm"
+          },
+          {
+            "type": "lyric",
+            "content": "Y que me importa lo que viví,"
+          },
+          {
+            "type": "chord",
+            "content": "G#"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chord",
+            "content": "D#"
+          },
+          {
+            "type": "lyric",
+            "content": "si me regalan el futuro no lo quiero sin ti."
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Cm", "G#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Ay, no me digas no."
+          },
+          {
+            "type": "chords",
+            "content": ["D#", "A#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Si escondes algo dámelo,"
+          },
+          {
+            "type": "chords",
+            "content": ["Cm", "G#"]
+          },
+          {
+            "type": "lyric",
+            "content": "porque llegó la hora de estar conmigo,"
+          },
+          {
+            "type": "chords",
+            "content": ["D#", "A#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Pues el destino así lo escribió."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Cm", "G#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Si es amor abrázame con ganas,"
+          },
+          {
+            "type": "chords",
+            "content": ["D#", "A#"]
+          },
+          {
+            "type": "lyric",
+            "content": "si no lo es tal vez, será mañana."
+          },
+          {
+            "type": "chords",
+            "content": ["Cm", "G#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Estando juntos mi mundo se llena de luz."
+          },
+          {
+            "type": "chords",
+            "content": ["D#", "A#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Lo mejor de mi vida eres tú."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Cm", "G#", "D#", "A#", "Cm", "G#", "D#", "A#"]
+          },
+          {
+            "type": "text",
+            "content": "(Repetir 2 veces)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Cm"
+          },
+          {
+            "type": "lyric",
+            "content": "Me voy de fiesta si quieres ir,"
+          },
+          {
+            "type": "chord",
+            "content": "G#"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chord",
+            "content": "D#"
+          },
+          {
+            "type": "lyric",
+            "content": "de Buenos Aires hasta Madrid."
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Cm"
+          },
+          {
+            "type": "lyric",
+            "content": "Y sin dormirnos acabar con París,"
+          },
+          {
+            "type": "chord",
+            "content": "G#"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chord",
+            "content": "D#"
+          },
+          {
+            "type": "lyric",
+            "content": "te juro que jamás te vas a arrepentir."
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Cm", "G#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Ay, no me digas no."
+          },
+          {
+            "type": "chords",
+            "content": ["D#", "A#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Si escondes algo dámelo,"
+          },
+          {
+            "type": "chords",
+            "content": ["Cm", "G#"]
+          },
+          {
+            "type": "lyric",
+            "content": "porque llegó la hora de estar conmigo,"
+          },
+          {
+            "type": "chords",
+            "content": ["D#", "A#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Pues el destino así lo escribió."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Cm", "G#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Si es amor abrázame con ganas,"
+          },
+          {
+            "type": "chords",
+            "content": ["D#", "A#"]
+          },
+          {
+            "type": "lyric",
+            "content": "si no lo es tal vez, será mañana."
+          },
+          {
+            "type": "chords",
+            "content": ["Cm", "G#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Estando juntos mi mundo se llena de luz."
+          },
+          {
+            "type": "chords",
+            "content": ["D#", "A#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Lo mejor de mi vida eres tú."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Cm", "G#", "D#", "A#", "Cm", "G#", "D#", "A#"]
+          },
+          {
+            "type": "text",
+            "content": "(Repetir 2 veces)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PUENTE",
+        "lines": [
+          {
+            "type": "lyric",
+            "content": "Eres tú, dámelo, dámelo baby,"
+          },
+          {
+            "type": "lyric",
+            "content": "lo mejor, lo mejor eres tú."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Cm"
+          },
+          {
+            "type": "lyric",
+            "content": "Suéltate el pelo y juega entre las olas,"
+          },
+          {
+            "type": "chord",
+            "content": "G#"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chord",
+            "content": "D#"
+          },
+          {
+            "type": "lyric",
+            "content": "sobre la arena a la orilla."
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Cm"
+          },
+          {
+            "type": "lyric",
+            "content": "Del mar prepárate que la noche no perdona,"
+          },
+          {
+            "type": "chord",
+            "content": "G#"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chord",
+            "content": "D#"
+          },
+          {
+            "type": "lyric",
+            "content": "ven que nos vamos en marcha."
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Cm", "G#"]
+          },
+          {
+            "type": "lyric",
+            "content": "porque llegó la hora de estar conmigo,"
+          },
+          {
+            "type": "chords",
+            "content": ["D#", "A#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Pues el destino así lo escribió."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Cm", "G#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Si es amor abrázame con ganas,"
+          },
+          {
+            "type": "chords",
+            "content": ["D#", "A#"]
+          },
+          {
+            "type": "lyric",
+            "content": "si no lo es tal vez, será mañana."
+          },
+          {
+            "type": "chords",
+            "content": ["Cm", "G#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Estando juntos mi mundo se llena de luz."
+          },
+          {
+            "type": "chords",
+            "content": ["D#", "A#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Lo mejor de mi vida eres tú."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "OUTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Cm", "G#", "D#", "A#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Eres tú, lo mejor, lo mejor"
+          },
+          {
+            "type": "lyric",
+            "content": "lo mejor de mi vida eres tú."
+          },
+          {
+            "type": "chords",
+            "content": ["Cm", "G#", "D#", "A#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Lo mejor de mi vida eres tú..."
+          },
+          {
+            "type": "text",
+            "content": "(Repetir 3 veces)"
+          },
+          {
+            "type": "lyric",
+            "content": "Dámelo, dámelo baby."
+          },
+          {
+            "type": "chords",
+            "content": ["Cm", "G#", "D#", "A#"]
+          }
+        ]
+      }
+    ]
+  }
+  

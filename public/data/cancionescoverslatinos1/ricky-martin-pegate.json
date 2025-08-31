@@ -1,0 +1,529 @@
+{
+    "id": "ricky-martin-pegate",
+    "title": "Pégate",
+    "artist": "Ricky Martin",
+    "originalKey": "Am",
+    "tempo": "Allegro",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO TROMPETAS",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "E", "E", "Am", "Am", "E", "E", "Am"]
+          },
+          {
+            "type": "text",
+            "content": "(Repetir 2 veces)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "Le lo lai, ay lelolelo, yo vengo con cosa buena"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "para mi pueblo, traigo amor, traigo ese suero,"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "que alegra los corazones del mundo entero."
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "Pa'l dolor, pa'l mal de amores,"
+          },
+          {
+            "type": "chord",
+            "content": "A7"
+          },
+          {
+            "type": "lyric",
+            "content": "nada como el repique de mis tambores."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Dm"
+          },
+          {
+            "type": "lyric",
+            "content": "Que qué hay, tirarse a la calle,"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "dejando atrás los problemas."
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Dm"
+          },
+          {
+            "type": "lyric",
+            "content": "Que como decía mi madre,"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "bailando todo se arregla."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Pégate un poco más, pegado a los tambores."
+          },
+          {
+            "type": "chords",
+            "content": ["E", "Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "Olvida los temores, que el tiempo se nos va."
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Pégate un poco más, y mueve esas caderas"
+          },
+          {
+            "type": "chords",
+            "content": ["E", "Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "Mamita cosa buena, que a mí me pone mal."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO TROMPETAS (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "E", "E", "Am", "Am", "E", "E", "Am"]
+          },
+          {
+            "type": "text",
+            "content": "(Repetir 2 veces)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "Mueve tus caderas, muchacha morena."
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "Báilame ese ritmo con sabor a pena."
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "Ay, una pesetita pa' esa vellonera,"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "para que te olvides de todas tus penas."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PUENTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y esta noche quiero más,"
+          },
+          {
+            "type": "chords",
+            "content": ["E"]
+          },
+          {
+            "type": "lyric",
+            "content": "y esta noche quiero fiesta, ieeeh."
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Hoy no habrá mal que por bien no venga,"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "unamos los corazones,"
+          },
+          {
+            "type": "chords",
+            "content": ["E", "Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "hoy todos somos multicolores."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Pégate un poco más, pegado a los tambores."
+          },
+          {
+            "type": "chords",
+            "content": ["E", "Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "Olvida los temores, que el tiempo se nos va."
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Pégate un poco más, y mueve esas caderas"
+          },
+          {
+            "type": "chords",
+            "content": ["E", "Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "Mamita cosa buena, que a mí me pone mal."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO TROMPETAS",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "E", "E", "Am", "Am", "E", "E", "Am"]
+          },
+          {
+            "type": "text",
+            "content": "(Repetir 2 veces)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "BIS",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y que venga el coro, que venga"
+          },
+          {
+            "type": "lyric",
+            "content": "con todo el amor, que venga"
+          },
+          {
+            "type": "chords",
+            "content": ["E"]
+          },
+          {
+            "type": "lyric",
+            "content": "para nuestros niños, que venga"
+          },
+          {
+            "type": "lyric",
+            "content": "que venga la paz, que venga"
+          },
+          {
+            "type": "chords",
+            "content": ["Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "que vengan todos, que vengan"
+          },
+          {
+            "type": "lyric",
+            "content": "a bailar mi plena, que vengan"
+          },
+          {
+            "type": "chords",
+            "content": ["E"]
+          },
+          {
+            "type": "lyric",
+            "content": "ahí bien pegaditos, que vengan"
+          },
+          {
+            "type": "lyric",
+            "content": "con mucho cariñito, que vengan."
+          },
+          {
+            "type": "text",
+            "content": "(Arreglo: E-F-F#-G-G#-A#)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PUENTE FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y que vengan ríos de bondad,"
+          },
+          {
+            "type": "chords",
+            "content": ["E", "Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "a todos los pueblos de la tierra"
+          },
+          {
+            "type": "chords",
+            "content": ["F", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "que no nos podemos olvidar."
+          },
+          {
+            "type": "chords",
+            "content": ["Dm", "Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "Que el amor puro libera,"
+          },
+          {
+            "type": "chords",
+            "content": ["E", "Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "y la mentira envenena."
+          },
+          {
+            "type": "chords",
+            "content": ["Dm", "Am", "E", "G#", "Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "Que como decía mi madre,"
+          },
+          {
+            "type": "chords",
+            "content": ["Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "bailando todo se arregla."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL (REPETICIÓN X2)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Pégate un poco más, pegado a los tambores."
+          },
+          {
+            "type": "chords",
+            "content": ["E", "Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "Olvida los temores, que el tiempo se nos va."
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Pégate un poco más, y mueve esas caderas"
+          },
+          {
+            "type": "chords",
+            "content": ["E", "Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "Mamita cosa buena, que a mí me pone mal."
+          },
+          {
+            "type": "text",
+            "content": "(Repetir 2 veces)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL CIERRE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Dm", "Am", "E", "Am", "Dm", "Am", "E", "Am"]
+          }
+        ]
+      }
+    ]
+  }
+  

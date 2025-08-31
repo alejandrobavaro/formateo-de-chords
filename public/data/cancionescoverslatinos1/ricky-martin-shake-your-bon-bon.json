@@ -1,0 +1,485 @@
+{
+    "id": "ricky-martin-shake-your-bon-bon",
+    "title": "Shake Your Bon-Bon",
+    "artist": "Ricky Martin",
+    "originalKey": "G",
+    "tempo": "Allegro",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "text",
+            "content": "(Solo percusión y voces)"
+          },
+          {
+            "type": "lyric",
+            "content": "Shake Your Bon-Bon"
+          },
+          {
+            "type": "text",
+            "content": "(Repetir 6 veces)"
+          },
+          {
+            "type": "chords",
+            "content": ["F", "G", "F", "G", "F", "G", "F", "G", "F", "G"]
+          },
+          {
+            "type": "text",
+            "content": "(Con banda, repetir 5 veces)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 1",
+        "lines": [
+          {
+            "type": "text",
+            "content": "(Solo percusión y voces)"
+          },
+          {
+            "type": "lyric",
+            "content": "I'm a desperado, Underneath your window,"
+          },
+          {
+            "type": "lyric",
+            "content": "I see your silhouette. Are you my Juliet,"
+          },
+          {
+            "type": "lyric",
+            "content": "I feel a mad connection, with your body."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A#", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Shake your bon-bon"
+          },
+          {
+            "type": "lyric",
+            "content": "Shake your bon-bon"
+          },
+          {
+            "type": "lyric",
+            "content": "Shake your bon-bon."
+          },
+          {
+            "type": "chords",
+            "content": ["F", "G", "F", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "I wanna be your lover. Your only latin lover,"
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "We'll go around the world in a day,"
+          },
+          {
+            "type": "chords",
+            "content": ["C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Don't say no, no. Shake it my way, oh"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Shake your bon-bon"
+          },
+          {
+            "type": "lyric",
+            "content": "Shake your bon-bon"
+          },
+          {
+            "type": "lyric",
+            "content": "Shake your bon-bon."
+          },
+          {
+            "type": "chords",
+            "content": ["F", "G", "F", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "You're a Mata Hari. I wanna know your story"
+          },
+          {
+            "type": "chords",
+            "content": ["F", "G", "F", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "In the Sahara sun. I wanna be the one"
+          },
+          {
+            "type": "chords",
+            "content": ["F", "G", "F", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "That's gonna come and take you, make you"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN 2)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A#", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Shake your bon-bon"
+          },
+          {
+            "type": "lyric",
+            "content": "Shake your bon-bon"
+          },
+          {
+            "type": "lyric",
+            "content": "Shake your bon-bon."
+          },
+          {
+            "type": "chords",
+            "content": ["F", "G", "F", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Up in the Himalayas. C'mon I wanna lay ya"
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "We'll go around the world in a day"
+          },
+          {
+            "type": "chords",
+            "content": ["C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Don't say no, no. Shake it my way, oh."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN 3)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Shake your bon-bon"
+          },
+          {
+            "type": "lyric",
+            "content": "Shake your bon-bon"
+          },
+          {
+            "type": "lyric",
+            "content": "Shake your bon-bon"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "BIS",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Hola amigo, Hola amigo"
+          },
+          {
+            "type": "chords",
+            "content": ["G7"]
+          },
+          {
+            "type": "lyric",
+            "content": "You're my temple of desire"
+          },
+          {
+            "type": "chords",
+            "content": ["C7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Hola amiga, Hola amiga"
+          },
+          {
+            "type": "chords",
+            "content": ["G7"]
+          },
+          {
+            "type": "lyric",
+            "content": "You're my temple of desire"
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "We'll go around the world in a day"
+          },
+          {
+            "type": "chords",
+            "content": ["C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Don't say no, no."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN 4)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Shake your bon-bon"
+          },
+          {
+            "type": "lyric",
+            "content": "Shake your bon-bon"
+          },
+          {
+            "type": "lyric",
+            "content": "Shake your bon-bon"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (CHICA)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Shake your bon baby. Shake your bon baby,"
+          },
+          {
+            "type": "chords",
+            "content": ["C7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Shake your bon baby. Shake your bon baby,"
+          },
+          {
+            "type": "chords",
+            "content": ["G7"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "We'll go around the world in a day"
+          },
+          {
+            "type": "chords",
+            "content": ["C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Don't say no, no. Shake it my way, oh"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN FINAL)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Shake your bon-bon"
+          },
+          {
+            "type": "lyric",
+            "content": "Shake your bon-bon"
+          },
+          {
+            "type": "lyric",
+            "content": "Shake your bon-bon"
+          },
+          {
+            "type": "text",
+            "content": "(Repetir 11 veces)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 1 (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "text",
+            "content": "(Solo percusión y voces)"
+          },
+          {
+            "type": "lyric",
+            "content": "I'm a desperado, Underneath your window,"
+          },
+          {
+            "type": "lyric",
+            "content": "I see your silhouette. Are you my Juliet"
+          },
+          {
+            "type": "lyric",
+            "content": "I feel a mad connection with your body."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A#", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Shake your bon-bon"
+          },
+          {
+            "type": "lyric",
+            "content": "Shake your bon-bon"
+          },
+          {
+            "type": "lyric",
+            "content": "Shake your bon-bon."
+          },
+          {
+            "type": "chords",
+            "content": ["F", "G", "F", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "I wanna be your lover. Your only latin lover,"
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "We'll go around the world in a day,"
+          },
+          {
+            "type": "chords",
+            "content": ["C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Round the world We'll do the fandango."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL (REPETICIÓN 11 VECES)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Shake your bon-bon"
+          }
+        ]
+      }
+    ]
+  }
+  

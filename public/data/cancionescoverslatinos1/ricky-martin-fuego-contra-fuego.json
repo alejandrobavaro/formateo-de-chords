@@ -1,0 +1,110 @@
+{
+    "id": 4,
+    "title": "Fuego contra fuego",
+    "artist": "Ricky Martin",
+    "originalKey": "F",
+    "tempo": "Ballad",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          { "type": "chords", "content": ["F", "A#", "F", "A#"] }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          { "type": "chord", "content": "F" },
+          { "type": "lyric", "content": "Sin querer me he vuelto a enamorar" },
+          { "type": "chord", "content": "C" },
+          { "type": "lyric", "content": "no será que siempre ocurre a mi edad," },
+          { "type": "chord", "content": "Dm" },
+          { "type": "lyric", "content": "fue un amor relámpago" },
+          { "type": "chord", "content": "A#" },
+          { "type": "lyric", "content": "que me acercó a ti." }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "2º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          { "type": "chord", "content": "F" },
+          { "type": "lyric", "content": "Eres mi principio, mi final," },
+          { "type": "chord", "content": "C/E" },
+          { "type": "lyric", "content": "el infierno el cielo y todo lo demás," },
+          { "type": "chord", "content": "Dm" },
+          { "type": "lyric", "content": "con un beso tímido," },
+          { "type": "chord", "content": "A#" },
+          { "type": "lyric", "content": "te di mi corazón." }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (1)",
+        "lines": [
+          { "type": "chords", "content": ["A#", "C7", "Am", "D", "Gm", "C"] },
+          { "type": "lyric", "content": "Fuego contra fuego es amar," },
+          { "type": "lyric", "content": "fuego del que no puedo escapar," },
+          { "type": "lyric", "content": "donde nadie oye mi voz, allí te espero yo." }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (2)",
+        "lines": [
+          { "type": "chords", "content": ["A#", "C7", "Am", "D", "Gm", "C7", "F"] },
+          { "type": "lyric", "content": "Fuego contra fuego es amar," },
+          { "type": "lyric", "content": "y no lo podemos evitar," },
+          { "type": "lyric", "content": "no le busque explicación, lo nuestro es puro amor." }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (3)",
+        "lines": [
+          { "type": "chords", "content": ["A#", "C7", "Am", "D", "Gm", "C"] },
+          { "type": "lyric", "content": "Fuego contra fuego es amar," },
+          { "type": "lyric", "content": "fuego del que no puedo escapar," },
+          { "type": "lyric", "content": "donde nadie oye mi voz, allí te espero yo." }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (4 - Final)",
+        "lines": [
+          { "type": "chords", "content": ["A#", "C7", "Am", "D", "Gm", "C7", "F"] },
+          { "type": "lyric", "content": "Fuego contra fuego es amar," },
+          { "type": "lyric", "content": "y no lo podemos evitar," },
+          { "type": "lyric", "content": "no le busque explicación, lo nuestro es puro amor." }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "OUTRO",
+        "lines": [
+          { "type": "chords", "content": ["F"] }
+        ]
+      }
+    ]
+  }
+  

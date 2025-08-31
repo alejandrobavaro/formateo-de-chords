@@ -1,0 +1,669 @@
+{
+    "id": "ricky-martin-bella-shes-all-i-ever-had",
+    "title": "Bella (She's All I Ever Had)",
+    "artist": "Ricky Martin",
+    "originalKey": "A",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "Amaj7", "A"]
+          },
+          {
+            "type": "chords",
+            "content": ["/G#m", "/A#", "E"]
+          },
+          {
+            "type": "chords",
+            "content": ["A", "Amaj7", "A"]
+          },
+          {
+            "type": "chords",
+            "content": ["/G#m", "/A#", "E"]
+          },
+          {
+            "type": "chords",
+            "content": ["A", "Amaj7", "A"]
+          },
+          {
+            "type": "chords",
+            "content": ["/G#m", "/A#", "E"]
+          },
+          {
+            "type": "chords",
+            "content": ["A", "Amaj7", "A"]
+          },
+          {
+            "type": "chords",
+            "content": ["/G#m", "/A#", "E"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "chord",
+            "content": "Amaj7"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "chords",
+            "content": ["/G#m", "/A#", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Mírame, por favor."
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "chord",
+            "content": "Amaj7"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "chords",
+            "content": ["/G#m", "/A#", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Aquí estoy, con mi dolor."
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "chord",
+            "content": "Amaj7"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "chords",
+            "content": ["/G#m", "/A#", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Ella dio, un paso atrás."
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "chord",
+            "content": "Amaj7"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "chords",
+            "content": ["/G#m", "/A#", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Un adiós, y no queda más."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G#m"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "Bella... bella al amanecer, solo para mí."
+              },
+              {
+                "type": "chord",
+                "content": "G#m"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "Dm"
+              },
+              {
+                "type": "lyric",
+                "content": "Bella... belleza de mujer."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "chord",
+            "content": "Amaj7"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Ella todo me lo dio deseando estar al pie."
+          },
+          {
+            "type": "chord",
+            "content": "Dm"
+          },
+          {
+            "type": "lyric",
+            "content": "Fue mi verso y mi papel."
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Fue mi amiga y fue mi amor."
+          },
+          {
+            "type": "chord",
+            "content": "Amaj7"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Conocía mi interior como bola de cristal."
+          },
+          {
+            "type": "chord",
+            "content": "Dm"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Me alejó de todo mal, me dio su corazón."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "Amaj7", "A"]
+          },
+          {
+            "type": "chords",
+            "content": ["/G#m", "/A#", "E"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "chord",
+            "content": "Amaj7"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "chords",
+            "content": ["/G#m", "/A#", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Me dejó la soledad"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "chord",
+            "content": "Amaj7"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "chords",
+            "content": ["/G#m", "/A#", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "A pleno sol, eterno mal."
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "chord",
+            "content": "Amaj7"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "chords",
+            "content": ["/G#m", "/A#", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Si la ves,"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "chord",
+            "content": "Amaj7"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "chords",
+            "content": ["/G#m", "/A#", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Alguna vez,"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "chord",
+            "content": "Amaj7"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "chords",
+            "content": ["/G#m", "/A#", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Dile que yo"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "chord",
+            "content": "Amaj7"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "chords",
+            "content": ["/G#m", "/A#", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "La sigo amando."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G#m"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "Bella... bella al amanecer, solo para mí."
+              },
+              {
+                "type": "chord",
+                "content": "G#m"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "Dm"
+              },
+              {
+                "type": "lyric",
+                "content": "Bella... belleza de mujer."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "chord",
+            "content": "Amaj7"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Ella todo me lo dio deseando estar al pie."
+          },
+          {
+            "type": "chord",
+            "content": "Dm"
+          },
+          {
+            "type": "lyric",
+            "content": "Fue mi verso y mi papel."
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Fue mi amiga y fue mi amor."
+          },
+          {
+            "type": "chord",
+            "content": "Amaj7"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Conocía mi interior como bola de cristal."
+          },
+          {
+            "type": "chord",
+            "content": "Dm"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Me alejó de todo mal, me dio su corazón."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "Amaj7", "A"]
+          },
+          {
+            "type": "chords",
+            "content": ["/G#m", "/A#", "E"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN FINAL)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G#m"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "Bella... bella al amanecer, solo para mí."
+              },
+              {
+                "type": "chord",
+                "content": "G#m"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "Dm"
+              },
+              {
+                "type": "lyric",
+                "content": "Bella... belleza de mujer."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "chord",
+            "content": "Amaj7"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Ella todo me lo dio deseando estar al pie."
+          },
+          {
+            "type": "chord",
+            "content": "Dm"
+          },
+          {
+            "type": "lyric",
+            "content": "Fue mi verso y mi papel."
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Fue mi amiga y fue mi amor."
+          },
+          {
+            "type": "chord",
+            "content": "Amaj7"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Conocía mi interior como bola de cristal."
+          },
+          {
+            "type": "chord",
+            "content": "Dm"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Me alejó de todo mal, me dio su corazón."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN FINAL)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "Amaj7", "A"]
+          },
+          {
+            "type": "chords",
+            "content": ["/G#m", "/A#", "E"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "lyric",
+        "content": "Mírame..."
+      }
+    ]
+  }
+  

@@ -1,32 +1,263 @@
 {
-    "songs": [
-      {
-        "id": "gianluca-grignani-mi-historia-entre-tus-dedos",
-        "title": "Mi Historia Entre Tus Dedos",
-        "artist": "Gianluca Grignani",
-        "file": "gianluca-grignani-mi-historia-entre-tus-dedos.json",
-        "key": "Em"
-      },
-      {
-        "id": "jessy-y-joy-corre",
-        "title": "Corre",
-        "artist": "Jessy & Joy",
-        "file": "jessy-y-joy-corre.json",
-        "key": "G"
-      },
-      {
-        "id": "ricky-martin-a-medio-vivir",
-        "title": "A Medio Vivir",
-        "artist": "Ricky Martin",
-        "file": "ricky-martin-a-medio-vivir.json",
-        "key": "Dm"
-      },
-      {
-        "id": "ricky-martin-adios",
-        "title": "Adiós",
-        "artist": "Ricky Martin",
-        "file": "ricky-martin-adios.json",
-        "key": "Am"
-      }
-    ]
-  }
+  "songs": [
+    {
+      "id": "gianluca-grignani-mi-historia-entre-tus-dedos",
+      "title": "Mi Historia Entre Tus Dedos",
+      "artist": "Gianluca Grignani",
+      "file": "gianluca-grignani-mi-historia-entre-tus-dedos.json",
+      "key": "Em"
+    },
+    {
+      "id": "gustavo-cordera-la-bomba-loca",
+      "title": "La Bomba Loca",
+      "artist": "Gustavo Cordera",
+      "file": "gustavo-cordera-la-bomba-loca.json",
+      "key": "G"
+    },
+    {
+      "id": "jessy-y-joy-corre",
+      "title": "Corre",
+      "artist": "Jessy & Joy",
+      "file": "jessy-y-joy-corre.json",
+      "key": "G"
+    },
+    {
+      "id": "la-mosca-nos-volvimos-a-ilusionar",
+      "title": "Nos Volvimos a Ilusionar",
+      "artist": "La Mosca",
+      "file": "la-mosca-nos-volvimos-a-ilusionar.json",
+      "key": "C"
+    },
+    {
+      "id": "los-del-rio-macarena",
+      "title": "Macarena",
+      "artist": "Los Del Río",
+      "file": "los-del-rio-macarena.json",
+      "key": "A"
+    },
+    {
+      "id": "ricky-martin-a-medio-vivir",
+      "title": "A Medio Vivir",
+      "artist": "Ricky Martin",
+      "file": "ricky-martin-a-medio-vivir.json",
+      "key": "Dm"
+    },
+    {
+      "id": "ricky-martin-adios",
+      "title": "Adiós",
+      "artist": "Ricky Martin",
+      "file": "ricky-martin-adios.json",
+      "key": "Am"
+    },
+    {
+      "id": "ricky-martin-asignatura-pendiente",
+      "title": "Asignatura Pendiente",
+      "artist": "Ricky Martin",
+      "file": "ricky-martin-asignatura-pendiente.json",
+      "key": "G"
+    },
+    {
+      "id": "ricky-martin-bella-shes-all-i-ever-had",
+      "title": "Bella / She's All I Ever Had",
+      "artist": "Ricky Martin",
+      "file": "ricky-martin-bella-shes-all-i-ever-had.json",
+      "key": "C"
+    },
+    {
+      "id": "ricky-martin-bombon-de-azucar",
+      "title": "Bombón de Azúcar",
+      "artist": "Ricky Martin",
+      "file": "ricky-martin-bombon-de-azucar.json",
+      "key": "F"
+    },
+    {
+      "id": "ricky-martin-dame-mas",
+      "title": "Dame Más",
+      "artist": "Ricky Martin",
+      "file": "ricky-martin-dame-mas.json",
+      "key": "G"
+    },
+    {
+      "id": "ricky-martin-dime-que-me-quieres",
+      "title": "Dime Que Me Quieres",
+      "artist": "Ricky Martin",
+      "file": "ricky-martin-dime-que-me-quieres.json",
+      "key": "Am"
+    },
+    {
+      "id": "ricky-martin-disparo-al-corazon",
+      "title": "Disparo al Corazón",
+      "artist": "Ricky Martin",
+      "file": "ricky-martin-disparo-al-corazon.json",
+      "key": "G"
+    },
+    {
+      "id": "ricky-martin-fuego-contra-fuego",
+      "title": "Fuego Contra Fuego",
+      "artist": "Ricky Martin",
+      "file": "ricky-martin-fuego-contra-fuego.json",
+      "key": "F"
+    },
+    {
+      "id": "ricky-martin-fuego-de-noche-nieve-de-dia",
+      "title": "Fuego de Noche, Nieve de Día",
+      "artist": "Ricky Martin",
+      "file": "ricky-martin-fuego-de-noche-nieve-de-dia.json",
+      "key": "Dm"
+    },
+    {
+      "id": "ricky-martin-its-all-right",
+      "title": "It's All Right",
+      "artist": "Ricky Martin",
+      "file": "ricky-martin-its-all-right.json",
+      "key": "C"
+    },
+    {
+      "id": "ricky-martin-la-bomba",
+      "title": "La Bomba",
+      "artist": "Ricky Martin",
+      "file": "ricky-martin-la-bomba.json",
+      "key": "G"
+    },
+    {
+      "id": "ricky-martin-la-copa-de-la-vida",
+      "title": "La Copa de la Vida",
+      "artist": "Ricky Martin",
+      "file": "ricky-martin-la-copa-de-la-vida.json",
+      "key": "F"
+    },
+    {
+      "id": "ricky-martin-la-mordidita",
+      "title": "La Mordidita",
+      "artist": "Ricky Martin",
+      "file": "ricky-martin-la-mordidita.json",
+      "key": "Am"
+    },
+    {
+      "id": "ricky-martin-livin-la-vida-loca",
+      "title": "Livin' La Vida Loca",
+      "artist": "Ricky Martin",
+      "file": "ricky-martin-livin-la-vida-loca.json",
+      "key": "C"
+    },
+    {
+      "id": "ricky-martin-lo-mejor-de-mi-vida-eres-tu",
+      "title": "Lo Mejor de Mi Vida Eres Tú",
+      "artist": "Ricky Martin",
+      "file": "ricky-martin-lo-mejor-de-mi-vida-eres-tu.json",
+      "key": "G"
+    },
+    {
+      "id": "ricky-martin-lola-unplugged",
+      "title": "Lola (Unplugged)",
+      "artist": "Ricky Martin",
+      "file": "ricky-martin-lola-unplugged.json",
+      "key": "Am"
+    },
+    {
+      "id": "ricky-martin-maria",
+      "title": "María",
+      "artist": "Ricky Martin",
+      "file": "ricky-martin-maria.json",
+      "key": "C"
+    },
+    {
+      "id": "ricky-martin-mas",
+      "title": "Más",
+      "artist": "Ricky Martin",
+      "file": "ricky-martin-mas.json",
+      "key": "G"
+    },
+    {
+      "id": "ricky-martin-me-haces-falta-amor",
+      "title": "Me Haces Falta Amor",
+      "artist": "Ricky Martin",
+      "file": "ricky-martin-me-haces-falta-amor.json",
+      "key": "Am"
+    },
+    {
+      "id": "ricky-martin-nada-es-imposible",
+      "title": "Nada Es Imposible",
+      "artist": "Ricky Martin",
+      "file": "ricky-martin-nada-es-imposible.json",
+      "key": "C"
+    },
+    {
+      "id": "ricky-martin-pegate",
+      "title": "Pégate",
+      "artist": "Ricky Martin",
+      "file": "ricky-martin-pegate.json",
+      "key": "G"
+    },
+    {
+      "id": "ricky-martin-perdido-sin-ti",
+      "title": "Perdido Sin Ti",
+      "artist": "Ricky Martin",
+      "file": "ricky-martin-perdido-sin-ti.json",
+      "key": "Am"
+    },
+    {
+      "id": "ricky-martin-por-arriba-por-abajo",
+      "title": "Por Arriba, Por Abajo",
+      "artist": "Ricky Martin",
+      "file": "ricky-martin-por-arriba-por-abajo.json",
+      "key": "C"
+    },
+    {
+      "id": "ricky-martin-private-emotion",
+      "title": "Private Emotion",
+      "artist": "Ricky Martin",
+      "file": "ricky-martin-private-emotion.json",
+      "key": "G"
+    },
+    {
+      "id": "ricky-martin-que-mas-da",
+      "title": "Qué Más Da",
+      "artist": "Ricky Martin",
+      "file": "ricky-martin-que-mas-da.json",
+      "key": "Am"
+    },
+    {
+      "id": "ricky-martin-shake-your-bon-bon",
+      "title": "Shake Your Bon-Bon",
+      "artist": "Ricky Martin",
+      "file": "ricky-martin-shake-your-bon-bon.json",
+      "key": "C"
+    },
+    {
+      "id": "ricky-martin-te-extrano",
+      "title": "Te Extraño",
+      "artist": "Ricky Martin",
+      "file": "ricky-martin-te-extrano.json",
+      "key": "Dm"
+    },
+    {
+      "id": "ricky-martin-tu-recuerdo",
+      "title": "Tu Recuerdo",
+      "artist": "Ricky Martin",
+      "file": "ricky-martin-tu-recuerdo.json",
+      "key": "G"
+    },
+    {
+      "id": "ricky-martin-vente-paca",
+      "title": "Vente Pa' Cá",
+      "artist": "Ricky Martin",
+      "file": "ricky-martin-vente-paca.json",
+      "key": "C"
+    },
+    {
+      "id": "ricky-martin-volveras",
+      "title": "Volverás",
+      "artist": "Ricky Martin",
+      "file": "ricky-martin-volveras.json",
+      "key": "Am"
+    },
+    {
+      "id": "ricky-martin-vuelve-banda",
+      "title": "Vuelve Banda",
+      "artist": "Ricky Martin",
+      "file": "ricky-martin-vuelve-banda.json",
+      "key": "G"
+    }
+  ]
+}

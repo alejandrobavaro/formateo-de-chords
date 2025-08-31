@@ -1,0 +1,311 @@
+{
+    "id": "ricky-martin-its-all-right",
+    "title": "It's All Right (LIVE)",
+    "artist": "Ricky Martin",
+    "originalKey": "Em",
+    "tempo": "Fast",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "-", "(C–D–C)"]
+          },
+          {
+            "type": "lyric",
+            "content": "Baby It's All Right, It's alright,"
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "–", "C", "–", "D", "–", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Feels right, Tonight,"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "Ya no aguanto un día más sin decirte la verdad"
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "lyric",
+            "content": "Me excitas, ya no lo puedo ocultar."
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "Dime que tengo que hacer para entrar en tu querer"
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "lyric",
+            "content": "No temas, que no hay tiempo que perder."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "D", "Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "And I feel so nice, Crossing all the lines, taking a chance, Doing what we need to feel alive."
+          },
+          {
+            "type": "chords",
+            "content": ["C", "D", "Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "And I feel so right, Come and do it now, we got to scream, scream all night."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO x2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C"]
+          },
+          {
+            "type": "lyric",
+            "content": "It's alright, don't be afraid don't hesitate now"
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Feels right, let's take it now don't wait for later"
+          },
+          {
+            "type": "chords",
+            "content": ["Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "Tonight, and if it feels right just let it go, And if it's alright you got to let it flow."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "Si lo sientes dímelo, Si te atreves dímelo"
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Conmigo ya vamos a despegar"
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "Ahora mismo quiero ser, quien te lleve al placer"
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "lyric",
+            "content": "Mañana, no se lo que pasara"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "D", "Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "And I feel so nice, Crossing all the lines, taking a chance, Doing what we need to feel alive."
+          },
+          {
+            "type": "chords",
+            "content": ["C", "D", "Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "And I feel so right, Come and do it now, we got to scream, scream all night."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO x2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C"]
+          },
+          {
+            "type": "lyric",
+            "content": "It's alright, don't be afraid don't hesitate now"
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Feels right, let's take it now don't wait for later"
+          },
+          {
+            "type": "chords",
+            "content": ["Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "Tonight, and if it feels right just let it go, And if it's alright you got to let it flow."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "BIS",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "D#", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "I know I want you, And I need you by my side, baby to the morning light"
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "D#"]
+          },
+          {
+            "type": "lyric",
+            "content": "I know I want you, What I got for you is love"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "I got love, love, love, love."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO x2 CON BANDA",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "D", "Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "It's alright, don't be afraid don't hesitate now... (con banda)"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO x2 SIN BANDA",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "D", "Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "It's alright, don't be afraid don't hesitate now... (sin banda)"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "CORO NEGRAS",
+        "lines": [
+          {
+            "type": "lyric",
+            "content": "UHHHHHHH, UHHH HUHUHHHH"
+          },
+          {
+            "type": "lyric",
+            "content": "UHHHHHHH, UHHH HUHUHHHH"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO x2 CON BANDA (FINAL)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "D", "Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "It's alright, don't be afraid don't hesitate now... (final con banda)"
+          }
+        ]
+      }
+    ]
+  }
+  

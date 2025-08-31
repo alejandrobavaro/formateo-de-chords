@@ -1,0 +1,492 @@
+{
+    "id": "ricky-martin-la-copa-de-la-vida",
+    "title": "La Copa de la Vida",
+    "artist": "Ricky Martin",
+    "originalKey": "Cm",
+    "tempo": "Allegro",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "C#", "D#", "C#", "C", "C", "C#", "D#", "C#", "C"]
+          },
+          {
+            "type": "text",
+            "content": "(Repetir 2 veces)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Cm", "Cm", "G7", "Cm", "Cm", "Cm", "G7", "Cm"]
+          },
+          {
+            "type": "text",
+            "content": "(Repetir 2 veces)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Cm"
+          },
+          {
+            "type": "lyric",
+            "content": "La vida es, pura pasión"
+          },
+          {
+            "type": "chord",
+            "content": "Cm/D#"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Cm"
+          },
+          {
+            "type": "lyric",
+            "content": "Hay que jugar, copa de amor"
+          },
+          {
+            "type": "chord",
+            "content": "Cm/D#"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Cm"
+          },
+          {
+            "type": "lyric",
+            "content": "Para vivir, hay que luchar"
+          },
+          {
+            "type": "chord",
+            "content": "Cm/D#"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Cm"
+          },
+          {
+            "type": "lyric",
+            "content": "Un corazón, para ganar."
+          },
+          {
+            "type": "chord",
+            "content": "Cm/D#"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G7", "Cm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Como Caín y Abel, es partido cruel,"
+          },
+          {
+            "type": "chords",
+            "content": ["Fm", "Cm"]
+          },
+          {
+            "type": "lyric",
+            "content": "tienes que pelear, por una estrella"
+          },
+          {
+            "type": "chords",
+            "content": ["G7", "Cm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Consigue con honor, la copa del amor,"
+          },
+          {
+            "type": "chords",
+            "content": ["Fm", "G7"]
+          },
+          {
+            "type": "lyric",
+            "content": "para sobrevivir y luchar por ella."
+          },
+          {
+            "type": "lyric",
+            "content": "Luchar por ella (sí), luchar por ella (sí)."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Cm", "Cm", "G7", "Cm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Tú y yo Alê, alê, alê go!"
+          },
+          {
+            "type": "chords",
+            "content": ["Cm", "Cm", "G7", "Cm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Go! Go! Alê, alê alê"
+          },
+          {
+            "type": "chords",
+            "content": ["Cm", "Cm", "G7", "Cm"]
+          },
+          {
+            "type": "lyric",
+            "content": "¡Arriba va! El mundo está de pie."
+          },
+          {
+            "type": "chords",
+            "content": ["Cm", "Cm", "G7", "Cm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Go! Go! Go! Alê, alê alê"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO 2 (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Cm", "Cm", "G7", "Cm"]
+          },
+          {
+            "type": "text",
+            "content": "(Repetir 1 vez)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Cm"
+          },
+          {
+            "type": "lyric",
+            "content": "La vida es, competición"
+          },
+          {
+            "type": "chord",
+            "content": "Cm/D#"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Cm"
+          },
+          {
+            "type": "lyric",
+            "content": "hay que soñar, ser campeón"
+          },
+          {
+            "type": "chord",
+            "content": "Cm/D#"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Cm"
+          },
+          {
+            "type": "lyric",
+            "content": "La copa es, la bendición"
+          },
+          {
+            "type": "chord",
+            "content": "Cm/D#"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Cm"
+          },
+          {
+            "type": "lyric",
+            "content": "la ganarás, go, go, gol"
+          },
+          {
+            "type": "chord",
+            "content": "Cm/D#"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G7", "Cm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Tu instinto natural, vencer a tu rival,"
+          },
+          {
+            "type": "chords",
+            "content": ["Fm", "Cm"]
+          },
+          {
+            "type": "lyric",
+            "content": "tienes que pelear, por una estrella"
+          },
+          {
+            "type": "chords",
+            "content": ["G7", "Cm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Consigue con honor, la copa del amor,"
+          },
+          {
+            "type": "chords",
+            "content": ["Fm", "G7"]
+          },
+          {
+            "type": "lyric",
+            "content": "para sobrevivir y luchar por ella."
+          },
+          {
+            "type": "lyric",
+            "content": "Luchar por ella (sí), luchar por ella (sí)."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INSTRUMENTAL (TROMPETAS Y PERCUSIÓN)",
+        "lines": [
+          {
+            "type": "text",
+            "content": "- 1 y 2 PERCUSIÓN SOLA (Repetir 2 veces)"
+          },
+          {
+            "type": "text",
+            "content": "- RIFF notas: G-B-D-F-D#-D-C-D-G (Repetir 4 veces)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Cm", "Cm", "G7", "Cm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Tú y yo Alê, alê, alê go!"
+          },
+          {
+            "type": "chords",
+            "content": ["Cm", "Cm", "G7", "Cm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Go! Go! Alê, alê alê"
+          },
+          {
+            "type": "chords",
+            "content": ["Cm", "Cm", "G7", "Cm"]
+          },
+          {
+            "type": "lyric",
+            "content": "¡Arriba va! El mundo está de pie."
+          },
+          {
+            "type": "chords",
+            "content": ["Cm", "Cm", "G7", "Cm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Go! Go! Go! Alê, alê alê"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "CORTE EN SI",
+        "lines": [
+          {
+            "type": "text",
+            "content": "(si), (si)."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Cm", "Cm", "G7", "Cm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Tú y yo Alê, alê, alê go!"
+          },
+          {
+            "type": "chords",
+            "content": ["Cm", "Cm", "G7", "Cm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Go! Go! Alê, alê alê"
+          },
+          {
+            "type": "chords",
+            "content": ["Cm", "Cm", "G7", "Cm"]
+          },
+          {
+            "type": "lyric",
+            "content": "¡Arriba va! El mundo está de pie."
+          },
+          {
+            "type": "chords",
+            "content": ["Cm", "Cm", "G7", "Cm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Go! Go! Go! Alê, alê alê"
+          }
+        ]
+      }
+    ]
+  }
+  

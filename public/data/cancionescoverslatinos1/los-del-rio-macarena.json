@@ -1,0 +1,142 @@
+{
+    "id": "los-del-rio-macarena",
+    "title": "Macarena",
+    "artist": "Los del Río",
+    "originalKey": "A",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "G", "A", "G", "A", "G", "A", "G", "A", "G", "E", "B"]
+          },
+          {
+            "type": "chords",
+            "content": ["A", "G", "A", "G", "A", "G", "A", "G", "A", "G", "E", "B"]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {"type": "chord", "content": "A"},
+              {"type": "lyric", "content": "Dale a tu cuerpo alegría macarena"},
+              {"type": "chord", "content": "G"},
+              {"type": "lyric", "content": "que tu cuerpo es pa' darle alegría y cosa buena."},
+              {"type": "chord", "content": "A"},
+              {"type": "lyric", "content": "Dale a tu cuerpo alegría macarena."},
+              {"type": "chord", "content": "D"},
+              {"type": "lyric", "content": "Eh, macarena.aah"}
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "VERSO 1",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {"type": "chord", "content": "A"},
+              {"type": "lyric", "content": "Macarena tiene un novio que se llama,"},
+              {"type": "chord", "content": "G"},
+              {"type": "lyric", "content": "que se llama de apellido Vitorino."},
+              {"type": "chord", "content": "A"},
+              {"type": "lyric", "content": "Y en la jura de bandera del muchacho"},
+              {"type": "chord", "content": "G"},
+              {"type": "lyric", "content": "se la vio con dos amigos."},
+              {"type": "chord", "content": "A"},
+              {"type": "lyric", "content": "Macarena tiene un novio que se llama,"},
+              {"type": "chord", "content": "G"},
+              {"type": "lyric", "content": "que se llama de apellido Vitorino."},
+              {"type": "chord", "content": "A"},
+              {"type": "lyric", "content": "Y en la jura de bandera del muchacho"},
+              {"type": "chord", "content": "G"},
+              {"type": "lyric", "content": "se la vio con dos amigos."}
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "VERSO 2",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {"type": "chord", "content": "A"},
+              {"type": "lyric", "content": "Macarena, macarena, macarena"},
+              {"type": "chord", "content": "G"},
+              {"type": "lyric", "content": "que le gustan los veranos de Marbella."},
+              {"type": "chord", "content": "A"},
+              {"type": "lyric", "content": "Macarena, macarena, macarena"},
+              {"type": "chord", "content": "G"},
+              {"type": "lyric", "content": "que le gusta la movida guerrillera."}
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "VERSO 3",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {"type": "chord", "content": "A"},
+              {"type": "lyric", "content": "Macarena sueña con el corte inglés,"},
+              {"type": "chord", "content": "G"},
+              {"type": "lyric", "content": "y se compra los modelos más modernos."},
+              {"type": "chord", "content": "A"},
+              {"type": "lyric", "content": "Le gustaría vivir en Nueva York,"},
+              {"type": "chord", "content": "G"},
+              {"type": "lyric", "content": "y ligar un novio nuevo."},
+              {"type": "chord", "content": "A"},
+              {"type": "lyric", "content": "Macarena sueña con el corte inglés,"},
+              {"type": "chord", "content": "G"},
+              {"type": "lyric", "content": "y se compra los modelos más modernos."},
+              {"type": "chord", "content": "A"},
+              {"type": "lyric", "content": "Le gustaría vivir en Nueva York,"},
+              {"type": "chord", "content": "G"},
+              {"type": "lyric", "content": "y ligar un novio nuevo."}
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {"type": "chords", "content": ["A", "G"]},
+              {"type": "lyric", "content": "Dale a tu cuerpo alegría macarena, que tu cuerpo es pa' darle alegría y cosa buena."},
+              {"type": "chords", "content": ["A", "G"]},
+              {"type": "lyric", "content": "Dale a tu cuerpo alegría macarena. Eh, macarena.aah"}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

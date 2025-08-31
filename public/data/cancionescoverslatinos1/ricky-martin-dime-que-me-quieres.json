@@ -1,0 +1,202 @@
+{
+    "id": 2,
+    "title": "Dime Que Me Quieres",
+    "artist": "Ricky Martin",
+    "originalKey": "C",
+    "tempo": "Upbeat",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C#", "G#", "B", "C", "C#"]
+          },
+          {
+            "type": "text",
+            "content": "(RIFF)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "Enciende tu motor, yo soy tu dirección"
+          },
+          {
+            "type": "chords",
+            "content": ["B", "F", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Nanananananana."
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "Las calles de mi amor, quitaron el stop,"
+          },
+          {
+            "type": "chords",
+            "content": ["B", "F", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Nanananananana."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Ven y ven y ven y"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "Dime que me quieres, en la intimidad."
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Sabes que me puedes, dominar."
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["F", "G", "F", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "No hay nadie como tú. Eres mi cara y cruz"
+          },
+          {
+            "type": "chords",
+            "content": ["F", "B", "F", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Mi corazón es para ti."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INSTRUMENTAL/CORTE",
+        "lines": [
+          {
+            "type": "text",
+            "content": "(RIFF C# - G#-B-C-C# x8) (con banda x4)"
+          },
+          {
+            "type": "text",
+            "content": "(bombo x4)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "Dime que me quieres, en la intimidad."
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Sabes que me puedes, dominar."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

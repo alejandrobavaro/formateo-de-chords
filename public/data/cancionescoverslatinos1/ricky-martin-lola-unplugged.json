@@ -1,0 +1,323 @@
+{
+    "id": "ricky-martin-lola-unplugged",
+    "title": "Lola (Unplugged)",
+    "artist": "Ricky Martin",
+    "originalKey": "Em",
+    "tempo": "Latin Pop Ballad",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "B7", "Em", "D", "Em", "B7", "Em", "D", "Em", "B7", "Em", "D", "Em", "B7", "C7", "B7"]
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "Tus ojitos picoteando toda mi piel,"
+          },
+          {
+            "type": "chord",
+            "content": "B7"
+          },
+          {
+            "type": "lyric",
+            "content": "Tus andares provocando mi castidad,"
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "Tus besos mitad mentira, mitad verdad."
+          },
+          {
+            "type": "chord",
+            "content": "B7"
+          },
+          {
+            "type": "lyric",
+            "content": "Saben a manzana del paraíso de Adán."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "C", "G", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Sola, sola… Te gusta pasear"
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "C", "G", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Lola, Lola…. Para provocar una ola"
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "C", "G", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Una ola, una ola del mar."
+          },
+          {
+            "type": "section",
+            "name": "CORTE",
+            "lines": [
+              {
+                "type": "chords",
+                "content": ["Em", "B7", "Em", "D"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "D", "C7", "B7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Lola, Lola ay, pa' dónde vas"
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "D", "C7", "B7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Qué más da, yo sigo detrás"
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "D", "C7", "B7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Lola, Lola, ay, pegado a ti"
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "D", "C7", "B7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Sólo sé que voy a vivir."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "INTRO (instrumental)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "B7", "Em", "D", "Em", "B7", "Em", "D", "Em", "B7", "Em", "D", "Em", "B7", "C7", "B7"]
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "Tú bebes mi energía sin respirar"
+          },
+          {
+            "type": "chord",
+            "content": "B7"
+          },
+          {
+            "type": "lyric",
+            "content": "Y el mundo gira y gira detrás de ti"
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "La luna se me clava en el corazón"
+          },
+          {
+            "type": "chord",
+            "content": "B7"
+          },
+          {
+            "type": "lyric",
+            "content": "Medio moribundo sigo al son de tu son."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO 1 (repetición)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "C", "G", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Sola, sola… Te gusta pasear"
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "C", "G", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Lola, Lola…. Para provocar una ola"
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "C", "G", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Una ola, una ola del mar."
+          },
+          {
+            "type": "section",
+            "name": "CORTE",
+            "lines": [
+              {
+                "type": "chords",
+                "content": ["Em", "B7", "Em", "D"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO 2 (repetición)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "D", "C7", "B7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Lola, Lola ay, pa' dónde vas"
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "D", "C7", "B7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Qué más da, yo sigo detrás"
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "D", "C7", "B7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Lola, Lola, ay, pegado a ti"
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "D", "C7", "B7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Sólo sé que voy a vivir."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "SOLO",
+        "lines": [
+          {
+            "type": "instruction",
+            "content": "Instrumental solo"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "RIFF",
+        "lines": [
+          {
+            "type": "instruction",
+            "content": "Riff instrumental"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "D", "C7", "B7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Lola, Lola ay, pa' dónde vas"
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "D", "C7", "B7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Qué más da, yo sigo detrás"
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "D", "C7", "B7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Lola, Lola, ay, pegado a ti"
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "D", "C7", "B7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Sólo sé que voy a vivir."
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,229 @@
+{
+    "id": "ricky-martin-nada-es-imposible",
+    "title": "Nada es imposible",
+    "artist": "Ricky Martin",
+    "originalKey": "Bm",
+    "tempo": "Ballad / Pop",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Bm", "Bm7/A", "G", "F#7", "Bm", "Bm7/A", "G", "A"]
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "VERSO 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Bm", "Bm7/A", "G", "F#7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Es tarde ya, pero da igual, la noche es fría las manos ni la sentía"
+          },
+          {
+            "type": "chords",
+            "content": ["Bm", "Bm7/A", "G", "Bm", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Quietos los dos, callándonos, las horas que pasarían o puede que fueran días."
+          },
+          {
+            "type": "chords",
+            "content": ["Em7", "A7", "F#7", "Bm"]
+          },
+          {
+            "type": "lyric",
+            "content": "No hay violines pero estás tú,"
+          },
+          {
+            "type": "chords",
+            "content": ["Em7", "A7", "F#7", "Bm", "G", "F#7"]
+          },
+          {
+            "type": "lyric",
+            "content": "no hay farolas pero está tu luz, estamos congelando el amor para conservar lo mejor."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A7", "D", "F#7"]
+          },
+          {
+            "type": "lyric",
+            "content": "No te preocupes porque nada es imposible"
+          },
+          {
+            "type": "chords",
+            "content": ["Bm", "D7", "G", "Gm", "D", "Gm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Si se funden los fusibles del corazón, del corazón"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "F#7", "Bm", "D7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Nada es imposible, podemos hacernos invisibles,"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "Gm", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Con mi amor, si somos dos."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "INTRO 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Gm", "D", "F#7", "Bm", "D7", "G", "Gm", "D", "F#7"]
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "VERSO 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Bm", "Bm7/A", "G", "F#7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Nada que ver, que torpe proceder mi timidez repentina, mi risa de serpentina."
+          },
+          {
+            "type": "chords",
+            "content": ["Bm", "Bm7/A", "G", "Bm", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Nada que ver, un charlatán de ayer que diferente sentía, sólo con compañía."
+          },
+          {
+            "type": "chords",
+            "content": ["Em7", "A7", "F#7", "Bm"]
+          },
+          {
+            "type": "lyric",
+            "content": "No hay atardecer, pero me miras tú,"
+          },
+          {
+            "type": "chords",
+            "content": ["Em7", "A7", "F#7", "Bm", "G", "F#7"]
+          },
+          {
+            "type": "lyric",
+            "content": "no hay brisa de mar y no suspiras tú, estamos decorando este rincón poniendo a la ciudad en situación."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A7", "D", "F#7"]
+          },
+          {
+            "type": "lyric",
+            "content": "No te preocupes porque nada es imposible"
+          },
+          {
+            "type": "chords",
+            "content": ["Bm", "D7", "G", "Gm", "D", "Gm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Si se funden los fusibles del corazón, del corazón"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "F#7", "Bm", "D7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Nada es imposible, podemos hacernos invisibles,"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "Gm", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Con mi amor, si somos dos."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D", "F#7", "Bm", "D7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Nada, nada"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "Gm", "D", "Gm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Con mi amor, que corazón"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "F#7", "Bm", "D7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Nada, nada"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "Gm", "D", "Gm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Con mi amor, sí, sí"
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Nada"
+          }
+        ]
+      }
+    ]
+  }
+  

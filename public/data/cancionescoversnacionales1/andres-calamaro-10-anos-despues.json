@@ -1,0 +1,564 @@
+{
+    "id": "andres-calamaro-10-anos-despues",
+    "title": "10 Años Después",
+    "artist": "Andrés Calamaro",
+    "originalKey": "A",
+    "tempo": "Moderato",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "E", "B", "E"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Si diez años después,"
+          },
+          {
+            "type": "chords",
+            "content": ["A", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "te vuelvo a encontrar en algún lugar."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "No te olvides que soy"
+          },
+          {
+            "type": "chords",
+            "content": ["F#", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "distinto de aquel, pero casi igual."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Si la casualidad nos vuelve"
+          },
+          {
+            "type": "chords",
+            "content": ["A", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "a juntar diez años después."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Algo se va a incendiar,"
+          },
+          {
+            "type": "chords",
+            "content": ["F#", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "no voy a mostrar mi lado cortés."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Aquello fue un gran punto de partida,"
+          },
+          {
+            "type": "chords",
+            "content": ["B", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "pero a la vez que fácil se te olvida."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Diez años después, quien puede"
+          },
+          {
+            "type": "chords",
+            "content": ["B", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "volver atrás."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Estamos en la tierra cuatro días,"
+          },
+          {
+            "type": "chords",
+            "content": ["B", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "y el cielo no me ofrece garantías."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Diez años después,"
+          },
+          {
+            "type": "chords",
+            "content": ["B", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "mejor volver a empezar."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 3",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Si tu credulidad"
+          },
+          {
+            "type": "chords",
+            "content": ["A", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "se deterioró en algún lugar."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "No te olvides que soy"
+          },
+          {
+            "type": "chords",
+            "content": ["F#", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "testigo casual de tu soledad."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 4",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Si diez años después no estamos igual,"
+          },
+          {
+            "type": "chords",
+            "content": ["A", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "qué le vas a hacer."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Otros diez años más"
+          },
+          {
+            "type": "chords",
+            "content": ["F#", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "y luego a empezar juntos otra vez."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Aquello fue una linda primavera,"
+          },
+          {
+            "type": "chords",
+            "content": ["B", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "pero fue solamente la primera."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Diez años después,"
+          },
+          {
+            "type": "chords",
+            "content": ["B", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "el tiempo empieza a pesar."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Me quedan balas en la cartuchera,"
+          },
+          {
+            "type": "chords",
+            "content": ["B", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "pero te guardo siempre la primera."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Diez años después,"
+          },
+          {
+            "type": "chords",
+            "content": ["B", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "mejor reír que llorar."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "E", "B", "E"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 5",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Una carta te di,"
+          },
+          {
+            "type": "chords",
+            "content": ["A", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "que nunca escribí, que nadie leyó."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Hoy diez años después,"
+          },
+          {
+            "type": "chords",
+            "content": ["F#", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "todo sigue igual, nunca te llegó."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 6",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Dentro del corazón al día de hoy"
+          },
+          {
+            "type": "chords",
+            "content": ["A", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "no queda lugar."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Si perdí la razón"
+          },
+          {
+            "type": "chords",
+            "content": ["F#", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "no fue por amor, fue por soledad."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "E", "B", "E"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "La vida es una gran sala de espera,"
+          },
+          {
+            "type": "chords",
+            "content": ["B", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "la otra es una caja de madera."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Diez años después,"
+          },
+          {
+            "type": "chords",
+            "content": ["B", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "mejor dormir que soñar."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "No se puede vivir de otra manera,"
+          },
+          {
+            "type": "chords",
+            "content": ["B", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "porque sino la gente ni se entera."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Diez años después,"
+          },
+          {
+            "type": "chords",
+            "content": ["B", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "quien puede volver atrás."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Diez años después,"
+          },
+          {
+            "type": "chords",
+            "content": ["B", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "mejor decir que callar."
+          }
+        ]
+      }
+    ]
+  }
+  

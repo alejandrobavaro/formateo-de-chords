@@ -1,0 +1,545 @@
+{
+    "id": "ricky-martin-me-haces-falta-amor",
+    "title": "Me Haces Falta, Amor",
+    "artist": "Ricky Martin",
+    "originalKey": "Em",
+    "tempo": "Moderato",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "D", "G", "Am", "G", "D"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "Que yo iba a lastimarte y que no me iba a quedar,"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "que yo sería el culpable y que tú ibas a llorar."
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "No es cierto, no es cierto, no es cierto."
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "No hay nada más difícil que aprender a mentir,"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "fingiendo que estoy vivo cuando voy a morir."
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "Por dentro, por dentro, por dentro."
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "D", "Em", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y todo ohhooooh es fácil para ti olvidar."
+          },
+          {
+            "type": "chords",
+            "content": ["C", "D", "Em", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Yo ohhhh ohhh ohh nunca quise nada más."
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "G", "Gmaj7", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Siempre fue muy tarde."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "Me haces falta, amor."
+          },
+          {
+            "type": "chords",
+            "content": ["C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Explícame qué te hizo falta, amor."
+          },
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "¿Será todo eso que me falta, amor?"
+          },
+          {
+            "type": "chords",
+            "content": ["D/F#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Si lo único que me hace falta, amor,"
+          },
+          {
+            "type": "chords",
+            "content": ["Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "es ese amor que no me das."
+          },
+          {
+            "type": "chords",
+            "content": ["C"]
+          },
+          {
+            "type": "lyric",
+            "content": "¿Por qué me obligas a dejarte atrás?"
+          },
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "¿Por qué me obligas a sentir dolor?"
+          },
+          {
+            "type": "chords",
+            "content": ["D/F#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Si lo único que te hace falta, amor, es este amor."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "D", "Em", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y tyooo ohho la rabia empezó a acumular."
+          },
+          {
+            "type": "chords",
+            "content": ["C", "D", "Em", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Nooo ohhhh ohh el odio no puedo evitar."
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "G", "Gmaj7", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Solo espero que al final el amor no te falte."
+          },
+          {
+            "type": "chords",
+            "content": ["Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "Si yo lo encuentro en otra parte."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "No quiero disimular, no quiero hablarte,"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "no quiero que al despertar quiera besarte."
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Voy buscando una razón para olvidarte,"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "y entre más lo intento, más me cuesta soltarte."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "No, me duele el vacío que dejas por dentro,"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "me duele inventarme falsos sentimientos."
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "¿Cómo viviré con tanto sufrimiento?"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "Me haces falta, amor."
+          },
+          {
+            "type": "chords",
+            "content": ["C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Explícame qué te hizo falta, amor."
+          },
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "¿Será todo eso que me falta, amor?"
+          },
+          {
+            "type": "chords",
+            "content": ["D/F#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Si lo único que me hace falta, amor,"
+          },
+          {
+            "type": "chords",
+            "content": ["Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "es ese amor que no me das."
+          },
+          {
+            "type": "chords",
+            "content": ["C"]
+          },
+          {
+            "type": "lyric",
+            "content": "¿Por qué me obligas a dejarte atrás?"
+          },
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "¿Por qué me obligas a sentir dolor?"
+          },
+          {
+            "type": "chords",
+            "content": ["D/F#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Si lo único que te hace falta, amor, es este amor."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "G", "D/F#"]
+          },
+          {
+            "type": "lyric",
+            "content": "No sabes pedir perdón, tú fuiste tan cobarde."
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "G", "D/F#"]
+          },
+          {
+            "type": "lyric",
+            "content": "No juegues con un corazón, porque al final se parte."
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "G", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Prefiero yo morir de amor, a que el amor me falte."
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,374 @@
+{
+    "id": "la-mosca-nos-volvimos-a-ilusionar",
+    "title": "Nos Volvimos a Ilusionar",
+    "artist": "La Mosca",
+    "originalKey": "Gm",
+    "tempo": "Allegro",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Gm", "Cm", "D7", "Gm", "Gm", "Cm", "D7", "Gm"]
+          },
+          {
+            "type": "text",
+            "content": "(Repetir 2 veces)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Gm"]
+          },
+          {
+            "type": "lyric",
+            "content": "En Argentina nací,"
+          },
+          {
+            "type": "chords",
+            "content": ["Cm"]
+          },
+          {
+            "type": "lyric",
+            "content": "tierra del Diego y Lionel."
+          },
+          {
+            "type": "chords",
+            "content": ["D7"]
+          },
+          {
+            "type": "lyric",
+            "content": "De los pibes de Malvinas,"
+          },
+          {
+            "type": "chords",
+            "content": ["Gm"]
+          },
+          {
+            "type": "lyric",
+            "content": "que jamás olvidaré."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Cm"]
+          },
+          {
+            "type": "lyric",
+            "content": "No te lo puedo explicar,"
+          },
+          {
+            "type": "chords",
+            "content": ["A#"]
+          },
+          {
+            "type": "lyric",
+            "content": "porque no vas a entender."
+          },
+          {
+            "type": "chords",
+            "content": ["D7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Las finales que perdimos,"
+          },
+          {
+            "type": "chords",
+            "content": ["Gm"]
+          },
+          {
+            "type": "lyric",
+            "content": "cuántos años la lloré."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 3",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Cm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Pero eso se terminó,"
+          },
+          {
+            "type": "chords",
+            "content": ["A#"]
+          },
+          {
+            "type": "lyric",
+            "content": "porque en el Maracaná,"
+          },
+          {
+            "type": "chords",
+            "content": ["D7"]
+          },
+          {
+            "type": "lyric",
+            "content": "la final con los brasucas,"
+          },
+          {
+            "type": "chords",
+            "content": ["Gm"]
+          },
+          {
+            "type": "lyric",
+            "content": "la volvió a ganar papá."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Cm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Muchaaaaachos, ahora nos volvimos"
+          },
+          {
+            "type": "chords",
+            "content": ["Gm"]
+          },
+          {
+            "type": "lyric",
+            "content": "a ilusionar."
+          },
+          {
+            "type": "chords",
+            "content": ["D7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Quiero ganar la tercera,"
+          },
+          {
+            "type": "chords",
+            "content": ["Gm"]
+          },
+          {
+            "type": "lyric",
+            "content": "quiero ser campeón mundial."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PUENTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Cm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y al Dieeeeego, desde el cielo"
+          },
+          {
+            "type": "chords",
+            "content": ["Gm"]
+          },
+          {
+            "type": "lyric",
+            "content": "lo podemos ver,"
+          },
+          {
+            "type": "chords",
+            "content": ["D7"]
+          },
+          {
+            "type": "lyric",
+            "content": "con Don Diego y con La Tota,"
+          },
+          {
+            "type": "chords",
+            "content": ["Gm"]
+          },
+          {
+            "type": "lyric",
+            "content": "alentándolo a Lionel."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Gm", "Cm", "D7", "Gm", "Gm", "Cm", "D7", "Gm"]
+          },
+          {
+            "type": "text",
+            "content": "(Repetir 2 veces)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Cm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Muchaaaaachos, ahora nos volvimos"
+          },
+          {
+            "type": "chords",
+            "content": ["Gm"]
+          },
+          {
+            "type": "lyric",
+            "content": "a ilusionar."
+          },
+          {
+            "type": "chords",
+            "content": ["D7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Quiero ganar la tercera,"
+          },
+          {
+            "type": "chords",
+            "content": ["Gm"]
+          },
+          {
+            "type": "lyric",
+            "content": "quiero ser campeón mundial."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PUENTE (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Cm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y al Dieeeeego, desde el cielo"
+          },
+          {
+            "type": "chords",
+            "content": ["Gm"]
+          },
+          {
+            "type": "lyric",
+            "content": "lo podemos ver,"
+          },
+          {
+            "type": "chords",
+            "content": ["D7"]
+          },
+          {
+            "type": "lyric",
+            "content": "con Don Diego y con La Tota,"
+          },
+          {
+            "type": "chords",
+            "content": ["Gm"]
+          },
+          {
+            "type": "lyric",
+            "content": "alentándolo a Lionel."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y ser campeones otra vez."
+          },
+          {
+            "type": "chords",
+            "content": ["Gm"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["D7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y ser campeones otra veeeeez..."
+          },
+          {
+            "type": "chords",
+            "content": ["Gm"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          }
+        ]
+      }
+    ]
+  }
+  

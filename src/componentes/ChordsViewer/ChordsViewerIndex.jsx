@@ -3,6 +3,8 @@ import SongSelector from './SongSelector';
 import SongViewer from './SongViewer';
 import Controls from './Controls';
 import { BsArrowsFullscreen, BsFullscreenExit } from "react-icons/bs";
+import html2canvas from "html2canvas";
+import jsPDF from "jspdf";
 import "../../assets/scss/_03-Componentes/ChordsViewer/_ChordsViewerIndex.scss";
 
 // Lista de todos los archivos JSON disponibles
@@ -10,19 +12,19 @@ const SONG_LIBRARIES = [
   { 
     id: 'alegondra', 
     name: 'Ale Gondra', 
-    path: '/data/cancionesalegondramusic.json',
+    path: '/data/listadocancionesalegondramusic.json',
     basePath: '/data/cancionesalegondramusic/' 
   },
   { 
     id: 'almangopop', 
     name: 'Almango Pop', 
-    path: '/data/cancionesalmangopop.json',
+    path: '/data/listadocancionesalmangopop.json',
     basePath: '/data/cancionesalmangopop/'  
   },
   { 
     id: 'casamiento', 
     name: 'Casamiento', 
-    path: '/data/cancionescasamiento.json',
+    path: '/data/listadocancionescasamiento.json',
     basePath: '/data/cancionesshowcasamiento/'  
   },
   { 
@@ -47,8 +49,14 @@ const SONG_LIBRARIES = [
     id: 'coverslatinos1', 
     name: 'Listado Covers Latinos 1', 
     path: '/data/listadochordscoverslatinos1.json',
-    basePath: '/data/cancionescoverslatinos1/' 
-  }
+    basePath: '/data/cancionescoverslatinos1/'
+  },
+   { 
+    id: 'coversnacionales1', 
+    name: 'Listado Covers Nacionales 1', 
+    path: '/data/listadochordscoversnacionales1.json',
+    basePath: '/data/cancionescoversnacionales1/' 
+  }, 
 ];
 
 const ChordsViewerIndex = () => {
@@ -63,6 +71,7 @@ const ChordsViewerIndex = () => {
   const [currentLibraryConfig, setCurrentLibraryConfig] = useState(SONG_LIBRARIES[0]);
   const [fullscreenMode, setFullscreenMode] = useState(false);
   const containerRef = useRef(null);
+  const printViewRef = useRef(null);
 
   // ========== FUNCIONES DE CARGA JSON ==========
   const fetchJsonFile = async (path) => {
@@ -90,17 +99,22 @@ const ChordsViewerIndex = () => {
 
       const actualBasePath = basePath || currentLibraryConfig.basePath;
       const songPath = `${actualBasePath}${song.file}`;
+      
+      console.log('Intentando cargar canción:', songPath);
+      
       const response = await fetch(songPath);
       if (!response.ok) throw new Error(`No se pudo cargar el archivo: ${song.file}`);
 
       const contentType = response.headers.get('content-type');
       if (!contentType || !contentType.includes('application/json')) {
         const text = await response.text();
+        console.error('Contenido no JSON recibido:', text.substring(0, 200));
         throw new Error(`El archivo ${song.file} no es JSON válido`);
       }
 
       const songData = await response.json();
       setSelectedSong({ ...song, ...songData });
+      
     } catch (err) {
       console.error('Error loading individual song:', err);
       setError(`Error cargando contenido: ${err.message}. Mostrando información básica.`);
@@ -130,6 +144,60 @@ const ChordsViewerIndex = () => {
       document.exitFullscreen();
       setFullscreenMode(false);
     }
+  };
+
+  // ========== FUNCIONES DE EXPORTACIÓN ==========
+  const handleExportPDF = async () => {
+    const element = printViewRef.current;
+    if (!element || !selectedSong) return;
+    
+    const pdf = new jsPDF("p", "mm", "a4");
+    
+    try {
+      const canvas = await html2canvas(element, { 
+        scale: 2,
+        useCORS: true,
+        logging: false,
+        backgroundColor: '#ffffff'
+      });
+      
+      const imgData = canvas.toDataURL("image/jpeg", 0.95);
+      const pdfWidth = pdf.internal.pageSize.getWidth();
+      const pdfHeight = pdf.internal.pageSize.getHeight();
+
+      pdf.addImage(imgData, "JPEG", 0, 0, pdfWidth, pdfHeight);
+      pdf.save(`${selectedSong.artist} - ${selectedSong.title}.pdf`);
+    } catch (error) {
+      console.error('Error exporting PDF:', error);
+      setError('Error al exportar PDF: ' + error.message);
+    }
+  };
+
+  const handleExportJPG = async () => {
+    const element = printViewRef.current;
+    if (!element || !selectedSong) return;
+    
+    try {
+      const canvas = await html2canvas(element, { 
+        scale: 2,
+        useCORS: true,
+        logging: false,
+        backgroundColor: '#ffffff'
+      });
+      
+      const imgData = canvas.toDataURL("image/jpeg", 0.95);
+      const link = document.createElement("a");
+      link.href = imgData;
+      link.download = `${selectedSong.artist} - ${selectedSong.title}.jpg`;
+      link.click();
+    } catch (error) {
+      console.error('Error exporting JPG:', error);
+      setError('Error al exportar JPG: ' + error.message);
+    }
+  };
+
+  const handlePrint = () => {
+    window.print();
   };
 
   useEffect(() => {
@@ -181,7 +249,7 @@ const ChordsViewerIndex = () => {
 
       <div className="chords-header">
         <div className="header-top-row">
-          {/* BOTONES DE LISTAS PERMANENTES - REEMPLAZO DEL SELECT */}
+          {/* BOTONES DE LISTAS PERMANENTES */}
           <div className="library-buttons-container">
             <div className="library-buttons-grid">
               {SONG_LIBRARIES.map(library => (
@@ -208,6 +276,7 @@ const ChordsViewerIndex = () => {
           />
         </div>
 
+        {/* CONTROLES CON BOTONES DE EXPORTACIÓN */}
         <Controls
           fontSize={fontSize}
           setFontSize={setFontSize}
@@ -215,6 +284,10 @@ const ChordsViewerIndex = () => {
           setTransposition={setTransposition}
           showA4Outline={showA4Outline}
           setShowA4Outline={setShowA4Outline}
+          onExportPDF={handleExportPDF}
+          onExportJPG={handleExportJPG}
+          onPrint={handlePrint}
+          hasSelectedSong={!!selectedSong}
         />
       </div>
 
@@ -223,10 +296,10 @@ const ChordsViewerIndex = () => {
           <SongViewer
             song={selectedSong}
             fontSize={fontSize}
-            setFontSize={setFontSize}
             transposition={transposition}
             showA4Outline={showA4Outline}
             fullscreenMode={fullscreenMode}
+            printViewRef={printViewRef}
           />
         ) : (
           !loading && (

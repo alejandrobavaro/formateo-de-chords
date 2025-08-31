@@ -1,0 +1,382 @@
+{
+    "id": "ricky-martin-la-bomba",
+    "title": "La Bomba",
+    "artist": "Ricky Martin",
+    "originalKey": "Am (Transporte en 1er traste)",
+    "tempo": "Allegro",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "E", "Am", "E", "Am", "E", "Am", "E"]
+          },
+          {
+            "type": "text",
+            "content": "(Repetir 4 veces)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "Es una bebida que va cambiando tu vida"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "una gotita de nada"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "Te vuelve loca, loca, divertida."
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "Agua de risa con unas gotas de rosa"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "Y una aceituna sabrosa"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "y en lo caliente esa es la bomba."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Muévete mamita que me vuelvo loco"
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "emborrachadita de la bomba estás."
+          },
+          {
+            "type": "lyric",
+            "content": "Cosa linda, cosa mona sube, sube que la bomba va."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "(Bum, bum) otra vuelta más bum, bum,"
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "y en cada esquina nena dame más."
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "(Bum, bum) otra vuelta más bum, bum,"
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "y en cada esquina nena dame más."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "E", "Am", "E", "Am", "E", "Am", "E"]
+          },
+          {
+            "type": "text",
+            "content": "(Repetir 4 veces)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "Que noche con vida, intensamente vivida,"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "te vas quedando colgada, inofensiva."
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "Pura enamorada."
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "Mira guapa, sale volando la ropa,"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "sigue bailando la luna, luna gatuna."
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "Esa es la bomba."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Muévete mamita que me vuelvo loco"
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "emborrachadita de la bomba estás."
+          },
+          {
+            "type": "lyric",
+            "content": "Cosa linda, cosa mona sube, sube que la bomba va."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "(Bum, bum) otra vuelta más bum, bum,"
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "y en cada esquina nena dame más."
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "(Bum, bum) otra vuelta más bum, bum,"
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "y en cada esquina nena dame más."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "OUTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Que noche con vida, intensamente vivida,"
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "te vas quedando colgada, inofensiva."
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Mira guapa, sale volando la ropa,"
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "sigue bailando la luna, luna gatuna."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "(Bum, bum) otra vuelta más bum, bum,"
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "y en cada esquina nena dame más."
+          },
+          {
+            "type": "text",
+            "content": "(Repetir 4 veces)"
+          }
+        ]
+      }
+    ]
+  }
+  

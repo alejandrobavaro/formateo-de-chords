@@ -1,0 +1,261 @@
+{
+    "id": "ricky-martin-livin-la-vida-loca",
+    "title": "Livin' la vida loca",
+    "artist": "Ricky Martin",
+    "originalKey": "C#m",
+    "tempo": "Fast - Latin Pop Rock",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C#m", "B", "C#m", "B", "C#m", "B", "C#m", "B"]
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "C#m"
+          },
+          {
+            "type": "lyric",
+            "content": "She's into superstition, black cats and voodoo dolls."
+          },
+          {
+            "type": "chord",
+            "content": "C#m"
+          },
+          {
+            "type": "lyric",
+            "content": "I feel a premonition, that girl's gonna make me fall."
+          },
+          {
+            "type": "chord",
+            "content": "C#m"
+          },
+          {
+            "type": "lyric",
+            "content": "She's into new sensation, new kicks and candle light."
+          },
+          {
+            "type": "chord",
+            "content": "C#m"
+          },
+          {
+            "type": "lyric",
+            "content": "She's got a new addiction, for every day and night."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "She'll make you take your clothes off, and go dancing in the rain,"
+          },
+          {
+            "type": "chord",
+            "content": "G#m"
+          },
+          {
+            "type": "lyric",
+            "content": "She'll make you live the crazy life, or she'll take away your pain,"
+          },
+          {
+            "type": "chords",
+            "content": ["A", "B", "G#7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Like a bullet to your brain. COME ON!"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "C#m"
+          },
+          {
+            "type": "lyric",
+            "content": "Upside inside out, she's living la Vida loca."
+          },
+          {
+            "type": "chords",
+            "content": ["B", "C#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "She'll push and pull you down, she's living la Vida loca."
+          },
+          {
+            "type": "chords",
+            "content": ["C#m", "B", "C#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "Her lips are devil red, and her skin's the color mocha."
+          },
+          {
+            "type": "chords",
+            "content": ["C#m", "B", "C#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "She will wear you out, she's living la Vida loca, living la Vida loca."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "INTRO (instrumental)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C#m", "B", "C#m", "B", "C#m", "B", "C#m", "B"]
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "C#m"
+          },
+          {
+            "type": "lyric",
+            "content": "Woke up in New York City in a funky cheap motel."
+          },
+          {
+            "type": "chord",
+            "content": "C#m"
+          },
+          {
+            "type": "lyric",
+            "content": "She took my heart and she took my money, she must've slipped me a sleeping pill."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "She never drinks the water, makes you order French champagne."
+          },
+          {
+            "type": "chord",
+            "content": "G#m"
+          },
+          {
+            "type": "lyric",
+            "content": "And once you had a taste of her, you'll never be the same,"
+          },
+          {
+            "type": "chords",
+            "content": ["A", "B", "G#7"]
+          },
+          {
+            "type": "lyric",
+            "content": "She'll make you go insane. COME ON!"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "C#m"
+          },
+          {
+            "type": "lyric",
+            "content": "Upside inside out, she's living la Vida loca."
+          },
+          {
+            "type": "chords",
+            "content": ["B", "C#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "She'll push and pull you down, she's living la Vida loca."
+          },
+          {
+            "type": "chords",
+            "content": ["C#m", "B", "C#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "Her lips are devil red, and her skin's the color mocha."
+          },
+          {
+            "type": "chords",
+            "content": ["C#m", "B", "C#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "She will wear you out, she's living la Vida loca, living la Vida loca."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO (repeat)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F#m", "G#m", "A", "B", "G#7"]
+          },
+          {
+            "type": "lyric",
+            "content": "She'll make you take your clothes off, dance in the rain... she'll make you go insane!"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (FINAL)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C#m", "B", "C#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "Upside inside out, she's living la Vida loca..."
+          },
+          {
+            "type": "lyric",
+            "content": "She will wear you out, she's living la Vida loca, living la Vida loca."
+          }
+        ]
+      }
+    ]
+  }
+  

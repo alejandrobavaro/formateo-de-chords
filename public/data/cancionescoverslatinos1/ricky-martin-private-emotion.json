@@ -1,0 +1,501 @@
+{
+    "id": "ricky-martin-private-emotion",
+    "title": "Private Emotion",
+    "artist": "Ricky Martin",
+    "originalKey": "C",
+    "tempo": "Moderato",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "C/B", "C", "C/B", "C", "C/B", "C", "C/B"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "Every endless night has a dawning day,"
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "Every darkest sky has a shining ray."
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "And it shines on you, baby can't you see."
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "You're the only one, who can shine for me."
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "C", "G", "Gm"]
+          },
+          {
+            "type": "lyric",
+            "content": "It's a private emotion that fills you tonight"
+          },
+          {
+            "type": "chords",
+            "content": ["Dm", "F"]
+          },
+          {
+            "type": "lyric",
+            "content": "And a silence falls between us"
+          },
+          {
+            "type": "chords",
+            "content": ["Fm", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "As the shadows steal the light"
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "And wherever you may find it"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "Gm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Wherever it may lead"
+          },
+          {
+            "type": "chords",
+            "content": ["Dm", "G", "C", "C/B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Let your private emotion, come to me,"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "C/B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Come to me."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "When your soul is tired and your heart is weak,"
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "Do you think of love as a one way street?"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "Well it runs both ways, open up your eyes,"
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "Can't you see me here, how can you deny?"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "C", "G", "Gm"]
+          },
+          {
+            "type": "lyric",
+            "content": "It's a private emotion that fills you tonight"
+          },
+          {
+            "type": "chords",
+            "content": ["Dm", "F"]
+          },
+          {
+            "type": "lyric",
+            "content": "And a silence falls between us"
+          },
+          {
+            "type": "chords",
+            "content": ["Fm", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "As the shadows steal the light"
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "And wherever you may find it"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "Gm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Wherever it may lead"
+          },
+          {
+            "type": "chords",
+            "content": ["Dm", "G", "C", "C/B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Let your private emotion, come to me,"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "C/B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Come to me."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "Every endless night has a dawning day,"
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "Every darkest sky has a shining ray."
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "It takes a lot to laugh as your tears go by,"
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "But you can find me here till your tears run dry."
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "C", "G", "Gm"]
+          },
+          {
+            "type": "lyric",
+            "content": "It's a private emotion that fills you tonight"
+          },
+          {
+            "type": "chords",
+            "content": ["Dm", "F"]
+          },
+          {
+            "type": "lyric",
+            "content": "And a silence falls between us"
+          },
+          {
+            "type": "chords",
+            "content": ["Fm", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "As the shadows steal the light"
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "And wherever you may find it"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "Gm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Wherever it may lead"
+          },
+          {
+            "type": "chords",
+            "content": ["Dm", "G", "C", "C/B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Let your private emotion, come to me,"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "C/B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Come to me."
+          }
+        ]
+      }
+    ]
+  }
+  

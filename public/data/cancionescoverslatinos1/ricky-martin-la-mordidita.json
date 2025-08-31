@@ -1,0 +1,387 @@
+{
+    "id": "ricky-martin-la-mordidita",
+    "title": "La Mordidita",
+    "artist": "Ricky Martin",
+    "originalKey": "Em",
+    "tempo": "Fast - Latin Pop",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "-", "Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "Ioooo- ieeeeeee"
+          },
+          {
+            "type": "text",
+            "content": "– tumba – Riff en Em x2"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "text",
+            "content": "Riff en Em"
+          },
+          {
+            "type": "lyric",
+            "content": "Sonó la campana,"
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "B7"]
+          },
+          {
+            "type": "lyric",
+            "content": "y el fin de semana, se deja ver, shalala."
+          },
+          {
+            "type": "text",
+            "content": "Riff en Em"
+          },
+          {
+            "type": "lyric",
+            "content": "Vestido de traje, lujuria salvaje,"
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "B7"]
+          },
+          {
+            "type": "lyric",
+            "content": "bajo mi piel."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "Am", "B7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Si Dios puso la manzana, fue para morder,"
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "Ay Dioooos, pequemo' abrazaito' hasta el amanecer."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO 2",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "Llego la fiesta, pa' tu boquita,"
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "B7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Toda la noche, todito el día."
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "Vamo' a bañarnos en la orillita,"
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "B7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Que la marea esta picaita' ita, ita."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "Una mordidita, una mordidita,"
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "B7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Una mordidita, de tu boquita."
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "Una mordidita, una mordidita,"
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "B7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Una mordidita, de tu boquita."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "text",
+            "content": "Riff en Em"
+          },
+          {
+            "type": "lyric",
+            "content": "Tus labios, mis dientes"
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "B7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Bocado crujiente, rico pastel."
+          },
+          {
+            "type": "text",
+            "content": "Riff en Em"
+          },
+          {
+            "type": "lyric",
+            "content": "Fuego en tus pupilas,"
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "B7"]
+          },
+          {
+            "type": "lyric",
+            "content": "tu cuerpo destila tequila y miel."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "Am", "B7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Si Dios puso la manzana, fue para morder,"
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "Ay Dioooos, pequemo' abrazaito' hasta el amanecer."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO 2",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "Llego la fiesta, pa' tu boquita,"
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "B7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Toda la noche, todito el día."
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "Vamo' a bañarnos en la orillita,"
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "B7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Que la marea esta picaita' ita, ita."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "Una mordidita, una mordidita,"
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "B7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Una mordidita, de tu boquita."
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "Una mordidita, una mordidita,"
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "B7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Una mordidita, de tu boquita."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "RAP",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "Am", "B7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Deja de moderte, estoy vampiro bien demente."
+          },
+          {
+            "type": "lyric",
+            "content": "Deja de moderte, te lo juro y si la gente."
+          },
+          {
+            "type": "lyric",
+            "content": "Deja de moderte, bien despacito y búscame."
+          },
+          {
+            "type": "lyric",
+            "content": "Deja de moderte, amarradito llego la fiesta..."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "Am", "B7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Llego la fiesta, pa' tu boquita, toda la noche, todito el día. Vamo' a bañarnos en la orillita, que la marea esta picaita' ita, ita."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "Am", "B7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Una mordidita, una mordidita, de tu boquita."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBO con OHHHH",
+        "lines": [
+          {
+            "type": "lyric",
+            "content": "Oohhhhhhhh ohhhh ohohhh"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (FINAL)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "Am", "B7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Una mordidita, una mordidita, de tu boquita."
+          }
+        ]
+      }
+    ]
+  }
+  

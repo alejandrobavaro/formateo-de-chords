@@ -1,0 +1,256 @@
+{
+    "id": "ricky-martin-vuelve-banda",
+    "title": "Vuelve (BANDA)",
+    "artist": "Ricky Martin",
+    "originalKey": "C",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "F", "C", "F"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "VERSO 1",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "Algo me dice que ya no volverás,"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "estoy seguro que esta vez,"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "no habrá marcha atrás."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "PRE ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Dm"
+              },
+              {
+                "type": "lyric",
+                "content": "Después de todo fui yo a decirte que no,"
+              },
+              {
+                "type": "chord",
+                "content": "/B"
+              },
+              {
+                "type": "chord",
+                "content": "Dm"
+              },
+              {
+                "type": "lyric",
+                "content": "sabes bien que no es cierto,"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "estoy muriendo por dentro."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "VERSO 2",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "Ahora es q me doy cuenta q sin ti no soy nada"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "he perdido las fuerzas he perdido las ganas."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "PRE ESTRIBILLO 2",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Dm"
+              },
+              {
+                "type": "lyric",
+                "content": "He intentado encontrarte en otras personas"
+              },
+              {
+                "type": "chord",
+                "content": "/B"
+              },
+              {
+                "type": "chord",
+                "content": "Dm"
+              },
+              {
+                "type": "lyric",
+                "content": "no es igual no es lo mismo,"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "nos separa un abismo."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chords",
+                "content": ["F", "/B9", "C", "F", "/B9", "C", "Dm", "C", "F", "/B9", "F"]
+              },
+              {
+                "type": "lyric",
+                "content": "Vuelve, que sin ti la vida se me va, OHH. Vuelve, que me falta el aire, si tú no estás, ooh, vuelve, nadie ocupará tu lugar."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "BIS",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chords",
+                "content": ["D", "C", "-B-", "D", "D", "C", "-B-", "D"]
+              },
+              {
+                "type": "lyric",
+                "content": "A pesar que fui yo, a decirte que no."
+              },
+              {
+                "type": "chords",
+                "content": ["D", "G"]
+              },
+              {
+                "type": "lyric",
+                "content": "sin embargo, aquí yo sigo insistiéndote."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chords",
+                "content": ["G", "C", "D", "G", "C", "D", "Em", "D", "C"]
+              },
+              {
+                "type": "lyric",
+                "content": "Vuelve, que sin ti la vida se me va, OHH. Vuelve, que me falta el aire si tú no estás, ooh, vuelve, nadie ocupará tu lugar."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "FINAL SOLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "C"]
+          }
+        ]
+      }
+    ]
+  }
+  

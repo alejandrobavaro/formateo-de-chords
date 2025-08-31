@@ -1,0 +1,211 @@
+{
+    "id": "ricky-martin-que-mas-da",
+    "title": "Que más da (I don't care)",
+    "artist": "Ricky Martin",
+    "originalKey": "Fm",
+    "tempo": "Moderate Pop",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Fm", "A#m", "C#", "D#"]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Fm"
+              },
+              {
+                "type": "lyric",
+                "content": "Que más da, sólo quiero tu amor,"
+              },
+              {
+                "type": "chord",
+                "content": "A#m"
+              },
+              {
+                "type": "lyric",
+                "content": "Sé que te dije que nunca más volvería a amarte así."
+              },
+              {
+                "type": "chord",
+                "content": "C#"
+              },
+              {
+                "type": "chord",
+                "content": "D#"
+              },
+              {
+                "type": "lyric",
+                "content": "Pero sigues clavada en mi, te perdonaré."
+              },
+              {
+                "type": "chord",
+                "content": "Fm"
+              },
+              {
+                "type": "lyric",
+                "content": "Que más da, sólo quiero tu amor,"
+              },
+              {
+                "type": "chord",
+                "content": "A#m"
+              },
+              {
+                "type": "lyric",
+                "content": "No me puedo olvidar ni callarme el deseo"
+              },
+              {
+                "type": "chord",
+                "content": "C#"
+              },
+              {
+                "type": "chord",
+                "content": "D#"
+              },
+              {
+                "type": "lyric",
+                "content": "De decir ven regresa a mí, Te perdonaré."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "VERSO 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Fm", "A#m", "C#", "D#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Son fatal y él seguía, sólo ella podía notar que yo estaba allí. Eso de su mirar moría desangrándome. Como me pude enamorar de quien mentiría así. Sin sospechar que ella vendría a burlarse de mí."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "VERSO 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Fm", "A#m", "C#", "D#"]
+          },
+          {
+            "type": "lyric",
+            "content": "El dolor seguía fantasía, no debía si era mía no! Que el dolor saberlo era cierto como aceptarlo no no no! Comencé a sentir quemando en mi un instinto asesino, whoa. El infierno conocí, Déjame despertar."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "PUENTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Fm", "A#m", "C#", "D#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Sólo fue un error, un tremendo error, dime por favor que aún existe amor, pelearé por ti pagaré todo tu dolor."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "VERSO 3 (INGLÉS)",
+        "lines": [
+          {
+            "type": "lyric",
+            "content": "Should I leave should I go should I break apart. My mama said you’d break my heart. I can’t believe you would sleaze, you are slut a ho. Now you wanna have a change of heart. Who’d have thought that you would deceive me. Love of my life, your my queen like Evie, and you didn’t even tell me you leavin. I had to hear about it on Escandalo TV, now who's this man creeping in the back door, what the hangin with the fo fo fo. I know you keep saying that you love me so, but why the hell do you trust him for ... god dam now."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Fm"
+              },
+              {
+                "type": "lyric",
+                "content": "Que más da, sólo quiero tu amor,"
+              },
+              {
+                "type": "chord",
+                "content": "A#m"
+              },
+              {
+                "type": "lyric",
+                "content": "Sé que te dije que nunca más volvería a amarte así."
+              },
+              {
+                "type": "chord",
+                "content": "C#"
+              },
+              {
+                "type": "chord",
+                "content": "D#"
+              },
+              {
+                "type": "lyric",
+                "content": "Pero sigues clavada en mi, te perdonaré."
+              },
+              {
+                "type": "chord",
+                "content": "Fm"
+              },
+              {
+                "type": "lyric",
+                "content": "Que más da, sólo quiero tu amor,"
+              },
+              {
+                "type": "chord",
+                "content": "A#m"
+              },
+              {
+                "type": "lyric",
+                "content": "No me puedo olvidar ni callarme el deseo"
+              },
+              {
+                "type": "chord",
+                "content": "C#"
+              },
+              {
+                "type": "chord",
+                "content": "D#"
+              },
+              {
+                "type": "lyric",
+                "content": "De decir ven regresa a mí, Te perdonaré."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

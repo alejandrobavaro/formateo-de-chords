@@ -1,0 +1,231 @@
+{
+    "id": 1,
+    "title": "Bombón de Azúcar",
+    "artist": "Ricky Martin",
+    "originalKey": "F#",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F#", "G#m", "F#", "F#", "G#m", "F#"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          { "type": "chord", "content": "F#" },
+          { "type": "lyric", "content": "Hoy alcé mi voz, gritando a la ciudad," },
+          { "type": "chord", "content": "G#m" },
+          { "type": "lyric", "content": "Pues nunca me habló de ti." },
+          { "type": "chord", "content": "F#" },
+          { "type": "lyric", "content": "Pues tú llegaste y me cambiaste la ansiedad," },
+          { "type": "chord", "content": "G#m" },
+          { "type": "lyric", "content": "Con mucho love and peace." }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              { "type": "chord", "content": "F#" },
+              { "type": "lyric", "content": "Pues me haces reír, me haces llorar," },
+              { "type": "chord", "content": "G#m" },
+              { "type": "lyric", "content": "A las demás discriminar," },
+              { "type": "chord", "content": "F#" },
+              { "type": "lyric", "content": "Es lo que me haces tú." },
+              { "type": "chord", "content": "F#" },
+              { "type": "lyric", "content": "En una cuerda floja caminar," },
+              { "type": "chord", "content": "G#m" },
+              { "type": "lyric", "content": "Y por ti hasta matar," },
+              { "type": "chord", "content": "F#" },
+              { "type": "lyric", "content": "Es lo que me haces tú." }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              { "type": "chord", "content": "F#" },
+              { "type": "lyric", "content": "Y yo no pensé que fuera a ser así," },
+              { "type": "chord", "content": "G#m" },
+              { "type": "lyric", "content": "Mi cuerpo adicto a ti," },
+              { "type": "chord", "content": "F#" },
+              { "type": "lyric", "content": "Es lo que me haces tú. Uyyy uyy" },
+              { "type": "chord", "content": "F#" },
+              { "type": "lyric", "content": "Y yo no pensé que fuera a ser así," },
+              { "type": "chord", "content": "G#m" },
+              { "type": "lyric", "content": "Mi cuerpo adicto a ti, eres tú..." }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "CORO BOMBÓN",
+        "lines": [
+          { "type": "chord", "content": "F#" },
+          { "type": "lyric", "content": "Shubi-ru-ru bombón de azúcar," },
+          { "type": "chord", "content": "G#m" },
+          { "type": "lyric", "content": "Shubi-ru-ru bombón de azúcar," },
+          { "type": "chord", "content": "F#" },
+          { "type": "lyric", "content": "Shubi-ru-ru bombón solo tú." }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "2º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          { "type": "chord", "content": "F#" },
+          { "type": "lyric", "content": "Yo sé que a veces soy difícil de entender," },
+          { "type": "chord", "content": "G#m" },
+          { "type": "lyric", "content": "Pero tú siempre me comprendes," },
+          { "type": "chord", "content": "F#" },
+          { "type": "lyric", "content": "Y cada vez que disfruto de tu presencia, ciencia," },
+          { "type": "chord", "content": "G#m" },
+          { "type": "lyric", "content": "Hace brillar tu ausencia, cuando no estás." }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE ESTRIBILLO (Reprise)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              { "type": "chord", "content": "F#" },
+              { "type": "lyric", "content": "Pues me haces reír, me haces llorar," },
+              { "type": "chord", "content": "G#m" },
+              { "type": "lyric", "content": "A las demás discriminar," },
+              { "type": "chord", "content": "F#" },
+              { "type": "lyric", "content": "Es lo que me haces tú." },
+              { "type": "chord", "content": "F#" },
+              { "type": "lyric", "content": "En una cuerda floja caminar," },
+              { "type": "chord", "content": "G#m" },
+              { "type": "lyric", "content": "Y por ti hasta matar," },
+              { "type": "chord", "content": "F#" },
+              { "type": "lyric", "content": "Es lo que me haces tú." }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (Reprise)",
+        "lines": [
+          { "type": "chords", "content": ["F#", "G#m", "F#", "G#m"] },
+          { "type": "lyric", "content": "Mi cuerpo adicto a ti, eres tú..." }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "CORO BOMBÓN (Reprise)",
+        "lines": [
+          { "type": "chord", "content": "F#" },
+          { "type": "lyric", "content": "Shubi-ru-ru bombón de azúcar," },
+          { "type": "chord", "content": "G#m" },
+          { "type": "lyric", "content": "Shubi-ru-ru bombón de azúcar," },
+          { "type": "chord", "content": "F#" },
+          { "type": "lyric", "content": "Shubi-ru-ru bombón solo tú." }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "BIS ROCK",
+        "lines": [
+          { "type": "chords", "content": ["F#", "G#m", "B", "C#"] },
+          { "type": "lyric", "content": "Mira lo que has hecho tú" },
+          { "type": "chords", "content": ["F#", "G#m", "B", "C#"] },
+          { "type": "lyric", "content": "En mi mente un revolú" }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO VIOLA",
+        "lines": [
+          { "type": "chords", "content": ["F#", "G#m", "Bm", "F#"] }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "CORO FINAL",
+        "lines": [
+          { "type": "chord", "content": "F#" },
+          { "type": "lyric", "content": "Shubi-ru-ru bombón de azúcar," },
+          { "type": "chord", "content": "G#m" },
+          { "type": "lyric", "content": "Shubi-ru-ru bombón de azúcar," },
+          { "type": "chord", "content": "Bm" },
+          { "type": "lyric", "content": "Shubi-ru-ru bombón solo tú." }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "BIS ROCK (Cierre)",
+        "lines": [
+          { "type": "chords", "content": ["F#", "G#m", "B", "C#"] },
+          { "type": "lyric", "content": "Mira lo que has hecho tú" },
+          { "type": "chords", "content": ["F#", "G#m", "B", "C#"] },
+          { "type": "lyric", "content": "En mi mente un revolú" }
+        ]
+      }
+    ]
+  }
+  

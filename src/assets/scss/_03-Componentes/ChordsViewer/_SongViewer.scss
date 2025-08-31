@@ -1,5 +1,5 @@
 /* =============================================== */
-/* SONG VIEWER - Tamaño automático y tono destacado */
+/* SONG VIEWER - Sin botones de exportación */
 /* =============================================== */
 
 .song-viewer {
@@ -75,7 +75,7 @@
     font-size: 18px !important;
     
     .tono-destacado {
-      color: #ff3366; /* Color rosa/rojo que destaca */
+      color: #ff3366;
       font-weight: 800;
     }
   }
@@ -271,38 +271,6 @@
   box-sizing: border-box;
 }
 
-/* BOTONES DE EXPORTACIÓN */
-.export-buttons {
-  display: flex;
-  justify-content: center;
-  gap: 5px;
-  padding: 4px;
-  border-top: 1px solid #ddd;
-  margin-top: 3px;
-  height: auto;
-  align-items: center;
-  box-sizing: border-box;
-  
-  .export-btn {
-    padding: 4px 8px;
-    background-color: #2c3e50;
-    color: white;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    gap: 4px;
-    font-weight: 600;
-    font-family: Arial, sans-serif;
-    font-size: 12px !important;
-    
-    &:hover {
-      background-color: #1a252f;
-    }
-  }
-}
-
 /* VISTA DE IMPRESIÓN EXACTA */
 .print-container {
   position: absolute;
@@ -339,7 +307,7 @@
     font-size: 18px !important;
     
     .tono-destacado {
-      color: #ff3366; /* Mismo color destacado para impresión */
+      color: #ff3366;
       font-weight: 800;
     }
   }
@@ -383,10 +351,6 @@
     height: 297mm !important;
     margin: 0 !important;
     padding: 0 !important;
-  }
-  
-  .export-buttons {
-    display: none !important;
   }
   
   .fullscreen-toggle {

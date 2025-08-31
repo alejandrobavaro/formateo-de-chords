@@ -1,14 +1,11 @@
-import React, { useRef, useState, useEffect, useCallback } from 'react';
-import { BsDownload, BsPrinter, BsArrowsFullscreen, BsFullscreenExit } from "react-icons/bs";
-import html2canvas from "html2canvas";
-import jsPDF from "jspdf";
+import React, { useRef, useState, useEffect } from 'react';
+import { BsArrowsFullscreen, BsFullscreenExit } from "react-icons/bs";
 import "../../assets/scss/_03-Componentes/ChordsViewer/_SongViewer.scss";
 
-const SongViewer = ({ song, transposition, showA4Outline, fullscreenMode }) => {
-  const printViewRef = useRef(null);
+const SongViewer = ({ song, transposition, showA4Outline, fullscreenMode, printViewRef }) => {
   const viewerRef = useRef(null);
   const [contentScale, setContentScale] = useState(1);
-  const [autoFontSize, setAutoFontSize] = useState(16); // Empezar en 16px
+  const [autoFontSize, setAutoFontSize] = useState(16);
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [columns, setColumns] = useState([[], []]);
   
@@ -58,67 +55,14 @@ const SongViewer = ({ song, transposition, showA4Outline, fullscreenMode }) => {
     return chords[newChordIndex] + modifier;
   };
 
-  // Funciones de exportación
-  const handleExportPDF = async () => {
-    const element = printViewRef.current;
-    if (!element) return;
-    
-    const pdf = new jsPDF("p", "mm", "a4");
-    
-    try {
-      const canvas = await html2canvas(element, { 
-        scale: 2,
-        useCORS: true,
-        logging: false,
-        backgroundColor: '#ffffff'
-      });
-      
-      const imgData = canvas.toDataURL("image/jpeg", 0.95);
-      const pdfWidth = pdf.internal.pageSize.getWidth();
-      const pdfHeight = pdf.internal.pageSize.getHeight();
-
-      pdf.addImage(imgData, "JPEG", 0, 0, pdfWidth, pdfHeight);
-      pdf.save(`${song.artist} - ${song.title}.pdf`);
-    } catch (error) {
-      console.error('Error exporting PDF:', error);
-    }
-  };
-
-  const handleExportJPG = async () => {
-    const element = printViewRef.current;
-    if (!element) return;
-    
-    try {
-      const canvas = await html2canvas(element, { 
-        scale: 2,
-        useCORS: true,
-        logging: false,
-        backgroundColor: '#ffffff'
-      });
-      
-      const imgData = canvas.toDataURL("image/jpeg", 0.95);
-      const link = document.createElement("a");
-      link.href = imgData;
-      link.download = `${song.artist} - ${song.title}.jpg`;
-      link.click();
-    } catch (error) {
-      console.error('Error exporting JPG:', error);
-    }
-  };
-
-  const handlePrint = () => {
-    window.print();
-  };
-
   // Algoritmo automático de ajuste de tamaño
   useEffect(() => {
     const adjustFontSizeAutomatically = () => {
       if (!song || !song.content) return;
       
-      const fontSizesToTry = [16, 15, 14, 13, 12]; // Orden de tamaños a probar
-      let optimalFontSize = 12; // Tamaño mínimo por defecto
+      const fontSizesToTry = [16, 15, 14, 13, 12];
+      let optimalFontSize = 12;
       
-      // Función para calcular altura aproximada del contenido
       const calculateContentHeight = (content, testFontSize) => {
         if (!content) return 0;
         
@@ -150,24 +94,19 @@ const SongViewer = ({ song, transposition, showA4Outline, fullscreenMode }) => {
         return totalHeight;
       };
       
-      // Probar cada tamaño de fuente hasta encontrar el óptimo
       for (const fontSize of fontSizesToTry) {
         const contentHeight = calculateContentHeight(song.content, fontSize);
-        
-        // Si el contenido cabe en la altura máxima (270mm para A4)
         if (contentHeight <= 270) {
           optimalFontSize = fontSize;
-          break; // Usar el primer tamaño que quepa
+          break;
         }
       }
       
       setAutoFontSize(optimalFontSize);
       
-      // Balancear columnas
       const balancedColumns = balanceColumns(song.content);
       setColumns(balancedColumns);
       
-      // Ajustar escala para vista de impresión
       const content = printViewRef.current;
       if (!content) return;
       
@@ -179,13 +118,12 @@ const SongViewer = ({ song, transposition, showA4Outline, fullscreenMode }) => {
     };
 
     adjustFontSizeAutomatically();
-  }, [song]);
+  }, [song, printViewRef]);
 
   // Función para balancear columnas
   const balanceColumns = (content) => {
     if (!content || content.length === 0) return [[], []];
     
-    // Calcular pesos aproximados de cada elemento
     const elementWeights = content.map(item => {
       if (item.type === "section") return 3;
       if (item.type === "voice") return item.lines ? item.lines.length + 2 : 2;
@@ -204,12 +142,10 @@ const SongViewer = ({ song, transposition, showA4Outline, fullscreenMode }) => {
     let currentWeight = 0;
     let splitIndex = 0;
     
-    // Encontrar el mejor punto de división
     for (let i = 0; i < elementWeights.length; i++) {
       currentWeight += elementWeights[i];
       
       if (currentWeight >= targetWeight) {
-        // Preferir dividir en límites naturales (secciones o voces)
         if (i < content.length - 1 && 
             (content[i + 1].type === "section" || content[i + 1].type === "voice")) {
           splitIndex = i + 1;
@@ -417,18 +353,6 @@ const SongViewer = ({ song, transposition, showA4Outline, fullscreenMode }) => {
             {secondColumn && renderContent(secondColumn)}
           </div>
         </div>
-      </div>
-
-      <div className="export-buttons">
-        <button onClick={handleExportPDF} className="export-btn">
-          <BsDownload /> PDF
-        </button>
-        <button onClick={handleExportJPG} className="export-btn">
-          <BsDownload /> JPG
-        </button>
-        <button onClick={handlePrint} className="export-btn">
-          <BsPrinter /> Imprimir
-        </button>
       </div>
     </div>
   );
