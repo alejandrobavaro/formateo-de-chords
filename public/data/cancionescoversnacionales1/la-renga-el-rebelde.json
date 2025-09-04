@@ -1,0 +1,807 @@
+{
+    "id": "la-renga-el-rebelde",
+    "title": "El Rebelde",
+    "artist": "La Renga",
+    "originalKey": "E",
+    "tempo": "Moderato",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "ESTROFA 1",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "Soy el que nunca aprendió,"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "desde que nació"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "lyric",
+                "content": "cómo debe vivir el humano,"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "lyric",
+                "content": "llegué tarde,"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "al sistema, ya estaba enchufado,"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "así funcionando."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 2",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "Siempre que haya reunión,"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "será mi opinión"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "lyric",
+                "content": "la que en familia desate"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "lyric",
+                "content": "algún bardo"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "no puedo acotar, está siempre mal"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "la vida que amo."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "Caminito al costado del mundo,"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "por ahí he de andar"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "lyric",
+                "content": "buscándome un rumbo,"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "lyric",
+                "content": "ser socio de esta sociedad"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "me puede matar."
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 3",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "Y me gusta el rock, el maldito rock"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "lyric",
+                "content": "siempre me lleva el diablo,"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "lyric",
+                "content": "no tengo religión"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "quizá éste no era mi lugar,"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "pero tuve que nacer igual."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 4",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "No me convence ningún tipo de política"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "lyric",
+                "content": "ni el demócrata, ni el fascista"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "porque me tocó ser así,"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "ni siquiera anarquista."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "Caminito al costado del mundo,"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "por ahí he de andar"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "lyric",
+                "content": "buscándome un rumbo,"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "lyric",
+                "content": "ser socio de esta sociedad"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "me puede matar."
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 5",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "Yo veo todo al revés, no veo como usted"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "lyric",
+                "content": "yo no veo justicia, sólo miseria y hambre"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "o será que soy yo que llevo la contra"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "como estandarte."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 6",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "Perdónenme pero soy así soy,"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "yo no sé por qué"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "lyric",
+                "content": "sé que hay otros también,"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "lyric",
+                "content": "es que alguien debía de serlo,"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "que prefiera la rebelión,"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "a vivir padeciendo."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (FINAL)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "Caminito al costado del mundo,"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "por ahí he de andar"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "lyric",
+                "content": "buscándome un rumbo,"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "lyric",
+                "content": "ser socio de esta sociedad"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "me puede matar."
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "content": "(Repetir 2 veces)"
+          }
+        ]
+      }
+    ]
+  }
+  

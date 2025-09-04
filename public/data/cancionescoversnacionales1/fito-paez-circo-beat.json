@@ -1,0 +1,711 @@
+{
+    "id": "fito-paez-circo-beat",
+    "title": "Circo Beat",
+    "artist": "Fito Páez",
+    "originalKey": "Bm",
+    "tempo": "Moderato",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "ESTROFA 1",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Bm7"
+              },
+              {
+                "type": "lyric",
+                "content": "Psicodélica star de la mística de los pobres"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F#m7"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Em7"
+              },
+              {
+                "type": "lyric",
+                "content": "de misterio, de amor, de dinero y soledad."
+              },
+              {
+                "type": "chord",
+                "content": "F#7"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "Bm7"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Bm7"
+              },
+              {
+                "type": "lyric",
+                "content": "Yo no vine hasta acá,"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F#m7"
+              },
+              {
+                "type": "lyric",
+                "content": "a ayudarte buscando cobre"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Em7"
+              },
+              {
+                "type": "lyric",
+                "content": "mi pasado es real"
+              },
+              {
+                "type": "chord",
+                "content": "F#7"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "Bm7"
+              },
+              {
+                "type": "lyric",
+                "content": "y el futuro libertad."
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Un circo vi, un circo vi,"
+          },
+          {
+            "type": "chords",
+            "content": ["Am7"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["Em7", "G", "D", "Dsus4-D"]
+          },
+          {
+            "type": "lyric",
+            "content": "cuando yo era pibe algún circo vi."
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Un circo vi, un circo vi,"
+          },
+          {
+            "type": "chords",
+            "content": ["Am7"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["Em7", "G", "D", "Dsus4-D"]
+          },
+          {
+            "type": "lyric",
+            "content": "no pasaba nada pero un circo vi."
+          },
+          {
+            "type": "chords",
+            "content": ["F#", "F#7/A#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Circo Beat... oh..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 2",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Bm7"
+              },
+              {
+                "type": "lyric",
+                "content": "Casi todos tendrán un instante"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F#m7"
+              },
+              {
+                "type": "lyric",
+                "content": "su touch de gloria,"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Em7"
+              },
+              {
+                "type": "lyric",
+                "content": "llegaremos en jeep,"
+              },
+              {
+                "type": "chord",
+                "content": "F#7"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "Bm7"
+              },
+              {
+                "type": "lyric",
+                "content": "llegaremos a la ciudad."
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Bm7"
+              },
+              {
+                "type": "lyric",
+                "content": "No me gusta cantar,"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F#m7"
+              },
+              {
+                "type": "lyric",
+                "content": "yo me muero con Gena Rowlands"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Em7"
+              },
+              {
+                "type": "lyric",
+                "content": "y los monos están devastando este lugar."
+              },
+              {
+                "type": "chord",
+                "content": "F#7"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "Bm7"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Un circo vi, un circo vi,"
+          },
+          {
+            "type": "chords",
+            "content": ["Am7"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["Em7", "G", "D", "Dsus4-D"]
+          },
+          {
+            "type": "lyric",
+            "content": "cuando yo era pibe algún circo vi."
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Un circo vi, un circo vi,"
+          },
+          {
+            "type": "chords",
+            "content": ["Am7"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["Em7", "G", "D", "Dsus4-D"]
+          },
+          {
+            "type": "lyric",
+            "content": "no pasaba nada pero un circo vi."
+          },
+          {
+            "type": "chords",
+            "content": ["F#", "F#7/A#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Circo Beat... oh..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Bm7", "F#m7", "Em7", "F#7", "Bm7"]
+          },
+          {
+            "type": "text",
+            "content": "(Repetir 2 veces)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Un circo vi, un circo vi,"
+          },
+          {
+            "type": "chords",
+            "content": ["Am7"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["Em7", "G", "D", "Dsus4-D"]
+          },
+          {
+            "type": "lyric",
+            "content": "cuando yo era pibe algún circo vi."
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Un circo vi, un circo vi,"
+          },
+          {
+            "type": "chords",
+            "content": ["Am7"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["Em7", "G", "D", "Dsus4-D"]
+          },
+          {
+            "type": "lyric",
+            "content": "no pasaba nada pero un circo vi."
+          },
+          {
+            "type": "chords",
+            "content": ["F#", "F#7/A#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Circo Beat... oh..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 3",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Bm7"
+              },
+              {
+                "type": "lyric",
+                "content": "Psicodélica star de la mística de los pobres"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F#m7"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Em7"
+              },
+              {
+                "type": "lyric",
+                "content": "de misterio, de amor, de dinero y soledad."
+              },
+              {
+                "type": "chord",
+                "content": "F#7"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "Bm7"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Em7"
+              },
+              {
+                "type": "lyric",
+                "content": "Y los monos están devastando este lugar,"
+              },
+              {
+                "type": "chord",
+                "content": "F#7"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "Bm7"
+              },
+              {
+                "type": "lyric",
+                "content": "llegaremos en jeep,"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Em7"
+              },
+              {
+                "type": "lyric",
+                "content": "llegaremos a la ciudad."
+              },
+              {
+                "type": "chord",
+                "content": "F#7"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "Bm7"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Un circo vi, un circo vi,"
+          },
+          {
+            "type": "chords",
+            "content": ["Am7"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["Em7", "G", "D", "Dsus4-D"]
+          },
+          {
+            "type": "lyric",
+            "content": "cuando yo era pibe algún circo vi."
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Un circo vi, un circo vi,"
+          },
+          {
+            "type": "chords",
+            "content": ["Am7"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["Em7", "G", "D", "Dsus4-D"]
+          },
+          {
+            "type": "lyric",
+            "content": "no pasaba nada pero un circo vi."
+          },
+          {
+            "type": "chords",
+            "content": ["F#", "F#7/A#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Circo Beat... oh..."
+          },
+          {
+            "type": "chords",
+            "content": ["Bm7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Circo Beat, Circo Beat,"
+          },
+          {
+            "type": "chords",
+            "content": ["Bm7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Circo Beat, Circo Beat..."
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,762 @@
+{
+    "id": "gustavo-cerati-crimen",
+    "title": "Crimen",
+    "artist": "Gustavo Cerati",
+    "originalKey": "E",
+    "tempo": "Moderato",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "ESTROFA 1",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "La espera me agotó"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G#m"
+              },
+              {
+                "type": "lyric",
+                "content": "no sé nada de vos"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F#m"
+              },
+              {
+                "type": "lyric",
+                "content": "dejaste tanto en mí."
+              },
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 2",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "En llamas me acosté"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G#m"
+              },
+              {
+                "type": "lyric",
+                "content": "en un lento degradé"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F#m"
+              },
+              {
+                "type": "lyric",
+                "content": "supe que te perdí."
+              },
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F#m"
+              },
+              {
+                "type": "lyric",
+                "content": "¿Qué otra cosa puedo hacer"
+              },
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C#m"
+              },
+              {
+                "type": "lyric",
+                "content": "sin olvido moriré"
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "B6"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F#m"
+              },
+              {
+                "type": "lyric",
+                "content": "y otro crimen quedará"
+              },
+              {
+                "type": "chord",
+                "content": "G#m"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F#m"
+              },
+              {
+                "type": "lyric",
+                "content": "otro crimen quedará sin resolver."
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 3",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "Una rápida traición"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G#m"
+              },
+              {
+                "type": "lyric",
+                "content": "salimos del amor"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F#m"
+              },
+              {
+                "type": "lyric",
+                "content": "tal vez me lo busqué."
+              },
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 4",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "Mi ego va a estallar"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G#m"
+              },
+              {
+                "type": "lyric",
+                "content": "ahí donde no estás"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F#m"
+              },
+              {
+                "type": "lyric",
+                "content": "los celos otra vez."
+              },
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F#m"
+              },
+              {
+                "type": "lyric",
+                "content": "¿Qué otra cosa puedo hacer"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C#m"
+              },
+              {
+                "type": "lyric",
+                "content": "sin olvido moriré"
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "C#m"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F#"
+              },
+              {
+                "type": "lyric",
+                "content": "y otro crimen quedará"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "sin resolver."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PUENTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "A", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Uh uh uh uh uh uh uh"
+          },
+          {
+            "type": "chords",
+            "content": ["E", "A", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Uh uh uh uh uh uh uh"
+          },
+          {
+            "type": "chords",
+            "content": ["E/G#", "A", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Uh uh uh uh uh uh uh"
+          },
+          {
+            "type": "chords",
+            "content": ["C#m", "Am", "C#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "Ahhhhhhhhhhhhh ahhhh ahhh…"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "BIS",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "A", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "No lo sé."
+          },
+          {
+            "type": "chords",
+            "content": ["E", "A", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "¿Cuánto falta? No lo sé."
+          },
+          {
+            "type": "chords",
+            "content": ["E/G#", "A", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Si es muy tarde, no lo sé."
+          },
+          {
+            "type": "chords",
+            "content": ["C#m", "Am", "C#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "Si no olvido, moriré."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F#"
+              },
+              {
+                "type": "lyric",
+                "content": "¿Qué otra cosa puedo hacer"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F#"
+              },
+              {
+                "type": "lyric",
+                "content": "¿Qué otra cosa puedo hacer"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F#"
+              },
+              {
+                "type": "lyric",
+                "content": "Ahora sé lo que es…"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F#"
+              },
+              {
+                "type": "lyric",
+                "content": "Es perder, ahhhh uhhhh…"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["B", "F#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "y otro crimen quedará"
+          },
+          {
+            "type": "chords",
+            "content": ["B", "F#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "otro crimen quedará"
+          },
+          {
+            "type": "chords",
+            "content": ["E"]
+          },
+          {
+            "type": "lyric",
+            "content": "sin resolver…"
+          }
+        ]
+      }
+    ]
+  }
+  

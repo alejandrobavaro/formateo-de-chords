@@ -1,0 +1,697 @@
+{
+    "id": "soda-stereo-un-misil-en-mi-placard",
+    "title": "Un Misil en Mi Placard",
+    "artist": "Soda Stereo",
+    "originalKey": "A",
+    "tempo": "Moderato",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A9/F#", "A7/4", "A6+/9", "Em7+"]
+          },
+          {
+            "type": "text",
+            "content": "(Repetir 3 veces)"
+          },
+          {
+            "type": "chords",
+            "content": ["A9/F#", "A7/4", "Bm", "E"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 1",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A9/F#"
+              },
+              {
+                "type": "lyric",
+                "content": "Refugiados sobre el diván"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A7/4"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "A6+/9"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "Em7"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A9/F#"
+              },
+              {
+                "type": "lyric",
+                "content": "Agitados por nuestras formas."
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A7/4"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "A6+/9"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "Em7"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A9/F#"
+              },
+              {
+                "type": "lyric",
+                "content": "Algo ocurrió, una extraña sensación"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A7/4"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "A6+/9"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "Em7"
+              },
+              {
+                "type": "lyric",
+                "content": "un presentimiento."
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A9/F#"
+              },
+              {
+                "type": "lyric",
+                "content": "Tuve que dejar de hacer el amor,"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A7/4"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "en el momento."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PAUSA",
+        "lines": [
+          {
+            "type": "text",
+            "content": "PAUSA"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 2",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A9/7"
+              },
+              {
+                "type": "lyric",
+                "content": "Fui en busca de un abrigo"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A7/4"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "A6+/9"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "Em7"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A9/7"
+              },
+              {
+                "type": "lyric",
+                "content": "Encendí un cigarrillo"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A7/4"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "A6+/9"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "Em7"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "Y ahí lo vi"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "un misil en mi placard"
+              },
+              {
+                "type": "chord",
+                "content": "F#m"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "mi placard"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "un modelo para armar,"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "lyric",
+                "content": "pero nunca para desarmar."
+              },
+              {
+                "type": "chord",
+                "content": "6ta al aire"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 3",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A9/F#"
+              },
+              {
+                "type": "lyric",
+                "content": "Te miré tristemente"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A7/4"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "A6+/9"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "Em7"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A9/F#"
+              },
+              {
+                "type": "lyric",
+                "content": "no hay más tiempo que perder"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A7/4"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "A6+/9"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "Em7"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "Estaba ahí"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "un misil en mi placard"
+              },
+              {
+                "type": "chord",
+                "content": "F#m"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "mi placard"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "un modelo para armar,"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "lyric",
+                "content": "pero nunca para desarmar."
+              },
+              {
+                "type": "chord",
+                "content": "6ta al aire"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "BIS FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A9*", "B4*", "A9*", "G6"]
+          },
+          {
+            "type": "lyric",
+            "content": "Aquí también,"
+          },
+          {
+            "type": "chords",
+            "content": ["B4*", "A4*", "G6"]
+          },
+          {
+            "type": "lyric",
+            "content": "o creías que estabas lejos,"
+          },
+          {
+            "type": "chords",
+            "content": ["A9*", "B4*", "A9*", "G6"]
+          },
+          {
+            "type": "lyric",
+            "content": "también"
+          },
+          {
+            "type": "chords",
+            "content": ["B4*", "A4*"]
+          },
+          {
+            "type": "lyric",
+            "content": "o creías que estabas lejos"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D9", "Em7"]
+          },
+          {
+            "type": "text",
+            "content": "(Repetir varias veces)"
+          }
+        ]
+      }
+    ]
+  }
+  

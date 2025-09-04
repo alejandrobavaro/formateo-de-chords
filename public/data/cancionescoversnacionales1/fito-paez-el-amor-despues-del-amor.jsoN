@@ -1,0 +1,599 @@
+{
+  "id": "fito-paez-el-amor-despues-del-amor",
+  "title": "El Amor Después del Amor",
+  "artist": "Fito Páez",
+  "originalKey": "G",
+  "tempo": "Moderato",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "ESTROFA 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "El amor después del amor, tal vez,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "se parezca a este rayo del sol,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "Y ahora que busqué"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "y ahora que encontré"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "el perfume que lleva al dolor."
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A7", "D7"]
+        },
+        {
+          "type": "lyric",
+          "content": "En la esencia de las almas,"
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "A7"]
+        },
+        {
+          "type": "lyric",
+          "content": "en la ausencia del dolor."
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Para mí que es el amor"
+        },
+        {
+          "type": "chords",
+          "content": ["D7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A7"]
+        },
+        {
+          "type": "lyric",
+          "content": "después de amor."
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTROFA 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "Me hice fuerte ahí, donde nunca vi,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "nadie puede decirme quién soy"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "yo lo sé muy bien,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "porque aprendí a querer"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "el perfume que lleva al dolor."
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A7", "D7"]
+        },
+        {
+          "type": "lyric",
+          "content": "En la esencia de las almas,"
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "A7"]
+        },
+        {
+          "type": "lyric",
+          "content": "dice toda religión,"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "ahora sé que ya no puedo"
+        },
+        {
+          "type": "chords",
+          "content": ["D7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A7"]
+        },
+        {
+          "type": "lyric",
+          "content": "vivir sin tu amor."
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BIS",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "Nadie puede y nadie debe"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "vivir, vivir sin amor,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "nadie puede y nadie debe"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "vivir, vivir sin amor."
+            },
+            {
+              "type": "chord",
+              "content": "D7"
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "Una llave con otra llave"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "y esa llave es mi amor"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "una llave con otra llave"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "y esa llave es mi amor."
+            },
+            {
+              "type": "chord",
+              "content": "D7"
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTROFA 1 (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "El amor después del amor, tal vez,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "se parezca a este rayo del sol,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "Y ahora que busqué"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "y ahora que encontré"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "el perfume que lleva al dolor."
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A7", "D7"]
+        },
+        {
+          "type": "lyric",
+          "content": "En la esencia de las almas,"
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "A7"]
+        },
+        {
+          "type": "lyric",
+          "content": "dice toda religión,"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "ahora sé que es el amor"
+        },
+        {
+          "type": "chords",
+          "content": ["D7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A7"]
+        },
+        {
+          "type": "lyric",
+          "content": "después del amor."
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        }
+      ]
+    }
+  ]
+}

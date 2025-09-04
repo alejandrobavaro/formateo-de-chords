@@ -1,10 +1,12 @@
+// ======================================================
+// IMPORTACIONES
+// ======================================================
 import React from "react";
-import { BsDownload, BsPrinter } from "react-icons/bs";
+import { BsPrinter, BsFiletypePdf, BsFiletypeJpg } from "react-icons/bs";
+import { MdMusicNote, MdOutlinePictureAsPdf, MdImage } from "react-icons/md";
 import "../../assets/scss/_03-Componentes/ChordsViewer/_Controls.scss";
 
 const Controls = ({
-  fontSize,
-  setFontSize,
   transposition,
   setTransposition,
   showA4Outline,
@@ -15,93 +17,78 @@ const Controls = ({
   hasSelectedSong
 }) => {
   return (
-    <div className="controls-unificado">
-      {/* Grupo de transposición */}
-      <div className="control-group">
-        <label>Transposición</label>
-        <div className="btn-group">
+    <div className="controls-excel-compact">
+      
+      {/* Transposición compacta - Control de semitonos */}
+      <div className="control-group-micro" title="Transposición de acordes">
+        <span className="micro-label">
+          <MdMusicNote size={10} />
+        </span>
+        <div className="btn-group-micro">
           <button
             onClick={() => setTransposition(transposition - 1)}
-            className="control-btn"
+            className="micro-btn"
             disabled={!hasSelectedSong}
+            title="Bajar semitono (-1)"
           >
             -
           </button>
-          <span className="transposition-value">
-            {transposition > 0 ? "+" : ""}
-            {transposition}
+          <span className="micro-value">
+            {transposition > 0 ? "+" : ""}{transposition}
           </span>
           <button
             onClick={() => setTransposition(transposition + 1)}
-            className="control-btn"
+            className="micro-btn"
             disabled={!hasSelectedSong}
+            title="Subir semitono (+1)"
           >
             +
-          </button>
-          <button
-            onClick={() => setTransposition(0)}
-            className="control-btn reset"
-            disabled={!hasSelectedSong}
-          >
-            R
           </button>
         </div>
       </div>
 
-      {/* Grupo de tamaño de fuente */}
-      <div className="control-group">
-        <label>Tamaño</label>
-        <input
-          type="range"
-          min="12"
-          max="28"
-          value={fontSize}
-          onChange={(e) => setFontSize(Number(e.target.value))}
-          className="font-size-slider"
-          disabled={!hasSelectedSong}
-        />
-        <span className="font-size-value">{fontSize}px</span>
+      {/* Checkbox A4 micro - Visualización de bordes A4 */}
+      <div className="control-group-micro" title="Mostrar/ocultar bordes A4">
+        <span className="micro-label">A4</span>
+        <label className="micro-checkbox-container">
+          <input
+            type="checkbox"
+            checked={showA4Outline}
+            onChange={() => setShowA4Outline(!showA4Outline)}
+            className="micro-checkbox"
+            disabled={!hasSelectedSong}
+          />
+          <span className="micro-checkbox-custom"></span>
+        </label>
       </div>
 
-      {/* Grupo de bordes */}
-      <div className="control-group toggle-group">
-        <label>Bordes A4</label>
-        <input
-          type="checkbox"
-          checked={showA4Outline}
-          onChange={() => setShowA4Outline(!showA4Outline)}
-          className="a4-toggle"
-          disabled={!hasSelectedSong}
-        />
-      </div>
-
-      {/* BOTONES DE EXPORTACIÓN */}
-      <div className="control-group export-group">
-        <label>Exportar</label>
-        <div className="export-buttons">
+      {/* Exportación compacta - Botones de exportación e impresión */}
+      <div className="control-group-micro" title="Opciones de exportación">
+        <span className="micro-label">Exp</span>
+        <div className="export-group-micro">
           <button 
             onClick={onExportPDF} 
-            className="export-btn" 
-            title="Exportar PDF"
+            className="micro-export-btn pdf-btn" 
+            title="Exportar a PDF"
             disabled={!hasSelectedSong}
           >
-            <BsDownload /> PDF
+            <BsFiletypePdf size={10} />
           </button>
           <button 
             onClick={onExportJPG} 
-            className="export-btn" 
-            title="Exportar JPG"
+            className="micro-export-btn jpg-btn" 
+            title="Exportar a JPG"
             disabled={!hasSelectedSong}
           >
-            <BsDownload /> JPG
+            <MdImage size={10} />
           </button>
           <button 
             onClick={onPrint} 
-            className="export-btn" 
-            title="Imprimir"
+            className="micro-export-btn print-btn" 
+            title="Imprimir canción"
             disabled={!hasSelectedSong}
           >
-            <BsPrinter />
+            <BsPrinter size={10} />
           </button>
         </div>
       </div>

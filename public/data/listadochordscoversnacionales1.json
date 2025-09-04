@@ -1,33 +1,242 @@
 {
-    "songs": [
-      {
-        "id": "andres-calamaro-10-anos-despues",
-        "title": "10 Años Después",
-        "artist": "Andrés Calamaro",
-        "file": "andres-calamaro-10-anos-despues.json",
-        "key": "A"
-      },
-      {
-        "id": "andres-calamaro-alta-suciedad",
-        "title": "Alta Suciedad",
-        "artist": "Andrés Calamaro",
-        "file": "andres-calamaro-alta-suciedad.json",
-        "key": "G"
-      },
-      {
-        "id": "andres-calamaro-brindo",
-        "title": "Brindo",
-        "artist": "Andrés Calamaro",
-        "file": "andres-calamaro-brindo.json",
-        "key": "G"
-      },
-      {
-        "id": "ataque-77-arranca-corazones",
-        "title": "Arranca Corazones",
-        "artist": "Ataque 77",
-        "file": "ataque-77-arranca-corazones.json",
-        "key": "G"
-      }
-    ]
-  }
-  
+  "songs": [
+    {
+      "id": "andres-calamaro-10-anos-despues",
+      "title": "10 Años Después",
+      "artist": "Andrés Calamaro",
+      "file": "andres-calamaro-10-anos-despues.json",
+      "key": "A"
+    },
+    {
+      "id": "andres-calamaro-alta-suciedad",
+      "title": "Alta Suciedad",
+      "artist": "Andrés Calamaro",
+      "file": "andres-calamaro-alta-suciedad.json",
+      "key": "G"
+    },
+    {
+      "id": "andres-calamaro-brindo",
+      "title": "Brindo",
+      "artist": "Andrés Calamaro",
+      "file": "andres-calamaro-brindo.json",
+      "key": "F"
+    },
+    {
+      "id": "ataque-77-arranca-corazones",
+      "title": "Arranca Corazones",
+      "artist": "Ataque 77",
+      "file": "ataque-77-arranca-corazones.json",
+      "key": "G"
+    },
+    {
+      "id": "ataque-77-chance",
+      "title": "Chance",
+      "artist": "Ataque 77",
+      "file": "ataque-77-chance.json",
+      "key": "E"
+    },
+    {
+      "id": "charly-garcia-seminare",
+      "title": "Seminare",
+      "artist": "Charly García",
+      "file": "charly-garcia-seminare.json",
+      "key": "G"
+    },
+    {
+      "id": "enanitos-verdes-ale-lerner-amigos",
+      "title": "Amigos",
+      "artist": "Enanitos Verdes & Ale Lerner",
+      "file": "enanitos-verdes-ale-lerner-amigos.json",
+      "key": "C"
+    },
+    {
+      "id": "enanitos-verdes-eterna-soledad",
+      "title": "Eterna Soledad",
+      "artist": "Enanitos Verdes",
+      "file": "enanitos-verdes-eterna-soledad.json",
+      "key": "C"
+    },
+    {
+      "id": "enanitos-verdes-igual-que-ayer",
+      "title": "Igual Que Ayer",
+      "artist": "Enanitos Verdes",
+      "file": "enanitos-verdes-igual-que-ayer.json",
+      "key": "G"
+    },
+    {
+      "id": "enanitos-verdes-lamento-boliviano",
+      "title": "Lamento Boliviano",
+      "artist": "Enanitos Verdes",
+      "file": "enanitos-verdes-lamento-boliviano.json",
+      "key": "Em"
+    },
+    {
+      "id": "enanitos-verdes-tu-carcel",
+      "title": "Tu Cárcel",
+      "artist": "Enanitos Verdes",
+      "file": "enanitos-verdes-tu-carcel.json",
+      "key": "D"
+    },
+    {
+      "id": "fabulosos-cadillacs-demasiada-presion",
+      "title": "Demasiada Presión",
+      "artist": "Los Fabulosos Cadillacs",
+      "file": "fabulosos-cadillacs-demasiada-presion.json",
+      "key": "Am"
+    },
+    {
+      "id": "fabulosos-cadillacs-leon-santillan",
+      "title": "El León Santillán",
+      "artist": "Los Fabulosos Cadillacs",
+      "file": "fabulosos-cadillacs-leon-santillan.json",
+      "key": "Gm"
+    },
+    {
+      "id": "fabulosos-cadillacs-mal-bicho",
+      "title": "Mal Bicho",
+      "artist": "Los Fabulosos Cadillacs",
+      "file": "fabulosos-cadillacs-mal-bicho.json",
+      "key": "Am"
+    },
+    {
+      "id": "fabulosos-cadillacs-matador",
+      "title": "Matador",
+      "artist": "Los Fabulosos Cadillacs",
+      "file": "fabulosos-cadillacs-matador.json",
+      "key": "Am"
+    },
+    {
+      "id": "fabulosos-cadillacs-vasos-vacios",
+      "title": "Vasos Vacíos",
+      "artist": "Los Fabulosos Cadillacs",
+      "file": "fabulosos-cadillacs-vasos-vacios.json",
+      "key": "G"
+    },
+    {
+      "id": "fito-paez-a-rodar-mi-vida",
+      "title": "A Rodar Mi Vida",
+      "artist": "Fito Páez",
+      "file": "fito-paez-a-rodar-mi-vida.json",
+      "key": "A"
+    },
+    {
+      "id": "fito-paez-circo-beat",
+      "title": "Circo Beat",
+      "artist": "Fito Páez",
+      "file": "fito-paez-circo-beat.json",
+      "key": "Bm"
+    },
+    {
+      "id": "fito-paez-el-amor-despues-del-amor",
+      "title": "El Amor Después del Amor",
+      "artist": "Fito Páez",
+      "file": "fito-paez-el-amor-despues-del-amor.json",
+      "key": "G"
+    },
+    {
+      "id": "gustavo-cerati-adios",
+      "title": "Adiós",
+      "artist": "Gustavo Cerati",
+      "file": "gustavo-cerati-adios.json",
+      "key": "Em"
+    },
+    {
+      "id": "gustavo-cerati-crimen",
+      "title": "Crimen",
+      "artist": "Gustavo Cerati",
+      "file": "gustavo-cerati-crimen.json",
+      "key": "E"
+    },
+    {
+      "id": "gustavo-cerati-el-mareo",
+      "title": "El Mareo",
+      "artist": "Gustavo Cerati",
+      "file": "gustavo-cerati-el-mareo.json",
+      "key": "Bm"
+    },
+    {
+      "id": "gustavo-cerati-la-excepcion",
+      "title": "La Excepción",
+      "artist": "Gustavo Cerati",
+      "file": "gustavo-cerati-la-excepcion.json",
+      "key": "B"
+    },
+    {
+      "id": "gustavo-cerati-puente",
+      "title": "Puente",
+      "artist": "Gustavo Cerati",
+      "file": "gustavo-cerati-puente.json",
+      "key": "F"
+    },
+    {
+      "id": "kapanga-el-mono-relojero",
+      "title": "El Mono Relojero",
+      "artist": "Kapanga",
+      "file": "kapanga-el-mono-relojero.json",
+      "key": "C"
+    },
+    {
+      "id": "kapanga-me-mata",
+      "title": "Me Mata",
+      "artist": "Kapanga",
+      "file": "kapanga-me-mata.json",
+      "key": "A"
+    },
+    {
+      "id": "la-ley-sin-dolor-no-te-haces-feliz",
+      "title": "Sin Dolor No Te Haces Feliz",
+      "artist": "La Ley",
+      "file": "la-ley-sin-dolor-no-te-haces-feliz.json",
+      "key": "C"
+    },
+    {
+      "id": "la-renga-el-rebelde",
+      "title": "El Rebelde",
+      "artist": "La Renga",
+      "file": "la-renga-el-rebelde.json",
+      "key": "E"
+    },
+    {
+      "id": "soda-estereo-de-musica-ligera",
+      "title": "De Música Ligera",
+      "artist": "Soda Stereo",
+      "file": "soda-estereo-de-musica-ligera.json",
+      "key": "Bm"
+    },
+    {
+      "id": "soda-stereo-profugos",
+      "title": "Prófugos",
+      "artist": "Soda Stereo",
+      "file": "soda-stereo-profugos.json",
+      "key": "G"
+    },
+    {
+      "id": "soda-stereo-un-misil-en-mi-placard",
+      "title": "Un Misil en mi Placard",
+      "artist": "Soda Stereo",
+      "file": "soda-stereo-un-misil-en-mi-placard.json",
+      "key": "A"
+    },
+    {
+      "id": "soda-stereo-zoom",
+      "title": "Zoom",
+      "artist": "Soda Stereo",
+      "file": "soda-stereo-zoom.json",
+      "key": "E"
+    },
+    {
+      "id": "viejas-locas-me-gustas-mucho",
+      "title": "Me Gustás Mucho",
+      "artist": "Viejas Locas",
+      "file": "viejas-locas-me-gustas-mucho.json",
+      "key": "E"
+    },
+    {
+      "id": "vilma-palma-e-vampiros-la-pachanga",
+      "title": "La Pachanga",
+      "artist": "Vilma Palma e Vampiros",
+      "file": "vilma-palma-e-vampiros-la-pachanga.json",
+      "key": "Am"
+    }
+  ]
+}

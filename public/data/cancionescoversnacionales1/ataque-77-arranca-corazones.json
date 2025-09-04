@@ -1,147 +1,429 @@
 {
-    "id": "ataque-77-arranca-corazones",
-    "title": "Arranca Corazones",
-    "artist": "Ataque 77",
-    "originalKey": "G",
-    "tempo": "Moderate",
-    "timeSignature": "4/4",
-    "content": [
-      {
-        "type": "section",
-        "name": "INTRO",
-        "lines": [
-          {
-            "type": "chords",
-            "content": ["G", "G"]
-          }
-        ]
-      },
-      {
-        "type": "section",
-        "name": "VERSO 1",
-        "lines": [
-          {
-            "type": "voice",
-            "name": "1º VOZ ALE",
-            "color": "ale",
-            "lines": [
-              {"type": "chord", "content": "G"},
-              {"type": "lyric", "content": "Evitar, resistir,"},
-              {"type": "chord", "content": "D/F#"},
-              {"type": "lyric", "content": "tu hechizo de suave adicción,"},
-              {"type": "chord", "content": "Em"},
-              {"type": "lyric", "content": "como si fuera fácil"},
-              {"type": "chord", "content": "Bm"},
-              {"type": "lyric", "content": "dominar mi sentir."},
-              {"type": "chord", "content": "Am"},
-              {"type": "lyric", "content": "Y saber que te vas,"},
-              {"type": "chord", "content": "D"},
-              {"type": "lyric", "content": "y saber que la abstinencia me puede,"},
-              {"type": "chord", "content": "Am"},
-              {"type": "lyric", "content": "todo se vuelve oscuro,"},
-              {"type": "chord", "content": "D"},
-              {"type": "lyric", "content": "y solo puedo decir."}
-            ]
-          }
-        ]
-      },
-      {
-        "type": "section",
-        "name": "ESTRIBILLO",
-        "lines": [
-          {
-            "type": "voice",
-            "name": "1º VOZ ALE",
-            "color": "ale",
-            "lines": [
-              {"type": "chord", "content": "G"},
-              {"type": "lyric", "content": "Más, dame un poco más,"},
-              {"type": "chord", "content": "Em"},
-              {"type": "lyric", "content": "quiero intoxicarme en vos,"},
-              {"type": "chord", "content": "Bm"},
-              {"type": "lyric", "content": "arranca corazones."},
-              {"type": "chord", "content": "D"},
-              {"type": "lyric", "content": "Hoy antes del final,"},
-              {"type": "chord", "content": "C"},
-              {"type": "lyric", "content": "quiero intoxicarme en vooos,"},
-              {"type": "chord", "content": "G"},
-              {"type": "lyric", "content": "arranca corazones,"},
-              {"type": "chord", "content": "Em"},
-              {"type": "lyric", "content": "dame tu droga."}
-            ]
-          }
-        ]
-      },
-      {
-        "type": "section",
-        "name": "VERSO 2",
-        "lines": [
-          {
-            "type": "voice",
-            "name": "1º VOZ ALE",
-            "color": "ale",
-            "lines": [
-              {"type": "chord", "content": "G"},
-              {"type": "lyric", "content": "Y pensar que una vez"},
-              {"type": "chord", "content": "D/F#"},
-              {"type": "lyric", "content": "me dijiste terminemos todoo,"},
-              {"type": "chord", "content": "Em"},
-              {"type": "lyric", "content": "mi vida es un desastre"},
-              {"type": "chord", "content": "Bm"},
-              {"type": "lyric", "content": "y no te quiero en él,"},
-              {"type": "chord", "content": "Am"},
-              {"type": "lyric", "content": "pero al fin te seguí"},
-              {"type": "chord", "content": "D"},
-              {"type": "lyric", "content": "por un laberinto de espejos rotos,"},
-              {"type": "chord", "content": "Am"},
-              {"type": "lyric", "content": "y aparecí en un barrio,"},
-              {"type": "chord", "content": "D"},
-              {"type": "lyric", "content": "del que no puedo salir."}
-            ]
-          }
-        ]
-      },
-      {
-        "type": "section",
-        "name": "CORTE / SOLO",
-        "lines": [
-          {
-            "type": "chords",
-            "content": ["G", "C", "D", "Am", "C", "Em"]
-          },
-          {
-            "type": "chords",
-            "content": ["G", "Em", "Bm", "D", "C"]
-          }
-        ]
-      },
-      {
-        "type": "section",
-        "name": "ESTRIBILLO FINAL",
-        "lines": [
-          {
-            "type": "voice",
-            "name": "1º VOZ ALE",
-            "color": "ale",
-            "lines": [
-              {"type": "chord", "content": "G"},
-              {"type": "lyric", "content": "Más, dame un poco más,"},
-              {"type": "chord", "content": "Em"},
-              {"type": "lyric", "content": "quiero intoxicarme en vos,"},
-              {"type": "chord", "content": "Bm"},
-              {"type": "lyric", "content": "arranca corazones."},
-              {"type": "chord", "content": "D"},
-              {"type": "lyric", "content": "Hoy antes del final,"},
-              {"type": "chord", "content": "C"},
-              {"type": "lyric", "content": "quiero intoxicarme en vooos,"},
-              {"type": "chord", "content": "G"},
-              {"type": "lyric", "content": "arranca corazones,"},
-              {"type": "chord", "content": "Em"},
-              {"type": "lyric", "content": "dame tu droga."}
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+  "id": "ataque-77-arranca-corazones",
+  "title": "Arranca Corazones",
+  "artist": "Ataque 77",
+  "originalKey": "G",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "G"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "Evitar, resistir,"
+            },
+            {
+              "type": "chord",
+              "content": "D/F#"
+            },
+            {
+              "type": "lyric",
+              "content": "tu hechizo de suave adicción,"
+            },
+            {
+              "type": "chord",
+              "content": "Em"
+            },
+            {
+              "type": "lyric",
+              "content": "como si fuera fácil"
+            },
+            {
+              "type": "chord",
+              "content": "Bm"
+            },
+            {
+              "type": "lyric",
+              "content": "dominar mi sentir."
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Am"
+            },
+            {
+              "type": "lyric",
+              "content": "Y saber que te vas,"
+            },
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "y saber que la abstinencia me puede,"
+            },
+            {
+              "type": "chord",
+              "content": "Am"
+            },
+            {
+              "type": "lyric",
+              "content": "todo se vuelve oscuro,"
+            },
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "y solo puedo decir."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "Más,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Em"
+            },
+            {
+              "type": "lyric",
+              "content": "dame un poco más,"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "quiero intoxicarme en vos,"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "arranca corazones."
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hoy antes del final,"
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "quiero intoxicarme"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Em"
+            },
+            {
+              "type": "lyric",
+              "content": "en vooos,"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "arranca corazones,"
+        },
+        {
+          "type": "chords",
+          "content": ["Em"]
+        },
+        {
+          "type": "lyric",
+          "content": "dame tu droga."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "Y pensar que una vez"
+            },
+            {
+              "type": "chord",
+              "content": "D/F#"
+            },
+            {
+              "type": "lyric",
+              "content": "me dijiste terminemos todoo,"
+            },
+            {
+              "type": "chord",
+              "content": "Em"
+            },
+            {
+              "type": "lyric",
+              "content": "mi vida es un desastre"
+            },
+            {
+              "type": "chord",
+              "content": "Bm"
+            },
+            {
+              "type": "lyric",
+              "content": "y no te quiero en él,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Am"
+            },
+            {
+              "type": "lyric",
+              "content": "pero al fin te seguí"
+            },
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "por un laberinto de espejos rotos,"
+            },
+            {
+              "type": "chord",
+              "content": "Am"
+            },
+            {
+              "type": "lyric",
+              "content": "y aparecí en un barrio,"
+            },
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "del que no puedo salir."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CORTE / SOLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "C", "D", "Am", "C", "Em"]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "Em", "Bm", "D", "C"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "Más,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Em"
+            },
+            {
+              "type": "lyric",
+              "content": "dame un poco más,"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "quiero intoxicarme en vos,"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "arranca corazones."
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hoy antes del final,"
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "quiero intoxicarme"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Em"
+            },
+            {
+              "type": "lyric",
+              "content": "en vooos,"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "arranca corazones,"
+        },
+        {
+          "type": "chords",
+          "content": ["Em"]
+        },
+        {
+          "type": "lyric",
+          "content": "dame tu droga."
+        }
+      ]
+    }
+  ]
+}

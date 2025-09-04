@@ -1,0 +1,924 @@
+{
+    "id": "soda-estereo-de-musica-ligera",
+    "title": "De Música Ligera",
+    "artist": "Soda Estereo",
+    "originalKey": "Bm",
+    "tempo": "Moderato",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Bm", "G", "D", "A"]
+          },
+          {
+            "type": "text",
+            "content": "(Repetir 6 veces)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRIMERA PARTE",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "lyric",
+                "content": "Ella durmió"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "al calor de las masas"
+              },
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "lyric",
+                "content": "Y yo desperté"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "queriendo soñarla"
+              },
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "lyric",
+                "content": "Algún tiempo atrás"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "pensé en escribirle"
+              },
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "lyric",
+                "content": "Y nunca salí"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "las trampas del amor"
+              },
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "lyric",
+                "content": "De aquel amor"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "de música ligera"
+              },
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "lyric",
+                "content": "Nada nos libra"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "nada más queda"
+              },
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Bm", "G", "D", "A"]
+          },
+          {
+            "type": "text",
+            "content": "(Repetir 4 veces)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SEGUNDA PARTE",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "lyric",
+                "content": "No le enviaré"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "cenizas de rosas"
+              },
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "lyric",
+                "content": "Ni pienso evitar"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "sus roces secretos"
+              },
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "lyric",
+                "content": "De aquel amor"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "de música ligera"
+              },
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "lyric",
+                "content": "Nada nos libra"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "nada más queda"
+              },
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["Bm", "G", "D", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "Nada más"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Bm", "G", "D", "A"]
+          },
+          {
+            "type": "text",
+            "content": "(Repetir 4 veces)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Bm", "G", "D", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "Nada más queda"
+          },
+          {
+            "type": "text",
+            "content": "(Repetir 4 veces)"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D"]
+          }
+        ]
+      }
+    ]
+  }
+  

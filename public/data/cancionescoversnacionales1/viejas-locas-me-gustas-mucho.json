@@ -1,0 +1,361 @@
+{
+    "id": "viejas-locas-me-gustas-mucho",
+    "title": "Me Gustas Mucho",
+    "artist": "Viejas Locas",
+    "originalKey": "E",
+    "tempo": "Moderato",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E5", "A5", "E5"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 1",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E5"
+              },
+              {
+                "type": "lyric",
+                "content": "Nos conocimos bailando en un bar"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E5"
+              },
+              {
+                "type": "lyric",
+                "content": "Tus piernas volaban, las sabías llevar"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E5"
+              },
+              {
+                "type": "lyric",
+                "content": "A mí me gustaba cómo las movías"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E5"
+              },
+              {
+                "type": "lyric",
+                "content": "Y juntos no fuimos a pernoctar."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A5"
+              },
+              {
+                "type": "lyric",
+                "content": "Es que me gustas mucho"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E5"
+              },
+              {
+                "type": "lyric",
+                "content": "Me gustas mucho"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A5"
+              },
+              {
+                "type": "lyric",
+                "content": "Me gustas mucho, nena"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "B5"
+              },
+              {
+                "type": "lyric",
+                "content": "Y será que me gustas tanto, debe ser que"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E5"
+              },
+              {
+                "type": "lyric",
+                "content": "No puedo disimular..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 2",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E5"
+              },
+              {
+                "type": "lyric",
+                "content": "Me gusta cómo te vestís y cómo andas"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E5"
+              },
+              {
+                "type": "lyric",
+                "content": "Me gusta tu pelo, tu cuerpo"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E5"
+              },
+              {
+                "type": "lyric",
+                "content": "Me gustaría poderte bañar"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E5"
+              },
+              {
+                "type": "lyric",
+                "content": "También secarte y volverte a enjuagar"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A5"
+              },
+              {
+                "type": "lyric",
+                "content": "Es que me gustas mucho"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E5"
+              },
+              {
+                "type": "lyric",
+                "content": "Me gustas mucho"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A5"
+              },
+              {
+                "type": "lyric",
+                "content": "Me gustas mucho, nena"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "B5"
+              },
+              {
+                "type": "lyric",
+                "content": "Y será que me gustas tanto, debe ser que"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E5"
+              },
+              {
+                "type": "lyric",
+                "content": "No puedo disimular..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "GUITARRA",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A5", "E5", "A5", "E5", "B5", "E5"]
+          },
+          {
+            "type": "text",
+            "content": "(Repetir 3 veces)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E5"]
+          },
+          {
+            "type": "lyric",
+            "content": "Me gustas mucho"
+          }
+        ]
+      }
+    ]
+  }
+  

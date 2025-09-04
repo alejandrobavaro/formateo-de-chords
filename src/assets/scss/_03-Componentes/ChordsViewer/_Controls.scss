@@ -1,210 +1,354 @@
 /* =============================================== */
-/* CONTROLS - Con botones de exportación añadidos */
+/* CONTROLS - ESTILOS MICRO COMPACTOS MEJORADOS */
 /* =============================================== */
 
-.controls-unificado {
+.controls-excel-compact {
   display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  background: rgba(255, 255, 255, 0.05);
-  border-radius: 12px;
-  border: 1px solid rgba(230, 57, 70, 0.4);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
-  margin: 0.5rem auto;
-}
-
-.control-group {
-  display: flex;
-  align-items: center;
   gap: 8px;
-  padding: 6px 10px;
-  background: rgba(255, 255, 255, 0.08);
-  border-radius: 8px;
-
-  label {
-    font-weight: 600;
-    color: #ffd166;
-    font-size: 12px;
-    white-space: nowrap;
-  }
-
-  &.toggle-group {
-    input {
-      width: 16px;
-      height: 16px;
-      cursor: pointer;
-      accent-color: #e63946;
-      
-      &:disabled {
-        opacity: 0.5;
-        cursor: not-allowed;
-      }
-    }
-  }
-
-  /* Grupo de exportación */
-  &.export-group {
-    .export-buttons {
-      display: flex;
-      gap: 4px;
-      
-      .export-btn {
-        padding: 4px 8px;
-        background-color: #2c3e50;
-        color: white;
-        border: none;
-        border-radius: 3px;
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-        gap: 4px;
-        font-weight: 600;
-        font-family: Arial, sans-serif;
-        font-size: 11px !important;
-        transition: all 0.2s ease;
-        
-        &:hover:not(:disabled) {
-          background-color: #1a252f;
-          transform: translateY(-1px);
-        }
-        
-        &:disabled {
-          opacity: 0.5;
-          cursor: not-allowed;
-        }
-        
-        svg {
-          font-size: 12px;
-        }
-      }
-    }
-  }
-}
-
-/* Slider de tamaño de fuente */
-.font-size-slider {
-  width: 80px;
-  height: 4px;
-  background: #444;
-  border-radius: 3px;
-  cursor: pointer;
-
-  &::-webkit-slider-thumb {
-    appearance: none;
-    width: 14px;
-    height: 14px;
-    border-radius: 50%;
-    background: #e63946;
-    cursor: pointer;
-  }
-
-  &::-moz-range-thumb {
-    width: 14px;
-    height: 14px;
-    border-radius: 50%;
-    background: #e63946;
-    border: none;
-    cursor: pointer;
-  }
-  
-  &:disabled {
-    opacity: 0.5;
-    cursor: not-allowed;
-    
-    &::-webkit-slider-thumb {
-      background: #666;
-    }
-    
-    &::-moz-range-thumb {
-      background: #666;
-    }
-  }
-}
-
-.font-size-value {
-  font-size: 12px;
-  color: #fff;
-}
-
-/* Botones */
-.btn-group {
-  display: flex;
-  gap: 4px;
-}
-
-.control-btn {
-  padding: 3px 6px;
-  background: linear-gradient(135deg, #e63946 0%, #c1121f 100%);
-  color: #fff;
-  border: none;
+  align-items: center;
+  padding: 6px;
+  background: linear-gradient(to bottom, #3a3a3a, #2a2a2a);
+  border: 1px solid #555;
   border-radius: 6px;
-  cursor: pointer;
-  font-weight: bold;
-  font-size: 12px;
-  min-width: 24px;
-  height: 24px;
+  margin: 6px 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.control-group-micro {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 8px;
+  background: linear-gradient(to bottom, #444, #333);
+  border: 1px solid #666;
+  border-radius: 4px;
+  min-height: 28px;
+  transition: all 0.2s ease;
+  
+  &:hover {
+    border-color: #777;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.micro-label {
+  font-size: 10px;
+  font-weight: 700;
+  color: #ffd166;
+  min-width: 14px;
+  text-align: center;
+  text-transform: uppercase;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: all 0.3s ease;
+}
+
+.btn-group-micro {
+  display: flex;
+  gap: 2px;
+  background: #2a2a2a;
+  border-radius: 3px;
+  padding: 2px;
+  border: 1px solid #555;
+}
+
+.micro-btn {
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  border: 1px solid #666;
+  background: linear-gradient(to bottom, #555, #444);
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  transition: all 0.15s ease;
 
   &:hover:not(:disabled) {
-    background: linear-gradient(135deg, #c1121f 0%, #e63946 100%);
+    background: linear-gradient(to bottom, #666, #555);
+    border-color: #3498db;
     transform: translateY(-1px);
-    box-shadow: 0 2px 6px rgba(230, 57, 70, 0.5);
+    box-shadow: 0 1px 3px rgba(52, 152, 219, 0.3);
   }
+
+  &:active:not(:disabled) {
+    transform: translateY(0);
+  }
+
+  &:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+    background: #444;
+  }
+}
+
+.micro-value {
+  font-size: 10px;
+  font-weight: 600;
+  color: #fff;
+  min-width: 20px;
+  text-align: center;
+  background: #2a2a2a;
+  padding: 2px 4px;
+  border-radius: 3px;
+  border: 1px solid #555;
+}
+
+/* Checkbox personalizado */
+.micro-checkbox-container {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.micro-checkbox {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
   
   &:disabled {
-    opacity: 0.5;
+    cursor: not-allowed;
+    
+    + .micro-checkbox-custom {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+  }
+}
+
+.micro-checkbox-custom {
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(to bottom, #555, #444);
+  border: 1px solid #666;
+  border-radius: 3px;
+  position: relative;
+  transition: all 0.2s ease;
+
+  &:hover {
+    border-color: #777;
+  }
+}
+
+.micro-checkbox:checked + .micro-checkbox-custom {
+  background: linear-gradient(to bottom, #27ae60, #219653);
+  border-color: #2ecc71;
+  
+  &::after {
+    content: "✓";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+  }
+}
+
+.export-group-micro {
+  display: flex;
+  gap: 3px;
+}
+
+.micro-export-btn {
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: 1px solid #666;
+  background: linear-gradient(to bottom, #555, #444);
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  transition: all 0.15s ease;
+
+  &:hover:not(:disabled) {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  &:active:not(:disabled) {
+    transform: translateY(0);
+  }
+
+  &:disabled {
+    opacity: 0.4;
     cursor: not-allowed;
   }
 
-  &.reset {
-    background: linear-gradient(135deg, #ff6b6b 0%, #d90429 100%);
+  svg {
+    width: 10px;
+    height: 10px;
   }
 }
 
-.transposition-value {
-  font-weight: 700;
-  min-width: 24px;
-  text-align: center;
-  color: #fff;
-  font-size: 12px;
+/* Estilos específicos para botones de exportación */
+.pdf-btn {
+  &:hover:not(:disabled) {
+    background: linear-gradient(to bottom, #e74c3c, #c0392b);
+    border-color: #e74c3c;
+  }
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-  .controls-unificado {
-    flex-direction: column;
+.jpg-btn {
+  &:hover:not(:disabled) {
+    background: linear-gradient(to bottom, #3498db, #2980b9);
+    border-color: #3498db;
+  }
+}
+
+.print-btn {
+  &:hover:not(:disabled) {
+    background: linear-gradient(to bottom, #95a5a6, #7f8c8d);
+    border-color: #95a5a6;
+  }
+}
+
+/* =============================================== */
+/* RESPONSIVE DESIGN */
+/* =============================================== */
+
+/* TABLET - ≥768px */
+@media (min-width: 768px) {
+  .controls-excel-compact {
     gap: 10px;
-    align-items: stretch;
+    padding: 8px;
   }
-
-  .control-group {
-    justify-content: space-between;
-    width: 100%;
+  
+  .control-group-micro {
+    gap: 8px;
+    padding: 6px 10px;
+  }
+  
+  .micro-btn {
+    width: 22px;
+    height: 22px;
+  }
+  
+  .micro-export-btn {
+    width: 26px;
+    height: 26px;
     
-    &.export-group {
-      .export-buttons {
-        justify-content: center;
-      }
+    svg {
+      width: 12px;
+      height: 12px;
     }
   }
 }
 
+/* ESCRITORIO - ≥1024px */
+@media (min-width: 1024px) {
+  .controls-excel-compact {
+    gap: 12px;
+    padding: 10px;
+  }
+  
+  .control-group-micro {
+    gap: 10px;
+    padding: 8px 12px;
+  }
+  
+  .micro-label {
+    font-size: 11px;
+    min-width: 16px;
+  }
+  
+  .micro-value {
+    font-size: 11px;
+    min-width: 24px;
+  }
+}
+
+/* MÓVIL PEQUEÑO - ≤480px */
 @media (max-width: 480px) {
-  .control-group.export-group {
-    .export-buttons {
-      flex-direction: column;
-      gap: 3px;
-      
-      .export-btn {
-        justify-content: center;
-        width: 100%;
-      }
+  .controls-excel-compact {
+    flex-wrap: wrap;
+    gap: 6px;
+    padding: 5px;
+  }
+  
+  .control-group-micro {
+    flex: 1;
+    min-width: auto;
+    justify-content: center;
+    padding: 4px 6px;
+  }
+  
+  .export-group-micro {
+    justify-content: center;
+  }
+}
+
+/* =============================================== */
+/* MODO OSCURO - Compatibilidad con preferencias del sistema */
+/* =============================================== */
+@media (prefers-color-scheme: dark) {
+  .controls-excel-compact {
+    background: linear-gradient(to bottom, #2a2a2a, #1a1a1a);
+    border-color: #444;
+  }
+
+  .control-group-micro {
+    background: linear-gradient(to bottom, #333, #222);
+    border-color: #555;
+  }
+
+  .micro-btn {
+    background: linear-gradient(to bottom, #444, #333);
+    border-color: #555;
+    
+    &:hover:not(:disabled) {
+      background: linear-gradient(to bottom, #555, #444);
     }
   }
+
+  .micro-export-btn {
+    background: linear-gradient(to bottom, #444, #333);
+    border-color: #555;
+    
+    &:hover:not(:disabled) {
+      background: linear-gradient(to bottom, #555, #444);
+    }
+  }
+  
+  .micro-value {
+    background: #1a1a1a;
+    border-color: #444;
+  }
+  
+  .btn-group-micro {
+    background: #1a1a1a;
+    border-color: #444;
+  }
+}
+
+/* =============================================== */
+/* ACCESIBILIDAD - Estados de foco */
+/* =============================================== */
+.micro-btn:focus,
+.micro-checkbox:focus + .micro-checkbox-custom,
+.micro-export-btn:focus {
+  outline: 2px solid #3498db;
+  outline-offset: 2px;
+}
+
+/* =============================================== */
+/* ANIMACIONES Y TRANSICIONES */
+/* =============================================== */
+.control-group-micro {
+  transition: all 0.2s ease;
+}
+
+.micro-btn,
+.micro-export-btn,
+.micro-checkbox-custom {
+  transition: all 0.15s ease;
 }

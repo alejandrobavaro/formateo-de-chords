@@ -1,0 +1,594 @@
+{
+    "id": "enanitos-verdes-eterna-soledad",
+    "title": "Eterna Soledad",
+    "artist": "Enanitos Verdes",
+    "originalKey": "C",
+    "tempo": "Moderato",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "F", "C", "F"]
+          },
+          {
+            "type": "text",
+            "content": "(Repetir 2 veces)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 1",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "Eterna soledad,"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "el tiempo danza en la madrugada"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "y no podes dormir"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "si están todas las luces apagadas."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "C", "F"]
+          },
+          {
+            "type": "lyric",
+            "content": "Ya se fue el tren,"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "Am", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "y esta calle nunca más será igual,"
+          },
+          {
+            "type": "chords",
+            "content": ["F", "G", "F"]
+          },
+          {
+            "type": "lyric",
+            "content": "aprendiste a tener miedo,"
+          },
+          {
+            "type": "chords",
+            "content": ["E", "Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "pero hay que correr el riesgo"
+          },
+          {
+            "type": "chords",
+            "content": ["F", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "de levantarse y seguir cayendo."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "F", "C", "F"]
+          },
+          {
+            "type": "text",
+            "content": "(Repetir 2 veces)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 2",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "No hay nada que perder,"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "cuando ya nada queda en el vaso"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "y no poder saber,"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "que fuerte es el poder de un abrazo."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "C", "F"]
+          },
+          {
+            "type": "lyric",
+            "content": "Ya se fue el tren,"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "Am", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "y esta calle nunca más será igual,"
+          },
+          {
+            "type": "chords",
+            "content": ["F", "G", "F"]
+          },
+          {
+            "type": "lyric",
+            "content": "aprendiste a tener miedo,"
+          },
+          {
+            "type": "chords",
+            "content": ["E", "Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "pero hay que correr el riesgo"
+          },
+          {
+            "type": "chords",
+            "content": ["F", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "de levantarse y seguir cayendo"
+          },
+          {
+            "type": "chords",
+            "content": ["E", "Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "pero hay que correr el riesgo"
+          },
+          {
+            "type": "chords",
+            "content": ["F", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "de levantarse y seguir cayendo."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "BIS",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": "Yo lo sé que nadie te dijo"
+              },
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "lyric",
+                "content": "para qué todos están aquí"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A#m"
+              },
+              {
+                "type": "lyric",
+                "content": "Yo sé la soledad,"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "te da un cierto confort,"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "no te deja mirar."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "Eterna Soledad..."
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "Eterna Soledad..."
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "sé que la gente busca tu consejo,"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "hay que correr el riesgo"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "de levantarse y seguir..."
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": "cayendo"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "pero hay que correr el riesgo"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": "de levantarse, y seguir..."
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "cayendo."
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,489 @@
+{
+    "id": "gustavo-cerati-puente",
+    "title": "Puente",
+    "artist": "Gustavo Cerati",
+    "originalKey": "F",
+    "tempo": "Moderato",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "ESTROFA 1",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "Hoy te busqué en la rima que duerme"
+              },
+              {
+                "type": "chord",
+                "content": "Cm"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "D#"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Cm"
+              },
+              {
+                "type": "lyric",
+                "content": "con todas las palabras"
+              },
+              {
+                "type": "chord",
+                "content": "D#"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "Si algo calle es porque entendí todo"
+              },
+              {
+                "type": "chord",
+                "content": "Cm"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "D#"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Cm"
+              },
+              {
+                "type": "lyric",
+                "content": "menos la distancia"
+              },
+              {
+                "type": "chord",
+                "content": "D#"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PUENTE 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Gm", "Eb", "Eb11(sin7)"]
+          },
+          {
+            "type": "lyric",
+            "content": "Desordené"
+          },
+          {
+            "type": "chords",
+            "content": ["Dm", "Db"]
+          },
+          {
+            "type": "lyric",
+            "content": "átomos tuyos"
+          },
+          {
+            "type": "chords",
+            "content": ["Cm", "F", "Eb-Eb/G"]
+          },
+          {
+            "type": "lyric",
+            "content": "para hacerte aparecer"
+          },
+          {
+            "type": "chords",
+            "content": ["Bb", "Dm/A", "Gm7", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "(un día más, un día más...)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 2",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "Arriba el sol, abajo el reflejo"
+              },
+              {
+                "type": "chord",
+                "content": "Cm"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "Eb"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F/D"
+              },
+              {
+                "type": "lyric",
+                "content": "de cómo estalla mi alma"
+              },
+              {
+                "type": "chord",
+                "content": "Cm"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "Eb"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "Ya estás aquí y el paso que dimos"
+              },
+              {
+                "type": "chord",
+                "content": "Cm"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "Eb"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F/D"
+              },
+              {
+                "type": "lyric",
+                "content": "es causa y es efecto"
+              },
+              {
+                "type": "chord",
+                "content": "Cm"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              },
+              {
+                "type": "chord",
+                "content": "Eb"
+              },
+              {
+                "type": "lyric",
+                "content": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PUENTE 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Gm", "Eb", "Eb11(sin7)"]
+          },
+          {
+            "type": "lyric",
+            "content": "Cruza el amor"
+          },
+          {
+            "type": "chords",
+            "content": ["Dm", "Bm7b5"]
+          },
+          {
+            "type": "lyric",
+            "content": "yo cruzaré los dedos"
+          },
+          {
+            "type": "chords",
+            "content": ["F", "Bb", "Gm7", "Bb", "F", "Bb", "Gm7", "Bb"]
+          },
+          {
+            "type": "lyric",
+            "content": "y gracias por venir"
+          },
+          {
+            "type": "chords",
+            "content": ["F", "Bb", "Gm7", "Bb", "G7"]
+          },
+          {
+            "type": "lyric",
+            "content": "gracias por venir"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "Dm", "Bb"]
+          },
+          {
+            "type": "lyric",
+            "content": "Adorable puente"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "Dm", "Bb", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "se ha creado entre los dos"
+          },
+          {
+            "type": "chords",
+            "content": ["Dm", "Bb", "F"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["F", "Cm", "Eb"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["Gm", "Eb", "Eb11(sin7)"]
+          },
+          {
+            "type": "lyric",
+            "content": "Cruza el amor"
+          },
+          {
+            "type": "chords",
+            "content": ["Dm", "Bm7b5"]
+          },
+          {
+            "type": "lyric",
+            "content": "yo cruzaré los dedos y"
+          },
+          {
+            "type": "chords",
+            "content": ["F", "Bb", "Gm7", "Bb", "Gm7"]
+          },
+          {
+            "type": "lyric",
+            "content": "gracias por venir"
+          },
+          {
+            "type": "chords",
+            "content": ["F", "Bb", "Gm7", "Bb", "Gm7"]
+          },
+          {
+            "type": "lyric",
+            "content": "gracias por venir"
+          },
+          {
+            "type": "chords",
+            "content": ["F", "Bb", "Gm7", "Bb", "G7"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["C", "Dm", "Bb", "C", "Dm", "Bb", "F", "Eb"]
+          },
+          {
+            "type": "lyric",
+            "content": "Adorable puente..."
+          },
+          {
+            "type": "chords",
+            "content": ["Bb", "Dm/A"]
+          },
+          {
+            "type": "lyric",
+            "content": "Cruza el amor"
+          },
+          {
+            "type": "chords",
+            "content": ["Gm7", "C", "Bb", "Dm/A", "Gm7", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Cruza el amor por el puente"
+          },
+          {
+            "type": "chords",
+            "content": ["Bb", "Dm/A", "Gm7", "C", "Bb", "Dm/A", "Gm7", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Usa el amor, usa el amor como un puente."
+          },
+          {
+            "type": "chords",
+            "content": ["Eb", "F"]
+          }
+        ]
+      }
+    ]
+  }
+  
