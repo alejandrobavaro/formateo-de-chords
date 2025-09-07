@@ -1,0 +1,569 @@
+{
+    "id": "memphis-la-blusera-la-bifurcada",
+    "title": "La Bifurcada",
+    "artist": "Memphis La Blusera",
+    "originalKey": "Am",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "Am/G", "F7", "E7", "Am", "G", "F#", "F", "E", "Am"]
+          },
+          {
+            "type": "text",
+            "content": "(x3)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "chord",
+            "content": "Am/G"
+          },
+          {
+            "type": "chord",
+            "content": "F7"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "Si te vas,"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "chord",
+            "content": "Am/G"
+          },
+          {
+            "type": "chord",
+            "content": "F7"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "no, no, no me voy a matar."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "chord",
+            "content": "Am/G"
+          },
+          {
+            "type": "chord",
+            "content": "F7"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "Sabes, mejor,"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "llévate si quieres el televisor."
+          },
+          {
+            "type": "chord",
+            "content": "Am/G"
+          },
+          {
+            "type": "chord",
+            "content": "F7"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Mientras haces la valija,"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "escucha esta canción."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETIR)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "Am/G", "F7", "E7", "Am", "G", "F#", "F", "E", "Am"]
+          },
+          {
+            "type": "text",
+            "content": "(x3)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "chord",
+            "content": "Am/G"
+          },
+          {
+            "type": "chord",
+            "content": "F7"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "Si te vas, no, no, no voy a llorar."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "chord",
+            "content": "Am/G"
+          },
+          {
+            "type": "chord",
+            "content": "F7"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "Sabes, mejor, no queda otra que la separación."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Si te llevas la cama chuchi,"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "déjame el colchón."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "Te fallo con tu amiga, feminista perdida,"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "tus modernos inventos, que son puro cuento."
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETIR)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "Am/G", "F7", "E7", "Am", "G", "F#", "F", "E", "Am"]
+          },
+          {
+            "type": "text",
+            "content": "(x3)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "chord",
+            "content": "Am/G"
+          },
+          {
+            "type": "chord",
+            "content": "F7"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "Si te vas, no, no, no te voy a extrañar."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "chord",
+            "content": "Am/G"
+          },
+          {
+            "type": "chord",
+            "content": "F7"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "Sabes, mejor, yo desconocía tu inclinación."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "BIS",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D", "E", "F", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Te decidiste, te definiste,"
+          },
+          {
+            "type": "lyric",
+            "content": "sos feminista y yo machista."
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "G", "F#", "F", "E", "Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "Anda por la sombra y cerra bien el portón."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETIR)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "Am/G", "F7", "E7", "Am", "G", "F#", "F", "E", "Am"]
+          },
+          {
+            "type": "text",
+            "content": "(x3)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "chord",
+            "content": "Am/G"
+          },
+          {
+            "type": "chord",
+            "content": "F7"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "Te fallo con tu amiga, bye bye"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "chord",
+            "content": "Am/G"
+          },
+          {
+            "type": "chord",
+            "content": "F7"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "feminista perdida, bye bye"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "chord",
+            "content": "Am/G"
+          },
+          {
+            "type": "chord",
+            "content": "F7"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "Tus modernos inventos, bye bye"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "chord",
+            "content": "Am/G"
+          },
+          {
+            "type": "chord",
+            "content": "F7"
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          },
+          {
+            "type": "lyric",
+            "content": "que son puro cuento. bye bye."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "Am/G", "F7", "E7", "Am", "G", "F#", "F", "E", "Am"]
+          }
+        ]
+      }
+    ]
+  }
+  

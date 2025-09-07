@@ -1,132 +1,127 @@
 /* =============================================== */
-/* SONG SELECTOR - ESTILO EXCEL ULTRA COMPACTO MEJORADO */
+/* ESTILOS COMPLETOS PARA SELECTOR EN HEADER */
 /* =============================================== */
 
-.song-selector-excel {
+.song-selector-header {
   width: 100%;
-  max-width: 320px;
   position: relative;
 }
 
-.excel-search-container {
+/* Búsqueda para header */
+.search-header {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.search-input-wrapper {
+  position: relative;
   display: flex;
-  gap: 8px;
   align-items: center;
-  background: linear-gradient(to bottom, #3a3a3a, #2a2a2a);
+  background: #3a3a3a;
   border: 1px solid #555;
-  border-radius: 6px;
-  padding: 6px;
-  min-height: 32px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-}
-
-.excel-search-input-container {
-  position: relative;
-  flex: 1;
-  display: flex;
-  align-items: center;
-  background: #2a2a2a;
-  border: 1px solid #666;
   border-radius: 4px;
-  padding: 0 6px;
-  transition: all 0.2s ease;
-
-  &:focus-within {
-    border-color: #3498db;
-    box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
-  }
+  padding: 0 10px;
+  height: 36px;
 }
 
-.excel-search-icon {
+.search-input-wrapper:focus-within {
+  border-color: #3498db;
+}
+
+.search-icon {
   color: #ffd166;
-  margin-right: 4px;
-  flex-shrink: 0;
+  font-size: 13px;
+  margin-right: 8px;
 }
 
-.excel-search-input {
+.search-input {
   flex: 1;
-  padding: 4px 2px;
   border: none;
   background: transparent;
-  font-size: 12px;
+  font-size: 13px;
   color: #fff;
-  min-width: 0;
-  
-  &:focus {
-    outline: none;
-  }
-  
-  &::placeholder {
-    color: #95a5a6;
-    font-size: 11px;
-  }
+  padding: 0;
+  height: 100%;
 }
 
-.excel-results-count {
-  background: #3498db;
-  color: white;
-  font-size: 10px;
-  font-weight: bold;
-  padding: 2px 5px;
-  border-radius: 8px;
-  min-width: 16px;
-  text-align: center;
-  margin-left: 4px;
-  flex-shrink: 0;
+.search-input:focus {
+  outline: none;
 }
 
-.excel-select-container {
-  position: relative;
-  flex: 1;
+.search-input::placeholder {
+  color: #95a5a6;
+  font-size: 12px;
+}
+
+.clear-btn {
+  background: none;
+  border: none;
+  color: #95a5a6;
+  cursor: pointer;
+  padding: 3px;
   display: flex;
   align-items: center;
-  background: #2a2a2a;
-  border: 1px solid #666;
+  justify-content: center;
+  font-size: 13px;
+}
+
+.clear-btn:hover {
+  color: #fff;
+}
+
+/* Selector compacto de canciones */
+.select-compact {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: #3a3a3a;
+  border: 1px solid #555;
   border-radius: 4px;
-  padding: 0 6px;
-  min-width: 120px;
-  transition: all 0.2s ease;
-
-  &:focus-within {
-    border-color: #3498db;
-    box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
-  }
+  padding: 0 10px;
+  height: 36px;
+  margin-bottom: 8px;
 }
 
-.excel-select-icon {
+.select-compact:focus-within {
+  border-color: #3498db;
+}
+
+.select-icon {
   color: #ffd166;
-  margin-right: 4px;
-  flex-shrink: 0;
+  font-size: 13px;
+  margin-right: 8px;
 }
 
-.excel-song-select {
+.song-select {
   flex: 1;
-  padding: 4px 2px;
   border: none;
   background: transparent;
-  font-size: 12px;
+  font-size: 13px;
   color: #fff;
   cursor: pointer;
   appearance: none;
-  
-  &:focus {
-    outline: none;
-  }
-  
-  &:disabled {
-    opacity: 0.6;
-    cursor: not-allowed;
-  }
-  
-  option {
-    background: #2a2a2a;
-    color: #fff;
-    font-size: 12px;
-    padding: 6px;
-  }
+  padding: 0;
+  height: 100%;
 }
 
-.excel-suggestions {
+.song-select:focus {
+  outline: none;
+}
+
+.song-select:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.song-select option {
+  background: #2a2a2a;
+  color: #fff;
+  font-size: 13px;
+  padding: 6px;
+}
+
+/* Sugerencias para header */
+.suggestions-header {
   position: absolute;
   top: 100%;
   left: 0;
@@ -134,78 +129,32 @@
   background: #2a2a2a;
   border: 1px solid #555;
   border-top: none;
-  border-radius: 0 0 6px 6px;
+  border-radius: 0 0 4px 4px;
   z-index: 1000;
-  max-height: 160px;
+  max-height: 200px;
   overflow-y: auto;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   margin-top: 2px;
 }
 
-.excel-suggestion-item {
+.suggestion-item {
   padding: 8px 10px;
   cursor: pointer;
-  border-bottom: 1px solid #3a3a3a;
-  transition: all 0.15s ease;
-  
-  &:last-child {
-    border-bottom: none;
-  }
-  
-  &:hover {
-    background: #3498db;
-  }
-}
-
-.excel-suggestion-content {
+  border-bottom: 1px solid #444;
   display: flex;
   flex-direction: column;
   gap: 2px;
 }
 
-.excel-suggestion-title {
-  font-size: 12px;
-  font-weight: 600;
-  color: #fff;
+.suggestion-item:last-child {
+  border-bottom: none;
 }
 
-.excel-suggestion-artist {
-  font-size: 11px;
-  color: #bdc3c7;
-  font-style: italic;
-  
-  .excel-suggestion-item:hover & {
-    color: #ecf0f1;
-  }
+.suggestion-item:hover {
+  background: #3498db;
 }
 
-.excel-current-song {
-  margin-top: 8px;
-  padding: 6px 8px;
-  background: linear-gradient(to bottom, #2c3e50, #34495e);
-  border: 1px solid #3498db;
-  border-radius: 4px;
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-}
-
-.excel-current-icon {
-  color: #27ae60;
-  flex-shrink: 0;
-}
-
-.excel-current-content {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-  flex: 1;
-  min-width: 0;
-}
-
-.excel-current-title {
-  font-size: 12px;
+.suggestion-title {
+  font-size: 13px;
   font-weight: 600;
   color: #fff;
   white-space: nowrap;
@@ -213,7 +162,53 @@
   text-overflow: ellipsis;
 }
 
-.excel-current-artist {
+.suggestion-artist {
+  font-size: 11px;
+  color: #bdc3c7;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.suggestion-item:hover .suggestion-artist {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* Canción actual para header */
+.current-song-header {
+  margin-top: 8px;
+  padding: 8px 10px;
+  background: #2c3e50;
+  border: 1px solid #3498db;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.current-icon {
+  color: #27ae60;
+  font-size: 13px;
+}
+
+.current-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex: 1;
+  min-width: 0;
+}
+
+.current-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.current-artist {
   font-size: 11px;
   color: #bdc3c7;
   white-space: nowrap;
@@ -225,133 +220,97 @@
 /* RESPONSIVE DESIGN */
 /* =============================================== */
 
-/* TABLET - ≥768px */
-@media (min-width: 768px) {
-  .song-selector-excel {
-    max-width: 380px;
+/* Mobile */
+@media (max-width: 768px) {
+  .search-input-wrapper,
+  .select-compact {
+    height: 34px;
   }
   
-  .excel-search-container {
-    gap: 10px;
-    padding: 8px;
+  .search-input,
+  .song-select {
+    font-size: 12px;
   }
   
-  .excel-search-input-container,
-  .excel-select-container {
-    padding: 0 8px;
+  .search-input::placeholder {
+    font-size: 11px;
   }
   
-  .excel-search-input,
-  .excel-song-select {
-    font-size: 13px;
-  }
-  
-  .excel-suggestion-title {
-    font-size: 13px;
-  }
-  
-  .excel-suggestion-artist {
+  .search-icon,
+  .select-icon {
     font-size: 12px;
   }
 }
 
-/* ESCRITORIO - ≥1024px */
-@media (min-width: 1024px) {
-  .song-selector-excel {
-    max-width: 420px;
+/* Tablet */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .search-input-wrapper,
+  .select-compact {
+    height: 36px;
   }
   
-  .excel-search-container {
-    gap: 12px;
-    padding: 10px;
+  .search-input,
+  .song-select {
+    font-size: 13px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1025px) {
+  .search-input-wrapper,
+  .select-compact {
+    height: 38px;
   }
   
-  .excel-search-input,
-  .excel-song-select {
+  .search-input,
+  .song-select {
     font-size: 14px;
   }
-}
-
-/* MÓVIL PEQUEÑO - ≤480px */
-@media (max-width: 480px) {
-  .song-selector-excel {
-    max-width: 100%;
-  }
   
-  .excel-search-container {
-    flex-direction: column;
-    gap: 6px;
-  }
-  
-  .excel-search-input-container,
-  .excel-select-container {
-    width: 100%;
-  }
-  
-  .excel-current-song {
-    margin-top: 6px;
+  .search-input::placeholder {
+    font-size: 13px;
   }
 }
 
-/* =============================================== */
-/* SCROLLBAR PERSONALIZADO */
-/* =============================================== */
-.excel-suggestions::-webkit-scrollbar {
+/* Estados de foco para accesibilidad */
+.search-input:focus,
+.song-select:focus,
+.clear-btn:focus {
+  outline: 2px solid #3498db;
+  outline-offset: 2px;
+}
+
+/* Scrollbar personalizado para sugerencias */
+.suggestions-header::-webkit-scrollbar {
   width: 6px;
 }
 
-.excel-suggestions::-webkit-scrollbar-track {
-  background: #2a2a2a;
-  border-radius: 3px;
+.suggestions-header::-webkit-scrollbar-track {
+  background: #3a3a3a;
 }
 
-.excel-suggestions::-webkit-scrollbar-thumb {
+.suggestions-header::-webkit-scrollbar-thumb {
   background: #555;
   border-radius: 3px;
 }
 
-.excel-suggestions::-webkit-scrollbar-thumb:hover {
+.suggestions-header::-webkit-scrollbar-thumb:hover {
   background: #666;
 }
 
-/* =============================================== */
-/* ESTADOS DE FOCO PARA ACCESIBILIDAD */
-/* =============================================== */
-.excel-search-input:focus,
-.excel-song-select:focus {
-  outline: none;
-}
-
-.excel-search-input-container:focus-within,
-.excel-select-container:focus-within {
-  border-color: #3498db;
-  box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
-}
-
-/* =============================================== */
-/* ANIMACIONES Y TRANSICIONES */
-/* =============================================== */
-.excel-search-input-container,
-.excel-select-container,
-.excel-suggestion-item,
-.excel-current-song {
+/* Transiciones suaves */
+.search-input-wrapper,
+.select-compact,
+.suggestion-item,
+.current-song-header {
   transition: all 0.2s ease;
 }
 
-.excel-suggestion-item:hover {
+.search-input-wrapper:hover,
+.select-compact:hover {
+  border-color: #666;
+}
+
+.suggestion-item:hover {
   transform: translateX(2px);
-}
-
-/* =============================================== */
-/* ESTADOS DE DESHABILITADO */
-/* =============================================== */
-.excel-search-input:disabled,
-.excel-song-select:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
-}
-
-.excel-select-container:has(.excel-song-select:disabled) {
-  opacity: 0.6;
-  background: #333;
 }

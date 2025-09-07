@@ -1,0 +1,700 @@
+{
+    "id": "manuel-wirtz-hoy-te-necesito",
+    "title": "Hoy te necesito",
+    "artist": "Manuel Wirtz",
+    "originalKey": "F",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F", "Bb"]
+          },
+          {
+            "type": "text",
+            "content": "(x2)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "Estoy sentado aquí, tratando de escribir,"
+          },
+          {
+            "type": "chord",
+            "content": "Bb"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "algo que pueda acercarme hasta ti."
+          },
+          {
+            "type": "chord",
+            "content": "Bb"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "Una declaración, tal vez una canción"
+          },
+          {
+            "type": "chord",
+            "content": "Bb"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "o una plegaria de este torpe corazón."
+          },
+          {
+            "type": "chord",
+            "content": "Bb"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Terrible sensación,"
+          },
+          {
+            "type": "chords",
+            "content": ["Bb", "F"]
+          },
+          {
+            "type": "lyric",
+            "content": "cuando no se te ocurre nada."
+          },
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Maldita inspiración,"
+          },
+          {
+            "type": "chords",
+            "content": ["Bb", "F"]
+          },
+          {
+            "type": "lyric",
+            "content": "al menos dame una palabra."
+          },
+          {
+            "type": "chords",
+            "content": ["F", "Em", "F", "Em"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "Ya son más de las 3, no me puedo dormir,"
+          },
+          {
+            "type": "chord",
+            "content": "Bb"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "encima un tipo afuera, se ha echado a reír."
+          },
+          {
+            "type": "chord",
+            "content": "Bb"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "No puedo comprender, tanta desolación,"
+          },
+          {
+            "type": "chord",
+            "content": "Bb"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "tantos fantasmas, distrayendo mi atención."
+          },
+          {
+            "type": "chord",
+            "content": "Bb"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO (REPETIR)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "El miedo a desistir"
+          },
+          {
+            "type": "chords",
+            "content": ["Bb", "F"]
+          },
+          {
+            "type": "lyric",
+            "content": "me hace dar vueltas en mi cama"
+          },
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "y sigo estando así"
+          },
+          {
+            "type": "chords",
+            "content": ["Bb", "F"]
+          },
+          {
+            "type": "lyric",
+            "content": "sin que se me ocurra nada."
+          },
+          {
+            "type": "chords",
+            "content": ["F", "Em", "F", "Em"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F", "Bb"]
+          },
+          {
+            "type": "lyric",
+            "content": "Hoy te necesito, yo te necesito,"
+          },
+          {
+            "type": "chords",
+            "content": ["Gm"]
+          },
+          {
+            "type": "lyric",
+            "content": "más que nunca entre mis brazos,"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "C7"]
+          },
+          {
+            "type": "lyric",
+            "content": "empaparme de tus labios, porque..."
+          },
+          {
+            "type": "chords",
+            "content": ["F", "Bb"]
+          },
+          {
+            "type": "lyric",
+            "content": "Hoy te necesito, yo te necesito,"
+          },
+          {
+            "type": "chords",
+            "content": ["Gm"]
+          },
+          {
+            "type": "lyric",
+            "content": "más que nunca para darte,"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "C7"]
+          },
+          {
+            "type": "lyric",
+            "content": "las mañanas y las tardes."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "BIS",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Dm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y en las noches cuando duermas,"
+          },
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "regalarte estrellas."
+          },
+          {
+            "type": "chords",
+            "content": ["Gm", "C", "F", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "y ser de tu vida el amor, porque..."
+          },
+          {
+            "type": "chords",
+            "content": ["Dm", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Hoy te necesito, yo te necesito,"
+          },
+          {
+            "type": "chords",
+            "content": ["Gm", "C7", "F", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "hoy te necesito mi amor."
+          },
+          {
+            "type": "chords",
+            "content": ["A#", "A", "G", "C"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETIR)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F", "Bb"]
+          },
+          {
+            "type": "text",
+            "content": "(x2)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "Estoy sentado aquí, tratando de escribir,"
+          },
+          {
+            "type": "chord",
+            "content": "Bb"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "algo que pueda acercarme hasta ti."
+          },
+          {
+            "type": "chord",
+            "content": "Bb"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "Una declaración, tal vez una canción"
+          },
+          {
+            "type": "chord",
+            "content": "Bb"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "o una plegaria de este torpe corazón."
+          },
+          {
+            "type": "chord",
+            "content": "Bb"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO (REPETIR)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Terrible sensación,"
+          },
+          {
+            "type": "chords",
+            "content": ["Bb", "F"]
+          },
+          {
+            "type": "lyric",
+            "content": "cuando no se te ocurre nada."
+          },
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Maldita inspiración,"
+          },
+          {
+            "type": "chords",
+            "content": ["Bb", "F"]
+          },
+          {
+            "type": "lyric",
+            "content": "al menos dame una palabra."
+          },
+          {
+            "type": "chords",
+            "content": ["F", "Em", "F", "Em"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETIR)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F", "Bb"]
+          },
+          {
+            "type": "lyric",
+            "content": "Hoy te necesito, yo te necesito,"
+          },
+          {
+            "type": "chords",
+            "content": ["Gm"]
+          },
+          {
+            "type": "lyric",
+            "content": "más que nunca entre mis brazos,"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "C7"]
+          },
+          {
+            "type": "lyric",
+            "content": "empaparme de tus labios, porque..."
+          },
+          {
+            "type": "chords",
+            "content": ["F", "Bb"]
+          },
+          {
+            "type": "lyric",
+            "content": "Hoy te necesito, yo te necesito,"
+          },
+          {
+            "type": "chords",
+            "content": ["Gm"]
+          },
+          {
+            "type": "lyric",
+            "content": "más que nunca para darte,"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "C7"]
+          },
+          {
+            "type": "lyric",
+            "content": "las mañanas y las tardes."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "BIS (REPETIR)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Dm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y en las noches cuando duermas,"
+          },
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "regalarte estrellas."
+          },
+          {
+            "type": "chords",
+            "content": ["Gm", "C", "F", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "y ser de tu vida el amor, porque..."
+          },
+          {
+            "type": "chords",
+            "content": ["Dm", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Hoy te necesito, yo te necesito,"
+          },
+          {
+            "type": "chords",
+            "content": ["Gm", "C7", "F", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "hoy te necesito mi amor."
+          },
+          {
+            "type": "chords",
+            "content": ["A#", "A", "G", "C"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETIR x2)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F", "Bb"]
+          },
+          {
+            "type": "lyric",
+            "content": "Hoy te necesito, yo te necesito,"
+          },
+          {
+            "type": "chords",
+            "content": ["Gm"]
+          },
+          {
+            "type": "lyric",
+            "content": "más que nunca entre mis brazos,"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "C7"]
+          },
+          {
+            "type": "lyric",
+            "content": "empaparme de tus labios, porque..."
+          },
+          {
+            "type": "chords",
+            "content": ["F", "Bb"]
+          },
+          {
+            "type": "lyric",
+            "content": "Hoy te necesito, yo te necesito,"
+          },
+          {
+            "type": "chords",
+            "content": ["Gm"]
+          },
+          {
+            "type": "lyric",
+            "content": "más que nunca para darte,"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "C7"]
+          },
+          {
+            "type": "lyric",
+            "content": "las mañanas y las tardes."
+          }
+        ]
+      }
+    ]
+  }
+  

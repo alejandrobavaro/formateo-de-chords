@@ -1,0 +1,440 @@
+{
+    "id": "pericos-nada-que-perder",
+    "title": "Nada que perder",
+    "artist": "Pericos",
+    "originalKey": "C#",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "C#"
+          },
+          {
+            "type": "lyric",
+            "content": "Let me go I'm so tired give me part"
+          },
+          {
+            "type": "chord",
+            "content": "G#"
+          },
+          {
+            "type": "lyric",
+            "content": "Because she loves my eyes, she's going away"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "C#"
+          },
+          {
+            "type": "lyric",
+            "content": "And you please don't call me home,"
+          },
+          {
+            "type": "chord",
+            "content": "G#"
+          },
+          {
+            "type": "lyric",
+            "content": "Because she loves my eyes, she's going away"
+          },
+          {
+            "type": "chord",
+            "content": "Dm#"
+          },
+          {
+            "type": "chord",
+            "content": "A#m"
+          },
+          {
+            "type": "lyric",
+            "content": "So lonely night, the only away."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "C#"
+          },
+          {
+            "type": "lyric",
+            "content": "Let me go I'm speed shout her name"
+          },
+          {
+            "type": "chord",
+            "content": "G#"
+          },
+          {
+            "type": "lyric",
+            "content": "Because she loves my eyes, she's going away"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "C#"
+          },
+          {
+            "type": "lyric",
+            "content": "And you please don't call me home,"
+          },
+          {
+            "type": "chord",
+            "content": "G#"
+          },
+          {
+            "type": "lyric",
+            "content": "Because she loves my eyes, she's going away"
+          },
+          {
+            "type": "chord",
+            "content": "Dm#"
+          },
+          {
+            "type": "chord",
+            "content": "A#m"
+          },
+          {
+            "type": "lyric",
+            "content": "So lonely night, the only away"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F#"
+              },
+              {
+                "type": "lyric",
+                "content": "Give me please the chala let me go away"
+              },
+              {
+                "type": "chord",
+                "content": "G#"
+              },
+              {
+                "type": "chord",
+                "content": "C#"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C#"
+              },
+              {
+                "type": "lyric",
+                "content": "oh oh oh oh oh oh oh"
+              },
+              {
+                "type": "chord",
+                "content": "F#"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G#"
+              },
+              {
+                "type": "lyric",
+                "content": "Give me please the chala let me go away"
+              },
+              {
+                "type": "chord",
+                "content": "A#m"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F#"
+              },
+              {
+                "type": "lyric",
+                "content": "oh oh oh oh oh oh oh"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G#"
+              },
+              {
+                "type": "lyric",
+                "content": "Give me please the chala let me go away"
+              },
+              {
+                "type": "chord",
+                "content": "C#"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C#", "G#", "Dm#", "A#m"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D#"
+          },
+          {
+            "type": "lyric",
+            "content": "Let me go I'm so tired give me part"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "lyric",
+            "content": "Because she loves my eyes, she's going away"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D#"
+          },
+          {
+            "type": "lyric",
+            "content": "And you please don't call me home,"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "lyric",
+            "content": "Because she loves my eyes, she's going away"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Dm#"
+          },
+          {
+            "type": "chord",
+            "content": "A#m"
+          },
+          {
+            "type": "lyric",
+            "content": "So lonely night, the only away."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETIR)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F#", "A#", "C#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Give me please the chala let me go away"
+          },
+          {
+            "type": "chords",
+            "content": ["C#", "F#"]
+          },
+          {
+            "type": "lyric",
+            "content": "oh oh oh oh oh oh oh"
+          },
+          {
+            "type": "chords",
+            "content": ["A#", "Bm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Give me please the chala let me go away"
+          },
+          {
+            "type": "chords",
+            "content": ["F#"]
+          },
+          {
+            "type": "lyric",
+            "content": "oh oh oh oh oh oh oh"
+          },
+          {
+            "type": "chords",
+            "content": ["A#", "C#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Give me please the chala let me go away"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO (REPETIR)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C#", "G#", "Dm#", "A#m"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F#", "A#", "C#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Give me please the chala let me go away"
+          },
+          {
+            "type": "chords",
+            "content": ["C#", "F#"]
+          },
+          {
+            "type": "lyric",
+            "content": "oh oh oh oh oh oh oh"
+          },
+          {
+            "type": "chords",
+            "content": ["A#", "Bm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Give me please the chala let me go away"
+          },
+          {
+            "type": "chords",
+            "content": ["F#"]
+          },
+          {
+            "type": "lyric",
+            "content": "oh oh oh oh oh oh oh"
+          },
+          {
+            "type": "chords",
+            "content": ["A#", "C#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Give me please the chala let me go away"
+          }
+        ]
+      }
+    ]
+  }
+  

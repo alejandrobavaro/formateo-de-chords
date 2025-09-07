@@ -1,0 +1,419 @@
+{
+    "id": "turf-no-me-quiero-casar",
+    "title": "No me quiero casar",
+    "artist": "Turf",
+    "originalKey": "C",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "-", "G", "-", "C", "-", "G", "G", "F#"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "No tengo tiempo para saber"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "si hay un amor ideal."
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "A mí cualquiera me viene bien"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "cómo me voy a negar?"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "Qué aburrido debe ser tener"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "solo una mujer,"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "nunca me podría casar,"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "No conozco a nadie"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "que no haya terminado mal."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Chururururu"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "-", "G", "G", "F#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Si el hombre no aparece,"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "la gente se enloquece"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "y empieza a destrozar el lugar."
+          },
+          {
+            "type": "chords",
+            "content": ["G", "G", "F#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Se queman las cortinas,"
+          },
+          {
+            "type": "chords",
+            "content": ["F", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "empiezan las corridas"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "y el tiempo no parece pasar."
+          },
+          {
+            "type": "chords",
+            "content": ["C", "C7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Libertad, frenesí, DO RE MI FA SOL LA SI"
+          },
+          {
+            "type": "chords",
+            "content": ["F", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "eso es el amor para mí,"
+          },
+          {
+            "type": "chords",
+            "content": ["F", "G", "C", "C7"]
+          },
+          {
+            "type": "lyric",
+            "content": "no conozco nadie que me haya hecho sentir así!"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "Yo soy así"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "nací para cantar y ser feliz."
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "No puedo estar"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "sin ver pasar las olas sobre el mar."
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["F", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Ya no estoy, ya me fui,"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "ya partí de aquí."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "REPETICIÓN",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "No tengo tiempo para saber"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "si hay un amor ideal."
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "A mí cualquiera me viene bien"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "cómo me voy a negar?"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "Qué aburrido debe ser tener"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "solo una mujer,"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["C", "C7"]
+          },
+          {
+            "type": "lyric",
+            "content": "nunca me podría casar,"
+          },
+          {
+            "type": "chords",
+            "content": ["F", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "No conozco a nadie que no haya terminado mal."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETIR)",
+        "lines": [
+          {
+            "type": "text",
+            "content": "(Repetir estribillo)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "G", "C"]
+          },
+          {
+            "type": "text",
+            "content": "(Marcha nupcial)"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "F", "G", "C", "C9", "C"]
+          }
+        ]
+      }
+    ]
+  }
+  

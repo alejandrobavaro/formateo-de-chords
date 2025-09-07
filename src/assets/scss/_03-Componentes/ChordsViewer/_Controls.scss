@@ -1,354 +1,166 @@
 /* =============================================== */
-/* CONTROLS - ESTILOS MICRO COMPACTOS MEJORADOS */
+/* ESTILOS COMPACTOS - CONTROLES (Modificado) */
 /* =============================================== */
 
-.controls-excel-compact {
+.controls-compact-grid {
   display: flex;
-  gap: 8px;
-  align-items: center;
-  padding: 6px;
-  background: linear-gradient(to bottom, #3a3a3a, #2a2a2a);
-  border: 1px solid #555;
-  border-radius: 6px;
-  margin: 6px 0;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  flex-direction: column;
+  gap: 15px;
 }
 
-.control-group-micro {
+.control-item {
+  background: #3a3a3a;
+  border: 1px solid #555;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.control-header {
   display: flex;
   align-items: center;
   gap: 6px;
-  padding: 5px 8px;
-  background: linear-gradient(to bottom, #444, #333);
-  border: 1px solid #666;
-  border-radius: 4px;
-  min-height: 28px;
-  transition: all 0.2s ease;
-  
-  &:hover {
-    border-color: #777;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  }
+  margin-bottom: 8px;
 }
 
-.micro-label {
-  font-size: 10px;
-  font-weight: 700;
+.control-icon {
   color: #ffd166;
-  min-width: 14px;
-  text-align: center;
-  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.control-label {
+  font-size: 13px;
+  color: #fff;
+  font-weight: 600;
+}
+
+/* Transposición */
+.transposition-controls {
   display: flex;
   align-items: center;
+  gap: 6px;
   justify-content: center;
 }
 
-.btn-group-micro {
-  display: flex;
-  gap: 2px;
+.transp-btn {
+  width: 28px;
+  height: 28px;
   background: #2a2a2a;
-  border-radius: 3px;
-  padding: 2px;
   border: 1px solid #555;
-}
-
-.micro-btn {
-  width: 20px;
-  height: 20px;
-  padding: 0;
-  border: 1px solid #666;
-  background: linear-gradient(to bottom, #555, #444);
+  border-radius: 4px;
   color: #fff;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 3px;
-  transition: all 0.15s ease;
-
-  &:hover:not(:disabled) {
-    background: linear-gradient(to bottom, #666, #555);
-    border-color: #3498db;
-    transform: translateY(-1px);
-    box-shadow: 0 1px 3px rgba(52, 152, 219, 0.3);
-  }
-
-  &:active:not(:disabled) {
-    transform: translateY(0);
-  }
-
-  &:disabled {
-    opacity: 0.4;
-    cursor: not-allowed;
-    background: #444;
-  }
 }
 
-.micro-value {
-  font-size: 10px;
+.transp-btn:hover:not(:disabled) {
+  background: #333;
+  border-color: #666;
+}
+
+.transp-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.transp-value {
+  font-size: 14px;
   font-weight: 600;
   color: #fff;
-  min-width: 20px;
+  min-width: 30px;
   text-align: center;
   background: #2a2a2a;
-  padding: 2px 4px;
-  border-radius: 3px;
+  padding: 4px 6px;
+  border-radius: 4px;
   border: 1px solid #555;
 }
 
-/* Checkbox personalizado */
-.micro-checkbox-container {
-  position: relative;
-  cursor: pointer;
+/* Checkbox */
+.checkbox-control {
   display: flex;
   align-items: center;
-}
-
-.micro-checkbox {
-  position: absolute;
-  opacity: 0;
+  gap: 6px;
   cursor: pointer;
-  
-  &:disabled {
-    cursor: not-allowed;
-    
-    + .micro-checkbox-custom {
-      opacity: 0.4;
-      cursor: not-allowed;
-    }
-  }
 }
 
-.micro-checkbox-custom {
-  width: 16px;
-  height: 16px;
-  background: linear-gradient(to bottom, #555, #444);
-  border: 1px solid #666;
-  border-radius: 3px;
-  position: relative;
-  transition: all 0.2s ease;
-
-  &:hover {
-    border-color: #777;
-  }
+.checkbox-input {
+  display: none;
 }
 
-.micro-checkbox:checked + .micro-checkbox-custom {
-  background: linear-gradient(to bottom, #27ae60, #219653);
-  border-color: #2ecc71;
-  
-  &::after {
-    content: "✓";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 10px;
-    font-weight: bold;
-  }
+.checkbox-custom {
+  color: #95a5a6;
+  font-size: 18px;
 }
 
-.export-group-micro {
+.checkbox-input:checked + .checkbox-custom {
+  color: #ffd166;
+}
+
+.checkbox-label {
+  font-size: 13px;
+  color: #ddd;
+}
+
+.checkbox-input:disabled + .checkbox-custom,
+.checkbox-input:disabled ~ .checkbox-label {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+/* Exportación */
+.export-controls {
   display: flex;
-  gap: 3px;
+  gap: 6px;
+  justify-content: center;
 }
 
-.micro-export-btn {
-  width: 24px;
-  height: 24px;
-  padding: 0;
-  border: 1px solid #666;
-  background: linear-gradient(to bottom, #555, #444);
+.export-btn {
+  width: 36px;
+  height: 36px;
+  background: #2a2a2a;
+  border: 1px solid #555;
+  border-radius: 4px;
   color: #fff;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 4px;
-  transition: all 0.15s ease;
-
-  &:hover:not(:disabled) {
-    transform: translateY(-1px);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  }
-
-  &:active:not(:disabled) {
-    transform: translateY(0);
-  }
-
-  &:disabled {
-    opacity: 0.4;
-    cursor: not-allowed;
-  }
-
-  svg {
-    width: 10px;
-    height: 10px;
-  }
+  font-size: 16px;
 }
 
-/* Estilos específicos para botones de exportación */
-.pdf-btn {
-  &:hover:not(:disabled) {
-    background: linear-gradient(to bottom, #e74c3c, #c0392b);
-    border-color: #e74c3c;
-  }
+.export-btn:hover:not(:disabled) {
+  background: #333;
+  border-color: #666;
+  transform: translateY(-1px);
 }
 
-.jpg-btn {
-  &:hover:not(:disabled) {
-    background: linear-gradient(to bottom, #3498db, #2980b9);
-    border-color: #3498db;
-  }
+.export-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
 }
 
-.print-btn {
-  &:hover:not(:disabled) {
-    background: linear-gradient(to bottom, #95a5a6, #7f8c8d);
-    border-color: #95a5a6;
-  }
-}
-
-/* =============================================== */
-/* RESPONSIVE DESIGN */
-/* =============================================== */
-
-/* TABLET - ≥768px */
-@media (min-width: 768px) {
-  .controls-excel-compact {
-    gap: 10px;
-    padding: 8px;
-  }
-  
-  .control-group-micro {
-    gap: 8px;
-    padding: 6px 10px;
-  }
-  
-  .micro-btn {
-    width: 22px;
-    height: 22px;
-  }
-  
-  .micro-export-btn {
-    width: 26px;
-    height: 26px;
-    
-    svg {
-      width: 12px;
-      height: 12px;
-    }
-  }
-}
-
-/* ESCRITORIO - ≥1024px */
-@media (min-width: 1024px) {
-  .controls-excel-compact {
-    gap: 12px;
-    padding: 10px;
-  }
-  
-  .control-group-micro {
-    gap: 10px;
-    padding: 8px 12px;
-  }
-  
-  .micro-label {
-    font-size: 11px;
-    min-width: 16px;
-  }
-  
-  .micro-value {
-    font-size: 11px;
-    min-width: 24px;
-  }
-}
-
-/* MÓVIL PEQUEÑO - ≤480px */
-@media (max-width: 480px) {
-  .controls-excel-compact {
+/* Responsive */
+@media (max-width: 1024px) {
+  .controls-compact-grid {
+    flex-direction: row;
     flex-wrap: wrap;
-    gap: 6px;
-    padding: 5px;
   }
   
-  .control-group-micro {
+  .control-item {
     flex: 1;
+    min-width: 140px;
+  }
+}
+
+@media (max-width: 768px) {
+  .controls-compact-grid {
+    flex-direction: column;
+  }
+  
+  .control-item {
     min-width: auto;
-    justify-content: center;
-    padding: 4px 6px;
   }
-  
-  .export-group-micro {
-    justify-content: center;
-  }
-}
-
-/* =============================================== */
-/* MODO OSCURO - Compatibilidad con preferencias del sistema */
-/* =============================================== */
-@media (prefers-color-scheme: dark) {
-  .controls-excel-compact {
-    background: linear-gradient(to bottom, #2a2a2a, #1a1a1a);
-    border-color: #444;
-  }
-
-  .control-group-micro {
-    background: linear-gradient(to bottom, #333, #222);
-    border-color: #555;
-  }
-
-  .micro-btn {
-    background: linear-gradient(to bottom, #444, #333);
-    border-color: #555;
-    
-    &:hover:not(:disabled) {
-      background: linear-gradient(to bottom, #555, #444);
-    }
-  }
-
-  .micro-export-btn {
-    background: linear-gradient(to bottom, #444, #333);
-    border-color: #555;
-    
-    &:hover:not(:disabled) {
-      background: linear-gradient(to bottom, #555, #444);
-    }
-  }
-  
-  .micro-value {
-    background: #1a1a1a;
-    border-color: #444;
-  }
-  
-  .btn-group-micro {
-    background: #1a1a1a;
-    border-color: #444;
-  }
-}
-
-/* =============================================== */
-/* ACCESIBILIDAD - Estados de foco */
-/* =============================================== */
-.micro-btn:focus,
-.micro-checkbox:focus + .micro-checkbox-custom,
-.micro-export-btn:focus {
-  outline: 2px solid #3498db;
-  outline-offset: 2px;
-}
-
-/* =============================================== */
-/* ANIMACIONES Y TRANSICIONES */
-/* =============================================== */
-.control-group-micro {
-  transition: all 0.2s ease;
-}
-
-.micro-btn,
-.micro-export-btn,
-.micro-checkbox-custom {
-  transition: all 0.15s ease;
 }

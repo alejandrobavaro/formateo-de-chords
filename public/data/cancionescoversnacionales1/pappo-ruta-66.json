@@ -1,0 +1,432 @@
+{
+    "id": "pappo-ruta-66",
+    "title": "Ruta 66",
+    "artist": "Pappo",
+    "originalKey": "G",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "text",
+            "content": "(RIFF G x4)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G5"
+          },
+          {
+            "type": "lyric",
+            "content": "Bueno, sé que tú planeas ir"
+          },
+          {
+            "type": "chord",
+            "content": "C5"
+          },
+          {
+            "type": "chord",
+            "content": "G5"
+          },
+          {
+            "type": "lyric",
+            "content": "por la autopista del oeste hasta su fin"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "C5"
+          },
+          {
+            "type": "lyric",
+            "content": "Andarás bien por la 66."
+          },
+          {
+            "type": "chord",
+            "content": "G5"
+          },
+          {
+            "type": "chord",
+            "content": "D5"
+          },
+          {
+            "type": "chord",
+            "content": "C5"
+          },
+          {
+            "type": "chord",
+            "content": "G5"
+          },
+          {
+            "type": "chord",
+            "content": "D5"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G5"
+          },
+          {
+            "type": "lyric",
+            "content": "Se menea de Chicago hasta Eline"
+          },
+          {
+            "type": "chord",
+            "content": "C5"
+          },
+          {
+            "type": "chord",
+            "content": "G5"
+          },
+          {
+            "type": "lyric",
+            "content": "son 2000 millas, más también podrás hacer"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "C5"
+          },
+          {
+            "type": "lyric",
+            "content": "Andarás bien por la 66."
+          },
+          {
+            "type": "chord",
+            "content": "D5"
+          },
+          {
+            "type": "chord",
+            "content": "C5"
+          },
+          {
+            "type": "chord",
+            "content": "G5"
+          },
+          {
+            "type": "chord",
+            "content": "D5"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G5"
+              },
+              {
+                "type": "lyric",
+                "content": "Va por San Luis,"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G5"
+              },
+              {
+                "type": "lyric",
+                "content": "abajo está Misuri"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G5"
+              },
+              {
+                "type": "lyric",
+                "content": "Ciudad de Oklahoma"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G5"
+              },
+              {
+                "type": "lyric",
+                "content": "es tan bonita que..."
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C5"
+              },
+              {
+                "type": "lyric",
+                "content": "Verás amarillo hasta México."
+              },
+              {
+                "type": "chord",
+                "content": "G5"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "D5"
+              },
+              {
+                "type": "lyric",
+                "content": "Kansas, Arizona, no olvides Wemona"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "grandes olas rompen, San Bernardino es..."
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C5"
+              },
+              {
+                "type": "lyric",
+                "content": "Eso lo querías ver,"
+              },
+              {
+                "type": "chord",
+                "content": "G5"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C5"
+              },
+              {
+                "type": "lyric",
+                "content": "en este viaje más también podrás hacer"
+              },
+              {
+                "type": "chord",
+                "content": "G5"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "D5"
+              },
+              {
+                "type": "chord",
+                "content": "C5"
+              },
+              {
+                "type": "chord",
+                "content": "G5"
+              },
+              {
+                "type": "lyric",
+                "content": "Andarás bien por la 66..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G5", "C5", "G5", "C5", "G5", "D5", "C5", "G5"]
+          },
+          {
+            "type": "text",
+            "content": "(x2)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETIR)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G5"]
+          },
+          {
+            "type": "lyric",
+            "content": "Va por San Luis,"
+          },
+          {
+            "type": "chords",
+            "content": ["G5"]
+          },
+          {
+            "type": "lyric",
+            "content": "abajo está Misuri"
+          },
+          {
+            "type": "chords",
+            "content": ["G5"]
+          },
+          {
+            "type": "lyric",
+            "content": "Ciudad de Oklahoma"
+          },
+          {
+            "type": "chords",
+            "content": ["G5"]
+          },
+          {
+            "type": "lyric",
+            "content": "es tan bonita que..."
+          },
+          {
+            "type": "chords",
+            "content": ["C5", "G5"]
+          },
+          {
+            "type": "lyric",
+            "content": "Verás amarillo hasta México."
+          },
+          {
+            "type": "chords",
+            "content": ["D5"]
+          },
+          {
+            "type": "lyric",
+            "content": "Kansas, Arizona, no olvides Wemona"
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "grandes olas rompen, San Bernardino es..."
+          },
+          {
+            "type": "chords",
+            "content": ["C5", "G5"]
+          },
+          {
+            "type": "lyric",
+            "content": "Eso lo querías ver,"
+          },
+          {
+            "type": "chords",
+            "content": ["C5", "G5"]
+          },
+          {
+            "type": "lyric",
+            "content": "en este viaje más también podrás hacer"
+          },
+          {
+            "type": "chords",
+            "content": ["D5", "C5", "G5"]
+          },
+          {
+            "type": "lyric",
+            "content": "Andarás bien por la 66..."
+          }
+        ]
+      }
+    ]
+  }
+  

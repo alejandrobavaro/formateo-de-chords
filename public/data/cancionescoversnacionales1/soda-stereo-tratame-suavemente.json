@@ -1,0 +1,393 @@
+{
+    "id": "soda-stereo-tratame-suavemente",
+    "title": "Trátame Suavemente",
+    "artist": "Soda Stereo",
+    "originalKey": "D",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D", "F#m", "C", "Bm", "A"]
+          },
+          {
+            "type": "text",
+            "content": "(x4)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Alguien me ha dicho que la soledad,"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "se esconde tras tus ojos"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "lyric",
+            "content": "y que tu blusa atora sentimientos,"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "que respiras"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Tenés que comprender que no puse tus miedos,"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "donde están guardados"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "lyric",
+            "content": "y que no podré quitártelos"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "si al hacerlo me desgarras"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "No quiero soñar mil veces las mismas cosas"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "chord",
+                "content": "F#m"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "ni contemplarlas sabiamente"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "chord",
+                "content": "F#m"
+              },
+              {
+                "type": "chord",
+                "content": "Bm"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "quiero que me trates suavemente…"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Te comportas de acuerdo,"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "con lo que te dicta cada momento"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "lyric",
+            "content": "y esa inconstancia no es algo heroico,"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "es más bien algo enfermo"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETIR)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "A", "F#m", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "No quiero soñar mil veces las mismas cosas"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "A", "F#m", "Bm"]
+          },
+          {
+            "type": "lyric",
+            "content": "ni contemplarlas sabiamente"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "A", "Bm", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "quiero que me trates suavemente"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Bm", "C", "Bm", "C", "Bm", "C"]
+          },
+          {
+            "type": "chords",
+            "content": ["D", "E", "C", "D", "D", "E", "D", "E"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "A", "F#m", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "No quiero soñar mil veces las mismas cosas"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "A", "F#m", "Bm"]
+          },
+          {
+            "type": "lyric",
+            "content": "ni contemplarlas sabiamente"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "A", "D", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "quiero que me trates suavemente"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "A", "D", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "quiero que me trates suavemente"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "A", "Bm", "Em", "F#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "quiero que me trates suavemente"
+          },
+          {
+            "type": "chords",
+            "content": ["Bm", "Em", "F#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "suavemente"
+          },
+          {
+            "type": "chords",
+            "content": ["Bm", "Em", "F#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "suavemente"
+          },
+          {
+            "type": "chords",
+            "content": ["Bm", "Em", "F#m", "Bm"]
+          },
+          {
+            "type": "lyric",
+            "content": "suavemente"
+          }
+        ]
+      }
+    ]
+  }
+  

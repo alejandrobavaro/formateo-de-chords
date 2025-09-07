@@ -1,0 +1,458 @@
+{
+    "id": "tipitos-silencio",
+    "title": "Silencio",
+    "artist": "Tipitos",
+    "originalKey": "Am",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "Dsus4", "G", "C", "Em", "D"]
+          },
+          {
+            "type": "text",
+            "content": "(x2)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "Silencio que no es silencio"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "alguien se levanta otro viene a buscar"
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "ella trae algo que no busco y espero"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "silencio que no es silencio"
+          },
+          {
+            "type": "chord",
+            "content": "Dsus4"
+          },
+          {
+            "type": "lyric",
+            "content": "calles y lugares se cuelgan de mí"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "toda mi camisa está llena de agujeros"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "silencio, espero el silencio"
+          },
+          {
+            "type": "chord",
+            "content": "Dsus4"
+          },
+          {
+            "type": "lyric",
+            "content": "un montón de bocas como parlantes"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "saturan el aire"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G7"
+              },
+              {
+                "type": "lyric",
+                "content": "hoy que mi corazón se aturde en silencio"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "hablando solo cuando es tarde"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["Dsus4", "D", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "y ya no hay nada más que hablar"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "Em"]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": "hoy que mi corazón se agita en silencio"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "lyric",
+                "content": "por los gritos del amor."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETIR)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "Dsus4", "G", "C", "Em", "D"]
+          },
+          {
+            "type": "text",
+            "content": "(x2)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "silencio que no es silencio"
+          },
+          {
+            "type": "chord",
+            "content": "Dsus4"
+          },
+          {
+            "type": "lyric",
+            "content": "surfeando mi camino que creo está bien"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "sinuoso camino de arena y de mar"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "silencio que no es silencio"
+          },
+          {
+            "type": "chord",
+            "content": "Dsus4"
+          },
+          {
+            "type": "lyric",
+            "content": "un montón de bocas como parlantes"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "saturan el aire"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chord",
+            "content": "G/B"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETIR)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G7", "C", "Dsus4", "Em", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "hoy que mi corazón se aturde en silencio"
+          },
+          {
+            "type": "chords",
+            "content": ["Dsus4", "D", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "hablando solo cuando es tarde"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "y ya no hay nada más que hablar"
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "Dsus4", "Em", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "hoy que mi corazón se agita en silencio"
+          },
+          {
+            "type": "chords",
+            "content": ["Bm", "Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "por los gritos del amor."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PUENTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Dsus4", "G", "C", "Em", "D", "C", "G/B", "Am", "G"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G7", "C", "Dsus4", "Em", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "hoy que mi corazón se aturde en silencio"
+          },
+          {
+            "type": "chords",
+            "content": ["Dsus4", "D", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "hablando solo cuando es tarde"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "y ya no hay nada más que hablar"
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "Dsus4", "Em", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "hoy que mi corazón se agita en silencio"
+          },
+          {
+            "type": "chords",
+            "content": ["Bm", "Am", "Bm", "Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "por los gritos, revelados, del amor"
+          }
+        ]
+      }
+    ]
+  }
+  

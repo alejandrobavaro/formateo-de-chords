@@ -1,0 +1,485 @@
+{
+    "id": "los-rancheros-sera",
+    "title": "Será",
+    "artist": "Los Rancheros",
+    "originalKey": "D",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D", "Bm", "Em", "A"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Catalina dijo que me amaba"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "Y para mí fue suficiente"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Con alfileres y con tinta china"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "Nos tatuamos para siempre"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "A", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y el amor sobre la hierba"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "A", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Hizo mágica las siestas."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Con papel de cigarrillo"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "Fabricamos dos anillos"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Robamos flores de la galería"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "Mientras tú loca reías"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO (REPETIR)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "A", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y caímos en el sueño"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "A", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Tan difícil de alcanzar"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D", "F#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "Sigue tu camino"
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "Siempre será el mío"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "F#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "Sigue tu camino"
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "A", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y así libre serás"
+          },
+          {
+            "type": "chords",
+            "content": ["F#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "Será como tú quieras"
+          },
+          {
+            "type": "chords",
+            "content": ["Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "Será mejor"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "Morir de amor..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Subiremos la autopista"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "'Hacia el oeste', me decías"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Podrás mirar el horizonte"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "Y ver el sol cuando se esconde."
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO (REPETIR)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "A", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Nos besamos sobre un puente"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "A", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y aprendimos a volar"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETIR x2)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D", "F#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "Sigue tu camino"
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "Siempre será el mío"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "F#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "Sigue tu camino"
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "A", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y así libre serás"
+          },
+          {
+            "type": "chords",
+            "content": ["F#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "Será como tú quieras"
+          },
+          {
+            "type": "chords",
+            "content": ["Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "Será mejor"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "Morir de amor..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D", "F#m", "Em", "A"]
+          }
+        ]
+      }
+    ]
+  }
+  

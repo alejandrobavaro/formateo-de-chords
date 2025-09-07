@@ -1,127 +1,50 @@
 // ======================================================
-// IMPORTACIONES DE LIBRERÍAS EXTERNAS
+// COMPONENTE PRINCIPAL - SEARCHBAR ARRIBA DE BIBLIOTECAS
 // ======================================================
 import React, { useState, useEffect, useRef } from 'react';
 import SongSelector from './SongSelector';
 import SongViewer from './SongViewer';
 import Controls from './Controls';
-import { BsArrowsFullscreen, BsFullscreenExit, BsChevronDown, BsChevronUp } from "react-icons/bs";
+import { BsArrowsFullscreen, BsFullscreenExit } from "react-icons/bs";
 import html2canvas from "html2canvas";
 import jsPDF from "jspdf";
 import "../../assets/scss/_03-Componentes/ChordsViewer/_ChordsViewerIndex.scss";
 
 // ======================================================
-// LISTA DE BIBLIOTECAS DISPONIBLES - CONFIGURACIÓN FIJA
-// Cada biblioteca representa un cancionero diferente con sus rutas JSON
+// LISTA DE BIBLIOTECAS DISPONIBLES
 // ======================================================
 const SONG_LIBRARIES = [
-  { 
-    id: 'alegondra', 
-    name: 'Ale Gondra', 
-    path: '/data/listadocancionesalegondramusic.json',
-    basePath: '/data/cancionesalegondramusic/' 
-  },
-  { 
-    id: 'almangopop', 
-    name: 'Almango Pop', 
-    path: '/data/listadocancionesalmangopop.json',
-    basePath: '/data/cancionesalmangopop/'  
-  },
-  { 
-    id: 'casamiento', 
-    name: 'Show Casamiento', 
-    path: '/data/listadocancionescasamiento.json',
-    basePath: '/data/cancionesshowcasamiento/'  
-  },
-  { 
-    id: 'covers1', 
-    name: 'Covers 1', 
-    path: '/data/listadochordscoversseleccionados1.json',
-    basePath: '/data/cancionescoversseleccionados1/' 
-  }, 
-  { 
-    id: 'covers2', 
-    name: 'Covers 2', 
-    path: '/data/listadochordscoversseleccionados2.json',
-    basePath: '/data/cancionescoversseleccionados2/' 
-  }, 
-  { 
-    id: 'covers3', 
-    name: 'Covers 3', 
-    path: '/data/listadochordscoversseleccionados3.json',
-    basePath: '/data/cancionescoversseleccionados3/' 
-  }, 
-  { 
-    id: 'coverslatinos1', 
-    name: 'Latinos 1', 
-    path: '/data/listadochordscoverslatinos1.json',
-    basePath: '/data/cancionescoverslatinos1/'
-  },
-  { 
-    id: 'coversnacionales1', 
-    name: 'Nacionales 1', 
-    path: '/data/listadochordscoversnacionales1.json',
-    basePath: '/data/cancionescoversnacionales1/' 
-  }, 
+  { id: 'alegondra', name: 'Ale Gondra', path: '/data/listadocancionesalegondramusic.json', basePath: '/data/cancionesalegondramusic/' },
+  { id: 'almangopop', name: 'Almango Pop', path: '/data/listadocancionesalmangopop.json', basePath: '/data/cancionesalmangopop/' },
+  { id: 'casamiento', name: 'Casamiento', path: '/data/listadocancionescasamiento.json', basePath: '/data/cancionesshowcasamiento/' },
+  { id: 'covers1', name: 'Covers 1', path: '/data/listadochordscoversseleccionados1.json', basePath: '/data/cancionescoversseleccionados1/' },
+  { id: 'covers2', name: 'Covers 2', path: '/data/listadochordscoversseleccionados2.json', basePath: '/data/cancionescoversseleccionados2/' },
+  { id: 'covers3', name: 'Covers 3', path: '/data/listadochordscoversseleccionados3.json', basePath: '/data/cancionescoversseleccionados3/' },
+  { id: 'coverslatinos1', name: 'Latinos 1', path: '/data/listadochordscoverslatinos1.json', basePath: '/data/cancionescoverslatinos1/' },
+  { id: 'coversnacionales1', name: 'Nacionales 1', path: '/data/listadochordscoversnacionales1.json', basePath: '/data/cancionescoversnacionales1/' },
 ];
 
 // ======================================================
-// COMPONENTE PRINCIPAL - VISOR DE ACORDES
-// Gestiona la visualización de canciones, bibliotecas y controles
+// COMPONENTE PRINCIPAL
 // ======================================================
 const ChordsViewerIndex = () => {
-  // ======================================================
-  // ESTADOS PRINCIPALES DEL COMPONENTE
-  // ======================================================
-  
-  // songs: Almacena la lista de canciones cargadas desde el JSON seleccionado
+  // Estados del componente
   const [songs, setSongs] = useState([]);
-  
-  // selectedSong: Canción actualmente seleccionada para visualización
   const [selectedSong, setSelectedSong] = useState(null);
-  
-  // transposition: Nivel de transposición de acordes (-6 a +6 semitonos)
   const [transposition, setTransposition] = useState(0);
-  
-  // showA4Outline: Controla si se muestran las guías de papel A4
   const [showA4Outline, setShowA4Outline] = useState(false);
-  
-  // loading: Indica cuando se están cargando datos
   const [loading, setLoading] = useState(true);
-  
-  // error: Almacena mensajes de error durante la carga
   const [error, setError] = useState(null);
-  
-  // selectedLibrary: Biblioteca/cancionero actualmente seleccionado
   const [selectedLibrary, setSelectedLibrary] = useState('casamiento');
-  
-  // currentLibraryConfig: Configuración completa de la biblioteca actual
   const [currentLibraryConfig, setCurrentLibraryConfig] = useState(SONG_LIBRARIES[0]);
-  
-  // fullscreenMode: Controla el estado de pantalla completa
   const [fullscreenMode, setFullscreenMode] = useState(false);
-  
-  // searchQuery: Término de búsqueda para filtrar canciones
   const [searchQuery, setSearchQuery] = useState('');
-  
-  // showControls: Controla la visibilidad de los controles avanzados
-  const [showControls, setShowControls] = useState(false);
 
-  // ======================================================
-  // REFERENCIAS A ELEMENTOS DEL DOM
-  // ======================================================
-  
-  // containerRef: Referencia al contenedor principal para funcionalidad de pantalla completa
+  // Referencias
   const containerRef = useRef(null);
-  
-  // printViewRef: Referencia al área que se exportará a PDF/JPG
   const printViewRef = useRef(null);
 
-  // ======================================================
-  // FUNCIÓN: fetchJsonFile - Carga archivos JSON del servidor
-  // Parámetros: path (ruta del archivo JSON)
-  // Retorna: datos JSON o lanza error
-  // ======================================================
+  // Función para cargar archivos JSON
   const fetchJsonFile = async (path) => {
     try {
       const response = await fetch(path);
@@ -133,11 +56,7 @@ const ChordsViewerIndex = () => {
     }
   };
 
-  // ======================================================
-  // FUNCIÓN: loadIndividualSong - Carga una canción específica
-  // Parámetros: song (objeto canción), basePath (ruta base opcional)
-  // Carga el contenido JSON individual de cada canción
-  // ======================================================
+  // Función para cargar canción individual
   const loadIndividualSong = async (song, basePath = null) => {
     try {
       setLoading(true);
@@ -166,26 +85,19 @@ const ChordsViewerIndex = () => {
     }
   };
 
-  // ======================================================
-  // MANEJADORES DE EVENTOS - FUNCIONES QUE RESPONDEN A INTERACCIONES
-  // ======================================================
-  
-  // handleSongSelect: Se ejecuta cuando el usuario selecciona una canción
+  // Manejadores de eventos
   const handleSongSelect = (song) => {
     if (song) loadIndividualSong(song);
   };
 
-  // handleLibraryChange: Cambia la biblioteca/cancionero activo
   const handleLibraryChange = (libraryId) => {
     setSelectedLibrary(libraryId);
   };
 
-  // handleSearchChange: Actualiza el término de búsqueda
   const handleSearchChange = (query) => {
     setSearchQuery(query);
   };
 
-  // toggleFullscreen: Alterna entre modo normal y pantalla completa
   const toggleFullscreen = () => {
     if (!document.fullscreenElement) {
       containerRef.current?.requestFullscreen().catch(err => console.error(err));
@@ -196,16 +108,7 @@ const ChordsViewerIndex = () => {
     }
   };
 
-  // toggleControls: Alterna la visibilidad de los controles avanzados
-  const toggleControls = () => {
-    setShowControls(!showControls);
-  };
-
-  // ======================================================
-  // FUNCIONES DE EXPORTACIÓN - PARA GUARDAR/IMPRIMIR CANCIONES
-  // ======================================================
-  
-  // handleExportPDF: Exporta la canción actual a formato PDF
+  // Funciones de exportación
   const handleExportPDF = async () => {
     const element = printViewRef.current;
     if (!element || !selectedSong) return;
@@ -231,7 +134,6 @@ const ChordsViewerIndex = () => {
     }
   };
 
-  // handleExportJPG: Exporta la canción actual a formato JPG
   const handleExportJPG = async () => {
     const element = printViewRef.current;
     if (!element || !selectedSong) return;
@@ -255,15 +157,11 @@ const ChordsViewerIndex = () => {
     }
   };
 
-  // handlePrint: Abre el diálogo de impresión del navegador
   const handlePrint = () => {
     window.print();
   };
 
-  // ======================================================
-  // EFECTO: Carga canciones cuando cambia la biblioteca seleccionada
-  // Se ejecuta automáticamente cuando selectedLibrary cambia
-  // ======================================================
+  // Efecto para cargar canciones cuando cambia la biblioteca
   useEffect(() => {
     const loadSongs = async () => {
       try {
@@ -296,9 +194,7 @@ const ChordsViewerIndex = () => {
     loadSongs();
   }, [selectedLibrary]);
 
-  // ======================================================
-  // RENDER: Estados de carga y error - Muestra pantallas alternativas
-  // ======================================================
+  // Render de estados de carga y error
   if (loading && !selectedSong) return <div className="chords-loading">Cargando canciones...</div>;
   
   if (error) return (
@@ -309,105 +205,91 @@ const ChordsViewerIndex = () => {
     </div>
   );
 
-  // ======================================================
-  // RENDER PRINCIPAL - Estructura visual del componente
-  // ======================================================
+  // Render principal
   return (
-    <div className="chords-viewer-compact" ref={containerRef}>
+    <div className="chords-viewer-search-top" ref={containerRef}>
       
-      {/* Botón de pantalla completa - Esquina superior derecha */}
+      {/* Botón de pantalla completa */}
       <button className="fullscreen-toggle-btn" onClick={toggleFullscreen}>
         {fullscreenMode ? <BsFullscreenExit /> : <BsArrowsFullscreen />}
       </button>
 
-      {/* Encabezado compacto - Contiene bibliotecas, buscador y controles */}
-      <div className="compact-header">
+      {/* Header con searchbar arriba de todo */}
+      <div className="header-with-search">
         
-        {/* Primera fila: Bibliotecas y búsqueda */}
-        <div className="header-row primary-row">
-          {/* Botones de bibliotecas - Selección de cancioneros */}
-          <div className="library-section">
-            <div className="compact-library-buttons">
-              {SONG_LIBRARIES.map(library => (
-                <button
-                  key={library.id}
-                  className={`compact-lib-btn ${selectedLibrary === library.id ? 'active' : ''}`}
-                  onClick={() => handleLibraryChange(library.id)}
-                  title={library.name}
-                >
-                  {library.name.split(' ')[0]}
-                  {selectedLibrary === library.id && <span className="compact-indicator">•</span>}
-                </button>
-              ))}
-            </div>
-          </div>
+        {/* Searchbar en la parte superior */}
+        <div className="search-top-section">
+          <SongSelector
+            songs={songs}
+            selectedSong={selectedSong}
+            onSelectSong={handleSongSelect}
+            searchQuery={searchQuery}
+            onSearchChange={handleSearchChange}
+          />
+        </div>
 
-          {/* Selector de canciones - Búsqueda y selección */}
-          <div className="search-section">
-            <SongSelector
-              songs={songs}
-              selectedSong={selectedSong}
-              onSelectSong={handleSongSelect}
-              searchQuery={searchQuery}
-              onSearchChange={handleSearchChange}
+        {/* Selector de biblioteca debajo del search */}
+        <div className="library-under-search">
+          <select 
+            value={selectedLibrary} 
+            onChange={(e) => handleLibraryChange(e.target.value)}
+            className="library-select-top"
+            title="Seleccionar biblioteca"
+          >
+            {SONG_LIBRARIES.map(library => (
+              <option key={library.id} value={library.id}>
+                {library.name}
+              </option>
+            ))}
+          </select>
+        </div>
+
+      </div>
+
+      {/* Layout principal */}
+      <div className="main-content-search-top">
+        
+        {/* Columna de controles */}
+        <div className="controls-column">
+          <div className="controls-wrapper">
+            <h3 className="controls-title">Controles</h3>
+            <Controls
+              transposition={transposition}
+              setTransposition={setTransposition}
+              showA4Outline={showA4Outline}
+              setShowA4Outline={setShowA4Outline}
+              onExportPDF={handleExportPDF}
+              onExportJPG={handleExportJPG}
+              onPrint={handlePrint}
+              hasSelectedSong={!!selectedSong}
             />
-          </div>
-
-          {/* Botón para mostrar/ocultar controles avanzados */}
-          <div className="controls-toggle-section">
-            <button 
-              className="controls-toggle-btn"
-              onClick={toggleControls}
-              title={showControls ? "Ocultar controles" : "Mostrar controles"}
-            >
-              {showControls ? <BsChevronUp /> : <BsChevronDown />}
-              <span>Controles</span>
-            </button>
           </div>
         </div>
 
-        {/* Segunda fila: Controles avanzados (expandible) */}
-        {showControls && (
-          <div className="header-row secondary-row">
-            <div className="controls-section">
-              <Controls
+        {/* Columna del visualizador */}
+        <div className="viewer-column">
+          <div className="viewer-wrapper">
+            {selectedSong ? (
+              <SongViewer
+                song={selectedSong}
                 transposition={transposition}
-                setTransposition={setTransposition}
                 showA4Outline={showA4Outline}
-                setShowA4Outline={setShowA4Outline}
-                onExportPDF={handleExportPDF}
-                onExportJPG={handleExportJPG}
-                onPrint={handlePrint}
-                hasSelectedSong={!!selectedSong}
+                fullscreenMode={fullscreenMode}
+                printViewRef={printViewRef}
               />
-            </div>
+            ) : (
+              !loading && (
+                <div className="no-songs-message">
+                  <p>Selecciona una canción para comenzar</p>
+                </div>
+              )
+            )}
           </div>
-        )}
-      </div>
+        </div>
 
-      {/* Área principal de contenido - Visualizador de canciones */}
-      <div className="compact-content">
-        {selectedSong ? (
-          <SongViewer
-            song={selectedSong}
-            transposition={transposition}
-            showA4Outline={showA4Outline}
-            fullscreenMode={fullscreenMode}
-            printViewRef={printViewRef}
-          />
-        ) : (
-          !loading && (
-            <div className="no-songs-message">
-              <p>No hay canciones disponibles</p>
-            </div>
-          )
-        )}
       </div>
     </div>
   );
 };
 
-// ======================================================
-// EXPORTACIÓN DEL COMPONENTE
-// ======================================================
 export default ChordsViewerIndex;
