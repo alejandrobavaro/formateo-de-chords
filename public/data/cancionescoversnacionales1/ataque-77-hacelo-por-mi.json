@@ -1,0 +1,467 @@
+{
+    "id": "ataque-77-hacelo-por-mi",
+    "title": "Hacelo Por Mí",
+    "artist": "Ataque 77",
+    "originalKey": "E",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "–", "C#m", "–", "E", "–", "C#m", "–", "A", "–", "F#m", "–", "D", "–", "B"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "Yo no sé lo que sentí"
+          },
+          {
+            "type": "chord",
+            "content": "C#m"
+          },
+          {
+            "type": "lyric",
+            "content": "esa tarde que te vi"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Yo pensaba en otras cosas,"
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "lyric",
+            "content": "fuiste mucho para mí."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "Yo creía en tus palabras,"
+          },
+          {
+            "type": "chord",
+            "content": "C#m"
+          },
+          {
+            "type": "lyric",
+            "content": "tu mirada me engañó"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Ahora sé que no sos mía"
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "lyric",
+            "content": "la culpa la tuve yo."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "Yo no quise lastimarte,"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C#m"
+              },
+              {
+                "type": "lyric",
+                "content": "jamás tuve esa intención"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["A"]
+          },
+          {
+            "type": "lyric",
+            "content": "fuimos presos de un impulso,"
+          },
+          {
+            "type": "chords",
+            "content": ["F#m", "–", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "yo solo buscaba amor."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "Cuando te veía en la calle,"
+          },
+          {
+            "type": "chord",
+            "content": "C#m"
+          },
+          {
+            "type": "lyric",
+            "content": "no podía evitar"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "que el silencio se adueñara,"
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "lyric",
+            "content": "me quedaba sin hablar."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "Y ahora sé que no sos mía"
+          },
+          {
+            "type": "chord",
+            "content": "C#m"
+          },
+          {
+            "type": "lyric",
+            "content": "la culpa la tuve yo,"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "si querés podés marcharte,"
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "lyric",
+            "content": "solo te pido un favor..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (x2)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "Si aún te queda algo de amor"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C#m"
+              },
+              {
+                "type": "lyric",
+                "content": "dentro de tu corazón"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["A"]
+          },
+          {
+            "type": "lyric",
+            "content": "no me mires a los ojos"
+          },
+          {
+            "type": "chords",
+            "content": ["F#m", "–", "D", "–", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "que me muero, yo me muero de dolor..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "Todo eso que sentí"
+          },
+          {
+            "type": "chord",
+            "content": "C#m"
+          },
+          {
+            "type": "lyric",
+            "content": "esa tarde que te vi,"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "ahora ya no tiene sentido,"
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "lyric",
+            "content": "fue un mal sueño para mí."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "Y al pensar en tu mirada,"
+          },
+          {
+            "type": "chord",
+            "content": "C#m"
+          },
+          {
+            "type": "lyric",
+            "content": "ya no puedo sonreír"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "si querés podés marcharte,"
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "lyric",
+            "content": "solo te quiero decir..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL (x2)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "Si aún te queda algo de amor"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G#m"
+              },
+              {
+                "type": "lyric",
+                "content": "dentro de tu corazón"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["A"]
+          },
+          {
+            "type": "lyric",
+            "content": "no me mires a los ojos"
+          },
+          {
+            "type": "chords",
+            "content": ["F#m", "–", "D", "–", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "que me muero, yo me muero de dolor..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "OUTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "–", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Hacelo por mí"
+          },
+          {
+            "type": "chords",
+            "content": ["A", "–", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Hacelo por mí."
+          },
+          {
+            "type": "chords",
+            "content": ["E"]
+          }
+        ]
+      }
+    ]
+  }
+  

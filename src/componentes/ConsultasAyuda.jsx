@@ -262,7 +262,7 @@ const ConsultasAyuda = () => {
         <div className="canales-contacto">
           <div className="canal">
             <h3>📧 Email Directo</h3>
-            <p>soporte@BibliotecaAcordes.com</p>
+            <p>soporte@BibliotecaTeoriaMusical.com</p>
             <span>Respuesta en 24 horas</span>
           </div>
           <div className="canal">

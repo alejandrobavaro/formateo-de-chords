@@ -4,17 +4,16 @@ import "../../assets/scss/_03-Componentes/ChordsViewer/_SongViewer.scss";
 
 const SongViewer = ({ song, transposition, showA4Outline, fullscreenMode, printViewRef }) => {
   const viewerRef = useRef(null);
-  const [contentScale, setContentScale] = useState(1);
-  const [autoFontSize, setAutoFontSize] = useState(16);
+  const [autoFontSize, setAutoFontSize] = useState(14);
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [columns, setColumns] = useState([[], []]);
   
-  // Función para pantalla completa
+  // Pantalla completa
   const toggleFullscreen = () => {
     if (!document.fullscreenElement) {
-      if (viewerRef.current.requestFullscreen) {
+      if (viewerRef.current?.requestFullscreen) {
         viewerRef.current.requestFullscreen().catch(err => {
-          console.error('Error attempting to enable fullscreen:', err);
+          console.error('Error pantalla completa:', err);
         });
         setIsFullscreen(true);
       }
@@ -26,7 +25,7 @@ const SongViewer = ({ song, transposition, showA4Outline, fullscreenMode, printV
     }
   };
 
-  // Función para transponer acordes
+  // Transponer acordes
   const transposeChord = (chord) => {
     if (!chord || ['N.C.', '(E)', '-', '–', '', 'X'].includes(chord.trim())) {
       return chord;
@@ -55,72 +54,49 @@ const SongViewer = ({ song, transposition, showA4Outline, fullscreenMode, printV
     return chords[newChordIndex] + modifier;
   };
 
-  // Algoritmo automático de ajuste de tamaño
+  // Ajustar tamaño de fuente basado en el contenido
   useEffect(() => {
-    const adjustFontSizeAutomatically = () => {
+    const adjustFontSize = () => {
       if (!song || !song.content) return;
       
-      const fontSizesToTry = [16, 15, 14, 13, 12];
-      let optimalFontSize = 12;
-      
-      const calculateContentHeight = (content, testFontSize) => {
+      // Calcular densidad de contenido
+      const calculateContentDensity = (content) => {
         if (!content) return 0;
         
-        let totalHeight = 0;
-        const lineHeight = 1.1;
-        const baseLineHeight = 4.5;
+        let totalElements = 0;
         
         content.forEach(item => {
-          if (item.type === "section") {
-            totalHeight += baseLineHeight * 1.8 * (12 / testFontSize);
-          } else if (item.type === "voice") {
-            totalHeight += baseLineHeight * 1.5 * (12 / testFontSize);
-            if (item.lines) {
-              totalHeight += calculateContentHeight(item.lines, testFontSize);
-            }
-          } else if (item.type === "combined") {
-            totalHeight += baseLineHeight * 1.3 * (12 / testFontSize);
-          } else if (item.type === "chords" || item.type === "chord") {
-            totalHeight += baseLineHeight * 1.1 * (12 / testFontSize);
-          } else if (item.type === "lyric") {
-            totalHeight += baseLineHeight * 1.0 * (12 / testFontSize);
-          } else if (item.type === "text") {
-            totalHeight += baseLineHeight * 0.9 * (12 / testFontSize);
-          } else if (item.type === "divider") {
-            totalHeight += baseLineHeight * 0.4 * (12 / testFontSize);
+          totalElements += 1;
+          if (item.lines) {
+            totalElements += calculateContentDensity(item.lines);
           }
         });
         
-        return totalHeight;
+        return totalElements;
       };
       
-      for (const fontSize of fontSizesToTry) {
-        const contentHeight = calculateContentHeight(song.content, fontSize);
-        if (contentHeight <= 270) {
-          optimalFontSize = fontSize;
-          break;
-        }
+      const totalElements = calculateContentDensity(song.content);
+      
+      // Ajustar tamaño de fuente basado en la densidad
+      if (totalElements > 100) {
+        setAutoFontSize(11);
+      } else if (totalElements > 70) {
+        setAutoFontSize(12);
+      } else if (totalElements > 40) {
+        setAutoFontSize(13);
+      } else {
+        setAutoFontSize(14);
       }
       
-      setAutoFontSize(optimalFontSize);
-      
+      // Balancear columnas
       const balancedColumns = balanceColumns(song.content);
       setColumns(balancedColumns);
-      
-      const content = printViewRef.current;
-      if (!content) return;
-      
-      const contentHeight = content.scrollHeight;
-      const maxHeight = 270;
-      const scale = Math.min(1, maxHeight / contentHeight);
-      
-      setContentScale(scale);
     };
 
-    adjustFontSizeAutomatically();
-  }, [song, printViewRef]);
+    adjustFontSize();
+  }, [song]);
 
-  // Función para balancear columnas
+  // Balancear columnas
   const balanceColumns = (content) => {
     if (!content || content.length === 0) return [[], []];
     
@@ -161,7 +137,7 @@ const SongViewer = ({ song, transposition, showA4Outline, fullscreenMode, printV
     return [content.slice(0, splitIndex), content.slice(splitIndex)];
   };
 
-  // Función para procesar líneas
+  // Procesar líneas
   const processLines = (lines) => {
     if (!lines) return [];
     
@@ -201,7 +177,7 @@ const SongViewer = ({ song, transposition, showA4Outline, fullscreenMode, printV
     return processedLines;
   };
 
-  // Función para renderizar contenido
+  // Renderizar contenido
   const renderContent = (content) => {
     if (!content) return null;
     
@@ -211,7 +187,7 @@ const SongViewer = ({ song, transposition, showA4Outline, fullscreenMode, printV
           return (
             <React.Fragment key={index}>
               <div className="section-header">
-                <span className="section-title">{item.name.toUpperCase()}</span>
+                <span className="section-title">{item.name?.toUpperCase() || 'SECCIÓN'}</span>
               </div>
               {item.lines && renderContent(processLines(item.lines))}
             </React.Fragment>
@@ -219,9 +195,9 @@ const SongViewer = ({ song, transposition, showA4Outline, fullscreenMode, printV
         
         case "voice":
           return (
-            <div key={index} className={`voice-section voice-${item.color}`}>
+            <div key={index} className={`voice-section voice-${item.color || 'default'}`}>
               <div className="voice-label-horizontal">
-                <span className="voice-name">{item.name}</span>
+                <span className="voice-name">{item.name || 'VOZ'}</span>
               </div>
               <div className="voice-content">
                 {item.lines && renderContent(processLines(item.lines))}
@@ -297,30 +273,35 @@ const SongViewer = ({ song, transposition, showA4Outline, fullscreenMode, printV
   const [firstColumn, secondColumn] = columns;
 
   if (!song) {
-    return <div className="song-loading">Cargando canción...</div>;
+    return <div className="song-loading">Cargando...</div>;
   }
 
   return (
     <div className={`song-viewer ${showA4Outline ? 'a4-outline' : ''} ${isFullscreen ? 'fullscreen' : ''}`} ref={viewerRef}>
-      {/* Botón de pantalla completa */}
+      
+      {/* Botón pantalla completa */}
       <button className="fullscreen-toggle" onClick={toggleFullscreen}>
         {isFullscreen ? <BsFullscreenExit /> : <BsArrowsFullscreen />}
       </button>
 
-      {/* Vista de impresión/exportación */}
+      {/* Vista impresión - SCROLL NATURAL */}
       <div className="print-container">
         <div 
           className="print-view" 
           ref={printViewRef}
           style={{
-            transform: `scale(${contentScale})`,
-            transformOrigin: 'top center',
-            fontSize: `${autoFontSize}px`
+            fontSize: `${autoFontSize}px`,
+            width: '210mm',
+            minHeight: '297mm',
+            height: 'auto'
           }}
         >
           <div className="song-header-print">
             <h1 className="song-title-print">
-              {song.artist} - {song.title} <span className="tono-destacado">(TONO: {transposeChord(song.originalKey)})</span>
+              {song.artist} - {song.title} 
+              {song.originalKey && (
+                <span className="tono-destacado"> (TONO: {transposeChord(song.originalKey)})</span>
+              )}
             </h1>
           </div>
 
@@ -337,10 +318,13 @@ const SongViewer = ({ song, transposition, showA4Outline, fullscreenMode, printV
         </div>
       </div>
 
-      {/* Contenido principal visible */}
+      {/* Contenido principal - SCROLL NATURAL */}
       <div className="song-header">
         <h1 className="song-title">
-          {song.artist} - {song.title} <span className="tono-destacado">(TONO: {transposeChord(song.originalKey)})</span>
+          {song.artist} - {song.title}
+          {song.originalKey && (
+            <span className="tono-destacado"> (TONO: {transposeChord(song.originalKey)})</span>
+          )}
         </h1>
       </div>
 

@@ -1,0 +1,449 @@
+{
+    "id": "divididos-sobrio-a-las-pinas-e",
+    "title": "Sobrio a las Piñas",
+    "artist": "Divididos",
+    "originalKey": "E",
+    "tempo": "Fast",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "B", "A", "G", "E"]
+          },
+          {
+            "type": "text",
+            "content": "(RIFF x 3)"
+          },
+          {
+            "type": "text",
+            "content": "E|----------------|---------------|\nB|----------------|---------------|\nG|-------4-2------| o---4-2-------o|\nD|-------4-2------| o---4-2-------o|\nA|--2-2--2-0----2-|--2-2-0----2---|\nE|--0-0------3b-0-|--0-----3b-0---|"
+          },
+          {
+            "type": "text",
+            "content": "(Se repite el riff para cubrir las estrofas)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "E5"
+          },
+          {
+            "type": "lyric",
+            "content": "Hay novedades"
+          },
+          {
+            "type": "chord",
+            "content": "E5"
+          },
+          {
+            "type": "lyric",
+            "content": "en el titular"
+          },
+          {
+            "type": "chord",
+            "content": "E5"
+          },
+          {
+            "type": "lyric",
+            "content": "éxodo hepático"
+          },
+          {
+            "type": "chord",
+            "content": "E5"
+          },
+          {
+            "type": "lyric",
+            "content": "a la frontera con capital."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "E5"
+          },
+          {
+            "type": "lyric",
+            "content": "Charter de bebes"
+          },
+          {
+            "type": "chord",
+            "content": "E5"
+          },
+          {
+            "type": "lyric",
+            "content": "hacia ese baño ensordecido"
+          },
+          {
+            "type": "chord",
+            "content": "E5"
+          },
+          {
+            "type": "lyric",
+            "content": "de ingresos brutos."
+          },
+          {
+            "type": "chord",
+            "content": "E5"
+          },
+          {
+            "type": "lyric",
+            "content": "Beso al andén."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "¿Quién,"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "se ha tomado todo el vino?"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "text",
+                "content": "(RIFF)"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "¿Quién,"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "se ha tomado todo el vino?"
+          },
+          {
+            "type": "chord",
+            "content": "E5"
+          },
+          {
+            "type": "lyric",
+            "content": "Sobrio a las piñas,"
+          },
+          {
+            "type": "chord",
+            "content": "E5"
+          },
+          {
+            "type": "lyric",
+            "content": "dejo la flor,"
+          },
+          {
+            "type": "chord",
+            "content": "E5"
+          },
+          {
+            "type": "lyric",
+            "content": "rouge en la boca,"
+          },
+          {
+            "type": "chord",
+            "content": "E5"
+          },
+          {
+            "type": "lyric",
+            "content": "paz en colon,"
+          },
+          {
+            "type": "chord",
+            "content": "E5"
+          },
+          {
+            "type": "lyric",
+            "content": "se amilano."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "E5"
+          },
+          {
+            "type": "lyric",
+            "content": "No hay más lagunas"
+          },
+          {
+            "type": "chord",
+            "content": "E5"
+          },
+          {
+            "type": "lyric",
+            "content": "ni botelleros,"
+          },
+          {
+            "type": "chord",
+            "content": "E5"
+          },
+          {
+            "type": "lyric",
+            "content": "na' hay más carozos,"
+          },
+          {
+            "type": "chord",
+            "content": "E5"
+          },
+          {
+            "type": "lyric",
+            "content": "ni correrías,"
+          },
+          {
+            "type": "chord",
+            "content": "E5"
+          },
+          {
+            "type": "lyric",
+            "content": "paro el remis."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO REPETIDO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "¿Quién,"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "se ha tomado todo el vino?"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "text",
+                "content": "(RIFF)"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "¿Quién,"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "se ha tomado todo el vino?"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["B5"]
+          },
+          {
+            "type": "text",
+            "content": "(SOLO sobre B5 y riff)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "¿Quién,"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "se ha tomado todo el vino?"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "text",
+                "content": "(RIFF)"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "¿Quién,"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "se ha tomado todo el vino?"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "¿Quién,"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "se ha tomado todo el vino?"
+          },
+          {
+            "type": "chord",
+            "content": "E5"
+          },
+          {
+            "type": "lyric",
+            "content": "¿Quién,"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "se ha tomado todo el vino?"
+          },
+          {
+            "type": "chord",
+            "content": "E5"
+          },
+          {
+            "type": "lyric",
+            "content": "¿Quién,"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "se ha tomado todo el vino?"
+          }
+        ]
+      }
+    ]
+  }
+  

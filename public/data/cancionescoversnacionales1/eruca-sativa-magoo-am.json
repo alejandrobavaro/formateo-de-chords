@@ -1,0 +1,275 @@
+{
+    "id": "eruca-sativa-magoo-am",
+    "title": "Magoo",
+    "artist": "Eruca Sativa",
+    "originalKey": "Am",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "G", "Am", "G", "F", "E"]
+          },
+          {
+            "type": "text",
+            "content": "(Arpegios)"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "INTRO 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "G", "Am", "G", "F", "E"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "Hey, te escucho llegando en dejavu,"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "sos dueño de todo y no de vos."
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "Se fueron los días de ser o ser,"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "uno para el otro por intuición."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "Y en tus ojos hoy se que ya no estoy,"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": "puedo verte en la oscuridad."
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["E", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Cambio el viento y yo, sigo siendo igual,"
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Solo niebla queda en tu lugar."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "Y cuando te des vuelta"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "yo voy a seguir estando acá!"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["C", "D#", "D", "D#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y cuando te des vuelta"
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "yo voy a seguir estando acá!"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "G", "F", "E"]
+          },
+          {
+            "type": "text",
+            "content": "(Solo de guitarra)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "Y cuando te des vuelta"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "yo voy a seguir estando acá!"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["C", "D#", "D", "D#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y cuando te des vuelta"
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "yo voy a seguir estando acá!"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "D#", "D", "D#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y cuando te des vuelta"
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "yo voy a seguir estando acá!"
+          }
+        ]
+      }
+    ]
+  }
+  

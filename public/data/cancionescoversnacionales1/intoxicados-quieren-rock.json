@@ -1,0 +1,434 @@
+{
+    "id": "intoxicados-quieren-rock",
+    "title": "Quieren Rock",
+    "artist": "Intoxicados",
+    "originalKey": "A",
+    "tempo": "Fast",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "text",
+            "content": "(Riff1)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A5"
+          },
+          {
+            "type": "lyric",
+            "content": "Los chicos saben dónde está la acción"
+          },
+          {
+            "type": "text",
+            "content": "(Riff2)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A5"
+          },
+          {
+            "type": "lyric",
+            "content": "se están preparando mientras baja el sol"
+          },
+          {
+            "type": "text",
+            "content": "(Riff2)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A5"
+          },
+          {
+            "type": "lyric",
+            "content": "La banda que les gusta se presenta hoy"
+          },
+          {
+            "type": "text",
+            "content": "(Riff2)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A5"
+          },
+          {
+            "type": "lyric",
+            "content": "chicos y chicas quieren rock"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "CORO",
+        "lines": [
+          {
+            "type": "text",
+            "content": "(Riff1 x3)"
+          },
+          {
+            "type": "lyric",
+            "content": "Quieren rock, rock, rock"
+          },
+          {
+            "type": "text",
+            "content": "(Riff1)"
+          },
+          {
+            "type": "lyric",
+            "content": "quieren rock"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "lyric",
+            "content": "Subo al escenario y veo de repente"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "lyric",
+            "content": "chicos intoxicados por el rock n' roll"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "lyric",
+            "content": "ya colgaron sus banderas y cantan como siempre"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "lyric",
+            "content": "que salga la banda que queremos rock"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["B5"]
+          },
+          {
+            "type": "text",
+            "content": "(Riff2)"
+          },
+          {
+            "type": "chords",
+            "content": ["B5", "D5", "E5", "B5"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "B5"
+          },
+          {
+            "type": "lyric",
+            "content": "Los chicos saben dónde está la acción"
+          },
+          {
+            "type": "text",
+            "content": "(Riff3)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "B5"
+          },
+          {
+            "type": "lyric",
+            "content": "se están preparando mientras baja el sol"
+          },
+          {
+            "type": "text",
+            "content": "(Riff3)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "B5"
+          },
+          {
+            "type": "lyric",
+            "content": "La banda que les gusta se presenta hoy"
+          },
+          {
+            "type": "text",
+            "content": "(Riff3)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "B5"
+          },
+          {
+            "type": "lyric",
+            "content": "chicos y chicas quieren rock"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "CORO (REPETIR)",
+        "lines": [
+          {
+            "type": "text",
+            "content": "(Riff4 x3)"
+          },
+          {
+            "type": "lyric",
+            "content": "Quieren rock, rock, rock"
+          },
+          {
+            "type": "text",
+            "content": "(Riff4)"
+          },
+          {
+            "type": "lyric",
+            "content": "quieren rock"
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "RIFFS",
+        "lines": [
+          {
+            "type": "text",
+            "content": "Riff1:"
+          },
+          {
+            "type": "tab",
+            "content": "E|--------------------| -------   -------"
+          },
+          {
+            "type": "tab",
+            "content": "B|--------------------| -------   -------"
+          },
+          {
+            "type": "tab",
+            "content": "G|--------------------| -------   -------"
+          },
+          {
+            "type": "tab",
+            "content": "D|-2-----2-4-2-2-----2| 4-2-2--   ---2---"
+          },
+          {
+            "type": "tab",
+            "content": "A|-0-3-0-0-0-0-0-3-0-0| 0-0-0--   ---0---"
+          },
+          {
+            "type": "tab",
+            "content": "E|--------------------| ------3   -3---3-"
+          },
+          {
+            "type": "text",
+            "content": "Riff2:"
+          },
+          {
+            "type": "tab",
+            "content": "E|--------------------------------|"
+          },
+          {
+            "type": "tab",
+            "content": "B|--------------------------------|"
+          },
+          {
+            "type": "tab",
+            "content": "G|--------------------------------|"
+          },
+          {
+            "type": "tab",
+            "content": "D|---2---2-4-2-2-2---2-4-2-2------|"
+          },
+          {
+            "type": "tab",
+            "content": "A|-0-3-0-0-0-0-0-3-0-0-0-0-0-3-0--|"
+          },
+          {
+            "type": "tab",
+            "content": "E|-------------------------------3|"
+          },
+          {
+            "type": "text",
+            "content": "Riff3:"
+          },
+          {
+            "type": "tab",
+            "content": "E|--------------------------------|"
+          },
+          {
+            "type": "tab",
+            "content": "B|--------------------------------|"
+          },
+          {
+            "type": "tab",
+            "content": "G|--------------------------------|"
+          },
+          {
+            "type": "tab",
+            "content": "D|---4-4-4-6-4-4-4-4-4-6-4-4-4-4--|"
+          },
+          {
+            "type": "tab",
+            "content": "A|-2-5-2-2-2-2-2-5-2-2-2-2-2-5-2--|"
+          },
+          {
+            "type": "tab",
+            "content": "E|-------------------------------5|"
+          },
+          {
+            "type": "text",
+            "content": "Riff4:"
+          },
+          {
+            "type": "tab",
+            "content": "E|------------------------|"
+          },
+          {
+            "type": "tab",
+            "content": "B|------------------------|"
+          },
+          {
+            "type": "tab",
+            "content": "G|------------------------|"
+          },
+          {
+            "type": "tab",
+            "content": "D|-4-4-4-4-6-4-4-4-4-4--4-|"
+          },
+          {
+            "type": "tab",
+            "content": "A|-2-5-2-2-2-2-2-5-2-2--2-|"
+          },
+          {
+            "type": "tab",
+            "content": "E|---------------------5-5|"
+          }
+        ]
+      }
+    ]
+  }
+  

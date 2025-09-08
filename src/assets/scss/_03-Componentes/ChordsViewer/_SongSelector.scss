@@ -1,316 +1,385 @@
-/* =============================================== */
-/* ESTILOS COMPLETOS PARA SELECTOR EN HEADER */
-/* =============================================== */
+// ================================================================
+// Selector de Canciones Mejorado - SCSS
+// ================================================================
 
-.song-selector-header {
+.song-selector-gallery {
+  position: relative;
   width: 100%;
-  position: relative;
+  margin-bottom: 1.5rem;
+
+  &.compact {
+    .search-container-gallery {
+      margin-bottom: 0;
+    }
+  }
+
+  // Contenedor de búsqueda
+  .search-container-gallery {
+    position: relative;
+    margin-bottom: 1rem;
+
+    .search-input-wrapper-gallery {
+      position: relative;
+      display: flex;
+      align-items: center;
+
+      .search-icon-gallery {
+        position: absolute;
+        left: 1rem;
+        color: #6c757d;
+        z-index: 2;
+        font-size: 1.1rem;
+      }
+
+      .search-input-gallery {
+        width: 100%;
+        padding: 0.875rem 1rem 0.875rem 3rem;
+        background: rgba(255, 255, 255, 0.08);
+        border: 1px solid #444;
+        border-radius: 8px;
+        font-size: 1rem;
+        color: #f8f9fa;
+        transition: all 0.3s ease;
+
+        &:focus {
+          outline: none;
+          border-color: #e63946;
+          background: rgba(255, 255, 255, 0.12);
+          box-shadow: 0 0 0 3px rgba(230, 57, 70, 0.1);
+        }
+
+        &::placeholder {
+          color: #6c757d;
+        }
+      }
+
+      .clear-btn-gallery {
+        position: absolute;
+        right: 1rem;
+        background: none;
+        border: none;
+        color: #6c757d;
+        cursor: pointer;
+        padding: 0.25rem;
+        border-radius: 50%;
+        transition: all 0.3s ease;
+
+        &:hover {
+          color: #e63946;
+          background: rgba(230, 57, 70, 0.1);
+        }
+      }
+    }
+
+    .search-stats-gallery {
+      position: absolute;
+      right: 0;
+      bottom: -1.5rem;
+      
+      .results-count {
+        color: #adb5bd;
+        font-size: 0.85rem;
+        font-style: italic;
+      }
+    }
+  }
+
+  // Dropdown de sugerencias
+  .suggestions-dropdown-gallery {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: rgba(45, 45, 45, 0.98);
+    border: 1px solid #e63946;
+    border-radius: 8px;
+    z-index: 1000;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    margin-top: 0.5rem;
+    max-height: 300px;
+    overflow-y: auto;
+
+    .suggestions-header-gallery {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.75rem 1rem;
+      background: rgba(230, 57, 70, 0.1);
+      border-bottom: 1px solid rgba(230, 57, 70, 0.3);
+      color: #ffd166;
+      font-size: 0.9rem;
+      font-weight: 600;
+
+      .close-suggestions-btn {
+        background: none;
+        border: none;
+        color: #adb5bd;
+        cursor: pointer;
+        padding: 0.25rem;
+        border-radius: 4px;
+        transition: all 0.3s ease;
+
+        &:hover {
+          color: #e63946;
+          background: rgba(230, 57, 70, 0.1);
+        }
+      }
+    }
+
+    .suggestions-list-gallery {
+      padding: 0.5rem;
+
+      .suggestion-item-gallery {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0.75rem 1rem;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        margin-bottom: 0.25rem;
+
+        &:hover {
+          background: rgba(255, 209, 102, 0.1);
+          transform: translateX(4px);
+
+          .suggestion-arrow {
+            opacity: 1;
+            transform: translateX(0);
+          }
+        }
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+
+        .suggestion-info {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          gap: 0.25rem;
+
+          .suggestion-title {
+            color: #f8f9fa;
+            font-weight: 600;
+            font-size: 0.95rem;
+          }
+
+          .suggestion-artist {
+            color: #adb5bd;
+            font-size: 0.85rem;
+          }
+
+          .suggestion-key {
+            color: #e63946;
+            font-size: 0.8rem;
+            font-weight: 700;
+            background: rgba(230, 57, 70, 0.1);
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            align-self: flex-start;
+          }
+        }
+
+        .suggestion-arrow {
+          color: #ffd166;
+          opacity: 0;
+          transform: translateX(-4px);
+          transition: all 0.3s ease;
+        }
+      }
+    }
+  }
+
+  // Selector de canciones
+  .song-picker-gallery {
+    margin-bottom: 1rem;
+
+    .picker-header {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 0.5rem;
+      color: #adb5bd;
+      font-size: 0.9rem;
+
+      .picker-icon {
+        color: #ffd166;
+      }
+    }
+
+    .song-select-gallery {
+      width: 100%;
+      padding: 0.75rem 1rem;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid #444;
+      border-radius: 6px;
+      color: #f8f9fa;
+      font-size: 0.95rem;
+      cursor: pointer;
+      transition: all 0.3s ease;
+
+      &:focus {
+        outline: none;
+        border-color: #e63946;
+        background: rgba(255, 255, 255, 0.12);
+      }
+
+      &:disabled {
+        opacity: 0.6;
+        cursor: not-allowed;
+      }
+
+      option {
+        background: #2a2a2a;
+        color: #f8f9fa;
+        padding: 0.5rem;
+      }
+    }
+  }
+
+  // Canción actual
+  .current-song-gallery {
+    background: rgba(255, 209, 102, 0.05);
+    border: 1px solid rgba(255, 209, 102, 0.2);
+    border-radius: 8px;
+    padding: 1rem;
+
+    .current-song-header {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 0.75rem;
+      color: #ffd166;
+      font-weight: 600;
+
+      .current-icon {
+        color: #e63946;
+      }
+    }
+
+    .current-song-info {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+
+      .current-title {
+        color: #f8f9fa;
+        font-weight: 700;
+        font-size: 1.1rem;
+      }
+
+      .current-artist {
+        color: #adb5bd;
+        font-size: 0.95rem;
+      }
+
+      .current-key {
+        color: #e63946;
+        font-weight: 700;
+        background: rgba(230, 57, 70, 0.1);
+        padding: 0.3rem 0.75rem;
+        border-radius: 16px;
+        align-self: flex-start;
+        font-size: 0.85rem;
+      }
+    }
+  }
 }
 
-/* Búsqueda para header */
-.search-header {
-  width: 100%;
-  margin-bottom: 8px;
-}
-
-.search-input-wrapper {
-  position: relative;
-  display: flex;
-  align-items: center;
-  background: #3a3a3a;
-  border: 1px solid #555;
-  border-radius: 4px;
-  padding: 0 10px;
-  height: 36px;
-}
-
-.search-input-wrapper:focus-within {
-  border-color: #3498db;
-}
-
-.search-icon {
-  color: #ffd166;
-  font-size: 13px;
-  margin-right: 8px;
-}
-
-.search-input {
-  flex: 1;
-  border: none;
-  background: transparent;
-  font-size: 13px;
-  color: #fff;
-  padding: 0;
-  height: 100%;
-}
-
-.search-input:focus {
-  outline: none;
-}
-
-.search-input::placeholder {
-  color: #95a5a6;
-  font-size: 12px;
-}
-
-.clear-btn {
-  background: none;
-  border: none;
-  color: #95a5a6;
-  cursor: pointer;
-  padding: 3px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 13px;
-}
-
-.clear-btn:hover {
-  color: #fff;
-}
-
-/* Selector compacto de canciones */
-.select-compact {
-  position: relative;
-  display: flex;
-  align-items: center;
-  background: #3a3a3a;
-  border: 1px solid #555;
-  border-radius: 4px;
-  padding: 0 10px;
-  height: 36px;
-  margin-bottom: 8px;
-}
-
-.select-compact:focus-within {
-  border-color: #3498db;
-}
-
-.select-icon {
-  color: #ffd166;
-  font-size: 13px;
-  margin-right: 8px;
-}
-
-.song-select {
-  flex: 1;
-  border: none;
-  background: transparent;
-  font-size: 13px;
-  color: #fff;
-  cursor: pointer;
-  appearance: none;
-  padding: 0;
-  height: 100%;
-}
-
-.song-select:focus {
-  outline: none;
-}
-
-.song-select:disabled {
-  opacity: 0.6;
-  cursor: not-allowed;
-}
-
-.song-select option {
-  background: #2a2a2a;
-  color: #fff;
-  font-size: 13px;
-  padding: 6px;
-}
-
-/* Sugerencias para header */
-.suggestions-header {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  right: 0;
-  background: #2a2a2a;
-  border: 1px solid #555;
-  border-top: none;
-  border-radius: 0 0 4px 4px;
-  z-index: 1000;
-  max-height: 200px;
-  overflow-y: auto;
-  margin-top: 2px;
-}
-
-.suggestion-item {
-  padding: 8px 10px;
-  cursor: pointer;
-  border-bottom: 1px solid #444;
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-}
-
-.suggestion-item:last-child {
-  border-bottom: none;
-}
-
-.suggestion-item:hover {
-  background: #3498db;
-}
-
-.suggestion-title {
-  font-size: 13px;
-  font-weight: 600;
-  color: #fff;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.suggestion-artist {
-  font-size: 11px;
-  color: #bdc3c7;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.suggestion-item:hover .suggestion-artist {
-  color: rgba(255, 255, 255, 0.9);
-}
-
-/* Canción actual para header */
-.current-song-header {
-  margin-top: 8px;
-  padding: 8px 10px;
-  background: #2c3e50;
-  border: 1px solid #3498db;
-  border-radius: 4px;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.current-icon {
-  color: #27ae60;
-  font-size: 13px;
-}
-
-.current-info {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-  flex: 1;
-  min-width: 0;
-}
-
-.current-title {
-  font-size: 13px;
-  font-weight: 600;
-  color: #fff;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.current-artist {
-  font-size: 11px;
-  color: #bdc3c7;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-/* =============================================== */
-/* RESPONSIVE DESIGN */
-/* =============================================== */
-
-/* Mobile */
+// Responsive
 @media (max-width: 768px) {
-  .search-input-wrapper,
-  .select-compact {
-    height: 34px;
-  }
-  
-  .search-input,
-  .song-select {
-    font-size: 12px;
-  }
-  
-  .search-input::placeholder {
-    font-size: 11px;
-  }
-  
-  .search-icon,
-  .select-icon {
-    font-size: 12px;
+  .song-selector-gallery {
+    .search-container-gallery {
+      .search-input-wrapper-gallery {
+        .search-input-gallery {
+          padding: 0.75rem 0.75rem 0.75rem 2.5rem;
+          font-size: 0.9rem;
+        }
+
+        .search-icon-gallery {
+          left: 0.75rem;
+          font-size: 1rem;
+        }
+
+        .clear-btn-gallery {
+          right: 0.75rem;
+        }
+      }
+    }
+
+    .suggestions-dropdown-gallery {
+      .suggestions-list-gallery {
+        .suggestion-item-gallery {
+          padding: 0.6rem 0.75rem;
+
+          .suggestion-info {
+            .suggestion-title {
+              font-size: 0.9rem;
+            }
+
+            .suggestion-artist {
+              font-size: 0.8rem;
+            }
+          }
+        }
+      }
+    }
+
+    .current-song-gallery {
+      padding: 0.75rem;
+
+      .current-song-info {
+        .current-title {
+          font-size: 1rem;
+        }
+      }
+    }
   }
 }
 
-/* Tablet */
-@media (min-width: 769px) and (max-width: 1024px) {
-  .search-input-wrapper,
-  .select-compact {
-    height: 36px;
-  }
-  
-  .search-input,
-  .song-select {
-    font-size: 13px;
+// Estados de foco
+.song-selector-gallery:focus-within {
+  .search-input-wrapper-gallery {
+    .search-input-gallery {
+      border-color: #e63946;
+      background: rgba(255, 255, 255, 0.12);
+    }
   }
 }
 
-/* Desktop */
-@media (min-width: 1025px) {
-  .search-input-wrapper,
-  .select-compact {
-    height: 38px;
+// Animaciones
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
   }
-  
-  .search-input,
-  .song-select {
-    font-size: 14px;
-  }
-  
-  .search-input::placeholder {
-    font-size: 13px;
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
-/* Estados de foco para accesibilidad */
-.search-input:focus,
-.song-select:focus,
-.clear-btn:focus {
-  outline: 2px solid #3498db;
-  outline-offset: 2px;
+.suggestions-dropdown-gallery {
+  animation: slideIn 0.3s ease;
 }
 
-/* Scrollbar personalizado para sugerencias */
-.suggestions-header::-webkit-scrollbar {
+// Scrollbar personalizado
+.suggestions-list-gallery::-webkit-scrollbar {
   width: 6px;
 }
 
-.suggestions-header::-webkit-scrollbar-track {
-  background: #3a3a3a;
-}
-
-.suggestions-header::-webkit-scrollbar-thumb {
-  background: #555;
+.suggestions-list-gallery::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
   border-radius: 3px;
 }
 
-.suggestions-header::-webkit-scrollbar-thumb:hover {
-  background: #666;
+.suggestions-list-gallery::-webkit-scrollbar-thumb {
+  background: rgba(255, 209, 102, 0.3);
+  border-radius: 3px;
 }
 
-/* Transiciones suaves */
-.search-input-wrapper,
-.select-compact,
-.suggestion-item,
-.current-song-header {
-  transition: all 0.2s ease;
-}
-
-.search-input-wrapper:hover,
-.select-compact:hover {
-  border-color: #666;
-}
-
-.suggestion-item:hover {
-  transform: translateX(2px);
+.suggestions-list-gallery::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 209, 102, 0.5);
 }

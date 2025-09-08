@@ -1,0 +1,508 @@
+{
+    "id": "charly-garcia-chipi-chipi-g",
+    "title": "Chipi Chipi",
+    "artist": "Charly García",
+    "originalKey": "G",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "Em", "Am7", "D"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Yo nunca vi New York,"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "no sé lo que es París,"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am7"
+          },
+          {
+            "type": "lyric",
+            "content": "vivo bajo la tierra,"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "vivo dentro de mí."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Yo no tengo un espejo,"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "(no canta)"
+          },
+          {
+            "type": "chord",
+            "content": "Am7"
+          },
+          {
+            "type": "lyric",
+            "content": "la lágrima me habla,"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "está dentro de mí."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Dm"
+              },
+              {
+                "type": "lyric",
+                "content": "Yo solo tengo esta pobre antena,"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G7"
+              },
+              {
+                "type": "lyric",
+                "content": "que me transmite lo que decís,"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["C", "Cm"]
+          },
+          {
+            "type": "lyric",
+            "content": "esta canción, mi ilusión, mis penas"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D/F#", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "y este suvenir."
+          },
+          {
+            "type": "chords",
+            "content": ["D", "G"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Yo subo la escalera. Uh!"
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "yo cumplo una misión,"
+          },
+          {
+            "type": "chord",
+            "content": "Am7"
+          },
+          {
+            "type": "lyric",
+            "content": "la lágrima me dice que yo tampoco soy"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "La hija de un amor,"
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric",
+            "content": "la hija del dolor,"
+          },
+          {
+            "type": "chord",
+            "content": "Am7"
+          },
+          {
+            "type": "lyric",
+            "content": "yo soy, quien no debe ser."
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Dm", "G7"]
+          },
+          {
+            "type": "lyric",
+            "content": "(no canta)"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "Cm"]
+          },
+          {
+            "type": "lyric",
+            "content": "no digas nada vete de aquí,"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D/F#", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "porque yo voy donde nunca estoy,"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "donde nunca fui."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "BIS",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "Tómalo con calma, la cosa es así,"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "ya se hace de noche, me tengo que ir."
+          },
+          {
+            "type": "chords",
+            "content": ["Am7", "Eb", "G", "Em", "C", "Am7", "D", "D4", "D"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Chipi, chipi, chipi, chipi"
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "bom bom bom bom"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "G", "Em", "Am", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "bom bom Chipi, chipi."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Dm", "G7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Si este dolor no durara por siempre,"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "Cm"]
+          },
+          {
+            "type": "lyric",
+            "content": "es que el mercurio lo tengo aquí,"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D/F#", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "ya no digas malas palabras, nene,"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "ya vete de aquí."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Dm", "G7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Esta canción durará por siempre,"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "Cm"]
+          },
+          {
+            "type": "lyric",
+            "content": "por eso mismo yo la hice así,"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D/F#", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "una canción sin amor, sin dolor,"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "la canción sin fin."
+          },
+          {
+            "type": "text",
+            "content": "[again]"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Dm", "G7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Esta canción durará por siempre,"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "Cm"]
+          },
+          {
+            "type": "lyric",
+            "content": "como los discos,"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D/F#", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "mmmmmmmmmmmm..."
+          },
+          {
+            "type": "chords",
+            "content": ["D", "G", "D", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "la canción sin fin."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "OUTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "Em", "Am", "D"]
+          },
+          {
+            "type": "text",
+            "content": "(x2)"
+          }
+        ]
+      }
+    ]
+  }
+  

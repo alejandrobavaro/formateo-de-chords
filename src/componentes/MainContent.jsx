@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import ReproductorVideo from "./ReproductorVideo";
-import GaleriaHomeCancioneros from "./GaleriaHomeCancioneros"; 
+import BibliotecaCancioneros from "./ChordsViewer/BibliotecaCancioneros"; 
 import "../assets/scss/_03-Componentes/_MainContent.scss";
 
 function MainContent() {
@@ -12,7 +12,7 @@ function MainContent() {
     <ReproductorVideo />
   </div> */}
   <div className="gridItem">
-    <GaleriaHomeCancioneros />
+    <BibliotecaCancioneros />
   </div>
 </div>
 

@@ -19,7 +19,7 @@ Facilitar el proceso de aprendizaje, práctica y ejecución de canciones mediant
 ## 🎹 Funcionalidades Principales
 
 ### 1. 📋 Biblioteca de Acordes Organizada
-- **Almango Database**: Acordes oficiales y verificados
+- **almango-pop Database**: Acordes oficiales y verificados
 - **Covers Collection**: Versiones y adaptaciones musicales
 - **Búsqueda Inteligente**: Filtrado por género, artista y dificultad
 
@@ -65,8 +65,8 @@ Transposición de Do → Re → Mi → Fa...
 ✅ Sistema To-Do para prácticas
 ```
 
-#### 📖 `ChordsAlmango.jsx` - Visualizador Principal
-**Función**: Visualización y gestión de acordes Almango
+#### 📖 `Chordsalmango-pop.jsx` - Visualizador Principal
+**Función**: Visualización y gestión de acordes almango-pop
 **Características**:
 - **Transposición en Tiempo Real**: Modificar tonalidades al vuelo
 - **Estructura Organizada**: Acordes → Letra de forma clara
@@ -384,10 +384,10 @@ src/
 - **Contiene**: Transposición, afinador, metrónomo
 - **Estilos**: `_Sidebar.scss`
 
-### ChordsAlmango (`ChordsAlmango.jsx`)
-- **Función**: Visualizador de acordes Almango
+### Chordsalmango-pop (`Chordsalmango-pop.jsx`)
+- **Función**: Visualizador de acordes almango-pop
 - **Features**: Transposición en tiempo real, exportación
-- **Estilos**: `_ChordsAlmango.scss`
+- **Estilos**: `_Chordsalmango-pop.scss`
 
 ### ChordsViewerIndex (`ChordsViewerIndex.jsx`)
 - **Función**: Biblioteca de covers musicales

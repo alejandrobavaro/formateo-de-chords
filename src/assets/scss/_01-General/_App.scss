@@ -1,278 +1,244 @@
 /* =============================================== */
-/* BODY INDEX APP - Estilos globales mejorados
-/* Diseño mobile-first con estética unificada
+/* ESTILO.SCSS - Estilos optimizados con colores originales */
 /* =============================================== */
 
-/* --- Reset y normalización --- */
+/* --- Reset y base --- */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* --- Estilos HTML --- */
 html {
-  font-size: 16px; /* Tamaño base para móviles */
-  margin: 0;
-  padding: 0;
-  scroll-behavior: smooth; /* Desplazamiento suave */
+  font-size: 14px;
+  scroll-behavior: smooth;
 }
 
-/* --- Estilos Body --- */
 body {
-  font-family: "Montserrat", "Segoe UI", sans-serif; /* Tipografía principal consistente */
-  background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%); /* Degradado oscuro unificado */
-  background-attachment: fixed; /* Fondo fijo */
-  color: #f8f9fa; /* Color de texto claro para contraste */
+  font-family: "Montserrat", "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+  background-attachment: fixed;
+  color: #f8f9fa;
   text-align: center;
   min-height: 100vh;
   line-height: 1.6;
-  overflow-x: hidden; /* Previene scroll horizontal */
+  overflow-x: hidden;
 }
 
-/* --- Contenedor Principal de la App --- */
-.app {
+/* --- App structure --- */
+.App {
   width: 100%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
-/* --- Contenido Principal --- */
 .main-content {
   width: 100%;
   display: flex;
   flex-direction: column;
-  flex-grow: 1; /* Ocupa espacio disponible */
-  gap: 1rem; /* Espaciado consistente */
+  flex-grow: 1;
+  gap: 0.5rem;
 }
 
 .content {
   width: 100%;
   flex-grow: 1;
-  padding: 1rem; /* Padding base para móviles */
+  padding: 0.8rem;
 }
 
-/* --- Separadores de sección --- */
+/* --- Section divider --- */
 .section-divider {
   border: 0;
   height: 1px;
-  background: linear-gradient(90deg, 
-    transparent 0%, 
-    #e63946 50%, 
-    transparent 100%); /* Degradado con color principal */
-  margin: 1rem 0;
+  background: linear-gradient(90deg, transparent 0%, #e63946 50%, transparent 100%);
+  margin: 0.8rem 0;
   opacity: 0.6;
 }
 
-/* ============= TIPOGRAFÍA Y JERARQUÍA ============= */
-
-/* --- Encabezados con escala consistente --- */
+/* --- Typography --- */
 h1 {
-  font-size: 2rem; /* 32px */
-  margin-bottom: 1rem;
-  color: #ffd166; /* Dorado consistente */
+  font-size: 1.8rem;
+  margin-bottom: 0.8rem;
+  color: #ffd166;
   font-weight: 700;
   line-height: 1.2;
-  letter-spacing: 0.5px;
 }
 
 h2 {
-  font-size: 1.75rem; /* 28px */
-  margin-bottom: 0.875rem;
+  font-size: 1.5rem;
+  margin-bottom: 0.7rem;
   color: #ffd166;
   font-weight: 600;
-  line-height: 1.3;
 }
 
 h3 {
-  font-size: 1.5rem; /* 24px */
-  margin-bottom: 0.75rem;
+  font-size: 1.3rem;
+  margin-bottom: 0.6rem;
   color: #f8f9fa;
   font-weight: 600;
 }
 
 h4 {
-  font-size: 1.25rem; /* 20px */
-  margin-bottom: 0.625rem;
-  color: #f8f9fa;
-  font-weight: 500;
-}
-
-h5 {
-  font-size: 1.125rem; /* 18px */
-  margin-bottom: 0.5rem;
-  color: #f8f9fa;
-  font-weight: 500;
-}
-
-h6 {
-  font-size: 1rem; /* 16px */
-  margin-bottom: 0.5rem;
-  color: #adb5bd; /* Gris claro */
-  font-weight: 400;
-}
-
-/* --- Párrafos y texto base --- */
-p {
-  font-size: 1.1rem; /* 17.6px */
-  margin-bottom: 1rem;
-  color: #e9ecef; /* Gris muy claro */
-  line-height: 1.7;
-  letter-spacing: 0.02em;
-  padding: 0.5rem;
-  hyphens: auto;
-  word-break: break-word;
-}
-
-/* --- Listas --- */
-ol, ul {
-  margin-bottom: 1rem;
-  padding-left: 1.5rem;
-}
-
-li {
-  margin-bottom: 0.5rem;
   font-size: 1.1rem;
-  line-height: 1.6;
+  margin-bottom: 0.5rem;
+  color: #f8f9fa;
+  font-weight: 500;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 0.8rem;
   color: #e9ecef;
+  line-height: 1.6;
+  padding: 0.4rem;
 }
 
-ol {
-  list-style-type: decimal;
-}
-
-ul {
-  list-style-type: disc;
-}
-
-/* --- Enlaces con estética unificada --- */
+/* --- Links --- */
 a {
-  color: #ffd166; /* Dorado consistente */
+  color: #ffd166;
   text-decoration: none;
-  transition: all 0.3s ease;
+  transition: all 0.2s ease;
   font-weight: 500;
   
-  &:link,
-  &:visited {
-    color: #ffd166;
+  &:hover {
+    color: #e63946;
   }
+}
+
+/* --- Buttons --- */
+button {
+  background: linear-gradient(135deg, #000000 0%, #046b38 100%);
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
   
-  &:hover,
-  &:focus {
-    color: #e63946; /* Rojo coral al hover */
+  &:hover {
+    background: linear-gradient(135deg, #ff7300 0%, #000000 100%);
     transform: translateY(-1px);
   }
 }
 
-/* --- Animación de sacudida suavizada --- */
-@keyframes gentle-shake {
-  0%, 100% {
-    transform: translateX(0);
-  }
-  25% {
-    transform: translateX(-2px);
-  }
-  50% {
-    transform: translateX(2px);
-  }
-  75% {
-    transform: translateX(-2px);
+/* --- Forms --- */
+input, textarea, select {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #444;
+  border-radius: 4px;
+  background: #2a2a2a;
+  color: #f8f9fa;
+  font-family: inherit;
+  font-size: 0.9rem;
+  
+  &:focus {
+    outline: none;
+    border-color: #e66a39;
   }
 }
 
-/* ============= MEDIA QUERIES RESPONSIVE ============= */
+/* --- Tables --- */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0rem 0;
+  background: #2a2a2a;
+  border-radius: 6px;
+  overflow: hidden;
+}
 
-/* --- Tablet (≥768px) --- */
-@media (min-width: 768px) {
+th, td {
+  padding: 0.6rem;
+  text-align: left;
+  border-bottom: 1px solid #00ff8849;
+}
+
+th {
+  background: #016446;
+  color: white;
+  font-weight: 600;
+}
+
+/* --- Cards --- */
+.card {
+  background: #2a2a2a;
+  border-radius: 6px;
+  padding: 1rem;
+  margin: 0.8rem 0;
+  border: 1px solid #444;
+}
+
+/* --- Utility classes --- */
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mt-1 { margin-top: 0.5rem; }
+.mt-2 { margin-top: 1rem; }
+.mb-1 { margin-bottom: 0.5rem; }
+.mb-2 { margin-bottom: 1rem; }
+.p-1 { padding: 0.5rem; }
+.p-2 { padding: 1rem; }
+
+/* --- Responsive design --- */
+@media (max-width: 767px) {
   html {
-    font-size: 15px; /* Ajuste fino de tamaño base */
+    font-size: 14px;
   }
   
   .content {
-    padding: 1.5rem; /* Padding aumentado */
+    padding: 0.6rem;
   }
   
   h1 {
-    font-size: 2.25rem; /* 36px */
+    font-size: 1.5rem;
   }
   
   h2 {
-    font-size: 2rem; /* 32px */
+    font-size: 1.3rem;
   }
   
-  p {
-    padding: 0.75rem;
-    font-size: 1.05rem; /* 16.8px */
-  }
-  
-  .main-content {
-    flex-direction: row;
-    gap: 1.5rem;
+  button {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
   }
 }
 
-/* --- Desktop (≥1024px) --- */
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .content {
-    padding: 2rem;
-    max-width: 1200px; /* Ancho máximo centrado */
-    margin: 0 auto;
-  }
-  
-  h1 {
-    font-size: 2.5rem; /* 40px */
-  }
-  
-  h2 {
-    font-size: 2.25rem; /* 36px */
-  }
-  
-  p {
-    font-size: 1.1rem; /* 17.6px */
     padding: 1rem;
   }
   
   .main-content {
-    gap: 2rem;
-  }
-  
-  .section-divider {
-    margin: 1.5rem 0;
+    flex-direction: row;
+    gap: 1rem;
   }
 }
 
-/* --- Pantallas grandes (≥1200px) --- */
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .content {
-    padding: 2.5rem;
+    padding: 1.2rem;
+    max-width: 1200px;
+    margin: 0 auto;
   }
   
   h1 {
-    font-size: 3rem; /* 48px */
-  }
-  
-  h2 {
-    font-size: 2.5rem; /* 40px */
-  }
-  
-  p {
-    font-size: 1.15rem; /* 18.4px */
+    font-size: 2rem;
   }
 }
 
-/* ============= UTILIDADES Y ESTADOS ============= */
-
-/* --- Estados de focus para accesibilidad --- */
-a:focus,
-button:focus,
-input:focus,
-textarea:focus {
-  outline: 2px solid #e63946;
-  outline-offset: 2px;
-}
-
-/* --- Reduce motion para preferencias de usuario --- */
+/* --- Accessibility --- */
 @media (prefers-reduced-motion: reduce) {
   * {
     animation-duration: 0.01ms !important;
@@ -282,37 +248,3 @@ textarea:focus {
   }
 }
 
-/* --- Modo alto contraste para accesibilidad --- */
-@media (prefers-contrast: high) {
-  body {
-    background: #000000;
-  }
-  
-  h1, h2, h3, h4, h5, h6 {
-    color: #ffffff;
-  }
-  
-  p, li {
-    color: #f8f9fa;
-  }
-  
-  a {
-    color: #ff6b6b;
-    text-decoration: underline;
-  }
-}
-
-/* --- Soporte para modo oscuro del sistema --- */
-@media (prefers-color-scheme: dark) {
-  body {
-    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
-  }
-}
-
-/* --- Mejoras de rendimiento para dispositivos táctiles --- */
-@media (hover: none) and (pointer: coarse) {
-  a:hover,
-  button:hover {
-    transform: none; /* Desactiva transformaciones en dispositivos táctiles */
-  }
-}

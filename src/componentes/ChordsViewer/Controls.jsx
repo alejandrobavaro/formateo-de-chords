@@ -1,10 +1,17 @@
 // ======================================================
-// COMPONENTE CONTROLES COMPACTO (Modificado)
+// CONTROLES COMPACTOS - COMPONENTE OPTIMIZADO
 // ======================================================
+
 import React from "react";
-import { BsPrinter, BsFiletypePdf, BsFiletypeJpg, BsMusicNoteBeamed } from "react-icons/bs";
-import { MdOutlineCheckBox, MdOutlineCheckBoxOutlineBlank } from "react-icons/md";
-import "../../assets/scss/_03-Componentes/ChordsViewer/_Controls.scss";
+import { 
+  BsPrinter, 
+  BsFiletypePdf, 
+  BsFiletypeJpg, 
+  BsMusicNoteBeamed,
+  BsDash,
+  BsPlus,
+  BsAspectRatio
+} from "react-icons/bs";
 
 const Controls = ({
   transposition,
@@ -17,66 +24,63 @@ const Controls = ({
   hasSelectedSong
 }) => {
   return (
-    <div className="controls-compact-grid">
+    <div className="controls-single-line">
       
-      {/* Transposición */}
-      <div className="control-item">
-        <div className="control-header">
+      {/* Control de transposición */}
+      <div className="control-group">
+        <span className="control-label">
           <BsMusicNoteBeamed className="control-icon" />
-          <span className="control-label">Transposición</span>
-        </div>
+          Tono:
+        </span>
         <div className="transposition-controls">
           <button
             onClick={() => setTransposition(transposition - 1)}
-            className="transp-btn"
+            className="control-btn transp-btn"
             disabled={!hasSelectedSong}
             title="Bajar semitono"
           >
-            -
+            <BsDash />
           </button>
           <span className="transp-value">
             {transposition > 0 ? "+" : ""}{transposition}
           </span>
           <button
             onClick={() => setTransposition(transposition + 1)}
-            className="transp-btn"
+            className="control-btn transp-btn"
             disabled={!hasSelectedSong}
             title="Subir semitono"
           >
-            +
+            <BsPlus />
           </button>
         </div>
       </div>
 
-      {/* Visualización A4 */}
-      <div className="control-item">
-        <div className="control-header">
-          <span className="control-label">Guía A4</span>
-        </div>
-        <label className="checkbox-control">
-          <input
-            type="checkbox"
-            checked={showA4Outline}
-            onChange={() => setShowA4Outline(!showA4Outline)}
-            className="checkbox-input"
-            disabled={!hasSelectedSong}
-          />
-          <span className="checkbox-custom">
-            {showA4Outline ? <MdOutlineCheckBox /> : <MdOutlineCheckBoxOutlineBlank />}
-          </span>
-          <span className="checkbox-label">Mostrar bordes</span>
-        </label>
+      {/* Separador */}
+      <div className="control-separator"></div>
+
+      {/* Guía A4 */}
+      <div className="control-group">
+        <button
+          onClick={() => setShowA4Outline(!showA4Outline)}
+          className={`control-btn outline-btn ${showA4Outline ? 'active' : ''}`}
+          disabled={!hasSelectedSong}
+          title={showA4Outline ? "Ocultar guía A4" : "Mostrar guía A4"}
+        >
+          <BsAspectRatio />
+          <span className="btn-label">A4</span>
+        </button>
       </div>
 
+      {/* Separador */}
+      <div className="control-separator"></div>
+
       {/* Exportación */}
-      <div className="control-item">
-        <div className="control-header">
-          <span className="control-label">Exportar</span>
-        </div>
+      <div className="control-group">
+        <span className="control-label">Exportar:</span>
         <div className="export-controls">
           <button 
             onClick={onExportPDF} 
-            className="export-btn" 
+            className="control-btn export-btn"
             title="Exportar a PDF"
             disabled={!hasSelectedSong}
           >
@@ -84,7 +88,7 @@ const Controls = ({
           </button>
           <button 
             onClick={onExportJPG} 
-            className="export-btn" 
+            className="control-btn export-btn"
             title="Exportar a JPG"
             disabled={!hasSelectedSong}
           >
@@ -92,7 +96,7 @@ const Controls = ({
           </button>
           <button 
             onClick={onPrint} 
-            className="export-btn" 
+            className="control-btn export-btn"
             title="Imprimir"
             disabled={!hasSelectedSong}
           >

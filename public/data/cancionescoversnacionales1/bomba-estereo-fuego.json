@@ -1,0 +1,358 @@
+{
+    "id": "bomba-estereo-fuego",
+    "title": "Fuego",
+    "artist": "Bomba Estéreo",
+    "originalKey": "Am",
+    "tempo": "Upbeat",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "-", "-", "-"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (x4)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": "¡Fueeego! Mantenlo prendido"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "lyric",
+                "content": "¡Fueeego! no lo dejes apagar y grita…"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "-", "-", "-"]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (x4)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": "¡Fueeego! Mantenlo prendido"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "lyric",
+                "content": "¡Fueeego! no lo dejes apagar y grita…"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "VERSO 1",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "lyric",
+                "content": "Que aquí viene Bomba Estéreo"
+              },
+              {
+                "type": "lyric",
+                "content": "viene con too', chapeta"
+              },
+              {
+                "type": "lyric",
+                "content": "raggae music, cumbia y folclor ¡C'mon!"
+              },
+              {
+                "type": "lyric",
+                "content": "que es un poder que es una bomba atómica,"
+              },
+              {
+                "type": "lyric",
+                "content": "un poco de folclor con música electrónica."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "VERSO 2",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "lyric",
+                "content": "¡Sigue sigue! prendiendo esta fiesta"
+              },
+              {
+                "type": "lyric",
+                "content": "¡sigue sigue! que a mi no me molesta"
+              },
+              {
+                "type": "lyric",
+                "content": "vamos a bailar, la noche y la madrugá"
+              },
+              {
+                "type": "lyric",
+                "content": "hasta que se te ponga, la pollera colorá."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "VERSO 3",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "lyric",
+                "content": "Vamos hasta abajo a mi no me da pena"
+              },
+              {
+                "type": "lyric",
+                "content": "yo crecí tomando, agua de panela,"
+              },
+              {
+                "type": "lyric",
+                "content": "helada, y por allá de frío nada,"
+              },
+              {
+                "type": "lyric",
+                "content": "ahora te canto pa' que te des la calentada."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "-", "-", "-"]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (x4)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": "¡Fueeego! Mantenlo prendido"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "lyric",
+                "content": "¡Fueeego! no lo dejes apagar y grita…"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "VERSO 4",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "lyric",
+                "content": "Y si tu no conoces el poder en la tarima"
+              },
+              {
+                "type": "lyric",
+                "content": "cuando estamos sonando"
+              },
+              {
+                "type": "lyric",
+                "content": "por aquí todos se arriman,"
+              },
+              {
+                "type": "lyric",
+                "content": "unos cantan, celebran, caminan,"
+              },
+              {
+                "type": "lyric",
+                "content": "otros quieren un poquito más de gasolina."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "VERSO 5",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "lyric",
+                "content": "Y si tu no me conoces no me llamo Camila,"
+              },
+              {
+                "type": "lyric",
+                "content": "no me llamo Natalia, ni tampoco Carolina,"
+              },
+              {
+                "type": "lyric",
+                "content": "me llamo Li Saumet"
+              },
+              {
+                "type": "lyric",
+                "content": "de la fiesta soy la dueña,"
+              },
+              {
+                "type": "lyric",
+                "content": "y me gusta vacilar desde"
+              },
+              {
+                "type": "lyric",
+                "content": "que estaba pequeña."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "-", "-", "-"]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL (x4)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": "¡Fueeego! Mantenlo prendido"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "lyric",
+                "content": "¡Fueeego! no lo dejes apagar y grita…"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

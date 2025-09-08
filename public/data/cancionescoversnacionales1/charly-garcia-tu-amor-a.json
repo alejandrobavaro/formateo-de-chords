@@ -1,0 +1,490 @@
+{
+    "id": "charly-garcia-tu-amor-a",
+    "title": "Tu Amor",
+    "artist": "Charly García",
+    "originalKey": "A",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "A7", "Am", "Am6", "A", "D"]
+          },
+          {
+            "type": "text",
+            "content": "(OH OH OH OH) x2 OH OH"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Yo quise el fin y había más,"
+          },
+          {
+            "type": "chord",
+            "content": "E/G#"
+          },
+          {
+            "type": "lyric",
+            "content": "yo quise más no había fin."
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A/G"
+          },
+          {
+            "type": "lyric",
+            "content": "Lo que yo quise encontrar,"
+          },
+          {
+            "type": "chord",
+            "content": "D/F#"
+          },
+          {
+            "type": "lyric",
+            "content": "estaba atrás y no aquí."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Bm7", "C#m7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Desde las sombras no vi las"
+          },
+          {
+            "type": "chords",
+            "content": ["Bm7", "C#m7", "F#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "sombras y no vi luz."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "No voy a llorar,"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A(#5)"
+              },
+              {
+                "type": "lyric",
+                "content": "si nadie me acompaña."
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["A6", "F#m", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "No voy a dejar ni un camino sin andar."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Aunque sea el fin del amor,"
+          },
+          {
+            "type": "chord",
+            "content": "E/G#"
+          },
+          {
+            "type": "lyric",
+            "content": "yo he visto el fin del disfraz."
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A/G"
+          },
+          {
+            "type": "lyric",
+            "content": "Yo quiero el fin del dolor,"
+          },
+          {
+            "type": "chord",
+            "content": "D/F#"
+          },
+          {
+            "type": "lyric",
+            "content": "pero no hay fin siempre hay más."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Bm7", "C#m7"]
+          },
+          {
+            "type": "lyric",
+            "content": "No existe sombra, no existe,"
+          },
+          {
+            "type": "chords",
+            "content": ["Bm7", "C#m7", "F#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "culpa no existe cruz."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "No voy a esperar las caras que yo extraño,"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A(#5)"
+              },
+              {
+                "type": "lyric",
+                "content": "no voy a esperar que el destino hable por mí."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "BIS",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Dmaj7", "E9"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y en medio de las lluvias de invierno,"
+          },
+          {
+            "type": "chords",
+            "content": ["Gm", "C#7/9", "F#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "no hay tiempo ni lugar, yo sé que entenderás que amor"
+          },
+          {
+            "type": "chords",
+            "content": ["A7", "Dmaj7"]
+          },
+          {
+            "type": "lyric",
+            "content": "para quien busca una respuesta"
+          },
+          {
+            "type": "chords",
+            "content": ["A", "B7", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "es un poquito más que hacerte el bien."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Yo tuve el fin y era más,"
+          },
+          {
+            "type": "chord",
+            "content": "E/G#"
+          },
+          {
+            "type": "lyric",
+            "content": "yo tuve más y era el fin."
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A/G"
+          },
+          {
+            "type": "lyric",
+            "content": "Yo tuve el mundo a mis pies,"
+          },
+          {
+            "type": "chord",
+            "content": "D/F#"
+          },
+          {
+            "type": "lyric",
+            "content": "y no era nada sin ti."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Bm7", "C#m7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Crucé la línea final por..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "BIS",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F#m", "Bm7", "C#m7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Tu amor tan fuerte como el no amor,"
+          },
+          {
+            "type": "chords",
+            "content": ["F#sus4", "F#", "Bm7", "C#m7"]
+          },
+          {
+            "type": "lyric",
+            "content": "tu amor parábola de un mundo mejor."
+          },
+          {
+            "type": "chords",
+            "content": ["A/G", "D/F#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Tu amor me enseña a vivir,"
+          },
+          {
+            "type": "chords",
+            "content": ["F", "A", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "tu amor me enseña a sentir, tu amor."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETIDA)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "A7", "Am", "Am6", "A", "D"]
+          },
+          {
+            "type": "text",
+            "content": "(OH OH OH OH) x2 OH OH"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Yo tuve el fin y era más,"
+          },
+          {
+            "type": "chord",
+            "content": "E/G#"
+          },
+          {
+            "type": "lyric",
+            "content": "yo tuve más y era el fin."
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A/G"
+          },
+          {
+            "type": "lyric",
+            "content": "Yo tuve el mundo a mis pies,"
+          },
+          {
+            "type": "chord",
+            "content": "D/F#"
+          },
+          {
+            "type": "lyric",
+            "content": "y no era nada sin ti."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Bm7", "C#m7", "D*", "Eb°"]
+          },
+          {
+            "type": "lyric",
+            "content": "seremos salvos por nuestro amor."
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,732 @@
+// ================================================================
+// 🎨 ESTILOS BIBLIOTECA CANCIONEROS - SCSS OPTIMIZADO
+// ================================================================
+
+// 📱 ESTRATEGIA MOBILE-FIRST - DISEÑO RESPONSIVE
+
+// 🎯 CONTENEDOR PRINCIPAL
+.modern-chords-gallery {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+  padding: 8px;
+  min-height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  
+  // 📊 HEADER DE LA GALERÍA
+  .gallery-header {
+    margin-bottom: 12px;
+    width: 100%;
+    
+    .header-main {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-bottom: 12px;
+      width: 100%;
+      
+      .header-title {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        flex-wrap: wrap;
+        
+        h1 {
+          font-size: 18px;
+          font-weight: 700;
+          margin: 0;
+          white-space: nowrap;
+        }
+        
+        .header-icon {
+          font-size: 20px;
+          color: #1db954;
+          flex-shrink: 0;
+        }
+        
+        .subtitle {
+          display: none;
+          color: #b3b3b3;
+          font-size: 14px;
+        }
+      }
+      
+      .header-stats {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+        
+        .stat-item {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          min-width: 60px;
+          
+          .stat-number {
+            font-size: 18px;
+            font-weight: 700;
+            color: #1db954;
+          }
+          
+          .stat-label {
+            font-size: 12px;
+            color: #b3b3b3;
+          }
+        }
+      }
+    }
+    
+    .header-controls {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      width: 100%;
+    }
+  }
+  
+  // 📋 CONTENEDOR DE LA TABLA
+  .excel-table-container {
+    background-color: #1e1e1e;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 8px;
+    width: 100%;
+    
+    .table-wrapper {
+      overflow-x: auto;
+      width: 100%;
+      
+      .excel-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 14px;
+        min-width: 100%;
+        
+        // 🎯 ESTILO PARA TABLA COMPACTA
+        &.compact-table {
+          th, td {
+            padding: 6px 4px;
+            white-space: nowrap;
+          }
+          
+          .song-count {
+            font-size: 11px;
+            padding: 2px 4px;
+          }
+          
+          .key-badge, .genre-badge {
+            font-size: 12px;
+            padding: 2px 4px;
+          }
+          
+          .action-buttons {
+            gap: 4px;
+            
+            .play-icon-btn, .chords-btn {
+              padding: 3px 6px;
+              font-size: 12px;
+            }
+            
+            .play-icon-btn {
+              padding: 3px;
+            }
+          }
+        }
+        
+        // 🎯 CABECERA DE LA TABLA
+        thead {
+          background-color: #2d2d2d;
+          
+          th {
+            padding: 8px 4px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 13px;
+            color: #b3b3b3;
+            border-bottom: 1px solid #404040;
+            white-space: nowrap;
+            
+            // 🎯 ENCABEZADOS ORDENABLES
+            &.sortable {
+              cursor: pointer;
+              transition: color 0.2s ease;
+              
+              &:hover {
+                color: #ffffff;
+              }
+              
+              .sort-icon {
+                margin-left: 2px;
+                font-size: 14px;
+              }
+            }
+          }
+        }
+        
+        // 🎯 CUERPO DE LA TABLA
+        tbody {
+          tr {
+            border-bottom: 1px solid #404040;
+            transition: background-color 0.2s ease;
+            
+            &:hover {
+              background-color: #2a2a2a;
+            }
+            
+            // 🎯 ENCABEZADO DE GRUPO
+            &.group-header {
+              cursor: pointer;
+              background-color: rgba(45, 45, 45, 0.5);
+              
+              &:hover {
+                background-color: #2d2d2d;
+              }
+              
+              .group-header-content {
+                display: flex;
+                align-items: center;
+                gap: 6px;
+                padding: 6px 0;
+                
+                .group-name {
+                  font-weight: 600;
+                  font-size: 14px;
+                }
+                
+                .group-meta {
+                  font-size: 12px;
+                  color: #b3b3b3;
+                  
+                  .song-count {
+                    margin-left: 4px;
+                    padding: 2px 6px;
+                    background-color: #121212;
+                    border-radius: 8px;
+                    font-size: 11px;
+                  }
+                }
+              }
+            }
+            
+            // 🎯 FILAS DE CANCIONES
+            &.song-row {
+              td {
+                padding: 8px 4px;
+                font-size: 14px;
+                vertical-align: middle;
+                
+                .song-title-cell {
+                  position: relative;
+                  
+                  .title-text {
+                    font-weight: 500;
+                  }
+                }
+                
+                .artist-text, .list-text {
+                  color: #b3b3b3;
+                  font-size: 14px;
+                }
+                
+                // 🎯 BADGES DE TONO Y GÉNERO
+                .key-badge, .genre-badge {
+                  background-color: #2d2d2d;
+                  padding: 3px 6px;
+                  border-radius: 3px;
+                  font-size: 12px;
+                  font-weight: 500;
+                  display: inline-block;
+                }
+                
+                .genre-badge {
+                  background-color: rgba(29, 185, 84, 0.15);
+                  color: #1db954;
+                }
+                
+                .bpm-text {
+                  font-weight: 600;
+                  color: #1db954;
+                  font-size: 14px;
+                }
+                
+                // 🎯 CELDA DE DURACIÓN
+                .duration-cell {
+                  display: flex;
+                  align-items: center;
+                  gap: 4px;
+                  
+                  .duration-icon {
+                    font-size: 12px;
+                    color: #b3b3b3;
+                  }
+                  
+                  .duration-text {
+                    color: #b3b3b3;
+                    font-size: 14px;
+                  }
+                }
+                
+                // 🎯 BOTONES DE ACCIÓN
+                .action-buttons {
+                  display: flex;
+                  gap: 6px;
+                  align-items: center;
+                  
+                  .play-icon-btn {
+                    background-color: transparent;
+                    color: #b3b3b3;
+                    border: 1px solid #404040;
+                    border-radius: 3px;
+                    padding: 4px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    cursor: pointer;
+                    transition: all 0.2s ease;
+                    font-size: 12px;
+                    
+                    &:hover {
+                      background-color: #2a2a2a;
+                      color: #ffffff;
+                    }
+                  }
+                  
+                  .chords-btn {
+                    background-color: transparent;
+                    color: #1db954;
+                    border: 1px solid #1db954;
+                    padding: 4px 8px;
+                    border-radius: 3px;
+                    display: flex;
+                    align-items: center;
+                    gap: 4px;
+                    cursor: pointer;
+                    transition: all 0.2s ease;
+                    font-size: 12px;
+                    
+                    &:hover {
+                      background-color: #1db954;
+                      color: #ffffff;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    
+    // 🎯 MENSAJE SIN RESULTADOS
+    .no-results {
+      padding: 24px 12px;
+      text-align: center;
+      color: #b3b3b3;
+      
+      h3 {
+        margin: 10px 0 5px;
+        color: #ffffff;
+        font-size: 16px;
+      }
+      
+      p {
+        margin: 0;
+        font-size: 14px;
+      }
+    }
+  }
+  
+  // 📋 FOOTER DE LA TABLA
+  .table-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    font-size: 14px;
+    width: 100%;
+    
+    .footer-info {
+      color: #b3b3b3;
+    }
+    
+    .footer-actions {
+      .columns-toggle {
+        background-color: transparent;
+        color: #b3b3b3;
+        border: 1px solid #404040;
+        padding: 5px 8px;
+        border-radius: 3px;
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        font-size: 12px;
+        
+        &:hover {
+          background-color: #2a2a2a;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+  
+  // 🎯 SELECTOR DE CANCIONES
+  .song-selector-gallery {
+    position: relative;
+    width: 100%;
+    
+    &.compact {
+      .search-container-gallery {
+        margin-bottom: 0;
+      }
+    }
+    
+    .search-container-gallery {
+      margin-bottom: 8px;
+      width: 100%;
+      
+      .search-input-wrapper-gallery {
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        
+        .search-icon-gallery {
+          position: absolute;
+          left: 8px;
+          color: #b3b3b3;
+          pointer-events: none;
+          font-size: 14px;
+        }
+        
+        .search-input-gallery {
+          width: 100%;
+          padding: 8px 12px 8px 32px;
+          background-color: #1e1e1e;
+          border: 1px solid #404040;
+          border-radius: 3px;
+          color: #ffffff;
+          font-size: 14px;
+          box-sizing: border-box;
+          
+          &::placeholder {
+            color: #717171;
+          }
+          
+          &:focus {
+            outline: none;
+            border-color: #1db954;
+          }
+        }
+        
+        .clear-btn-gallery {
+          position: absolute;
+          right: 8px;
+          background: none;
+          border: none;
+          color: #b3b3b3;
+          cursor: pointer;
+          padding: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 14px;
+          
+          &:hover {
+            color: #ffffff;
+          }
+        }
+      }
+      
+      .search-stats-gallery {
+        margin-top: 4px;
+        
+        .results-count {
+          font-size: 12px;
+          color: #b3b3b3;
+        }
+      }
+    }
+    
+    // 🎯 DROPDOWN DE SUGERENCIAS
+    .suggestions-dropdown-gallery {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background-color: #1e1e1e;
+      border: 1px solid #404040;
+      border-radius: 3px;
+      z-index: 100;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+      margin-top: 2px;
+      overflow: hidden;
+      width: 100%;
+      
+      .suggestions-header-gallery {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px;
+        background-color: #2d2d2d;
+        border-bottom: 1px solid #404040;
+        font-size: 12px;
+        color: #b3b3b3;
+        
+        .close-suggestions-btn {
+          background: none;
+          border: none;
+          color: #b3b3b3;
+          cursor: pointer;
+          padding: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 14px;
+          
+          &:hover {
+            color: #ffffff;
+          }
+        }
+      }
+      
+      .suggestions-list-gallery {
+        max-height: 200px;
+        overflow-y: auto;
+        
+        .suggestion-item-gallery {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 8px;
+          cursor: pointer;
+          transition: background-color 0.2s ease;
+          border-bottom: 1px solid #404040;
+          
+          &:last-child {
+            border-bottom: none;
+          }
+          
+          &:hover {
+            background-color: #2a2a2a;
+          }
+          
+          .suggestion-info {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+            
+            .suggestion-title {
+              font-weight: 500;
+              font-size: 14px;
+            }
+            
+            .suggestion-artist {
+              font-size: 12px;
+              color: #b3b3b3;
+            }
+            
+            .suggestion-key {
+              font-size: 11px;
+              color: #1db954;
+              background-color: rgba(29, 185, 84, 0.1);
+              padding: 2px 4px;
+              border-radius: 2px;
+              align-self: flex-start;
+            }
+          }
+          
+          .suggestion-arrow {
+            color: #b3b3b3;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+  
+  // ⏳ ESTADOS DE CARGA Y ERROR
+  .loading-state, .error-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 12px;
+    text-align: center;
+    
+    p {
+      margin: 10px 0 0;
+      color: #b3b3b3;
+      font-size: 14px;
+    }
+  }
+  
+  .error-state {
+    .retry-button {
+      margin-top: 10px;
+      background-color: #1db954;
+      color: #ffffff;
+      border: none;
+      padding: 6px 16px;
+      border-radius: 3px;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+      font-size: 14px;
+      
+      &:hover {
+        background-color: #1ed760;
+      }
+    }
+  }
+}
+
+// ================================================================
+// 📱 RESPONSIVE DESIGN - BREAKPOINTS
+// ================================================================
+
+// 📟 TABLET (768px)
+@media (min-width: 768px) {
+  .modern-chords-gallery {
+    padding: 12px;
+    
+    .gallery-header {
+      .header-main {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        
+        .header-title {
+          .subtitle {
+            display: inline;
+            margin-left: 6px;
+          }
+        }
+      }
+      
+      .header-controls {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+    }
+    
+    .excel-table-container {
+      .table-wrapper {
+        .excel-table {
+          thead {
+            th {
+              padding: 8px;
+            }
+          }
+          
+          tbody {
+            tr {
+              &.group-header {
+                .group-header-content {
+                  padding: 8px;
+                }
+              }
+              
+              &.song-row {
+                td {
+                  padding: 8px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    
+    .song-selector-gallery {
+      width: 70%;
+    }
+  }
+}
+
+// 💻 ESCRITORIO (1024px)
+@media (min-width: 1024px) {
+  .modern-chords-gallery {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 16px;
+    
+    .gallery-header {
+      .header-main {
+        .header-title {
+          h1 {
+            font-size: 22px;
+          }
+        }
+        
+        .header-stats {
+          .stat-item {
+            .stat-number {
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+    
+    .song-selector-gallery {
+      width: 50%;
+    }
+    
+    .excel-table-container {
+      .table-wrapper {
+        .excel-table {
+          font-size: 15px;
+          
+          thead {
+            th {
+              padding: 10px 8px;
+              font-size: 14px;
+            }
+          }
+          
+          tbody {
+            tr {
+              &.song-row {
+                td {
+                  padding: 10px 8px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// 🖥️ ESCRITORIO GRANDE (1200px)
+@media (min-width: 1200px) {
+  .modern-chords-gallery {
+    padding: 16px 24px;
+    
+    .excel-table-container {
+      .table-wrapper {
+        .excel-table {
+          thead {
+            th {
+              padding: 10px;
+            }
+          }
+          
+          tbody {
+            tr {
+              &.song-row {
+                td {
+                  padding: 10px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

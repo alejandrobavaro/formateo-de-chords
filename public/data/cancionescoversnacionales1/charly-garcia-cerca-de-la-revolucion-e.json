@@ -1,0 +1,836 @@
+{
+    "id": "charly-garcia-cerca-de-la-revolucion-e",
+    "title": "Cerca de la Revolución",
+    "artist": "Charly García",
+    "originalKey": "E",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E5", "E5", "G5", "A5", "A5", "G5", "E5", "E5", "G5", "A5", "A5", "A5", "G5", "E5", "E5"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E5", "G5", "A5", "G5"]
+          },
+          {
+            "type": "lyric",
+            "content": "Porque no vienes hasta mí."
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "G", "Am7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Porque no puedo amarte."
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am7"]
+          },
+          {
+            "type": "text",
+            "content": "(o RIFF)"
+          },
+          {
+            "type": "chords",
+            "content": ["C#7", "D7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Porque no vienes hasta mí."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E5", "G5", "A5", "G5"]
+          },
+          {
+            "type": "lyric",
+            "content": "Porque no cambias como el sol,"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "G", "Am7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Porque eres tan distante,"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am7"]
+          },
+          {
+            "type": "text",
+            "content": "(o RIFF)"
+          },
+          {
+            "type": "chords",
+            "content": ["C#7", "D7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Porque no cambias como el sol."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Gm", "F5", "C5"]
+          },
+          {
+            "type": "text",
+            "content": "(C5 D5 Bb5 A5)"
+          },
+          {
+            "type": "lyric",
+            "content": "Me siento solo y confundido a la vez."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Gm", "F5", "C5"]
+          },
+          {
+            "type": "text",
+            "content": "(C5 D5 Bb5 A5)"
+          },
+          {
+            "type": "lyric",
+            "content": "Los analistas no podrán entender."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Gm", "F5"]
+          },
+          {
+            "type": "lyric",
+            "content": "Ya no sé bien qué decir,"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C5"]
+          },
+          {
+            "type": "text",
+            "content": "(C5 D5 Bb5 A5)"
+          },
+          {
+            "type": "lyric",
+            "content": "Ya no sé más qué hacer."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Gm", "F5", "C5"]
+          },
+          {
+            "type": "text",
+            "content": "(C5 D5 Bb5 A5)"
+          },
+          {
+            "type": "lyric",
+            "content": "Todo el mundo loco y yo sin poderte ver."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Pero si insisto,"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Bb*", "G5"]
+          },
+          {
+            "type": "lyric",
+            "content": "yo sé muy bien"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Bb5", "C5", "Bb5", "G5", "Bb5", "C5", "Bb5"]
+          },
+          {
+            "type": "lyric",
+            "content": "te conseguiré."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Pero si insisto,"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Bb*", "G5"]
+          },
+          {
+            "type": "lyric",
+            "content": "yo sé muy bien"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Bb5", "C5", "Bb5", "G5", "Bb5", "C5", "Bb5"]
+          },
+          {
+            "type": "lyric",
+            "content": "te conseguiré."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E5", "G5", "A5", "G5"]
+          },
+          {
+            "type": "lyric",
+            "content": "Cerca de la revolución,"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "G", "Am7"]
+          },
+          {
+            "type": "lyric",
+            "content": "El pueblo pide sangre,"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am7"]
+          },
+          {
+            "type": "text",
+            "content": "(o RIFF)"
+          },
+          {
+            "type": "chords",
+            "content": ["C#7", "D7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Cerca de la revolución."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E5", "G5", "A5", "G5"]
+          },
+          {
+            "type": "lyric",
+            "content": "Yo estoy cantando esta canción,"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "G", "Am7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Que alguna vez fue hambre,"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am7"]
+          },
+          {
+            "type": "text",
+            "content": "(o RIFF)"
+          },
+          {
+            "type": "chords",
+            "content": ["C#7", "D7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Estoy cantando esta canción."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Gm", "F5", "C5"]
+          },
+          {
+            "type": "text",
+            "content": "(C5 D5 Bb5 A5)"
+          },
+          {
+            "type": "lyric",
+            "content": "Y si mañana es como ayer otra vez,"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Gm", "F5", "C5"]
+          },
+          {
+            "type": "text",
+            "content": "(C5 D5 Bb5 A5)"
+          },
+          {
+            "type": "lyric",
+            "content": "Lo que fue hermoso será horrible después."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Gm", "F5"]
+          },
+          {
+            "type": "lyric",
+            "content": "No es solo una cuestión de elecciones,"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C5"]
+          },
+          {
+            "type": "text",
+            "content": "(C5 D5 Bb5 A5)"
+          },
+          {
+            "type": "lyric",
+            "content": "No elegí este mundo pero aprendí a querer."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Pero si insisto,"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Bb*", "G5"]
+          },
+          {
+            "type": "lyric",
+            "content": "yo sé muy bien"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Bb5", "C5", "Bb5", "G5", "Bb5", "C5", "Bb5"]
+          },
+          {
+            "type": "lyric",
+            "content": "te conseguiré."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Pero si insisto,"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Bb*", "G5"]
+          },
+          {
+            "type": "lyric",
+            "content": "yo sé muy bien"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Bb5", "C5", "Bb5", "G5", "Bb5", "C5", "Bb5"]
+          },
+          {
+            "type": "lyric",
+            "content": "te conseguiré."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E5", "G5", "A5", "G5"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "G", "Am7"]
+          },
+          {
+            "type": "text",
+            "content": "(o RIFF)"
+          },
+          {
+            "type": "chords",
+            "content": ["C#7", "D7"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E5", "G5", "A5", "G5"]
+          },
+          {
+            "type": "lyric",
+            "content": "Si estas palabras te pudieran dar fe,"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E5", "G5", "A5", "G5"]
+          },
+          {
+            "type": "lyric",
+            "content": "Si esta armonía te ayudara a creer,"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "G", "Am7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Yo sería tan feliz, tan feliz en el mundo,"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am7"]
+          },
+          {
+            "type": "text",
+            "content": "(o RIFF)"
+          },
+          {
+            "type": "chords",
+            "content": ["C#7", "D7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Que moriría arrodillado a tus pies."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Pero si insisto,"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Bb*", "G5"]
+          },
+          {
+            "type": "lyric",
+            "content": "yo sé muy bien"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Bb5", "C5", "Bb5", "G5", "Bb5", "C5", "Bb5"]
+          },
+          {
+            "type": "lyric",
+            "content": "te conseguiré."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Pero si insisto,"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Bb*", "G5"]
+          },
+          {
+            "type": "lyric",
+            "content": "yo sé muy bien"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Bb5", "C5", "Bb5", "G5", "Bb5", "C5", "Bb5"]
+          },
+          {
+            "type": "lyric",
+            "content": "te conseguiré."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E5", "G5", "A5", "G5"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "G", "Am7"]
+          },
+          {
+            "type": "text",
+            "content": "(o RIFF)"
+          },
+          {
+            "type": "chords",
+            "content": ["C#7", "D7"]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,264 @@
+{
+    "id": "divididos-cielito-lindo-g",
+    "title": "Cielito Lindo",
+    "artist": "Divididos",
+    "originalKey": "G",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "text",
+            "content": "E|-3-3--------|-3-3----------|-3-3----------|\nB|-5-5--5-7-5-|-5-5--5-7-5---|-5-5--5-7-3-1-|\nG|------5-7-5-|------5-7-5---|------5-7-4-2-|\nD|------------|--------------|--------------|\nA|------------|--------------|--------------|\ne|------------|--------------|--------------|"
+          },
+          {
+            "type": "text",
+            "content": "E|-------------------|----------------|\nB|-7-7-7-7--5-5--3---|-3h5h3--3--3--2-|\nG|-7-7-7-7--5-5--4---|-4-----4--4--1--|\nD|-------------------|----------------|\nA|-------------------|----------------|\ne|-------------------|----------------|"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Ese lunar que tienes"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "cielito lindo junto a tu boca,"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "no se lo des a nadie"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "cielito lindo a mí me toca."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Ese lunar que tienes"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "cielito lindo junto a tu boca,"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "no se lo des a nadie"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "cielito lindo a mí me toca."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Ay, ay, ay, ay"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "canta y no llores,"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["D", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "porque cantando se alegran"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "D", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "cielito lindo los corazones."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (POTENCIADO)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G5", "C5"]
+          },
+          {
+            "type": "lyric",
+            "content": "Ay, ay, ay, ay"
+          },
+          {
+            "type": "chords",
+            "content": ["D5", "G5"]
+          },
+          {
+            "type": "lyric",
+            "content": "canta y no llores,"
+          },
+          {
+            "type": "chords",
+            "content": ["C5"]
+          },
+          {
+            "type": "lyric",
+            "content": "porque cantando se alegran"
+          },
+          {
+            "type": "chords",
+            "content": ["D5", "G5"]
+          },
+          {
+            "type": "lyric",
+            "content": "cielito lindo los corazones."
+          },
+          {
+            "type": "text",
+            "content": "¡1, 2, 3.... 1, 2, 3, va....!"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G5", "C5"]
+          },
+          {
+            "type": "lyric",
+            "content": "Ay, ay, ay, ay,"
+          },
+          {
+            "type": "chords",
+            "content": ["D5", "G5"]
+          },
+          {
+            "type": "lyric",
+            "content": "canta y no llores,"
+          },
+          {
+            "type": "chords",
+            "content": ["C5"]
+          },
+          {
+            "type": "lyric",
+            "content": "porque cantando se alegran"
+          },
+          {
+            "type": "chords",
+            "content": ["B5", "C5", "C#5", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "cielito lindo, los corazones."
+          }
+        ]
+      }
+    ]
+  }
+  
