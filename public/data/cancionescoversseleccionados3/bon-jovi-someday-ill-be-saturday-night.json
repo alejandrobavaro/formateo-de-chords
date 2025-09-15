@@ -1,0 +1,521 @@
+{
+  "id": "bon-jovi-someday-ill-be-saturday-night",
+  "title": "Someday I'll Be Saturday Night",
+  "artist": "Bon Jovi",
+  "originalKey": "B",
+  "tempo": "Upbeat",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "text",
+          "content": "(Intro instrumental)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["B"]
+            },
+            {
+              "type": "lyric",
+              "content": "Hey, man I'm alive"
+            },
+            {
+              "type": "chords",
+              "content": ["Esus2"]
+            },
+            {
+              "type": "lyric",
+              "content": "I'm taking each day a night at a time"
+            },
+            {
+              "type": "chords",
+              "content": ["F#sus4"]
+            },
+            {
+              "type": "lyric",
+              "content": "I'm feeling like a Monday"
+            },
+            {
+              "type": "chords",
+              "content": ["Esus2", "B"]
+            },
+            {
+              "type": "lyric",
+              "content": "But someday I'll be Saturday night"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["B"]
+            },
+            {
+              "type": "lyric",
+              "content": "Hey, my name is Jim, where did I go wrong?"
+            },
+            {
+              "type": "chords",
+              "content": ["D#m"]
+            },
+            {
+              "type": "lyric",
+              "content": "My life's a bargain basement, all the good shit's gone"
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "I just can't hold a job, where do I belong"
+            },
+            {
+              "type": "chords",
+              "content": ["B", "F#", "B"]
+            },
+            {
+              "type": "lyric",
+              "content": "Been sleeping in my car, my dreams move on"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 3",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["B"]
+            },
+            {
+              "type": "lyric",
+              "content": "My name is Billy Jean, my love was bought and sold"
+            },
+            {
+              "type": "chords",
+              "content": ["D#m"]
+            },
+            {
+              "type": "lyric",
+              "content": "I'm only sixteen, I feel a hundred years old"
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "My foster daddy went, took my innocence away"
+            },
+            {
+              "type": "chords",
+              "content": ["F#", "F#sus4", "F#"]
+            },
+            {
+              "type": "lyric",
+              "content": "The street life ain't much better, but at least I get paid"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-CHORUS",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["G#m", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "And Tuesday just might go my way"
+            },
+            {
+              "type": "chords",
+              "content": ["B"]
+            },
+            {
+              "type": "lyric",
+              "content": "It can't get worse than yesterday"
+            },
+            {
+              "type": "chords",
+              "content": ["D#m"]
+            },
+            {
+              "type": "lyric",
+              "content": "Thursdays, Fridays ain't been kind"
+            },
+            {
+              "type": "chords",
+              "content": ["E", "C#m"]
+            },
+            {
+              "type": "lyric",
+              "content": "But somehow I'll survive"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["B", "Esus2"]
+            },
+            {
+              "type": "lyric",
+              "content": "Hey man I'm alive I'm takin' each day and night at a time"
+            },
+            {
+              "type": "chords",
+              "content": ["B", "F#sus4"]
+            },
+            {
+              "type": "lyric",
+              "content": "Yeah I'm down, but I know I'll get by"
+            },
+            {
+              "type": "chords",
+              "content": ["Esus2", "F#sus4"]
+            },
+            {
+              "type": "lyric",
+              "content": "Hey hey hey, Hey Man gotta live my life"
+            },
+            {
+              "type": "chords",
+              "content": ["B", "G#m"]
+            },
+            {
+              "type": "lyric",
+              "content": "Like I ain't got nothin' but this roll of the dice"
+            },
+            {
+              "type": "chords",
+              "content": ["F#sus4", "Esus2", "B"]
+            },
+            {
+              "type": "lyric",
+              "content": "I'm feelin' like a Monday, but someday I'll be Saturday night"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 4",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["B"]
+            },
+            {
+              "type": "lyric",
+              "content": "Now I can't say my name, or tell you where I am"
+            },
+            {
+              "type": "chords",
+              "content": ["D#m"]
+            },
+            {
+              "type": "lyric",
+              "content": "I want to blow myself away, don't know if I can"
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "I wish that I could be in some other time and place"
+            },
+            {
+              "type": "chords",
+              "content": ["F#"]
+            },
+            {
+              "type": "lyric",
+              "content": "With someone else's soul, someone else's face"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-CHORUS (REPEAT)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["G#m", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "And Tuesday just might go my way"
+            },
+            {
+              "type": "chords",
+              "content": ["B"]
+            },
+            {
+              "type": "lyric",
+              "content": "It can't get worse than yesterday"
+            },
+            {
+              "type": "chords",
+              "content": ["D#m"]
+            },
+            {
+              "type": "lyric",
+              "content": "Thursdays, Fridays ain't been kind"
+            },
+            {
+              "type": "chords",
+              "content": ["E", "C#m"]
+            },
+            {
+              "type": "lyric",
+              "content": "But somehow I'll survive"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS (REPEAT)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["B", "Esus2"]
+            },
+            {
+              "type": "lyric",
+              "content": "Hey man I'm alive I'm takin' each day and night at a time"
+            },
+            {
+              "type": "chords",
+              "content": ["B", "F#sus4"]
+            },
+            {
+              "type": "lyric",
+              "content": "Yeah I'm down, but I know I'll get by"
+            },
+            {
+              "type": "chords",
+              "content": ["Esus2", "F#sus4"]
+            },
+            {
+              "type": "lyric",
+              "content": "Hey hey hey, Hey Man gotta live my life"
+            },
+            {
+              "type": "chords",
+              "content": ["B", "G#m"]
+            },
+            {
+              "type": "lyric",
+              "content": "I'm gonna pick up all the pieces and what's left of my pride"
+            },
+            {
+              "type": "chords",
+              "content": ["F#sus4", "Esus2", "B"]
+            },
+            {
+              "type": "lyric",
+              "content": "I'm feelin' like a Monday, but someday I'll be Saturday night"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO",
+      "lines": [
+        {
+          "type": "text",
+          "content": "(Solo de guitarra)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "OUTRO",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["B", "E", "B", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Saturday night here we go"
+            },
+            {
+              "type": "chords",
+              "content": ["B"]
+            },
+            {
+              "type": "lyric",
+              "content": "Someday I'll be Saturday night"
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "I'll be back on my feet, I'll be doin' alright"
+            },
+            {
+              "type": "chords",
+              "content": ["B"]
+            },
+            {
+              "type": "lyric",
+              "content": "It may not be tomorrow baby, that's Okay"
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "I ain't going down, gonna find a way, hey hey hey"
+            },
+            {
+              "type": "chords",
+              "content": ["F#sus4", "Esus2", "B"]
+            },
+            {
+              "type": "lyric",
+              "content": "I'm feelin' like a Monday, but someday I'll be Saturday night"
+            },
+            {
+              "type": "chords",
+              "content": ["F#sus4", "Esus2", "B"]
+            },
+            {
+              "type": "lyric",
+              "content": "I'm feelin' like a Monday, but someday I'll be Saturday night"
+            },
+            {
+              "type": "chords",
+              "content": ["E", "B", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Saturday night all right, all right"
+            },
+            {
+              "type": "chords",
+              "content": ["B", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Saturday night"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

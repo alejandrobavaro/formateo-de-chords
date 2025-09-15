@@ -2,6 +2,7 @@
 // VISUALIZADOR DE ACORDES - COMPONENTE OPTIMIZADO
 // ======================================================
 
+// 📦 IMPORTACIONES DE REACT Y DEPENDENCIAS
 import React, { useState, useEffect, useRef } from 'react';
 import { useLocation } from 'react-router-dom';
 import { BsArrowsFullscreen, BsFullscreenExit, BsMusicNoteBeamed } from "react-icons/bs";
@@ -9,33 +10,38 @@ import SongViewer from './SongViewer';
 import Controls from './Controls';
 import "../../assets/scss/_03-Componentes/ChordsViewer/_ChordsViewerIndex.scss";
 
-// BIBLIOTECAS DE CANCIONES
+// 🗂️ BIBLIOTECAS DE CANCIONES DISPONIBLES
+// Cada biblioteca tiene: ID único, nombre para mostrar, ruta al listado JSON y ruta base de las canciones
 const SONG_LIBRARIES = [
   { id: 'alegondra', name: 'Ale Gondra', path: '/data/listadocancionesalegondramusic.json', basePath: '/data/cancionesalegondramusic/' },
   { id: 'almangopop', name: 'Almango Pop', path: '/data/listadocancionesalmangopop.json', basePath: '/data/cancionesalmangopop/' },
   { id: 'casamiento', name: 'Casamiento', path: '/data/listadocancionescasamiento.json', basePath: '/data/cancionesshowcasamiento/' },
   { id: 'covers1', name: 'Covers 1', path: '/data/listadochordscoversseleccionados1.json', basePath: '/data/cancionescoversseleccionados1/' },
+  // ✅ BIBLIOTECA AGREGADA: COVERS 2 - Esta es la que faltaba!
+  { id: 'covers2', name: 'Covers 2', path: '/data/listadochordscoversseleccionados2.json', basePath: '/data/cancionescoversseleccionados2/' },
   { id: 'covers3', name: 'Covers 3', path: '/data/listadochordscoversseleccionados3.json', basePath: '/data/cancionescoversseleccionados3/' },
   { id: 'coverslatinos1', name: 'Latinos', path: '/data/listadochordscoverslatinos1.json', basePath: '/data/cancionescoverslatinos1/' },
   { id: 'coversnacionales1', name: 'Nacionales', path: '/data/listadochordscoversnacionales1.json', basePath: '/data/cancionescoversnacionales1/' },
 ];
 
-// COMPONENTE PRINCIPAL
+// 🎵 COMPONENTE PRINCIPAL DEL VISUALIZADOR DE ACORDES
 const ChordsViewerIndex = () => {
-  const [selectedSong, setSelectedSong] = useState(null);
-  const [songDetails, setSongDetails] = useState(null);
-  const [transposition, setTransposition] = useState(0);
-  const [showA4Outline, setShowA4Outline] = useState(false);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
-  const [fullscreenMode, setFullscreenMode] = useState(false);
-  const [currentLibrary, setCurrentLibrary] = useState('');
+  // 🔄 ESTADOS DEL COMPONENTE
+  const [selectedSong, setSelectedSong] = useState(null);          // Canción seleccionada actualmente
+  const [songDetails, setSongDetails] = useState(null);            // Detalles completos de la canción
+  const [transposition, setTransposition] = useState(0);           // Nivel de transposición (semitones)
+  const [showA4Outline, setShowA4Outline] = useState(false);       // Mostrar outline A4 para impresión
+  const [loading, setLoading] = useState(true);                    // Estado de carga
+  const [error, setError] = useState(null);                        // Mensaje de error
+  const [fullscreenMode, setFullscreenMode] = useState(false);     // Modo pantalla completa
+  const [currentLibrary, setCurrentLibrary] = useState('');        // Biblioteca actual
 
-  const location = useLocation();
-  const containerRef = useRef(null);
-  const printViewRef = useRef(null);
+  // 🎯 HOOKS Y REFERENCIAS
+  const location = useLocation();                                  // Hook para acceder a la ubicación URL
+  const containerRef = useRef(null);                               // Referencia al contenedor principal
+  const printViewRef = useRef(null);                               // Referencia para la vista de impresión
 
-  // Cargar archivos JSON
+  // 📥 FUNCIÓN PARA CARGAR ARCHIVOS JSON
   const fetchJsonFile = async (path) => {
     try {
       const response = await fetch(path);
@@ -47,7 +53,7 @@ const ChordsViewerIndex = () => {
     }
   };
 
-  // Cargar canción individual
+  // 🎼 FUNCIÓN PARA CARGAR UNA CANCIÓN INDIVIDUAL
   const loadIndividualSong = async (song, basePath, libraryId) => {
     try {
       setLoading(true);
@@ -62,6 +68,7 @@ const ChordsViewerIndex = () => {
       setSelectedSong({ ...song, ...songData });
       setSongDetails(songData);
       
+      // 📚 Establecer la biblioteca actual basada en el ID
       const library = SONG_LIBRARIES.find(lib => lib.id === libraryId);
       setCurrentLibrary(library ? library.name : '');
       
@@ -78,7 +85,7 @@ const ChordsViewerIndex = () => {
     }
   };
 
-  // Obtener metadatos
+  // 📋 FUNCIÓN PARA OBTENER METADATOS DE LA CANCIÓN
   const getSongMetadata = () => {
     if (!songDetails) return null;
     
@@ -91,7 +98,7 @@ const ChordsViewerIndex = () => {
     };
   };
 
-  // Pantalla completa
+  // 🖥️ FUNCIÓN PARA ACTIVAR/DESACTIVAR PANTALLA COMPLETA
   const toggleFullscreen = () => {
     if (!document.fullscreenElement) {
       containerRef.current?.requestFullscreen().catch(err => console.error(err));
@@ -102,26 +109,27 @@ const ChordsViewerIndex = () => {
     }
   };
 
-  // Funciones de exportación
+  // 🖨️ FUNCIONES DE EXPORTACIÓN (POR IMPLEMENTAR)
   const handleExportPDF = async () => {
-    // ... implementación
+    // ... implementación futura para exportar a PDF
   };
 
   const handleExportJPG = async () => {
-    // ... implementación
+    // ... implementación futura para exportar a JPG
   };
 
   const handlePrint = () => {
     window.print();
   };
 
-  // Cargar canción desde URL
+  // ⚡ EFECTO PARA CARGAR CANCIÓN DESDE LOS PARÁMETROS DE LA URL
   useEffect(() => {
     const loadSongFromURL = async () => {
       try {
         setLoading(true);
         setError(null);
         
+        // 📝 Obtener parámetros de la URL
         const urlParams = new URLSearchParams(location.search);
         const libraryParam = urlParams.get('library');
         const songFileParam = urlParams.get('song');
@@ -131,16 +139,20 @@ const ChordsViewerIndex = () => {
           return;
         }
 
+        // 🔍 Buscar la biblioteca correspondiente
         const library = SONG_LIBRARIES.find(lib => lib.id === libraryParam);
         if (!library) throw new Error('Biblioteca no encontrada');
 
+        // 📦 Cargar el listado de canciones de la biblioteca
         const data = await fetchJsonFile(library.path);
         let songsArray = [];
         
+        // 📋 Procesar diferentes formatos de listados
         if (data.songs) songsArray = data.songs;
         else if (data.albums) songsArray = data.albums.flatMap(album => album.songs);
         else throw new Error('Formato inválido');
 
+        // 🎯 Buscar la canción específica
         const decodedSongFile = decodeURIComponent(songFileParam);
         const targetSong = songsArray.find(song => song.file === decodedSongFile);
         
@@ -161,9 +173,10 @@ const ChordsViewerIndex = () => {
     loadSongFromURL();
   }, [location.search]);
 
-  // Estados de carga y error
+  // ⏳ ESTADO DE CARGA INICIAL
   if (loading && !selectedSong) return <div className="chords-loading">Cargando...</div>;
   
+  // ❌ MANEJO DE ERRORES
   if (error) return (
     <div className="chords-error">
       <h3>Error</h3>
@@ -172,20 +185,22 @@ const ChordsViewerIndex = () => {
     </div>
   );
 
+  // 📊 OBTENER METADATOS PARA MOSTRAR
   const metadata = getSongMetadata();
 
+  // 🎨 RENDERIZADO DEL COMPONENTE
   return (
     <div className="chords-viewer-integrated" ref={containerRef}>
       
-      {/* Botón pantalla completa */}
+      {/* 🔲 BOTÓN DE PANTALLA COMPLETA */}
       <button className="fullscreen-toggle-btn" onClick={toggleFullscreen}>
         {fullscreenMode ? <BsFullscreenExit /> : <BsArrowsFullscreen />}
       </button>
 
-      {/* Contenedor principal */}
+      {/* 📦 CONTENEDOR PRINCIPAL */}
       <div className="unified-container">
         
-        {/* Header */}
+        {/* 🏷️ HEADER CON TÍTULO */}
         <div className="main-header">
           <div className="header-title-section">
             <BsMusicNoteBeamed className="title-icon" />
@@ -193,7 +208,7 @@ const ChordsViewerIndex = () => {
           </div>
         </div>
 
-        {/* Controles e información */}
+        {/* 🎛️ FILA DE CONTROLES E INFORMACIÓN */}
         <div className="controls-row">
           <div className="song-info">
             {selectedSong ? (
@@ -227,6 +242,7 @@ const ChordsViewerIndex = () => {
             )}
           </div>
           
+          {/* 🎚️ CONTROLES DE TRANSPOSICIÓN Y EXPORTACIÓN */}
           <div className="controls-container">
             <Controls
               transposition={transposition}
@@ -241,7 +257,7 @@ const ChordsViewerIndex = () => {
           </div>
         </div>
 
-        {/* Área del visualizador */}
+        {/* 👁️ ÁREA DE VISUALIZACIÓN DE LA CANCIÓN */}
         <div className="viewer-area">
           {selectedSong ? (
             <SongViewer

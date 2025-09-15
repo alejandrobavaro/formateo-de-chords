@@ -1,0 +1,722 @@
+{
+  "id": "bryan-adams-heaven",
+  "title": "Heaven",
+  "artist": "Bryan Adams",
+  "originalKey": "A",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A", "F#m", "E", "D"]
+        },
+        {
+          "type": "chords",
+          "content": ["A", "F#m", "E", "D"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "Oh! Thinking about all our younger years"
+            },
+            {
+              "type": "chords",
+              "content": ["F#m"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "There was only you and me"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm", "F#m"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "We were young and wild and free"
+            },
+            {
+              "type": "chords",
+              "content": ["E4"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "Now, nothing can take you away from me"
+            },
+            {
+              "type": "chords",
+              "content": ["F#m"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "We've been down that road before"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm", "F#m"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["G", "D7M/F#"]
+            },
+            {
+              "type": "lyric",
+              "content": "But that's over now"
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "You keep me coming back for more"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["D", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Baby, you're all that I want"
+            },
+            {
+              "type": "chords",
+              "content": ["F#m"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "When you're lying here in my arms"
+            },
+            {
+              "type": "chords",
+              "content": ["D", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "I'm finding it hard to believe"
+            },
+            {
+              "type": "chords",
+              "content": ["F#m"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "We're in heaven"
+            },
+            {
+              "type": "chords",
+              "content": ["D", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "And love is all that I need"
+            },
+            {
+              "type": "chords",
+              "content": ["F#m"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "And I found it there in your heart"
+            },
+            {
+              "type": "chords",
+              "content": ["D", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Isn't too hard to see"
+            },
+            {
+              "type": "chords",
+              "content": ["F#m"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "We're in heaven"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTERLUDE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A", "F#m", "E", "D"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 3",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "Oh, once in your life you find someone"
+            },
+            {
+              "type": "chords",
+              "content": ["F#m"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Who will turn your world around"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm", "F#m"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "Bring you up when you're feeling down"
+            },
+            {
+              "type": "chords",
+              "content": ["E4"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 4",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "Yeah, nothing could change"
+            },
+            {
+              "type": "chords",
+              "content": ["F#m"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "What you mean to me"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm", "F#m"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["G", "D7M/F#"]
+            },
+            {
+              "type": "lyric",
+              "content": "Oh, there's lots that I could say"
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "But just hold me now"
+            },
+            {
+              "type": "chords",
+              "content": [""]
+            },
+            {
+              "type": "lyric",
+              "content": "'Cause our love will light the way"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS (REPEAT)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["D", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Baby, you're all that I want"
+            },
+            {
+              "type": "chords",
+              "content": ["F#m"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "When you're lying here in my arms"
+            },
+            {
+              "type": "chords",
+              "content": ["D", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "I'm finding it hard to believe"
+            },
+            {
+              "type": "chords",
+              "content": ["F#m"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "We're in heaven"
+            },
+            {
+              "type": "chords",
+              "content": ["D", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "And love is all that I need"
+            },
+            {
+              "type": "chords",
+              "content": ["F#m"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "And I found it there in your heart"
+            },
+            {
+              "type": "chords",
+              "content": ["D", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Isn't too hard to see"
+            },
+            {
+              "type": "chords",
+              "content": ["F#m"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "We're in heaven"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO",
+      "lines": [
+        {
+          "type": "text",
+          "content": "(Solo de guitarra)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BRIDGE",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "I've been waiting for so long"
+            },
+            {
+              "type": "chords",
+              "content": ["A/C#", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["E", "F#m"]
+            },
+            {
+              "type": "lyric",
+              "content": "For something to arrive"
+            },
+            {
+              "type": "chords",
+              "content": ["E/G#", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "For love to come along"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "Now, our dreams are coming true"
+            },
+            {
+              "type": "chords",
+              "content": ["A/C#", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "Through the good times and the bad"
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Yeah, I'll be standing there by you"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL CHORUS",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["D", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Baby, you're all that I want"
+            },
+            {
+              "type": "chords",
+              "content": ["F#m"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "When you're lying here in my arms"
+            },
+            {
+              "type": "chords",
+              "content": ["D", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "I'm finding it hard to believe"
+            },
+            {
+              "type": "chords",
+              "content": ["F#m"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "We're in heaven, heaven"
+            },
+            {
+              "type": "chords",
+              "content": ["D", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Oh, oh, oh"
+            },
+            {
+              "type": "chords",
+              "content": ["F#m", "A", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["D", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "You're all that I want"
+            },
+            {
+              "type": "chords",
+              "content": ["F#m", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "You're all that I need"
+            },
+            {
+              "type": "chords",
+              "content": ["D", "E", "F#m", "A", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

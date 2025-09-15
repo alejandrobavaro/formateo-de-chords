@@ -1,0 +1,539 @@
+{
+  "id": "alejandro-lerner-volver-a-empezar",
+  "title": "Volver a Empezar",
+  "artist": "Alejandro Lerner",
+  "originalKey": "Am",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO (x2)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am", "–", "F", "–", "G"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "lyric",
+          "content": "Pasa la vida y el tiempo"
+        },
+        {
+          "type": "chord",
+          "content": "F"
+        },
+        {
+          "type": "lyric",
+          "content": "no se queda quieto,"
+        },
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "lyric",
+          "content": "llevo un silencio de frío por la soledad."
+        },
+        {
+          "type": "chord",
+          "content": "Am"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "lyric",
+          "content": "¿En qué lugar anidaré mis sueños nuevos?"
+        },
+        {
+          "type": "chord",
+          "content": "Am/G"
+        },
+        {
+          "type": "chord",
+          "content": "F"
+        },
+        {
+          "type": "lyric",
+          "content": "¿Y quién me dará una mano,"
+        },
+        {
+          "type": "chord",
+          "content": "Dm"
+        },
+        {
+          "type": "lyric",
+          "content": "cuando quiera despertar?"
+        },
+        {
+          "type": "chord",
+          "content": "E"
+        },
+        {
+          "type": "chord",
+          "content": "Am"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F"
+            },
+            {
+              "type": "lyric",
+              "content": "Volver a empezar,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "que aún no termina el juego,"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F"
+            },
+            {
+              "type": "lyric",
+              "content": "volver a empezar,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "que no se apague el fuego,"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "chords",
+          "content": ["F", "–", "F/F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "queda mucho por andar,"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "chords",
+          "content": ["E", "–", "E/G#"]
+        },
+        {
+          "type": "lyric",
+          "content": "y que mañana será un día nuevo"
+        },
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "bajo el sol,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F"
+            },
+            {
+              "type": "lyric",
+              "content": "volver a empezar."
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "–", "C", "–", "E"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTRO (x2)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am", "–", "F", "–", "G"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "lyric",
+          "content": "Se fueron los aplausos"
+        },
+        {
+          "type": "chord",
+          "content": "F"
+        },
+        {
+          "type": "lyric",
+          "content": "y algunos recuerdos,"
+        },
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "lyric",
+          "content": "y el eco de la gloria duerme en un placard."
+        },
+        {
+          "type": "chord",
+          "content": "Am"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "lyric",
+          "content": "Yo seguiré adelante atravesando miedos,"
+        },
+        {
+          "type": "chord",
+          "content": "Am/G"
+        },
+        {
+          "type": "chord",
+          "content": "F"
+        },
+        {
+          "type": "lyric",
+          "content": "sabe Dios que nunca es tarde"
+        },
+        {
+          "type": "chord",
+          "content": "Dm"
+        },
+        {
+          "type": "lyric",
+          "content": "para volver a empezar."
+        },
+        {
+          "type": "chord",
+          "content": "E"
+        },
+        {
+          "type": "chord",
+          "content": "Am"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (x2)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F"
+            },
+            {
+              "type": "lyric",
+              "content": "Volver a empezar,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "que aún no termina el juego,"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F"
+            },
+            {
+              "type": "lyric",
+              "content": "volver a empezar,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "que no se apague el fuego,"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "chords",
+          "content": ["F", "–", "F/F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "queda mucho por andar,"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "chords",
+          "content": ["E", "–", "E/G#"]
+        },
+        {
+          "type": "lyric",
+          "content": "y que mañana será un día nuevo"
+        },
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "bajo el sol,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F"
+            },
+            {
+              "type": "lyric",
+              "content": "volver a empezar."
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "–", "C"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F"
+            },
+            {
+              "type": "lyric",
+              "content": "volver a intentar,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "volver a empezar."
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Am"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTRO (x2) + F - C",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am", "–", "F", "–", "G"]
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "–", "F", "–", "G"]
+        },
+        {
+          "type": "chords",
+          "content": ["F", "–", "C"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am"]
+        }
+      ]
+    }
+  ]
+}

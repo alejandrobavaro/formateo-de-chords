@@ -1,0 +1,628 @@
+{
+  "id": "bon-jovi-livin-on-a-prayer",
+  "title": "Livin' on a Prayer",
+  "artist": "Bon Jovi",
+  "originalKey": "Bm",
+  "tempo": "Upbeat",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Bm", "G", "A"]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "G", "A"]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "G", "A", "Bm"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "Once upon a time"
+            },
+            {
+              "type": "chords",
+              "content": ["A", "Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "Not so long ago"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "Tommy used to work on the docks"
+            },
+            {
+              "type": "lyric",
+              "content": "Union's been on strike"
+            },
+            {
+              "type": "chords",
+              "content": ["G", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "He's down on his luck, it's tough"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "So tough"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "Gina works the diner all day"
+            },
+            {
+              "type": "lyric",
+              "content": "Workin' for her man"
+            },
+            {
+              "type": "chords",
+              "content": ["G", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "She brings home her pay for love"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "For love"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-CHORUS 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["G", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "She says: 'We've gotta hold on"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "To what we've got'"
+            },
+            {
+              "type": "chords",
+              "content": ["G", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "It doesn't make a difference"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "If we make it or not"
+            },
+            {
+              "type": "chords",
+              "content": ["G", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "We've got each other"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm", "G"]
+            },
+            {
+              "type": "lyric",
+              "content": "And that's a lot for love"
+            },
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "We'll give it a shot'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Bm", "G", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "O___oh, we're halfway there"
+            },
+            {
+              "type": "chords",
+              "content": ["D", "G", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "Who__ah, livin' on a prayer"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm", "G"]
+            },
+            {
+              "type": "lyric",
+              "content": "Take my hand"
+            },
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "We'll make it, I swear"
+            },
+            {
+              "type": "chords",
+              "content": ["D", "G", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "Who__ah, livin' on a prayer"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "Tommy's got his six-string in hock"
+            },
+            {
+              "type": "lyric",
+              "content": "Now he's holding in, when he used"
+            },
+            {
+              "type": "chords",
+              "content": ["G", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "To make it talk so tough"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "It's tough"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "Gina dreams of runnin' away"
+            },
+            {
+              "type": "lyric",
+              "content": "When she cries in the night"
+            },
+            {
+              "type": "chords",
+              "content": ["G", "A", "Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "Tommy whispers: 'Baby, it's okay, someday'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-CHORUS 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["G", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "We've gotta hold on"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "To what we've got"
+            },
+            {
+              "type": "chords",
+              "content": ["G", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "It doesn't make a difference"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "If we make it or not"
+            },
+            {
+              "type": "chords",
+              "content": ["G", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "We've got each other"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm", "G"]
+            },
+            {
+              "type": "lyric",
+              "content": "And that's a lot for love"
+            },
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "We'll give it a shot"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Bm", "G", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "O___oh, we're halfway there"
+            },
+            {
+              "type": "chords",
+              "content": ["D", "G", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "Who__ah, livin' on a prayer"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm", "G"]
+            },
+            {
+              "type": "lyric",
+              "content": "Take my hand"
+            },
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "We'll make it, I swear"
+            },
+            {
+              "type": "chords",
+              "content": ["D", "G", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "Who__ah, livin' on a prayer"
+            },
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "Livin' on a prayer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Bm", "G", "A"]
+        },
+        {
+          "type": "chords",
+          "content": ["D", "G", "A"]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "G", "A"]
+        },
+        {
+          "type": "chords",
+          "content": ["D", "G", "Bm"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-CHORUS 3",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["G", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "We've got to hold on"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "Ready or not"
+            },
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "You live for the fight"
+            },
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "When that's all that you've got"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS 3",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Dm", "Bb", "C"]
+            },
+            {
+              "type": "lyric",
+              "content": "O___oh, we're halfway there"
+            },
+            {
+              "type": "chords",
+              "content": ["F", "Bb", "C"]
+            },
+            {
+              "type": "lyric",
+              "content": "Who___ah, livin' on a prayer"
+            },
+            {
+              "type": "chords",
+              "content": ["Dm", "Bb"]
+            },
+            {
+              "type": "lyric",
+              "content": "Take my hand"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "We'll make it, I swear"
+            },
+            {
+              "type": "chords",
+              "content": ["F", "Bb", "C"]
+            },
+            {
+              "type": "lyric",
+              "content": "Who___ah, livin' on a prayer"
+            },
+            {
+              "type": "chords",
+              "content": ["Dm", "Bb", "C"]
+            },
+            {
+              "type": "lyric",
+              "content": "O___oh, we're halfway there"
+            },
+            {
+              "type": "chords",
+              "content": ["F", "Bb", "C"]
+            },
+            {
+              "type": "lyric",
+              "content": "Who___ah, livin' on a prayer"
+            },
+            {
+              "type": "chords",
+              "content": ["Dm", "Bb"]
+            },
+            {
+              "type": "lyric",
+              "content": "Take my hand"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "We'll make it, I swear"
+            },
+            {
+              "type": "chords",
+              "content": ["F", "Bb", "C"]
+            },
+            {
+              "type": "lyric",
+              "content": "Who___ah, living on a prayer"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

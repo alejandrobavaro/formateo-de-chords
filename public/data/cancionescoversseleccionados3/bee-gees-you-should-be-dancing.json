@@ -1,0 +1,415 @@
+{
+  "id": "bee-gees-you-should-be-dancing",
+  "title": "You Should Be Dancing",
+  "artist": "Bee Gees",
+  "originalKey": "Em",
+  "tempo": "Upbeat",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Em"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Em", "Em6", "Em7", "Em6", "Em"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "My baby moves at midnight"
+            },
+            {
+              "type": "chords",
+              "content": ["Em6", "Em7", "Em6", "Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "Goes right on till the dawn"
+            },
+            {
+              "type": "chords",
+              "content": ["Em6", "Em7", "Em6", "Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "My woman takes me higher"
+            },
+            {
+              "type": "chords",
+              "content": ["Em6", "Em7", "Em6", "Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "My woman keeps me warm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-CORO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am", "Am7+", "Am7", "Am7+"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Am", "Am7+", "Am7", "Am7+"]
+            },
+            {
+              "type": "lyric",
+              "content": "What you doin' on your back aah"
+            },
+            {
+              "type": "chords",
+              "content": ["Am", "Am7+", "Am7", "Am7+"]
+            },
+            {
+              "type": "lyric",
+              "content": "What you doin' on your back aah?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CORO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Em"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "You should be dancing, yeah"
+            },
+            {
+              "type": "chords",
+              "content": ["Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "Dancing, yeah"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Em"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "She's juicy and she's trouble"
+            },
+            {
+              "type": "chords",
+              "content": ["Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "She gets it to me good"
+            },
+            {
+              "type": "chords",
+              "content": ["Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "My woman gives me power"
+            },
+            {
+              "type": "chords",
+              "content": ["Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "Goes right down to my blood"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-CORO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am", "Am7+", "Am7", "Am7+"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Am", "Am7+", "Am7", "Am7+"]
+            },
+            {
+              "type": "lyric",
+              "content": "What you doin' on your back aah"
+            },
+            {
+              "type": "chords",
+              "content": ["Am", "Am7+", "Am7", "Am7+"]
+            },
+            {
+              "type": "lyric",
+              "content": "What you doin' on your back aah?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CORO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Em"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "You should be dancing, yeah"
+            },
+            {
+              "type": "chords",
+              "content": ["Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "Dancing, yeah"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Em", "Em6", "Em7", "Em6", "Em"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "My baby moves at midnight"
+            },
+            {
+              "type": "chords",
+              "content": ["Em6", "Em7", "Em6", "Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "Goes right on till the dawn"
+            },
+            {
+              "type": "chords",
+              "content": ["Em6", "Em7", "Em6", "Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "My woman takes me higher"
+            },
+            {
+              "type": "chords",
+              "content": ["Em6", "Em7", "Em6", "Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "My woman keeps me warm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-CORO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am", "Am7+", "Am7", "Am7+"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Am", "Am7+", "Am7", "Am7+"]
+            },
+            {
+              "type": "lyric",
+              "content": "What you doin' on your back aah"
+            },
+            {
+              "type": "chords",
+              "content": ["Am", "Am7+", "Am7", "Am7+"]
+            },
+            {
+              "type": "lyric",
+              "content": "What you doin' on your back aah?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CORO (REPETICIÓN MÚLTIPLE)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Em"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "You should be dancing, yeah"
+            },
+            {
+              "type": "chords",
+              "content": ["Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "Dancing, yeah"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "You should be dancing, yeah"
+            },
+            {
+              "type": "chords",
+              "content": ["Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "Dancing, yeah"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

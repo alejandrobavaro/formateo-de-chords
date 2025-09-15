@@ -238,7 +238,7 @@
           },
           {
             "type": "lyric",
-            "content": "Now, you're pictures that you left behind,"
+            "content": "Now, your pictures that you left behind,"
           },
           {
             "type": "chord",
@@ -350,7 +350,7 @@
               },
               {
                 "type": "lyric",
-                "content": "I'll wish I was him `cause those words are mine,"
+                "content": "I'll wish I was him 'cause those words are mine,"
               },
               {
                 "type": "chord",
@@ -437,219 +437,15 @@
       },
       {
         "type": "section",
-        "name": "BIS",
-        "lines": [
-          {
-            "type": "voice",
-            "name": "1º VOZ",
-            "color": "principal",
-            "lines": [
-              {
-                "type": "chord",
-                "content": "A#"
-              },
-              {
-                "type": "chord",
-                "content": "D#"
-              },
-              {
-                "type": "chord",
-                "content": "F"
-              },
-              {
-                "type": "lyric",
-                "content": "if you told me to cry for you I could,"
-              },
-              {
-                "type": "chord",
-                "content": "A#"
-              },
-              {
-                "type": "chord",
-                "content": "D#"
-              },
-              {
-                "type": "chord",
-                "content": "F"
-              },
-              {
-                "type": "chord",
-                "content": "Gm"
-              },
-              {
-                "type": "lyric",
-                "content": "if you told me to die for you I would,"
-              },
-              {
-                "type": "chord",
-                "content": "F"
-              },
-              {
-                "type": "chord",
-                "content": "D#"
-              },
-              {
-                "type": "lyric",
-                "content": "Take a look at my face,"
-              },
-              {
-                "type": "chord",
-                "content": "Dm"
-              },
-              {
-                "type": "chord",
-                "content": "F"
-              },
-              {
-                "type": "lyric",
-                "content": "there's no price I won't pay,"
-              },
-              {
-                "type": "chord",
-                "content": "F"
-              },
-              {
-                "type": "lyric",
-                "content": "to say these words to you..."
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "type": "divider"
-      },
-      {
-        "type": "section",
-        "name": "SOLO 1",
+        "name": "SOLO",
         "lines": [
           {
             "type": "chords",
-            "content": ["C", "G", "Dm", "Am", "G"]
+            "content": ["C", "G", "F", "Am", "G"]
           },
           {
             "type": "chords",
             "content": ["C", "G", "F", "G"]
-          },
-          {
-            "type": "chords",
-            "content": ["F", "G"]
-          }
-        ]
-      },
-      {
-        "type": "divider"
-      },
-      {
-        "type": "section",
-        "name": "PRE-ESTRIBILLO (REPETICIÓN)",
-        "lines": [
-          {
-            "type": "voice",
-            "name": "1º VOZ",
-            "color": "principal",
-            "lines": [
-              {
-                "type": "chord",
-                "content": "F"
-              },
-              {
-                "type": "lyric",
-                "content": "Well, there ain't no luck in these lonely dance,"
-              },
-              {
-                "type": "chord",
-                "content": "G"
-              },
-              {
-                "type": "lyric",
-                "content": "but baby if you give me just one more try."
-              },
-              {
-                "type": "chord",
-                "content": "F"
-              },
-              {
-                "type": "lyric",
-                "content": "We can pack up our old dreams and our old lives,"
-              },
-              {
-                "type": "chord",
-                "content": "G"
-              },
-              {
-                "type": "chords",
-                "content": ["F", "G"]
-              },
-              {
-                "type": "lyric",
-                "content": "we'll find a place where the sun still shines..."
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "type": "divider"
-      },
-      {
-        "type": "section",
-        "name": "ESTRIBILLO (REPETICIÓN)",
-        "lines": [
-          {
-            "type": "voice",
-            "name": "1º VOZ",
-            "color": "principal",
-            "lines": [
-              {
-                "type": "chord",
-                "content": "C"
-              },
-              {
-                "type": "chord",
-                "content": "G"
-              },
-              {
-                "type": "chord",
-                "content": "F"
-              },
-              {
-                "type": "chords",
-                "content": ["Am", "G"]
-              },
-              {
-                "type": "lyric",
-                "content": "I..., will love you, baby Always..."
-              },
-              {
-                "type": "chord",
-                "content": "C"
-              },
-              {
-                "type": "chord",
-                "content": "G"
-              },
-              {
-                "type": "chord",
-                "content": "F"
-              },
-              {
-                "type": "lyric",
-                "content": "and I'll be there forever and a day,"
-              },
-              {
-                "type": "chord",
-                "content": "Am"
-              },
-              {
-                "type": "chord",
-                "content": "G"
-              },
-              {
-                "type": "lyric",
-                "content": "Always..."
-              }
-            ]
           }
         ]
       },
@@ -710,87 +506,6 @@
       },
       {
         "type": "section",
-        "name": "SOLO 2",
-        "lines": [
-          {
-            "type": "chords",
-            "content": ["C", "G", "Am", "G", "F"]
-          },
-          {
-            "type": "chords",
-            "content": ["C", "G", "Am", "G", "F"]
-          }
-        ]
-      },
-      {
-        "type": "divider"
-      },
-      {
-        "type": "section",
-        "name": "ESTRIBILLO FINAL (REPETICIÓN)",
-        "lines": [
-          {
-            "type": "voice",
-            "name": "1º VOZ",
-            "color": "principal",
-            "lines": [
-              {
-                "type": "chord",
-                "content": "C"
-              },
-              {
-                "type": "chord",
-                "content": "G"
-              },
-              {
-                "type": "chord",
-                "content": "Dm"
-              },
-              {
-                "type": "chords",
-                "content": ["Am", "G"]
-              },
-              {
-                "type": "lyric",
-                "content": "I..., will love you, baby Always..."
-              },
-              {
-                "type": "chord",
-                "content": "C"
-              },
-              {
-                "type": "chord",
-                "content": "G"
-              },
-              {
-                "type": "chord",
-                "content": "F"
-              },
-              {
-                "type": "lyric",
-                "content": "and I'll be there forever and a day,"
-              },
-              {
-                "type": "chord",
-                "content": "Am"
-              },
-              {
-                "type": "chord",
-                "content": "G"
-              },
-              {
-                "type": "lyric",
-                "content": "Always..."
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "type": "divider"
-      },
-      {
-        "type": "section",
         "name": "FINAL",
         "lines": [
           {
@@ -800,5 +515,4 @@
         ]
       }
     ]
-  }
-  
+}

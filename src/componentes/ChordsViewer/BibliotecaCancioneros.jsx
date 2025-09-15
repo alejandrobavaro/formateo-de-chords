@@ -1,5 +1,5 @@
 // ================================================================
-// 📚 GALERÍA HOME CANCIONEROS - COMPONENTE PRINCIPAL
+// 📚 GALERÍA HOME CANCIONEROS - COMPONENTE PRINCIPAL OPTIMIZADO
 // ================================================================
 
 // 🔗 IMPORTACIONES DE DEPENDENCIAS EXTERNAS
@@ -15,7 +15,19 @@ import {
   BsX,
   BsArrowRight,
   BsClock,
-  BsMusicPlayer
+  BsMusicPlayer,
+  BsFilterLeft,
+  BsFilterRight,
+  BsArrowDownUp,
+  BsAlphabet,
+  BsHash,
+  BsChevronDown,
+  BsChevronRight,
+  BsCollection,
+  BsStars,
+  BsLightning,
+  BsEye,
+  BsEyeSlash
 } from "react-icons/bs";
 
 // 🎨 IMPORTACIÓN DE ESTILOS LOCALES
@@ -42,7 +54,7 @@ const SongSelector = ({
   onSelectSong, 
   searchQuery, 
   onSearchChange,
-  placeholder = "Buscar canción por título o artista...",
+  placeholder = "Buscar canción...",
   compact = false
 }) => {
   // 🎯 ESTADOS PARA GESTIONAR LAS SUGERENCIAS Y EL FOCO
@@ -94,7 +106,7 @@ const SongSelector = ({
     onSearchChange("");
   };
 
-  // 🗑️ FUNCIÓN PARA LIMPIAR LA BÚSQUEDA
+  // 🗑️ FUNCIÓN PARA LIMPIAR LA Búsqueda
   const clearSearch = () => {
     onSearchChange("");
     setShowSuggestions(false);
@@ -181,6 +193,196 @@ const SongSelector = ({
 };
 
 // ================================================================
+// 🎛️ COMPONENTE DE FILTROS Y ORDENAMIENTO
+// ================================================================
+const FilterControls = ({ 
+  sortConfig, 
+  onSortChange, 
+  activeFilters, 
+  onFilterChange,
+  availableLists,
+  visibleColumns,
+  onToggleColumn,
+  onExpandAll,
+  onCollapseAll
+}) => {
+  // 🎯 OPCIONES DE FILTRO POR PRIMERA LETRA
+  const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+  
+  // 🎯 OPCIONES DE ORDENAMIENTO
+  const sortOptions = [
+    { key: 'artist', label: 'Artista', icon: <BsAlphabet /> },
+    { key: 'title', label: 'Título', icon: <BsAlphabet /> },
+    { key: 'genre', label: 'Género', icon: <BsFilter /> },
+    { key: 'bpm', label: 'BPM', icon: <BsHash /> },
+    { key: 'key', label: 'Tono', icon: <BsMusicNoteBeamed /> },
+    { key: 'duration', label: 'Duración', icon: <BsClock /> },
+    { key: 'list', label: 'Lista', icon: <BsMusicPlayer /> }
+  ];
+
+  // 🎯 OPCIONES DE COLUMNAS
+  const columnOptions = [
+    { key: 'artist', label: 'Artista', icon: <BsMusicPlayer /> },
+    { key: 'title', label: 'Título', icon: <BsAlphabet /> },
+    { key: 'genre', label: 'Género', icon: <BsFilter /> },
+    { key: 'bpm', label: 'BPM', icon: <BsHash /> },
+    { key: 'key', label: 'Tono', icon: <BsMusicNoteBeamed /> },
+    { key: 'duration', label: 'Duración', icon: <BsClock /> },
+    { key: 'list', label: 'Lista', icon: <BsCollection /> }
+  ];
+
+  return (
+    <div className="filter-controls-container">
+      
+      {/* 🎯 ACCIONES RÁPIDAS */}
+      <div className="filter-section">
+        <div className="filter-section-header">
+          <BsLightning />
+          <span>Acciones rápidas:</span>
+        </div>
+        <div className="quick-actions">
+          <button className="action-btn" onClick={onExpandAll}>
+            <BsChevronDown />
+            <span>Expandir todo</span>
+          </button>
+          <button className="action-btn" onClick={onCollapseAll}>
+            <BsChevronRight />
+            <span>Colapsar todo</span>
+          </button>
+        </div>
+      </div>
+
+      {/* 🔤 FILTRO ALFABÉTICO POR PRIMERA LETRA */}
+      <div className="filter-section">
+        <div className="filter-section-header">
+          <BsAlphabet />
+          <span>Filtrar por letra:</span>
+        </div>
+        <div className="alphabet-filter">
+          {alphabet.map(letter => (
+            <button
+              key={letter}
+              className={`letter-filter-btn ${activeFilters.letter === letter ? 'active' : ''}`}
+              onClick={() => onFilterChange('letter', activeFilters.letter === letter ? null : letter)}
+            >
+              {letter}
+            </button>
+          ))}
+          <button
+            className={`letter-filter-btn ${activeFilters.letter === '0-9' ? 'active' : ''}`}
+            onClick={() => onFilterChange('letter', activeFilters.letter === '0-9' ? null : '0-9')}
+          >
+            0-9
+          </button>
+          <button
+            className={`letter-filter-btn ${activeFilters.letter === 'all' ? 'active' : ''}`}
+            onClick={() => onFilterChange('letter', 'all')}
+          >
+            Todas
+          </button>
+        </div>
+      </div>
+
+      {/* 🎛️ FILTRO POR LISTA/BIBLIOTECA */}
+      <div className="filter-section">
+        <div className="filter-section-header">
+          <BsCollection />
+          <span>Filtrar por lista:</span>
+        </div>
+        <div className="list-filter">
+          <select
+            value={activeFilters.list || ''}
+            onChange={(e) => onFilterChange('list', e.target.value || null)}
+            className="list-filter-select"
+          >
+            <option value="">Todas las listas</option>
+            {availableLists.map(list => (
+              <option key={list.id} value={list.id}>
+                {list.name}
+              </option>
+            ))}
+          </select>
+        </div>
+      </div>
+
+      {/* 🔄 ORDENAMIENTO */}
+      <div className="filter-section">
+        <div className="filter-section-header">
+          <BsArrowDownUp />
+          <span>Ordenar por:</span>
+        </div>
+        <div className="sort-controls">
+          {sortOptions.map(option => (
+            <button
+              key={option.key}
+              className={`sort-btn ${sortConfig.key === option.key ? 'active' : ''}`}
+              onClick={() => onSortChange(option.key)}
+            >
+              {option.icon}
+              <span>{option.label}</span>
+              {sortConfig.key === option.key && (
+                <span className="sort-direction">
+                  {sortConfig.direction === 'ascending' ? <BsSortUp /> : <BsSortDown />}
+                </span>
+              )}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      {/* 👁️ VISIBILIDAD DE COLUMNAS */}
+      <div className="filter-section">
+        <div className="filter-section-header">
+          <BsEye />
+          <span>Columnas visibles:</span>
+        </div>
+        <div className="column-controls">
+          {columnOptions.map(column => (
+            <button
+              key={column.key}
+              className={`column-toggle-btn ${visibleColumns[column.key] ? 'active' : ''}`}
+              onClick={() => onToggleColumn(column.key)}
+            >
+              {visibleColumns[column.key] ? <BsEye /> : <BsEyeSlash />}
+              <span>{column.label}</span>
+            </button>
+          ))}
+        </div>
+      </div>
+
+      {/* 🔄 BOTÓN DE ORDEN ASC/DESC */}
+      {sortConfig.key && (
+        <div className="filter-section">
+          <button
+            className="direction-toggle-btn"
+            onClick={() => onSortChange(sortConfig.key, sortConfig.direction === 'ascending' ? 'descending' : 'ascending')}
+          >
+            {sortConfig.direction === 'ascending' ? <BsSortDown /> : <BsSortUp />}
+            <span>{sortConfig.direction === 'ascending' ? 'Descendente' : 'Ascendente'}</span>
+          </button>
+        </div>
+      )}
+
+      {/* 🗑️ BOTÓN DE LIMPIAR FILTROS */}
+      {(activeFilters.letter || activeFilters.list) && (
+        <div className="filter-section">
+          <button
+            className="clear-filters-btn"
+            onClick={() => {
+              onFilterChange('letter', null);
+              onFilterChange('list', null);
+            }}
+          >
+            <BsX />
+            <span>Limpiar filtros</span>
+          </button>
+        </div>
+      )}
+    </div>
+  );
+};
+
+// ================================================================
 // 🏠 COMPONENTE PRINCIPAL DE LA GALERÍA
 // ================================================================
 const BibliotecaCancioneros = () => {
@@ -193,6 +395,12 @@ const BibliotecaCancioneros = () => {
   const [selectedGroups, setSelectedGroups] = useState(new Set());
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [activeFilters, setActiveFilters] = useState({
+    letter: null,
+    list: null
+  });
+  const [showFilters, setShowFilters] = useState(false);
+  const [viewMode, setViewMode] = useState('table'); // 'table' o 'grid'
   
   // 🎛️ ESTADO PARA CONTROLAR LAS COLUMNAS VISIBLES EN LA TABLA
   const [visibleColumns, setVisibleColumns] = useState({
@@ -244,7 +452,8 @@ const BibliotecaCancioneros = () => {
               songs: album.songs || [],
               id: `group-${index}-${album.album_name || ''}`,
               path: jsonFiles[index],
-              type: 'album'
+              type: 'album',
+              libraryId: getLibraryIdFromPath(jsonFiles[index])
             }));
           } else if (data.songs) {
             // 🎵 Procesar archivos con estructura de colecciones
@@ -253,7 +462,8 @@ const BibliotecaCancioneros = () => {
               songs: data.songs,
               id: `group-${index}`,
               path: jsonFiles[index],
-              type: 'collection'
+              type: 'collection',
+              libraryId: getLibraryIdFromPath(jsonFiles[index])
             }];
           }
           return [];
@@ -264,9 +474,8 @@ const BibliotecaCancioneros = () => {
         setGroups(flattenedGroups);
         setFilteredGroups(flattenedGroups);
         
-        // 📂 Expandir todos los grupos por defecto
-        const allGroupIds = flattenedGroups.map(group => group.id);
-        setSelectedGroups(new Set(allGroupIds));
+        // 📂 POR DEFECTO: COLAPSAR TODOS LOS GRUPOS
+        setSelectedGroups(new Set());
       } catch (error) {
         console.error("Error cargando JSONs:", error);
         setError("Error al cargar las canciones. Intenta recargar la página.");
@@ -331,7 +540,68 @@ const BibliotecaCancioneros = () => {
   };
 
   // ================================================================
-  // 🔍 EFECTO PARA APLICAR FILTROS Y BÚSQUEDA
+  // 🆔 FUNCIÓN PARA OBTENER ID DE BIBLIOTECA DESDE LA RUTA
+  // ================================================================
+  const getLibraryIdFromPath = (path) => {
+    const filename = path.split('/').pop().replace('.json', '');
+    const libraryMap = {
+      'listadocancionesalegondramusic': 'alegondra',
+      'listadocancionesalmangopop': 'almangopop',
+      'listadocancionescasamiento': 'casamiento',
+      'listadochordscoversseleccionados1': 'covers1',
+      'listadochordscoversseleccionados2': 'covers2',
+      'listadochordscoversseleccionados3': 'covers3',
+      'listadochordscoverslatinos1': 'coverslatinos1',
+      'listadochordscoversnacionales1': 'coversnacionales1'
+    };
+    
+    return libraryMap[filename] || 'covers1';
+  };
+
+  // ================================================================
+  // 🎯 FUNCIÓN PARA MANEJAR CAMBIOS DE FILTRO
+  // ================================================================
+  const handleFilterChange = (filterType, value) => {
+    setActiveFilters(prev => ({
+      ...prev,
+      [filterType]: value
+    }));
+  };
+
+  // ================================================================
+  // 🔄 FUNCIÓN PARA MANEJAR CAMBIOS DE ORDENAMIENTO
+  // ================================================================
+  const handleSortChange = (key, direction = 'ascending') => {
+    if (sortConfig.key === key && !direction) {
+      direction = sortConfig.direction === 'ascending' ? 'descending' : 'ascending';
+    }
+    setSortConfig({ key, direction });
+  };
+
+  // ================================================================
+  // 👁️ FUNCIÓN PARA ALTERNAR VISIBILIDAD DE COLUMNAS
+  // ================================================================
+  const handleToggleColumn = (columnKey) => {
+    setVisibleColumns(prev => ({
+      ...prev,
+      [columnKey]: !prev[columnKey]
+    }));
+  };
+
+  // ================================================================
+  // 📂 FUNCIONES PARA EXPANDIR/COLAPSAR TODOS LOS GRUPOS
+  // ================================================================
+  const expandAllGroups = () => {
+    const allGroupIds = groups.map(group => group.id);
+    setSelectedGroups(new Set(allGroupIds));
+  };
+
+  const collapseAllGroups = () => {
+    setSelectedGroups(new Set());
+  };
+
+  // ================================================================
+  // 🔍 EFECTO PARA APLICAR FILTROS, BÚSQUEDA Y ORDENAMIENTO
   // ================================================================
   useEffect(() => {
     let result = [...groups];
@@ -348,6 +618,26 @@ const BibliotecaCancioneros = () => {
           (songDetails[song.id || song.title]?.originalKey?.toLowerCase().includes(term))
         )
       })).filter(group => group.songs.length > 0);
+    }
+    
+    // 🔤 Aplicar filtro por primera letra
+    if (activeFilters.letter && activeFilters.letter !== 'all') {
+      result = result.map(group => ({
+        ...group,
+        songs: group.songs.filter(song => {
+          if (activeFilters.letter === '0-9') {
+            // Filtrar por números (0-9)
+            return /^\d/.test(song.title || '');
+          }
+          // Filtrar por letra específica
+          return (song.title || '').toUpperCase().startsWith(activeFilters.letter);
+        })
+      })).filter(group => group.songs.length > 0);
+    }
+    
+    // 📚 Aplicar filtro por lista/biblioteca
+    if (activeFilters.list) {
+      result = result.filter(group => group.libraryId === activeFilters.list);
     }
     
     // 🔄 Aplicar ordenamiento si está configurado
@@ -373,6 +663,12 @@ const BibliotecaCancioneros = () => {
             bValue = b[sortConfig.key] || '';
           }
           
+          // Manejar valores vacíos
+          if (aValue === '' && bValue !== '') return sortConfig.direction === 'ascending' ? 1 : -1;
+          if (aValue !== '' && bValue === '') return sortConfig.direction === 'ascending' ? -1 : 1;
+          if (aValue === '' && bValue === '') return 0;
+          
+          // Comparación normal
           if (aValue < bValue) {
             return sortConfig.direction === 'ascending' ? -1 : 1;
           }
@@ -385,18 +681,7 @@ const BibliotecaCancioneros = () => {
     }
     
     setFilteredGroups(result);
-  }, [groups, searchTerm, sortConfig, songDetails]);
-
-  // ================================================================
-  // 🔄 FUNCIÓN PARA MANEJAR EL ORDENAMIENTO DE LA TABLA
-  // ================================================================
-  const requestSort = (key) => {
-    let direction = 'ascending';
-    if (sortConfig.key === key && sortConfig.direction === 'ascending') {
-      direction = 'descending';
-    }
-    setSortConfig({ key, direction });
-  };
+  }, [groups, searchTerm, sortConfig, songDetails, activeFilters]);
 
   // ================================================================
   // 📂 FUNCIÓN PARA ALTERNAR LA EXPANSIÓN/COLAPSO DE GRUPOS
@@ -422,25 +707,6 @@ const BibliotecaCancioneros = () => {
   };
 
   // ================================================================
-  // 🆔 FUNCIÓN PARA OBTENER ID DE BIBLIOTECA DESDE LA RUTA
-  // ================================================================
-  const getLibraryIdFromPath = (path) => {
-    const filename = path.split('/').pop().replace('.json', '');
-    const libraryMap = {
-      'listadocancionesalegondramusic': 'alegondra',
-      'listadocancionesalmangopop': 'almangopop',
-      'listadocancionescasamiento': 'casamiento',
-      'listadochordscoversseleccionados1': 'covers1',
-      'listadochordscoversseleccionados2': 'covers2',
-      'listadochordscoversseleccionados3': 'covers3',
-      'listadochordscoverslatinos1': 'coverslatinos1',
-      'listadochordscoversnacionales1': 'coversnacionales1'
-    };
-    
-    return libraryMap[filename] || 'covers1';
-  };
-
-  // ================================================================
   // 🎲 FUNCIÓN PARA GENERAR DATOS DE EJEMPLO (BPM, GÉNERO, DURACIÓN)
   // ================================================================
   const getSongExtraData = (song) => {
@@ -458,6 +724,20 @@ const BibliotecaCancioneros = () => {
     
     return { genre, bpm, duration };
   };
+
+  // ================================================================
+  // 📋 LISTAS DISPONIBLES PARA FILTRO
+  // ================================================================
+  const availableLists = [
+    { id: 'alegondra', name: 'Ale Gondra' },
+    { id: 'almangopop', name: 'Almango Pop' },
+    { id: 'casamiento', name: 'Casamiento' },
+    { id: 'covers1', name: 'Covers Seleccionados 1' },
+    { id: 'covers2', name: 'Covers Seleccionados 2' },
+    { id: 'covers3', name: 'Covers Seleccionados 3' },
+    { id: 'coverslatinos1', name: 'Covers Latinos' },
+    { id: 'coversnacionales1', name: 'Covers Nacionales' }
+  ];
 
   // ================================================================
   // ⏳ RENDERIZADO DE ESTADOS DE CARGA Y ERROR
@@ -499,14 +779,32 @@ const BibliotecaCancioneros = () => {
           
           <div className="header-stats">
             <div className="stat-item">
-              <span className="stat-number">{groups.length}</span>
+              <span className="stat-number">{filteredGroups.length}</span>
               <span className="stat-label">Listas</span>
             </div>
             <div className="stat-item">
               <span className="stat-number">
-                {groups.reduce((total, group) => total + (group.songs?.length || 0), 0)}
+                {filteredGroups.reduce((total, group) => total + (group.songs?.length || 0), 0)}
               </span>
               <span className="stat-label">Canciones</span>
+            </div>
+            <div className="stat-item">
+              <button
+                className={`filter-toggle-btn ${showFilters ? 'active' : ''}`}
+                onClick={() => setShowFilters(!showFilters)}
+              >
+                <BsFilter />
+                <span>Filtros</span>
+              </button>
+            </div>
+            <div className="stat-item">
+              <button
+                className={`view-toggle-btn ${viewMode === 'grid' ? 'active' : ''}`}
+                onClick={() => setViewMode(viewMode === 'table' ? 'grid' : 'table')}
+              >
+                {viewMode === 'table' ? <BsCollection /> : <BsMusicNoteBeamed />}
+                <span>{viewMode === 'table' ? 'Grid' : 'Tabla'}</span>
+              </button>
             </div>
           </div>
         </div>
@@ -534,17 +832,34 @@ const BibliotecaCancioneros = () => {
         </div>
       </div>
 
+      {/* 🎛️ PANEL DE FILTROS Y ORDENAMIENTO */}
+      {showFilters && (
+        <div className="filters-panel">
+          <FilterControls
+            sortConfig={sortConfig}
+            onSortChange={handleSortChange}
+            activeFilters={activeFilters}
+            onFilterChange={handleFilterChange}
+            availableLists={availableLists}
+            visibleColumns={visibleColumns}
+            onToggleColumn={handleToggleColumn}
+            onExpandAll={expandAllGroups}
+            onCollapseAll={collapseAllGroups}
+          />
+        </div>
+      )}
+
       {/* 📊 TABLA PRINCIPAL DE CANCIONES */}
       <div className="excel-table-container">
         <div className="table-wrapper">
-          <table className="excel-table compact-table">
+          <table className="excel-table ultra-compact-table">
             <thead>
               <tr>
                 <th className="col-expand"></th>
                 {visibleColumns.artist && (
                   <th 
                     className="col-artist sortable"
-                    onClick={() => requestSort('artist')}
+                    onClick={() => handleSortChange('artist')}
                   >
                     <span>Artista</span>
                     {sortConfig.key === 'artist' && (
@@ -557,7 +872,7 @@ const BibliotecaCancioneros = () => {
                 {visibleColumns.title && (
                   <th 
                     className="col-title sortable"
-                    onClick={() => requestSort('title')}
+                    onClick={() => handleSortChange('title')}
                   >
                     <span>Título</span>
                     {sortConfig.key === 'title' && (
@@ -570,7 +885,7 @@ const BibliotecaCancioneros = () => {
                 {visibleColumns.genre && (
                   <th 
                     className="col-genre sortable"
-                    onClick={() => requestSort('genre')}
+                    onClick={() => handleSortChange('genre')}
                   >
                     <span>Género</span>
                     {sortConfig.key === 'genre' && (
@@ -583,7 +898,7 @@ const BibliotecaCancioneros = () => {
                 {visibleColumns.bpm && (
                   <th 
                     className="col-bpm sortable"
-                    onClick={() => requestSort('bpm')}
+                    onClick={() => handleSortChange('bpm')}
                   >
                     <span>BPM</span>
                     {sortConfig.key === 'bpm' && (
@@ -596,7 +911,7 @@ const BibliotecaCancioneros = () => {
                 {visibleColumns.key && (
                   <th 
                     className="col-key sortable"
-                    onClick={() => requestSort('key')}
+                    onClick={() => handleSortChange('key')}
                   >
                     <span>Tono</span>
                     {sortConfig.key === 'key' && (
@@ -609,7 +924,7 @@ const BibliotecaCancioneros = () => {
                 {visibleColumns.duration && (
                   <th 
                     className="col-duration sortable"
-                    onClick={() => requestSort('duration')}
+                    onClick={() => handleSortChange('duration')}
                   >
                     <span>Duración</span>
                     {sortConfig.key === 'duration' && (
@@ -622,7 +937,7 @@ const BibliotecaCancioneros = () => {
                 {visibleColumns.list && (
                   <th 
                     className="col-list sortable"
-                    onClick={() => requestSort('list')}
+                    onClick={() => handleSortChange('list')}
                   >
                     <span>Lista</span>
                     {sortConfig.key === 'list' && (
@@ -651,7 +966,7 @@ const BibliotecaCancioneros = () => {
                   >
                     <td className="col-expand">
                       <span className="expand-icon">
-                        {selectedGroups.has(group.id) ? '−' : '+'}
+                        {selectedGroups.has(group.id) ? <BsChevronDown /> : <BsChevronRight />}
                       </span>
                     </td>
                     <td colSpan={Object.values(visibleColumns).filter(Boolean).length + 1}>
@@ -768,16 +1083,17 @@ const BibliotecaCancioneros = () => {
       <div className="table-footer">
         <div className="footer-info">
           <span>Mostrando {filteredGroups.reduce((total, group) => total + (group.songs?.length || 0), 0)} canciones</span>
+          {(activeFilters.letter || activeFilters.list) && (
+            <span className="active-filters-info">
+              {activeFilters.letter && ` • Letra: ${activeFilters.letter}`}
+              {activeFilters.list && ` • Lista: ${availableLists.find(l => l.id === activeFilters.list)?.name}`}
+            </span>
+          )}
         </div>
         <div className="footer-actions">
-          <button className="columns-toggle" onClick={() => setVisibleColumns(prev => ({
-            ...prev,
-            genre: !prev.genre,
-            bpm: !prev.bpm,
-            duration: !prev.duration
-          }))}>
+          <button className="columns-toggle" onClick={() => setShowFilters(!showFilters)}>
             <BsFilter />
-            {visibleColumns.genre ? 'Ocultar columnas' : 'Mostrar columnas'}
+            <span>{showFilters ? 'Ocultar filtros' : 'Mostrar filtros'}</span>
           </button>
         </div>
       </div>

@@ -1,0 +1,401 @@
+{
+  "id": "bon-jovi-thank-you-for-loving-me",
+  "title": "Thank You For Loving Me",
+  "artist": "Bon Jovi",
+  "originalKey": "B",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["B/D#", "E", "G#m", "F#4"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["B"]
+            },
+            {
+              "type": "lyric",
+              "content": "It's hard for me to say the things I wanna say sometimes"
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "There's no one here but you and me and the broken old street light"
+            },
+            {
+              "type": "chords",
+              "content": ["G#m", "E", "F#"]
+            },
+            {
+              "type": "lyric",
+              "content": "Lock the door and leave the world outside"
+            },
+            {
+              "type": "chords",
+              "content": ["B", "E", "F#"]
+            },
+            {
+              "type": "lyric",
+              "content": "All I've got to give to you are these five words and I"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["B", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Thank you for loving me"
+            },
+            {
+              "type": "chords",
+              "content": ["F#", "B"]
+            },
+            {
+              "type": "lyric",
+              "content": "For being my eyes when I couldn't see"
+            },
+            {
+              "type": "chords",
+              "content": ["G#m", "F#", "C#", "F#"]
+            },
+            {
+              "type": "lyric",
+              "content": "For parting my lips when I couldn't breathe"
+            },
+            {
+              "type": "chords",
+              "content": ["B", "E", "F#"]
+            },
+            {
+              "type": "lyric",
+              "content": "Thank you for loving me"
+            },
+            {
+              "type": "chords",
+              "content": ["B", "E", "F#"]
+            },
+            {
+              "type": "lyric",
+              "content": "Thank you for loving me"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "I never knew I had a dream until that dream was you"
+            },
+            {
+              "type": "chords",
+              "content": ["B"]
+            },
+            {
+              "type": "lyric",
+              "content": "When I look into your eyes the sky's a different blue"
+            },
+            {
+              "type": "chords",
+              "content": ["G#m", "E", "F#"]
+            },
+            {
+              "type": "lyric",
+              "content": "Cross my heart, I wear no disguise"
+            },
+            {
+              "type": "chords",
+              "content": ["B", "E", "F#"]
+            },
+            {
+              "type": "lyric",
+              "content": "If I tried, you'd make believe that you believe my lies"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS (REPEAT)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["B", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Thank you for loving me"
+            },
+            {
+              "type": "chords",
+              "content": ["F#", "B"]
+            },
+            {
+              "type": "lyric",
+              "content": "For being my eyes when I couldn't see"
+            },
+            {
+              "type": "chords",
+              "content": ["G#m", "F#", "C#", "F#"]
+            },
+            {
+              "type": "lyric",
+              "content": "For parting my lips when I couldn't breathe"
+            },
+            {
+              "type": "chords",
+              "content": ["B", "E", "F#"]
+            },
+            {
+              "type": "lyric",
+              "content": "Thank you for loving me"
+            },
+            {
+              "type": "chords",
+              "content": ["B", "E", "F#"]
+            },
+            {
+              "type": "lyric",
+              "content": "Thank you for loving me"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BRIDGE",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "You pick me up when I fall down"
+            },
+            {
+              "type": "chords",
+              "content": ["F#"]
+            },
+            {
+              "type": "lyric",
+              "content": "You ring the bell before they count me out"
+            },
+            {
+              "type": "chords",
+              "content": ["C#m", "B/D#", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "If I was drowning you would part the sea"
+            },
+            {
+              "type": "chords",
+              "content": ["A", "B", "C#m", "F#"]
+            },
+            {
+              "type": "lyric",
+              "content": "And risk your life to rescue me"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO",
+      "lines": [
+        {
+          "type": "text",
+          "content": "(Solo de guitarra)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 3",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["G#m", "E", "F#"]
+            },
+            {
+              "type": "lyric",
+              "content": "Lock the door and leave the world outside"
+            },
+            {
+              "type": "chords",
+              "content": ["B", "E", "A", "F#"]
+            },
+            {
+              "type": "lyric",
+              "content": "All I've got to give to you are these five words and I"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL CHORUS",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["B", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Thank you for loving me"
+            },
+            {
+              "type": "chords",
+              "content": ["F#", "B"]
+            },
+            {
+              "type": "lyric",
+              "content": "For being my eyes when I couldn't see"
+            },
+            {
+              "type": "chords",
+              "content": ["G#m", "F#", "C#", "F#"]
+            },
+            {
+              "type": "lyric",
+              "content": "For parting my lips when I couldn't breathe"
+            },
+            {
+              "type": "chords",
+              "content": ["B", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "When I couldn't fly, oh you gave me wings"
+            },
+            {
+              "type": "chords",
+              "content": ["G#m", "F#", "C#", "F#"]
+            },
+            {
+              "type": "lyric",
+              "content": "For parting my lips when I couldn't breathe"
+            },
+            {
+              "type": "chords",
+              "content": ["B", "E", "F#"]
+            },
+            {
+              "type": "lyric",
+              "content": "Thank you for loving me"
+            },
+            {
+              "type": "chords",
+              "content": ["B", "E", "F#"]
+            },
+            {
+              "type": "lyric",
+              "content": "Thank you for loving me"
+            },
+            {
+              "type": "chords",
+              "content": ["B", "E", "F#"]
+            },
+            {
+              "type": "lyric",
+              "content": "Thank you for loving me"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,654 @@
+{
+  "id": "alejandra-guzman-mirala-miralo",
+  "title": "Mírala, Míralo",
+  "artist": "Alejandra Guzmán",
+  "originalKey": "F",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F", "–", "C", "–", "Dm", "–", "A#", "–", "C"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "F"
+        },
+        {
+          "type": "lyric",
+          "content": "Mírala, mírala, mírala"
+        },
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "lyric",
+          "content": "diosa vestida de saliva y sal"
+        },
+        {
+          "type": "chord",
+          "content": "Dm"
+        },
+        {
+          "type": "lyric",
+          "content": "los ojos muertos en blanco gimiendo"
+        },
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "chord",
+          "content": "A#"
+        },
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "lyric",
+          "content": "en el suelo del salón"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "F"
+        },
+        {
+          "type": "lyric",
+          "content": "Míralo, míralo, míralo"
+        },
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "lyric",
+          "content": "ángel desnudo bañado en sudor"
+        },
+        {
+          "type": "chord",
+          "content": "Dm"
+        },
+        {
+          "type": "lyric",
+          "content": "subiendo las montañas de su cuerpo"
+        },
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "lyric",
+          "content": "no te pares por favor"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "A#"
+        },
+        {
+          "type": "lyric",
+          "content": "Al calor de mediodía"
+        },
+        {
+          "type": "chord",
+          "content": "F"
+        },
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "lyric",
+          "content": "combate salvaje"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "F"
+        },
+        {
+          "type": "lyric",
+          "content": "Mírala, mírala, mírala"
+        },
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "lyric",
+          "content": "cómo se agita, cómo pide más"
+        },
+        {
+          "type": "chord",
+          "content": "Dm"
+        },
+        {
+          "type": "lyric",
+          "content": "muere y renace de entre las cenizas"
+        },
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "lyric",
+          "content": "volviéndolo a encelar"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "A#"
+        },
+        {
+          "type": "lyric",
+          "content": "Entró casi de puntillas"
+        },
+        {
+          "type": "chord",
+          "content": "F"
+        },
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "lyric",
+          "content": "y en plena penumbra"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Dm"
+        },
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "lyric",
+          "content": "la hoguera encendida"
+        },
+        {
+          "type": "chord",
+          "content": "A#"
+        },
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "lyric",
+          "content": "de mis pesadillas"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CORO",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F"
+            },
+            {
+              "type": "lyric",
+              "content": "Eres bello, bello, bello"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "más que el firmamento"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "con un millón de estrellas"
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "–", "A#"]
+        },
+        {
+          "type": "lyric",
+          "content": "es fácil perdonar"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "cuando se quiere de veras"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "–", "A#"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CORO (Continuación)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F"
+            },
+            {
+              "type": "lyric",
+              "content": "Eres bello, bello, bello"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "peligroso y bello"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "mucho más de la cuenta"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "tendría que gritar"
+        },
+        {
+          "type": "type": "lyric",
+          "content": "pero me muerdo la lengua"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTRO (x2)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F", "–", "C", "–", "Dm", "–", "A#", "–", "C"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "F"
+        },
+        {
+          "type": "lyric",
+          "content": "Mírala, mírala, mírala"
+        },
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "lyric",
+          "content": "se desenreda, se vuelve a enredar"
+        },
+        {
+          "type": "chord",
+          "content": "Dm"
+        },
+        {
+          "type": "lyric",
+          "content": "una medusa bajo la marea"
+        },
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "chord",
+          "content": "A#"
+        },
+        {
+          "type": "lyric",
+          "content": "a punto de naufragar"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "F"
+        },
+        {
+          "type": "lyric",
+          "content": "Míralo, míralo, míralo"
+        },
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "lyric",
+          "content": "tan orgulloso, tan sentimental"
+        },
+        {
+          "type": "chord",
+          "content": "Dm"
+        },
+        {
+          "type": "lyric",
+          "content": "pidiendo música rosa, lo mismo"
+        },
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "lyric",
+          "content": "que a mí me hace cantar"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "A#"
+        },
+        {
+          "type": "lyric",
+          "content": "En la puerta hipnotizada"
+        },
+        {
+          "type": "chord",
+          "content": "F"
+        },
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "lyric",
+          "content": "de mi propia casa"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Dm"
+        },
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "lyric",
+          "content": "no puedo creerlo"
+        },
+        {
+          "type": "chord",
+          "content": "A#"
+        },
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "lyric",
+          "content": "por más que lo veo"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CORO FINAL (x2)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F"
+            },
+            {
+              "type": "lyric",
+              "content": "Bello, bello, bello"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "más que una puesta de sol"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["A#"]
+        },
+        {
+          "type": "lyric",
+          "content": "ángel desnudo"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "bañado en sudor"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CORO FINAL (Continuación)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F"
+            },
+            {
+              "type": "lyric",
+              "content": "Bello, bello, bello"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "peligroso y bello"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["A#"]
+        },
+        {
+          "type": "lyric",
+          "content": "oh, no, porque me haces esto, dímelo"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTRO FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F", "–", "C", "–", "Dm", "–", "A#", "–", "C"]
+        }
+      ]
+    }
+  ]
+}

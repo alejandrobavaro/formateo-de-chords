@@ -56,6 +56,7 @@
         display: flex;
         gap: 12px;
         flex-wrap: wrap;
+        align-items: center;
         
         .stat-item {
           display: flex;
@@ -74,6 +75,26 @@
             color: #b3b3b3;
           }
         }
+        
+        .filter-toggle-btn {
+          background-color: transparent;
+          color: #b3b3b3;
+          border: 1px solid #404040;
+          padding: 6px 10px;
+          border-radius: 4px;
+          display: flex;
+          align-items: center;
+          gap: 4px;
+          cursor: pointer;
+          transition: all 0.2s ease;
+          font-size: 12px;
+          
+          &:hover, &.active {
+            background-color: #2a2a2a;
+            color: #ffffff;
+            border-color: #1db954;
+          }
+        }
       }
     }
     
@@ -82,6 +103,152 @@
       flex-direction: column;
       gap: 8px;
       width: 100%;
+    }
+  }
+  
+  // 🎛️ PANEL DE FILTROS
+  .filters-panel {
+    background-color: #1e1e1e;
+    border-radius: 4px;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #404040;
+    
+    .filter-controls-container {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    
+    .filter-section {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      
+      .filter-section-header {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        font-size: 14px;
+        font-weight: 600;
+        color: #b3b3b3;
+      }
+      
+      // 🔤 FILTRO ALFABÉTICO
+      .alphabet-filter {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px;
+        
+        .letter-filter-btn {
+          background-color: #2d2d2d;
+          color: #b3b3b3;
+          border: 1px solid #404040;
+          padding: 4px 6px;
+          border-radius: 3px;
+          font-size: 12px;
+          font-weight: 600;
+          cursor: pointer;
+          transition: all 0.2s ease;
+          min-width: 28px;
+          text-align: center;
+          
+          &:hover, &.active {
+            background-color: #1db954;
+            color: #ffffff;
+            border-color: #1db954;
+          }
+        }
+      }
+      
+      // 📚 FILTRO POR LISTA
+      .list-filter {
+        .list-filter-select {
+          width: 100%;
+          background-color: #2d2d2d;
+          color: #ffffff;
+          border: 1px solid #404040;
+          padding: 6px 8px;
+          border-radius: 3px;
+          font-size: 14px;
+          
+          &:focus {
+            outline: none;
+            border-color: #1db954;
+          }
+        }
+      }
+      
+      // 🔄 CONTROLES DE ORDENAMIENTO
+      .sort-controls {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px;
+        
+        .sort-btn {
+          background-color: #2d2d2d;
+          color: #b3b3b3;
+          border: 1px solid #404040;
+          padding: 6px 8px;
+          border-radius: 3px;
+          font-size: 12px;
+          display: flex;
+          align-items: center;
+          gap: 4px;
+          cursor: pointer;
+          transition: all 0.2s ease;
+          
+          &:hover, &.active {
+            background-color: #1db954;
+            color: #ffffff;
+            border-color: #1db954;
+          }
+          
+          .sort-direction {
+            margin-left: 2px;
+          }
+        }
+      }
+      
+      // 🔄 BOTÓN DE DIRECCIÓN
+      .direction-toggle-btn {
+        background-color: #2d2d2d;
+        color: #b3b3b3;
+        border: 1px solid #404040;
+        padding: 6px 10px;
+        border-radius: 3px;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        
+        &:hover {
+          background-color: #1db954;
+          color: #ffffff;
+          border-color: #1db954;
+        }
+      }
+      
+      // 🗑️ BOTÓN LIMPIAR FILTROS
+      .clear-filters-btn {
+        background-color: #e63946;
+        color: #ffffff;
+        border: none;
+        padding: 6px 10px;
+        border-radius: 3px;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+        
+        &:hover {
+          background-color: #d62839;
+        }
+      }
     }
   }
   
@@ -348,6 +515,14 @@
     
     .footer-info {
       color: #b3b3b3;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      
+      .active-filters-info {
+        font-size: 12px;
+        color: #1db954;
+      }
     }
     
     .footer-actions {
@@ -612,6 +787,20 @@
       }
     }
     
+    // 🎛️ PANEL DE FILTROS TABLET
+    .filters-panel {
+      .filter-controls-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 16px;
+      }
+      
+      .filter-section {
+        min-width: 200px;
+        flex: 1;
+      }
+    }
+    
     .excel-table-container {
       .table-wrapper {
         .excel-table {
@@ -667,6 +856,27 @@
               font-size: 20px;
             }
           }
+        }
+      }
+    }
+    
+    // 🎛️ PANEL DE FILTROS ESCRITORIO
+    .filters-panel {
+      .filter-controls-container {
+        gap: 20px;
+      }
+      
+      .filter-section {
+        min-width: 220px;
+      }
+      
+      .alphabet-filter {
+        gap: 6px;
+        
+        .letter-filter-btn {
+          min-width: 32px;
+          padding: 6px 8px;
+          font-size: 13px;
         }
       }
     }

@@ -1,0 +1,398 @@
+{
+  "id": "bon-jovi-lie-to-me",
+  "title": "Lie to Me",
+  "artist": "Bon Jovi",
+  "originalKey": "D",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A4", "A", "A4", "A"]
+        },
+        {
+          "type": "chords",
+          "content": ["D9*", "D9", "D9*", "D9"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["A4", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "Rumour has it that your daddy's coming down"
+            },
+            {
+              "type": "chords",
+              "content": ["A4", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "He's gonna pay the rent"
+            },
+            {
+              "type": "chords",
+              "content": ["D9*", "D9"]
+            },
+            {
+              "type": "lyric",
+              "content": "Tell me baby, is this as good as life is gonna get"
+            },
+            {
+              "type": "chords",
+              "content": ["D9*", "D9"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["Bm", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "It feels like there is a stranger standing in these shoes"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "But, I know I can't lose me, 'cause then I'd be losing you"
+            },
+            {
+              "type": "chords",
+              "content": ["A4", "A", "A4", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "yeahhh yeahhh yeahhh... yeahhh yeahhh yeahhh"
+            },
+            {
+              "type": "chords",
+              "content": ["D9*", "D9", "D9*", "D9"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["A4", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "I know I promised baby I would be the one to make our dreams come true"
+            },
+            {
+              "type": "chords",
+              "content": ["A4", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["D9*", "D9"]
+            },
+            {
+              "type": "lyric",
+              "content": "I ain't too proud of all the struggles and the hard times we've been through"
+            },
+            {
+              "type": "chords",
+              "content": ["D9*", "D9"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["Bm", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "When this cold world comes between us please tell me you'll be brave"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "'Cause I can realize the danger when forgiveness fades away"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["A", "A4"]
+            },
+            {
+              "type": "lyric",
+              "content": "If you don't love me - lie to me"
+            },
+            {
+              "type": "chords",
+              "content": ["F#m"]
+            },
+            {
+              "type": "lyric",
+              "content": "'Cause baby you're the one thing I believe"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Let it all fall down around us, if that's what's meant to be"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Right now if you don't love me baby - lie to me"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTRO (REPEAT)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A4", "A", "A4", "A"]
+        },
+        {
+          "type": "chords",
+          "content": ["D9*", "D9", "D9*", "D9"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 3",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["A4", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "Pour another cup of coffee, babe I got something to say to you"
+            },
+            {
+              "type": "chords",
+              "content": ["A4", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["D9*", "D9"]
+            },
+            {
+              "type": "lyric",
+              "content": "I ain't got the winning ticket not the one that's gonna pull us through"
+            },
+            {
+              "type": "chords",
+              "content": ["D9*", "D9"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["Bm", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "No one said it'd be easy, let your old man take you home"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "But know if you walk out on me that darling, I'd be gone"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BRIDGE",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["F#m"]
+            },
+            {
+              "type": "lyric",
+              "content": "It's a bitch, but life's a roller coaster ride"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "The ups and downs will make you scream sometimes"
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "It's hard believing that the thrill is gone"
+            },
+            {
+              "type": "chords",
+              "content": ["C#m", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "But we got to go around again, so let's hold on"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "C", "G", "C", "G", "Em", "Am", "C", "Am", "C"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A4", "A", "A4", "A"]
+        },
+        {
+          "type": "chords",
+          "content": ["D9*", "D9", "D9*", "D9"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "Lie To Me... Lie To Me..."
+            },
+            {
+              "type": "lyric",
+              "content": "Baby, I can take..."
+            },
+            {
+              "type": "lyric",
+              "content": "yeahhh yeahhh yeahhh..."
+            },
+            {
+              "type": "lyric",
+              "content": "Lie to me..."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

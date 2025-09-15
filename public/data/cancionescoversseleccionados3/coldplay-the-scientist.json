@@ -1,0 +1,534 @@
+{
+  "id": "coldplay-the-scientist",
+  "title": "The Scientist",
+  "artist": "Coldplay",
+  "originalKey": "C#m",
+  "tempo": "Slow",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C#m", "A", "E", "E9"]
+        },
+        {
+          "type": "chords",
+          "content": ["C#m", "A", "E", "E9"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["C#m"]
+            },
+            {
+              "type": "lyric",
+              "content": "Come up to meet you"
+            },
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Tell you I'm sorry"
+            },
+            {
+              "type": "chords",
+              "content": ["E9"]
+            },
+            {
+              "type": "lyric",
+              "content": "You don't know how lovely you are"
+            },
+            {
+              "type": "chords",
+              "content": ["C#m"]
+            },
+            {
+              "type": "lyric",
+              "content": "I had to find you"
+            },
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Tell you I need you"
+            },
+            {
+              "type": "chords",
+              "content": ["E9"]
+            },
+            {
+              "type": "lyric",
+              "content": "Tell you I'll set you apart"
+            },
+            {
+              "type": "chords",
+              "content": ["C#m"]
+            },
+            {
+              "type": "lyric",
+              "content": "Tell me your secrets"
+            },
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "And ask me your questions"
+            },
+            {
+              "type": "chords",
+              "content": ["E9"]
+            },
+            {
+              "type": "lyric",
+              "content": "Oh, let's go back to the start"
+            },
+            {
+              "type": "chords",
+              "content": ["C#m"]
+            },
+            {
+              "type": "lyric",
+              "content": "Running in circles"
+            },
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Coming up tails"
+            },
+            {
+              "type": "chords",
+              "content": ["E9"]
+            },
+            {
+              "type": "lyric",
+              "content": "Heads on a science apart"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "Nobody said it was easy"
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["E9"]
+            },
+            {
+              "type": "lyric",
+              "content": "It's such a shame for us to part"
+            },
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "Nobody said it was easy"
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["B7"]
+            },
+            {
+              "type": "lyric",
+              "content": "No one ever said it would be this hard"
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Oh take me back to the start"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INSTRUMENTAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "A", "E9"]
+        },
+        {
+          "type": "chords",
+          "content": ["C#m", "A", "E", "E9"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["C#m"]
+            },
+            {
+              "type": "lyric",
+              "content": "I was just guessing"
+            },
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "At numbers and figures"
+            },
+            {
+              "type": "chords",
+              "content": ["E9"]
+            },
+            {
+              "type": "lyric",
+              "content": "Pulling your puzzles apart"
+            },
+            {
+              "type": "chords",
+              "content": ["C#m"]
+            },
+            {
+              "type": "lyric",
+              "content": "Questions of science"
+            },
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Science and progress"
+            },
+            {
+              "type": "chords",
+              "content": ["E9"]
+            },
+            {
+              "type": "lyric",
+              "content": "Don't speak as loud as my heart"
+            },
+            {
+              "type": "chords",
+              "content": ["C#m"]
+            },
+            {
+              "type": "lyric",
+              "content": "Tell me you love me"
+            },
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Come back and haunt me"
+            },
+            {
+              "type": "chords",
+              "content": ["E9"]
+            },
+            {
+              "type": "lyric",
+              "content": "Oh and I rush to the start"
+            },
+            {
+              "type": "chords",
+              "content": ["C#m"]
+            },
+            {
+              "type": "lyric",
+              "content": "Running in circles"
+            },
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Chasing tails"
+            },
+            {
+              "type": "chords",
+              "content": ["E9"]
+            },
+            {
+              "type": "lyric",
+              "content": "Coming back as we are"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS (REPEAT)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "Nobody said it was easy"
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["E9"]
+            },
+            {
+              "type": "lyric",
+              "content": "It's such a shame for us to part"
+            },
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "Nobody said it was easy"
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["B7"]
+            },
+            {
+              "type": "lyric",
+              "content": "No one ever said it would be this hard"
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Oh take me back to the start"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO",
+      "lines": [
+        {
+          "type": "text",
+          "content": "(Solo instrumental)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "OUTRO",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["C#m", "A", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Oh - ooo-oo-oo-oo-ooo"
+            },
+            {
+              "type": "chords",
+              "content": ["C#m", "A", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Oh - ooo-oo-oo-oo-ooo"
+            },
+            {
+              "type": "chords",
+              "content": ["C#m", "A", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Oh - ooo-oo-oo-oo-ooo"
+            },
+            {
+              "type": "chords",
+              "content": ["C#m", "A", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Oh - ooo-oo-oo-oo-ooo"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
