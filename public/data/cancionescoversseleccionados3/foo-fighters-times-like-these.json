@@ -1,0 +1,702 @@
+{
+  "id": "foo-fighters-times-like-these",
+  "title": "Times Like These",
+  "artist": "Foo Fighters",
+  "originalKey": "G",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D7(13)"]
+        },
+        {
+          "type": "chords",
+          "content": ["D5", "C5", "G/B"]
+        },
+        {
+          "type": "chords",
+          "content": ["D5", "C5", "G/B"]
+        },
+        {
+          "type": "chords",
+          "content": ["D5", "C5", "G/B"]
+        },
+        {
+          "type": "chords",
+          "content": ["D7(13)"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "I, I'm a one way motorway"
+            },
+            {
+              "type": "chords",
+              "content": ["Am"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "I'm a road that drives away"
+            },
+            {
+              "type": "chords",
+              "content": ["Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "Then follows you back home"
+            },
+            {
+              "type": "chords",
+              "content": ["D7(13)"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "I, I'm a street light shining"
+            },
+            {
+              "type": "chords",
+              "content": ["Am"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "I'm a white light blinding bright"
+            },
+            {
+              "type": "chords",
+              "content": ["Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "Burning off and on"
+            },
+            {
+              "type": "chords",
+              "content": ["D7(13)"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "It's times like these"
+            },
+            {
+              "type": "chords",
+              "content": ["Em7"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["D11"]
+            },
+            {
+              "type": "lyric",
+              "content": "You learn to live again"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "It's times like these"
+            },
+            {
+              "type": "chords",
+              "content": ["Em7"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["D11"]
+            },
+            {
+              "type": "lyric",
+              "content": "You give and give again"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "It's times like these"
+            },
+            {
+              "type": "chords",
+              "content": ["Em7"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["D11"]
+            },
+            {
+              "type": "lyric",
+              "content": "You learn to love again"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "It's times like these"
+            },
+            {
+              "type": "chords",
+              "content": ["Em7"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["D7(13)"]
+            },
+            {
+              "type": "lyric",
+              "content": "Time and time again"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "I, I'm a new day rising"
+            },
+            {
+              "type": "chords",
+              "content": ["Am"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "I'm a brand new sky that"
+            },
+            {
+              "type": "chords",
+              "content": ["Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "Hang the stars upon tonight"
+            },
+            {
+              "type": "chords",
+              "content": ["D7(13)"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "I, I'm a little divided"
+            },
+            {
+              "type": "chords",
+              "content": ["Am"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "Do I stay or run away"
+            },
+            {
+              "type": "chords",
+              "content": ["Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "And leave it all behind?"
+            },
+            {
+              "type": "chords",
+              "content": ["D7(13)"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "It's times like these"
+            },
+            {
+              "type": "chords",
+              "content": ["Em7"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["D11"]
+            },
+            {
+              "type": "lyric",
+              "content": "You learn to live again"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "It's times like these"
+            },
+            {
+              "type": "chords",
+              "content": ["Em7"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["D11"]
+            },
+            {
+              "type": "lyric",
+              "content": "You give and give again"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "It's times like these"
+            },
+            {
+              "type": "chords",
+              "content": ["Em7"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["D11"]
+            },
+            {
+              "type": "lyric",
+              "content": "You learn to love again"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "It's times like these"
+            },
+            {
+              "type": "chords",
+              "content": ["Em7"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["D11"]
+            },
+            {
+              "type": "lyric",
+              "content": "Time and time again"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTERLUDE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D5", "C5", "G/B"]
+        },
+        {
+          "type": "chords",
+          "content": ["D5", "C5", "G/B"]
+        },
+        {
+          "type": "chords",
+          "content": ["D5", "C5", "G/B"]
+        },
+        {
+          "type": "chords",
+          "content": ["D5", "C5", "G/B"]
+        },
+        {
+          "type": "chords",
+          "content": ["D7(13)"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL CHORUS",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "It's times like these"
+            },
+            {
+              "type": "chords",
+              "content": ["Em7"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["D11"]
+            },
+            {
+              "type": "lyric",
+              "content": "You learn to live again"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "It's times like these"
+            },
+            {
+              "type": "chords",
+              "content": ["Em7"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["D11"]
+            },
+            {
+              "type": "lyric",
+              "content": "You give and give again"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "It's times like these"
+            },
+            {
+              "type": "chords",
+              "content": ["Em7"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["D11"]
+            },
+            {
+              "type": "lyric",
+              "content": "You learn to love again"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "It's times like these"
+            },
+            {
+              "type": "chords",
+              "content": ["Em7"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["D11"]
+            },
+            {
+              "type": "lyric",
+              "content": "Time and time again"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "It's times like these"
+            },
+            {
+              "type": "chords",
+              "content": ["Em7"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["D11"]
+            },
+            {
+              "type": "lyric",
+              "content": "You learn to live again"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "It's times like these"
+            },
+            {
+              "type": "chords",
+              "content": ["Em7"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["D11"]
+            },
+            {
+              "type": "lyric",
+              "content": "You give and give again"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "It's times like these"
+            },
+            {
+              "type": "chords",
+              "content": ["Em7"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["D11"]
+            },
+            {
+              "type": "lyric",
+              "content": "You learn to love again"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "It's times like these"
+            },
+            {
+              "type": "chords",
+              "content": ["Em7"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["D11"]
+            },
+            {
+              "type": "lyric",
+              "content": "Time and time again"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "OUTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C"]
+        }
+      ]
+    }
+  ]
+}
