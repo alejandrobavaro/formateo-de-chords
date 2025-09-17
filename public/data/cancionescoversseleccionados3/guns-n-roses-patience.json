@@ -1,0 +1,617 @@
+{
+  "id": "guns-n-roses-patience",
+  "title": "Patience",
+  "artist": "Guns N' Roses",
+  "originalKey": "A",
+  "tempo": "Slow",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A", "E", "F#7", "B"]
+        },
+        {
+          "type": "chords",
+          "content": ["A", "E", "F#7", "B"]
+        },
+        {
+          "type": "chords",
+          "content": ["A", "E", "A", "C#m"]
+        },
+        {
+          "type": "chords",
+          "content": ["A", "E", "B"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "Shed a tear 'cause I'm missing you"
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "I'm still alright to smile"
+            },
+            {
+              "type": "chords",
+              "content": ["F#7"]
+            },
+            {
+              "type": "lyric",
+              "content": "Girl, I think about you every day now"
+            },
+            {
+              "type": "chords",
+              "content": ["B"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "Was a time when I wasn't sure"
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "But you set my mind at easy"
+            },
+            {
+              "type": "chords",
+              "content": ["F#7"]
+            },
+            {
+              "type": "lyric",
+              "content": "There is no doubt you're in my heart now"
+            },
+            {
+              "type": "chords",
+              "content": ["B"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "Said, woman, take it slow"
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "And it'll work itself out fine"
+            },
+            {
+              "type": "chords",
+              "content": ["C#m"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "All we need is just a little patience"
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["B"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "Said, sugar, make it slow"
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "And we'll come together fine"
+            },
+            {
+              "type": "chords",
+              "content": ["C#m"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "All we need is just a little patience"
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["B"]
+            },
+            {
+              "type": "lyric",
+              "content": "Patience"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "I sit here on the stairs"
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "'Cause I'd rather be alone"
+            },
+            {
+              "type": "chords",
+              "content": ["F#7"]
+            },
+            {
+              "type": "lyric",
+              "content": "If I can't have you right now I'll wait, dear"
+            },
+            {
+              "type": "chords",
+              "content": ["B"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "Sometimes I get so tense"
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "But I can't speed up the time"
+            },
+            {
+              "type": "chords",
+              "content": ["F#7"]
+            },
+            {
+              "type": "lyric",
+              "content": "But you know, love"
+            },
+            {
+              "type": "chords",
+              "content": ["B"]
+            },
+            {
+              "type": "lyric",
+              "content": "There's one more thing to consider"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS (REPEAT)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "Said, woman, take it slow"
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "And things will be just fine"
+            },
+            {
+              "type": "chords",
+              "content": ["C#m"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "You and I'll just use a little patience"
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["B"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "Said, sugar, take the time"
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "'Cause the lights are shining bright"
+            },
+            {
+              "type": "chords",
+              "content": ["C#m"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "You and I've got what it takes to make it"
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["B"]
+            },
+            {
+              "type": "lyric",
+              "content": "We won't fake it"
+            },
+            {
+              "type": "chords",
+              "content": []
+            },
+            {
+              "type": "lyric",
+              "content": "Oh, I'll never break it"
+            },
+            {
+              "type": "chords",
+              "content": []
+            },
+            {
+              "type": "lyric",
+              "content": "'Cause I can't take it"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A", "E", "A", "C#m"]
+        },
+        {
+          "type": "chords",
+          "content": ["A", "E", "B"]
+        },
+        {
+          "type": "chords",
+          "content": ["A", "E", "A", "C#m"]
+        },
+        {
+          "type": "chords",
+          "content": ["A", "E", "B"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "THIRD VERSE",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["B", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Little patience"
+            },
+            {
+              "type": "chords",
+              "content": ["B", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Need a little patience"
+            },
+            {
+              "type": "chords",
+              "content": ["B", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Just a little patience"
+            },
+            {
+              "type": "chords",
+              "content": ["B"]
+            },
+            {
+              "type": "lyric",
+              "content": "I've been walking the streets tonight"
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Just trying to get it right"
+            },
+            {
+              "type": "chords",
+              "content": ["B"]
+            },
+            {
+              "type": "lyric",
+              "content": "It's hard to see with so many around"
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "You know, I don't like being stuck in the crowd"
+            },
+            {
+              "type": "chords",
+              "content": ["B"]
+            },
+            {
+              "type": "lyric",
+              "content": "And the streets don't change but baby the names"
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "I ain't got time for the game"
+            },
+            {
+              "type": "chords",
+              "content": ["B"]
+            },
+            {
+              "type": "lyric",
+              "content": "'Cause I need you"
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Yeah, but I need you"
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Oh, I need you"
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Oh, I need you"
+            },
+            {
+              "type": "chords",
+              "content": ["B", "E", "B"]
+            },
+            {
+              "type": "lyric",
+              "content": "Oh, this time"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,423 @@
+{
+  "id": "hoobastank-the-reason",
+  "title": "The Reason",
+  "artist": "Hoobastank",
+  "originalKey": "C",
+  "tempo": "Slow",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "I'm not a perfect person"
+            },
+            {
+              "type": "chords",
+              "content": ["Am"]
+            },
+            {
+              "type": "lyric",
+              "content": "There's many things I wish I didn't do"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "But I continue learning"
+            },
+            {
+              "type": "chords",
+              "content": ["Am"]
+            },
+            {
+              "type": "lyric",
+              "content": "I never meant to do those things to you"
+            },
+            {
+              "type": "chords",
+              "content": ["F"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "And so I have to say before I go"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "That I just want you to know"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Am"]
+            },
+            {
+              "type": "lyric",
+              "content": "I've found a reason for me"
+            },
+            {
+              "type": "chords",
+              "content": ["F"]
+            },
+            {
+              "type": "lyric",
+              "content": "To change who I used to be"
+            },
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "A reason to start over new"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "And the reason is you"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "I'm sorry that I hurt you"
+            },
+            {
+              "type": "chords",
+              "content": ["Am"]
+            },
+            {
+              "type": "lyric",
+              "content": "It's something I must live with every day"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "And all the pain I put you through"
+            },
+            {
+              "type": "chords",
+              "content": ["Am"]
+            },
+            {
+              "type": "lyric",
+              "content": "I wish that I could take it all away"
+            },
+            {
+              "type": "chords",
+              "content": ["F"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "And be the one who catches all your tears"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "That's why I need you to hear"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS (REPEAT)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Am"]
+            },
+            {
+              "type": "lyric",
+              "content": "I've found a reason for me"
+            },
+            {
+              "type": "chords",
+              "content": ["F"]
+            },
+            {
+              "type": "lyric",
+              "content": "To change who I used to be"
+            },
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "A reason to start over new"
+            },
+            {
+              "type": "chords",
+              "content": ["F"]
+            },
+            {
+              "type": "lyric",
+              "content": "And the reason is you"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "And the reason is you"
+            },
+            {
+              "type": "chords",
+              "content": ["F"]
+            },
+            {
+              "type": "lyric",
+              "content": "And the reason is you"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "And the reason is you"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BRIDGE",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "I'm not a perfect person"
+            },
+            {
+              "type": "chords",
+              "content": ["Am"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["F"]
+            },
+            {
+              "type": "lyric",
+              "content": "I never meant to do those things to you"
+            },
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "And so I have to say before I go"
+            },
+            {
+              "type": "chords",
+              "content": ["Am"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "That I just want you to know"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL CHORUS",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Am"]
+            },
+            {
+              "type": "lyric",
+              "content": "I've found a reason for me"
+            },
+            {
+              "type": "chords",
+              "content": ["F"]
+            },
+            {
+              "type": "lyric",
+              "content": "To change who I used to be"
+            },
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "A reason to start over new"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "And the reason is you"
+            },
+            {
+              "type": "chords",
+              "content": ["Am"]
+            },
+            {
+              "type": "lyric",
+              "content": "I've found a reason to show"
+            },
+            {
+              "type": "chords",
+              "content": ["F"]
+            },
+            {
+              "type": "lyric",
+              "content": "A side of me you didn't know"
+            },
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "A reason for all that I do"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "And the reason is you"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

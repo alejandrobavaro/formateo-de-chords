@@ -1,0 +1,680 @@
+{
+  "id": "keane-somewhere-only-we-know",
+  "title": "Somewhere Only We Know",
+  "artist": "Keane",
+  "originalKey": "G",
+  "tempo": "Slow",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "D/F#", "Am", "D4", "D"]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D/F#", "Am", "D4", "D"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "I walked across an empty land"
+            },
+            {
+              "type": "chords",
+              "content": ["D/F#"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["Am"]
+            },
+            {
+              "type": "lyric",
+              "content": "I knew the pathway like the back of my hand"
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "I felt the earth beneath my feet"
+            },
+            {
+              "type": "chords",
+              "content": ["D/F#"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["Am"]
+            },
+            {
+              "type": "lyric",
+              "content": "Sat by the river and it made me complete"
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-CHORUS",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "Oh simple thing"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "Where have you gone"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "I'm getting old and I need something to rely on"
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "So tell me when"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "You're gonna let me in"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "I'm getting tired and I need somewhere to begin"
+            },
+            {
+              "type": "chords",
+              "content": ["D4", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "I came across a fallen tree"
+            },
+            {
+              "type": "chords",
+              "content": ["D/F#"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["Am"]
+            },
+            {
+              "type": "lyric",
+              "content": "I felt the branches of it looking at me"
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "Is this the place we used to love?"
+            },
+            {
+              "type": "chords",
+              "content": ["D/F#"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["Am"]
+            },
+            {
+              "type": "lyric",
+              "content": "Is this the place that I've been dreaming of?"
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-CHORUS (REPEAT)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "Oh simple thing"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "Where have you gone"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "I'm getting old and I need something to rely on"
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "So tell me when"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "You're gonna let me in"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "I'm getting tired and I need somewhere to begin"
+            },
+            {
+              "type": "chords",
+              "content": ["D4", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Am7"]
+            },
+            {
+              "type": "lyric",
+              "content": "And if you have a minute"
+            },
+            {
+              "type": "chords",
+              "content": ["G/B"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Why don't we go"
+            },
+            {
+              "type": "chords",
+              "content": ["Am7"]
+            },
+            {
+              "type": "lyric",
+              "content": "Talk about it somewhere"
+            },
+            {
+              "type": "chords",
+              "content": ["G/B"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Only we know"
+            },
+            {
+              "type": "chords",
+              "content": ["Am7"]
+            },
+            {
+              "type": "lyric",
+              "content": "This could be the end of everything"
+            },
+            {
+              "type": "chords",
+              "content": ["G/B"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["C6"]
+            },
+            {
+              "type": "lyric",
+              "content": "So why don't we go"
+            },
+            {
+              "type": "chords",
+              "content": ["D6"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["G9", "G"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["C6"]
+            },
+            {
+              "type": "lyric",
+              "content": "Somewhere only we know?"
+            },
+            {
+              "type": "chords",
+              "content": ["D6"]
+            },
+            {
+              "type": "lyric",
+              "content": "Somewhere only we know"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL CHORUS",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Am7"]
+            },
+            {
+              "type": "lyric",
+              "content": "And if you have a minute"
+            },
+            {
+              "type": "chords",
+              "content": ["G/B"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Why don't we go"
+            },
+            {
+              "type": "chords",
+              "content": ["Am7"]
+            },
+            {
+              "type": "lyric",
+              "content": "Talk about it somewhere"
+            },
+            {
+              "type": "chords",
+              "content": ["G/B"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Only we know"
+            },
+            {
+              "type": "chords",
+              "content": ["Am7"]
+            },
+            {
+              "type": "lyric",
+              "content": "This could be the end of everything"
+            },
+            {
+              "type": "chords",
+              "content": ["G/B"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "So why don't we go"
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "So why don't we go"
+            },
+            {
+              "type": "chords",
+              "content": ["Am7", "G/B", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["Am7", "G/B", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["Am7"]
+            },
+            {
+              "type": "lyric",
+              "content": "This could be the end of everything"
+            },
+            {
+              "type": "chords",
+              "content": ["G/B"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["C6"]
+            },
+            {
+              "type": "lyric",
+              "content": "So why don't we go"
+            },
+            {
+              "type": "chords",
+              "content": ["D6"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "Somewhere only we know?"
+            },
+            {
+              "type": "chords",
+              "content": ["D6"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A#m", "C"]
+            },
+            {
+              "type": "lyric",
+              "content": "Somewhere only we know"
+            },
+            {
+              "type": "chords",
+              "content": ["D6"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["C", "G"]
+            },
+            {
+              "type": "lyric",
+              "content": "Somewhere only we know"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
