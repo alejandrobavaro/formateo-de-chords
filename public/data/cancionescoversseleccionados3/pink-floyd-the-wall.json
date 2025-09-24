@@ -1,0 +1,345 @@
+{
+  "id": "pink-floyd-the-wall",
+  "title": "The Wall (Another Brick in the Wall, Part 2)",
+  "artist": "Pink Floyd",
+  "originalKey": "Dm",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "text",
+          "content": "(Riff de guitarra)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Dm"]
+            },
+            {
+              "type": "lyric",
+              "content": "Daddy's flown across the ocean"
+            },
+            {
+              "type": "chords",
+              "content": ["Dm"]
+            },
+            {
+              "type": "lyric",
+              "content": "Leaving just a memory"
+            },
+            {
+              "type": "chords",
+              "content": ["Dm"]
+            },
+            {
+              "type": "lyric",
+              "content": "A snapshot in the family album"
+            },
+            {
+              "type": "chords",
+              "content": ["Dm", "G"]
+            },
+            {
+              "type": "lyric",
+              "content": "Daddy what else did you leave for me"
+            },
+            {
+              "type": "chords",
+              "content": ["Gm", "Dm"]
+            },
+            {
+              "type": "lyric",
+              "content": "Daddy what did you leave behind for me"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["F"]
+            },
+            {
+              "type": "lyric",
+              "content": "All in all it was just a brick in the wall"
+            },
+            {
+              "type": "chords",
+              "content": ["C", "Dm"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["F"]
+            },
+            {
+              "type": "lyric",
+              "content": "All in all it was all just bricks in the wall"
+            },
+            {
+              "type": "chords",
+              "content": ["C", "Dm"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Dm"]
+            },
+            {
+              "type": "lyric",
+              "content": "We don't need no education"
+            },
+            {
+              "type": "chords",
+              "content": ["Dm"]
+            },
+            {
+              "type": "lyric",
+              "content": "We don't need no thought control"
+            },
+            {
+              "type": "chords",
+              "content": ["Dm"]
+            },
+            {
+              "type": "lyric",
+              "content": "No dark sarcasm in the classroom"
+            },
+            {
+              "type": "chords",
+              "content": ["Dm", "G"]
+            },
+            {
+              "type": "lyric",
+              "content": "Teachers leave these kids alone"
+            },
+            {
+              "type": "chords",
+              "content": ["G", "Dm"]
+            },
+            {
+              "type": "lyric",
+              "content": "Hey teacher leave these kids alone"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["F"]
+            },
+            {
+              "type": "lyric",
+              "content": "All in all it was just a brick in the wall"
+            },
+            {
+              "type": "chords",
+              "content": ["C", "Dm"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["F"]
+            },
+            {
+              "type": "lyric",
+              "content": "All in all it was all just bricks in the wall"
+            },
+            {
+              "type": "chords",
+              "content": ["C", "Dm"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 3",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Dm"]
+            },
+            {
+              "type": "lyric",
+              "content": "I don't need no arms around me"
+            },
+            {
+              "type": "chords",
+              "content": ["Dm"]
+            },
+            {
+              "type": "lyric",
+              "content": "I don't need no drugs to calm me"
+            },
+            {
+              "type": "chords",
+              "content": ["Dm"]
+            },
+            {
+              "type": "lyric",
+              "content": "I have seen the writing on the wall"
+            },
+            {
+              "type": "chords",
+              "content": ["Dm", "G"]
+            },
+            {
+              "type": "lyric",
+              "content": "Don't think I need anything at all"
+            },
+            {
+              "type": "chords",
+              "content": ["Dm"]
+            },
+            {
+              "type": "lyric",
+              "content": "No don't think I need anything at all"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS 3",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["F"]
+            },
+            {
+              "type": "lyric",
+              "content": "All in all it was just a brick in the wall"
+            },
+            {
+              "type": "chords",
+              "content": ["C", "Dm"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["F"]
+            },
+            {
+              "type": "lyric",
+              "content": "All in all it was all just bricks in the wall"
+            },
+            {
+              "type": "chords",
+              "content": ["C", "Dm"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO",
+      "lines": [
+        {
+          "type": "text",
+          "content": "(Solo de guitarra)"
+        }
+      ]
+    }
+  ]
+}

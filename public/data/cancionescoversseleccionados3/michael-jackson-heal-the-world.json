@@ -1,0 +1,1145 @@
+{
+  "id": "michael-jackson-heal-the-world",
+  "title": "Heal the World",
+  "artist": "Michael Jackson",
+  "originalKey": "Em",
+  "tempo": "Slow",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "Am7", "Bm", "Am7"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "There's a place in your heart"
+            },
+            {
+              "type": "chords",
+              "content": ["Am7"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "And I know that it is love"
+            },
+            {
+              "type": "chords",
+              "content": ["Am7"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "And this place could be much"
+            },
+            {
+              "type": "chords",
+              "content": ["Am7"]
+            },
+            {
+              "type": "lyric",
+              "content": "Brighter than tomorrow"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm", "Am7"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "And if you really try"
+            },
+            {
+              "type": "chords",
+              "content": ["Am7"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "You'll find there's no need to cry"
+            },
+            {
+              "type": "chords",
+              "content": ["Am7"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "In this place you'll feel"
+            },
+            {
+              "type": "chords",
+              "content": ["Am7"]
+            },
+            {
+              "type": "lyric",
+              "content": "There's no hurt or sorrow"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm", "Am7"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-CHORUS",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "There are ways to get there"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "If you care enough for the living"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["Am7"]
+            },
+            {
+              "type": "lyric",
+              "content": "Make a little space"
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Make a better place"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "Heal the world"
+            },
+            {
+              "type": "chords",
+              "content": ["Am7"]
+            },
+            {
+              "type": "lyric",
+              "content": "Make it a better place"
+            },
+            {
+              "type": "chords",
+              "content": ["Am7/D"]
+            },
+            {
+              "type": "lyric",
+              "content": "For you and for me"
+            },
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "And the entire human race"
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "There are people dying"
+            },
+            {
+              "type": "chords",
+              "content": ["Em", "Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "If you care enough for the living"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["Am7"]
+            },
+            {
+              "type": "lyric",
+              "content": "Make a better place for you and for me"
+            },
+            {
+              "type": "chords",
+              "content": ["C", "G"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INSTRUMENTAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am7", "Bm", "Am7"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "If you want to know why"
+            },
+            {
+              "type": "chords",
+              "content": ["Am7"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "There's a love that cannot lie"
+            },
+            {
+              "type": "chords",
+              "content": ["Am7"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "Love is strong it only cares for joyful giving"
+            },
+            {
+              "type": "chords",
+              "content": ["Am7", "Bm", "Am7"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "If we try we shall see"
+            },
+            {
+              "type": "chords",
+              "content": ["Am7"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "In this bliss we cannot feel"
+            },
+            {
+              "type": "chords",
+              "content": ["Am7"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "Fear or dread we stop existing"
+            },
+            {
+              "type": "chords",
+              "content": ["Am7"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["Bm", "Am7"]
+            },
+            {
+              "type": "lyric",
+              "content": "And start living"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-CHORUS (REPEAT)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "Then it feels that always"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "Love's enough for us growing"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["Am7"]
+            },
+            {
+              "type": "lyric",
+              "content": "So make a better world"
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Make a better world"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS (REPEAT)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "Heal the world"
+            },
+            {
+              "type": "chords",
+              "content": ["Am7"]
+            },
+            {
+              "type": "lyric",
+              "content": "Make it a better place"
+            },
+            {
+              "type": "chords",
+              "content": ["Am7/D"]
+            },
+            {
+              "type": "lyric",
+              "content": "For you and for me"
+            },
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "And the entire human race"
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "There are people dying"
+            },
+            {
+              "type": "chords",
+              "content": ["Em", "Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "If you care enough for the living"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["Am7"]
+            },
+            {
+              "type": "lyric",
+              "content": "Make a better place for you and for me"
+            },
+            {
+              "type": "chords",
+              "content": ["C", "G"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BRIDGE",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["F"]
+            },
+            {
+              "type": "lyric",
+              "content": "And the dream we were conceived in"
+            },
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "Will reveal a joyful face"
+            },
+            {
+              "type": "chords",
+              "content": ["F"]
+            },
+            {
+              "type": "lyric",
+              "content": "And the world we once believed in"
+            },
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "Will shine again in grace"
+            },
+            {
+              "type": "chords",
+              "content": ["Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "Then why do we keep strangling life"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "Wound this earth crucify this soul"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["Am7"]
+            },
+            {
+              "type": "lyric",
+              "content": "Though it's plain to see"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "This world is heavenly"
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Be God's glow"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 3",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "We could fly so high"
+            },
+            {
+              "type": "chords",
+              "content": ["Am7"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "Let our spirits never die"
+            },
+            {
+              "type": "chords",
+              "content": ["Am7"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "In my heart I feel you are all my brothers"
+            },
+            {
+              "type": "chords",
+              "content": ["Am7", "Bm", "Am7"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "Create a world with no fear"
+            },
+            {
+              "type": "chords",
+              "content": ["Am7"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "Together we'll cry happy tears"
+            },
+            {
+              "type": "chords",
+              "content": ["Am7"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "See the nations turn their swords"
+            },
+            {
+              "type": "chords",
+              "content": ["Am7"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["Bm", "Am7"]
+            },
+            {
+              "type": "lyric",
+              "content": "Into plowshares"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-CHORUS (REPEAT 2)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "We could really get there"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "If you cared enough for the living"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["Am7"]
+            },
+            {
+              "type": "lyric",
+              "content": "Make a little space"
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "To make a better place"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL CHORUS",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "Heal the world"
+            },
+            {
+              "type": "chords",
+              "content": ["Am7"]
+            },
+            {
+              "type": "lyric",
+              "content": "Make it a better place"
+            },
+            {
+              "type": "chords",
+              "content": ["Am7/D"]
+            },
+            {
+              "type": "lyric",
+              "content": "For you and for me"
+            },
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "And the entire human race"
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "There are people dying"
+            },
+            {
+              "type": "chords",
+              "content": ["Em", "Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "If you care enough for the living"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["Am7"]
+            },
+            {
+              "type": "lyric",
+              "content": "Make a better place for you and for me"
+            },
+            {
+              "type": "chords",
+              "content": ["C", "G"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "OUTRO (KEY CHANGE)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "Heal the world"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm7"]
+            },
+            {
+              "type": "lyric",
+              "content": "Make it a better place"
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "For you and for me"
+            },
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "And the entire human race"
+            },
+            {
+              "type": "chords",
+              "content": ["F#m", "C#m"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "If you care enough for the living"
+            },
+            {
+              "type": "chords",
+              "content": ["C#m"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["Bm7"]
+            },
+            {
+              "type": "lyric",
+              "content": "Make a better place for you and for me"
+            },
+            {
+              "type": "chords",
+              "content": ["D", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["B"]
+            },
+            {
+              "type": "lyric",
+              "content": "Heal the world"
+            },
+            {
+              "type": "chords",
+              "content": ["C#m7"]
+            },
+            {
+              "type": "lyric",
+              "content": "Make it a better place"
+            },
+            {
+              "type": "chords",
+              "content": ["F#"]
+            },
+            {
+              "type": "lyric",
+              "content": "For you and for me"
+            },
+            {
+              "type": "chords",
+              "content": ["B"]
+            },
+            {
+              "type": "lyric",
+              "content": "And the entire human race"
+            },
+            {
+              "type": "chords",
+              "content": ["G#m", "D#m"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "If you care enough for the living"
+            },
+            {
+              "type": "chords",
+              "content": ["D#m"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["C#m7"]
+            },
+            {
+              "type": "lyric",
+              "content": "Make a better place for you and for me"
+            },
+            {
+              "type": "chords",
+              "content": ["E", "B"]
+            },
+            {
+              "type": "lyric",
+              "content": "You and for me"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,638 @@
+{
+  "id": "pink-floyd-comfortably-numb",
+  "title": "Comfortably Numb",
+  "artist": "Pink Floyd",
+  "originalKey": "Bm",
+  "tempo": "Slow",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "Hello"
+            },
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "Is there anybody in there?"
+            },
+            {
+              "type": "chords",
+              "content": ["G", "D/F#", "Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "Just nod if you can hear me"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "Is there anyone at home?"
+            },
+            {
+              "type": "lyric",
+              "content": "Come on now"
+            },
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "I hear you're feeling down"
+            },
+            {
+              "type": "chords",
+              "content": ["G", "D/F#", "Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "Well, I can ease your pain"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "Get you on your feet again"
+            },
+            {
+              "type": "lyric",
+              "content": "Relax"
+            },
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "I'll need some information first"
+            },
+            {
+              "type": "chords",
+              "content": ["G", "D/F#", "Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "Just the basic facts"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "Can you show me where it hurts?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-CHORUS 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "There is no pain, you are receding"
+            },
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "A distant ship smoke on the horizon"
+            },
+            {
+              "type": "chords",
+              "content": ["A", "G/B"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "You are only coming through in waves"
+            },
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "Your lips move but"
+            },
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "I can't hear what you're saying"
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "When I was a child I had a fever"
+            },
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "My hands felt just like two balloons"
+            },
+            {
+              "type": "chords",
+              "content": ["A", "G/B"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "Now I've got that feeling once again"
+            },
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "I can't explain, you would not understand"
+            },
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "This is not how I am"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["A", "G/B", "C"]
+            },
+            {
+              "type": "lyric",
+              "content": "I have become"
+            },
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Comfortably numb"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D", "A"]
+        },
+        {
+          "type": "chords",
+          "content": ["D", "A"]
+        },
+        {
+          "type": "chords",
+          "content": ["C", "G"]
+        },
+        {
+          "type": "chords",
+          "content": ["C", "G"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "Okay"
+            },
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "Just a little pinprick"
+            },
+            {
+              "type": "chords",
+              "content": ["G", "D/F#", "Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "There'll be no more 'ah'"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "But you may feel a little sick"
+            },
+            {
+              "type": "lyric",
+              "content": "Can you stand up?"
+            },
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "I do believe it's working, good"
+            },
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "That'll keep you going"
+            },
+            {
+              "type": "chords",
+              "content": ["D/F#", "Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "Through the show"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "Come on it's time to go"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-CHORUS 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "There is no pain, you are receding"
+            },
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "A distant ship smoke on the horizon"
+            },
+            {
+              "type": "chords",
+              "content": ["A", "G/B"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "You are only coming through in waves"
+            },
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "Your lips move but"
+            },
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "I can't hear what you're saying"
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "When I was a child"
+            },
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "I caught a fleeting glimpse"
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Out of the corner of my eye"
+            },
+            {
+              "type": "chords",
+              "content": ["A", "G/B"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "I turned to look but it was gone"
+            },
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "I cannot put my finger on it now"
+            },
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "The child is grown"
+            },
+            {
+              "type": "lyric",
+              "content": "The dream is gone"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS (REPEAT)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["A", "G/B", "C"]
+            },
+            {
+              "type": "lyric",
+              "content": "I have become"
+            },
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Comfortably numb"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Bm", "A", "G", "D/F#", "Em"]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "A", "G", "D/F#", "Em"]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "A", "G", "D/F#", "Em"]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "A", "G", "D/F#", "Em"]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "A", "G", "D/F#", "Em"]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "A", "G", "D/F#", "Em", "Bm"]
+        }
+      ]
+    }
+  ]
+}

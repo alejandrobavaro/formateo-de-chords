@@ -1,0 +1,700 @@
+{
+  "id": "phil-collins-in-the-air-tonight",
+  "title": "In The Air Tonight",
+  "artist": "Phil Collins",
+  "originalKey": "Dm",
+  "tempo": "Slow",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Dm"]
+            },
+            {
+              "type": "lyric",
+              "content": "I can feel it coming in the air tonight"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A#"]
+            },
+            {
+              "type": "lyric",
+              "content": "Oh lord"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["Dm"]
+            },
+            {
+              "type": "lyric",
+              "content": "I've been waiting for this moment for all of my life"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A#"]
+            },
+            {
+              "type": "lyric",
+              "content": "Oh lord"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Dm"]
+            },
+            {
+              "type": "lyric",
+              "content": "I can feel it coming in the air tonight"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A#"]
+            },
+            {
+              "type": "lyric",
+              "content": "Oh lord"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["Dm"]
+            },
+            {
+              "type": "lyric",
+              "content": "Oh lord"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 3",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Dm"]
+            },
+            {
+              "type": "lyric",
+              "content": "Well, when you told me you were drowning"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A#"]
+            },
+            {
+              "type": "lyric",
+              "content": "I would not lend a hand"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["Dm"]
+            },
+            {
+              "type": "lyric",
+              "content": "I've seen your face before, my friend"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A#"]
+            },
+            {
+              "type": "lyric",
+              "content": "But I don't know if you know who I am"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 4",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Dm"]
+            },
+            {
+              "type": "lyric",
+              "content": "But I was there and I saw what you did"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A#"]
+            },
+            {
+              "type": "lyric",
+              "content": "I saw with my own two eyes"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["Dm"]
+            },
+            {
+              "type": "lyric",
+              "content": "So you can wipe off that grin, I know where you've been"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A#"]
+            },
+            {
+              "type": "lyric",
+              "content": "It's all been a pack of lies"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS (REPEAT)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Dm"]
+            },
+            {
+              "type": "lyric",
+              "content": "I can feel it coming in the air tonight"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A#"]
+            },
+            {
+              "type": "lyric",
+              "content": "Oh lord"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["Dm"]
+            },
+            {
+              "type": "lyric",
+              "content": "I've been waiting for this moment for all of my life"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A#"]
+            },
+            {
+              "type": "lyric",
+              "content": "Oh lord"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BRIDGE",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Dm"]
+            },
+            {
+              "type": "lyric",
+              "content": "Well, I remember, I remember, don't worry"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A#"]
+            },
+            {
+              "type": "lyric",
+              "content": "How could I ever forget?"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["Dm"]
+            },
+            {
+              "type": "lyric",
+              "content": "It was the first time, the last time"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A#"]
+            },
+            {
+              "type": "lyric",
+              "content": "That we ever met"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["Dm"]
+            },
+            {
+              "type": "lyric",
+              "content": "But I know the reason why you keep the silence up"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A#"]
+            },
+            {
+              "type": "lyric",
+              "content": "No, you don't fool me"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["Dm"]
+            },
+            {
+              "type": "lyric",
+              "content": "The hurt doesn't show"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A#"]
+            },
+            {
+              "type": "lyric",
+              "content": "But the pain still grows"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["Dm"]
+            },
+            {
+              "type": "lyric",
+              "content": "It's no stranger to you and me"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS (FINAL REPEAT)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Dm"]
+            },
+            {
+              "type": "lyric",
+              "content": "I can feel it coming in the air tonight"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A#"]
+            },
+            {
+              "type": "lyric",
+              "content": "Oh lord"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["Dm"]
+            },
+            {
+              "type": "lyric",
+              "content": "I've been waiting for this moment for all of my life"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A#"]
+            },
+            {
+              "type": "lyric",
+              "content": "Oh lord"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS (FINAL REPEAT 2)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Dm"]
+            },
+            {
+              "type": "lyric",
+              "content": "I can feel it coming in the air tonight"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A#"]
+            },
+            {
+              "type": "lyric",
+              "content": "Oh lord"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "OUTRO",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Dm"]
+            },
+            {
+              "type": "lyric",
+              "content": "Oh lord"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,456 @@
+{
+  "id": "nirvana-the-man-who-sold-the-world",
+  "title": "The Man Who Sold The World",
+  "artist": "Nirvana",
+  "originalKey": "Bm",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F#", "Bm", "D", "Bm"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["F#"]
+            },
+            {
+              "type": "lyric",
+              "content": "We passed upon the stairs"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "We spoke of was and when"
+            },
+            {
+              "type": "chords",
+              "content": ["F#"]
+            },
+            {
+              "type": "lyric",
+              "content": "Although I wasn't there"
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "He said I was his friend"
+            },
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "Which came as some surprise"
+            },
+            {
+              "type": "chords",
+              "content": ["F#"]
+            },
+            {
+              "type": "lyric",
+              "content": "I spoke into his eyes"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "I thought you died alone"
+            },
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "A long long time ago"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Oh no, not me"
+            },
+            {
+              "type": "chords",
+              "content": ["A#"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "We never lost control"
+            },
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "You're face to face"
+            },
+            {
+              "type": "chords",
+              "content": ["A#"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["F#"]
+            },
+            {
+              "type": "lyric",
+              "content": "With the man who sold the world"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F#", "Bm", "D", "Bm"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["F#"]
+            },
+            {
+              "type": "lyric",
+              "content": "I laughed and shook his hand"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "And made my way back home"
+            },
+            {
+              "type": "chords",
+              "content": ["F#"]
+            },
+            {
+              "type": "lyric",
+              "content": "I searched from form and land"
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "For years and years I roamed"
+            },
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "I gazed the gazeless stare"
+            },
+            {
+              "type": "chords",
+              "content": ["F#"]
+            },
+            {
+              "type": "lyric",
+              "content": "At all the millions hills"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "I must have died alone"
+            },
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "A long long time ago"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS (REPEAT)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Who knows, not me"
+            },
+            {
+              "type": "chords",
+              "content": ["A#"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "We never lost control"
+            },
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "You're face to face"
+            },
+            {
+              "type": "chords",
+              "content": ["A#"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["F#"]
+            },
+            {
+              "type": "lyric",
+              "content": "With the man who sold the world"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO 1 (REPEAT)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F#", "Bm"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS (REPEAT 2)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Who knows, not me"
+            },
+            {
+              "type": "chords",
+              "content": ["A#"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "We never lost control"
+            },
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "You're face to face"
+            },
+            {
+              "type": "chords",
+              "content": ["A#"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["F#"]
+            },
+            {
+              "type": "lyric",
+              "content": "With the man who sold the world"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO 1 (REPEAT 2)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F#", "Bm", "D", "Bm"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F#", "Bm", "D", "Bm"]
+        },
+        {
+          "type": "chords",
+          "content": ["F#", "Bm", "D", "Bm"]
+        },
+        {
+          "type": "chords",
+          "content": ["F#", "Bm", "D"]
+        }
+      ]
+    }
+  ]
+}

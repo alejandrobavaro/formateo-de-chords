@@ -1,0 +1,576 @@
+{
+  "id": "michael-jackson-billie-jean",
+  "title": "Billie Jean",
+  "artist": "Michael Jackson",
+  "originalKey": "Em",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "text",
+          "content": "(Riff de guitarra)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "She was more like a beauty queen"
+            },
+            {
+              "type": "lyric",
+              "content": "From a movie scene"
+            },
+            {
+              "type": "lyric",
+              "content": "I said don't mind"
+            },
+            {
+              "type": "chords",
+              "content": ["Am"]
+            },
+            {
+              "type": "lyric",
+              "content": "But what do you mean: I am the one"
+            },
+            {
+              "type": "lyric",
+              "content": "Who will dance on the floor"
+            },
+            {
+              "type": "lyric",
+              "content": "In the round"
+            },
+            {
+              "type": "chords",
+              "content": ["Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "She said I am the one"
+            },
+            {
+              "type": "lyric",
+              "content": "Who will dance on the floor"
+            },
+            {
+              "type": "lyric",
+              "content": "In the round"
+            },
+            {
+              "type": "lyric",
+              "content": "She told me her name was Billie Jean"
+            },
+            {
+              "type": "lyric",
+              "content": "As she caused a scene"
+            },
+            {
+              "type": "lyric",
+              "content": "Then every head turned with eyes that"
+            },
+            {
+              "type": "chords",
+              "content": ["Am"]
+            },
+            {
+              "type": "lyric",
+              "content": "Dreamed of being the one"
+            },
+            {
+              "type": "lyric",
+              "content": "Who will dance on the floor"
+            },
+            {
+              "type": "lyric",
+              "content": "In the round"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-CHORUS",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["C9"]
+            },
+            {
+              "type": "lyric",
+              "content": "People always told me:"
+            },
+            {
+              "type": "chords",
+              "content": ["Em7(11)"]
+            },
+            {
+              "type": "lyric",
+              "content": "Be careful of what you do"
+            },
+            {
+              "type": "chords",
+              "content": ["C9"]
+            },
+            {
+              "type": "lyric",
+              "content": "And don't go around"
+            },
+            {
+              "type": "chords",
+              "content": ["Em7(11)"]
+            },
+            {
+              "type": "lyric",
+              "content": "Breaking young girl's hearts"
+            },
+            {
+              "type": "chords",
+              "content": ["C9"]
+            },
+            {
+              "type": "lyric",
+              "content": "My mother always told me:"
+            },
+            {
+              "type": "chords",
+              "content": ["Em7(11)"]
+            },
+            {
+              "type": "lyric",
+              "content": "Be careful of who you love"
+            },
+            {
+              "type": "chords",
+              "content": ["C9"]
+            },
+            {
+              "type": "lyric",
+              "content": "And be careful of what you do"
+            },
+            {
+              "type": "chords",
+              "content": ["B7"]
+            },
+            {
+              "type": "lyric",
+              "content": "'Cause the lie becomes the truth"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "Billie Jean is not my lover"
+            },
+            {
+              "type": "lyric",
+              "content": "She's just a girl"
+            },
+            {
+              "type": "chords",
+              "content": ["Am"]
+            },
+            {
+              "type": "lyric",
+              "content": "Who claims that I am the one"
+            },
+            {
+              "type": "chords",
+              "content": ["Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "But the kid is not my son"
+            },
+            {
+              "type": "chords",
+              "content": ["Am"]
+            },
+            {
+              "type": "lyric",
+              "content": "She says I am the one"
+            },
+            {
+              "type": "chords",
+              "content": ["Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "But the kid is not my son"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "For forty days and forty nights"
+            },
+            {
+              "type": "lyric",
+              "content": "The law was on her side"
+            },
+            {
+              "type": "lyric",
+              "content": "But who can stand when she's in demand"
+            },
+            {
+              "type": "chords",
+              "content": ["Am"]
+            },
+            {
+              "type": "lyric",
+              "content": "Her schemes and plans"
+            },
+            {
+              "type": "lyric",
+              "content": "'Cause we danced on the floor"
+            },
+            {
+              "type": "chords",
+              "content": ["Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "In the round"
+            },
+            {
+              "type": "chords",
+              "content": ["Am"]
+            },
+            {
+              "type": "lyric",
+              "content": "So take my strong advice"
+            },
+            {
+              "type": "lyric",
+              "content": "Just remember to always think twice"
+            },
+            {
+              "type": "lyric",
+              "content": "(Do think twice, do think twice)"
+            },
+            {
+              "type": "chords",
+              "content": ["Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "She told: My baby"
+            },
+            {
+              "type": "lyric",
+              "content": "We danced 'til three"
+            },
+            {
+              "type": "lyric",
+              "content": "Then she looked at me"
+            },
+            {
+              "type": "lyric",
+              "content": "Then showed a photo my baby cried"
+            },
+            {
+              "type": "chords",
+              "content": ["Am"]
+            },
+            {
+              "type": "lyric",
+              "content": "His eyes were like mine"
+            },
+            {
+              "type": "chords",
+              "content": ["Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "'Cause we danced on the floor"
+            },
+            {
+              "type": "lyric",
+              "content": "In the round, baby"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-CHORUS (REPEAT)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["C9"]
+            },
+            {
+              "type": "lyric",
+              "content": "People always told me"
+            },
+            {
+              "type": "chords",
+              "content": ["Em7(11)"]
+            },
+            {
+              "type": "lyric",
+              "content": "Be careful of what you do"
+            },
+            {
+              "type": "chords",
+              "content": ["C9"]
+            },
+            {
+              "type": "lyric",
+              "content": "And don't go around"
+            },
+            {
+              "type": "chords",
+              "content": ["Em7(11)"]
+            },
+            {
+              "type": "lyric",
+              "content": "Breaking young girl's hearts"
+            },
+            {
+              "type": "chords",
+              "content": ["C9"]
+            },
+            {
+              "type": "lyric",
+              "content": "But she came and stood right by me"
+            },
+            {
+              "type": "chords",
+              "content": ["Em7(11)"]
+            },
+            {
+              "type": "lyric",
+              "content": "Just to smell her sweet perfume"
+            },
+            {
+              "type": "chords",
+              "content": ["C9"]
+            },
+            {
+              "type": "lyric",
+              "content": "This happened much too soon"
+            },
+            {
+              "type": "chords",
+              "content": ["B7"]
+            },
+            {
+              "type": "lyric",
+              "content": "She called me to her room"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL CHORUS",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "Billie Jean is not my lover"
+            },
+            {
+              "type": "lyric",
+              "content": "She's just a girl"
+            },
+            {
+              "type": "chords",
+              "content": ["Am"]
+            },
+            {
+              "type": "lyric",
+              "content": "Who claims that I am the one"
+            },
+            {
+              "type": "chords",
+              "content": ["Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "But the kid is not my son"
+            },
+            {
+              "type": "chords",
+              "content": ["Am"]
+            },
+            {
+              "type": "lyric",
+              "content": "She says I am the one"
+            },
+            {
+              "type": "chords",
+              "content": ["Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "But the kid is not my son"
+            },
+            {
+              "type": "chords",
+              "content": ["Am"]
+            },
+            {
+              "type": "lyric",
+              "content": "(No, she is not just my baby)"
+            },
+            {
+              "type": "chords",
+              "content": ["Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "But the kid is not my son"
+            },
+            {
+              "type": "chords",
+              "content": ["Am"]
+            },
+            {
+              "type": "lyric",
+              "content": "She says I am the one"
+            },
+            {
+              "type": "chords",
+              "content": ["Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "But the kid is not my son"
+            },
+            {
+              "type": "lyric",
+              "content": "(You know what you did)"
+            },
+            {
+              "type": "lyric",
+              "content": "She says he is my son"
+            },
+            {
+              "type": "lyric",
+              "content": "(Breaking my heart, babe)"
+            },
+            {
+              "type": "lyric",
+              "content": "She says I am the one"
+            },
+            {
+              "type": "lyric",
+              "content": "Billie Jean is not my lover"
+            },
+            {
+              "type": "lyric",
+              "content": "Billie Jean is not my lover"
+            },
+            {
+              "type": "lyric",
+              "content": "Billie Jean is not my lover"
+            },
+            {
+              "type": "lyric",
+              "content": "(Call me, Billie Jean)"
+            },
+            {
+              "type": "lyric",
+              "content": "Billie Jean is not my lover"
+            },
+            {
+              "type": "lyric",
+              "content": "(She is not at the scene)"
+            },
+            {
+              "type": "lyric",
+              "content": "Billie Jean is not my lover"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

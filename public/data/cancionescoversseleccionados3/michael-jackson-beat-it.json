@@ -1,0 +1,745 @@
+{
+  "id": "michael-jackson-beat-it",
+  "title": "Beat It",
+  "artist": "Michael Jackson",
+  "originalKey": "A",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A5", "G5"]
+        },
+        {
+          "type": "chords",
+          "content": ["A5", "G5"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["A5"]
+            },
+            {
+              "type": "lyric",
+              "content": "They told him"
+            },
+            {
+              "type": "chords",
+              "content": ["G5"]
+            },
+            {
+              "type": "lyric",
+              "content": "Don't you ever come around here"
+            },
+            {
+              "type": "chords",
+              "content": ["A5"]
+            },
+            {
+              "type": "lyric",
+              "content": "Don't wanna see your face"
+            },
+            {
+              "type": "chords",
+              "content": ["G5"]
+            },
+            {
+              "type": "lyric",
+              "content": "You better disappear"
+            },
+            {
+              "type": "chords",
+              "content": ["F5"]
+            },
+            {
+              "type": "lyric",
+              "content": "The fire's in their eyes"
+            },
+            {
+              "type": "chords",
+              "content": ["G5"]
+            },
+            {
+              "type": "lyric",
+              "content": "And their words are really clear"
+            },
+            {
+              "type": "chords",
+              "content": ["A5"]
+            },
+            {
+              "type": "lyric",
+              "content": "So beat it, just beat it"
+            },
+            {
+              "type": "chords",
+              "content": ["G5"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A5"]
+            },
+            {
+              "type": "lyric",
+              "content": "You better run"
+            },
+            {
+              "type": "chords",
+              "content": ["G5"]
+            },
+            {
+              "type": "lyric",
+              "content": "You better do what you can"
+            },
+            {
+              "type": "chords",
+              "content": ["A5"]
+            },
+            {
+              "type": "lyric",
+              "content": "Don't wanna see no blood"
+            },
+            {
+              "type": "chords",
+              "content": ["G5"]
+            },
+            {
+              "type": "lyric",
+              "content": "Don't be a macho man"
+            },
+            {
+              "type": "chords",
+              "content": ["F5"]
+            },
+            {
+              "type": "lyric",
+              "content": "You wanna be tough"
+            },
+            {
+              "type": "chords",
+              "content": ["G5"]
+            },
+            {
+              "type": "lyric",
+              "content": "Better do what you can"
+            },
+            {
+              "type": "chords",
+              "content": ["A5"]
+            },
+            {
+              "type": "lyric",
+              "content": "So beat it"
+            },
+            {
+              "type": "chords",
+              "content": ["G5"]
+            },
+            {
+              "type": "lyric",
+              "content": "But you wanna be bad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["A5"]
+            },
+            {
+              "type": "lyric",
+              "content": "Just beat it, beat it"
+            },
+            {
+              "type": "chords",
+              "content": ["G5"]
+            },
+            {
+              "type": "lyric",
+              "content": "Beat it, beat it"
+            },
+            {
+              "type": "chords",
+              "content": ["A5"]
+            },
+            {
+              "type": "lyric",
+              "content": "No one wants to be defeated"
+            },
+            {
+              "type": "chords",
+              "content": ["G5"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A5"]
+            },
+            {
+              "type": "lyric",
+              "content": "Showing how funky and strong is your fight"
+            },
+            {
+              "type": "chords",
+              "content": ["G5"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A5"]
+            },
+            {
+              "type": "lyric",
+              "content": "It doesn't matter who's wrong or right"
+            },
+            {
+              "type": "chords",
+              "content": ["G5"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A5"]
+            },
+            {
+              "type": "lyric",
+              "content": "Just beat it (beat it)"
+            },
+            {
+              "type": "chords",
+              "content": ["G5"]
+            },
+            {
+              "type": "lyric",
+              "content": "Just beat it (beat it)"
+            },
+            {
+              "type": "chords",
+              "content": ["A5"]
+            },
+            {
+              "type": "lyric",
+              "content": "Just beat it (beat it)"
+            },
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "Just beat it (beat it)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["A5"]
+            },
+            {
+              "type": "lyric",
+              "content": "They're out to get you"
+            },
+            {
+              "type": "chords",
+              "content": ["G5"]
+            },
+            {
+              "type": "lyric",
+              "content": "Better leave while you can"
+            },
+            {
+              "type": "chords",
+              "content": ["A5"]
+            },
+            {
+              "type": "lyric",
+              "content": "Don't wanna be a boy"
+            },
+            {
+              "type": "chords",
+              "content": ["G5"]
+            },
+            {
+              "type": "lyric",
+              "content": "You wanna be a man?"
+            },
+            {
+              "type": "chords",
+              "content": ["F5"]
+            },
+            {
+              "type": "lyric",
+              "content": "You wanna stay alive?"
+            },
+            {
+              "type": "chords",
+              "content": ["G5"]
+            },
+            {
+              "type": "lyric",
+              "content": "Better do what you can"
+            },
+            {
+              "type": "chords",
+              "content": ["A5"]
+            },
+            {
+              "type": "lyric",
+              "content": "So beat it, just beat it"
+            },
+            {
+              "type": "chords",
+              "content": ["G5"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A5"]
+            },
+            {
+              "type": "lyric",
+              "content": "You have to show them"
+            },
+            {
+              "type": "chords",
+              "content": ["G5"]
+            },
+            {
+              "type": "lyric",
+              "content": "That you're really not scared"
+            },
+            {
+              "type": "chords",
+              "content": ["A5"]
+            },
+            {
+              "type": "lyric",
+              "content": "You're playing with your life"
+            },
+            {
+              "type": "chords",
+              "content": ["G5"]
+            },
+            {
+              "type": "lyric",
+              "content": "This ain't no truth or dare"
+            },
+            {
+              "type": "chords",
+              "content": ["F5"]
+            },
+            {
+              "type": "lyric",
+              "content": "They'll kick you, then they beat you"
+            },
+            {
+              "type": "chords",
+              "content": ["G5"]
+            },
+            {
+              "type": "lyric",
+              "content": "Then they'll tell you it's fair"
+            },
+            {
+              "type": "chords",
+              "content": ["A5"]
+            },
+            {
+              "type": "lyric",
+              "content": "So beat it, but you wanna be bad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS (REPEAT)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["A5"]
+            },
+            {
+              "type": "lyric",
+              "content": "Just beat it, beat it"
+            },
+            {
+              "type": "chords",
+              "content": ["G5"]
+            },
+            {
+              "type": "lyric",
+              "content": "Beat it, beat it"
+            },
+            {
+              "type": "chords",
+              "content": ["A5"]
+            },
+            {
+              "type": "lyric",
+              "content": "No one wants to be defeated"
+            },
+            {
+              "type": "chords",
+              "content": ["G5"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A5"]
+            },
+            {
+              "type": "lyric",
+              "content": "Showing how funky and strong is your fight"
+            },
+            {
+              "type": "chords",
+              "content": ["G5"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A5"]
+            },
+            {
+              "type": "lyric",
+              "content": "It doesn't matter who's wrong or right"
+            },
+            {
+              "type": "chords",
+              "content": ["G5"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A5"]
+            },
+            {
+              "type": "lyric",
+              "content": "Just beat it, beat it"
+            },
+            {
+              "type": "chords",
+              "content": ["G5"]
+            },
+            {
+              "type": "lyric",
+              "content": "Beat it, beat it"
+            },
+            {
+              "type": "chords",
+              "content": ["A5"]
+            },
+            {
+              "type": "lyric",
+              "content": "No one wants to be defeated"
+            },
+            {
+              "type": "chords",
+              "content": ["G5"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A5"]
+            },
+            {
+              "type": "lyric",
+              "content": "Showing how funky and strong is your fight"
+            },
+            {
+              "type": "chords",
+              "content": ["G5"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A5"]
+            },
+            {
+              "type": "lyric",
+              "content": "It doesn't matter who's wrong or right"
+            },
+            {
+              "type": "chords",
+              "content": ["G5"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A5", "G5"]
+        },
+        {
+          "type": "chords",
+          "content": ["F5", "G5"]
+        },
+        {
+          "type": "chords",
+          "content": ["A5", "G5"]
+        },
+        {
+          "type": "chords",
+          "content": ["F5", "G5"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL CHORUS",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["A5"]
+            },
+            {
+              "type": "lyric",
+              "content": "Beat it, beat it"
+            },
+            {
+              "type": "chords",
+              "content": ["G5"]
+            },
+            {
+              "type": "lyric",
+              "content": "Beat it, beat it"
+            },
+            {
+              "type": "chords",
+              "content": ["A5"]
+            },
+            {
+              "type": "lyric",
+              "content": "No one wants to be defeated"
+            },
+            {
+              "type": "chords",
+              "content": ["G5"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A5"]
+            },
+            {
+              "type": "lyric",
+              "content": "Showing how funky and strong is your fight"
+            },
+            {
+              "type": "chords",
+              "content": ["G5"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A5"]
+            },
+            {
+              "type": "lyric",
+              "content": "It doesn't matter who's wrong or right"
+            },
+            {
+              "type": "chords",
+              "content": ["G5"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A5"]
+            },
+            {
+              "type": "lyric",
+              "content": "Beat it, beat it"
+            },
+            {
+              "type": "chords",
+              "content": ["G5"]
+            },
+            {
+              "type": "lyric",
+              "content": "Beat it, beat it"
+            },
+            {
+              "type": "chords",
+              "content": ["A5"]
+            },
+            {
+              "type": "lyric",
+              "content": "No one wants to be defeated"
+            },
+            {
+              "type": "chords",
+              "content": ["G5"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A5"]
+            },
+            {
+              "type": "lyric",
+              "content": "Showing how funky and strong is your fight"
+            },
+            {
+              "type": "chords",
+              "content": ["G5"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A5"]
+            },
+            {
+              "type": "lyric",
+              "content": "It doesn't matter who's wrong or right"
+            },
+            {
+              "type": "chords",
+              "content": ["G5"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A5"]
+            },
+            {
+              "type": "lyric",
+              "content": "Beat it, beat it"
+            },
+            {
+              "type": "chords",
+              "content": ["G5"]
+            },
+            {
+              "type": "lyric",
+              "content": "Beat it, beat it"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
