@@ -1,0 +1,432 @@
+{
+  "id": "u2-original-of-the-species",
+  "title": "Original of the Species",
+  "artist": "U2",
+  "originalKey": "F",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRODUCCIÓN",
+      "lines": []
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Baby slow down"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm", "Am", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "The end is not as fun as the start"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Please stay a child somewhere in your heart"
+        },
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D#", "A#", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "I’ll give you everything you want"
+        },
+        {
+          "type": "chords",
+          "content": ["D#", "A#", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Except the thing that you want"
+        },
+        {
+          "type": "chords",
+          "content": ["Fm", "G#", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "You are the first one of your kind"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "And you feel like no-one before"
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "You steal right under my door"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "And I kneel 'cos I want you some more"
+        },
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "I want the lot of what you got"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "And I want nothing that you’re not"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F", "Dm", "Am", "C", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Everywhere you go you shout it"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "You don’t have to be shy about it"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 3",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Some things you shouldn’t get too good at"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm", "Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Like smiling, crying and celebrity"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Some people got way too much confidence"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm", "Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Baby, baby"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D#", "A#", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "I’ll give you everything you want"
+        },
+        {
+          "type": "chords",
+          "content": ["D#", "A#", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Except the thing that you want"
+        },
+        {
+          "type": "chords",
+          "content": ["Fm", "G#", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "You are the first one of your kind"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PUENTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "And you feel like no-one before"
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "You steal right under my door"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "I kneel 'cos I want you some more"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "I want the lot of what you got"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "And I want nothing that you’re not"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F", "Dm", "Am", "C", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Everywhere you go you shout it"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "You don’t have to be shy about it, no"
+        },
+        {
+          "type": "chords",
+          "content": ["D#", "A#", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Do do, do do, do do, do do, do do, do do, do do, do do"
+        },
+        {
+          "type": "chords",
+          "content": ["D#", "A#", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Do do, do do, do do, do do, do do, do do, do do, do do"
+        },
+        {
+          "type": "chords",
+          "content": ["D#", "A#", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Sugar, come on show your soul"
+        },
+        {
+          "type": "chords",
+          "content": ["D#", "A#", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "You’ve been keeping your love under control"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F", "Dm", "Am", "C", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Everywhere you go you shout it"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "You don’t have to be shy about it"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "Dm", "Am", "C", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Everywhere you go you shout it"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh my my"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "And you feel like no-one before"
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "You steal right under my door"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "I kneel 'cos I want you some more"
+        },
+        {
+          "type": "chords",
+          "content": ["A#"]
+        },
+        {
+          "type": "lyric",
+          "content": "And I want you some more"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm"]
+        },
+        {
+          "type": "lyric",
+          "content": "I want you some more"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "Am", "A#", "Am", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh no, oh no, oh no, oh no"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "id": "luis-miguel-la-chica-del-bikini-azul",
+  "title": "La Chica del Bikini Azul",
+  "artist": "Luis Miguel",
+  "originalKey": "D",
+  "tempo": "Upbeat Pop-Rock (120 BPM)",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D", "Bm7", "G", "A"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTROFA 1 (TONO D)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "Solo y triste bajo el sol en la playa"},
+            {"type": "chord", "content": "Bm7"},
+            {"type": "lyric", "content": "busco amor"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Debe haber un lugar"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "para mí"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "Gentes vienen gentes van,"},
+            {"type": "chord", "content": "Bm7"},
+            {"type": "lyric", "content": "con las aguas luz y sal"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "En mi piel el calor"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "sube más"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-CORO (TONO D)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "De pronto flash,"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "la chica del bikini azul"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "De pronto flash, cambió el color"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "del mar"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CORO (TONO D)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Una y no más,"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "es ella mi oportunidad"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Yo tengo el As"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "y no voy a fallar"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PUENTE (MODULACIÓN A D#)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "D#"},
+            {"type": "lyric", "content": "No es posible no es verdad"},
+            {"type": "chord", "content": "Cm"},
+            {"type": "lyric", "content": "mi cabeza va a estallar"},
+            {"type": "chord", "content": "Ab"},
+            {"type": "lyric", "content": "Ya no sé si estoy bien"},
+            {"type": "chord", "content": "A#"},
+            {"type": "lyric", "content": "o estoy mal"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-CORO (TONO D#)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Ab"},
+            {"type": "lyric", "content": "De pronto flash,"},
+            {"type": "chord", "content": "A#"},
+            {"type": "lyric", "content": "la chica del bikini azul"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "D#"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "Ab"},
+            {"type": "lyric", "content": "De pronto flash, cambió el color"},
+            {"type": "chord", "content": "A#"},
+            {"type": "lyric", "content": "del mar"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CORO FINAL (TONO D#)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Ab"},
+            {"type": "lyric", "content": "Una y no más,"},
+            {"type": "chord", "content": "A#"},
+            {"type": "lyric", "content": "es ella mi oportunidad"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "D#"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "Ab"},
+            {"type": "lyric", "content": "Yo tengo el As"},
+            {"type": "chord", "content": "A#"},
+            {"type": "lyric", "content": "y no voy a fallar"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["D#"]
+        }
+      ]
+    }
+  ]
+}

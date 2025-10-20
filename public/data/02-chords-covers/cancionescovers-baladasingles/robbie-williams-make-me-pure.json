@@ -1,0 +1,346 @@
+{
+  "id": "robbie-williams-make-me-pure",
+  "title": "Make Me Pure",
+  "artist": "Robbie Williams",
+  "originalKey": "A",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "VERSO 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Someone sing a song"
+        },
+        {
+          "type": "lyric",
+          "content": "To reel 'em in"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's a song that's sung before"
+        },
+        {
+          "type": "lyric",
+          "content": "And a song you gonna sing again"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "I mean every word"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "I don't mean a single one of them"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E", "G", "D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh Lord, make me pure - but not yet"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tell a joke tell it twice"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "If no one else is laughing then why am I?"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "I split my sides both times and laugh until I cry"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "G", "D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh Lord, make me pure - but not yet"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 3",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "I don't have to try"
+        },
+        {
+          "type": "lyric",
+          "content": "I just dialing in"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Never found a job that for me was worth bothering"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "I got a ton of selfish genes and lazy bones"
+        },
+        {
+          "type": "lyric",
+          "content": "Beneath this skin"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "G", "D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh Lord, make me pure - but not yet"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 4",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Smoky kiss"
+        },
+        {
+          "type": "lyric",
+          "content": "Sex sells"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "I got one hand in my pocket but the other one looks cool as hell"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "I know I'm gonna die so my revenge is living well"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "G", "D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh Lord, make me pure - but not yet"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PUENTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "I stopped praying"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "So I hope this song will do"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "I wrote it all for you"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "C", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm not perfect but you don't mind that, do you?"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "I know you're there to pull me through, aren't you?"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 5",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "So I look for love"
+        },
+        {
+          "type": "lyric",
+          "content": "I like the search"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "And I'll be standing for election all across the known universe"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Every president get the country she deserves"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "G", "D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh Lord, make me pure - but not yet"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 6",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "And I've been seeing"
+        },
+        {
+          "type": "lyric",
+          "content": "Somebody's wife"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "She said she'd leave him for me and I said that wasn't wise"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "You can't lie to a liar because of all the lies"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "G", "D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh Lord, please make me pure - not yet"
+        }
+      ]
+    }
+  ]
+}

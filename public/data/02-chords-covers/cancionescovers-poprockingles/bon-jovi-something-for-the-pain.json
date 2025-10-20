@@ -1,0 +1,617 @@
+{
+  "id": "bon-jovi-something-for-the-pain",
+  "title": "Something For The Pain",
+  "artist": "Bon Jovi",
+  "originalKey": "D",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "text",
+          "content": "(Intro instrumental)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["D9", "D4"]
+            },
+            {
+              "type": "lyric",
+              "content": "Happiness, it's been no friend to me,"
+            },
+            {
+              "type": "chords",
+              "content": ["D9", "D4"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["Bm", "A4", "G9"]
+            },
+            {
+              "type": "lyric",
+              "content": "But forever after ain't what it's all cracked up to be"
+            },
+            {
+              "type": "chords",
+              "content": ["D9", "D4"]
+            },
+            {
+              "type": "lyric",
+              "content": "Yeah, I had a taste, you were my fantasy,"
+            },
+            {
+              "type": "chords",
+              "content": ["D9", "D4"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["Bm", "A4", "G9"]
+            },
+            {
+              "type": "lyric",
+              "content": "But I lost my faith when I hit reality"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BRIDGE 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["A4"]
+            },
+            {
+              "type": "lyric",
+              "content": "I don't need no Guru to tell me what to do,"
+            },
+            {
+              "type": "chords",
+              "content": ["G9"]
+            },
+            {
+              "type": "lyric",
+              "content": "When your feeling like a headline on yesterday's news"
+            },
+            {
+              "type": "chords",
+              "content": ["G4"]
+            },
+            {
+              "type": "lyric",
+              "content": "Come on, come on, come on"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Give me something for the pain,"
+            },
+            {
+              "type": "chords",
+              "content": ["G9", "A9"]
+            },
+            {
+              "type": "lyric",
+              "content": "Give me something for the blues"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "Give me something for the pain when I feel I've been"
+            },
+            {
+              "type": "chords",
+              "content": ["G9", "A9"]
+            },
+            {
+              "type": "lyric",
+              "content": "Danglin' on a hang-man's noose"
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Give me something for pain,"
+            },
+            {
+              "type": "chords",
+              "content": ["G9", "A9"]
+            },
+            {
+              "type": "lyric",
+              "content": "Give me something I can use"
+            },
+            {
+              "type": "chords",
+              "content": ["G9", "A9"]
+            },
+            {
+              "type": "lyric",
+              "content": "To get me through the night, make me feel all right,"
+            },
+            {
+              "type": "chords",
+              "content": ["D", "G9", "G4"]
+            },
+            {
+              "type": "lyric",
+              "content": "Something like you. Come on, come on, come on."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["D9", "D4"]
+            },
+            {
+              "type": "lyric",
+              "content": "Loneliness has found a home in me,"
+            },
+            {
+              "type": "chords",
+              "content": ["D9", "D4"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["Bm", "A4", "G9"]
+            },
+            {
+              "type": "lyric",
+              "content": "My suitcase and guitar are my only family"
+            },
+            {
+              "type": "chords",
+              "content": ["D9", "D4"]
+            },
+            {
+              "type": "lyric",
+              "content": "I've tried to need someone, like they needed me"
+            },
+            {
+              "type": "chords",
+              "content": ["D9", "D4"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["Bm", "A4", "G9"]
+            },
+            {
+              "type": "lyric",
+              "content": "I opened up my heart, but all I did was bleed"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BRIDGE 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["A4"]
+            },
+            {
+              "type": "lyric",
+              "content": "I don't need no lover, just to get screwed,"
+            },
+            {
+              "type": "chords",
+              "content": ["G9"]
+            },
+            {
+              "type": "lyric",
+              "content": "They don't make a bandage that's going to cover my bruise"
+            },
+            {
+              "type": "chords",
+              "content": ["G4"]
+            },
+            {
+              "type": "lyric",
+              "content": "Come on, come on, come on"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS (REPEAT)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Give me something for the pain,"
+            },
+            {
+              "type": "chords",
+              "content": ["G9", "A9"]
+            },
+            {
+              "type": "lyric",
+              "content": "Give me something for the blues"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "Give me something for the pain when I feel I've been"
+            },
+            {
+              "type": "chords",
+              "content": ["G9", "A9"]
+            },
+            {
+              "type": "lyric",
+              "content": "Danglin' on a hang-man's noose"
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Give me something for pain,"
+            },
+            {
+              "type": "chords",
+              "content": ["G9", "A9"]
+            },
+            {
+              "type": "lyric",
+              "content": "Give me something I can use"
+            },
+            {
+              "type": "chords",
+              "content": ["G9", "A9"]
+            },
+            {
+              "type": "lyric",
+              "content": "To get me through the night, make me feel all right,"
+            },
+            {
+              "type": "chords",
+              "content": ["D", "G9", "G4"]
+            },
+            {
+              "type": "lyric",
+              "content": "Something like you. Come on, come on, come on."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO",
+      "lines": [
+        {
+          "type": "text",
+          "content": "(Solo de guitarra)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 3",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["D9", "D4"]
+            },
+            {
+              "type": "lyric",
+              "content": "Pull me under, run through my veins"
+            },
+            {
+              "type": "chords",
+              "content": ["D9", "D4"]
+            },
+            {
+              "type": "lyric",
+              "content": "To a place where I feel no pain"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm", "A4"]
+            },
+            {
+              "type": "lyric",
+              "content": "Be the pillow under my head,"
+            },
+            {
+              "type": "chords",
+              "content": ["G9"]
+            },
+            {
+              "type": "lyric",
+              "content": "Give me cover when I'm in my bed"
+            },
+            {
+              "type": "chords",
+              "content": ["D9", "D4"]
+            },
+            {
+              "type": "lyric",
+              "content": "Take me higher than I've ever been"
+            },
+            {
+              "type": "chords",
+              "content": ["D9", "D4"]
+            },
+            {
+              "type": "lyric",
+              "content": "Take me down and back again"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm", "A4"]
+            },
+            {
+              "type": "lyric",
+              "content": "Come to me, be my disguise"
+            },
+            {
+              "type": "chords",
+              "content": ["G9"]
+            },
+            {
+              "type": "lyric",
+              "content": "Open your coat, let me crawl inside"
+            },
+            {
+              "type": "chords",
+              "content": ["G4", "G4"]
+            },
+            {
+              "type": "lyric",
+              "content": "Come on, come on, come on. Come on, come on, come on"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS (FINAL)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Give me something for the pain,"
+            },
+            {
+              "type": "chords",
+              "content": ["G9", "A9"]
+            },
+            {
+              "type": "lyric",
+              "content": "Give me something for the blues"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "Give me something for the pain when I feel I've been"
+            },
+            {
+              "type": "chords",
+              "content": ["G9", "A9"]
+            },
+            {
+              "type": "lyric",
+              "content": "Danglin' on a hang-man's noose"
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Give me something for pain,"
+            },
+            {
+              "type": "chords",
+              "content": ["G9", "A9"]
+            },
+            {
+              "type": "lyric",
+              "content": "Give me something I can use"
+            },
+            {
+              "type": "chords",
+              "content": ["G9", "A9"]
+            },
+            {
+              "type": "lyric",
+              "content": "To get me through the night, make me feel all right,"
+            },
+            {
+              "type": "chords",
+              "content": ["D", "G9", "G4"]
+            },
+            {
+              "type": "lyric",
+              "content": "Something like you. Come on, come on, come on."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["D", "G4"]
+            },
+            {
+              "type": "lyric",
+              "content": "Give me, give me something for the pain"
+            },
+            {
+              "type": "chords",
+              "content": ["D", "G4"]
+            },
+            {
+              "type": "lyric",
+              "content": "Give me, give me something for the blues"
+            },
+            {
+              "type": "chords",
+              "content": ["D", "G4", "A4", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Give me, give me something for the pain"
+            },
+            {
+              "type": "chords",
+              "content": ["D", "G4", "A4", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Give me."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

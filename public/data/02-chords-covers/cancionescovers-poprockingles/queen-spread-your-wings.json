@@ -1,0 +1,321 @@
+{
+  "id": "queen-spread-your-wings",
+  "title": "Spread Your Wings",
+  "artist": "Queen",
+  "originalKey": "A",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A5"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Sammy was low"
+        },
+        {
+          "type": "chords",
+          "content": ["B7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Just watching the show"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "Dm", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Over and over again"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Knew it was time"
+        },
+        {
+          "type": "chords",
+          "content": ["B7"]
+        },
+        {
+          "type": "lyric",
+          "content": "He'd made up his mind"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "Dm", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "To leave his dead life behind"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F#m", "F#m/E", "F#m/D#"]
+        },
+        {
+          "type": "lyric",
+          "content": "His boss said to him 'Boy you'd better begin"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "E", "A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "To get those crazy notions right out of your head'"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Bm", "G7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Sammy who do you think that you are?"
+        },
+        {
+          "type": "chords",
+          "content": ["A5", "B", "Dm", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "You should've been sweeping up the Emerald Bar"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "A5"
+            },
+            {
+              "type": "lyric",
+              "content": "Spread your wings and fly away"
+            },
+            {
+              "type": "chord",
+              "content": "F#m"
+            },
+            {
+              "type": "lyric",
+              "content": "Fly away far away"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "B7"
+            },
+            {
+              "type": "lyric",
+              "content": "Pull yourself together 'cos you know you should do better"
+            },
+            {
+              "type": "chord",
+              "content": "E"
+            },
+            {
+              "type": "lyric",
+              "content": "That's because you're a free man"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "TERCERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F#m", "F#m/E", "F#m/D#"]
+        },
+        {
+          "type": "lyric",
+          "content": "He spends his evenings alone in his hotel room"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "C#7(4)"]
+        },
+        {
+          "type": "lyric",
+          "content": "Keeping his thoughts to himself he'd be leaving soon"
+        },
+        {
+          "type": "chords",
+          "content": ["F#m", "F#m/E", "F#m/D#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Wishing he was miles and miles away"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "C#7(4)"]
+        },
+        {
+          "type": "lyric",
+          "content": "Nothing in this world nothing would make him stay"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CUARTA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Since he was small"
+        },
+        {
+          "type": "chords",
+          "content": ["B7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Had no luck at all"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Nothing came easy to him"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Now it was time"
+        },
+        {
+          "type": "chords",
+          "content": ["B7"]
+        },
+        {
+          "type": "lyric",
+          "content": "He'd made up his mind"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "'This could be my last chance'"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A5", "F#m", "B7", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Spread your wings and fly away"
+        },
+        {
+          "type": "chords",
+          "content": ["A5", "F#m", "B7", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Fly away far away"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Pull yourself together 'cos you know you should do better"
+        },
+        {
+          "type": "chords",
+          "content": ["F5+(9)", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "That's because you're a free man"
+        }
+      ]
+    }
+  ]
+}

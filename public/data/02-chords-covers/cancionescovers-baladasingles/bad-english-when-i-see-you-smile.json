@@ -1,0 +1,701 @@
+{
+  "id": "bad-english-when-i-see-you-smile",
+  "title": "When I See You Smile",
+  "artist": "Bad English",
+  "originalKey": "B",
+  "tempo": "Balada Rock",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Sometimes I wonder how"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'd ever make it through, through this world without having you."
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "I just wouldn't have a clue."
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Sometimes it seems like"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "this world's closing in on me, and there's no way"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "of breaking free."
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": "And then I see"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "your reach for me."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-CHORUS 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Sometimes I wanna give up, wanna give in, I wanna quit the fight."
+        },
+        {
+          "type": "chords",
+          "content": ["C#m"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "And then I see it, baby,"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "everything's alright."
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Everything's alright."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "When I see you smile,"
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "I can face the world."
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["B"]
+            },
+            {
+              "type": "lyric",
+              "content": "Oh, you know I can do anything."
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "When I see you smile,"
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "see a ray of light."
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh, see it shining right through the rain."
+        },
+        {
+          "type": "chords",
+          "content": ["F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "When I see you smile, baby,"
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "when I see you smile at me."
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh, yeah."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Baby, there's nothing in this world that could ever do"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "what the touch of your hand can do."
+        },
+        {
+          "type": "chords",
+          "content": ["F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's like nothing that I ever knew."
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hey, and when the rain is falling,"
+        },
+        {
+          "type": "chords",
+          "content": ["C#m"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "I don't feel it."
+        },
+        {
+          "type": "chords",
+          "content": ["G#"]
+        },
+        {
+          "type": "lyric",
+          "content": "'Cause you're here with me now."
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "I wanna look at you, baby."
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's all I'll ever need."
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's all I'll ever need."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "When I see you smile,"
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "I can face the world."
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["B"]
+            },
+            {
+              "type": "lyric",
+              "content": "Oh, you know I can do anything."
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "When I see you smile,"
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "see a ray of light."
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh, I see it shining right through the rain."
+        },
+        {
+          "type": "chords",
+          "content": ["F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "When I see you smile, baby,"
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "when I see you smile at me."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-CHORUS 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "Sometimes I wanna give up."
+        },
+        {
+          "type": "chords",
+          "content": ["F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "I wanna give in."
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "I wanna quit the fight."
+        },
+        {
+          "type": "chords",
+          "content": ["C#m"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": "And then we look at you, baby,"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "and everything's alright."
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hey, everything's alright."
+        },
+        {
+          "type": "chords",
+          "content": ["C#"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's alright."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL CHORUS",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C#"]
+        },
+        {
+          "type": "lyric",
+          "content": "When I see"
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "you smile, I can"
+        },
+        {
+          "type": "chords",
+          "content": ["C#"]
+        },
+        {
+          "type": "lyric",
+          "content": "face the world."
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh, you know I can do anything."
+        },
+        {
+          "type": "chords",
+          "content": ["C#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Yeah."
+        },
+        {
+          "type": "chords",
+          "content": ["C#"]
+        },
+        {
+          "type": "lyric",
+          "content": "When I see"
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "you smile, I see a"
+        },
+        {
+          "type": "chords",
+          "content": ["C#"]
+        },
+        {
+          "type": "lyric",
+          "content": "ray of light."
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh, I see it shining right through the rain."
+        },
+        {
+          "type": "chords",
+          "content": ["G#"]
+        },
+        {
+          "type": "lyric",
+          "content": "When I see you smile, oh yeah."
+        },
+        {
+          "type": "chords",
+          "content": ["D#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Baby, when I see you smile,"
+        },
+        {
+          "type": "chords",
+          "content": ["F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "smile at me."
+        }
+      ]
+    }
+  ]
+}

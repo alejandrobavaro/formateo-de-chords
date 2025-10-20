@@ -1,0 +1,414 @@
+{
+  "id": "robbie-williams-lovelight",
+  "title": "Lovelight",
+  "artist": "Robbie Williams",
+  "originalKey": "Dm",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "What am I supposed to do"
+        },
+        {
+          "type": "lyric",
+          "content": "To keep from goin' under?"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Now you're making holes in my heart"
+        },
+        {
+          "type": "lyric",
+          "content": "And yes it's starting to show"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "I've been holding back"
+        },
+        {
+          "type": "lyric",
+          "content": "Is it any wonder?"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Since you walked right into my life"
+        },
+        {
+          "type": "lyric",
+          "content": "And interrupted my flow"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "And I wanna know"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Baby when you're with me"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Who do you think you're fooling?"
+        },
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Making me feel so sure"
+        },
+        {
+          "type": "lyric",
+          "content": "Turnin' your lovelight down again"
+        },
+        {
+          "type": "lyric",
+          "content": "Why don't you let me be?"
+        },
+        {
+          "type": "lyric",
+          "content": "You don't know what you're doing"
+        },
+        {
+          "type": "lyric",
+          "content": "Making me feel so sure"
+        },
+        {
+          "type": "lyric",
+          "content": "Turning your lovelight down again"
+        },
+        {
+          "type": "lyric",
+          "content": "(Did it again, did it again)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Baby I've got to know"
+        },
+        {
+          "type": "lyric",
+          "content": "Are we gonna make it?"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Laying down beside me tonight"
+        },
+        {
+          "type": "lyric",
+          "content": "And do whatever you feel"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Baby you're in control"
+        },
+        {
+          "type": "lyric",
+          "content": "Where you gonna take it?"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Don't you think that I do you right?"
+        },
+        {
+          "type": "lyric",
+          "content": "You know darn well that I will"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "And I wanna know"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Baby when you're with me"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Who do you think you're fooling?"
+        },
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Making me feel so sure"
+        },
+        {
+          "type": "lyric",
+          "content": "Turnin' your lovelight down again"
+        },
+        {
+          "type": "lyric",
+          "content": "Why don't you let me be?"
+        },
+        {
+          "type": "lyric",
+          "content": "You don't know what you're doing"
+        },
+        {
+          "type": "lyric",
+          "content": "Making me feel so sure"
+        },
+        {
+          "type": "lyric",
+          "content": "Turning your lovelight down again"
+        },
+        {
+          "type": "lyric",
+          "content": "(Do it again, do it again)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PUENTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Baby you turn your lovelight down"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "And I don't know"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Just how long I can stick around"
+        },
+        {
+          "type": "lyric",
+          "content": "Girl I need more"
+        },
+        {
+          "type": "lyric",
+          "content": "And it ain't just physical"
+        },
+        {
+          "type": "lyric",
+          "content": "I don't know what I can do"
+        },
+        {
+          "type": "lyric",
+          "content": "If I found"
+        },
+        {
+          "type": "lyric",
+          "content": "It ain't love this time around"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Keep turning down your lovelight"
+        },
+        {
+          "type": "lyric",
+          "content": "Did it again"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Keep turning down your lovelight"
+        },
+        {
+          "type": "lyric",
+          "content": "Did it again"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Keep turning down your lovelight"
+        },
+        {
+          "type": "lyric",
+          "content": "Did it again"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Keep turning down your lovelight"
+        },
+        {
+          "type": "lyric",
+          "content": "Did it again"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Baby when you're with me"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Who do you think you're fooling?"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Making me feel so sure"
+        },
+        {
+          "type": "lyric",
+          "content": "Turnin' your lovelight down again"
+        },
+        {
+          "type": "lyric",
+          "content": "Why don't you let me be?"
+        },
+        {
+          "type": "lyric",
+          "content": "You don't know what you're doing"
+        },
+        {
+          "type": "lyric",
+          "content": "Making me feel so sure"
+        },
+        {
+          "type": "lyric",
+          "content": "Turning your lovelight down again"
+        }
+      ]
+    }
+  ]
+}

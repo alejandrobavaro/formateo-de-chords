@@ -1,0 +1,450 @@
+{
+  "id": "lenny-kravitz-again",
+  "title": "Again",
+  "artist": "Lenny Kravitz",
+  "originalKey": "C",
+  "tempo": "Rock/Soul",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "Em", "D"]
+        },
+        {
+          "type": "text",
+          "content": "(Riff de guitarra - Tablatura omitida por solicitud)"
+        },
+        {
+          "type": "chords",
+          "content": ["C9"]
+        },
+        {
+          "type": "text",
+          "content": "(Riff de guitarra - Tablatura omitida por solicitud)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C9"]
+        },
+        {
+          "type": "lyric",
+          "content": "I've been searching for you"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C9"]
+        },
+        {
+          "type": "lyric",
+          "content": "I heard a cry within my soul"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C9"]
+        },
+        {
+          "type": "lyric",
+          "content": "I've never had a yearning quite like this before"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C9"]
+        },
+        {
+          "type": "lyric",
+          "content": "Now here you are walking right through my door"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G9"]
+        },
+        {
+          "type": "lyric",
+          "content": "All of my life"
+        },
+        {
+          "type": "chords",
+          "content": ["Em"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Where have you been"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "I wonder if I'll ever see you again"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "And if that day comes"
+        },
+        {
+          "type": "chords",
+          "content": ["Em"]
+        },
+        {
+          "type": "lyric",
+          "content": "I know we could win"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "I wonder if I'll ever see you again"
+        },
+        {
+          "type": "chords",
+          "content": ["C9"]
+        },
+        {
+          "type": "lyric",
+          "content": "A sacred gift of heaven"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C9"]
+        },
+        {
+          "type": "lyric",
+          "content": "For better, worse, wherever"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C9"]
+        },
+        {
+          "type": "lyric",
+          "content": "And I would never let somebody break you down"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Or take your crown never"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G9"]
+        },
+        {
+          "type": "lyric",
+          "content": "All of my life"
+        },
+        {
+          "type": "chords",
+          "content": ["Em"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Where have you been"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "I wonder if I'll ever see you again"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "And if that day comes"
+        },
+        {
+          "type": "chords",
+          "content": ["Em"]
+        },
+        {
+          "type": "lyric",
+          "content": "I know we could win"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "I wonder if I'll ever see you again"
+        },
+        {
+          "type": "text",
+          "content": "(Solo de guitarra - Tablatura omitida por solicitud)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BRIDGE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D#"]
+        },
+        {
+          "type": "lyric",
+          "content": "I've searched through time, I've always known"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "That you were there upon your throne"
+        },
+        {
+          "type": "chords",
+          "content": ["D#"]
+        },
+        {
+          "type": "lyric",
+          "content": "A lonely queen without her king"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "I've longed for you, my love forever"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "Em", "D", "C"]
+        },
+        {
+          "type": "text",
+          "content": "(Solo de guitarra - Tablatura omitida por solicitud)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL CHORUS",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G9"]
+        },
+        {
+          "type": "lyric",
+          "content": "All of my life"
+        },
+        {
+          "type": "chords",
+          "content": ["Em"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Where have you been"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "I wonder if I'll ever see you again"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "And if that day comes"
+        },
+        {
+          "type": "chords",
+          "content": ["Em"]
+        },
+        {
+          "type": "lyric",
+          "content": "I know we could win"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "I wonder if I'll ever see you again"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "Em", "D#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    }
+  ]
+}

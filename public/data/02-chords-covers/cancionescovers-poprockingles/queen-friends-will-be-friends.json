@@ -1,0 +1,473 @@
+{
+    "id": "queen-friends-will-be-friends",
+    "title": "Friends Will Be Friends",
+    "artist": "Queen",
+    "originalKey": "D",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D", "F#7", "Bm", "D7", "G", "C", "G"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRIMERA PARTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Another red letter day"
+          },
+          {
+            "type": "chords",
+            "content": ["A/C#"]
+          },
+          {
+            "type": "chords",
+            "content": ["Bm"]
+          },
+          {
+            "type": "lyric",
+            "content": "So the pound has dropped and"
+          },
+          {
+            "type": "chords",
+            "content": ["F#m", "D7"]
+          },
+          {
+            "type": "lyric",
+            "content": "The children are creating"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "The other half ran away"
+          },
+          {
+            "type": "chords",
+            "content": ["A7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Taking all the cash and leaving you with the lumber"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "F#7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Got a pain in a chest"
+          },
+          {
+            "type": "chords",
+            "content": ["Bm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Doctors on strike"
+          },
+          {
+            "type": "chords",
+            "content": ["D7"]
+          },
+          {
+            "type": "lyric",
+            "content": "What you need is a rest"
+          },
+          {
+            "type": "chords",
+            "content": ["Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "It's not easy love"
+          },
+          {
+            "type": "chords",
+            "content": ["A7"]
+          },
+          {
+            "type": "lyric",
+            "content": "But you've got friends you can trust"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Friends will be friends"
+              },
+              {
+                "type": "chord",
+                "content": "G#m"
+              },
+              {
+                "type": "lyric",
+                "content": "When you are in need of love"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "They give you care and attention"
+              },
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "lyric",
+                "content": "Friends will be friends"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["A", "Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "When you are through with life"
+          },
+          {
+            "type": "chords",
+            "content": ["Bm", "F#7/A#"]
+          },
+          {
+            "type": "lyric",
+            "content": "And all hope is lost"
+          },
+          {
+            "type": "chords",
+            "content": ["D9/A"]
+          },
+          {
+            "type": "lyric",
+            "content": "Hold out your hand"
+          },
+          {
+            "type": "chords",
+            "content": ["E7/G#", "G7M"]
+          },
+          {
+            "type": "lyric",
+            "content": "'Cos friends will be friends"
+          },
+          {
+            "type": "chords",
+            "content": ["A7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Right till the end"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PUENTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D", "F#7", "Bm", "D7", "G", "C", "G"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SEGUNDA PARTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Now it's a beautiful day"
+          },
+          {
+            "type": "chords",
+            "content": ["A/C#"]
+          },
+          {
+            "type": "chords",
+            "content": ["Bm"]
+          },
+          {
+            "type": "lyric",
+            "content": "The postman delivered a letter"
+          },
+          {
+            "type": "chords",
+            "content": ["F#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "From your lover"
+          },
+          {
+            "type": "chords",
+            "content": ["D7"]
+          },
+          {
+            "type": "chords",
+            "content": ["G", "Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "Only a phone call away"
+          },
+          {
+            "type": "chords",
+            "content": ["A7"]
+          },
+          {
+            "type": "lyric",
+            "content": "You tried to track him down but"
+          },
+          {
+            "type": "lyric",
+            "content": "Somebody stole his number"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "F#7"]
+          },
+          {
+            "type": "lyric",
+            "content": "As a matter of fact"
+          },
+          {
+            "type": "chords",
+            "content": ["Bm"]
+          },
+          {
+            "type": "lyric",
+            "content": "You are getting used to life"
+          },
+          {
+            "type": "chords",
+            "content": ["D7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Without him in your way"
+          },
+          {
+            "type": "chords",
+            "content": ["Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "It's so easy now"
+          },
+          {
+            "type": "chords",
+            "content": ["A7"]
+          },
+          {
+            "type": "lyric",
+            "content": "'Cos you got friends you can trust"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "G#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "Friends will be friends"
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "When you are in need of love"
+          },
+          {
+            "type": "chords",
+            "content": ["Bm"]
+          },
+          {
+            "type": "lyric",
+            "content": "They give you care and attention"
+          },
+          {
+            "type": "chords",
+            "content": ["A", "Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "Friends will be friends"
+          },
+          {
+            "type": "chords",
+            "content": ["Bm", "B7"]
+          },
+          {
+            "type": "lyric",
+            "content": "When you are through with life"
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Hold out your hand"
+          },
+          {
+            "type": "chords",
+            "content": ["E7", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "'Cos friends will be friends"
+          },
+          {
+            "type": "chords",
+            "content": ["A7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Right till the end"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "G#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "Friends will be friends"
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "When you are in need of love"
+          },
+          {
+            "type": "chords",
+            "content": ["Bm"]
+          },
+          {
+            "type": "lyric",
+            "content": "They give you care and attention"
+          },
+          {
+            "type": "chords",
+            "content": ["A", "Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "Friends will be friends"
+          },
+          {
+            "type": "chords",
+            "content": ["Bm", "F#7/A#"]
+          },
+          {
+            "type": "lyric",
+            "content": "When you are through with life"
+          },
+          {
+            "type": "chords",
+            "content": ["D/A"]
+          },
+          {
+            "type": "lyric",
+            "content": "Hold out your hand"
+          },
+          {
+            "type": "chords",
+            "content": ["E7/G#", "G", "A7"]
+          },
+          {
+            "type": "lyric",
+            "content": "'Cos right till the end"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "G#m", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Friends will be friends"
+          },
+          {
+            "type": "lyric",
+            "content": "Yeah, yeah"
+          }
+        ]
+      }
+    ]
+  }
+  

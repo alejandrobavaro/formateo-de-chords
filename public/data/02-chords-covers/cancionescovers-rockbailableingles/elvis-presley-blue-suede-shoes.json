@@ -1,0 +1,340 @@
+{
+  "id": "elvis-presley-blue-suede-shoes",
+  "title": "Blue Suede Shoes",
+  "artist": "Elvis Presley",
+  "originalKey": "A",
+  "tempo": "Rockabilly",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE",
+      "lines": [
+        {
+          "type": "lyric",
+          "content": "Well it's a one for the money"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Two for the show"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Three to get ready now go, cat, go"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D7(9)"]
+        },
+        {
+          "type": "lyric",
+          "content": "But don't you step on my blue suede"
+        },
+        {
+          "type": "chords",
+          "content": ["A9"]
+        },
+        {
+          "type": "lyric",
+          "content": "Shoes"
+        },
+        {
+          "type": "chords",
+          "content": ["E7(9)"]
+        },
+        {
+          "type": "lyric",
+          "content": "You can do anything"
+        },
+        {
+          "type": "chords",
+          "content": ["A9"]
+        },
+        {
+          "type": "lyric",
+          "content": "But lay off of my blue suede shoes"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE - VARIACIÓN LETRA",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Well you can knock me down"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Step in my face"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Slander my name all over the place"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "And do anything that you want to do"
+        },
+        {
+          "type": "lyric",
+          "content": "But ah ah, honey, lay off of them' shoes"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D7(9)"]
+        },
+        {
+          "type": "lyric",
+          "content": "And don't you step on my blue suede"
+        },
+        {
+          "type": "chords",
+          "content": ["A9"]
+        },
+        {
+          "type": "lyric",
+          "content": "Shoes"
+        },
+        {
+          "type": "chords",
+          "content": ["E7(9)"]
+        },
+        {
+          "type": "lyric",
+          "content": "You can do anything"
+        },
+        {
+          "type": "chords",
+          "content": ["A9"]
+        },
+        {
+          "type": "lyric",
+          "content": "But lay off of my blue suede shoes"
+        },
+        {
+          "type": "text",
+          "content": "Let's go, cat!"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO 1",
+      "lines": [
+        {
+          "type": "text",
+          "content": "(Solo de guitarra - Tablatura omitida por solicitud)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE - VARIACIÓN LETRA 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Well you can burn my house"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Steal my car"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Drink my liquor from an old fruit jar"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "And do anything that you want to do"
+        },
+        {
+          "type": "lyric",
+          "content": "But ah ah, honey, lay off of my shoes"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 3",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D7(9)"]
+        },
+        {
+          "type": "lyric",
+          "content": "And don't you step on my blue suede"
+        },
+        {
+          "type": "chords",
+          "content": ["A9"]
+        },
+        {
+          "type": "lyric",
+          "content": "Shoes"
+        },
+        {
+          "type": "chords",
+          "content": ["E7(9)"]
+        },
+        {
+          "type": "lyric",
+          "content": "You can do anything but lay off of my"
+        },
+        {
+          "type": "chords",
+          "content": ["A9"]
+        },
+        {
+          "type": "lyric",
+          "content": "Blue suede shoes"
+        },
+        {
+          "type": "text",
+          "content": "Rock it!"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO 2",
+      "lines": [
+        {
+          "type": "text",
+          "content": "(Solo de guitarra - Tablatura omitida por solicitud)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's blue blue, blue suede shoes"
+        },
+        {
+          "type": "lyric",
+          "content": "blue blue, blue suede shoes, yeah"
+        },
+        {
+          "type": "chords",
+          "content": ["D7(9)"]
+        },
+        {
+          "type": "lyric",
+          "content": "blue blue, blue suede shoes, baby"
+        },
+        {
+          "type": "chords",
+          "content": ["A9", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Blue blue, blue suede shoes"
+        },
+        {
+          "type": "chords",
+          "content": ["E7(9)"]
+        },
+        {
+          "type": "lyric",
+          "content": "Well, you can do anything"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "But lay off of my blue suede shoes"
+        }
+      ]
+    }
+  ]
+}

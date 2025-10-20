@@ -1,0 +1,436 @@
+{
+  "id": "bryan-adams-have-you-ever-really-loved-a-woman",
+  "title": "Have You Ever Really Loved a Woman",
+  "artist": "Bryan Adams",
+  "originalKey": "E",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "To really love a woman, to understand her,"
+            },
+            {
+              "type": "chords",
+              "content": ["Am", "B"]
+            },
+            {
+              "type": "lyric",
+              "content": "You've got to know her deep inside"
+            },
+            {
+              "type": "chords",
+              "content": ["G", "D/F#", "Em7"]
+            },
+            {
+              "type": "lyric",
+              "content": "Hear every thought, see every dream, and give her wings when she wants to fly"
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["Am", "B"]
+            },
+            {
+              "type": "lyric",
+              "content": "Then when you find yourself lying helpless in her arms, you know you really"
+            },
+            {
+              "type": "chords",
+              "content": ["E11", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Love a woman"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "When you love a woman, you tell her that she's really wanted"
+            },
+            {
+              "type": "chords",
+              "content": ["B", "B7", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "When you love a woman, you tell her that she's the one"
+            },
+            {
+              "type": "chords",
+              "content": ["E", "C#m7", "F#m7B"]
+            },
+            {
+              "type": "lyric",
+              "content": "She needs somebody, to tell her that it's gonna last forever"
+            },
+            {
+              "type": "chords",
+              "content": ["F#m7", "B", "F#m7"]
+            },
+            {
+              "type": "lyric",
+              "content": "So tell me have you ever really...really, really ever loved a woman"
+            },
+            {
+              "type": "chords",
+              "content": ["B", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["C", "Am"]
+            },
+            {
+              "type": "lyric",
+              "content": "To really love a woman, let her hold you"
+            },
+            {
+              "type": "chords",
+              "content": ["B"]
+            },
+            {
+              "type": "lyric",
+              "content": "Till you know how she needs to be touched"
+            },
+            {
+              "type": "chords",
+              "content": ["G", "D/F#", "Em7"]
+            },
+            {
+              "type": "lyric",
+              "content": "You've got to breathe her, really taste her"
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Till you can feel her in your blood"
+            },
+            {
+              "type": "chords",
+              "content": ["Am", "B"]
+            },
+            {
+              "type": "lyric",
+              "content": "And when you can see your unborn children in her eyes"
+            },
+            {
+              "type": "chords",
+              "content": ["E11", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "You know you really love a woman"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS (REPEAT)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "When you love a woman, you tell her that she's really wanted"
+            },
+            {
+              "type": "chords",
+              "content": ["B", "B7", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "When you love a woman, you tell her that she's the one"
+            },
+            {
+              "type": "chords",
+              "content": ["E", "C#m7", "F#m7B"]
+            },
+            {
+              "type": "lyric",
+              "content": "She needs somebody, to tell her that you'll always be together"
+            },
+            {
+              "type": "chords",
+              "content": ["F#m7", "B", "F#m7"]
+            },
+            {
+              "type": "lyric",
+              "content": "So tell me have you ever really...really, really ever loved a woman"
+            },
+            {
+              "type": "chords",
+              "content": ["B", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 3",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "Oh... You've got to"
+            },
+            {
+              "type": "chords",
+              "content": ["D", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Give her some faith, hold her tight, a little tenderness"
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "You've got to treat her right"
+            },
+            {
+              "type": "chords",
+              "content": ["B", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "She will be there for you taking good care of you"
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "You really gotta love your woman"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO",
+      "lines": [
+        {
+          "type": "text",
+          "content": "(Solo de guitarra)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 4",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Am", "B"]
+            },
+            {
+              "type": "lyric",
+              "content": "And when you find yourself lying helpless in her arms"
+            },
+            {
+              "type": "chords",
+              "content": ["E11", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "You know you really looooooove a woman"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL CHORUS",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "When you love a woman, you tell her that she's really wanted"
+            },
+            {
+              "type": "chords",
+              "content": ["B", "B7", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "When you love a woman, you tell her that she's the one"
+            },
+            {
+              "type": "chords",
+              "content": ["E", "C#m7", "F#m7B"]
+            },
+            {
+              "type": "lyric",
+              "content": "She needs somebody, to tell her that it's gonna last forever"
+            },
+            {
+              "type": "chords",
+              "content": ["F#m7", "B", "F#m7"]
+            },
+            {
+              "type": "lyric",
+              "content": "So tell me have you ever really...really, really ever loved a woman"
+            },
+            {
+              "type": "chords",
+              "content": ["B", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["F#m7", "B", "F#m7"]
+            },
+            {
+              "type": "lyric",
+              "content": "Just tell me have you ever really...really, really ever loved a woman"
+            },
+            {
+              "type": "chords",
+              "content": ["B", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["F#m7", "B", "F#m7"]
+            },
+            {
+              "type": "lyric",
+              "content": "Just tell me have you ever really...really, really ever loved a woman"
+            },
+            {
+              "type": "chords",
+              "content": ["B", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Oh"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

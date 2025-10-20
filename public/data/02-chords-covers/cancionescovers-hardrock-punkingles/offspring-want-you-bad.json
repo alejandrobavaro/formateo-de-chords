@@ -1,0 +1,365 @@
+{
+    "id": "offspring-want-you-bad",
+    "title": "Want You Bad",
+    "artist": "The Offspring",
+    "originalKey": "C",
+    "tempo": "Fast",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO/ESTROFA 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "If you could only read my mind"
+          },
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "You would know that things between us ain't right"
+          },
+          {
+            "type": "chords",
+            "content": ["F", "Em", "F", "G"]
+          },
+          {
+            "type": "chords",
+            "content": ["C", "Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "I know your arms are open wide"
+          },
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "But you're a little on the straight side, I can't lie"
+          },
+          {
+            "type": "chords",
+            "content": ["F", "Em", "F", "G"]
+          },
+          {
+            "type": "chords",
+            "content": ["F", "G", "Am", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Your one vice is you're too nice"
+          },
+          {
+            "type": "chords",
+            "content": ["F", "G", "Am", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Come around now, can you see"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "I want you all tattooed"
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": "I want you bad"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Complete me, mistreat me"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "Want you to be bad, bad, bad, bad, bad"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "F", "G"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "If you could only read my mind"
+          },
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "You would know that I've been waiting so long"
+          },
+          {
+            "type": "chords",
+            "content": ["F", "Em", "F", "G"]
+          },
+          {
+            "type": "chords",
+            "content": ["C", "Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "For someone almost just like you but with attitude, I'm waiting"
+          },
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "So come on"
+          },
+          {
+            "type": "chords",
+            "content": ["F", "Em", "F", "G"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F", "G", "Am", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Get out of clothes time, grow out those highlights"
+          },
+          {
+            "type": "chords",
+            "content": ["F", "G", "Am", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Come around now, can't you see"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "I want you in a vinyl suit"
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": "I want you bad"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Complicated, X-rated"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "I want you bad, bad, bad, bad"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "F", "G", "C"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PUENTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "F", "C", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Don't get me wrong, I know you're only being good"
+          },
+          {
+            "type": "chords",
+            "content": ["F", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "But that's what's wrong, I guess I just misunderstood"
+          },
+          {
+            "type": "lyric",
+            "content": "Go!"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "I want you all tattooed"
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "lyric",
+                "content": "I want you bad"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Complicated, X-rated"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "I want you bad, bad, bad, bad"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "F", "G", "C"]
+          },
+          {
+            "type": "chords",
+            "content": ["E", "B", "A", "C#m", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Bad, really really bad"
+          },
+          {
+            "type": "chords",
+            "content": ["C"]
+          }
+        ]
+      }
+    ]
+  }
+  

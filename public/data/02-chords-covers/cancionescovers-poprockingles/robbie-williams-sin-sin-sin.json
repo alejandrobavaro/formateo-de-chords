@@ -1,0 +1,574 @@
+{
+  "id": "robbie-williams-sin-sin-sin",
+  "title": "Sin Sin Sin",
+  "artist": "Robbie Williams",
+  "originalKey": "C",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRODUCCIÓN",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Don't let your eyes tell the brain"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "You should feel ashamed"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Everyone needs it baby"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "And I feel the same"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Didn't quite catch your name"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hush, hush, hush don't say a thing"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Let's see what the night will bring"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "It might be everything"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PUENTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Dm", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh it hurts when you're too blind to see"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Dm", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Please don't read my mind I tell the truth to me"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Sin sin sin"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Look where we've been"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "And where we are tonight"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hate the sin not the sinner"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm just after a glimmer of love"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "And life deep inside"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "TERCERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hush hush hush"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "To speak is a sin"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "And neither of us need rescuing"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Just relax"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's what Jesus would do"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "We're made in his image baby"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Let's ride this thing through"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PUENTE (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Dm", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh it hurts when you're too blind to see"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Dm", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "What about us? Well it was just for me"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Sin sin sin"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Look where we've been"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "And where we are tonight"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hate the sin not the sinner"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm just after a glimmer of love"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "And life deep inside"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CUARTA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "I won't sing of amore"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "It don't sound sincere"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Love is a cliché"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Dm", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "But if it's not here I'll disappear"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Sin sin sin"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Look where we've been"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "And where we are tonight"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hate the sin not the sinner"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm just after a glimmer of love"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "And life deep inside"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "OUTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Deep inside"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "Dm", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's love's great sex joy"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "I love you, you love my hate"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "Dm", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "And it feels inside"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Feels inside"
+        }
+      ]
+    }
+  ]
+}

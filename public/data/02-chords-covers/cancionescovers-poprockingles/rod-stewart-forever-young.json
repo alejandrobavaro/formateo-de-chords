@@ -1,0 +1,351 @@
+{
+  "id": "rod-stewart-forever-young",
+  "title": "Forever Young",
+  "artist": "Rod Stewart",
+  "originalKey": "E",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRODUCCIÓN",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["B", "B2", "B", "E"]
+        },
+        {
+          "type": "chords",
+          "content": ["E", "C#m7", "E"]
+        },
+        {
+          "type": "chords",
+          "content": ["E", "C#m7", "B"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": "May the good Lord be with you down every road you roam"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": "And may sunshine and happiness surround you when you're far from home"
+        },
+        {
+          "type": "chords",
+          "content": ["B", "B2", "B", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": "May you grow to be proud, dignified, and true"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["B", "B", "B", "B2", "B", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": "And do unto others as you'd have done to you"
+        },
+        {
+          "type": "chords",
+          "content": ["B", "B2", "B", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C#m", "E", "B", "B2", "B", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Be courageous and be brave"
+        },
+        {
+          "type": "chords",
+          "content": ["G#m", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "And in my heart you'll always stay"
+        },
+        {
+          "type": "chords",
+          "content": ["B", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Forever young (Forever young)"
+        },
+        {
+          "type": "chords",
+          "content": ["B", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Forever young (Forever young)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": "May good fortune be with you and may your guiding light be strong"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Build a stairway to heaven with a prince or a vagabond"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C#m", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "And may you never love in vain"
+        },
+        {
+          "type": "chords",
+          "content": ["G#m", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "And in my heart you will remain"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["B", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Forever young (Forever young)"
+        },
+        {
+          "type": "chords",
+          "content": ["B", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Forever young (Forever young)"
+        },
+        {
+          "type": "chords",
+          "content": ["B", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Forever young"
+        },
+        {
+          "type": "chords",
+          "content": ["B", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Forever young"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PUENTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "C#m7", "A", "B", "B", "B", "B", "B", "B2", "B2", "E", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "When you finally fly away I'll be hoping that I served you well"
+        },
+        {
+          "type": "chords",
+          "content": ["B", "B", "B", "B2", "B2", "E", "E", "E", "C#m7", "E", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "For all the wisdom of a lifetime no one can ever tell"
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": "But whatever road you choose"
+        },
+        {
+          "type": "chords",
+          "content": ["C#m", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm right behind you win or lose"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["B", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Forever young (Forever young)"
+        },
+        {
+          "type": "chords",
+          "content": ["B", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Forever young (Forever young)"
+        },
+        {
+          "type": "chords",
+          "content": ["C#m", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Forever young, for, forever young"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Forever young"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "C#m7", "A", "B", "E"]
+        },
+        {
+          "type": "chords",
+          "content": ["C#m7", "B", "E", "C#m7", "B"]
+        },
+        {
+          "type": "chords",
+          "content": ["B", "B4", "B", "B2", "B"]
+        }
+      ]
+    }
+  ]
+}

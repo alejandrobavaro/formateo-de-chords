@@ -1,0 +1,496 @@
+{
+    "id": "queen-dont-stop-me-now",
+    "title": "Don't Stop Me Now",
+    "artist": "Queen",
+    "originalKey": "D",
+    "tempo": "Fast",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "PRIMERA PARTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Tonight, I'm gonna have myself"
+          },
+          {
+            "type": "chords",
+            "content": ["F#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "A real good time"
+          },
+          {
+            "type": "chords",
+            "content": ["Bm"]
+          },
+          {
+            "type": "lyric",
+            "content": "I feel alive"
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "F#m", "G", "A"]
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "And the world, I'll turn it inside out, yeah"
+          },
+          {
+            "type": "chords",
+            "content": ["D7"]
+          },
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em7"]
+          },
+          {
+            "type": "lyric",
+            "content": "And floating around in ecstasy"
+          },
+          {
+            "type": "chords",
+            "content": ["B7"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO 1",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "lyric",
+                "content": "So don't stop me now"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "Don't stop me"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "'Cause I'm having a good time"
+              },
+              {
+                "type": "chord",
+                "content": "Em7"
+              },
+              {
+                "type": "lyric",
+                "content": "Having a good time"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SEGUNDA PARTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "I'm a shooting star leaping"
+          },
+          {
+            "type": "chords",
+            "content": ["F#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "Through the skies, like a tiger"
+          },
+          {
+            "type": "chords",
+            "content": ["Bm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Defying the laws of gravity"
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "A"]
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "I'm racing car, passing by"
+          },
+          {
+            "type": "chords",
+            "content": ["F#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "Like lady Godiva, I'm gonna go, go, go"
+          },
+          {
+            "type": "chords",
+            "content": ["Bm"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "F#m", "G"]
+          },
+          {
+            "type": "chords",
+            "content": ["A"]
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "There's no stopping me"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D7"]
+          },
+          {
+            "type": "lyric",
+            "content": "I'm burning through the sky, yeah"
+          },
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "Two hundred degrees, that's why"
+          },
+          {
+            "type": "chords",
+            "content": ["B7"]
+          },
+          {
+            "type": "lyric",
+            "content": "They call me Mister Fahrenheit"
+          },
+          {
+            "type": "chords",
+            "content": ["Em"]
+          },
+          {
+            "type": "chords",
+            "content": ["B7"]
+          },
+          {
+            "type": "lyric",
+            "content": "I'm travelling at the speed of light"
+          },
+          {
+            "type": "chords",
+            "content": ["Em"]
+          },
+          {
+            "type": "chords",
+            "content": ["F#m", "G", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "I wanna make a supersonic man out of you"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO 2",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "Don't stop me now, I'm having"
+              },
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "lyric",
+                "content": "Such a good time, I'm having a ball"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F#m"
+              },
+              {
+                "type": "lyric",
+                "content": "Don't stop me now, if you wanna"
+              },
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "lyric",
+                "content": "Have a good time, just give me a call"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["Em7"]
+          },
+          {
+            "type": "lyric",
+            "content": "(Don't stop me now)"
+          },
+          {
+            "type": "chords",
+            "content": ["A"]
+          },
+          {
+            "type": "lyric",
+            "content": "'Cause I'm having a good time"
+          },
+          {
+            "type": "chords",
+            "content": ["Em7"]
+          },
+          {
+            "type": "lyric",
+            "content": "(Don't stop me now)"
+          },
+          {
+            "type": "chords",
+            "content": ["A7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Yes, I'm having a good time"
+          },
+          {
+            "type": "chords",
+            "content": ["G7(4)"]
+          },
+          {
+            "type": "lyric",
+            "content": "I don't want to stop at all"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "TERCERA PARTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "I'm a rocket ship, on my way to Mars"
+          },
+          {
+            "type": "chords",
+            "content": ["F#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "On a collision course"
+          },
+          {
+            "type": "chords",
+            "content": ["Bm"]
+          },
+          {
+            "type": "lyric",
+            "content": "I am a satellite, I'm out of control"
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "A"]
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "I'm a sex machine, ready to reload"
+          },
+          {
+            "type": "chords",
+            "content": ["F#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "Like an atom bomb"
+          },
+          {
+            "type": "chords",
+            "content": ["Bm"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "F#m", "G", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "About to oh, oh, oh, oh"
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "To explode"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PUENTE",
+        "lines": [
+          {
+            "type": "lyric",
+            "content": "Don't stop me, don't stop me"
+          },
+          {
+            "type": "lyric",
+            "content": "Don't stop me, hey hey hey"
+          },
+          {
+            "type": "lyric",
+            "content": "Don't stop me, don't stop me, oh oh oh"
+          },
+          {
+            "type": "lyric",
+            "content": "Don't stop me, don't stop me"
+          },
+          {
+            "type": "lyric",
+            "content": "Have a good time, good time"
+          },
+          {
+            "type": "lyric",
+            "content": "Don't stop me, don't stop me, Ah"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D", "F#m", "Bm"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "F#m", "G"]
+          },
+          {
+            "type": "chords",
+            "content": ["A", "D", "D7", "G"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em7", "B7", "Em"]
+          },
+          {
+            "type": "chords",
+            "content": ["D", "A", "Em"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "D", "A", "D"]
+          }
+        ]
+      }
+    ]
+  }
+  

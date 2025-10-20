@@ -1,0 +1,368 @@
+{
+  "id": "queen-innuendo",
+  "title": "Innuendo",
+  "artist": "Queen",
+  "originalKey": "C",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "C#7+/C"]
+        },
+        {
+          "type": "chords",
+          "content": ["E", "F7M/E", "C"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "C#7+/C"]
+        },
+        {
+          "type": "lyric",
+          "content": "While the sun hangs in the sky"
+        },
+        {
+          "type": "lyric",
+          "content": "And the desert has sand"
+        },
+        {
+          "type": "lyric",
+          "content": "While the waves crash in the sea"
+        },
+        {
+          "type": "lyric",
+          "content": "And meet the land"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "F7M/E"]
+        },
+        {
+          "type": "lyric",
+          "content": "While there's a wind and"
+        },
+        {
+          "type": "lyric",
+          "content": "The stars and the rainbow"
+        },
+        {
+          "type": "lyric",
+          "content": "Till the mountains crumble into the plain"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "G", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh, yes, we'll keep on tryin'"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "C", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tread that fine line"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "G", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh, we'll keep on tryin', yeah"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Just passing our time"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "C#7+/C"]
+        },
+        {
+          "type": "lyric",
+          "content": "While we live according to race"
+        },
+        {
+          "type": "lyric",
+          "content": "Colour or creed"
+        },
+        {
+          "type": "lyric",
+          "content": "While we rule by blind madness"
+        },
+        {
+          "type": "lyric",
+          "content": "And pure greed"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "F7M/E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Our lives dictated by tradition"
+        },
+        {
+          "type": "lyric",
+          "content": "Superstition, false religion"
+        },
+        {
+          "type": "lyric",
+          "content": "Through the cons, and on and on"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "G", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh, yes, we'll keep on tryin'"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "C", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "We'll tread that fine line"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "G", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh, oh, we'll keep on tryin'!"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Till the end time"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PUENTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "C#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Through the sorrow all through"
+        },
+        {
+          "type": "lyric",
+          "content": "Our splendour"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "C#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Don't take offence at my innuendo"
+        },
+        {
+          "type": "chords",
+          "content": ["G#", "C#m", "E", "Fm", "D#"]
+        },
+        {
+          "type": "chords",
+          "content": ["C#", "C", "C#", "C"]
+        },
+        {
+          "type": "chords",
+          "content": ["G#"]
+        },
+        {
+          "type": "lyric",
+          "content": "You can be anything you want to be!"
+        },
+        {
+          "type": "chords",
+          "content": ["D#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Just turn yourself into anything you think that you could ever be"
+        },
+        {
+          "type": "chords",
+          "content": ["Fm", "C#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Be free with your tempo, be free, be free"
+        },
+        {
+          "type": "chords",
+          "content": ["G#", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Surrender your ego - be free, be free to yourself"
+        },
+        {
+          "type": "chords",
+          "content": ["Fm", "D#", "C#"]
+        },
+        {
+          "type": "chords",
+          "content": ["C", "C#", "C", "C#"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "TERCERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "C#7+/C"]
+        },
+        {
+          "type": "lyric",
+          "content": "If there's a God or any kind of"
+        },
+        {
+          "type": "lyric",
+          "content": "Justice under the sky"
+        },
+        {
+          "type": "lyric",
+          "content": "If there's a point, if there's a"
+        },
+        {
+          "type": "lyric",
+          "content": "Reason to live or die"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "F7M/E"]
+        },
+        {
+          "type": "lyric",
+          "content": "If there's an answer to"
+        },
+        {
+          "type": "lyric",
+          "content": "The questions we feel bound to ask"
+        },
+        {
+          "type": "lyric",
+          "content": "Show yourself"
+        },
+        {
+          "type": "lyric",
+          "content": "Destroy our fears"
+        },
+        {
+          "type": "lyric",
+          "content": "Release your mask"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "G", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh, yes, we'll keep on trying"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "C", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hey, tread that fine line"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "G", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Yeah, we'll keep on smiling, yeah"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "C", "D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "And whatever will be, will be"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "We'll just keep on trying"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Till the end time"
+        },
+        {
+          "type": "lyric",
+          "content": "Till the end time"
+        },
+        {
+          "type": "lyric",
+          "content": "Till the end time!"
+        },
+        {
+          "type": "chords",
+          "content": ["Fm", "G", "F", "C"]
+        }
+      ]
+    }
+  ]
+}

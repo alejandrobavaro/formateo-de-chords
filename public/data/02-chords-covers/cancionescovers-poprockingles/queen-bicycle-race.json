@@ -1,0 +1,458 @@
+{
+    "id": "queen-bicycle-race",
+    "title": "Bicycle Race",
+    "artist": "Queen",
+    "originalKey": "A",
+    "tempo": "Fast",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "G#5+", "Em/G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Bicycle bicycle bicycle"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "Em4", "G#", "F", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "I want to ride my bicycle bicycle bicycle"
+          },
+          {
+            "type": "chords",
+            "content": ["Em4", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "I want to ride my bicycle"
+          },
+          {
+            "type": "chords",
+            "content": ["Em4", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "I want to ride my bike"
+          },
+          {
+            "type": "chords",
+            "content": ["Em4", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "I want to ride my bicycle"
+          },
+          {
+            "type": "chords",
+            "content": ["Em4", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "I want to ride it where I like"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRIMERA PARTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em7"]
+          },
+          {
+            "type": "lyric",
+            "content": "You say black I say white"
+          },
+          {
+            "type": "lyric",
+            "content": "You say bark I say bite"
+          },
+          {
+            "type": "lyric",
+            "content": "You say shark I say hey man"
+          },
+          {
+            "type": "chords",
+            "content": ["C7", "C#m7/5-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Jaws was never my scene"
+          },
+          {
+            "type": "lyric",
+            "content": "And I don't like Star Wars"
+          },
+          {
+            "type": "chords",
+            "content": ["Em7"]
+          },
+          {
+            "type": "lyric",
+            "content": "You say Rolls I say Royce"
+          },
+          {
+            "type": "lyric",
+            "content": "You say God give me a choice"
+          },
+          {
+            "type": "lyric",
+            "content": "You say Lord I say Christ"
+          },
+          {
+            "type": "chords",
+            "content": ["C7"]
+          },
+          {
+            "type": "lyric",
+            "content": "I don't believe in Peter Pan"
+          },
+          {
+            "type": "chords",
+            "content": ["C#m7/5-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Frankenstein or Superman"
+          },
+          {
+            "type": "chords",
+            "content": ["B", "C#", "D#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "All I wanna do is"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "Bicycle bicycle bicycle"
+              },
+              {
+                "type": "chord",
+                "content": "G#5+"
+              },
+              {
+                "type": "lyric",
+                "content": "I want to ride my bicycle bicycle bicycle"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "I want to ride my bicycle"
+              },
+              {
+                "type": "chord",
+                "content": "Em4"
+              },
+              {
+                "type": "lyric",
+                "content": "I want to ride my bike"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["C#m7", "F#7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Bicycle races are coming your way"
+          },
+          {
+            "type": "chords",
+            "content": ["B", "E", "E4", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "So forget all your duties oh yeah!"
+          },
+          {
+            "type": "chords",
+            "content": ["C#m7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Fat bottom girls"
+          },
+          {
+            "type": "chords",
+            "content": ["F#7"]
+          },
+          {
+            "type": "lyric",
+            "content": "They'll be riding today"
+          },
+          {
+            "type": "chords",
+            "content": ["B", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "So look out for those beauties oh yeah"
+          },
+          {
+            "type": "chords",
+            "content": ["D#7", "G#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "On your marks get set go"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F#", "B", "E", "F#", "G#m", "F#"]
+          },
+          {
+            "type": "chords",
+            "content": ["D#7", "G#m", "G#m", "F#", "E", "F#"]
+          },
+          {
+            "type": "chords",
+            "content": ["C#", "C#6", "C#7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Bicycle race bicycle race bicycle race"
+          },
+          {
+            "type": "chords",
+            "content": ["C#", "D#m", "Fm"]
+          },
+          {
+            "type": "chords",
+            "content": ["B", "D#m", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Bicycle bicycle bicycle"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SEGUNDA PARTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em4", "G#"]
+          },
+          {
+            "type": "lyric",
+            "content": "I want to ride my bicycle"
+          },
+          {
+            "type": "chords",
+            "content": ["F", "C#7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Bicycle bicycle bicycle bicycle"
+          },
+          {
+            "type": "chords",
+            "content": ["F#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Bicycle race"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D#7", "G#", "D#7", "G#", "D#7"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "TERCERA PARTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G#", "F", "A#m", "C7"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em7"]
+          },
+          {
+            "type": "lyric",
+            "content": "You say coke I say caine"
+          },
+          {
+            "type": "lyric",
+            "content": "You say John I say Wayne"
+          },
+          {
+            "type": "lyric",
+            "content": "Hot dog I say cool it man"
+          },
+          {
+            "type": "chords",
+            "content": ["C7", "C#m7/5-", "Em7"]
+          },
+          {
+            "type": "lyric",
+            "content": "I don't wanna be the President of America"
+          },
+          {
+            "type": "lyric",
+            "content": "You say smile I say cheese"
+          },
+          {
+            "type": "lyric",
+            "content": "Cartier I say please"
+          },
+          {
+            "type": "lyric",
+            "content": "Income tax I say Jesus"
+          },
+          {
+            "type": "chords",
+            "content": ["C7"]
+          },
+          {
+            "type": "lyric",
+            "content": "I don't wanna be a candidate for"
+          },
+          {
+            "type": "chords",
+            "content": ["C#m7/5-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Vietnam or Watergate"
+          },
+          {
+            "type": "chords",
+            "content": ["B", "C#", "D#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "Cos all I wanna do is"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "G#5+", "Em/G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Bicycle bicycle bicycle"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "Em4", "G#", "F", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "I want to ride my bicycle bicycle bicycle"
+          },
+          {
+            "type": "chords",
+            "content": ["Em4", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "I want to ride my bicycle"
+          },
+          {
+            "type": "chords",
+            "content": ["Em4", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "I want to ride my bike"
+          },
+          {
+            "type": "chords",
+            "content": ["Em4", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "I want to ride my bicycle"
+          },
+          {
+            "type": "chords",
+            "content": ["Em4", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "I want to ride my bicycle"
+          }
+        ]
+      }
+    ]
+  }
+  

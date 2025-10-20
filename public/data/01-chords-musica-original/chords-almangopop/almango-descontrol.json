@@ -1,0 +1,524 @@
+{
+  "id": "almango-descontrol",
+  "title": "Descontrol",
+  "artist": "Almango",
+  "originalKey": "A",
+  "tempo": "Rock Energético (130 BPM)",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A", "C", "D"]
+        },
+        {
+          "type": "text",
+          "content": "(2 veces)"
+        },
+        {
+          "type": "voice",
+          "name": "GRITO",
+          "color": "grito",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Descontrol!"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTROFA 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Veo tu cuerpo acercarse a mi,"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "siento el delirio de tu seducción."}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "Tus piernas desnudan mi imaginación,"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "despierta un abismo entre tu y yo."}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "F"},
+            {"type": "lyric", "content": "Veo como el mundo gira sobre mí."},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Siento que tu eres todo el placer"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "E"},
+            {"type": "lyric", "content": "de una noche sin control y rock!"},
+            {"type": "chord", "content": "F"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Seducción,"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "excitación,"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "libertad,"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "descontrol,"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ COROS",
+          "color": "coros",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "tentación,"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "fascinación,"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "debilidad…"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Descontrol! Uo uoo!"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Descontrol! Uo uoo!"}
+          ]
+        },
+        {
+          "type": "text",
+          "content": "(sin banda)"
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "Descontrol! Uo uoo!"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Descontrol! Uo uoo!"}
+          ]
+        },
+        {
+          "type": "text",
+          "content": "(con bombo)"
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Descontrol! Uo uoo!"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Descontrol! Uo uoo!"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "Descontrol! Uo uoo!"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Descontrol! Uo uoo!"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTRO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A", "C", "D"]
+        },
+        {
+          "type": "text",
+          "content": "(2 veces)"
+        },
+        {
+          "type": "voice",
+          "name": "GRITO",
+          "color": "grito",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Descontrol!"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTROFA 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Veo el camino de la tentación"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "siento vivir al borde la erupción."}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "Respiro tu fuego tu fascinación"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "despierta un abismo entre tu y yo."}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "F"},
+            {"type": "lyric", "content": "Veo como el mundo gira sobre mí."},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Siento que tu eres todo el placer"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "E"},
+            {"type": "lyric", "content": "de una noche sin control y rock!"},
+            {"type": "chord", "content": "F"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 2 (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Seducción,"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "excitación,"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "libertad,"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "descontrol,"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ COROS",
+          "color": "coros",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "tentación,"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "fascinación,"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "debilidad…"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BIS (RIFF)",
+      "lines": [
+        {
+          "type": "text",
+          "content": "Riff en A x 2"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "text",
+          "content": "(Power chords con distorsión)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 2 (SOLO VOCES Y BOMBO)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Seducción,"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "excitación,"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "libertad,"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "descontrol,"}
+          ]
+        },
+        {
+          "type": "text",
+          "content": "(Batería: solo bombo)"
+        },
+        {
+          "type": "voice",
+          "name": "BATA",
+          "color": "bata",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "tentación,"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "fascinación,"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "debilidad,"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Descontrol!"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 1 (CON BANDA)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Descontrol! Uo uoo!"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Descontrol! Uo uoo!"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ COROS",
+          "color": "coros",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "Descontrol! Uo uoo!"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Descontrol! Uo uoo!"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL (CON COROS)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Seducción,"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "excitación,"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ COROS",
+          "color": "coros",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "(seducción)"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "(excitación)"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "libertad,"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "descontrol,"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ COROS",
+          "color": "coros",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "(libertad)"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "(descontrol)"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "tentación,"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "fascinación,"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ COROS",
+          "color": "coros",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "(tentación)"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "(fascinación)"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "debilidad,"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "descontrol."},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ COROS",
+          "color": "coros",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "(debilidad)"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "(descontrol)"}
+          ]
+        }
+      ]
+    }
+  ]
+}

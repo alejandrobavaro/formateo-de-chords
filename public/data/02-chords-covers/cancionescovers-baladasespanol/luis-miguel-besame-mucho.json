@@ -1,0 +1,179 @@
+{
+  "id": "luis-miguel-besame-mucho",
+  "title": "Bésame Mucho",
+  "artist": "Luis Miguel",
+  "originalKey": "G",  // Tonalidad original aproximada (aunque la progresión sugiere Em como centro tonal)
+  "tempo": "Slow Bolero",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Em7", "C", "Am", "Em7"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTROFA 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Em7"},
+            {"type": "lyric", "content": "Bésame, bésame mucho"},
+            {"type": "chord", "content": "Am"},
+            {"type": "lyric", "content": "Como si fuera esta noche la última vez"},
+            {"type": "chord", "content": "E7"},
+            {"type": "lyric", "content": "Bésame, bésame mucho"},
+            {"type": "chord", "content": "Am"},
+            {"type": "lyric", "content": "Que tengo miedo perderte, perderte después"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTROFA 2 (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Em7"},
+            {"type": "lyric", "content": "Bésame, bésame mucho"},
+            {"type": "chord", "content": "Am"},
+            {"type": "lyric", "content": "Como si fuera esta noche la última vez"},
+            {"type": "chord", "content": "E7"},
+            {"type": "lyric", "content": "Bésame, bésame mucho"},
+            {"type": "chord", "content": "Em7"},
+            {"type": "lyric", "content": "Que tengo miedo perderte, perderte después"},
+            {"type": "chord", "content": "C7"},
+            {"type": "lyric", "content": ""},  // Acorde de paso sin letra
+            {"type": "chord", "content": "B7"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PUENTE",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Am"},
+            {"type": "lyric", "content": "Quiero tenerte muy cerca,"},
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "mirarme en tus ojos"},
+            {"type": "chord", "content": "B"},
+            {"type": "lyric", "content": "verte junto a mí"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Am"},
+            {"type": "lyric", "content": "Piensa que tal vez mañana"},
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "ya estaré lejos,"},
+            {"type": "chord", "content": "F#7"},
+            {"type": "lyric", "content": "muy lejos de aquí"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTROFA 3 (CORO DIVIDIDO)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Em7"},
+            {"type": "lyric", "content": "Bésame, bésame mucho"},
+            {"type": "chord", "content": "Am"},
+            {"type": "lyric", "content": "Como si fuera esta noche"},
+            {"type": "chord", "content": "Am7M"},
+            {"type": "lyric", "content": "la última vez"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Am7"},
+            {"type": "lyric", "content": ""},  // Armonía vocal
+            {"type": "chord", "content": "B7"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Em7"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "E7"},
+            {"type": "lyric", "content": "Bésame, bésame mucho"},
+            {"type": "chord", "content": "Am"},
+            {"type": "lyric", "content": "Que tengo miedo perderte"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Em7"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C7"},
+            {"type": "lyric", "content": ""},  
+            {"type": "chord", "content": "B7"},
+            {"type": "lyric", "content": "perderte después"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Em7", "C", "Am", "Em7"]
+        }
+      ]
+    }
+  ]
+}

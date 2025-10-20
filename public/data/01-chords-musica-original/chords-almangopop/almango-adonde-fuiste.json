@@ -1,0 +1,484 @@
+﻿{
+    "id": "almango-adonde-fuiste",
+    "title": "Adónde Fuiste",
+    "artist": "Almango",
+    "originalKey": "D",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO (Sin Banda)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D", "Bm", "G", "A"]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "name": "INTRO (Con Banda)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D", "Bm", "G", "A"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "VERSE 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "La pureza de tu alma, es belleza que a mí me derrumba al dolor."
+          },
+          {
+            "type": "chords",
+            "content": ["Bm", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y ahora yo no sé qué hacer, es que ya me equivoqué, otra vez."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "-"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "VERSE 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Porque yo a ti te perdí, y contigo yo no me fui."
+          },
+          {
+            "type": "chords",
+            "content": ["Bm", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Me quedé solo en este mundo, y ahora me marcho sin rumbo."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "-"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Solo y no encuentro el camino, y borracho yo me desangro."
+          },
+          {
+            "type": "chords",
+            "content": ["G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["D", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "Estoy solo, ¡Oh! ¡No! y me muero."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Hey, ¿y ahora que te fuiste? Ahora que no estás."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "No sé qué hacer de mi vida, solo..."
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Amor, dime adónde fuiste, ¿dónde estás?"
+          },
+          {
+            "type": "chords",
+            "content": ["A", "G", "A", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Por favor, perdóname..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (Repetición)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D", "Bm", "G", "A"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "VERSE 3",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Si me vieras suplicándole a la luna para que regreses, mi amor."
+          },
+          {
+            "type": "chords",
+            "content": ["Bm", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Yo ahora solo aquí doy pena, ya no voy a equivocarme, nunca más."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "-"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "VERSE 4",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Porque yo a ti te perdí, y contigo yo no me fui."
+          },
+          {
+            "type": "chords",
+            "content": ["Bm", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Me quedé solo en este mundo, y ahora me marcho sin rumbo, amor."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "-"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Solo y no encuentro el camino, y borracho yo me desangro."
+          },
+          {
+            "type": "chords",
+            "content": ["G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["D", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "Estoy solo, ¡Oh! ¡No! y me muero."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Hey, ¿y ahora que te fuiste? Ahora que no estás."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "No sé qué hacer de mi vida, solo..."
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Amor, dime adónde fuiste, ¿dónde estás?"
+          },
+          {
+            "type": "chords",
+            "content": ["A", "G", "A", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Por favor, perdóname..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D", "Bm", "G", "A"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO 3",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Solo y no encuentro el camino, y borracho yo me desangro."
+          },
+          {
+            "type": "chords",
+            "content": ["G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["D", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "Estoy solo, ¡Oh! ¡No! y me muero."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO 3",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Hey, ¿y ahora que te fuiste? Ahora que no estás."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "No sé qué hacer de mi vida, solo..."
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Amor, dime adónde fuiste, ¿dónde estás?"
+          },
+          {
+            "type": "chords",
+            "content": ["A", "G", "A", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Por favor, perdóname..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "RAP (ESTRIBILLO)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y ahora estoy perdido, como un niño. Sin camino, sin destino, no me animo a decirte."
+          },
+          {
+            "type": "chords",
+            "content": ["D", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Que esta vez metí la pata. Shit you're crazy."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Estoy jodido, malparido y sin abrigo. Yap yap."
+          },
+          {
+            "type": "chords",
+            "content": ["G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Te entrego mi guitarra, mis canciones, mis pasiones."
+          },
+          {
+            "type": "chords",
+            "content": ["D", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "¿Dónde estás? Adónde fuiste."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "G", "A", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Yo me muero, sin vos. Por favor, perdóname."
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,344 @@
+{
+  "id": "foo-fighters-big-me",
+  "title": "Big Me",
+  "artist": "Foo Fighters",
+  "originalKey": "A",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A", "F#m", "E", "D"]
+        },
+        {
+          "type": "chords",
+          "content": ["A", "F#m", "E", "D"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "When I talk about it"
+            },
+            {
+              "type": "chords",
+              "content": ["F#m"]
+            },
+            {
+              "type": "lyric",
+              "content": "It carries on"
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Reasons only knew"
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "When I talk about it"
+            },
+            {
+              "type": "chords",
+              "content": ["F#m"]
+            },
+            {
+              "type": "lyric",
+              "content": "Aries or treasons"
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "All renew"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["C#"]
+            },
+            {
+              "type": "lyric",
+              "content": "Big me to talk about it"
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "I could stand to prove"
+            },
+            {
+              "type": "chords",
+              "content": ["A7"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["C#"]
+            },
+            {
+              "type": "lyric",
+              "content": "If we can get around it"
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "I know that it's true"
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "When I talked about it"
+            },
+            {
+              "type": "chords",
+              "content": ["F#m"]
+            },
+            {
+              "type": "lyric",
+              "content": "Carried on"
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Reasons only knew"
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A", "E", "D", "A", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "But it's you I fell into"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS (REPEAT)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "When I talked about it"
+            },
+            {
+              "type": "chords",
+              "content": ["F#m"]
+            },
+            {
+              "type": "lyric",
+              "content": "Carried on"
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Never was it true"
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A", "E", "D", "A", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "But it's you I fell into"
+            },
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "Well I talked about it"
+            },
+            {
+              "type": "chords",
+              "content": ["F#m"]
+            },
+            {
+              "type": "lyric",
+              "content": "Put it on"
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Never was it true"
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A", "E", "D", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "But it's you I fell into"
+            },
+            {
+              "type": "chords",
+              "content": ["E", "D", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "I fell into"
+            },
+            {
+              "type": "chords",
+              "content": ["E", "D", "A", "A7"]
+            },
+            {
+              "type": "lyric",
+              "content": "I fell into"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

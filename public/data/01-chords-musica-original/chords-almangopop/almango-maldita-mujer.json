@@ -1,0 +1,512 @@
+{
+  "id": "almango-maldita-mujer",
+  "title": "Maldita mujer",
+  "artist": "Almango",
+  "originalKey": "Am",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "text",
+          "content": "INTRO x 1 fx + INTRO x 2"
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "F", "x2"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "lyric",
+          "content": "Aquella noche cuando nos conocimos,"
+        },
+        {
+          "type": "chord",
+          "content": "F"
+        },
+        {
+          "type": "lyric",
+          "content": "pensé todo sería ideal…"
+        },
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "lyric",
+          "content": "Era perfecto tú y yo para siempre"
+        },
+        {
+          "type": "chord",
+          "content": "F"
+        },
+        {
+          "type": "lyric",
+          "content": "Nada podía salir mal…"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Am"
+            },
+            {
+              "type": "lyric",
+              "content": "Maldita mujer,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F"
+            },
+            {
+              "type": "lyric",
+              "content": "te arrepentirás…"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Maldita mujer, te arrepentirás…"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTRO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am", "F", "x2"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "lyric",
+          "content": "Hoy me siento vacío, no encuentro salida,"
+        },
+        {
+          "type": "chord",
+          "content": "F"
+        },
+        {
+          "type": "lyric",
+          "content": "todo fue tan irreal…"
+        },
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "lyric",
+          "content": "Me engañó tu sonrisa, falsa tan enfermiza"
+        },
+        {
+          "type": "chord",
+          "content": "F"
+        },
+        {
+          "type": "lyric",
+          "content": "Solo quiero olvidar…"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 1 (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Am"
+            },
+            {
+              "type": "lyric",
+              "content": "Maldita mujer,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F"
+            },
+            {
+              "type": "lyric",
+              "content": "te arrepentirás…"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 2 (PERREO)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh! Maldita maldita mujer!"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Maldita maldita mujer!"
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Maldita maldita mujer! Maldita maldita!!"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Por robar mi vida mujer"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "por jugar conmigo..."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTRO (SOLO PIANO)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am", "F"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "RAP",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Siempre intentaba cambiar para hacerte feliz"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "pero a vos nada de esto te alcanzaba.."
+        },
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Me olvidaba de mi felicidad,"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "regalando mi destino a tu locura…"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 1 (SOLO VOCES Y VIOLA)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Am"
+            },
+            {
+              "type": "lyric",
+              "content": "Maldita mujer,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F"
+            },
+            {
+              "type": "lyric",
+              "content": "te arrepentirás…"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Maldita mujer, te arrepentirás…"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BIS",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Malditaa!!! Malditaaaaaaaaa!!!"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 2 (PERREO) (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh! Maldita maldita mujer!"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Maldita maldita mujer!"
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Maldita maldita mujer! Maldita maldita!!"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 1 (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Am"
+            },
+            {
+              "type": "lyric",
+              "content": "Maldita mujer,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F"
+            },
+            {
+              "type": "lyric",
+              "content": "te arrepentirás…"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 2 (PERREO) (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh! Maldita maldita mujer!"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Maldita maldita mujer!"
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Maldita maldita mujer! Maldita maldita!!"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Por robar mi vida mujer por jugar conmigo..."
+        },
+        {
+          "type": "chords",
+          "content": ["C", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Por robar mi vida mujer por robar!! Maldita!!"
+        },
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Gritoo Ahhhhhhhhh!!!!"
+        }
+      ]
+    }
+  ]
+}

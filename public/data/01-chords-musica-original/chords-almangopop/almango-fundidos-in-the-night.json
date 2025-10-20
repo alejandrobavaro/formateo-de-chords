@@ -1,0 +1,373 @@
+{
+  "id": "almango-fundidos-in-the-night",
+  "title": "Fundidos in the Night",
+  "artist": "Almango",
+  "originalKey": "Am",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am", "G", "Am", "D", "x2", "-", "F", "G"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "lyric",
+          "content": "Hey nena, la noche, invita a salir."
+        },
+        {
+          "type": "chord",
+          "content": "Dm"
+        },
+        {
+          "type": "lyric",
+          "content": "Pongamos de fiesta, a toda la ciudad."
+        },
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "lyric",
+          "content": "Prendamos, el fuego, Fundidos in the night."
+        },
+        {
+          "type": "chord",
+          "content": "F"
+        },
+        {
+          "type": "lyric",
+          "content": "Que comience a brillar."
+        }
+      ]
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "lyric",
+          "content": "Hey nena, el ritmo, invita a danzar."
+        },
+        {
+          "type": "chord",
+          "content": "Dm"
+        },
+        {
+          "type": "lyric",
+          "content": "Menea, perrea, no pares de gozar."
+        },
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "lyric",
+          "content": "Ya suena en la disco, Fundidos in the night."
+        },
+        {
+          "type": "chord",
+          "content": "F"
+        },
+        {
+          "type": "lyric",
+          "content": "Sube la intensidad."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "F", "-", "E", "F", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Seducime, atrápame si podes."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Am"
+            },
+            {
+              "type": "lyric",
+              "content": "Esta noche nena vamos a bailar."
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Am"
+            },
+            {
+              "type": "lyric",
+              "content": "Esta noche nena vamos a bailar."
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["F", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Esta noche!"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTRO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am", "G", "Am", "D", "x2", "-", "F", "G"]
+        }
+      ]
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "lyric",
+          "content": "Hey nena, las luces, invitan a volar."
+        },
+        {
+          "type": "chord",
+          "content": "Dm"
+        },
+        {
+          "type": "lyric",
+          "content": "Libéra, tu mente, tu instinto animal."
+        },
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "lyric",
+          "content": "Rompamos, la noche, Fundidos in the night"
+        },
+        {
+          "type": "chord",
+          "content": "F"
+        },
+        {
+          "type": "lyric",
+          "content": "a toda velocidad."
+        }
+      ]
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "lyric",
+          "content": "Hey nena, me llega, tu adrenalina."
+        },
+        {
+          "type": "chord",
+          "content": "Dm"
+        },
+        {
+          "type": "lyric",
+          "content": "La dejay, incita, a bailar sin parar."
+        },
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "lyric",
+          "content": "Vibremos la pista, Fundidos in the night!"
+        },
+        {
+          "type": "chord",
+          "content": "F"
+        },
+        {
+          "type": "lyric",
+          "content": "Hasta el amanecer."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "F", "-", "E", "F", "G", "G#", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Seducime, atrápame, si podes."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Am"
+            },
+            {
+              "type": "lyric",
+              "content": "Esta noche nena vamos a bailar."
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Am"
+            },
+            {
+              "type": "lyric",
+              "content": "Esta noche nena vamos a bailar."
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["F", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Esta noche!"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Dm", "Am", "F", "G", "x2"]
+        }
+      ]
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Dm"
+        },
+        {
+          "type": "lyric",
+          "content": "Noche en la disco, noche en tus brazos,"
+        },
+        {
+          "type": "chord",
+          "content": "F"
+        },
+        {
+          "type": "lyric",
+          "content": "La noche de mis sueños…"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL (SOLO VOZ)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am", "F", "G", "Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Esta noche nena vamos a bailar…"
+        }
+      ]
+    }
+  ]
+}

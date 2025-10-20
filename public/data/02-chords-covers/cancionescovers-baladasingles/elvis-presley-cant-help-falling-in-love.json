@@ -1,0 +1,477 @@
+{
+  "id": "elvis-presley-cant-help-falling-in-love",
+  "title": "Can't Help Falling In Love",
+  "artist": "Elvis Presley",
+  "originalKey": "D",
+  "tempo": "Balada Romántica",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D", "A", "D", "D/A"]
+        },
+        {
+          "type": "text",
+          "content": "(Arpegio de guitarra - Tablatura omitida por solicitud)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D", "F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "Wise men say"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "Bm/A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D/F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Only fools rush in"
+        },
+        {
+          "type": "chords",
+          "content": ["A/E", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "But I can't help"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D/A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Falling in love with you"
+        },
+        {
+          "type": "chords",
+          "content": ["A7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D", "D/A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D", "F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "Shall I stay"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "Bm/A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D/F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Would it be a sin"
+        },
+        {
+          "type": "chords",
+          "content": ["A7/E", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "If I can't help"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D/A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Falling in love with you?"
+        },
+        {
+          "type": "chords",
+          "content": ["A7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D", "D/A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BRIDGE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F#m", "C#7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Like a river flows"
+        },
+        {
+          "type": "chords",
+          "content": ["F#m", "C#7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Surely to the sea"
+        },
+        {
+          "type": "chords",
+          "content": ["F#m", "C#7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Darling, so it goes"
+        },
+        {
+          "type": "chords",
+          "content": ["F#m", "B7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Some things"
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "A7"]
+        },
+        {
+          "type": "lyric",
+          "content": "are meant to be"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D", "F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "Take my hand"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "Bm/A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D/F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Take my whole life too"
+        },
+        {
+          "type": "chords",
+          "content": ["A7/E", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "For I can't help"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D/A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Falling in love with you"
+        },
+        {
+          "type": "chords",
+          "content": ["A7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D", "D/A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BRIDGE 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F#m", "C#7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Like a river flows"
+        },
+        {
+          "type": "chords",
+          "content": ["F#m", "C#7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Surely to the sea"
+        },
+        {
+          "type": "chords",
+          "content": ["F#m", "C#7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Darling, so it goes"
+        },
+        {
+          "type": "chords",
+          "content": ["F#m", "B7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Some things"
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "A7"]
+        },
+        {
+          "type": "lyric",
+          "content": "are meant to be"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL VERSE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D", "F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "Take my hand"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "Bm/A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D/F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Take my whole life too"
+        },
+        {
+          "type": "chords",
+          "content": ["A7/E", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "For I can't help"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D/A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Falling in love with you"
+        },
+        {
+          "type": "chords",
+          "content": ["A7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D", "D/A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "For I can't help"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D/A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Falling in love with you"
+        },
+        {
+          "type": "chords",
+          "content": ["A7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D", "D/A", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,383 @@
+﻿{
+    "id": "almango-la-casada-infiel",
+    "title": "La Casada Infiel",
+    "artist": "Almango",
+    "originalKey": "A",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "E", "D", "A", "E"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "VERSE 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Esta es la historia de la casada infiel."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y que yo me la lleve al río."
+          },
+          {
+            "type": "chords",
+            "content": ["E", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Creyendo que era mozuela, pero tenía marido."
+          },
+          {
+            "type": "chords",
+            "content": ["D", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "VERSE 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Fue la noche de Santiago y casi por compromiso."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Se apagaron los faroles, y se encendieron los grillos."
+          },
+          {
+            "type": "chords",
+            "content": ["E", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "En las últimas esquinas."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F#m", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Toqué sus pechos ya dormidos, y se me abrieron de pronto como ramos de jacinto."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Ni nardos ni caracolas tienen el cutis tan fino."
+          },
+          {
+            "type": "chords",
+            "content": ["E", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Ni los cristales con luna relumbran con ese brillo."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Sus muslos se me escapan como peces sorprendidos."
+          },
+          {
+            "type": "chords",
+            "content": ["D", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "La mitad llenos de lumbre, la mitad llenos de frío."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F#m", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Me porté como quien soy, como un gitano legítimo."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "La regalé un costurero grande raso de pajizo."
+          },
+          {
+            "type": "chords",
+            "content": ["E", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["F#m", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y no quise enamorarme porque teniendo marido."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Me dijo que era mozuela cuando la llevaba al río."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO 3",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F#m", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "El almidón de su enagua me sonaba en el oído."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Como una pieza de seda rasgada por diez cuchillos."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Yo me quité la corbata."
+          },
+          {
+            "type": "chords",
+            "content": ["D", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Ella se quitó el vestido."
+          },
+          {
+            "type": "chords",
+            "content": ["E", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Yo el cinturón con revólver."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Ella sus cuatro corpiños."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PERREO 1",
+        "lines": [
+          {
+            "type": "lyric",
+            "content": "No quiero decir, por hombre, las cosas que ella me dijo."
+          },
+          {
+            "type": "lyric",
+            "content": "La luz del entendimiento me hace ser muy comedido."
+          },
+          {
+            "type": "lyric",
+            "content": "Sucia de besos y arena, yo me la llevé del río."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Yo me quité la corbata."
+          },
+          {
+            "type": "chords",
+            "content": ["D", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Ella se quitó el vestido."
+          },
+          {
+            "type": "chords",
+            "content": ["E", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Yo el cinturón con revólver."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Ella sus cuatro corpiños."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PERREO 2",
+        "lines": [
+          {
+            "type": "lyric",
+            "content": "Con el aire se batían las espadas de los lirios."
+          },
+          {
+            "type": "lyric",
+            "content": "Aquella noche corrí el mejor de los caminos."
+          },
+          {
+            "type": "lyric",
+            "content": "Montado en potra de nácar sin bridas y sin estribos."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Yo me quité la corbata."
+          },
+          {
+            "type": "chords",
+            "content": ["D", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Ella se quitó el vestido."
+          },
+          {
+            "type": "chords",
+            "content": ["E", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Yo el cinturón con revólver."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Ella sus cuatro corpiños."
+          }
+        ]
+      }
+    ]
+  }
+  

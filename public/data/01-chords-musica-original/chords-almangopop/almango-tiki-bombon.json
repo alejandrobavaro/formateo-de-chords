@@ -1,0 +1,341 @@
+﻿{
+    "id": "almango-tiki-bombon",
+    "title": "Tiki Bombón",
+    "artist": "Almango",
+    "originalKey": "E",
+    "tempo": "Upbeat",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "G", "G#", "E", "G", "G#", "E"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "BASE (en E)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "-", "E", "-"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "VERSE 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Este es el blues de Tiki bombón, chichi bombón, y que bombón."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Oh! Se despierta temprano en la noche, Tiki bombón comienza a soñar con el blues."
+          },
+          {
+            "type": "chords",
+            "content": ["B", "-", "A#-A", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y con sus dotes asesinos, vuelve locos a todos con su baile HOT."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "G", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "Tiki bombón, Chichi bombón"
+          },
+          {
+            "type": "chords",
+            "content": ["E", "G", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "Tiki bombón, Chichi bombón"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Bombón..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "G", "G#", "E", "G", "G#", "E"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "BASE (en E)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "-", "E", "-"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "VERSE 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Viene directo de fábrica así, Tiki bombón lujuria y pasión."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y lo hereda de la Francia perdida. Sí, señores, aquí hay mucho nivel."
+          },
+          {
+            "type": "chords",
+            "content": ["B", "-", "A#-A", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Es sorprendente verla bailar mi blues. Vuelve locos a todos con su baile HOT."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "G", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "Tiki bombón, Chichi bombón"
+          },
+          {
+            "type": "chords",
+            "content": ["E", "G", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "Tiki bombón, Chichi bombón"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Bombón..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO BASE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "A", "B", "A"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SUBIDA",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "G#", "A", "A#", "B", "A", "A#", "B"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "RAP/LETRA ADICIONAL",
+        "lines": [
+          {
+            "type": "lyric",
+            "content": "Te veo en la pista, bailando tan sexy, moviendo tu cuerpo, meneando pa' bajo."
+          },
+          {
+            "type": "lyric",
+            "content": "De un lado pa' otro, me vuelves tan loco, eres dinamita y explotas mi vista."
+          },
+          {
+            "type": "lyric",
+            "content": "Te siento tan cerca que hice este tema, solo para verme bailar junto a vos."
+          },
+          {
+            "type": "lyric",
+            "content": "Por eso menea, menea menea!!"
+          },
+          {
+            "type": "chords",
+            "content": ["A", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Vuelve locos a todos con su baile HOT."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (FINAL)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "G", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "Tiki bombón, Chichi bombón"
+          },
+          {
+            "type": "chords",
+            "content": ["E", "G", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "Tiki bombón, Chichi bombón"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Bombón..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL BIS",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "E", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Bombón..."
+          },
+          {
+            "type": "chords",
+            "content": ["G", "E", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "Bombón..."
+          },
+          {
+            "type": "chords",
+            "content": ["G", "E", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Bombón..."
+          },
+          {
+            "type": "chords",
+            "content": ["G", "E", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "Bombón..."
+          },
+          {
+            "type": "chords",
+            "content": ["E", "G", "G#", "E", "G", "G#"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["G", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Mmmm... Bombón..."
+          }
+        ]
+      }
+    ]
+  }
+  

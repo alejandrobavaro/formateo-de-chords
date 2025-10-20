@@ -1,0 +1,508 @@
+{
+  "id": "almango-more-time",
+  "title": "More Time",
+  "artist": "Almango",
+  "originalKey": "C#",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Give me, give me time, more more time"
+        },
+        {
+          "type": "chords",
+          "content": ["D#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Give me, give me time, more more time"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Give me, give me time, more more time"
+        },
+        {
+          "type": "chords",
+          "content": ["F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "more, more, more time…"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTRO 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C#", "C", "(F#-E)", "x4"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "C#"
+        },
+        {
+          "type": "lyric",
+          "content": "Me vi llegar, te vi llegar,"
+        },
+        {
+          "type": "lyric",
+          "content": "roce tu piel, moje tu cuerpo"
+        },
+        {
+          "type": "lyric",
+          "content": "Sentí la sed, sentí tu sed."
+        },
+        {
+          "type": "lyric",
+          "content": "Será fatal mi aterrizaje."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C#"]
+        },
+        {
+          "type": "lyric",
+          "content": "I feel a coma, oh! that feels good"
+        },
+        {
+          "type": "chords",
+          "content": ["C#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Wait me baby, that feels good."
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "C#"
+            },
+            {
+              "type": "lyric",
+              "content": "Kiss me, kiss me, kiss me tonight."
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "B"
+            },
+            {
+              "type": "lyric",
+              "content": "Hold me, hold me, hold me again."
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["F#", "G#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Thrill me, thrill me, thrill me this way."
+        },
+        {
+          "type": "chords",
+          "content": ["C#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Give me, give me, more, more time."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTRO 2 (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C#", "C", "(F#-E)", "x4"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "C#"
+        },
+        {
+          "type": "lyric",
+          "content": "Me vi desear, te vi desear,"
+        },
+        {
+          "type": "lyric",
+          "content": "y me robe todo tu tiempo."
+        },
+        {
+          "type": "lyric",
+          "content": "Bañe tu ser, probé tu miel,"
+        },
+        {
+          "type": "lyric",
+          "content": "para cumplir con tu deseo."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C#"]
+        },
+        {
+          "type": "lyric",
+          "content": "I feel a coma, oh! that feels good"
+        },
+        {
+          "type": "chords",
+          "content": ["C#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Wait me baby, that feels good."
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "C#"
+            },
+            {
+              "type": "lyric",
+              "content": "Kiss me, kiss me, kiss me tonight."
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "B"
+            },
+            {
+              "type": "lyric",
+              "content": "Hold me, hold me, hold me again."
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["F#", "G#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Thrill me, thrill me, thrill me this way."
+        },
+        {
+          "type": "chords",
+          "content": ["C#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Give me, give me, more, more time."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C#", "D#", "E", "F#", "x2"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTRO 2 (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C#", "C", "(F#-E)", "x4"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C#"]
+        },
+        {
+          "type": "lyric",
+          "content": "I feel a coma, oh! that feels good"
+        },
+        {
+          "type": "chords",
+          "content": ["C#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Wait me baby, that feels good."
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO SOLO VOCES",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "C#"
+            },
+            {
+              "type": "lyric",
+              "content": "Kiss me, kiss me, kiss me tonight."
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "B"
+            },
+            {
+              "type": "lyric",
+              "content": "Hold me, hold me, hold me again."
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["F#", "G#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Thrill me, thrill me, thrill me this way."
+        },
+        {
+          "type": "chords",
+          "content": ["C#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Give me, give me, more, more time."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO CON BANDA",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "C#"
+            },
+            {
+              "type": "lyric",
+              "content": "Kiss me, kiss me, kiss me tonight."
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "B"
+            },
+            {
+              "type": "lyric",
+              "content": "Hold me, hold me, hold me again."
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["F#", "G#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Thrill me, thrill me, thrill me this way."
+        },
+        {
+          "type": "chords",
+          "content": ["C#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Give me, give me, more, more time."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTRO 1 FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Give me, give me time, more more time"
+        },
+        {
+          "type": "chords",
+          "content": ["D#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Give me, give me time, more more time"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Give me, give me time, more more time"
+        },
+        {
+          "type": "chords",
+          "content": ["F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "more, more, more time…"
+        }
+      ]
+    }
+  ]
+}

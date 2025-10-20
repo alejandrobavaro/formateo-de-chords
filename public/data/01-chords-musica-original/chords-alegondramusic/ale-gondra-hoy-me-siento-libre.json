@@ -1,0 +1,519 @@
+{
+  "id": "ale-gondra-hoy-me-siento-libre",
+  "title": "Hoy me siento libre",
+  "artist": "Ale Gondra",
+  "originalKey": "D",
+  "tempo": "Upbeat (Liberador)",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": "Fue por amor que cambie mi dirección,"
+        },
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "lyric",
+          "content": "y me anime, a enfrentar todos mis miedos."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO 1",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "lyric",
+          "content": "Cambie mi mundo, por uno mejor, yeah."
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": "Lo que me encerraba, ya lo libere."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Cambie dolor por amor."
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "Buscando un sol, respire paz, llegando al mar."
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "Deje atrás, todo el pasado y mis problemas."
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Hoy me siento libre."
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Cambie dolor por amor."
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "Y sin pensar, llegaste vos, a mi vida,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "amor real, y sin maldad, sin espinas."
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Hoy me siento libre."
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Y hoy me pinte el corazón de esperanza."
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "Y me bañe en energía positiva."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO 2",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "lyric",
+          "content": "Cambie mi rumbo, cambie mi interior, yeah."
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": "Lo que me atrapaba, ya lo libere."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Cambie dolor por amor."
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "Buscando un sol, respire paz, llegando al mar."
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "Deje atrás, todo el pasado y mis problemas."
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Hoy me siento libre."
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Cambie dolor por amor."
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "Y sin pensar, llegaste vos, a mi vida,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "amor real, y sin maldad, sin espinas."
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Hoy me siento libre."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BIS (Libre)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE + 2º VOZ PATO",
+          "color": "duo",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Libre, libre, libre uh uhhhh…"
+            },
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "Libre, libre, libre uh uhhhh…"
+            },
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Libre, libre, libre uh uhhhh…"
+            },
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "Libre, libre, libre uh uhhhh…"
+            },
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Libre, libre, libre uh uhhhh…"
+            },
+            {
+              "type": "chord",
+              "content": "A"
+            },
+            {
+              "type": "lyric",
+              "content": "Libre, libre, libre uh uhhhh…"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL (x2)",
+      "lines": [
+        {
+          "type": "text",
+          "content": "(x2)"
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE + 2º VOZ PATO",
+          "color": "duo",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Cambie dolor por amor."
+            },
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "Buscando un sol, respire paz, llegando al mar."
+            },
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "Deje atrás, todo el pasado y mis problemas."
+            },
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Hoy me siento libre."
+            },
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Cambie dolor por amor."
+            },
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "Y sin pensar, llegaste vos, a mi vida,"
+            },
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "amor real, y sin maldad, sin espinas."
+            },
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Hoy me siento libre."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

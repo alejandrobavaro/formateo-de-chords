@@ -1,0 +1,373 @@
+{
+    "id": "coti-nada-de-esto-fue-un-error-a",
+    "title": "Nada de Esto Fue un Error",
+    "artist": "Coti",
+    "originalKey": "A",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "E/G#", "D", "E"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Tengo una mala noticia,"
+          },
+          {
+            "type": "chord",
+            "content": "E/G#"
+          },
+          {
+            "type": "lyric",
+            "content": "no fue de casualidad,"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D/F#"
+          },
+          {
+            "type": "lyric",
+            "content": "yo quería que nos pasara,"
+          },
+          {
+            "type": "chord",
+            "content": "E/G#"
+          },
+          {
+            "type": "lyric",
+            "content": "y tú y tú, lo dejaste pasar."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "No quiero que me perdones,"
+          },
+          {
+            "type": "chord",
+            "content": "E/G#"
+          },
+          {
+            "type": "lyric",
+            "content": "y no me pidas perdón,"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D/F#"
+          },
+          {
+            "type": "lyric",
+            "content": "no me niegues que me buscaste,"
+          },
+          {
+            "type": "chord",
+            "content": "E/G#"
+          },
+          {
+            "type": "lyric",
+            "content": "nada nada de esto, heey!"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "Nada de esto fue un error,"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "uo oh!"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "nada fue un error,"
+          },
+          {
+            "type": "chords",
+            "content": ["E", "A", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "nada de esto fue un error, uo oh"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "nada fue un error."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Los errores nos eligen,"
+          },
+          {
+            "type": "chord",
+            "content": "E/G#"
+          },
+          {
+            "type": "lyric",
+            "content": "para bien o para mal,"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D/F#"
+          },
+          {
+            "type": "lyric",
+            "content": "no fallé cuando viniste,"
+          },
+          {
+            "type": "chord",
+            "content": "E/G#"
+          },
+          {
+            "type": "lyric",
+            "content": "y tú y tú, no quisiste fallar."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Aprendí la diferencia,"
+          },
+          {
+            "type": "chord",
+            "content": "E/G#"
+          },
+          {
+            "type": "lyric",
+            "content": "entre un juego y el azar,"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D/F#"
+          },
+          {
+            "type": "lyric",
+            "content": "quien te mira y quien se entrega,"
+          },
+          {
+            "type": "chord",
+            "content": "E/G#"
+          },
+          {
+            "type": "lyric",
+            "content": "nada nada de esto."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "Nada de esto fue un error,"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "uo oh!"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "nada fue un error,"
+          },
+          {
+            "type": "chords",
+            "content": ["E", "A", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "nada de esto fue un error, uo oh"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "nada fue un error."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "A", "G", "E"]
+          },
+          {
+            "type": "text",
+            "content": "(x2)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "REPETICIÓN",
+        "lines": [
+          {
+            "type": "text",
+            "content": "(REPITE TODO IGUAL)"
+          }
+        ]
+      }
+    ]
+  }
+  

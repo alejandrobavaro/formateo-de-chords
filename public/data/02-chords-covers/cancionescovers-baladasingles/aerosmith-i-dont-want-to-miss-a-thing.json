@@ -1,0 +1,461 @@
+{
+  "id": "aerosmith-i-dont-want-to-miss-a-thing",
+  "title": "I Don't Want To Miss A Thing",
+  "artist": "Aerosmith",
+  "originalKey": "A",
+  "tempo": "Slow",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["A", "E", "F#m"]
+            },
+            {
+              "type": "lyric",
+              "content": "I could stay awake just to hear you breathing"
+            },
+            {
+              "type": "chords",
+              "content": ["D", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "Watch you smile while you are sleeping"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "While you're far away and dreaming"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["A", "E", "F#m"]
+            },
+            {
+              "type": "lyric",
+              "content": "I could spend my life in this sweet surrender"
+            },
+            {
+              "type": "chords",
+              "content": ["D", "A", "Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "I could stay lost in this moment forever"
+            },
+            {
+              "type": "chords",
+              "content": ["C#m", "D", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Every moment spent with you is a moment I treasure"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["A", "E", "Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "Don't want to close my eyes"
+            },
+            {
+              "type": "lyric",
+              "content": "I don't wanna fall asleep"
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "'Cause I'd miss you, baby"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["E", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "And I don't wanna miss a thing"
+            },
+            {
+              "type": "chords",
+              "content": ["E", "Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "Cause even when I dream of you"
+            },
+            {
+              "type": "lyric",
+              "content": "The sweetest dream would never do"
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "I'd still miss you, baby"
+            },
+            {
+              "type": "chords",
+              "content": ["E", "A", "E", "Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "And I don't wanna miss a thing"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 3",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["A", "E", "F#m"]
+            },
+            {
+              "type": "lyric",
+              "content": "Lying close to you feeling your heart beating"
+            },
+            {
+              "type": "chords",
+              "content": ["D", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "And I'm wondering what you're dreaming"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "Wondering if it's me you are seeing"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 4",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["A", "E", "F#m"]
+            },
+            {
+              "type": "lyric",
+              "content": "Then I kiss your eyes and thank God we're together"
+            },
+            {
+              "type": "chords",
+              "content": ["D", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "And I just want to stay with you in this moment"
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Forever, forever and ever"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["A", "E", "Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "I don't want to close my eyes"
+            },
+            {
+              "type": "lyric",
+              "content": "I don't wanna fall asleep"
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "'Cause I'd miss you, baby"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["E", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "And I don't wanna miss a thing"
+            },
+            {
+              "type": "chords",
+              "content": ["E", "Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "Cause even when I dream of you"
+            },
+            {
+              "type": "lyric",
+              "content": "The sweetest dream would never do"
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "I'd still miss you, baby"
+            },
+            {
+              "type": "chords",
+              "content": ["E", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "And I don't wanna miss a thing"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BRIDGE",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "And I don't wanna miss one smile"
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "I don't wanna miss one kiss"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 5",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["F"]
+            },
+            {
+              "type": "lyric",
+              "content": "I just want to be with you"
+            },
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "Right here with you, just like this"
+            },
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "I just want to hold you close"
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "I feel your heart so close to mine"
+            },
+            {
+              "type": "chords",
+              "content": ["Am"]
+            },
+            {
+              "type": "lyric",
+              "content": "And just stay here in this moment"
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "For all the rest of time, yeah, yeah, yeah, yeah, yeeeaaah"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "OUTRO",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["A", "E", "Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "I don't wanna close my eyes"
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "I don't wanna fall asleep, yeah"
+            },
+            {
+              "type": "chords",
+              "content": ["E", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "And I don't wanna miss a thing"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

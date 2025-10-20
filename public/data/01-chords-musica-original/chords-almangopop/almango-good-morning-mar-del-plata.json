@@ -1,0 +1,392 @@
+﻿{
+    "id": "almango-good-morning-mar-del-plata",
+    "title": "Good Morning Mar del Plata",
+    "artist": "Almango",
+    "originalKey": "E",
+    "tempo": "Upbeat",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO (Batería)",
+        "lines": [
+          {
+            "type": "text",
+            "content": "(Batería)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (Acordes)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "A", "E", "B", "E", "A", "-", "E", "A", "E", "B", "E", "A"]
+          },
+          {
+            "type": "chords",
+            "content": ["F#", "B", "A", "B"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "VERSE 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Good Morning Mar del Plata, nos despierta el sol."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y es tiempo de festejar."
+          },
+          {
+            "type": "chords",
+            "content": ["E", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Estoy listo para el mundo, y no pierdo ni un segundo."
+          },
+          {
+            "type": "chords",
+            "content": ["B", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Nos vamos para el mar."
+          },
+          {
+            "type": "chords",
+            "content": ["E", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y cuando salgo a la calle, hasta el cielo está brillando."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y las chicas piden más."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F#", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Porque en Mardel, es todo un flash. Siempre estás bien, ¡No te falta nada!"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "VERSE 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Good Morning Mar del Plata, hoy te invito a vos."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Esto sí que es una fiesta!"
+          },
+          {
+            "type": "chords",
+            "content": ["E", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Bienvenidas amiguitas, bienvenidas Almanguitas."
+          },
+          {
+            "type": "chords",
+            "content": ["B", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Bienvenidas a mi vida."
+          },
+          {
+            "type": "chords",
+            "content": ["E", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y esto sí que está muy bueno, ya me estoy entusiasmando."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y no me quiero retirar."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F#", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Porque en Mardel, es todo un flash. Siempre estás bien, ¡No te falta nada!"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Good good good Morning Mar del Plata."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Good good good Morning Mar del Plata."
+          },
+          {
+            "type": "chords",
+            "content": ["E", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Good good good Morning Mar del Plata."
+          },
+          {
+            "type": "chords",
+            "content": ["E", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Good... Guau."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "A", "E", "B", "E", "A", "-", "E", "A", "E", "B", "E", "A"]
+          },
+          {
+            "type": "chords",
+            "content": ["F#", "B", "A", "B"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "RAP",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Una vecina me decía, hoy la vida es día a día."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Travesía y rebeldía, todos juntos buena vibra."
+          },
+          {
+            "type": "chords",
+            "content": ["E", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Las visitas bienvenidas, y disfrute la estadía."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Aquí en Mar del Plata mi vida."
+          },
+          {
+            "type": "chords",
+            "content": ["E", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Estoy entusiasmándome, estoy entusiasmándome."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO 3",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F#", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Porque en Mardel, es todo un flash. Siempre estás bien, ¡No te falta nada!"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Good good good Morning Mar del Plata."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Good good good Morning Mar del Plata."
+          },
+          {
+            "type": "chords",
+            "content": ["E", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Good good good Morning Mar del Plata."
+          },
+          {
+            "type": "chords",
+            "content": ["E", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Good... Guau."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO 3",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Good good good Morning Mar del Plata."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Good good good Morning Mar del Plata."
+          },
+          {
+            "type": "chords",
+            "content": ["E", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Good good good Morning Mar del Plata."
+          },
+          {
+            "type": "chords",
+            "content": ["E", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Good... Guau."
+          }
+        ]
+      }
+    ]
+  }
+  

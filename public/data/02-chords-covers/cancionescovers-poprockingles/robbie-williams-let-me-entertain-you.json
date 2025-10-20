@@ -1,0 +1,464 @@
+{
+  "id": "robbie-williams-let-me-entertain-you",
+  "title": "Let Me Entertain You",
+  "artist": "Robbie Williams",
+  "originalKey": "E",
+  "tempo": "Upbeat",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "VERSO 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hell is gone and heaven's here"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "There's nothing left for you to fear"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Shake your arse come over here"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Now scream"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm a burning effigy"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Of everything I used to be"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "You're my rock of empathy, my dear"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CORO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "G", "A", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "So come on let me... entertain you"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "G", "A", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Let me... entertain you"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Life's too short for you to die"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "So grab yourself an alibi"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Heaven knows your mother lied"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Mon cher"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Separate your right from wrongs"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Come and sing a different song"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "The kettle's on so don't be long"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Mon cher"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CORO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "G", "A", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "So come on let me... entertain you"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "G", "A", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Let me... entertain you"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 3",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Look me up in the yellow pages"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "I will be your rock of ages"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Your see through fads and your crazy phrases yeah"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Little Bo Peep has lost his sheep"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "He popped a pill and fell asleep"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "The dew is wet but the grass is sweet, my dear"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Your mind gets burned with the habits you've learned"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "But we're the generation that's got to be heard."
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "You're tired of your teachers and your school's a drag"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "You're not going to end up like your mum and dad"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CORO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "G", "A", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "So come on let me... entertain you"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "G", "A", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Let me... entertain you"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "G", "A", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Let me... entertain you"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 4",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "He may be good he may be outta sight"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "But he can't be here so come around tonight."
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Here is the place where the feeling grows"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "You gotta get high before you taste the lows."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CORO FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "G", "A", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "So come on"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "G", "A", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Let me... entertain you"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "G", "A", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Let me... entertain you"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "G", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "So come on let me... entertain you"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "G", "A", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Let me... entertain you"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "OUTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Come on come on come on come on."
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Come on come on come on come on"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Come on come on come on come on"
+        }
+      ]
+    }
+  ]
+}

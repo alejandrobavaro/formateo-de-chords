@@ -1,0 +1,291 @@
+{
+    "id": "queen-flash",
+    "title": "Flash",
+    "artist": "Queen",
+    "originalKey": "Em",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRODUCCIÓN",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "Flash, a-ah"
+          },
+          {
+            "type": "chords",
+            "content": ["D/E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Saviour of the universe"
+          },
+          {
+            "type": "chords",
+            "content": ["C/E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Flash, a-ah"
+          },
+          {
+            "type": "chords",
+            "content": ["A"]
+          },
+          {
+            "type": "lyric",
+            "content": "He save everyone of us"
+          },
+          {
+            "type": "chords",
+            "content": ["E", "A", "D/F#", "Em"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "Flash, a-ah"
+          },
+          {
+            "type": "chords",
+            "content": ["D/E"]
+          },
+          {
+            "type": "chords",
+            "content": ["C/E"]
+          },
+          {
+            "type": "lyric",
+            "content": "He's a miracle"
+          },
+          {
+            "type": "chords",
+            "content": ["A", "E", "A", "E", "A", "D/F#"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "Flash, a-ah"
+          },
+          {
+            "type": "chords",
+            "content": ["D/E"]
+          },
+          {
+            "type": "chords",
+            "content": ["C/E"]
+          },
+          {
+            "type": "lyric",
+            "content": "King of the impossible"
+          },
+          {
+            "type": "chords",
+            "content": ["A", "E", "A", "E", "A", "D/F#"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRIMERA PARTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "D/F#"]
+          },
+          {
+            "type": "lyric",
+            "content": "He's for everyone of us"
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "E/G#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Stand for everyone of us"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "G/B"]
+          },
+          {
+            "type": "lyric",
+            "content": "He save with a mighty hand"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "A/C#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Every man every woman"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "B", "Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "Every child - he's a mighty, flash"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "lyric",
+                "content": "Flash, a-ah"
+              },
+              {
+                "type": "chord",
+                "content": "D/E"
+              },
+              {
+                "type": "lyric",
+                "content": "Flash, a-ah"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C/E"
+              },
+              {
+                "type": "lyric",
+                "content": "He save everyone of us"
+              },
+              {
+                "type": "chord",
+                "content": ["A", "E", "A", "D/F#", "Em"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SEGUNDA PARTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "D/F#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Just a man"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "With a man's courage"
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Nothing but a man"
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "But he can never fail"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "G/B"]
+          },
+          {
+            "type": "lyric",
+            "content": "No-one but the pure in heart"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "A/C#", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "May find the Golden Grail"
+          },
+          {
+            "type": "chords",
+            "content": ["B", "Em", "D", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Ah, ah..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "Flash..."
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "A", "E", "B"]
+          },
+          {
+            "type": "chords",
+            "content": ["G"]
+          }
+        ]
+      }
+    ]
+  }
+  

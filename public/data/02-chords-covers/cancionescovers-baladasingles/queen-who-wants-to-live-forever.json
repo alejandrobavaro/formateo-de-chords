@@ -1,0 +1,305 @@
+{
+  "id": "queen-who-wants-to-live-forever",
+  "title": "Who Wants To Live Forever",
+  "artist": "Queen",
+  "originalKey": "Bm",
+  "tempo": "Slow",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Bm", "Em"]
+        },
+        {
+          "type": "lyric",
+          "content": "There's no time for us"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "Bm", "Bm/A"]
+        },
+        {
+          "type": "lyric",
+          "content": "There's no place for us"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm/G#", "D/A", "E/B"]
+        },
+        {
+          "type": "lyric",
+          "content": "What is this thing that builds our dreams"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "A4"]
+        },
+        {
+          "type": "lyric",
+          "content": "Yet slips away from us?"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "Who wants to live forever?"
+            },
+            {
+              "type": "chord",
+              "content": "D/F#"
+            },
+            {
+              "type": "lyric",
+              "content": "Who wants to live forever"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Em"
+            },
+            {
+              "type": "lyric",
+              "content": "Who dares to love forever?"
+            },
+            {
+              "type": "chord",
+              "content": "A"
+            },
+            {
+              "type": "lyric",
+              "content": "Oh, when love must die?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Bm", "Em"]
+        },
+        {
+          "type": "lyric",
+          "content": "There's no chance for us"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "Bm", "Bm/A"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's all decided for us"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm/G#", "D/A", "E/B"]
+        },
+        {
+          "type": "lyric",
+          "content": "This world has only one sweet moment"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Set aside for us"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "D/F#", "Em"]
+        },
+        {
+          "type": "lyric",
+          "content": "Who wants to live forever?"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "F#m", "Em"]
+        },
+        {
+          "type": "lyric",
+          "content": "Who wants to live forever"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "F#m", "Em7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Who dares to love forever?"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "A4", "Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh, when love must die?"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Bm", "G", "Bm", "G"]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "G", "Bm", "G"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "TERCERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Bm", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Touch my tears with your lips"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "G", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Touch my world with your fingertips"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "A/C#", "Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "And we can have forever"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "A/C#", "Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "And we can love forever"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm/G#", "A", "F/A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Forever is our today"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D", "A/C#", "Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Who wants to live forever"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "A/C#", "Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Who wants to live forever"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm/G#", "A", "F/A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Forever is our today"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Who waits forever anyway?"
+        }
+      ]
+    }
+  ]
+}

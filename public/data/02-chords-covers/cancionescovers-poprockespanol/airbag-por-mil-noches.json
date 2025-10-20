@@ -1,0 +1,955 @@
+{
+  "id": "airbag-por-mil-noches",
+  "title": "Por Mil Noches",
+  "artist": "Airbag",
+  "originalKey": "C#m",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "C#m"
+        },
+        {
+          "type": "lyric",
+          "content": "Yo sé que algunas veces"
+        },
+        {
+          "type": "chord",
+          "content": "B"
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "chord",
+          "content": "E"
+        },
+        {
+          "type": "lyric",
+          "content": "Me equivoco demasiado"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "C#m"
+        },
+        {
+          "type": "chord",
+          "content": "G#m"
+        },
+        {
+          "type": "lyric",
+          "content": "Yo sé que estás cansada"
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "chord",
+          "content": "E"
+        },
+        {
+          "type": "chord",
+          "content": "B"
+        },
+        {
+          "type": "lyric",
+          "content": "De mirarme de costado"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "C#m"
+        },
+        {
+          "type": "chord",
+          "content": "B"
+        },
+        {
+          "type": "lyric",
+          "content": "Estoy arrepentido"
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "chord",
+          "content": "E"
+        },
+        {
+          "type": "lyric",
+          "content": "Y me gana la nostalgia"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "C#m"
+        },
+        {
+          "type": "chord",
+          "content": "G#m"
+        },
+        {
+          "type": "lyric",
+          "content": "Será que lo divino"
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "chord",
+          "content": "E"
+        },
+        {
+          "type": "chord",
+          "content": "B"
+        },
+        {
+          "type": "lyric",
+          "content": "No mezcló muy bien las cartas"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "C#m"
+        },
+        {
+          "type": "chord",
+          "content": "B"
+        },
+        {
+          "type": "lyric",
+          "content": "Será cuestión de suerte"
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "chord",
+          "content": "E"
+        },
+        {
+          "type": "lyric",
+          "content": "Que sigamos separados"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "C#m"
+        },
+        {
+          "type": "chord",
+          "content": "G#m"
+        },
+        {
+          "type": "lyric",
+          "content": "Quisiera encerrarte"
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "chord",
+          "content": "E"
+        },
+        {
+          "type": "chord",
+          "content": "B"
+        },
+        {
+          "type": "lyric",
+          "content": "Por mil noches, por mil años"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F#m"
+            },
+            {
+              "type": "chord",
+              "content": "B"
+            },
+            {
+              "type": "chord",
+              "content": "G#m"
+            },
+            {
+              "type": "lyric",
+              "content": "Sigo sin saber nada de vos"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["C#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "En este incendio."
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F#m"
+            },
+            {
+              "type": "chord",
+              "content": "B"
+            },
+            {
+              "type": "chord",
+              "content": "G#m"
+            },
+            {
+              "type": "lyric",
+              "content": "Cada vez que estás cerca de mí"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["C#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "Es un infierno."
+        },
+        {
+          "type": "chords",
+          "content": ["A", "–", "B", "–", "Am", "–", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Desde el día en que te conocí"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C#m", "–", "B", "–", "A", "–", "E", "–", "C#m", "–", "G#m", "–", "A", "–", "E"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "C#m"
+        },
+        {
+          "type": "chord",
+          "content": "B"
+        },
+        {
+          "type": "lyric",
+          "content": "Quisiera encontrarte"
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "chord",
+          "content": "E"
+        },
+        {
+          "type": "lyric",
+          "content": "Algún día en mi camino"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "C#m"
+        },
+        {
+          "type": "chord",
+          "content": "G#m"
+        },
+        {
+          "type": "lyric",
+          "content": "No ves que sigo atado"
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "chord",
+          "content": "E"
+        },
+        {
+          "type": "chord",
+          "content": "B"
+        },
+        {
+          "type": "lyric",
+          "content": "A un recuerdo que no olvido"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "C#m"
+        },
+        {
+          "type": "chord",
+          "content": "B"
+        },
+        {
+          "type": "lyric",
+          "content": "Y tengo tantas cosas"
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "chord",
+          "content": "E"
+        },
+        {
+          "type": "lyric",
+          "content": "Que decirte al oído"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "C#m"
+        },
+        {
+          "type": "chord",
+          "content": "G#m"
+        },
+        {
+          "type": "lyric",
+          "content": "Mentiras o verdades"
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "chord",
+          "content": "E"
+        },
+        {
+          "type": "chord",
+          "content": "B"
+        },
+        {
+          "type": "lyric",
+          "content": "Que no importa, da lo mismo"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PUENTE",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "A"
+            },
+            {
+              "type": "chord",
+              "content": "B"
+            },
+            {
+              "type": "lyric",
+              "content": "Hace un tiempo estoy así"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["A", "–", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "No puedo dormir"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "–", "B", "–", "Am", "–", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Desde el día en que te conocí."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "C#m"
+        },
+        {
+          "type": "chord",
+          "content": "G#m"
+        },
+        {
+          "type": "lyric",
+          "content": "Y las horas en la noche"
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "chord",
+          "content": "E"
+        },
+        {
+          "type": "lyric",
+          "content": "Vuelan en la madrugada"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "chord",
+          "content": "C#m"
+        },
+        {
+          "type": "lyric",
+          "content": "Donde brillan las estrellas"
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "chord",
+          "content": "F#m"
+        },
+        {
+          "type": "chord",
+          "content": "B"
+        },
+        {
+          "type": "lyric",
+          "content": "Donde ya no queda nada"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "C#m"
+        },
+        {
+          "type": "chord",
+          "content": "G#m"
+        },
+        {
+          "type": "lyric",
+          "content": "Y la noche me sorprende"
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "chord",
+          "content": "E"
+        },
+        {
+          "type": "lyric",
+          "content": "Y me arranca las entrañas"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "chord",
+          "content": "C#m"
+        },
+        {
+          "type": "lyric",
+          "content": "Y me mata poco a poco"
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "chord",
+          "content": "F#m"
+        },
+        {
+          "type": "chord",
+          "content": "B"
+        },
+        {
+          "type": "lyric",
+          "content": "Me va dejando sin nada"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "C#m"
+        },
+        {
+          "type": "chord",
+          "content": "G#m"
+        },
+        {
+          "type": "lyric",
+          "content": "Y tu risa se desborda"
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "chord",
+          "content": "E"
+        },
+        {
+          "type": "lyric",
+          "content": "Donde mueren las promesas"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "chord",
+          "content": "C#m"
+        },
+        {
+          "type": "lyric",
+          "content": "No me pidas que me enoje"
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "chord",
+          "content": "F#m"
+        },
+        {
+          "type": "chord",
+          "content": "B"
+        },
+        {
+          "type": "lyric",
+          "content": "Si enojarse es tu destreza"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "C#m"
+        },
+        {
+          "type": "chord",
+          "content": "G#m"
+        },
+        {
+          "type": "lyric",
+          "content": "Y no olvides que nos dimos"
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "chord",
+          "content": "E"
+        },
+        {
+          "type": "lyric",
+          "content": "Todo lo que nos quedaba"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "chord",
+          "content": "C#m"
+        },
+        {
+          "type": "lyric",
+          "content": "Sin embargo, casi nunca"
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "chord",
+          "content": "F#m"
+        },
+        {
+          "type": "chord",
+          "content": "B"
+        },
+        {
+          "type": "lyric",
+          "content": "Nunca no nos alcanzaba"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "C#m"
+        },
+        {
+          "type": "chord",
+          "content": "G#m"
+        },
+        {
+          "type": "lyric",
+          "content": "Esa noche que te fuiste"
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "chord",
+          "content": "E"
+        },
+        {
+          "type": "lyric",
+          "content": "Y que empezamos a odiarnos"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "chord",
+          "content": "C#m"
+        },
+        {
+          "type": "lyric",
+          "content": "Cada día que se vuela"
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "chord",
+          "content": "F#m"
+        },
+        {
+          "type": "chord",
+          "content": "B"
+        },
+        {
+          "type": "lyric",
+          "content": "Cada vez yo más te extraño"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL (x2)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F#m"
+            },
+            {
+              "type": "chord",
+              "content": "B"
+            },
+            {
+              "type": "chord",
+              "content": "G#m"
+            },
+            {
+              "type": "lyric",
+              "content": "Sigo sin saber nada de vos"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["C#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "En este incendio."
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F#m"
+            },
+            {
+              "type": "chord",
+              "content": "B"
+            },
+            {
+              "type": "chord",
+              "content": "G#m"
+            },
+            {
+              "type": "lyric",
+              "content": "Cada vez que estás cerca de mí"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["C#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "Es un infierno."
+        },
+        {
+          "type": "chords",
+          "content": ["A", "–", "B", "–", "Am", "–", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Desde el día en que te conocí"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C#m", "–", "G#m", "–", "A", "–", "E", "–", "A", "–", "C#m", "–", "A", "–", "F#m", "–", "B", "–", "C#m"]
+        }
+      ]
+    }
+  ]
+}

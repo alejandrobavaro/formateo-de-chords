@@ -1,0 +1,431 @@
+{
+  "id": "lenny-kravitz-it-aint-over-til-its-over",
+  "title": "It Ain't Over 'Til It's Over",
+  "artist": "Lenny Kravitz",
+  "originalKey": "A",
+  "tempo": "Rock/Funk",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A", "E/G#", "G", "D", "Dm"]
+        },
+        {
+          "type": "chords",
+          "content": ["A", "E/G#", "G", "D", "Dm"]
+        },
+        {
+          "type": "text",
+          "content": "(Riff de guitarra - Tablatura omitida por solicitud)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Here we are"
+        },
+        {
+          "type": "chords",
+          "content": ["E/G#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Still together"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "We are one"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "So much time wasted"
+        },
+        {
+          "type": "chords",
+          "content": ["E/G#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Playing games with love"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "So many tears I've cried"
+        },
+        {
+          "type": "chords",
+          "content": ["E/G#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "So much pain inside"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "But baby it ain't over 'til it's over"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "So many years we've tried"
+        },
+        {
+          "type": "chords",
+          "content": ["E/G#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "To keep our love alive"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "But baby it ain't over 'til it's over"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "How many times"
+        },
+        {
+          "type": "chords",
+          "content": ["E/G#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Did we give up"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "But we always worked things out"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "And all my doubts and fears"
+        },
+        {
+          "type": "chords",
+          "content": ["E/G#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Kept me wondering yeah"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "If I'd always, always be in love"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "So many tears I've cried"
+        },
+        {
+          "type": "chords",
+          "content": ["E/G#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "So much pain inside"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "But baby it ain't over 'til it's over"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "So many years we've tried"
+        },
+        {
+          "type": "chords",
+          "content": ["E/G#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "To keep our love alive"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "But baby it ain't over 'til it's over"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F", "G"]
+        },
+        {
+          "type": "chords",
+          "content": ["F", "G"]
+        },
+        {
+          "type": "chords",
+          "content": ["F", "G"]
+        },
+        {
+          "type": "chords",
+          "content": ["F", "G"]
+        },
+        {
+          "type": "text",
+          "content": "(Solo de guitarra - Tablatura omitida por solicitud)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 3 (Alternate)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Amaj7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A9"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL CHORUS",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "So many tears I've cried"
+        },
+        {
+          "type": "chords",
+          "content": ["E/G#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "So much pain inside"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "But baby it ain't over 'til it's over"
+        }
+      ]
+    }
+  ]
+}

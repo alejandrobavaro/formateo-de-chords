@@ -1,0 +1,389 @@
+{
+  "id": "the-rolling-stones-wild-horses",
+  "title": "Wild Horses",
+  "artist": "The Rolling Stones",
+  "originalKey": "G",
+  "tempo": "Slow",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRODUCCIÓN",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "chords",
+          "content": ["Am7"]
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Childhood living"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Is easy to do"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "The things you wanted"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "I bought them for you"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Graceless lady"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "You know how I am"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "You know I can't let you slide through my hands"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Wild Horses"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "G", "F", "C", "Am7/B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Couldn't drag me away"
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Wild, wild horses"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "G", "F", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Couldn't drag me away"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 3",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Bm", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "I watched you suffer"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "A dull, aching pain"
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Now you decided"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "To show me the same"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 4",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Bm", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "No sweeping exits"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Or offstage lines"
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Can make me feel bitter"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Or treat you unkind"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Wild Horses"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "G", "F", "C", "Am7/B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Couldn't drag me away"
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Wild, wild horses"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "G", "F", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "We'll ride them someday"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 5",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Bm", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "I know I dreamed you"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "A sin and a lie"
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "I have my freedom"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "But I don't have much time"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 6",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Bm", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Faith has been broken"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tears must be cried"
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Let's do some living"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "After we die"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Wild Horses"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "G", "F", "C", "Am7/B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Couldn't drag me away"
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Wild, wild horses"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "G", "F", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "We'll ride them someday"
+        }
+      ]
+    }
+  ]
+}

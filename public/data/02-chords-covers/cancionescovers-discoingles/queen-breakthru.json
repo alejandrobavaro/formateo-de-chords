@@ -1,0 +1,459 @@
+{
+    "id": "queen-breakthru",
+    "title": "Breakthru",
+    "artist": "Queen",
+    "originalKey": "D",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "VOCALIZACIÓN",
+        "lines": [
+          {
+            "type": "lyric",
+            "content": "When love breaks up"
+          },
+          {
+            "type": "lyric",
+            "content": "When the dawn light wakes up"
+          },
+          {
+            "type": "lyric",
+            "content": "A new life is born"
+          },
+          {
+            "type": "lyric",
+            "content": "Somehow I have to make this final breakthrough"
+          },
+          {
+            "type": "lyric",
+            "content": "Now"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRIMERA PARTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "I wake up"
+          },
+          {
+            "type": "chords",
+            "content": ["G/D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Feel just fine"
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Your face"
+          },
+          {
+            "type": "chords",
+            "content": ["G/D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Fills my mind"
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "I get religion quick"
+          },
+          {
+            "type": "chords",
+            "content": ["G/D"]
+          },
+          {
+            "type": "lyric",
+            "content": "'Cos you're looking divine"
+          },
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Honey you're touching something you're touching me"
+          },
+          {
+            "type": "chords",
+            "content": ["A/G"]
+          },
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "I'm under your thumb under your spell"
+          },
+          {
+            "type": "chords",
+            "content": ["Bm", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Can't you see"
+          },
+          {
+            "type": "chords",
+            "content": ["A"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "If I could only reach you"
+          },
+          {
+            "type": "chords",
+            "content": ["A"]
+          },
+          {
+            "type": "lyric",
+            "content": "If I could make you smile"
+          },
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "If I could only reach you"
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "That would really be a breakthrough - oh yeah"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "Breakthrough these barriers of pain"
+              },
+              {
+                "type": "chord",
+                "content": "C9"
+              },
+              {
+                "type": "lyric",
+                "content": "Breakthrough to the sunshine from the rain"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "Make my feelings known towards you"
+              },
+              {
+                "type": "chord",
+                "content": "D4"
+              },
+              {
+                "type": "lyric",
+                "content": "Turn my heart inside and out for you now"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["Bm", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Somehow I have to make this final breakthrough"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "Bm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Now!"
+          },
+          {
+            "type": "chords",
+            "content": ["A", "G", "G9/A"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SEGUNDA PARTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Your smile"
+          },
+          {
+            "type": "chords",
+            "content": ["G/D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Speaks books to me"
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "I break up"
+          },
+          {
+            "type": "chords",
+            "content": ["G/D"]
+          },
+          {
+            "type": "lyric",
+            "content": "With each and every one of your looks at me"
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Honey you're starting something"
+          },
+          {
+            "type": "chords",
+            "content": ["G/D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Deep inside of me"
+          },
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Honey you're sparking something this fire in me"
+          },
+          {
+            "type": "chords",
+            "content": ["A/G"]
+          },
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "I'm outta control"
+          },
+          {
+            "type": "chords",
+            "content": ["Bm", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "I wanna rush headlong into this ecstasy"
+          },
+          {
+            "type": "chords",
+            "content": ["A"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "If I could only reach you"
+          },
+          {
+            "type": "chords",
+            "content": ["A"]
+          },
+          {
+            "type": "lyric",
+            "content": "If I could make you smile"
+          },
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "If I could only reach you"
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "That would really be a breakthrough"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "If I could only reach you"
+          },
+          {
+            "type": "chords",
+            "content": ["A"]
+          },
+          {
+            "type": "lyric",
+            "content": "If I could make you smile"
+          },
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "If I could only reach you"
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "That would really be a breakthrough - oh yeah"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D", "C9"]
+          },
+          {
+            "type": "lyric",
+            "content": "Breakthrough"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "D4"]
+          },
+          {
+            "type": "lyric",
+            "content": "Breakthrough"
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Breakthroughhhhhh"
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,499 @@
+{
+  "id": "green-day-basket-case",
+  "title": "Basket Case",
+  "artist": "Green Day",
+  "originalKey": "D",
+  "tempo": "Punk Rock",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D5", "A5", "B5", "F#5", "G5"]
+        },
+        {
+          "type": "chords",
+          "content": ["D5", "A5"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Do you have the time to listen to me whine"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["B5"]
+        },
+        {
+          "type": "lyric",
+          "content": "About nothing and everything all at once"
+        },
+        {
+          "type": "chords",
+          "content": ["F#5", "G5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": "I am one of those melodramatic fools"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["B5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Neurotic to the bone, no doubt about it"
+        },
+        {
+          "type": "chords",
+          "content": ["F#5", "G5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-CHORUS 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Sometimes I give myself the creeps"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Sometimes my mind plays tricks on me"
+        },
+        {
+          "type": "chords",
+          "content": ["G5"]
+        },
+        {
+          "type": "lyric",
+          "content": "It all keeps adding up"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D5", "C5", "B5", "G5"]
+        },
+        {
+          "type": "lyric",
+          "content": "I think I'm cracking up"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Am I just paranoid?"
+        },
+        {
+          "type": "chords",
+          "content": ["D5", "A5", "B5", "A5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D5", "A5", "B5", "A5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": "I went to a shrink to analyze my dreams"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["B5"]
+        },
+        {
+          "type": "lyric",
+          "content": "She says it's lack of sex that's bringing me down"
+        },
+        {
+          "type": "chords",
+          "content": ["F#5", "G5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": "I went to a whore, he said my life's a bore"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["B5"]
+        },
+        {
+          "type": "lyric",
+          "content": "So quit my whining 'cause it's bringing her down"
+        },
+        {
+          "type": "chords",
+          "content": ["F#5", "G5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-CHORUS 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Sometimes I give myself the creeps"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Sometimes my mind plays tricks on me"
+        },
+        {
+          "type": "chords",
+          "content": ["G5"]
+        },
+        {
+          "type": "lyric",
+          "content": "It all keeps adding up"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D5", "C5", "B5", "G5"]
+        },
+        {
+          "type": "lyric",
+          "content": "I think I'm cracking up"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Am I just paranoid?"
+        },
+        {
+          "type": "chords",
+          "content": ["D5", "A5", "B5", "A5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D5", "A5", "B5", "A5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D5", "A5", "B5", "A5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D5", "A5", "B5", "A5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BRIDGE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Grasping to control"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "So I better hold on"
+        },
+        {
+          "type": "chords",
+          "content": ["D5", "A5", "B5", "F#5", "G5", "D5", "A5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D5", "A5", "B5", "F#5", "G5", "D5", "A5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL PRE-CHORUS",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Sometimes I give myself the creeps"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Sometimes my mind plays tricks on me"
+        },
+        {
+          "type": "chords",
+          "content": ["G5"]
+        },
+        {
+          "type": "lyric",
+          "content": "It all keeps adding up"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D5", "C5", "B5", "G5"]
+        },
+        {
+          "type": "lyric",
+          "content": "I think I'm cracking up"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Am I just paranoid? Am I just stoned?"
+        },
+        {
+          "type": "chords",
+          "content": ["D5", "B5", "G5", "D5", "A5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D5", "B5", "G5", "D5", "A5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D5", "B5", "G5", "D5", "A5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D5", "B5", "G5", "D5", "A5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "OUTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G5", "D5", "A5"]
+        }
+      ]
+    }
+  ]
+}

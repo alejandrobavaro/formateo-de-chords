@@ -1,0 +1,242 @@
+{
+  "id": "freddie-mercury-the-great-pretender",
+  "title": "The Great Pretender",
+  "artist": "Freddie Mercury",
+  "originalKey": "D",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D", "G", "D", "G"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D", "G", "A", "D", "D7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh yes, I'm the great pretender"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D", "D7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Pretending I'm doing well"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "A", "D", "G", "G#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "My need is such, I pretend too much"
+        },
+        {
+          "type": "chords",
+          "content": ["D/A", "G/A", "A", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm lonely but no one can tell"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D", "G", "A", "D", "D7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh yes, I'm the great pretender"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D", "D7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Adrift in a world of my own"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "A", "D", "G", "G#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "I play the game, but to my real shame"
+        },
+        {
+          "type": "chords",
+          "content": ["D/A", "G/A", "A", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "You've left me to dream all alone"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PUENTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Too real is this feeling of make believe"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Too real when I feel what my heart can't conceal"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D", "G", "G", "D", "D7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh yes, I'm the great pretender"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D", "D7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Just laughing and gay like a clown"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "A", "D", "G", "G#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "I seem to be, what I'm not, you see"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "A", "F#m", "G", "G#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm wearing my heart like a crown"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "G", "A", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Pretending that you're still around"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PUENTE FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Too real when I feel what my heart can't conceal"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D#", "G#", "G#", "D#", "D#7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh yes, I'm the great pretender"
+        },
+        {
+          "type": "chords",
+          "content": ["G#", "D#", "D#7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Just laughing and gay like a clown"
+        },
+        {
+          "type": "chords",
+          "content": ["G#", "A#", "D#", "G#", "G#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "I seem to be, what I'm not, you see"
+        },
+        {
+          "type": "chords",
+          "content": ["D#", "A#", "Gm", "G#", "A#"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm wearing my heart like a crown"
+        },
+        {
+          "type": "chords",
+          "content": ["D#", "G#", "D#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Pretending that you're still around"
+        }
+      ]
+    }
+  ]
+}

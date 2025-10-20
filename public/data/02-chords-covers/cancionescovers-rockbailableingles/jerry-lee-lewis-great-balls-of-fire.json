@@ -1,0 +1,322 @@
+{
+  "id": "jerry-lee-lewis-great-balls-of-fire",
+  "title": "Great Balls of Fire",
+  "artist": "Jerry Lee Lewis",
+  "originalKey": "C",
+  "tempo": "Fast",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "ESTROFA 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "You shake my nerves and you rattle my brain"
+        },
+        {
+          "type": "chords",
+          "content": ["F7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Too much love drives a man insane"
+        },
+        {
+          "type": "chords",
+          "content": ["G7", "F7"]
+        },
+        {
+          "type": "lyric",
+          "content": "You broke my will, but what a thrill"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Goodness gracious great balls of fire"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTROFA 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "I laughed at love cause I thought it was funny"
+        },
+        {
+          "type": "chords",
+          "content": ["F7"]
+        },
+        {
+          "type": "lyric",
+          "content": "You came along and you moved me honey"
+        },
+        {
+          "type": "chords",
+          "content": ["G7", "F7"]
+        },
+        {
+          "type": "lyric",
+          "content": "I changed my mind, 'cause you’re just fine"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Goodness gracious great balls of fire"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["F7"]
+            },
+            {
+              "type": "lyric",
+              "content": "Kiss me baby"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "Woooooo - feels good"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["F7"]
+            },
+            {
+              "type": "lyric",
+              "content": "Hold me baby"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["G7"]
+            },
+            {
+              "type": "lyric",
+              "content": "Girl let me love you like a lover should"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G7"]
+        },
+        {
+          "type": "lyric",
+          "content": "You're fine, so kind. Got to tell the world that you're mine mine mine mine."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTROFA 3",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "I chew my nails and I twiddle my thumb"
+        },
+        {
+          "type": "chords",
+          "content": ["F7"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm real nervous but it sure is fun"
+        },
+        {
+          "type": "chords",
+          "content": ["G7", "F7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Come on baby, you're driving me crazy"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Goodness gracious great balls of fire"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO",
+      "lines": [
+        {
+          "type": "text",
+          "content": "(Solo 2x: C - F7 - G7 - F7 - C)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["F7"]
+            },
+            {
+              "type": "lyric",
+              "content": "Kiss me baby"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "Woooooo - feels good"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["F7"]
+            },
+            {
+              "type": "lyric",
+              "content": "Hold me baby"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["G7"]
+            },
+            {
+              "type": "lyric",
+              "content": "Girl let me love you like a lover should"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G7"]
+        },
+        {
+          "type": "lyric",
+          "content": "You're fine, so kind. Got to tell the world that you're mine mine mine mine."
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Goodness gracious great balls of fire"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CIERRE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "text",
+          "content": "(Final: C)"
+        }
+      ]
+    }
+  ]
+}

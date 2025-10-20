@@ -1,0 +1,345 @@
+﻿{
+    "id": "almango-verte",
+    "title": "Verte",
+    "artist": "Almango",
+    "originalKey": "E",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "VERSE 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "G#m", "A", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Desearía yo decir que hoy vivo por ti."
+          },
+          {
+            "type": "chords",
+            "content": ["E", "G#m", "A", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Que nada me importa más que verte sonreír."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "B", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Pero no es así, Oh no."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "F#m", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "No voy a mentir..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "VERSE 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "G#m", "A", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "La neblina se esparció y veo la verdad."
+          },
+          {
+            "type": "chords",
+            "content": ["E", "G#m", "A", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Lo que vivimos no fue amor, lo puedo asegurar."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "B", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Tú sigues igual, Oh no."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "F#", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "No vas a cambiar..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C#m", "A", "E", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Quiero verte, volver a empezar."
+          },
+          {
+            "type": "chords",
+            "content": ["C#m", "A", "E", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y decirte, que ya no estás más..."
+          },
+          {
+            "type": "chords",
+            "content": ["E", "G#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "Sé que sentarme a llorar no es la solución."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Hoy encontré mi libertad, ahora sé quién soy."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO 3",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "B", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Tú sigues igual."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "F#", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "No vas a cambiar."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C#m", "A", "E", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Quiero verte, volver a empezar."
+          },
+          {
+            "type": "chords",
+            "content": ["C#m", "A", "E", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y decirte, que ya no estás más..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "TRANSICIÓN",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "¡No más!"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO VIOLA",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "G#m", "A", "B", "-", "E", "G#m", "A", "B"]
+          },
+          {
+            "type": "chords",
+            "content": ["A", "B", "E", "A", "F#", "B"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO 3",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C#m", "A", "E", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Quiero verte, volver a empezar."
+          },
+          {
+            "type": "chords",
+            "content": ["C#m", "A", "E", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y decirte, que ya no estás más..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "BIS",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C#m", "-", "A", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Entendeme, ya no quiero pensar más, esto no da para más."
+          },
+          {
+            "type": "chords",
+            "content": ["E", "-", "B", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Nuestras vidas son tan diferentes que no hay nada que hacer."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C#m", "A", "E", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "No vas a cambiar."
+          },
+          {
+            "type": "chords",
+            "content": ["C#m", "A", "E", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "No da para más..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y este es el final..."
+          },
+          {
+            "type": "chords",
+            "content": ["E", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Me voy..."
+          },
+          {
+            "type": "chords",
+            "content": ["D", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "Hasta luego, chau, adiós..."
+          },
+          {
+            "type": "chords",
+            "content": ["E", "-"]
+          }
+        ]
+      }
+    ]
+  }
+  

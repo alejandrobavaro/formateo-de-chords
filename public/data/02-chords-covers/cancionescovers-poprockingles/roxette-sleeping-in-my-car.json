@@ -1,0 +1,205 @@
+{
+  "id": "roxette-sleeping-in-my-car",
+  "title": "Sleeping In My Car",
+  "artist": "Roxette",
+  "originalKey": "D",
+  "tempo": "Upbeat",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO/VERSE 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Dm", "C", "G", "A#"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Dm"},
+            {"type": "lyric", "content": "I'll tell you what I've done"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "I'll tell you what I'll do"},
+            {"type": "chord", "content": "Dm"},
+            {"type": "lyric", "content": "Been driving all night just to get close to you"},
+            {"type": "chord", "content": "A#"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Dm"},
+            {"type": "lyric", "content": "Baby babe - I'm moving so fast"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "You'd better come on"},
+            {"type": "chord", "content": "G"},
+            {"type": "chord", "content": "A#"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Dm", "C", "G", "A#"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Dm"},
+            {"type": "lyric", "content": "The moon is alright"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "The freeway's heading South"},
+            {"type": "chord", "content": "Dm"},
+            {"type": "lyric", "content": "My Heart is going Boom!"},
+            {"type": "chord", "content": "A#"},
+            {"type": "lyric", "content": "There's a strange taste in my mouth"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Dm"},
+            {"type": "lyric", "content": "Baby babe - I'm moving real fast"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "So try to hold on"},
+            {"type": "chord", "content": "G"},
+            {"type": "chord", "content": "A#"},
+            {"type": "lyric", "content": "Try to hold on!"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D", "A", "Bm", "G"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "Sleeping in my car - I will undress you"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Bm"},
+            {"type": "lyric", "content": "Sleeping in my car - I will caress you"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "Staying in the back seat of my car making up"},
+            {"type": "chord", "content": "A"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BRIDGE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Dm", "C", "G", "A#"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Dm"},
+            {"type": "lyric", "content": "So come out tonight"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "I'll take you for a ride"},
+            {"type": "chord", "content": "Dm"},
+            {"type": "lyric", "content": "This steamy ol' wagon"},
+            {"type": "chord", "content": "A#"},
+            {"type": "lyric", "content": "The radio is getting wild"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Dm"},
+            {"type": "lyric", "content": "Baby babe we're moving so fast"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "I try to hang on"},
+            {"type": "chord", "content": "G"},
+            {"type": "chord", "content": "A#"},
+            {"type": "lyric", "content": "Try to hang on!"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "OUTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D", "A", "G"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "The night is so pretty and so young"},
+            {"type": "chord", "content": "A"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    }
+  ]
+}

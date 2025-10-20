@@ -1,0 +1,421 @@
+{
+  "id": "lenny-kravitz-calling-all-angels",
+  "title": "Calling All Angels",
+  "artist": "Lenny Kravitz",
+  "originalKey": "C",
+  "tempo": "Balada Rock/Soul",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "Am", "Em", "F"]
+        },
+        {
+          "type": "chords",
+          "content": ["C", "Am", "Em", "F"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Calling all angels"
+        },
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Em"]
+        },
+        {
+          "type": "lyric",
+          "content": "I need you near to the ground"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "I miss you dearly"
+        },
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Em"]
+        },
+        {
+          "type": "lyric",
+          "content": "Can you hear me on your cloud?"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "All of my life"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "I've been waiting for someone to love"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "All of my life"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "I've been waiting for something to love"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Calling all angels"
+        },
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Em"]
+        },
+        {
+          "type": "lyric",
+          "content": "I need you near to the ground"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "I have been kneeling"
+        },
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Em"]
+        },
+        {
+          "type": "lyric",
+          "content": "And praying to hear a sound"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "All of my life"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "I've been waiting for someone to love"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "All of my life"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "I've been waiting for something to love"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BRIDGE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Day by day"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Through the years"
+        },
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Make my way"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Day by day"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Through the years"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Day by day"
+        },
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Through the years"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Day by day"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Through the years"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Day by day"
+        },
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Make my way"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Day by day"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Through the years"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Day by day"
+        }
+      ]
+    }
+  ]
+}

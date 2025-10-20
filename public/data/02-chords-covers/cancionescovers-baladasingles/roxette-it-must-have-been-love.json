@@ -1,0 +1,404 @@
+{
+  "id": "roxette-it-must-have-been-love",
+  "title": "It Must Have Been Love",
+  "artist": "Roxette",
+  "originalKey": "A",
+  "tempo": "Slow",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A", "D"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A", "D", "A", "D", "E"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "It must have been love"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "But it's over now"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Lay a whisper on my pillow"},
+            {"type": "chord", "content": "D"},
+            {"type": "chord", "content": "E"},
+            {"type": "lyric", "content": "Leave the winter on the ground"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["A", "D", "Bm", "E"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "I wake up lonely"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "There's air of silence"},
+            {"type": "chord", "content": "Bm"},
+            {"type": "chord", "content": "E"},
+            {"type": "lyric", "content": "In the bedroom and all around"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["F#m", "A", "D", "E"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "F#m"},
+            {"type": "lyric", "content": "Touch me now"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "I close my eyes and"},
+            {"type": "chord", "content": "D"},
+            {"type": "chord", "content": "E"},
+            {"type": "lyric", "content": "Dream away"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A", "D", "Bm", "F#m", "E"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "It must have been love"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "But it's over now"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Bm"},
+            {"type": "lyric", "content": "It must have been good"},
+            {"type": "chord", "content": "F#m"},
+            {"type": "chord", "content": "E"},
+            {"type": "lyric", "content": "But I lost it somehow"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["A", "D", "Bm", "F#m", "E"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "It must have been love"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "But it's over now"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Bm"},
+            {"type": "lyric", "content": "From the moment we touched"},
+            {"type": "chord", "content": "F#m"},
+            {"type": "chord", "content": "E"},
+            {"type": "lyric", "content": "Till the time had run out"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A", "D", "A", "D", "E"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Make believing"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "We're together"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "That I'm sheltered"},
+            {"type": "chord", "content": "D"},
+            {"type": "chord", "content": "E"},
+            {"type": "lyric", "content": "By our heart"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["A", "D", "Bm", "E"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "But in and outside"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "I've turned to water"},
+            {"type": "chord", "content": "Bm"},
+            {"type": "chord", "content": "E"},
+            {"type": "lyric", "content": "Like a teardrop in your palm"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["F#m", "A", "D", "E"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "F#m"},
+            {"type": "lyric", "content": "And it's hard"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Winter's day"},
+            {"type": "chord", "content": "D"},
+            {"type": "chord", "content": "E"},
+            {"type": "lyric", "content": "I dream away"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS (REPEAT)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A", "D", "Bm", "F#m", "E"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "It must have been love"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "But it's over now"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Bm"},
+            {"type": "lyric", "content": "It was all I wanted"},
+            {"type": "chord", "content": "F#m"},
+            {"type": "chord", "content": "E"},
+            {"type": "lyric", "content": "Now I'm living without"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["A", "Em", "A", "G"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "It must have been love"},
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "But it's over now"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "It's where the water flows"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "It's where the wind blows"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Bm", "A", "G", "Bm", "D", "A", "G", "Bm", "A"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL CHORUS",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D", "G", "Em", "Bm", "A"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "It must have been love"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "But it's over now"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "It must have been good"},
+            {"type": "chord", "content": "Bm"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "But I lost it somehow"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["D", "G", "Em", "Bm", "A"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "It must have been love"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "But it's over now"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "From the moment we touched"},
+            {"type": "chord", "content": "Bm"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Till the time had run out"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["D", "G", "Em", "Bm", "A"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "Yeah, it must have been love"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "But it's over now"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "It was all that I wanted"},
+            {"type": "chord", "content": "Bm"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Now I'm living without"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["D", "Am", "D", "C"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "It must have been love"},
+            {"type": "chord", "content": "Am"},
+            {"type": "lyric", "content": "But it's over now"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "It's where the water flows"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "It's where the wind blows"}
+          ]
+        }
+      ]
+    }
+  ]
+}

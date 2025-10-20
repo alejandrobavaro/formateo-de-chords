@@ -1,0 +1,612 @@
+{
+  "id": "annie-lennox-no-more-i-love-yous",
+  "title": "No More I Love You's",
+  "artist": "Annie Lennox",
+  "originalKey": "F",
+  "tempo": "Balada",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Do bi do bi do do do  oh"
+        },
+        {
+          "type": "chords",
+          "content": ["G/C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Do bi do bi do do do  oh"
+        },
+        {
+          "type": "chords",
+          "content": ["G/C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Do bi do bi do do do  oh"
+        },
+        {
+          "type": "chords",
+          "content": ["G/C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "I used to be lunatic from the gracious days"
+        },
+        {
+          "type": "chords",
+          "content": ["G/C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F/C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G/C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "I used to be woe-be-gone and so restless nights"
+        },
+        {
+          "type": "chords",
+          "content": ["G/C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F/C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G/C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "My aching heart would bleed for you to see"
+        },
+        {
+          "type": "chords",
+          "content": ["G/C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F/C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G/C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Am7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh but now___"
+        },
+        {
+          "type": "text",
+          "content": "(I don't find myself bouncing home"
+        },
+        {
+          "type": "text",
+          "content": "Whistling button-hole tunes"
+        },
+        {
+          "type": "text",
+          "content": "To make me cry)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "No more \"I love you's\""
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G/B"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F/A"]
+        },
+        {
+          "type": "lyric",
+          "content": "A language is leaving me"
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "No more \"I love you's\""
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G/B"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Dm7/A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G4", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Changes are shifting outside the words"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "G/C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "text",
+          "content": "(The lover speaks about the monsters)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "I used to have demons in my room at night"
+        },
+        {
+          "type": "chords",
+          "content": ["G/C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F/C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G/C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Desire, despair, desire, so many monsters"
+        },
+        {
+          "type": "chords",
+          "content": ["G/C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F/C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G/C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Am7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh but now___"
+        },
+        {
+          "type": "text",
+          "content": "(I don't find myself bouncing home"
+        },
+        {
+          "type": "text",
+          "content": "Whistling button-hole tunes"
+        },
+        {
+          "type": "text",
+          "content": "To make me cry)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "No more \"I love you's\""
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G/B"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F/A"]
+        },
+        {
+          "type": "lyric",
+          "content": "A language is leaving me"
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "No more \"I love you's\""
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G/B"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Dm7/A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G4", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Changes are shifting outside the words"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "G/C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BRIDGE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F/A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Eb/G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Bb"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F/A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Eb/G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F4", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "OUTRO",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "No more \"I love you's\""
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G/B"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F/A"]
+        },
+        {
+          "type": "lyric",
+          "content": "A language is leaving me"
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["C"]
+            },
+            {
+              "type": "lyric",
+              "content": "No more \"I love you's\""
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G/B"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Dm7/A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G4", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Changes are shifting outside the words"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "G/C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    }
+  ]
+}

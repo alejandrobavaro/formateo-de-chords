@@ -1,0 +1,627 @@
+{
+  "id": "aerosmith-what-it-takes",
+  "title": "What It Takes",
+  "artist": "Aerosmith",
+  "originalKey": "G",
+  "tempo": "Rock Balada",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D", "Asus4", "Bm7", "A", "G"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "There goes my ol' girlfriend, there's another diamond ring"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "And, uh, all those late night promises I guess they don't mean a thing"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "So baby what's the story? Did ya… find another man?"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Is it easy to sleep in the bed that we made?"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "When you don't look back I guess the feeling starts to fade away"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "I used to feel yo' fire but now it's cold inside"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "And you're back on the street like you didn't miss a beat, yeah"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tell me what it takes to let you go"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tell me how's the pain supposed to go"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tell me how it is that you can sleep, in the night"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "Am"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F#m7(b5)"]
+        },
+        {
+          "type": "lyric",
+          "content": "Without thinking you lost everything that was good in your life"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "to the toss of the dice?"
+        },
+        {
+          "type": "chords",
+          "content": ["Ab", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tell me what it takes to let you go, yeah"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Girl before I met you I was F.I.N.E, fine"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "But your love made me a prisoner, yeah my heart's been doin' time"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "You spent me up like money, then ya… hung me out to dry"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "It was easy to keep all yo' lies in disguise"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "'Cause you had me in deep with the devil in your eyes"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tell me what it takes to let you go…   (yeee-hooh)"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tell me how's the pain supposed to go"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tell me how it is that you can sleep, in the night"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "Am"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F#m7(b5)"]
+        },
+        {
+          "type": "lyric",
+          "content": "Without thinking you lost everything that was good in yo' life"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "to the toss of the dice?"
+        },
+        {
+          "type": "chords",
+          "content": ["Ab", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tell me who's to blame for thinkin' twice    No, no, no, no"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "Am", "F", "C"]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "Am", "F"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BRIDGE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tell me that you're happy that you're on your own…"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Yeah, yeah, yeah"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tell me that is better when you're all alone"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Cm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tell me that your body doesn't miss my touch"
+        },
+        {
+          "type": "chords",
+          "content": ["Bb", "Ab"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Eb"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tell me that my lovin' didn't mean that much"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tell me you ain't dying when you're cryin' for me!"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tell me what it takes to let you go, (ooooh)"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tell me how's the pain supposed to go"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tell me how it is that you can sleep, in the night"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "Am"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F#m7(b5)"]
+        },
+        {
+          "type": "lyric",
+          "content": "Without thinking you lost everything that was good in your life"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "to the toss of the dice?"
+        },
+        {
+          "type": "chords",
+          "content": ["Ab", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "'Cause I don't wanna burn in paradise…     oooooh!"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Let go, let go, let go, I don't wanna burn in paradise"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Let it go, let it go, let it go"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "I don't wanna burn, I don't wanna burn… Let go"
+        },
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Let it go, let it go, let it go"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,422 @@
+{
+  "id": "guns-n-roses-yesterdays",
+  "title": "Yesterdays",
+  "artist": "Guns N' Roses",
+  "originalKey": "G",
+  "tempo": "Rock Acústico",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "F", "C"]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "F", "C"]
+        },
+        {
+          "type": "text",
+          "content": "(Riff de guitarra - Tablatura omitida por solicitud)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Yesterday there was so many things I was never told"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Now that I'm startin' to learn I feel I'm growin' old"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "'Cause yesterday's got nothin' for me"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Old pictures that I'll always see"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Time just fades the pages in my book of memories"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Prayers in my pocket and no hand in destiny"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'll keep movin' along with no time to plant my feet"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "'Cause yesterday's got nothin' for me"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Old pictures that I'll always see"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Some things could be better if we'd all just let them be"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Uuuuuuhhhhhhh, yesterday's"
+        },
+        {
+          "type": "chords",
+          "content": ["E5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Got nothin' for me"
+        },
+        {
+          "type": "chords",
+          "content": ["C5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Uuuuuuuuuuuh, yesterday's"
+        },
+        {
+          "type": "chords",
+          "content": ["E5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Got nothin' for me"
+        },
+        {
+          "type": "chords",
+          "content": ["C5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Em", "C"]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "C"]
+        },
+        {
+          "type": "text",
+          "content": "(Solo de guitarra - Tablatura omitida por solicitud)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Yesterday there were so many things I was never shown"
+        },
+        {
+          "type": "chords",
+          "content": ["Fadd9"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Suddenly this time I found I'm on the streets and I'm alone"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "'Cause yesterday's got nothin' for me"
+        },
+        {
+          "type": "chords",
+          "content": ["Fadd9"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Old pictures that I'll always see"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "I ain't got time to reminisce old novelties"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Uuuuuuhhhhhhh, yesterday's"
+        },
+        {
+          "type": "chords",
+          "content": ["E5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Got nothin' for me"
+        },
+        {
+          "type": "chords",
+          "content": ["C5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Uuuuuuuuuuuh, yesterday's"
+        },
+        {
+          "type": "chords",
+          "content": ["E5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Got nothin' for me"
+        },
+        {
+          "type": "chords",
+          "content": ["C5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Em", "F#m", "G", "A"]
+        },
+        {
+          "type": "text",
+          "content": "(Solo de guitarra - Tablatura omitida por solicitud)"
+        }
+      ]
+    }
+  ]
+}

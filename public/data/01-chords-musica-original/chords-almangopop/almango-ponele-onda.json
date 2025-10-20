@@ -1,0 +1,359 @@
+﻿{
+    "id": "almango-ponele-onda",
+    "title": "Ponele Onda",
+    "artist": "Almango Pop Music",
+    "originalKey": "B",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["B", "-", "B/A", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Estoy aquí sentado sin la TV, y no hay nada, nada, nada, nada que hacer."
+          },
+          {
+            "type": "chords",
+            "content": ["B", "-", "B/A", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Las chicas ya llegaron de algún lugar. Y yo sé que puedo hacer: ¡Ponele onda acá!"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "VERSE 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["B", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Afino la guitarra y empiezo a tocar. No hay nada, nada, nada, nada que perder."
+          },
+          {
+            "type": "chords",
+            "content": ["B/A", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Bailando se acercan y me piden más, yo sé que puedo hacer: ¡Ponele onda acá!"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "-", "F#", "-", "A", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Hoy la buena llegó y este es un buen día. Hoy es un gran día en nuestras vidas."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chords",
+                "content": ["B", "F#", "A", "E"]
+              },
+              {
+                "type": "lyric",
+                "content": "Ponele buena onda a tu día hoy."
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chords",
+                "content": ["B", "F#"]
+              },
+              {
+                "type": "lyric",
+                "content": "Ponele buena onda"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["E", "F#", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "a tu vida, a tu vida, a tu día hoy."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "VERSE 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["B", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Rodeado de mujeres te elijo a vos. Me atrae la energía positiva."
+          },
+          {
+            "type": "chords",
+            "content": ["B/A", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Las pilas se cargaron de algún champán. El contagio es masivo, y no puedo parar."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "-", "F#", "-", "A", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Hoy la buena llegó y este es un buen día. Hoy es un gran día en nuestras vidas."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chords",
+                "content": ["B", "F#", "A", "E"]
+              },
+              {
+                "type": "lyric",
+                "content": "Ponele buena onda a tu día hoy."
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chords",
+                "content": ["B", "F#"]
+              },
+              {
+                "type": "lyric",
+                "content": "Ponele buena onda"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["E", "F#", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "a tu vida, a tu vida, a tu día hoy."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "BIS",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A-B-D", "A-B-E", "F-E-D-B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Sentí la libertad, Libertad, Libertad."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "VERSE 3",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["B", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "A los que están dormidos, les voy a decir que no hay nada, nada, nada, nada que perder."
+          },
+          {
+            "type": "chords",
+            "content": ["B/A", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "La vida hermosa, aprovechala más. Si estás ahí sentado, ponete a bailar!"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "VERSE 4",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["B", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Las chicas quieren fiesta, obvio vos también. Ponele buena onda, y mándate ya."
+          },
+          {
+            "type": "chords",
+            "content": ["B/A", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Deciles algo tierno y andá a bailar, no pierdas un segundo ¡Ponele onda acá!"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "-", "F#", "-", "A", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Hoy la buena llegó y este es un buen día. Hoy es un gran día en nuestras vidas."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (FINAL)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chords",
+                "content": ["B", "F#", "A", "E"]
+              },
+              {
+                "type": "lyric",
+                "content": "Ponele buena onda a tu día hoy."
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chords",
+                "content": ["B", "F#"]
+              },
+              {
+                "type": "lyric",
+                "content": "Ponele buena onda"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["E", "F#", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "a tu vida, a tu vida, a tu día hoy."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "BIS (FINAL)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A-B-D", "A-B-E", "F-E-D-B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Sentí la libertad, Libertad, Libertad."
+          }
+        ]
+      }
+    ]
+  }
+  

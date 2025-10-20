@@ -1,0 +1,331 @@
+{
+  "id": "rafaga-una-cerveza",
+  "title": "Una Cerveza",
+  "artist": "Ráfaga",
+  "originalKey": "G",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "B"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Porque vos se nota que no me querés"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["C", "G"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Y yo me dedico al alcohol"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTERLUDE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "B", "Em", "C"]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D", "G"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Una cerveza voy a tomar"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["B", "Em", "D", "C"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "B"},
+            {"type": "lyric", "content": "Una cerveza quiero tomar y así olvidarme"},
+            {"type": "chord", "content": "Em"},
+            {"type": "chord", "content": "D"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric": ""}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "De aquella trampa, de aquella trampa mortal"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Otra cerveza voy a pedir"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["B", "Em", "D", "C"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "B"},
+            {"type": "lyric", "content": "Otra cerveza para brindar y no quedarme"},
+            {"type": "chord", "content": "Em"},
+            {"type": "chord", "content": "D"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric": ""}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Sin esperanzas, sin esperanzas tal vez"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS (REPEAT)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Porque vos"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "B"},
+            {"type": "lyric", "content": "Se nota que no me querés"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Em"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "Se nota que ya no hay amor"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "D", "C"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "Entonces ya no hay más que hacer"},
+            {"type": "chord", "content": "D"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric": ""}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Y yo me dedico al alcohol"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BRIDGE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Se nota que no me querés"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "B"},
+            {"type": "lyric", "content": "Se nota que ya no hay amor"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "D", "C"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "Entonces ya no hay más que hacer"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Y yo me dedico al alcohol"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "Amor, amor"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "OUTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "B", "Em", "Em"]
+        },
+        {
+          "type": "chords",
+          "content": ["D", "C", "G", "D"]
+        }
+      ]
+    }
+  ]
+}

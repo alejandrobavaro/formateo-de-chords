@@ -1,0 +1,407 @@
+﻿{
+    "id": "almango-por-siempre-hoy",
+    "title": "Por Siempre Hoy",
+    "artist": "Almango",
+    "originalKey": "A",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO BASE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "D", "Bm", "E", "-", "A", "D", "Bm", "E"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "VERSE 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "-", "D", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Ya no sé, si estás o no estás."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "-", "E", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Sí, ya lo sé, se acabó esta vez."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "-", "D", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Hoy, ya me voy, y no voy a volver,"
+          },
+          {
+            "type": "chords",
+            "content": ["Bm", "-", "E", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "aunque desearía quedarme por siempre."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y el destino esta vez, me dejó a mí pagando,"
+          },
+          {
+            "type": "chords",
+            "content": ["A", "A/G#", "F#m", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "sin vos, sin tu amor."
+          },
+          {
+            "type": "chords",
+            "content": ["G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "No queda nada que decir,"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "-", "E", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Solo será por siempre hoy."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chords",
+                "content": ["A", "D", "Bm", "E"]
+              },
+              {
+                "type": "lyric",
+                "content": "Pero la luz de tus ojos me dice que estoy"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chords",
+                "content": ["A", "D", "Bm", "E"]
+              },
+              {
+                "type": "lyric",
+                "content": "destinado a amarte por siempre hoy."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO BASE (VARIACIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "D", "Bm", "E"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "VERSE 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "-", "D", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Yo ya no sé, si lo mejor es partir,"
+          },
+          {
+            "type": "chords",
+            "content": ["A", "-", "E", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "pero algo más me lleva hasta ti."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "-", "D", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y así me voy dejando mi corazón,"
+          },
+          {
+            "type": "chords",
+            "content": ["Bm", "-", "E", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "te recordaré, por siempre mi amor."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y el destino esta vez, me dejó a mí pagando,"
+          },
+          {
+            "type": "chords",
+            "content": ["A", "A/G#", "F#m", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "sin vos, sin tu amor."
+          },
+          {
+            "type": "chords",
+            "content": ["G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "No queda nada que decir,"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "-", "E", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Solo será un simple adiós."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chords",
+                "content": ["A", "D", "Bm", "E"]
+              },
+              {
+                "type": "lyric",
+                "content": "Pero la luz de tus ojos me dice que estoy"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chords",
+                "content": ["A", "D", "Bm", "E"]
+              },
+              {
+                "type": "lyric",
+                "content": "destinado a amarte por siempre hoy."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PUENTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Dm", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Por siempre hoy..."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Por siempre hoy..."
+          },
+          {
+            "type": "chords",
+            "content": ["Dm", "-", "A", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Por siempre hoy..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PUENTE BASE BAJADA",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D", "D/C#", "D/C", "D/B", "-", "D", "D/C#", "D/C", "D/B"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO VIOLA",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "D", "Bm", "E", "-", "A", "D", "Bm", "E"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (FINAL)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chords",
+                "content": ["A", "D", "Bm", "E"]
+              },
+              {
+                "type": "lyric",
+                "content": "Pero la luz de tus ojos me dice que estoy"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chords",
+                "content": ["A", "D", "Bm", "E"]
+              },
+              {
+                "type": "lyric",
+                "content": "destinado a amarte por siempre hoy."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PUENTE (FINAL)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Dm", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Por siempre hoy..."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Por siempre hoy..."
+          },
+          {
+            "type": "chords",
+            "content": ["Dm", "-", "A", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Por siempre hoy..."
+          }
+        ]
+      }
+    ]
+  }
+  

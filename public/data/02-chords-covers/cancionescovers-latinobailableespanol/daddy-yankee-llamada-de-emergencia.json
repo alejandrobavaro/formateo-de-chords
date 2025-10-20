@@ -1,0 +1,609 @@
+{
+  "id": "daddy-yankee-llamada-de-emergencia",
+  "title": "Llamada de Emergencia",
+  "artist": "Daddy Yankee",
+  "originalKey": "C",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO (x2)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "–", "D", "–", "Em"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "lyric",
+          "content": "Ven y sana mi dolor"
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "Tienes la cura de este amor"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "lyric",
+          "content": "Hago este llamado para que tú vuelvas"
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "Tú no ves que estoy sufriendo, que es muy dura esta prueba"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "lyric",
+          "content": "Ay un hombre moribundo aquí"
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "Dime quién lo puede revivir"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "lyric",
+          "content": "Tú tienes la receta, la fórmula secreta"
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "Para poner en ritmo mi corazón"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "lyric",
+          "content": "No existe medicina, doctores ni aspirina"
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "Para el dolor que siente mi corazón"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "lyric",
+          "content": "Casi no siento mis palpitos"
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "Arriésgate a que venga la paramédico"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "lyric",
+          "content": "Necesito que me des un electroshock de tu calor"
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "lyric",
+          "content": "Tu suero de cariño, es lo que me toca"
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "Quiero que me des respiración boca a boca"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "lyric",
+          "content": "Y que la camilla sea nuestra camita"
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "Ay un hombre caído casi te necesita, ay hombre"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "lyric",
+          "content": "Ven aquí rápido"
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "Es un llamado de emergencia, baby..."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CORO (x2)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "Ven aquí rápido"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Ven aquí rápido"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Em"]
+        },
+        {
+          "type": "lyric",
+          "content": "Ven y sana mi dolor"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "–", "D", "–", "Em"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tienes la cura de este amor"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "–", "D", "–", "Em"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hago este llamado para que tú vuelvas"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "–", "D", "–", "Em"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tú no ves que estoy sufriendo, que es muy dura esta prueba"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PUENTE",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "Y abrázame... y dime que me amas"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Abrázame... y dime que me amas"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Em"]
+        },
+        {
+          "type": "lyric",
+          "content": "Quédate... ey nena que alivia mi alma"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "–", "D", "–", "Em"]
+        },
+        {
+          "type": "lyric",
+          "content": "Inyecta de calma"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "–", "D", "–", "Em"]
+        },
+        {
+          "type": "lyric",
+          "content": "Quédate... que tú no ves que por tu amor yo me muero, ma'"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "lyric",
+          "content": "Sin ti mi camino se desaparece"
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "Sin ti las espinas son las que florecen"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "lyric",
+          "content": "Sin ti yo no vivo"
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "Sin ti no se escribe la historia del amor"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "lyric",
+          "content": "Sin ti mi poema se queda sin verso"
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "Sin ti no ilumina la estrella en mi universo"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "lyric",
+          "content": "Y sin hospitales van disminuyendo, ven por favor"
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CORO FINAL (x4)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "Ven aquí rápido"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Ven aquí rápido"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Em"]
+        }
+      ]
+    }
+  ]
+}

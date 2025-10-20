@@ -1,0 +1,558 @@
+{
+  "id": "robbie-williams-feel",
+  "title": "Feel",
+  "artist": "Robbie Williams",
+  "originalKey": "F",
+  "tempo": "Balada/Pop",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Dm", "D5", "F", "G"]
+        },
+        {
+          "type": "chords",
+          "content": ["Dm", "D5", "F", "G"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Come on hold my hand"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "I wanna contact the living"
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Gm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Not sure I understand"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "This role I've been given"
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "I sit and talk to God"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "And he just laughs at my plans"
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Gm"]
+        },
+        {
+          "type": "lyric",
+          "content": "My head speaks a language"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "I don't understand"
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A#"]
+        },
+        {
+          "type": "lyric",
+          "content": "I just wanna feel real love"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Feel the home that I live in"
+        },
+        {
+          "type": "chords",
+          "content": ["A#"]
+        },
+        {
+          "type": "lyric",
+          "content": "'Cause I got too much life"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Running through my veins, going to waste"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "I don't wanna die"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "But I ain't keen on living either"
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Gm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Before I fall in love"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm preparing to leave her"
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "I scare myself to death"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "That's why I keep on running"
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Gm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Before I've arrived"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "I can see myself coming"
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A#"]
+        },
+        {
+          "type": "lyric",
+          "content": "I just wanna feel real love"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Feel the home that I live in"
+        },
+        {
+          "type": "chords",
+          "content": ["A#"]
+        },
+        {
+          "type": "lyric",
+          "content": "'Cause I got too much life"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Running through my veins, going to waste"
+        },
+        {
+          "type": "chords",
+          "content": ["A#"]
+        },
+        {
+          "type": "lyric",
+          "content": "And I need to feel, real love"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "And a life ever after"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "I cannot get enough"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm", "D5", "F", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Dm", "D5", "F", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A#"]
+        },
+        {
+          "type": "lyric",
+          "content": "I just wanna feel real love"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Feel the home that I live in"
+        },
+        {
+          "type": "chords",
+          "content": ["A#"]
+        },
+        {
+          "type": "lyric",
+          "content": "'Cause I got too much love"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Running through my veins, going to waste"
+        },
+        {
+          "type": "chords",
+          "content": ["A#"]
+        },
+        {
+          "type": "lyric",
+          "content": "I just wanna feel real love"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "In a life ever after"
+        },
+        {
+          "type": "chords",
+          "content": ["A#"]
+        },
+        {
+          "type": "lyric",
+          "content": "There's a hole in my soul"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "You can see it in my face, it's a real big place"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm", "D5", "F", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Dm", "D5", "F", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "OUTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Not sure I understand"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Not sure I understand"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Not sure I understand"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Not sure I understand"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    }
+  ]
+}

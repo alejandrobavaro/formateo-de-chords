@@ -1,0 +1,432 @@
+{
+    "id": "queen-hammer-to-fall",
+    "title": "Hammer to Fall",
+    "artist": "Queen",
+    "originalKey": "G",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "C"]
+          },
+          {
+            "type": "chords",
+            "content": ["G", "C"]
+          },
+          {
+            "type": "chords",
+            "content": ["G", "C"]
+          },
+          {
+            "type": "chords",
+            "content": ["D", "G"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRIMERA PARTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Here we stand, here we fall,"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "History don't care at all"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Make the bed, light the light;"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Lady mercy won't be home tonight."
+          },
+          {
+            "type": "chords",
+            "content": ["D", "G"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "You don't waste no time at all,"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "Don't hear the bell but you answer the call."
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "Comes to you and to us all,"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "While you're waiting for the hammer, fall."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SEGUNDA PARTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Every night, and every day,"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "A little piece of you is falling away"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Lift your face, the western way;"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Build your muscles as your body decays."
+          },
+          {
+            "type": "chords",
+            "content": ["D", "G"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Toe your line and play the game,"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "Let the anaesthetic cover it all"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "Till one day they call your name,"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "You know it's time for the hammer to fall."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PUENTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Rich or poor or famous but your truth;"
+          },
+          {
+            "type": "chords",
+            "content": ["Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "It's all the same... Oh No, Oh No."
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Lock your door but rain"
+          },
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Is pouring through the windowpane. Oh No"
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Baby, now your struggles are in vain."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO VIOLA",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A5", "D5", "A5", "D5", "F5", "G5"]
+          },
+          {
+            "type": "chords",
+            "content": ["G5", "D5", "C5", "G5", "G5", "C5", "G5"]
+          },
+          {
+            "type": "chords",
+            "content": ["G5", "C5", "G5", "C5", "G5", "C5", "D5"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "TERCERA PARTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C"]
+          },
+          {
+            "type": "lyric",
+            "content": "You who grew up tall and proud,"
+          },
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "In the shadow of the mushroom cloud"
+          },
+          {
+            "type": "chords",
+            "content": ["C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Convinced our voices can't be heard,"
+          },
+          {
+            "type": "chords",
+            "content": ["C"]
+          },
+          {
+            "type": "lyric",
+            "content": "So we want to scream it louder n' louder n' louder,"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "What the hell we fighting for?"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "Just surrender and it won't hurt us all."
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "Just got time to say your prayers,"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "While you're waiting for the hammer to, hammer to fall."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "C"]
+          },
+          {
+            "type": "chords",
+            "content": ["G", "C"]
+          },
+          {
+            "type": "chords",
+            "content": ["G", "C"]
+          },
+          {
+            "type": "chords",
+            "content": ["D", "G"]
+          },
+          {
+            "type": "chords",
+            "content": ["G5", "G5"]
+          },
+          {
+            "type": "lyric",
+            "content": "Give it to me one more time."
+          }
+        ]
+      }
+    ]
+  }
+  

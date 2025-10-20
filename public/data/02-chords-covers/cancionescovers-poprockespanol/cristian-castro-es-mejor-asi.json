@@ -1,0 +1,327 @@
+{
+  "id": "cristian-castro-es-mejor-asi",
+  "title": "Es Mejor Así",
+  "artist": "Cristian Castro",
+  "originalKey": "E",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRODUCCIÓN",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "con distorsión"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Si fuera por ti, me harías sufrir"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "B", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Casi sin pensarlo, podrías mentir."
+        },
+        {
+          "type": "chords",
+          "content": ["E", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Si yo nunca fui, tu historia de amor"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "B", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "No juegues conmigo, es mejor tu adiós."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-CORO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tal vez esto es lo mejor, que sufrir de amor"
+        },
+        {
+          "type": "chords",
+          "content": ["C#m", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "(uh-uh)"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "B", "E", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "No lo hago por ti, no quiero seguir."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CORO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "A", "F#m", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Ya no quiero de ti nada, no puedo creerte nada"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A", "F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "Vete y busca quien te quiera, quien te aguante a tu manera"
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A", "C#m", "F#m", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Por mi parte está perdido, te declaro en el olvido"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "C#m", "C", "B", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tan cansado estoy de ti, es mejor así"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "No puedes luchar, contra la verdad"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "B", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Por mucho que llores, no voy a cambiar"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-CORO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tal vez esto es lo mejor, que sufrir de amor"
+        },
+        {
+          "type": "chords",
+          "content": ["C#m", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "(uh-uh)"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "B", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "No lo hago por ti, no quiero seguir."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PUENTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Y aunque esta noche estoy despierto"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "D", "A", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Puedo decirte que me siento, mejor así, mejor, mejor así"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "C", "A", "C", "D", "C", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Mejor, mejor así, mejor, mejor así."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CORO FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "A", "F#m", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Ya no quiero de ti nada, no puedo creerte nada"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A", "F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "Vete y busca quien te quiera, quien te aguante a tu manera"
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A", "C#m", "F#m", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Por mi parte está perdido, te declaro en el olvido"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "C#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tan cansado estoy de ti,"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "B", "E", "A", "F#m", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Es mejor así"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A", "F#m", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "(vete) (vete)"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A", "F#m", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Es mejor así"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A", "F#m", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "(vete) (vete)"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "(vete) (vete)"
+        }
+      ]
+    }
+  ]
+}

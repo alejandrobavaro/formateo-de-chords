@@ -1,0 +1,297 @@
+{
+  "id": "elton-john-sorry-seems-to-be-the-hardest-word",
+  "title": "Sorry Seems to Be the Hardest Word",
+  "artist": "Elton John",
+  "originalKey": "Em",
+  "tempo": "Balada",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Em"]
+        },
+        {
+          "type": "lyric",
+          "content": "What have I got to do to make you love me?"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Am7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "What have I got to do to make you care?"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "F#m5-", "B7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Em"]
+        },
+        {
+          "type": "lyric",
+          "content": "What do I do when lightning strikes me?"
+        },
+        {
+          "type": "chords",
+          "content": ["G/D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Am7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "And I wake to find that you're not there?"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "F#m5-", "B7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Em"]
+        },
+        {
+          "type": "lyric",
+          "content": "What do I do to make you want me?"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Am7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "What have I gotta do to be heard?"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "F#m5-", "B7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Em"]
+        },
+        {
+          "type": "lyric",
+          "content": "What do I say when it's all over?"
+        },
+        {
+          "type": "chords",
+          "content": ["Am7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "And sorry seems to be the hardest word?"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C/E"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's sad, so sad"
+        },
+        {
+          "type": "chords",
+          "content": ["B/D#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G/D"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's a sad, sad situation"
+        },
+        {
+          "type": "chords",
+          "content": ["C#m7(5-)"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Am/C"]
+        },
+        {
+          "type": "lyric",
+          "content": "And it's getting more and more absurd"
+        },
+        {
+          "type": "chords",
+          "content": ["B7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "F#m7(5-)", "B7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C/E"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's sad, so sad"
+        },
+        {
+          "type": "chords",
+          "content": ["B/D#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G/D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Why can't we talk it over?"
+        },
+        {
+          "type": "chords",
+          "content": ["A7/C#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh, it seems to me"
+        },
+        {
+          "type": "chords",
+          "content": ["Am7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["B7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Sorry seems to be the hardest word"
+        }
+      ]
+    }
+  ]
+}

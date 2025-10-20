@@ -1,0 +1,379 @@
+{
+  "id": "queen-i-want-it-all",
+  "title": "I Want It All",
+  "artist": "Queen",
+  "originalKey": "Am",
+  "tempo": "Fast",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "lyric",
+          "content": "I want it all, I want it all"
+        },
+        {
+          "type": "lyric",
+          "content": "I want it all, and I want it now"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Adventure seeker on an empty street"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "Am", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Just an alley creeper, light on his feet"
+        },
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "A young fighter screaming, with no time for doubt"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "Am", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "With the pain and the anger can't see a way out"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "F", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "It ain't much I'm asking, I heard him say"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "G", "F", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Gotta find me a future move out of my way"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Am"
+            },
+            {
+              "type": "lyric",
+              "content": "I want it all, I want it all, I want it all, and I"
+            },
+            {
+              "type": "chord",
+              "content": "F"
+            },
+            {
+              "type": "lyric",
+              "content": "Want it now"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "I want it all, I want it all, I want it all, and I"
+            },
+            {
+              "type": "chord",
+              "content": "Am"
+            },
+            {
+              "type": "lyric",
+              "content": "Want it now"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Listen all you people, come gather round,"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "I gotta get me a game plan, gotta shake you to the ground,"
+        },
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Just give me what I know is mine,"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "Am", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "People do you hear me, just give me the sign,"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "F", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "It ain't much I'm asking, if you want the truth"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "G", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Here's to the future for the dreams of youth,"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Am"
+            },
+            {
+              "type": "lyric",
+              "content": "I want it all, I want it all, I want it all, and I"
+            },
+            {
+              "type": "chord",
+              "content": "F"
+            },
+            {
+              "type": "lyric",
+              "content": "Want it now"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "I want it all, I want it all, I want it all, and I"
+            },
+            {
+              "type": "chord",
+              "content": "Am"
+            },
+            {
+              "type": "lyric",
+              "content": "Want it now"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "TERCERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm a man with a one track mind,"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "So much to do in one life time (people do you hear me)"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Not a man for compromise and"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Where's and why's and living lies"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "So I'm living it all, yes I'm living it all,"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "And I'm giving it all, and I'm giving it all,"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am", "F", "G", "D"]
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "F", "G", "F", "G"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "F", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "It ain't much I'm asking, if you want the truth"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "G", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Here's to the future, hear the cry of youth"
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "F", "G", "Am", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "I want it all, I want it all, I want it all, and I want it now"
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "F", "G", "Am", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "I want it all, I want it all, I want it all, and I want it now"
+        }
+      ]
+    }
+  ]
+}

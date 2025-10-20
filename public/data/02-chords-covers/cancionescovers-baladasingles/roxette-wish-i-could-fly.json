@@ -1,0 +1,423 @@
+{
+  "id": "roxette-wish-i-could-fly",
+  "title": "Wish I Could Fly",
+  "artist": "Roxette",
+  "originalKey": "G",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Em", "G", "A"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "Halfway through the night"},
+            {"type": "chord", "content": "G"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "I wake up in a dream"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "G", "A"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "Echoes in my head"},
+            {"type": "chord", "content": "G"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Make every whisper turn into a scream"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D", "Bm", "Em", "A"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "I dreamed I could fly out in the blue"},
+            {"type": "chord", "content": "Bm"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "Over this town followin' you"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["D", "C", "G", "A"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "Over the trees, subways and cars"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "I'd try to find out who you really are"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Em", "G", "A"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "In the middle of the night"},
+            {"type": "chord", "content": "G"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Cool sweatin' in my bed"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "G", "A"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "Got the windows open wide"},
+            {"type": "chord", "content": "G"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Thinkin' about all the things you said"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS (REPEAT)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D", "Bm", "Em", "A"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "I wish I could fly out in the blue"},
+            {"type": "chord", "content": "Bm"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "Over this town followin' you"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["D", "C", "G", "A"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "I'd fly over rooftops, the great boulevards"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "To try to find out who you really are"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BRIDGE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "A", "E", "B"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "E"},
+            {"type": "lyric", "content": "Who you really are"},
+            {"type": "chord", "content": "A"},
+            {"type": "chord", "content": "E"},
+            {"type": "chord", "content": "B"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A", "E", "B"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "E"},
+            {"type": "lyric", "content": "I wish I could fly now"},
+            {"type": "chord", "content": "A"},
+            {"type": "chord", "content": "E"},
+            {"type": "chord", "content": "B"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "D", "E", "Bm", "D", "E"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Bm"},
+            {"type": "lyric", "content": "I wish I could fly now..."},
+            {"type": "chord", "content": "D"},
+            {"type": "chord", "content": "E"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTERLUDE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Gm", "A#", "C", "Gm", "A#", "C"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL CHORUS",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D", "Bm", "Em", "A"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "I wish I could fly around and around"},
+            {"type": "chord", "content": "Bm"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "Over this town, the dirt on the ground"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["D", "C", "G", "A"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "I'd follow your course of doors left ajar"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "To try to find out who you really are"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "A", "C"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "Who you really are"},
+            {"type": "chord", "content": "A"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D"]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Fly, fly, fly"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "C", "D"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Am"},
+            {"type": "lyric", "content": "I wish I could fly..."},
+            {"type": "chord", "content": "C"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "C", "D"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Am"},
+            {"type": "lyric", "content": "I wake up in a dream... in the middle of the night..."},
+            {"type": "chord", "content": "C"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "C", "D"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Am"},
+            {"type": "lyric", "content": "I wish I could fly..."},
+            {"type": "chord", "content": "C"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    }
+  ]
+}

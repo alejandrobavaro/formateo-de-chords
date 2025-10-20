@@ -1,0 +1,598 @@
+{
+  "id": "almango-donde-esta-el-amor",
+  "title": "¿Dónde está el amor?",
+  "artist": "Almango",
+  "originalKey": "G",
+  "tempo": "Pop-Rock Ballad (95 BPM)",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "D", "C", "D"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTROFA 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Tantas noches de entregar amor."},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Tantos días de perfecta ilusión."},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Pero no llega el amor de verdad."},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "¿Que pasa?..."},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTROFA 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Aunque un tiempo creí que tu eras ideal,"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Nena, mi mundo no gira siempre en torno a vos…"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Todo lo que hice fue todo tan real,"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "y transparente, de frente, no tan demente."},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTROFA 3",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Te abrí mi corazón sincero, nena."},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Te di mi corazón sin juegos nena."},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "Y justo caí,"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "tu estabas ahí."}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "y no podías ni hablar."},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "F#"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "Que justo te vi y me derrumbe…"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Yo no comprendo, no comprendo!!"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "¿Dónde está el amor?,"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "¿Dónde está?,"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "¿dónde está?"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "¿Dónde está el amor?,"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "¿Dónde está?,"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "¿dónde está?"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTROFA 4",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Tantas noches de entregar amor."},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Tantos días de perfecta ilusión."},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Pero no llega el amor de verdad."},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "¿Que pasa?..."},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTROFA 5",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "¿Porque en la calle la gente no sonríe mas?"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "el mundo no es cien por ciento vos…"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTROFA 6",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Todo lo que hice fue todo tan real,"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "y transparente, de frente, no tan demente."},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Te abrí mi corazón sincero, nena."},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Te di mi corazón sin juegos nena."},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "Y justo caí y estabas ahí."},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "y no podías ni hablar."},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "F#"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "Que justo te vi y me derrumbe…"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "No comprendo, no comprendo!!"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "¿Dónde está el amor?,"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "¿Dónde está?,"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "¿dónde está?"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "¿Dónde está el amor?,"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "¿Dónde está?,"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "¿dónde está?"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BIS",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "Aunque esta noche me desvelo"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "y me muero por dormir con vos."}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "Busco la forma de ser fuerte y olvidarte amor"},
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "Lo que me enferma es que doy todo de mi"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Que pasa? No comprendo!!"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO SIN BANDA",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "¿Dónde está el amor?,"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "¿Dónde está?,"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "¿dónde está?"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "¿Dónde está el amor?,"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "¿Dónde está?,"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "¿dónde está?"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL (x2)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "¿Dónde está el amor?,"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "¿Dónde está?,"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "¿dónde está?"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "¿Dónde está el amor?,"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "¿Dónde está?,"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "¿dónde está?"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    }
+  ]
+}

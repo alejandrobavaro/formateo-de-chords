@@ -1,0 +1,965 @@
+{
+  "id": "green-day-21-guns",
+  "title": "21 Guns",
+  "artist": "Green Day",
+  "originalKey": "Dm",
+  "tempo": "Rock Alternativo",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Dm", "Bb", "F", "C"]
+        },
+        {
+          "type": "chords",
+          "content": ["Dm", "Bb", "F", "C"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Do you know what's worth fighting for,"
+        },
+        {
+          "type": "chords",
+          "content": ["Bb"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "When it's not worth dying for?"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Does it take your breath away"
+        },
+        {
+          "type": "chords",
+          "content": ["Bb"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "And you feel yourself suffocating?"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Does the pain weigh out the pride?"
+        },
+        {
+          "type": "chords",
+          "content": ["Bb"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "And you look for a place to hide?"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Did someone break your heart inside?"
+        },
+        {
+          "type": "chords",
+          "content": ["Bb"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C5"]
+        },
+        {
+          "type": "lyric",
+          "content": "You're in ruins"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F5"]
+        },
+        {
+          "type": "lyric",
+          "content": "One,"
+        },
+        {
+          "type": "chords",
+          "content": ["C/E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": "21 guns"
+        },
+        {
+          "type": "chords",
+          "content": ["C5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Lay down your arms"
+        },
+        {
+          "type": "chords",
+          "content": ["Bb5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Give up the fight"
+        },
+        {
+          "type": "chords",
+          "content": ["C5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F5"]
+        },
+        {
+          "type": "lyric",
+          "content": "One,"
+        },
+        {
+          "type": "chords",
+          "content": ["C/E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": "21 guns"
+        },
+        {
+          "type": "chords",
+          "content": ["C5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Throw up your arms into the sky,"
+        },
+        {
+          "type": "chords",
+          "content": ["Bb5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C5"]
+        },
+        {
+          "type": "lyric",
+          "content": "You and I"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "When you're at the end of the road"
+        },
+        {
+          "type": "chords",
+          "content": ["Bb"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "And you lost all sense of control"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "And your thoughts have taken their toll"
+        },
+        {
+          "type": "chords",
+          "content": ["Bb"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "When your mind breaks the spirit of your soul"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Your faith walks on broken glass"
+        },
+        {
+          "type": "chords",
+          "content": ["Bb"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "And the hangover doesn't pass"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Nothing's ever built to last"
+        },
+        {
+          "type": "chords",
+          "content": ["Bb"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C5"]
+        },
+        {
+          "type": "lyric",
+          "content": "You're in ruins"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F5"]
+        },
+        {
+          "type": "lyric",
+          "content": "One,"
+        },
+        {
+          "type": "chords",
+          "content": ["C/E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": "21 guns"
+        },
+        {
+          "type": "chords",
+          "content": ["C5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Lay down your arms"
+        },
+        {
+          "type": "chords",
+          "content": ["Bb5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Give up the fight"
+        },
+        {
+          "type": "chords",
+          "content": ["C5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F5"]
+        },
+        {
+          "type": "lyric",
+          "content": "One,"
+        },
+        {
+          "type": "chords",
+          "content": ["C/E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": "21 guns"
+        },
+        {
+          "type": "chords",
+          "content": ["C5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Throw up your arms into the sky,"
+        },
+        {
+          "type": "chords",
+          "content": ["Bb5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C5"]
+        },
+        {
+          "type": "lyric",
+          "content": "You and I"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BRIDGE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Did you try to live on your own"
+        },
+        {
+          "type": "chords",
+          "content": ["Bb5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F5"]
+        },
+        {
+          "type": "lyric",
+          "content": "When you burned down the house and home?"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Did you stand too close to the fire?"
+        },
+        {
+          "type": "chords",
+          "content": ["Bb5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Like a liar looking for forgiveness from a stone"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F5", "C/E", "D5", "C5"]
+        },
+        {
+          "type": "chords",
+          "content": ["Bb5", "F5", "C5"]
+        },
+        {
+          "type": "chords",
+          "content": ["F5", "C/E", "D5", "C5"]
+        },
+        {
+          "type": "chords",
+          "content": ["Bb5", "F5", "C5"]
+        },
+        {
+          "type": "chords",
+          "content": ["Bb5", "F5", "A5"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BREAK",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Dm", "Bb", "F", "C"]
+        },
+        {
+          "type": "chords",
+          "content": ["Dm", "Bb", "F", "C"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 3",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "When it's time to live and let die"
+        },
+        {
+          "type": "chords",
+          "content": ["Bb"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "And you can't get another try"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Something inside this heart has died"
+        },
+        {
+          "type": "chords",
+          "content": ["Bb"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "You're in ruins"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL CHORUS",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F5"]
+        },
+        {
+          "type": "lyric",
+          "content": "One,"
+        },
+        {
+          "type": "chords",
+          "content": ["C/E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": "21 guns"
+        },
+        {
+          "type": "chords",
+          "content": ["C5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Lay down your arms"
+        },
+        {
+          "type": "chords",
+          "content": ["Bb5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Give up the fight"
+        },
+        {
+          "type": "chords",
+          "content": ["C5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F5"]
+        },
+        {
+          "type": "lyric",
+          "content": "One,"
+        },
+        {
+          "type": "chords",
+          "content": ["C/E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": "21 guns"
+        },
+        {
+          "type": "chords",
+          "content": ["C5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Throw up your arms into the sky,"
+        },
+        {
+          "type": "chords",
+          "content": ["Bb5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C5"]
+        },
+        {
+          "type": "lyric",
+          "content": "You and I"
+        },
+        {
+          "type": "chords",
+          "content": ["F5"]
+        },
+        {
+          "type": "lyric",
+          "content": "One,"
+        },
+        {
+          "type": "chords",
+          "content": ["C/E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": "21 guns"
+        },
+        {
+          "type": "chords",
+          "content": ["C5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Lay down your arms"
+        },
+        {
+          "type": "chords",
+          "content": ["Bb5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Give up the fight"
+        },
+        {
+          "type": "chords",
+          "content": ["C5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F5"]
+        },
+        {
+          "type": "lyric",
+          "content": "One,"
+        },
+        {
+          "type": "chords",
+          "content": ["C/E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": "21 guns"
+        },
+        {
+          "type": "chords",
+          "content": ["C5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Throw up your arms into the sky,"
+        },
+        {
+          "type": "chords",
+          "content": ["Bb5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C5"]
+        },
+        {
+          "type": "lyric",
+          "content": "You and I"
+        }
+      ]
+    }
+  ]
+}

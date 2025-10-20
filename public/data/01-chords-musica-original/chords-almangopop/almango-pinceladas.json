@@ -1,0 +1,479 @@
+{
+  "id": "almango-pinceladas",
+  "title": "Pinceladas",
+  "artist": "Almango",
+  "originalKey": "G",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "D", "Em", "Bm", "D"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "lyric",
+          "content": "Pinceladas de dolor,"
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": "tiñen este gran amor de gris…"
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "Quisiera volver atrás"
+        },
+        {
+          "type": "chord",
+          "content": "Bm"
+        },
+        {
+          "type": "lyric",
+          "content": "sentirte una vez más, no dejarte ir…"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am", "Am/B", "C", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Y cuando creo que no hay nada por hacer."
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "Am/B", "C", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Esta historia vuelve, comienza otra vez."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "Yo me muero si no estás"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "en mi vida una vez más,"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["C", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "así poder volverte a amar."
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "En mis sueños vos estás"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "y no quiero despertar"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "G", "C9", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "así volver a amarte."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "lyric",
+          "content": "Pinceladas de razón"
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": "noches frías sin tu amor y aquí estoy."
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "En tiempos de soledad,"
+        },
+        {
+          "type": "chord",
+          "content": "Bm"
+        },
+        {
+          "type": "lyric",
+          "content": "fuiste agua, fuiste mar, pero no para mí…"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am", "Am/B", "C", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Y cuando creo que no hay nada por hacer."
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "Am/B", "C", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Esta historia vuelve, comienza otra vez."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "Yo me muero si no estás"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "en mi vida una vez más,"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["C", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "así poder volverte a amar."
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "En mis sueños vos estás"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "y no quiero despertar"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "G", "C9", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "así volver a amarte."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BIS",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tantas noches sin vos"
+        },
+        {
+          "type": "chords",
+          "content": ["Am/B"]
+        },
+        {
+          "type": "lyric",
+          "content": "tantos golpes amor."
+        },
+        {
+          "type": "chords",
+          "content": ["C", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Y no puedo tenerte a mi lado."
+        },
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hoy no puedo más"
+        },
+        {
+          "type": "chords",
+          "content": ["Am/B"]
+        },
+        {
+          "type": "lyric",
+          "content": "yo me muero amor"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Si no estás aquí."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO BASE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "D", "Em", "G", "Em", "C", "D"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (x2)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "Yo me muero si no estás"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "en mi vida una vez más,"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["C", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "así poder volverte a amar."
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "En mis sueños vos estás"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "y no quiero despertar"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "G", "C9", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "así volver a amarte."
+        }
+      ]
+    }
+  ]
+}

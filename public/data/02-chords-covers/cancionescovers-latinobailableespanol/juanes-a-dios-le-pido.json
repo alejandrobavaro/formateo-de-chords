@@ -1,0 +1,444 @@
+{
+  "id": "juanes-a-dios-le-pido",
+  "title": "A Dios Le Pido",
+  "artist": "Juanes",
+  "originalKey": "Am",
+  "tempo": "Moderate (Balada)",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "text",
+          "content": "(Riff de guitarra - omitido por solicitud)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA ESTROFA",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "lyric",
+          "content": "Que mis ojos se despierten, con la luz de tu mirada, yo"
+        },
+        {
+          "type": "chord",
+          "content": "E7"
+        },
+        {
+          "type": "lyric",
+          "content": "A Dios le pido"
+        },
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "lyric",
+          "content": "Que mi madre no se muera y que mi padre me recuerde"
+        },
+        {
+          "type": "chord",
+          "content": "E7"
+        },
+        {
+          "type": "lyric",
+          "content": "A Dios le pido"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA ESTROFA",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "lyric",
+          "content": "Que te quedes a mi lado y más nunca te me vayas, mi vida"
+        },
+        {
+          "type": "chord",
+          "content": "E7"
+        },
+        {
+          "type": "lyric",
+          "content": "A Dios le pido"
+        },
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "lyric",
+          "content": "Que mi alma no descanse cuando de amarte se trate, mi cielo"
+        },
+        {
+          "type": "chord",
+          "content": "E7"
+        },
+        {
+          "type": "lyric",
+          "content": "A Dios le pido"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "TERCERA ESTROFA",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "lyric",
+          "content": "Por los días que me quedan y las noches que aún no llegan, yo"
+        },
+        {
+          "type": "chord",
+          "content": "E7"
+        },
+        {
+          "type": "lyric",
+          "content": "A Dios le pido"
+        },
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "lyric",
+          "content": "Por los hijos de mis hijos y los hijos de tus hijos"
+        },
+        {
+          "type": "chord",
+          "content": "E7"
+        },
+        {
+          "type": "lyric",
+          "content": "A Dios le pido"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CUARTA ESTROFA",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "lyric",
+          "content": "Que mi pueblo no derrame tanta sangre y se levante mi gente"
+        },
+        {
+          "type": "chord",
+          "content": "E7"
+        },
+        {
+          "type": "lyric",
+          "content": "A Dios le pido"
+        },
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "lyric",
+          "content": "Que mi alma no descanse cuando de amarte se trate, mi cielo"
+        },
+        {
+          "type": "chord",
+          "content": "E7"
+        },
+        {
+          "type": "lyric",
+          "content": "A Dios le pido"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PUENTE",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Am"
+            },
+            {
+              "type": "lyric",
+              "content": "Un segundo más de vida para darte"
+            },
+            {
+              "type": "chord",
+              "content": "E/G#"
+            },
+            {
+              "type": "lyric",
+              "content": "y mi corazón entero entregarte"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "Un segundo más de vida para darte"
+            },
+            {
+              "type": "chord",
+              "content": "D/F#"
+            },
+            {
+              "type": "lyric",
+              "content": "y a tu lado para siempre yo quedarme"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F"
+            },
+            {
+              "type": "lyric",
+              "content": "Un segundo más de vida"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "E7"
+            },
+            {
+              "type": "lyric",
+              "content": "yoooooooo"
+            }
+          ]
+        },
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "lyric",
+          "content": "A Dios le pido"
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "Que si me muero sea de amor"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "y si me enamoro sea de vos"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Am"
+            },
+            {
+              "type": "lyric",
+              "content": "Y que de tu voz sea este corazón"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "todos los días"
+            }
+          ]
+        },
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "lyric",
+          "content": "A Dios le pido"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "Que si me muero sea de amor"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "y si me enamoro sea de vos"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Am"
+            },
+            {
+              "type": "lyric",
+              "content": "Y que de tu voz sea este corazón"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "E7"
+            },
+            {
+              "type": "lyric",
+              "content": "todos los días yoooooooo"
+            }
+          ]
+        },
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "lyric",
+          "content": "A Dios le pido"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "OUTRO",
+      "lines": [
+        {
+          "type": "text",
+          "content": "(Riff de guitarra - omitido por solicitud)"
+        }
+      ]
+    }
+  ]
+}

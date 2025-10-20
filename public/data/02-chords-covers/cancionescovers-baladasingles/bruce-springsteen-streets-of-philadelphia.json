@@ -1,0 +1,247 @@
+{
+  "id": "bruce-springsteen-streets-of-philadelphia",
+  "title": "Streets of Philadelphia",
+  "artist": "Bruce Springsteen",
+  "originalKey": "G",
+  "tempo": "Balada Rock",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "Bm"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "I was bruised and battered I couldn't tell what I felt"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "I was unrecognizable to myself"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Saw my reflection in a window and didn't know my own face"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh brother are you gonna leave me wasting like this on the"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "G/B", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "streets of Philadelphia"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "G/B", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "I walked the avenue 'til my legs felt like stone"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "I heard voices of friends vanished and gone"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "At night I hear the blood in my veins"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Just as black and whispery as the rain on the"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "G/B", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "streets of Philadelphia"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "G/B", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Ain't no angel gonna greet me"
+        },
+        {
+          "type": "chords",
+          "content": ["Em"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's just you and I my friend"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "And my clothes don't fit me no more"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "I walked a thousand miles just to slip this skin"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "The night is falling, I'm lying awake"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "I can feel myself fading away"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "So receive me brother with your faithless kiss or"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Will we leave each other alone like this on the"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "G/B", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "streets of Philadelphia..."
+        },
+        {
+          "type": "chords",
+          "content": ["C", "G/B", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    }
+  ]
+}

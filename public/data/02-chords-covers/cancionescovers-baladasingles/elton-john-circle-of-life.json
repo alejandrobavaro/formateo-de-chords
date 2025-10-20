@@ -1,0 +1,633 @@
+{
+  "id": "elton-john-circle-of-life",
+  "title": "Circle of Life",
+  "artist": "Elton John",
+  "originalKey": "A",
+  "tempo": "Balada Épica",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A", "F#m", "Bm7", "E"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "From the day we arrive on the planet"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E/G#"]
+        },
+        {
+          "type": "lyric",
+          "content": "And blinking, step into the sun"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F#m7"]
+        },
+        {
+          "type": "lyric",
+          "content": "There's more to be seen than can ever be seen"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "More to do than can ever be done"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Some say eat or be eaten"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E/G#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Some say live and let live"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F#m7"]
+        },
+        {
+          "type": "lyric",
+          "content": "But all are agreed as they join the stampede"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "You should never take more than you give"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A", "A4", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "In the circle of life"
+        },
+        {
+          "type": "chords",
+          "content": ["G/A"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's the wheel of fortune"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "D4", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's the leap of faith"
+        },
+        {
+          "type": "chords",
+          "content": ["E/D", "E7/D"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's the band of hope"
+        },
+        {
+          "type": "chords",
+          "content": ["A/C#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Till we find our place"
+        },
+        {
+          "type": "chords",
+          "content": ["F#7"]
+        },
+        {
+          "type": "lyric",
+          "content": "On the path unwinding"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "In the circle, the circle of life"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Some of us fall by the wayside"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E/G#"]
+        },
+        {
+          "type": "lyric",
+          "content": "And some of soar to the stars"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F#m7"]
+        },
+        {
+          "type": "lyric",
+          "content": "And some of us sail through our troubles"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "And some have to live with the scars"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "There's far too much to take in here"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E/G#"]
+        },
+        {
+          "type": "lyric",
+          "content": "More to find than can ever be found"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "But the sun rolling high through the sapphire sky"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Keeps great and small on the endless round"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A", "A4", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "In the circle of life"
+        },
+        {
+          "type": "chords",
+          "content": ["G/A"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's the wheel of fortune"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "D4", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's the leap of faith"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7/D", "E/D", "E7/D"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's the band of hope"
+        },
+        {
+          "type": "chords",
+          "content": ["A/C#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Till we find our place"
+        },
+        {
+          "type": "chords",
+          "content": ["F#7"]
+        },
+        {
+          "type": "lyric",
+          "content": "On the path unwinding"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "In the circle, the circle of life"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL CHORUS",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G/A"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's the wheel of fortune"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "D4", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's the leap of faith"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7/D", "E/D"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's the band of hope"
+        },
+        {
+          "type": "chords",
+          "content": ["A/C#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Till we find our place"
+        },
+        {
+          "type": "chords",
+          "content": ["F#7"]
+        },
+        {
+          "type": "lyric",
+          "content": "On the path unwinding"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "In the circle, the circle of life"
+        },
+        {
+          "type": "chords",
+          "content": ["F#7"]
+        },
+        {
+          "type": "lyric",
+          "content": "On the path unwinding"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "In the circle, the circle of life"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "id": "rod-stewart-have-i-told-you-lately",
+  "title": "Have I Told You Lately",
+  "artist": "Rod Stewart",
+  "originalKey": "G",
+  "tempo": "Slow",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRODUCCIÓN",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "Bm7", "C7M", "C/D", "G"]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7", "C", "C/D"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTROFA 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "Bm7", "C", "C/D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Have I told you lately that I love you?"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "Bm7", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Have I told you there's no one else above you?"
+        },
+        {
+          "type": "chords",
+          "content": ["C7M", "Bm7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Fill my heart with gladness, take away all my sadness"
+        },
+        {
+          "type": "chords",
+          "content": ["Am7", "G", "C/D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Ease my troubles that's what you do"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "Bm7", "C", "C/D"]
+        },
+        {
+          "type": "lyric",
+          "content": "For the morning sun in all its glory"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "Bm7", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Greets the day with hope and comfort, too"
+        },
+        {
+          "type": "chords",
+          "content": ["C7M", "Bm7"]
+        },
+        {
+          "type": "lyric",
+          "content": "You fill my life with laughter and somehow you make it better"
+        },
+        {
+          "type": "chords",
+          "content": ["C/D", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Ease my troubles that's what you do"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PUENTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am7", "G/B", "C7M"]
+        },
+        {
+          "type": "lyric",
+          "content": "There's a love that's divine"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7"]
+        },
+        {
+          "type": "lyric",
+          "content": "And it's yours and it's mine... like the sun"
+        },
+        {
+          "type": "chords",
+          "content": ["Am7", "Bm7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C7M"]
+        },
+        {
+          "type": "lyric",
+          "content": "And at the end of the day"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7", "C/D"]
+        },
+        {
+          "type": "lyric",
+          "content": "We should give thanks and pray to the one, to the one"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "Bm7", "C", "C/D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Have I told you lately that I love you?"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "Bm7", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Have I told you there's no one else above you?"
+        },
+        {
+          "type": "chords",
+          "content": ["C7M", "Bm7"]
+        },
+        {
+          "type": "lyric",
+          "content": "You fill my heart with gladness, take away all my sadness"
+        },
+        {
+          "type": "chords",
+          "content": ["Am7", "C/D", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Ease my troubles that's what you do"
+        },
+        {
+          "type": "chords",
+          "content": ["Am7", "G/B", "C7M"]
+        },
+        {
+          "type": "lyric",
+          "content": "Take away all my sadness, fill my life with gladness"
+        },
+        {
+          "type": "chords",
+          "content": ["Am7", "C/D", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Ease my troubles that's what you do"
+        },
+        {
+          "type": "chords",
+          "content": ["Am7", "G/B", "C7M"]
+        },
+        {
+          "type": "lyric",
+          "content": "Take away all my sadness, fill my heart with gladness"
+        },
+        {
+          "type": "chords",
+          "content": ["Am7", "C/D", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Ease my troubles that's what you do"
+        }
+      ]
+    }
+  ]
+}

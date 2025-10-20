@@ -1,0 +1,472 @@
+{
+    "id": "oasis-stop-crying-your-heart-out",
+    "title": "Stop Crying Your Heart Out",
+    "artist": "Oasis",
+    "originalKey": "Am",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "Hold up"
+          },
+          {
+            "type": "chords",
+            "content": ["Am/G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Hold on"
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Don't be scared"
+          },
+          {
+            "type": "chords",
+            "content": ["F"]
+          },
+          {
+            "type": "lyric",
+            "content": "You'll never change what's been and gone"
+          },
+          {
+            "type": "chords",
+            "content": ["Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "May your smile"
+          },
+          {
+            "type": "chords",
+            "content": ["Am/G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Shine on"
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Don't be scared"
+          },
+          {
+            "type": "chords",
+            "content": ["F"]
+          },
+          {
+            "type": "lyric",
+            "content": "Your destiny may keep you warm"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "'Cause all of the stars"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Are fading away"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "Just try not to worry"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "You'll see them someday"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Take what you need"
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "And be on your way"
+          },
+          {
+            "type": "chords",
+            "content": ["F"]
+          },
+          {
+            "type": "lyric",
+            "content": "And stop crying your heart out"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SEGUNDA PARTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "Get up (get up)"
+          },
+          {
+            "type": "chords",
+            "content": ["Am/G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Come on (come on)"
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Why're you scared? (I'm not scared)"
+          },
+          {
+            "type": "chords",
+            "content": ["F"]
+          },
+          {
+            "type": "lyric",
+            "content": "You'll never change what's been and gone"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "'Cause all of the stars"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Are fading away"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "Just try not to worry"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "You'll see them someday"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Take what you need"
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "And be on your way"
+          },
+          {
+            "type": "chords",
+            "content": ["F"]
+          },
+          {
+            "type": "lyric",
+            "content": "And stop crying your heart out"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "G", "D", "F"]
+          },
+          {
+            "type": "chords",
+            "content": ["C", "D", "F"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "'Cause all of the stars"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Are fading away"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "Just try not to worry"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "You'll see them someday"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Take what you need"
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "And be on your way"
+          },
+          {
+            "type": "chords",
+            "content": ["F"]
+          },
+          {
+            "type": "lyric",
+            "content": "And stop crying your heart out"
+          },
+          {
+            "type": "chords",
+            "content": ["C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Where are all of the stars"
+          },
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Are fading away"
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Just try not to worry"
+          },
+          {
+            "type": "chords",
+            "content": ["F"]
+          },
+          {
+            "type": "lyric",
+            "content": "You'll see them someday"
+          },
+          {
+            "type": "chords",
+            "content": ["C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Take what you need"
+          },
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "And be on your way"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "F"]
+          },
+          {
+            "type": "lyric",
+            "content": "And stop crying your heart out"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "F"]
+          },
+          {
+            "type": "lyric",
+            "content": "And stop crying your heart out"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "F"]
+          },
+          {
+            "type": "lyric",
+            "content": "And stop crying your heart out"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "F"]
+          },
+          {
+            "type": "lyric",
+            "content": "And stop crying your heart out"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D", "F", "D", "F"]
+          },
+          {
+            "type": "chords",
+            "content": ["D", "F", "D", "F"]
+          },
+          {
+            "type": "chords",
+            "content": ["C", "G", "D", "F"]
+          },
+          {
+            "type": "chords",
+            "content": ["C", "G", "Dm", "F", "C"]
+          }
+        ]
+      }
+    ]
+  }
+  

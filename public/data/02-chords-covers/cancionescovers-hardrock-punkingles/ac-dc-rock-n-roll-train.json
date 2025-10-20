@@ -1,0 +1,414 @@
+{
+  "id": "ac-dc-rock-n-roll-train",
+  "title": "Rock N Roll Train",
+  "artist": "AC/DC",
+  "originalKey": "A",
+  "tempo": "Fast Rock",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "text",
+          "content": "(Riff intro - repetir 4x)"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D", "A", "E"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "One heart angel,"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "one cool devil,"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "your mind on the fantasy, livin' on the ecstasy."
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Give it all, give it, give it what you got,"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "come on, give it all a lot!"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Pick it up, move it, give it to the spot,"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "your mind on fantasy, livin' on ecstasy."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["E", "D", "A", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Runaway Train, running right off the track."
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["E", "D", "A", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Runaway Train, running right off the track."
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D", "A", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Runaway Train, running right off the track."
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D", "A", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Runaway Train, running right off the track."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "One hot renegade,"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "old school rebel,"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "a chance for the revelry, jammin' the agency."
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Shake it, shake it, take it to the spot,"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "you know she make it really hot!"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Get it on, get it up, come on, give it all you got,"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "your mind on fantasy, livin' on ecstasy."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["E", "D", "A", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Runaway Train, running right off the track."
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["E", "D", "A", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Runaway Train, running right off the track."
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D", "A", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Runaway Train, running right off the track."
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D", "A", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Runaway Train, running right off the track."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "TERCERA PARTE",
+      "lines": [
+        {
+          "type": "text",
+          "content": "(Riff: D A E - repetir 3x)"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "One hot southern belle,"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "son of a devil,"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "a school boy spelling bee, a school girl with a fantasy."
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "One hot renegade,"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "old school rebel,"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "to turn on the revelry, jammin' the agency."
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Shake it, shake it, take it to the spot,"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "you know she make it really hot!"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Get it on, get it up, come on, give it all you got,"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "you know she's just a nightcup."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "D", "A", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Runaway Train, she's coming off the track."
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D", "A", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Runaway Train, running right off the track."
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Get it on, get it up, come on, give it all you got!"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D", "A", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Runaway Train, running right off the track."
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D", "A", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Runaway Train, running right off the track."
+        },
+        {
+          "type": "text",
+          "content": "(Riff final: D A E)"
+        }
+      ]
+    }
+  ]
+}

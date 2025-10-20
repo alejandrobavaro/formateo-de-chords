@@ -1,0 +1,454 @@
+{
+  "id": "almango-let-me-see-you",
+  "title": "Let Me See You",
+  "artist": "Almango",
+  "originalKey": "D",
+  "tempo": "Funk-Pop (115 BPM)",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D", "F", "D", "A", "A", "C", "A", "C", "C#", "D"]
+        },
+        {
+          "type": "text",
+          "content": "(4 veces)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "D7"},
+            {"type": "lyric", "content": "All Right! Let me see you baby"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "D7"},
+            {"type": "lyric", "content": "Let me see you dance tonight"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "D7"},
+            {"type": "lyric", "content": "Let me see you baby… Uh!"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Let me see you dance tonight!"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "Ohh! Hey hey, let me see you dance"},
+            {"type": "chord", "content": "B"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C#"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "Hey hey, let me see you dance"},
+            {"type": "chord", "content": "B"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C#"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "Hey hey, let me see you dance Baby!"},
+            {"type": "chord", "content": "B"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C#"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "Hey hey, let me see you dance tonight."},
+            {"type": "chord", "content": "B"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C#"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTRO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D", "F", "D", "A", "A", "C", "A", "C", "C#", "D"]
+        },
+        {
+          "type": "text",
+          "content": "(4 veces)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "D7"},
+            {"type": "lyric", "content": "Uh! Let me see you oh baby"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "D7"},
+            {"type": "lyric", "content": "Let me see you dance tonight"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 1 (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "Ohh! Hey hey, let me see you dance"},
+            {"type": "chord", "content": "B"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C#"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "Hey hey, let me see you dance"},
+            {"type": "chord", "content": "B"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C#"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "Hey hey, let me see you dance Baby!"},
+            {"type": "chord", "content": "B"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C#"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "Hey hey, let me see you dance tonight."},
+            {"type": "chord", "content": "B"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C#"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BIS (x4)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "D7"},
+            {"type": "lyric", "content": "All Right! Feelling all right,"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "when i dance with you eo"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 1 (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "Ohh! Hey hey, let me see you dance"},
+            {"type": "chord", "content": "B"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C#"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "Hey hey, let me see you dance"},
+            {"type": "chord", "content": "B"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C#"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "Hey hey, let me see you dance Baby!"},
+            {"type": "chord", "content": "B"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C#"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "Hey hey, let me see you dance tonight."},
+            {"type": "chord", "content": "B"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C#"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "Let me see you"},
+            {"type": "chord", "content": "B"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C#"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "Let me see you"},
+            {"type": "chord", "content": "B"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C#"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "Let me see you, dance, dance, dance"},
+            {"type": "chord", "content": "B"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C#"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "Let me see you dance, dance, dance!"},
+            {"type": "chord", "content": "B"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C#"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Tonight…. Let me see you…"}
+          ]
+        }
+      ]
+    }
+  ]
+}

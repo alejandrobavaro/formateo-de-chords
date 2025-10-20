@@ -1,0 +1,229 @@
+{
+  "id": "almango-jingle-en-mardel-tenes-todo",
+  "title": "JINGLE - En Mar del tenés todo",
+  "artist": "Almango",
+  "originalKey": "E",
+  "tempo": "Upbeat",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "En Mar del tenés"
+        },
+        {
+          "type": "lyric",
+          "content": "todo lo que querés…"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Good Morning Mar del Plata"
+        },
+        {
+          "type": "lyric",
+          "content": "nos despierta el sol,"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Y es tiempo de festejar."
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Estoy listo para el mundo"
+        },
+        {
+          "type": "lyric",
+          "content": "Y no pierdo ni un segundo"
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Nos vamos para el mar."
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Y cuando salgo a la calle"
+        },
+        {
+          "type": "lyric",
+          "content": "Hasta el cielo está brillando"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Y las chicas piden más."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 1 (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "En Mar del tenés"
+        },
+        {
+          "type": "lyric",
+          "content": "todo lo que querés…"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "E"
+            },
+            {
+              "type": "lyric",
+              "content": "Good good good Morning"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "E"
+            },
+            {
+              "type": "lyric",
+              "content": "Mar del Plata"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "A"
+            },
+            {
+              "type": "lyric",
+              "content": "Good good good Morning"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "A"
+            },
+            {
+              "type": "lyric",
+              "content": "Mar del Plata"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "E"
+            },
+            {
+              "type": "lyric",
+              "content": "Good good good Morning"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "E"
+            },
+            {
+              "type": "lyric",
+              "content": "Mar del Plata, Good… ¡Guau!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 1 (REPETICIÓN FINAL)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "En Mar del tenés"
+        },
+        {
+          "type": "lyric",
+          "content": "todo lo que querés…"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,411 @@
+{
+  "id": "guns-n-roses-live-and-let-die",
+  "title": "Live And Let Die",
+  "artist": "Guns N' Roses",
+  "originalKey": "A",
+  "tempo": "Rock Sinfónico",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "text",
+          "content": "(Intro orquestal - No se incluyen acordes)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "When you were young"
+        },
+        {
+          "type": "chords",
+          "content": ["G#m"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "And your heart was an open book"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "You used to say live and let live"
+        },
+        {
+          "type": "chords",
+          "content": ["G#m"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "You know you did, you know you did"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["B", "B(b9)"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "You know you did"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "But if this ever changin' world"
+        },
+        {
+          "type": "chords",
+          "content": ["G#m"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "In which we live in"
+        },
+        {
+          "type": "chords",
+          "content": ["F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Makes you give in and cry"
+        },
+        {
+          "type": "chords",
+          "content": ["B", "C#", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A", "A#", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Say, live and let die"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A", "A#", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Live and let die"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "What does it matter to ya"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "When you got a job to do"
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": "You got to do it well"
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C#5"]
+        },
+        {
+          "type": "lyric",
+          "content": "You got to give the other fella hell"
+        },
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS SOLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "(Solo instrumental - Acordes de base)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 3",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Used to say live and let live"
+        },
+        {
+          "type": "chords",
+          "content": ["G#m"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "You know you did, you know you did"
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "You know you did"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "But if this ever changin' world"
+        },
+        {
+          "type": "chords",
+          "content": ["G#m"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "In which we live in"
+        },
+        {
+          "type": "chords",
+          "content": ["F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Makes you give in and cry"
+        },
+        {
+          "type": "chords",
+          "content": ["B", "C#", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A", "A#", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Say, live and let die"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A", "A#", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Live and let die"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL SOLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "A", "A#", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "(Solo de guitarra con base de estribillo)"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "G#m", "A", "F#m", "B", "C#", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "(Repetición de estribillo cantado 4 veces)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,493 @@
+{
+  "id": "almango-mundo",
+  "title": "Mundo",
+  "artist": "Almango",
+  "originalKey": "A",
+  "tempo": "Poetic Folk (75 BPM)",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A", "G", "A", "G"]
+        },
+        {
+          "type": "text",
+          "content": "(2 veces)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTROFA 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Noche de los tejados"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "y la planta del pie,"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "silbaba por los ojos secos"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "de las palomas."},
+            {"type": "chord", "content": "F#"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTROFA 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Alga y cristal en fuga"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "ponen plata mojada"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "los hombros de cemento"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "de todas las ciudades."},
+            {"type": "chord", "content": "F#"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "La gillette descansaba"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "sobre los tocadores"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "con su afán impaciente"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "de cuello seccionado."},
+            {"type": "chord", "content": "F#"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTROFA 3",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "En la casa del muerto,"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "los niños perseguían"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "una sierpe de arena"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "por el rincón oscuro."},
+            {"type": "chord", "content": "F#"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTROFA 4",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Escribientes dormidos"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "en el piso catorce."},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Ramera con los senos"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "de cristal arañado."},
+            {"type": "chord", "content": "F#"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Cables y media luna"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "con temblores de insecto."},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Bares sin gente. Gritos."},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Cabezas por el agua."},
+            {"type": "chord", "content": "F#"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTROFA 5",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Para el asesinato"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "del ruiseñor venían"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "tres mil hombres armados"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "de lucientes cuchillos."},
+            {"type": "chord", "content": "F#"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTROFA 6",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Viejas y sacerdotes"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "lloraban resistiendo"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "una lluvia de lenguas"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "y hormigas voladoras."},
+            {"type": "chord", "content": "F#"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 3",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Noche de rostro blanco."},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Nula noche sin rostro."},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Bajo el sol y la luna."},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Triste noche del mundo."},
+            {"type": "chord", "content": "F#"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTROFA 7",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Dos mitades opuestas"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "y un hombre que no sabe"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "cuándo su mariposa"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "dejará los relojes."},
+            {"type": "chord", "content": "F#"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTROFA 8",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Debajo de las alas"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "del dragón hay un niño."},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Caballitos de cardio"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "por la estrella sin sangre."},
+            {"type": "chord", "content": "F#"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 4",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "El unicornio quiere"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "lo que la rosa olvida,"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "y el pájaro pretende"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "lo que las aguas vedan."},
+            {"type": "chord", "content": "F#"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "RAP (SECCIÓN POÉTICA)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Sólo tu Sacramento de luz en equilibrio"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "aquietaba la angustia del amor desligado."},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "manómetro que salva corazones lanzados"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "a quinientos por hora."}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Porque tu signo es clave de llanura celeste"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "donde naipe y herida se entrelazan cantando,"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "donde la luz desboca su toro relumbrante"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "y se afirma el aroma de la rosa templada."}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Porque tu signo expresa"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "la brisa y el gusano."},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Punto de unión y cita"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "del siglo y el minuto."},
+            {"type": "chord", "content": "F#"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Orbe claro de muertos"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "y hormiguero de vivos"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "con el hombre de nieves"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "y el negro de la llama."},
+            {"type": "chord", "content": "F#"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Mundo, ya tienes meta"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "para tu desamparo."},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Para tu horror perenne"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "de agujero sin fondo."},
+            {"type": "chord", "content": "F#"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "¡Oh Cordero cautivo"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "de tres voces iguales!"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "¡Sacramento inmutable"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "de amor y disciplina!"},
+            {"type": "chord", "content": "F#"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    }
+  ]
+}

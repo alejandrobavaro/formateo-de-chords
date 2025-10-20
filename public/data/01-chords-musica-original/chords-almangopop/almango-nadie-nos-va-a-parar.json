@@ -1,0 +1,407 @@
+{
+  "id": "almango-nadie-nos-va-a-parar",
+  "title": "Nadie nos va a parar",
+  "artist": "Almango",
+  "originalKey": "E",
+  "tempo": "Punk-Rock (150 BPM)",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO VIOLA (SIN BANDA)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "G", "A"]
+        },
+        {
+          "type": "text",
+          "content": "(1 vuelta)"
+        },
+        {
+          "type": "voice",
+          "name": "GRITO",
+          "color": "grito",
+          "lines": [
+            {"type": "lyric", "content": "Al-man-go!"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTRO VIOLA (CON BANDA)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "G", "A"]
+        },
+        {
+          "type": "text",
+          "content": "(1 vuelta - con distorsión)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTROFA 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "E"},
+            {"type": "lyric", "content": "Caminando por la calle"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "se ve la mugre,"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "de esa gente que le gusta"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "vernos mal."},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "E"},
+            {"type": "lyric", "content": "Y esa onda les rebota"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "porque somos fuertes,"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "y acá nadie, nadie, nadie…"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "CORO",
+          "color": "coros",
+          "lines": [
+            {"type": "chord", "content": "E"},
+            {"type": "lyric", "content": "nos va a parar."}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 1",
+      "lines": [
+        {
+          "type": "text",
+          "content": "RIFF (E5-G5-A5)"
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "lyric", "content": "Nadie!!! Nadie nos va a parar, No!"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "CORO",
+          "color": "coros",
+          "lines": [
+            {"type": "lyric", "content": "Nadie!!! Nadie nos va a parar, No!"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "lyric", "content": "Nadie!!! Nadie nos va a parar, No!"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "CORO",
+          "color": "coros",
+          "lines": [
+            {"type": "lyric", "content": "Nadie!!! Nadie nos va a parar, No!"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTRO VIOLA (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "G", "A"]
+        },
+        {
+          "type": "text",
+          "content": "(1 vuelta)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTROFA 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "E"},
+            {"type": "lyric", "content": "Recordando viejos tiempos"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "vuelven fantasmas,"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "con historias que"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "nos han hecho mucho mal."},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "E"},
+            {"type": "lyric", "content": "Y esa mierda (onda) les rebota"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "porque somos fuertes,"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "y acá nadie, nadie, nadie…"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "CORO",
+          "color": "coros",
+          "lines": [
+            {"type": "chord", "content": "E"},
+            {"type": "lyric", "content": "nos va a parar."}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 2",
+      "lines": [
+        {
+          "type": "text",
+          "content": "RIFF (E5-G5-A5)"
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "lyric", "content": "Nadie!!! Nadie nos va a parar, No!"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "CORO",
+          "color": "coros",
+          "lines": [
+            {"type": "lyric", "content": "Nadie!!! Nadie nos va a parar, No!"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "lyric", "content": "Nadie!!! Nadie nos va a parar, No!"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "CORO",
+          "color": "coros",
+          "lines": [
+            {"type": "lyric", "content": "Nadie!!! Nadie nos va a parar, No!"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BASE ELECTRÓNICA",
+      "lines": [
+        {
+          "type": "text",
+          "content": "(Sintetizador o bajo electrónico)"
+        },
+        {
+          "type": "text",
+          "content": "(4 vueltas - patrón repetitivo)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO VIOLA",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "G", "A"]
+        },
+        {
+          "type": "text",
+          "content": "(2 vueltas - con distorsión y wah-wah)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (SOLO VOCES Y RITMO)",
+      "lines": [
+        {
+          "type": "text",
+          "content": "RIFF (E5-G5-A5)"
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "lyric", "content": "Nadie!!! Nadie nos va a parar, No!"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "CORO",
+          "color": "coros",
+          "lines": [
+            {"type": "lyric", "content": "Nadie!!! Nadie nos va a parar, No!"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "lyric", "content": "Nadie!!! Nadie nos va a parar, No!"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "CORO",
+          "color": "coros",
+          "lines": [
+            {"type": "lyric", "content": "Nadie!!! Nadie nos va a parar, No!"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL (CON BANDA)",
+      "lines": [
+        {
+          "type": "text",
+          "content": "RIFF (E5-G5-A5)"
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "lyric", "content": "Nadie!!! Nadie nos va a parar, No!"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "CORO",
+          "color": "coros",
+          "lines": [
+            {"type": "lyric", "content": "Nadie!!! Nadie nos va a parar, No!"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "lyric", "content": "Nadie!!! Nadie nos va a parar, No!"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "CORO",
+          "color": "coros",
+          "lines": [
+            {"type": "lyric", "content": "Nadie!!! Nadie nos va a parar, No!"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BASE ELECTRÓNICA FINAL",
+      "lines": [
+        {
+          "type": "text",
+          "content": "(Sintetizador o bajo electrónico)"
+        },
+        {
+          "type": "text",
+          "content": "(4 vueltas - patrón repetitivo con fade out)"
+        }
+      ]
+    }
+  ]
+}

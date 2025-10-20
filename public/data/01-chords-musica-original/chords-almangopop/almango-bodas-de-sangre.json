@@ -1,0 +1,449 @@
+{
+    "id": "almango-bodas-de-sangre",
+    "title": "Bodas de Sangre",
+    "artist": "Almango",
+    "originalKey": "G",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "C", "-", "G", "C"]
+          },
+          {
+            "type": "chords",
+            "content": ["G", "C", "-", "G", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Adiós..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "VERSE 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Justo cuando estaba por darte mi amor."
+          },
+          {
+            "type": "chords",
+            "content": ["C", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Cuando menos lo pensaba, tú me abandonas."
+          },
+          {
+            "type": "chords",
+            "content": ["C", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Sin explicaciones, tú creaste este infierno."
+          },
+          {
+            "type": "chords",
+            "content": ["C", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Hoy sos bienvenida a mis bodas de sangre."
+          },
+          {
+            "type": "chords",
+            "content": ["C", "-"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Como me engañaste, nena, torturaste mi inconsciente."
+          },
+          {
+            "type": "chords",
+            "content": ["C", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y hoy la luna vino a buscarme."
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "No voy a parar hasta encontrarte."
+          },
+          {
+            "type": "chords",
+            "content": ["C", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "No voy a parar hasta vengarme."
+          },
+          {
+            "type": "chords",
+            "content": ["D", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Quiero mi justicia y hoy la muerte vino a impulsarme."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Como me engañaste, nena, torturaste mi inconsciente."
+          },
+          {
+            "type": "chords",
+            "content": ["C", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y hoy la luna vino a buscarme."
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "No voy a parar hasta encontrarte."
+          },
+          {
+            "type": "chords",
+            "content": ["C", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "No voy a parar hasta vengarme."
+          },
+          {
+            "type": "chords",
+            "content": ["D", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Quiero mi justicia y hoy la muerte vino a impulsarme."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Liberaste esta insania y no sirve buscar refugio en otros brazos."
+          },
+          {
+            "type": "chords",
+            "content": ["D#", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["F", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Solo queda esta pena y esa culpa que te invade."
+          },
+          {
+            "type": "chords",
+            "content": ["G", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["D#", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Yo nunca dejaré que puedas ser feliz."
+          },
+          {
+            "type": "chords",
+            "content": ["F", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Derramando tanta sangre."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Liberaste esta insania."
+          },
+          {
+            "type": "chords",
+            "content": ["D#", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Yo nunca dejaré que puedas ser feliz."
+          },
+          {
+            "type": "chords",
+            "content": ["F", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Derramando tanta sangre."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "C", "-", "G", "C"]
+          },
+          {
+            "type": "chords",
+            "content": ["G", "C", "-", "G", "C"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "VERSE 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Justo cuando tu amor parecía eterno."
+          },
+          {
+            "type": "chords",
+            "content": ["C", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Cuando menos lo pensaba, tú me abandonas."
+          },
+          {
+            "type": "chords",
+            "content": ["C", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Un caballo apareció y en él te montaste."
+          },
+          {
+            "type": "chords",
+            "content": ["C", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "En una carrera de pasión desenfrenada."
+          },
+          {
+            "type": "chords",
+            "content": ["C", "-"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL CASAMIENTO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "F#", "Bm", "C", "G", "D", "G"]
+          }
+        ]
+      }
+    ]
+  }
+  

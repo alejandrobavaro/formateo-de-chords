@@ -1,0 +1,391 @@
+{
+  "id": "robbie-williams-rock-dj",
+  "title": "Rock DJ",
+  "artist": "Robbie Williams",
+  "originalKey": "C/D",
+  "tempo": "Upbeat",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "VERSO 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Me with the floorshow kickin' with your torso"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Boys getting high and the girls even more so"
+        },
+        {
+          "type": "chords",
+          "content": ["Am7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Wave your hands if you're not with a man"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Can I kick it (yes you can)"
+        },
+        {
+          "type": "chords",
+          "content": ["Am7", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "I got (funk) you got (soul) we got everybody"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "I've got the kick gonna stick it in the goal"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's time to move your body"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-CORO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C/D", "Bm7/D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Babylon back in business can I get a witness"
+        },
+        {
+          "type": "chords",
+          "content": ["Am7/D", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Every girl every man"
+        },
+        {
+          "type": "chords",
+          "content": ["C/D", "Bm7/D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Houston do you hear me ground-control can you feel me"
+        },
+        {
+          "type": "chords",
+          "content": ["Am7/D", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Need permission to land"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CORO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C/D", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "I don't wanna rock, DJ"
+        },
+        {
+          "type": "chords",
+          "content": ["C/D", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "But you're making me feel so nice"
+        },
+        {
+          "type": "chords",
+          "content": ["C/D", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "When's it gonna stop, DJ"
+        },
+        {
+          "type": "chords",
+          "content": ["C/D", "D7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Cause you're keepin' me up all night"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Singin' in the classes music for your masses"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Give no head no backstage passes"
+        },
+        {
+          "type": "chords",
+          "content": ["Am7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Have a proper giggle I'll be quite polite"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "But when I rock the mike I rock the mike (right)"
+        },
+        {
+          "type": "chords",
+          "content": ["Am7"]
+        },
+        {
+          "type": "lyric",
+          "content": "You got no love then you're with the wrong man"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's time to move your body"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "If you can't get a girl but your best friend can"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's time to move your body"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-CORO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C/D", "Bm7/D"]
+        },
+        {
+          "type": "lyric",
+          "content": "I don't wanna be sleazy"
+        },
+        {
+          "type": "chords",
+          "content": ["Am7/D", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Baby just tease me, got no family planned"
+        },
+        {
+          "type": "chords",
+          "content": ["C/D", "Bm7/D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Houston do you hear me ground-control can you feel me"
+        },
+        {
+          "type": "chords",
+          "content": ["Am7/D", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Need permission to land"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CORO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C/D", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "I don't wanna rock, (rock) DJ (DJ)"
+        },
+        {
+          "type": "chords",
+          "content": ["C/D", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "But you're making me feel so nice"
+        },
+        {
+          "type": "chords",
+          "content": ["C/D", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "When's it gonna stop, (stop) DJ (DJ)"
+        },
+        {
+          "type": "chords",
+          "content": ["C/D", "D7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Cause you're keepin' me up all night"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PUENTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D", "C", "G", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Pimpin' ain't easy most of them fleece me"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "C", "G", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Every night"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "C", "G", "Am", "C/D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Pimpin' ain't easy, but if you're selling it, it's alright"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CORO FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C/D", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Come on"
+        },
+        {
+          "type": "chords",
+          "content": ["C/D", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "I don't wanna rock, (rock) DJ (DJ)"
+        },
+        {
+          "type": "chords",
+          "content": ["C/D", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "But you're making me feel so nice"
+        },
+        {
+          "type": "chords",
+          "content": ["C/D", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "When's it gonna stop, (stop) DJ (DJ)"
+        },
+        {
+          "type": "chords",
+          "content": ["C/D", "D7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Cause you're keepin' me up all night"
+        }
+      ]
+    }
+  ]
+}

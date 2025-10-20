@@ -1,0 +1,518 @@
+{
+  "id": "red-hot-chili-peppers-aeroplane",
+  "title": "Aeroplane",
+  "artist": "Red Hot Chili Peppers",
+  "originalKey": "C",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRODUCCIÓN",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C4(7)", "C7(9)", "C4(7/13)", "C"]
+        },
+        {
+          "type": "chords",
+          "content": ["C4(7/9)", "C9", "C4(7/9)", "C"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Gm7(11)"]
+        },
+        {
+          "type": "lyric",
+          "content": "I like pleasure spiked with pain"
+        },
+        {
+          "type": "chords",
+          "content": ["C7"]
+        },
+        {
+          "type": "lyric",
+          "content": "And music is my aeroplane"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm7(11)", "C7"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's my aeroplane"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm7(11)"]
+        },
+        {
+          "type": "lyric",
+          "content": "Songbird sweet and sour Jane"
+        },
+        {
+          "type": "chords",
+          "content": ["C7"]
+        },
+        {
+          "type": "lyric",
+          "content": "And music is my aeroplane"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm7(11)", "C7"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's my aeroplane"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Gm7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Looking in my own eyes"
+        },
+        {
+          "type": "chords",
+          "content": ["C7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hello"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm7"]
+        },
+        {
+          "type": "lyric",
+          "content": "I can't find the love I want"
+        },
+        {
+          "type": "chords",
+          "content": ["C7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Gm7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Someone better slap me"
+        },
+        {
+          "type": "chords",
+          "content": ["C7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Before I start to rust"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Before I start to decompose"
+        },
+        {
+          "type": "chords",
+          "content": ["C7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Gm7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Looking in my rear view mirror"
+        },
+        {
+          "type": "chords",
+          "content": ["C7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Looking in my rear view mirror"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm7"]
+        },
+        {
+          "type": "lyric",
+          "content": "I can make it disappear"
+        },
+        {
+          "type": "chords",
+          "content": ["C7"]
+        },
+        {
+          "type": "lyric",
+          "content": "I can make it disappear"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Have no fear"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Gm7(11)"]
+        },
+        {
+          "type": "lyric",
+          "content": "I like pleasure spiked with pain"
+        },
+        {
+          "type": "chords",
+          "content": ["C7"]
+        },
+        {
+          "type": "lyric",
+          "content": "And music is my aeroplane"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm7(11)", "C7"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's my aeroplane"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm7(11)"]
+        },
+        {
+          "type": "lyric",
+          "content": "Songbird sweet and sour Jane"
+        },
+        {
+          "type": "chords",
+          "content": ["C7"]
+        },
+        {
+          "type": "lyric",
+          "content": "And music is my aeroplane"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm7(11)", "C7"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's my aeroplane"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Gm7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Sitting in my kitchen"
+        },
+        {
+          "type": "chords",
+          "content": ["C7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hey girl"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm7"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm turning into dust again"
+        },
+        {
+          "type": "chords",
+          "content": ["C7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Gm7"]
+        },
+        {
+          "type": "lyric",
+          "content": "My melancholy baby"
+        },
+        {
+          "type": "chords",
+          "content": ["C7"]
+        },
+        {
+          "type": "lyric",
+          "content": "The star of Mazzy must"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Push her voice inside of me"
+        },
+        {
+          "type": "chords",
+          "content": ["C7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Gm7"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm overcoming gravity"
+        },
+        {
+          "type": "chords",
+          "content": ["C7"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm overcoming gravity"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm7"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's easy when you're sad to be"
+        },
+        {
+          "type": "chords",
+          "content": ["C7"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's easy when you're sad"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Sad like me"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PUENTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Eb9", "F6"]
+        },
+        {
+          "type": "lyric",
+          "content": "Pleasure spiked with pain"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Just one note"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Could make me float"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Could make me float away"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm"]
+        },
+        {
+          "type": "lyric",
+          "content": "One note from"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm"]
+        },
+        {
+          "type": "lyric",
+          "content": "The song she wrote"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Could fuck me where I lay"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Just one note"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Could make me choke"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm"]
+        },
+        {
+          "type": "lyric",
+          "content": "One note that's not a lie"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Gm7(11)"]
+        },
+        {
+          "type": "lyric",
+          "content": "I like pleasure spiked with pain"
+        },
+        {
+          "type": "chords",
+          "content": ["C7"]
+        },
+        {
+          "type": "lyric",
+          "content": "And music is my aeroplane"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm7(11)", "C7"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's my aeroplane"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm7(11)"]
+        },
+        {
+          "type": "lyric",
+          "content": "Songbird sweet and sour Jane"
+        },
+        {
+          "type": "chords",
+          "content": ["C7"]
+        },
+        {
+          "type": "lyric",
+          "content": "And music is my aeroplane"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm7(11)", "C7"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's my aeroplane"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm7(11)"]
+        },
+        {
+          "type": "lyric",
+          "content": "That's spiked with pain"
+        }
+      ]
+    }
+  ]
+}

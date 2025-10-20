@@ -1,0 +1,775 @@
+{
+  "id": "juanes-la-camisa-negra",
+  "title": "La Camisa Negra",
+  "artist": "Juanes",
+  "originalKey": "Em",
+  "tempo": "Upbeat (Pop rock)",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Em", "B7"]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "Am", "B7"]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "B7"]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "Am", "B7", "Em"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "B7"
+        },
+        {
+          "type": "lyric",
+          "content": "Tengo la camisa negra"
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "Hoy mi amor está de luto"
+        },
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "lyric",
+          "content": "Hoy tengo en el alma una pena"
+        },
+        {
+          "type": "chord",
+          "content": "B7"
+        },
+        {
+          "type": "lyric",
+          "content": "Y es por culpa de tu embrujo"
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "Hoy sé que tú ya no me quieres"
+        },
+        {
+          "type": "chord",
+          "content": "B7"
+        },
+        {
+          "type": "lyric",
+          "content": "Y eso es lo que más me hiere"
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "Que tengo la camisa negra"
+        },
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "lyric",
+          "content": "Y una pena que me duele"
+        },
+        {
+          "type": "chord",
+          "content": "B7"
+        },
+        {
+          "type": "lyric",
+          "content": "Mal parece que solo me quedé"
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "Y fue pura todita tu mentira"
+        },
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "lyric",
+          "content": "Que maldita mala suerte la mía"
+        },
+        {
+          "type": "chord",
+          "content": "B7"
+        },
+        {
+          "type": "lyric",
+          "content": "Que aquel día te encontré"
+        },
+        {
+          "type": "chord",
+          "content": "E"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "F#m"
+        },
+        {
+          "type": "lyric",
+          "content": "Por beber del veneno malevo de tu amor"
+        },
+        {
+          "type": "chord",
+          "content": "G#m"
+        },
+        {
+          "type": "lyric",
+          "content": "Yo quedé moribundo y lleno de dolor"
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "lyric",
+          "content": "Respiré de ese humo amargo de tu adiós"
+        },
+        {
+          "type": "chord",
+          "content": "E"
+        },
+        {
+          "type": "lyric",
+          "content": "Y desde que tú te fuiste yo solo tengo"
+        },
+        {
+          "type": "chord",
+          "content": "F#m"
+        },
+        {
+          "type": "lyric",
+          "content": "Tengo la camisa negra"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "B7"
+            },
+            {
+              "type": "lyric",
+              "content": "Tengo la camisa negra"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Em"
+            },
+            {
+              "type": "lyric",
+              "content": "Porque negra tengo el alma"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Am"
+            },
+            {
+              "type": "lyric",
+              "content": "Yo por ti perdí la calma"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "B7"
+            },
+            {
+              "type": "lyric",
+              "content": "Y casi pierdo hasta mi cama"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Em"
+            },
+            {
+              "type": "lyric",
+              "content": "Cama, cama, come on, baby"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Em"
+            },
+            {
+              "type": "lyric",
+              "content": "Te digo con disimulo"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Am"
+            },
+            {
+              "type": "lyric",
+              "content": "Que tengo la camisa negra"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "B7"
+            },
+            {
+              "type": "lyric",
+              "content": "Y debajo tengo el difunto"
+            },
+            {
+              "type": "chord",
+              "content": "Em"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO",
+      "lines": [
+        {
+          "type": "text",
+          "content": "(Solo de guitarra - omitido por solicitud)"
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "B7"]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "Am", "B7"]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "B7"]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "Am", "B7", "Em"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA PARTE",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "B7"
+        },
+        {
+          "type": "lyric",
+          "content": "Tengo la camisa negra"
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "Ya tu amor no me interesa"
+        },
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "lyric",
+          "content": "Lo que ayer me supo a gloria"
+        },
+        {
+          "type": "chord",
+          "content": "B7"
+        },
+        {
+          "type": "lyric",
+          "content": "Hoy me sabe a pura"
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "Miércoles por la tarde"
+        },
+        {
+          "type": "chord",
+          "content": "B7"
+        },
+        {
+          "type": "lyric",
+          "content": "Y tú que no llegas"
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "Ni siquiera muestras señas"
+        },
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "lyric",
+          "content": "Y yo con la camisa negra"
+        },
+        {
+          "type": "chord",
+          "content": "B7"
+        },
+        {
+          "type": "lyric",
+          "content": "Y tus maletas en la puerta"
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "Mal parece que solo me quedé"
+        },
+        {
+          "type": "chord",
+          "content": "B7"
+        },
+        {
+          "type": "lyric",
+          "content": "Y fue pura todita tu mentira"
+        },
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "lyric",
+          "content": "Que maldita mala suerte la mía"
+        },
+        {
+          "type": "chord",
+          "content": "B7"
+        },
+        {
+          "type": "lyric",
+          "content": "Que aquel día te encontré"
+        },
+        {
+          "type": "chord",
+          "content": "E"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "F#m"
+        },
+        {
+          "type": "lyric",
+          "content": "Por beber del veneno malevo de tu amor"
+        },
+        {
+          "type": "chord",
+          "content": "G#m"
+        },
+        {
+          "type": "lyric",
+          "content": "Yo quedé moribundo y lleno de dolor"
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "lyric",
+          "content": "Respiré de ese humo amargo de tu adiós"
+        },
+        {
+          "type": "chord",
+          "content": "E"
+        },
+        {
+          "type": "lyric",
+          "content": "Y desde que tú te fuiste yo solo tengo"
+        },
+        {
+          "type": "chord",
+          "content": "F#m"
+        },
+        {
+          "type": "lyric",
+          "content": "Tengo la camisa negra"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "B7"
+            },
+            {
+              "type": "lyric",
+              "content": "Tengo la camisa negra"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Em"
+            },
+            {
+              "type": "lyric",
+              "content": "Porque negra tengo el alma"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Am"
+            },
+            {
+              "type": "lyric",
+              "content": "Yo por ti perdí la calma"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "B7"
+            },
+            {
+              "type": "lyric",
+              "content": "Y casi pierdo hasta mi cama"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Em"
+            },
+            {
+              "type": "lyric",
+              "content": "Cama, cama, come on, baby"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Em"
+            },
+            {
+              "type": "lyric",
+              "content": "Te digo con disimulo"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Am"
+            },
+            {
+              "type": "lyric",
+              "content": "Que tengo la camisa negra"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "B7"
+            },
+            {
+              "type": "lyric",
+              "content": "Y debajo tengo el difunto"
+            },
+            {
+              "type": "chord",
+              "content": "Em"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "B7"
+            },
+            {
+              "type": "lyric",
+              "content": "Tengo la camisa negra"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Em"
+            },
+            {
+              "type": "lyric",
+              "content": "Porque negra tengo el alma"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Am"
+            },
+            {
+              "type": "lyric",
+              "content": "Yo por ti perdí la calma"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "B7"
+            },
+            {
+              "type": "lyric",
+              "content": "Y casi pierdo hasta mi cama"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Em"
+            },
+            {
+              "type": "lyric",
+              "content": "Cama, cama, come on, baby"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Em"
+            },
+            {
+              "type": "lyric",
+              "content": "Te digo con disimulo"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Am"
+            },
+            {
+              "type": "lyric",
+              "content": "Que tengo la camisa negra"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "B7"
+            },
+            {
+              "type": "lyric",
+              "content": "Y debajo tengo el difunto"
+            },
+            {
+              "type": "chord",
+              "content": "Em"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

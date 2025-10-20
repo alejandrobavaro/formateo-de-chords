@@ -1,0 +1,462 @@
+{
+  "id": "robbie-williams-come-undone",
+  "title": "Come Undone",
+  "artist": "Robbie Williams",
+  "originalKey": "A",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRODUCCIÓN",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A", "D"]
+        },
+        {
+          "type": "chords",
+          "content": ["A", "D"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "So unimpressed but so in awe"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Such a saint but such a whore"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "So self aware so full of shit"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "So indecisive so adamant"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm contemplating thinking about thinking"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's so frustrating just get another drink in"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Watch me come undone"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "They're selling razor blades and mirrors in the street"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Pray that when I'm coming down you'll be asleep"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "If I ever hurt you your revenge will be so sweet"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Because I'm scum, and I'm your son"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "I come undone, I come undone"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "So rock and roll so corporate suit"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "So damn ugly so damn cute"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "So well trained so animal"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "So need your love so fuck you all"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm not scared of dying I just don't want to"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "If I stopped lying I'd just disappoint you"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "I come undone"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "They're selling razor blades and mirrors in the street"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Pray that when I'm coming down you'll be asleep"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "If I ever hurt you your revenge will be so sweet"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Because I'm scum, and I'm your son"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "I've come undone"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "TERCERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "So write another ballad, mix on the Wednesday"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Sell it on a Thursday, but a yacht by Saturday"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's a love song, a love song"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Do another interview, sing a bunch of lies"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tell about celebrities that I despise"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "And sing love song, we sing love song"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "So sincere, so sincere"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "They're selling razor blades and mirrors in the street"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Pray that when I'm coming down you'll be asleep"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "If I ever hurt you your revenge will be so sweet"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "I come undone, I'm scum, love your son"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "You've gotta love your son"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "You've gotta love your son"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Yeah, Yeah, Yeah"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Love your son"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm scum, I'm scum..."
+        }
+      ]
+    }
+  ]
+}

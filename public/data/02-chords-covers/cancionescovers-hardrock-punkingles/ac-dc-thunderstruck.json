@@ -1,0 +1,361 @@
+{
+  "id": "ac-dc-thunderstruck",
+  "title": "Thunderstruck",
+  "artist": "AC/DC",
+  "originalKey": "F (adaptado) / E (original)",
+  "tempo": "Fast Rock",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO (Guitarra Base)",
+      "lines": [
+        {
+          "type": "text",
+          "content": "(Riff principal - repetir 12x)"
+        },
+        {
+          "type": "chords",
+          "content": ["G5"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G5"]
+        },
+        {
+          "type": "lyric",
+          "content": "I was caught in the middle of a railroad track"
+        },
+        {
+          "type": "text",
+          "content": "(Thunder)"
+        },
+        {
+          "type": "lyric",
+          "content": "I looked round and I knew there was no turning back"
+        },
+        {
+          "type": "lyric",
+          "content": "My mind raced and I thought what could I do"
+        },
+        {
+          "type": "text",
+          "content": "(Thunder)"
+        },
+        {
+          "type": "lyric",
+          "content": "And I knew there was no help, no help from you"
+        },
+        {
+          "type": "text",
+          "content": "(Thunder)"
+        },
+        {
+          "type": "chords",
+          "content": ["G5", "F5", "C5", "F5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Sound of the drums"
+        },
+        {
+          "type": "chords",
+          "content": ["C5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Beating in my heart"
+        },
+        {
+          "type": "chords",
+          "content": ["G5", "F5", "C5", "F5"]
+        },
+        {
+          "type": "lyric",
+          "content": "The thunder of guns"
+        },
+        {
+          "type": "chords",
+          "content": ["C5", "G5", "F5", "C5", "F5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tore me apart"
+        },
+        {
+          "type": "chords",
+          "content": ["G5"]
+        },
+        {
+          "type": "lyric",
+          "content": "You've been"
+        },
+        {
+          "type": "chords",
+          "content": ["G5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Thunderstruck"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Rode down the highway broke the limit, we hit the ton"
+        },
+        {
+          "type": "lyric",
+          "content": "Went through to the Texas, yeah Texas, and we had some fun"
+        },
+        {
+          "type": "lyric",
+          "content": "We met some girls, some dancers who gave a good time"
+        },
+        {
+          "type": "lyric",
+          "content": "Broke all the rules, played all the fools"
+        },
+        {
+          "type": "lyric",
+          "content": "Yeah yeah they, they, they blew our minds"
+        },
+        {
+          "type": "text",
+          "content": "(Riff principal - repetir 2x)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["G5", "F5", "C5", "F5", "C5"]
+            },
+            {
+              "type": "lyric",
+              "content": "Thunderstruck"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["G5", "F5", "F5", "C5"]
+            },
+            {
+              "type": "lyric",
+              "content": "Thunderstruck"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "TERCERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G5", "F5", "C5"]
+        },
+        {
+          "type": "lyric",
+          "content": "And I was shaking at the knees"
+        },
+        {
+          "type": "chords",
+          "content": ["F5", "G5", "F5", "C5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Could I come again please"
+        },
+        {
+          "type": "chords",
+          "content": ["F5", "G5", "F5", "C5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Yeah them ladies were too kind"
+        },
+        {
+          "type": "chords",
+          "content": ["F5", "G5", "F5", "C5"]
+        },
+        {
+          "type": "lyric",
+          "content": "You've been"
+        },
+        {
+          "type": "chords",
+          "content": ["G5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Thunderstruck"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO (Guitarra)",
+      "lines": [
+        {
+          "type": "text",
+          "content": "(Solo - Riff principal repetido 4x)"
+        },
+        {
+          "type": "chords",
+          "content": ["G5", "F5", "C5"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["G5", "F5", "C5", "F5", "C5"]
+            },
+            {
+              "type": "lyric",
+              "content": "Thunderstruck"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["G5", "F5", "C5", "F5", "C5"]
+            },
+            {
+              "type": "lyric",
+              "content": "Thunderstruck, yeah, yeah, yeah"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["G5", "F5", "C5", "F5", "C5"]
+            },
+            {
+              "type": "lyric",
+              "content": "Thunderstruck, baby, baby"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["G5", "F5", "C5", "F5", "C5"]
+            },
+            {
+              "type": "lyric",
+              "content": "You've been Thunderstruck"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G5"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's alright, we're doin' fine"
+        },
+        {
+          "type": "chords",
+          "content": ["G5", "C5"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's alright, we're doin' fine, fine, fine"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CIERRE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G5", "F5", "C5", "F5", "C5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Thunderstruck"
+        },
+        {
+          "type": "text",
+          "content": "(Riff final - repetir hasta terminar)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,794 @@
+{
+  "id": "inxs-elegantly-wasted",
+  "title": "Elegantly Wasted",
+  "artist": "INXS",
+  "originalKey": "E",
+  "tempo": "Rock Alternativo",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Look at all that shines"
+        },
+        {
+          "type": "chords",
+          "content": ["E7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Baby's down on the world and she knows it"
+        },
+        {
+          "type": "chords",
+          "content": ["E7"]
+        },
+        {
+          "type": "lyric",
+          "content": "If your spirit's running"
+        },
+        {
+          "type": "chords",
+          "content": ["E7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Why don't me make it rain like we used to"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-CHORUS 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "We run"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "We hide"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "We wait and we want"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "The good life"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Aw sure"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "You're right"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "This ain't"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "The good life"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Aaaaaaaaaaaah"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Elegantly wasted"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Aaaaaaaaaaaah"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Elegantly wasted"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Look at all the crimes"
+        },
+        {
+          "type": "chords",
+          "content": ["E7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Baby's down on the world cause she owns it"
+        },
+        {
+          "type": "chords",
+          "content": ["E7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Making up her life"
+        },
+        {
+          "type": "chords",
+          "content": ["E7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Nothing more, nothing less makes it Voodoo"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-CHORUS 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "We run"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "We hide"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "We want"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "The good life"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Aw sure"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "You're right"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "This ain't"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "The good life"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Aaaaaaaaaaaah"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Elegantly wasted"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Aaaaaaaaaaaah"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Elegantly wasted"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 3",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E7"]
+        },
+        {
+          "type": "lyric",
+          "content": "We look at all that shines"
+        },
+        {
+          "type": "chords",
+          "content": ["E7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Baby's down on the world and she knows it"
+        },
+        {
+          "type": "chords",
+          "content": ["E7"]
+        },
+        {
+          "type": "lyric",
+          "content": "If your spirit's fine"
+        },
+        {
+          "type": "chords",
+          "content": ["E7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Why don't we make it rain like we used to"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-CHORUS 3",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "We run"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "We hide"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "We want"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "The good life"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Aw sure"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "You're right"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "This ain't"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "The good life"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Aaaaaaaaaaaah"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Elegantly wasted"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Aaaaaaaaaaaah"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Elegantly wasted"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Aaaaaaaaaaaah"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Elegantly wasted"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Aaaaaaaaaaaah"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Elegantly wasted"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "LINK",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "G", "E"]
+        },
+        {
+          "type": "chords",
+          "content": ["E", "G", "E"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "OUTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Elegantly wasted"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "You could be right"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Elegantly wasted"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "You could be right"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Elegantly wasted"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "You could be right"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Elegantly wasted"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "You could be right"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Elegantly wasted"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "You could be right"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Elegantly wasted"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "You could be right"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Elegantly wasted"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "You could be right"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Elegantly wasted"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Elegantly wasted"
+        }
+      ]
+    }
+  ]
+}

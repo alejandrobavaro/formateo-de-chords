@@ -1,0 +1,364 @@
+{
+  "id": "robbie-williams-something-beautiful",
+  "title": "Something Beautiful",
+  "artist": "Robbie Williams",
+  "originalKey": "Em",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "Em"]
+        },
+        {
+          "type": "lyric",
+          "content": "You can't manufacture a miracle"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "The silence was pitiful that day"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "Em"]
+        },
+        {
+          "type": "lyric",
+          "content": "And love is getting too cynical"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Passion's just physical these days"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "Cm"]
+        },
+        {
+          "type": "lyric",
+          "content": "You analyse everyone you meet"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "G7"]
+        },
+        {
+          "type": "lyric",
+          "content": "But get no sign, loving kind"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Every night you admit defeat"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "And cry yourself blind"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "If you can't wake up in the morning"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "'Cause your bed lies vacant at night."
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D", "C", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "If you're lost, hurt, tired or lonely"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "A", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Can't control it, try as you might."
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "May you find that love that won't leave you"
+        },
+        {
+          "type": "chords",
+          "content": ["B7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "May you find it by the end of the day."
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D", "C", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "You won't be lost, hurt, tired and lonely"
+        },
+        {
+          "type": "chords",
+          "content": ["D#", "F", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Something beautiful will come your way..."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "Em"]
+        },
+        {
+          "type": "lyric",
+          "content": "The DJ said on the radio"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Life should be stereo, each day."
+        },
+        {
+          "type": "chords",
+          "content": ["G", "Em"]
+        },
+        {
+          "type": "lyric",
+          "content": "And the past that cast the unsuitable"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Instead of some kind of beautiful, you just couldn't wait."
+        },
+        {
+          "type": "chords",
+          "content": ["C", "Cm"]
+        },
+        {
+          "type": "lyric",
+          "content": "All your friends think you're satisfied"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "G7"]
+        },
+        {
+          "type": "lyric",
+          "content": "But they can't see your soul no, no, no"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Forgot the time feeling petrified,"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "When they lived alone."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "If you can't wake up in the morning"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "'Cause your bed lies vacant at night."
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D", "C", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "If you're lost, hurt, tired or lonely"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "A", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Can't control it, try as you might."
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "May you find that love that won't leave you"
+        },
+        {
+          "type": "chords",
+          "content": ["B7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "May you find it by the end of the day."
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D", "C", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "You won't be lost, hurt, tired and lonely"
+        },
+        {
+          "type": "chords",
+          "content": ["D#", "F", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Something beautiful will come your way..."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CAMBIO DE TONALIDAD",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A#", "F", "D#", "A#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Some kind of beautiful"
+        },
+        {
+          "type": "chords",
+          "content": ["Db", "Dbm"]
+        },
+        {
+          "type": "lyric",
+          "content": "All your friends think you're satisfied"
+        },
+        {
+          "type": "chords",
+          "content": ["Ab", "Ab7"]
+        },
+        {
+          "type": "lyric",
+          "content": "But they can't see your soul no, no, no"
+        },
+        {
+          "type": "chords",
+          "content": ["Db", "A#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Forgot the time feeling petrified,"
+        },
+        {
+          "type": "chords",
+          "content": ["D#"]
+        },
+        {
+          "type": "lyric",
+          "content": "When they lived alone."
+        }
+      ]
+    }
+  ]
+}

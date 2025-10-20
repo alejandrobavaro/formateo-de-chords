@@ -1,0 +1,666 @@
+{
+  "id": "alphaville-forever-young",
+  "title": "Forever Young",
+  "artist": "Alphaville",
+  "originalKey": "G",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "D", "Em", "C", "D"]
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "C", "Em", "D"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "Let's dance in style"
+            },
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Let's dance for a while"
+            },
+            {
+              "type": "chord",
+              "content": "Em"
+            },
+            {
+              "type": "lyric",
+              "content": "Heaven can wait"
+            },
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "We're only watching the skies"
+            },
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Hoping for the best"
+            },
+            {
+              "type": "chord",
+              "content": "Am"
+            },
+            {
+              "type": "lyric",
+              "content": "But expecting the worst"
+            },
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "Are you going to drop the bomb or not?"
+            },
+            {
+              "type": "chord",
+              "content": "Em"
+            },
+            {
+              "type": "chord",
+              "content": "D"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "Let us die young"
+            },
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Or let us live forever"
+            },
+            {
+              "type": "chord",
+              "content": "Em"
+            },
+            {
+              "type": "lyric",
+              "content": "We don't have the power"
+            },
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "But we never say never"
+            },
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Sitting in a sandpit"
+            },
+            {
+              "type": "chord",
+              "content": "Am"
+            },
+            {
+              "type": "lyric",
+              "content": "Life is a short trip"
+            },
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "The music's for the sad men"
+            },
+            {
+              "type": "chord",
+              "content": "Em"
+            },
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "chord",
+              "content": "G"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA PARTE",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "Can you imagine"
+            },
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "When this race is won"
+            },
+            {
+              "type": "chord",
+              "content": "Em"
+            },
+            {
+              "type": "lyric",
+              "content": "Turn our golden faces"
+            },
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "Into the sun"
+            },
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Praising our leaders"
+            },
+            {
+              "type": "chord",
+              "content": "Am"
+            },
+            {
+              "type": "lyric",
+              "content": "We're getting in tune"
+            },
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "The music's played by the, the mad men"
+            },
+            {
+              "type": "chord",
+              "content": "Em"
+            },
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "chord",
+              "content": "G"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA PARTE (Continuación)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "Some are like water"
+            },
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Some are like the heat"
+            },
+            {
+              "type": "chord",
+              "content": "Em"
+            },
+            {
+              "type": "lyric",
+              "content": "Some are a melody"
+            },
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "And some are the beat"
+            },
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Sooner or later"
+            },
+            {
+              "type": "chord",
+              "content": "Am"
+            },
+            {
+              "type": "lyric",
+              "content": "They all will be gone"
+            },
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "Why don't they stay young"
+            },
+            {
+              "type": "chord",
+              "content": "Em"
+            },
+            {
+              "type": "chord",
+              "content": "D"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "It's so hard to get old"
+            },
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Without a cause"
+            },
+            {
+              "type": "chord",
+              "content": "Em"
+            },
+            {
+              "type": "lyric",
+              "content": "I don't want to perish"
+            },
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "Like a fading horse"
+            },
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Youth's like diamonds in the sun"
+            },
+            {
+              "type": "chord",
+              "content": "Am"
+            },
+            {
+              "type": "lyric",
+              "content": "And diamonds are forever"
+            },
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "chord",
+              "content": "Em"
+            },
+            {
+              "type": "chord",
+              "content": "D"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA PARTE (Final)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "So many adventures"
+            },
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Couldn't happen today"
+            },
+            {
+              "type": "chord",
+              "content": "Em"
+            },
+            {
+              "type": "lyric",
+              "content": "So many songs"
+            },
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "We forgot to play"
+            },
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "So many dreams"
+            },
+            {
+              "type": "chord",
+              "content": "Am"
+            },
+            {
+              "type": "lyric",
+              "content": "Swinging out of the blue"
+            },
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "We let them come true"
+            },
+            {
+              "type": "chord",
+              "content": "Em"
+            },
+            {
+              "type": "chord",
+              "content": "D"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Forever young,"
+            },
+            {
+              "type": "chord",
+              "content": "Em"
+            },
+            {
+              "type": "lyric",
+              "content": "I want to be"
+            },
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "Forever young"
+            },
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Do you really"
+            },
+            {
+              "type": "chord",
+              "content": "Am"
+            },
+            {
+              "type": "lyric",
+              "content": "Want to live forever?"
+            },
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "Forever, and ever"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "Forever young,"
+            },
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "I want to be"
+            },
+            {
+              "type": "chord",
+              "content": "Em"
+            },
+            {
+              "type": "lyric",
+              "content": "Forever young"
+            },
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Do you really"
+            },
+            {
+              "type": "chord",
+              "content": "Am"
+            },
+            {
+              "type": "lyric",
+              "content": "Want to live forever?"
+            },
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "Forever, and ever"
+            },
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Forever young,"
+            },
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "I want to be"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "D", "Em", "C", "D"]
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "C", "Em"]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D", "Em", "C", "D"]
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "C", "Em"]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D", "Em", "C", "D"]
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "C", "Em"]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D", "Em", "C", "D"]
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "C", "Em", "G"]
+        }
+      ]
+    }
+  ]
+}

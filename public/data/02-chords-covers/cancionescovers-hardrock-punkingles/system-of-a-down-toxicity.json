@@ -1,0 +1,309 @@
+{
+  "id": "system-of-a-down-toxicity",
+  "title": "Toxicity",
+  "artist": "System of a Down",
+  "originalKey": "Bm",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRODUCCIÓN",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Bm", "D"]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "D"]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "Bm", "G", "F#"]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "Bm", "G", "F#"]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "D"]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "D"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Bm", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Conversion, software version 7.0"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Looking at life through the eyes of a tired hub"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Eating seeds as a pastime activity"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "The toxicity of our city, of our city"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Now what do you own the world, how do you own"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Disorder, disorder"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Now somewhere between the sacred silence"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Sacred silence and sleep"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Somewhere, between the"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Sacred silence and sleep"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Disorder, disorder,"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Disorder"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Bm", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "More wood for the fires, loud neighbors"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Flashlight reveries caught in the headlights of a truck"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Eating seeds as a pastime activity"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "The toxicity of our city, of our city"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Now what do you own the world, how do you own"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Disorder, disorder"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Now somewhere between the sacred silence"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Sacred silence and sleep"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Somewhere, between the"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Sacred silence and sleep"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Disorder, disorder,"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Disorder"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PUENTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Bm", "G", "F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "When I became the sun"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "G", "F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "I shone life into the man's hearts"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "G", "F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "When I became the sun"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "G", "F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "I shone life into the man's hearts"
+        }
+      ]
+    }
+  ]
+}

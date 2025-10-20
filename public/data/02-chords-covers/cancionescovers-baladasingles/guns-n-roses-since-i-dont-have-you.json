@@ -1,0 +1,409 @@
+{
+  "id": "guns-n-roses-since-i-dont-have-you",
+  "title": "Since I Don't Have You",
+  "artist": "Guns N' Roses",
+  "originalKey": "E",
+  "tempo": "Balada de Rock",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "A", "B"]
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A", "B"]
+        },
+        {
+          "type": "chords",
+          "content": ["E", "Am", "F#m", "B"]
+        },
+        {
+          "type": "chords",
+          "content": ["E", "C#m", "F#m", "Am", "E", "C#m", "E", "A", "F#m"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "I don't have plans and schemes"
+        },
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "And I don't have hopes and dreams"
+        },
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "I don't have anything"
+        },
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "Since I don't have you"
+        },
+        {
+          "type": "chords",
+          "content": ["B", "B/A", "B/G#", "B/F#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "And I don't have found desire"
+        },
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "And I don't have happy hours"
+        },
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "I don't have anything"
+        },
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "Since I don't have you"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "(I don't have happiness and I guess)"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "I never will ever again"
+        },
+        {
+          "type": "chords",
+          "content": ["F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "When you walked out on me"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "In walked the misery"
+        },
+        {
+          "type": "chords",
+          "content": ["F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "And he's been here since then"
+        },
+        {
+          "type": "chords",
+          "content": ["B", "B/A", "B/G#", "B/F#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTRO REPETIDO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "A", "B"]
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A", "B"]
+        },
+        {
+          "type": "chords",
+          "content": ["D", "D/C", "D/B", "D/A"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 3",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "I don't have much to share"
+        },
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "And I don't have one to care"
+        },
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "I don't have anything"
+        },
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "Since I don't have you"
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "OUTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "C#m", "F#m", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "You, you, you, oh, oh"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "C#m", "F#m", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "You, you, you, oh, oh"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "C#m", "F#m", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "You, you, you, oh, oh"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "You, you, yeah"
+        }
+      ]
+    }
+  ]
+}

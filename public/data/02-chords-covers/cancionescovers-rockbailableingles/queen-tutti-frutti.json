@@ -1,0 +1,311 @@
+{
+  "id": "queen-tutti-frutti",
+  "title": "Tutti Frutti",
+  "artist": "Queen",
+  "originalKey": "D",
+  "tempo": "Fast",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "lyric",
+          "content": "Bop bopa-a-lu a whop bam boo"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTROFA 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tutti frutti, oh Rudy"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tutti frutti, oh Rudy"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tutti frutti, oh Rudy"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tutti frutti, oh Rudy"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tutti frutti, oh Rudy"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "A whop bop-a-lu a whop bam boo"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTROFA 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Got a girl named Sue, she knows just what to do"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Got a girl named Sue, she knows just what to do"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "She rocks to the east, she rocks to the west"
+        },
+        {
+          "type": "chords",
+          "content": ["D7"]
+        },
+        {
+          "type": "lyric",
+          "content": "She's the girl that I know best"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tutti frutti, oh Rudy"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tutti frutti, oh Rudy"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tutti frutti, oh Rudy"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "A whop bop-a-lu a whop bam boo"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTROFA 3",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Got a girl named Daisy, she almost drives me crazy"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Got a girl named Daisy, she almost drives me crazy"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "She knows how to love me, yes indeed"
+        },
+        {
+          "type": "chords",
+          "content": ["D7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Boy I don't know what you're doin' to me"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tutti frutti, oh Rudy"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tutti frutti, oh Rudy"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tutti frutti, oh Rudy"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "A whop bop-a-lu a whop bam boo"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PUENTE",
+      "lines": [
+        {
+          "type": "lyric",
+          "content": "A whop bop-a-lu a whop bam boo"
+        },
+        {
+          "type": "lyric",
+          "content": "(whop bop-a-lu a whop bam boo)"
+        },
+        {
+          "type": "lyric",
+          "content": "A whop bop-a-lu a whop bam boo"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tutti frutti, oh Rudy"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tutti frutti, oh Rudy"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tutti frutti, oh Rudy"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tutti frutti, oh Rudy"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "A whop bop-a-lu a whop bam boo"
+        }
+      ]
+    }
+  ]
+}

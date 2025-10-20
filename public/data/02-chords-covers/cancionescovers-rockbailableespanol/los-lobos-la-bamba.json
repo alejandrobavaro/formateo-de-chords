@@ -1,0 +1,339 @@
+{
+  "id": "los-lobos-la-bamba",
+  "title": "La Bamba",
+  "artist": "Los Lobos",
+  "originalKey": "C",
+  "tempo": "Fast",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "–", "F", "–", "G", "–", "F"]
+        },
+        {
+          "type": "chords",
+          "content": ["C", "–", "F", "–", "G"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "chord",
+              "content": "F"
+            },
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "Para bailar la bamba"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["F", "–", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Para bailar la bamba"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "–", "G", "–", "F", "–", "C", "–", "F", "–", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Se necesita un poca de gracia"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "–", "C", "–", "F", "–", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Una poca de gracia pa' mí pa' ti"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "–", "C", "–", "F", "–", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Y arriba y arriba"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "–", "C", "–", "F", "–", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Ay arriba arriba por ti seré"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "–", "C", "–", "F", "–", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Por ti seré, por ti seré"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "chord",
+              "content": "F"
+            },
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "Yo no soy marinero"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["F", "–", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Yo no soy marinero"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "–", "G", "–", "F", "–", "C", "–", "F", "–", "G", "–", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Soy capitán, soy capitán, soy capitán"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PUENTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "–", "F", "–", "G", "–", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Bamba, bamba"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "–", "F", "–", "G", "–", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Bamba, bamba"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "–", "F", "–", "G", "–", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Bamba, bamba"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "–", "F", "–", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Bamba"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (x2)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "chord",
+              "content": "F"
+            },
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "Para bailar la bamba"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["F", "–", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Para bailar la bamba"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "–", "G", "–", "F", "–", "C", "–", "F", "–", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Se necesita un poca de gracia"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "–", "C", "–", "F", "–", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Una poca de gracia pa' mí pa' ti"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "–", "C", "–", "F", "–", "G", "–", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Y arriba y arriba"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "–", "C", "–", "F", "–", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Ay arriba arriba por ti seré"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "–", "C", "–", "F", "–", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Por ti seré, por ti seré"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "–", "F", "–", "G", "–", "F"]
+        },
+        {
+          "type": "chords",
+          "content": ["C", "–", "F", "–", "G", "–", "F"]
+        },
+        {
+          "type": "chords",
+          "content": ["C", "–", "F", "–", "G", "–", "F"]
+        },
+        {
+          "type": "chords",
+          "content": ["C", "–", "F", "–", "G", "–", "F"]
+        },
+        {
+          "type": "chords",
+          "content": ["C", "–", "F", "–", "G", "–", "F"]
+        },
+        {
+          "type": "chords",
+          "content": ["C", "–", "F", "–", "G", "–", "F"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "–", "F", "–", "G", "–", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Bamba, bamba"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "–", "F", "–", "G", "–", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Bamba, bamba"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "–", "F", "–", "G", "–", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Bamba, bamba"
+        }
+      ]
+    }
+  ]
+}

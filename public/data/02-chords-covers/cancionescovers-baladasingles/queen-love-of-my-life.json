@@ -1,0 +1,228 @@
+{
+  "id": "queen-love-of-my-life",
+  "title": "Love of My Life",
+  "artist": "Queen",
+  "originalKey": "C",
+  "tempo": "Slow",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "Am", "Dm", "G", "G7"]
+        },
+        {
+          "type": "chords",
+          "content": ["C", "Am", "F6", "C9/E", "D"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "Em", "Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Love of my life, you've hurt me"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "You've broken my heart"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "F6(9)", "G7", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "And now you leave me"
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "Em"]
+        },
+        {
+          "type": "lyric",
+          "content": "Love of my life, can't you see?"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "C", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Bring it back, bring it back"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "Am", "Dm", "G7", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Don't take it away from me, because you don't know what it means to me"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "Em", "Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Love of my life, don't leave me"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "You've stolen my love"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "F6(9)", "G7", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "And now desert me"
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "Em"]
+        },
+        {
+          "type": "lyric",
+          "content": "Love of my life, can't you see?"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "C", "F", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Bring it back, bring it back"
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "Dm", "G7", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Don't take it away from me, because you don't know what it means to me"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PUENTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am", "Em", "F", "C", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "You will remember when this is blown over"
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "Em", "C#º"]
+        },
+        {
+          "type": "lyric",
+          "content": "And everything's all by the way"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "When I grow older I will be there at your side to remind you"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "How I still love you"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "C7M"]
+        },
+        {
+          "type": "lyric",
+          "content": "I still love you"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am", "Em", "F", "C", "F", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hurry back, hurry back"
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "Dm", "G7", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Don't take it away from me, because you don't know what it means to me"
+        },
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Love of my life"
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "Dm", "Fm", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Love of my life"
+        }
+      ]
+    }
+  ]
+}

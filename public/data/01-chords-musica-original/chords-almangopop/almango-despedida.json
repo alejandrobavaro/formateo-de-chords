@@ -1,0 +1,266 @@
+﻿{
+    "id": "almango-despedida",
+    "title": "Despedida",
+    "artist": "Almango",
+    "originalKey": "G",
+    "tempo": "Slow",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO (Solo Piano) x 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "Am", "D", "G"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (Con Armónica)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "Am", "D", "G"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "VERSE 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "-", "Am", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Veo que vas lejos y me duele el corazón."
+          },
+          {
+            "type": "chords",
+            "content": ["D", "-", "G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Ya no da señales porque sabe que te vas."
+          },
+          {
+            "type": "chords",
+            "content": ["G", "-", "Am", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Odio las despedidas, no quiero llorar más."
+          },
+          {
+            "type": "chords",
+            "content": ["D", "-", "G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Pero es imposible al saber que hoy te vas."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Tantas noches en la cama, lloraré por no tenerte."
+          },
+          {
+            "type": "chords",
+            "content": ["C", "-", "G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Solo espero que recuerdes algún día regresar."
+          },
+          {
+            "type": "chords",
+            "content": ["D", "C", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Por mí, si quieres, volver..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (Con Armónica)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "Am", "D", "G"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "VERSE 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "-", "Am", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Aunque sea absurdo, te deseo lo mejor."
+          },
+          {
+            "type": "chords",
+            "content": ["D", "-", "G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Yo seguiré soñando que sigues aquí."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Tantas noches en la cama, lloraré por no tenerte."
+          },
+          {
+            "type": "chords",
+            "content": ["C", "-", "G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Solo espero que recuerdes algún día regresar."
+          },
+          {
+            "type": "chords",
+            "content": ["D", "C", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Por mí, si quieres, volver..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO VIOLA",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "D", "C", "B"]
+          },
+          {
+            "type": "text",
+            "content": "Pasaje: Am – G – Bm/F#"
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "D", "C", "B"]
+          },
+          {
+            "type": "text",
+            "content": "Pasaje: Am – G"
+          },
+          {
+            "type": "lyric",
+            "content": "Oh no!!"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (FINAL)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Tantas noches en la cama, lloraré por no tenerte."
+          },
+          {
+            "type": "chords",
+            "content": ["C", "-", "G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Solo espero que recuerdes algún día regresar."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN FINAL)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Tantas noches en la cama, lloraré por no tenerte."
+          },
+          {
+            "type": "chords",
+            "content": ["C", "-", "G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Solo espero que recuerdes algún día regresar."
+          },
+          {
+            "type": "chords",
+            "content": ["D", "C", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Por mí, si quieres, volver..."
+          }
+        ]
+      }
+    ]
+  }
+  

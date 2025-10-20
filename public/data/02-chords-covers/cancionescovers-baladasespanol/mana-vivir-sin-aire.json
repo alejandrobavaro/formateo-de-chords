@@ -1,0 +1,583 @@
+{
+  "id": "mana-vivir-sin-aire",
+  "title": "Vivir Sin Aire",
+  "artist": "Maná",
+  "originalKey": "G",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "Bm7", "C", "D"]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "Bm7", "C", "D"]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "Bm7", "C", "D"]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "Bm7", "C", "D"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "Bm7", "C"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Como quisiera"},
+            {"type": "chord", "content": "Bm7"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric": "Poder vivir sin aire"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["D", "G"]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7", "C", "D"]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "Bm7", "C"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Como quisiera"},
+            {"type": "chord", "content": "Bm7"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric": "Poder vivir sin agua"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["D", "G"]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7", "C", "D"]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "Bm7", "C"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Me encantaría"},
+            {"type": "chord", "content": "Bm7"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric": "Quererte un poco menos"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["D", "G"]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7", "C", "D"]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "Bm7", "C"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Como quisiera"},
+            {"type": "chord", "content": "Bm7"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric": "Poder vivir sin ti"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["D", "G"]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7", "C", "D"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-CHORUS",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "D"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Pero no puedo"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric": ""}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "C"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "Siento que muero"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric": ""}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Me estoy ahogando sin tu amor"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Em", "C", "G", "D/F#"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "Como quisiera poder vivir sin aire"},
+            {"type": "chord", "content": "C"},
+            {"type": "chord", "content": "G"},
+            {"type": "chord", "content": "D/F#"},
+            {"type": "lyric": ""}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "C", "D/F#"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "Como quisiera calmar mi aflicción"},
+            {"type": "chord", "content": "C"},
+            {"type": "chord", "content": "D/F#"},
+            {"type": "lyric": ""}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "C", "G", "D/F#"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "Como quisiera poder vivir sin agua"},
+            {"type": "chord", "content": "C"},
+            {"type": "chord", "content": "G"},
+            {"type": "chord", "content": "D/F#"},
+            {"type": "lyric": ""}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "C", "D"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "Me encantaría robar tu corazón"},
+            {"type": "chord", "content": "C"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric": ""}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "Bm7", "C", "D"]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "Bm7", "C", "D"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "Bm7", "C"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Como pudiera"},
+            {"type": "chord", "content": "Bm7"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric": "Un pez nadar sin agua (no, no, no)"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["D", "G"]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7", "C", "D"]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "Bm7", "C"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Como pudiera"},
+            {"type": "chord", "content": "Bm7"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric": "Un ave volar sin alas?"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["D", "G"]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7", "C", "D"]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "Bm7", "C"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Como pudiera"},
+            {"type": "chord", "content": "Bm7"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric": "La flor crecer sin tierra (Oh, no)"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["D", "G"]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7", "C", "D"]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "Bm7", "C"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Como quisiera"},
+            {"type": "chord", "content": "Bm7"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric": "Poder vivir sin ti (Oh, no)"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["D", "G"]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7", "C", "D"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-CHORUS (REPEAT)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "D"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Pero no puedo"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric": ""}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "C"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "Siento que muero"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric": ""}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Me estoy ahogando sin tu amor"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS (EXTENDED)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Em", "C", "G", "D/F#"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "Como quisiera poder vivir sin aire"},
+            {"type": "chord", "content": "C"},
+            {"type": "chord", "content": "G"},
+            {"type": "chord", "content": "D/F#"},
+            {"type": "lyric": ""}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "C", "D/F#"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "Como quisiera calmar mi aflicción"},
+            {"type": "chord", "content": "C"},
+            {"type": "chord", "content": "D/F#"},
+            {"type": "lyric": ""}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "C", "G", "D/F#"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "Como quisiera poder vivir sin agua"},
+            {"type": "chord", "content": "C"},
+            {"type": "chord", "content": "G"},
+            {"type": "chord", "content": "D/F#"},
+            {"type": "lyric": ""}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "C", "D"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "Me encantaría robar tu corazón"},
+            {"type": "chord", "content": "C"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric": ""}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "C", "G", "D/F#"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "Como quisiera lanzarte al olvido"},
+            {"type": "chord", "content": "C"},
+            {"type": "chord", "content": "G"},
+            {"type": "chord", "content": "D/F#"},
+            {"type": "lyric": ""}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "C", "D/F#"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "Como quisiera guardarte en un cajón"},
+            {"type": "chord", "content": "C"},
+            {"type": "chord", "content": "D/F#"},
+            {"type": "lyric": ""}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "C", "G", "D/F#"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "Como quisiera borrarte de un soplido"},
+            {"type": "chord", "content": "C"},
+            {"type": "chord", "content": "G"},
+            {"type": "chord", "content": "D/F#"},
+            {"type": "lyric": ""}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "C", "D"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "Me encantaría matar esta canción"},
+            {"type": "chord", "content": "C"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "Bm7", "C", "D", "G"]
+        }
+      ]
+    }
+  ]
+}

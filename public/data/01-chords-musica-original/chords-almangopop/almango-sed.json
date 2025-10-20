@@ -1,0 +1,473 @@
+{
+  "id": "almango-sed",
+  "title": "Sed",
+  "artist": "Almango",
+  "originalKey": "Bm",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "RIFF INICIAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["B", "A", "x2"]
+        },
+        {
+          "type": "lyric",
+          "content": "Jaime! El niño tiene sed y no hay naranjas"
+        },
+        {
+          "type": "lyric",
+          "content": "El niño tiene sed AH! El niño tiene sed AH!"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Bm", "D", "A", "G", "x2"]
+        },
+        {
+          "type": "text",
+          "content": "(Con banda)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Bm"
+        },
+        {
+          "type": "lyric",
+          "content": "Quizá seas más feliz si renuncias al deseo,"
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "lyric",
+          "content": "de controlar el futuro aunque sea algo inseguro."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Bm"
+        },
+        {
+          "type": "lyric",
+          "content": "Quizá seas más feliz si no dejas que te digan,"
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "lyric",
+          "content": "lo que tenés que hacer para ser humano."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Em"
+            },
+            {
+              "type": "lyric",
+              "content": "Alguien despeje mi mente."
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Bm"
+            },
+            {
+              "type": "lyric",
+              "content": "Quiero cambiar mi presente,"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Este mundo tiene sed."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTRO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Bm", "D", "A", "G"]
+        },
+        {
+          "type": "text",
+          "content": "(Sin banda)"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "D", "A", "G"]
+        },
+        {
+          "type": "text",
+          "content": "(Con banda)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Bm"
+        },
+        {
+          "type": "lyric",
+          "content": "Quizás seas más feliz si no dejas que tus sueños,"
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "lyric",
+          "content": "se duerman en la nada sin intentarlo."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Bm"
+        },
+        {
+          "type": "lyric",
+          "content": "Quizás seas más feliz si no buscas un camino,"
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "lyric",
+          "content": "tan perfecto y seguro, para ser aceptado."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 1 (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Em"
+            },
+            {
+              "type": "lyric",
+              "content": "Alguien despeje mi mente."
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Bm"
+            },
+            {
+              "type": "lyric",
+              "content": "Quiero cambiar mi presente,"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Este mundo tiene sed."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BIS",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Bm", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "uhhh uh uh uhhh"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "uhhh uh uh uhhh"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tengo un muro aquí delante mío,"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "que no puedo derribar, no!"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Siento que algo me frena la vida,"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "y no puedo derribarlo!"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BIS (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["B", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "El niño tiene sed AH!"
+        },
+        {
+          "type": "lyric",
+          "content": "El niño tiene sed AH! AH!"
+        },
+        {
+          "type": "text",
+          "content": "(Solo la voz)"
+        },
+        {
+          "type": "lyric",
+          "content": "El niño aún tiene sed! Cool!"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INSTRUMENTAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Bm", "D", "A", "G", "x2"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tiene seeed, no noooo!!"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 1 (REPETICIÓN FINAL)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Em"
+            },
+            {
+              "type": "lyric",
+              "content": "Alguien despeje mi mente."
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Bm"
+            },
+            {
+              "type": "lyric",
+              "content": "Quiero cambiar mi presente,"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Este mundo tiene sed."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Em"
+            },
+            {
+              "type": "lyric",
+              "content": "Tiene sed,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Bm"
+            },
+            {
+              "type": "lyric",
+              "content": "Quiere cambiar,"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Quiero cambiar,"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "A/C#", "Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "voy a…. cambiar."
+        }
+      ]
+    }
+  ]
+}

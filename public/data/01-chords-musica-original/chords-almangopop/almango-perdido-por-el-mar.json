@@ -1,0 +1,276 @@
+{
+  "id": "almango-perdido-por-el-mar",
+  "title": "Perdido por el Mar",
+  "artist": "Almango",
+  "originalKey": "F#m",
+  "tempo": "Existential Ballad (80 BPM)",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F#", "C#", "F#", "C#"]
+        },
+        {
+          "type": "chords",
+          "content": ["A", "B"]
+        },
+        {
+          "type": "text",
+          "content": "(2 veces)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTROFA 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "F#"},
+            {"type": "lyric", "content": "Me he perdido muchas veces por el mar"},
+            {"type": "chord", "content": "C#"},
+            {"type": "lyric", "content": "con el oído lleno de flores."},
+            {"type": "chord", "content": "F#"},
+            {"type": "lyric", "content": "Recién cortadas y con la lengua"},
+            {"type": "chord", "content": "C#"},
+            {"type": "lyric", "content": "llena de amor."}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTROFA 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "F#"},
+            {"type": "lyric", "content": "Y de agonía muchas veces,"},
+            {"type": "chord", "content": "C#"},
+            {"type": "lyric", "content": "me he perdido por el mar,"},
+            {"type": "chord", "content": "F#"},
+            {"type": "lyric", "content": "como me pierdo en el corazón"},
+            {"type": "chord", "content": "C#"},
+            {"type": "lyric", "content": "de algunas mujeres."}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "D#m"},
+            {"type": "lyric", "content": "No hay nadie que al dar un beso"},
+            {"type": "chord", "content": "A#m"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "B"},
+            {"type": "lyric", "content": "no sienta la sonrisa de la gente"},
+            {"type": "chord", "content": "C#"},
+            {"type": "lyric", "content": "sin rostro…"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "F#"},
+            {"type": "lyric", "content": "Como me pierdo en el corazón"},
+            {"type": "chord", "content": "A#m"},
+            {"type": "lyric", "content": "de algunas mujeres,"},
+            {"type": "chord", "content": "B"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C#"},
+            {"type": "lyric", "content": "me he perdido muchas veces por el mar."}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "B"},
+            {"type": "lyric", "content": "Ignorante del agua, voy buscando…"},
+            {"type": "chord", "content": "F#"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTRO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F#", "C#", "F#", "C#"]
+        },
+        {
+          "type": "chords",
+          "content": ["A", "B"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTROFA 3",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "F#"},
+            {"type": "lyric", "content": "Me he perdido muchas veces por el mar"},
+            {"type": "chord", "content": "C#"},
+            {"type": "lyric", "content": "Porque las rosas buscan"},
+            {"type": "chord", "content": "F#"},
+            {"type": "lyric", "content": "en la frente un duro paisaje de hueso"},
+            {"type": "chord", "content": "C#"},
+            {"type": "lyric", "content": "y las manos del hombre."}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTROFA 4",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "F#"},
+            {"type": "lyric", "content": "No tienen más sentido que imitar"},
+            {"type": "chord", "content": "C#"},
+            {"type": "lyric", "content": "a las raíces bajo tierra."},
+            {"type": "chord", "content": "F#"},
+            {"type": "lyric", "content": "Ni nadie que al tocar un recién nacido"},
+            {"type": "chord", "content": "C#"},
+            {"type": "lyric", "content": "olvide las inmóviles calaveras."}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "D#m"},
+            {"type": "lyric", "content": "No hay nadie que al dar un beso"},
+            {"type": "chord", "content": "A#m"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "B"},
+            {"type": "lyric", "content": "no sienta la sonrisa de la gente"},
+            {"type": "chord", "content": "C#"},
+            {"type": "lyric", "content": "sin rostro…"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "F#"},
+            {"type": "lyric", "content": "Como me pierdo en el corazón"},
+            {"type": "chord", "content": "A#m"},
+            {"type": "lyric", "content": "de algunas mujeres,"},
+            {"type": "chord", "content": "B"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C#"},
+            {"type": "lyric", "content": "me he perdido muchas veces por el mar."}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "B"},
+            {"type": "lyric", "content": "Ignorante del agua, voy buscando…"},
+            {"type": "chord", "content": "F#"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "OUTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F#", "C#"]
+        },
+        {
+          "type": "text",
+          "content": "(Repetir hasta desvanecer)"
+        }
+      ]
+    }
+  ]
+}

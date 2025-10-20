@@ -1,0 +1,473 @@
+{
+  "id": "alejandro-lerner-juntos-para-siempre",
+  "title": "Juntos Para Siempre",
+  "artist": "Alejandro Lerner",
+  "originalKey": "D",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": "Una vez más"
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "buscamos a través del tiempo"
+        },
+        {
+          "type": "chord",
+          "content": "Bm"
+        },
+        {
+          "type": "lyric",
+          "content": "el sueño de crecer y amar,"
+        },
+        {
+          "type": "chord",
+          "content": "F#m"
+        },
+        {
+          "type": "lyric",
+          "content": "cuanta verdad, felices sin razón,"
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "tan libres de futuro y de ilusión."
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": "Una vez más"
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "buscamos este nuevo encuentro,"
+        },
+        {
+          "type": "chord",
+          "content": "Bm"
+        },
+        {
+          "type": "lyric",
+          "content": "la misma libertad de ayer,"
+        },
+        {
+          "type": "chord",
+          "content": "F#m"
+        },
+        {
+          "type": "lyric",
+          "content": "de nuevo a jugar, la misma sensación,"
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "el mismo sentimiento de amistad."
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Bm"
+            },
+            {
+              "type": "lyric",
+              "content": "Nada cambiará,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F#m"
+            },
+            {
+              "type": "lyric",
+              "content": "no habrá que volver a empezar,"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "–", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "si nada va a cambiar,"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "–", "F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "juntos para siempre,"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "la historia no ha de terminar."
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "–", "A"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Vivimos una historia sin final,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "el mismo sentimiento,"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "y así estaremos juntos"
+        },
+        {
+          "type": "chords",
+          "content": ["B2", "–", "F#7", "–", "Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "soñando un nuevo mundo,"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "–", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "un juego compartido y singular."
+        },
+        {
+          "type": "chords",
+          "content": ["G", "–", "Em", "–", "A"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": "Una vez más te miro"
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "y mantengo el recuerdo"
+        },
+        {
+          "type": "chord",
+          "content": "Bm"
+        },
+        {
+          "type": "lyric",
+          "content": "tú eres continuidad y amor"
+        },
+        {
+          "type": "chord",
+          "content": "F#m"
+        },
+        {
+          "type": "lyric",
+          "content": "palabra de amor, un pacto de amistad"
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "el mismo sentimiento sin edad."
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO (x2)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Bm"
+            },
+            {
+              "type": "lyric",
+              "content": "Nada cambiará,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F#m"
+            },
+            {
+              "type": "lyric",
+              "content": "no habrá que volver a empezar,"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "–", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "si nada va a cambiar,"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "–", "F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "juntos para siempre,"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "la historia no ha de terminar."
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "–", "A"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 2 (x2)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Vivimos una historia sin final,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "el mismo sentimiento,"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "y así estaremos juntos"
+        },
+        {
+          "type": "chords",
+          "content": ["B2", "–", "F#7", "–", "Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "soñando un nuevo mundo,"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "–", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "vivimos una historia sin final."
+        },
+        {
+          "type": "chords",
+          "content": ["G", "–", "Em", "–", "A"]
+        }
+      ]
+    }
+  ]
+}

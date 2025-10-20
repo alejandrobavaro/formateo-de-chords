@@ -1,0 +1,468 @@
+{
+  "id": "the-beatles-here-comes-the-sun",
+  "title": "Here Comes the Sun",
+  "artist": "The Beatles",
+  "originalKey": "G",
+  "tempo": "Pop",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "C", "D7"]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "C", "D7"]
+        },
+        {
+          "type": "text",
+          "content": "(Arpegio de guitarra - Tablatura omitida por solicitud)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Here comes the sun"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Here comes the sun and I say"
+        },
+        {
+          "type": "chords",
+          "content": ["A7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's all right"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Little darling"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's been a long cold lonely winter"
+        },
+        {
+          "type": "chords",
+          "content": ["D7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Little darling"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "It feels like years since it's been here"
+        },
+        {
+          "type": "chords",
+          "content": ["D7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Here comes the sun"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Here comes the sun and I say"
+        },
+        {
+          "type": "chords",
+          "content": ["A7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's all right"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Little darling"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "The smiles returning to the faces"
+        },
+        {
+          "type": "chords",
+          "content": ["D7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Little darling"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "It seems like years since it's been here"
+        },
+        {
+          "type": "chords",
+          "content": ["D7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS 3",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Here comes the sun"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Here comes the sun and I say"
+        },
+        {
+          "type": "chords",
+          "content": ["A7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's all right"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BRIDGE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "D7"]
+        },
+        {
+          "type": "text",
+          "content": "(Arpegio de puente - Tablatura omitida por solicitud)"
+        },
+        {
+          "type": "chords",
+          "content": ["A#", "F", "C/E", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Sun, sun, sun, here it comes"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A#", "F", "C/E", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Sun, sun, sun, here it comes"
+        },
+        {
+          "type": "chords",
+          "content": ["A#", "F", "C/E", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Sun, sun, sun, here it comes"
+        },
+        {
+          "type": "chords",
+          "content": ["A#", "F", "C/E", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Sun, sun, sun, here it comes"
+        },
+        {
+          "type": "chords",
+          "content": ["A#", "F", "C/E", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Sun, sun, sun, here it comes"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 3",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Little darling"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "I feel that ice is slowly melting"
+        },
+        {
+          "type": "chords",
+          "content": ["D7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Little darling"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "It seems like years since it's been clear"
+        },
+        {
+          "type": "chords",
+          "content": ["D7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL CHORUS",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Here comes the sun"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Here comes the sun and I say"
+        },
+        {
+          "type": "chords",
+          "content": ["A7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's all right"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Here comes the sun"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Here comes the sun"
+        },
+        {
+          "type": "chords",
+          "content": ["A7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's all right"
+        },
+        {
+          "type": "chords",
+          "content": ["A#", "F", "C/E", "C", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's all right"
+        }
+      ]
+    }
+  ]
+}

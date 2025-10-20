@@ -1,0 +1,363 @@
+{
+  "id": "chuck-berry-johnny-b-goode",
+  "title": "Johnny B. Goode",
+  "artist": "Chuck Berry",
+  "originalKey": "A",
+  "tempo": "Rock and Roll",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "text",
+          "content": "(Riff de guitarra - Tablatura omitida por solicitud)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Deep down in Louisiana close to New Orleans"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Way back up in the woods among the evergreens"
+        },
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": "There stood a log cabin made of earth and wood"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Where lived a country boy named Johnny B. Goode"
+        },
+        {
+          "type": "chords",
+          "content": ["E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Who never ever learned to read or write so well"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "But he could play a guitar just like a-ringin' a bell"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Go, go, go Johnny go"
+        },
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Go, go Johnny go"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Go, go Johnny go"
+        },
+        {
+          "type": "chords",
+          "content": ["E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Go, go Johnny go"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Go Johnny B. Goode"
+        },
+        {
+          "type": "text",
+          "content": "(Riff de guitarra - Tablatura omitida por solicitud)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "He used to carry his guitar in a gunny sack"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Go sit beneath the tree by the railroad track"
+        },
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh! The engineers would see him sittin' in the shade"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Strummin' with the rhythm that the drivers made"
+        },
+        {
+          "type": "chords",
+          "content": ["E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "People passing by they would stop and say"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh, my, but that little country boy could play"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Go, go, go Johnny go"
+        },
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Go, go Johnny go"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Go, go Johnny go"
+        },
+        {
+          "type": "chords",
+          "content": ["E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Go, go Johnny go"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Go Johnny B. Goode"
+        },
+        {
+          "type": "text",
+          "content": "(Riff de guitarra - Tablatura omitida por solicitud)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO",
+      "lines": [
+        {
+          "type": "text",
+          "content": "(Solo de guitarra - Tablatura omitida por solicitud)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 3",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "His mama told him some day you will be a man"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "And you will be the leader of a big old band"
+        },
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Many people comin' from miles around"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "To hear you play your music 'till the sun go down"
+        },
+        {
+          "type": "chords",
+          "content": ["E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Maybe someday your name will be in lights"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Sayin' Johnny B. Goode tonight"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL CHORUS",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Go, go, go Johnny go"
+        },
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Go, go Johnny go"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Go, go Johnny go"
+        },
+        {
+          "type": "chords",
+          "content": ["E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Go, go Johnny go"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Go Johnny B. Goode"
+        },
+        {
+          "type": "text",
+          "content": "(Riff de guitarra final - Tablatura omitida por solicitud)"
+        }
+      ]
+    }
+  ]
+}

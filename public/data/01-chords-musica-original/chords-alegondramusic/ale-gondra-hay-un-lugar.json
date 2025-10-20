@@ -1,0 +1,559 @@
+{
+  "id": "ale-gondra-hay-un-lugar",
+  "title": "Hay un lugar",
+  "artist": "Ale Gondra",
+  "originalKey": "G",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "C9", "G", "C9", "F", "C", "G", "F", "C", "G"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "lyric",
+          "content": "A veces las cosas no son como vos"
+        },
+        {
+          "type": "chord",
+          "content": "C9"
+        },
+        {
+          "type": "lyric",
+          "content": "lo esperas, y no vuelve lo que das."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "lyric",
+          "content": "Hay que jugar unas fichas de más"
+        },
+        {
+          "type": "chord",
+          "content": "C9"
+        },
+        {
+          "type": "lyric",
+          "content": "en la vida."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F", "C", "G", "F", "C", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Y volver a dar, y volver a amar."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "lyric",
+          "content": "A veces no hay ganas de sonreír,"
+        },
+        {
+          "type": "chord",
+          "content": "C9"
+        },
+        {
+          "type": "lyric",
+          "content": "menos de abrir el corazón."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "lyric",
+          "content": "A veces nadie va a poder entenderte."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F", "C", "G", "F", "C", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Y volves a dar, y volver a amar."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "Hay un lugar en tu alma"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "C9"
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["F", "C", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "que siempre te marcará un camino."
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "Hay un lugar en tu alma"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "C9"
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["F", "C", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "que siempre te marcará un camino."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTRO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "C9", "G", "C9", "F", "C", "G", "F", "C", "G"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "lyric",
+          "content": "A veces las cosas no son como vos"
+        },
+        {
+          "type": "chord",
+          "content": "C9"
+        },
+        {
+          "type": "lyric",
+          "content": "lo esperas, y no vuelve lo que das."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F", "C", "G", "F", "C", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Pero volves a intentar, y volves a amar."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "Hay un lugar en tu alma"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "C9"
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["F", "C", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "que siempre te marcará un camino."
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "Hay un lugar en tu alma"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "C9"
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["F", "C", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "que siempre te marcará un camino."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "C9", "G", "C9", "F", "C", "G", "F", "C", "D"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (PALMAS)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "Hay un lugar en tu alma"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "C9"
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["F", "C", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "que siempre te marcará un camino."
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "Hay un lugar en tu alma"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "C9"
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["F", "C", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "que siempre te marcará un camino."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "Hay un lugar en tu alma"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "C9"
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["F", "C", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "que siempre te marcará un camino."
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "Hay un lugar en tu alma"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "C9"
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["F", "C", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "que siempre te marcará un camino."
+        }
+      ]
+    }
+  ]
+}

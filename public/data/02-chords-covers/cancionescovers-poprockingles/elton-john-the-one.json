@@ -1,0 +1,602 @@
+{
+  "id": "elton-john-the-one",
+  "title": "The One",
+  "artist": "Elton John",
+  "originalKey": "D", // Tonalidad ajustada a los cambios solicitados
+  "tempo": "Balada/Pop",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D/C", "C", "D/C", "C"]
+        },
+        {
+          "type": "chords",
+          "content": ["D/C", "C", "D/C", "C"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D/C"]
+        },
+        {
+          "type": "lyric",
+          "content": "I saw you dancing out the ocean"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D/C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Running fast along the sand"
+        },
+        {
+          "type": "chords",
+          "content": ["G/B"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Gm/A#"] // Originalmente Gm/Bb, ajustado a A#
+        },
+        {
+          "type": "lyric",
+          "content": "A spirit born of earth and water"
+        },
+        {
+          "type": "chords",
+          "content": ["D#"] // Originalmente Eb, ajustado a D#
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Fire flying from your hands"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BRIDGE 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A#"] // Originalmente Bb, ajustado a A#
+        },
+        {
+          "type": "lyric",
+          "content": "In the instant that you love someone"
+        },
+        {
+          "type": "chords",
+          "content": ["D#/A#"] // Originalmente Eb/Bb, ajustado a D#/A#
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F/A"]
+        },
+        {
+          "type": "lyric",
+          "content": "In the second that the hammer hits"
+        },
+        {
+          "type": "chords",
+          "content": ["A#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G#6"] // Originalmente Ab6, ajustado a G#6
+        },
+        {
+          "type": "lyric",
+          "content": "Reality runs up your spine"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F/A"]
+        },
+        {
+          "type": "lyric",
+          "content": "And the pieces finally fit"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A#"] // Originalmente Bb, ajustado a A#
+        },
+        {
+          "type": "lyric",
+          "content": "And all I ever needed was the one"
+        },
+        {
+          "type": "chords",
+          "content": ["D7/F#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Gm"] // Originalmente Gm, sin cambio
+        },
+        {
+          "type": "lyric",
+          "content": "Like freedom feels where wild horses run"
+        },
+        {
+          "type": "chords",
+          "content": ["A#/F"] // Originalmente Bb/F, ajustado a A#/F
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F#"] // Originalmente Gb, ajustado a F#
+        },
+        {
+          "type": "lyric",
+          "content": "When stars collide like you and I"
+        },
+        {
+          "type": "chords",
+          "content": ["A#/F"] // Originalmente Bb/F, ajustado a A#/F
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A#"] // Originalmente Bb, ajustado a A#
+        },
+        {
+          "type": "lyric",
+          "content": "No shadows block the sun"
+        },
+        {
+          "type": "chords",
+          "content": ["D#", "A#/D"] // Originalmente Eb, Bb/D, ajustado a D#, A#/D
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Cm7"]
+        },
+        {
+          "type": "lyric",
+          "content": "You're all I've ever needed"
+        },
+        {
+          "type": "chords",
+          "content": ["Cm7/F"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Baby you're the one"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D/C"]
+        },
+        {
+          "type": "lyric",
+          "content": "There are caravans we follow"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D/C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Drunken nights in dark hotels"
+        },
+        {
+          "type": "chords",
+          "content": ["G/B"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Gm/A#"] // Originalmente Gm/Bb, ajustado a A#
+        },
+        {
+          "type": "lyric",
+          "content": "When chances breathe between the silence"
+        },
+        {
+          "type": "chords",
+          "content": ["D#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Where sex and love no longer gel"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BRIDGE 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A#"]
+        },
+        {
+          "type": "lyric",
+          "content": "For each man in his time is Cain"
+        },
+        {
+          "type": "chords",
+          "content": ["D#/A#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F/A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Until he walks along the beach"
+        },
+        {
+          "type": "chords",
+          "content": ["A#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G#6"]
+        },
+        {
+          "type": "lyric",
+          "content": "And sees his future in the water"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F/A"]
+        },
+        {
+          "type": "lyric",
+          "content": "A long lost heart within his reach"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["A#"]
+            },
+            {
+              "type": "lyric",
+              "content": "And all I ever needed was the one"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["D7/F#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Gm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Like freedom feels where wild horses run"
+        },
+        {
+          "type": "chords",
+          "content": ["A#/F"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "When stars collide like you and I"
+        },
+        {
+          "type": "chords",
+          "content": ["A#/F"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A#"]
+        },
+        {
+          "type": "lyric",
+          "content": "No shadows block the sun"
+        },
+        {
+          "type": "chords",
+          "content": ["D#", "A#/D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Cm7"]
+        },
+        {
+          "type": "lyric",
+          "content": "You're all I've ever needed"
+        },
+        {
+          "type": "chords",
+          "content": ["Cm7/F"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Baby you're the one"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D/C", "C", "D/C", "G/B", "A#", "D#", "F"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL CHORUS",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["A#"]
+            },
+            {
+              "type": "lyric",
+              "content": "And all I ever needed was the one"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["D7/F#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Gm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Like freedom feels where wild horses run"
+        },
+        {
+          "type": "chords",
+          "content": ["A#/F"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "When stars collide like you and I"
+        },
+        {
+          "type": "chords",
+          "content": ["A#/F"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A#"]
+        },
+        {
+          "type": "lyric",
+          "content": "No shadows block the sun"
+        },
+        {
+          "type": "chords",
+          "content": ["D#", "A#/D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Cm7"]
+        },
+        {
+          "type": "lyric",
+          "content": "You're all I've ever needed"
+        },
+        {
+          "type": "chords",
+          "content": ["Cm7/F"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Baby you're the one"
+        }
+      ]
+    }
+  ]
+}

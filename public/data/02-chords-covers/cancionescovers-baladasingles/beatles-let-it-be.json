@@ -1,0 +1,450 @@
+{
+  "id": "the-beatles-let-it-be",
+  "title": "Let It Be",
+  "artist": "The Beatles",
+  "originalKey": "A",
+  "tempo": "Slow",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A", "E", "F#m", "D", "A"]
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D", "C#m/D", "D6", "A"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["A", "E", "F#m", "D", "D6", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "When I find myself in times of trouble"
+            },
+            {
+              "type": "lyric",
+              "content": "Mother Mary comes to me"
+            },
+            {
+              "type": "chords",
+              "content": ["A", "E", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Speaking words of wisdom, let it be"
+            },
+            {
+              "type": "chords",
+              "content": ["C#m/D", "D6", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A", "E", "F#m", "D", "D6", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "And in my hour of darkness"
+            },
+            {
+              "type": "lyric",
+              "content": "She is standing right in front of me"
+            },
+            {
+              "type": "chords",
+              "content": ["A", "E", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Speaking words of wisdom, let it be"
+            },
+            {
+              "type": "chords",
+              "content": ["C#m/D", "D6", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["F#m", "F#m/E", "D", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "Let it be, let it be, let it be, let it be"
+            },
+            {
+              "type": "chords",
+              "content": ["E", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Whisper words of wisdom, let it be"
+            },
+            {
+              "type": "chords",
+              "content": ["C#m/D", "D6", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA PARTE",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["A", "E", "F#m", "D", "D6", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "And when the broken-hearted people"
+            },
+            {
+              "type": "lyric",
+              "content": "Living in the world agree"
+            },
+            {
+              "type": "chords",
+              "content": ["A", "E", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "There will be an answer, let it be"
+            },
+            {
+              "type": "chords",
+              "content": ["C#m/D", "D6", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A", "E", "F#m", "D", "D6", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "For though they may be parted"
+            },
+            {
+              "type": "lyric",
+              "content": "There is still a chance that they will see"
+            },
+            {
+              "type": "chords",
+              "content": ["A", "E", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "There will be an answer, let it be"
+            },
+            {
+              "type": "chords",
+              "content": ["C#m/D", "D6", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["F#m", "F#m/E", "D", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "Let it be, let it be, let it be, let it be"
+            },
+            {
+              "type": "chords",
+              "content": ["E", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "There will be an answer, let it be"
+            },
+            {
+              "type": "chords",
+              "content": ["C#m/D", "D6", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["F#m", "F#m/E", "D", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "Let it be, let it be, let it be, let it be"
+            },
+            {
+              "type": "chords",
+              "content": ["E", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Whisper words of wisdom, let it be"
+            },
+            {
+              "type": "chords",
+              "content": ["C#m/D", "D6", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A", "E", "F#m", "D", "A"]
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D", "C#m/D", "D6", "A"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "TERCERA PARTE",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["A", "E", "F#m", "D", "D6", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "And when the night is cloudy"
+            },
+            {
+              "type": "lyric",
+              "content": "There is still a light that shines on me"
+            },
+            {
+              "type": "chords",
+              "content": ["A", "E", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Shine until tomorrow, let it be"
+            },
+            {
+              "type": "chords",
+              "content": ["C#m/D", "D6", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["A", "E", "F#m", "D", "D6", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "I wake up to the sound of music"
+            },
+            {
+              "type": "lyric",
+              "content": "Mother Mary comes to me"
+            },
+            {
+              "type": "chords",
+              "content": ["A", "E", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Speaking words of wisdom, let it be"
+            },
+            {
+              "type": "chords",
+              "content": ["C#m/D", "D6", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (FINAL)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["F#m", "F#m/E", "D", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "Let it be, let it be, let it be, let it be"
+            },
+            {
+              "type": "chords",
+              "content": ["E", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "There will be an answer, let it be"
+            },
+            {
+              "type": "chords",
+              "content": ["C#m/D", "D6", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chords",
+              "content": ["F#m", "F#m/E", "D", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "Let it be, let it be, let it be, let it be"
+            },
+            {
+              "type": "chords",
+              "content": ["E", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Whisper words of wisdom, let it be"
+            },
+            {
+              "type": "chords",
+              "content": ["C#m/D", "D6", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D", "C#m/D", "D6", "A"]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "F#m", "E", "D", "A/C#"]
+        },
+        {
+          "type": "chords",
+          "content": ["D", "C#m/D", "D6", "A"]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "F#m", "E", "D", "A/C#"]
+        }
+      ]
+    }
+  ]
+}

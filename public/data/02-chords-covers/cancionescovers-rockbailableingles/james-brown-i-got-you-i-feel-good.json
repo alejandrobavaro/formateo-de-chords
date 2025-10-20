@@ -1,0 +1,240 @@
+{
+  "id": "james-brown-i-got-you-i-feel-good",
+  "title": "I Got You (I Feel Good)",
+  "artist": "James Brown",
+  "originalKey": "A",
+  "tempo": "Upbeat",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "text",
+          "content": "Ohhhhhhhhhhhhhh !"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "A7"
+        },
+        {
+          "type": "lyric",
+          "content": "I feel good"
+        },
+        {
+          "type": "chord",
+          "content": "A7"
+        },
+        {
+          "type": "lyric",
+          "content": "I knew that I would now"
+        }
+      ]
+    },
+    {
+      "type": "voice",
+      "name": "2º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "D7"
+        },
+        {
+          "type": "lyric",
+          "content": "I feel good"
+        },
+        {
+          "type": "chord",
+          "content": "A7"
+        },
+        {
+          "type": "lyric",
+          "content": "I knew that I would now"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "name": "PRE-CORO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E7", "D7"]
+        },
+        {
+          "type": "lyric",
+          "content": "So Good, So Good, I Got You!"
+        },
+        {
+          "type": "text",
+          "content": "Ohhhhhhhhh !"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "A7"
+        },
+        {
+          "type": "lyric",
+          "content": "I feel nice"
+        },
+        {
+          "type": "chord",
+          "content": "A7"
+        },
+        {
+          "type": "lyric",
+          "content": "Like sugar and spice"
+        }
+      ]
+    },
+    {
+      "type": "voice",
+      "name": "2º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "D7"
+        },
+        {
+          "type": "lyric",
+          "content": "I feel nice"
+        },
+        {
+          "type": "chord",
+          "content": "A7"
+        },
+        {
+          "type": "lyric",
+          "content": "Like sugar and spice"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "name": "CORO",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["E7", "D7"]
+            },
+            {
+              "type": "lyric",
+              "content": "So Nice, So Nice, 'Cause I Got You!"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "text",
+              "content": "(Riff 2 - 2x)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PUENTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D7", "A7", "D7", "E7"]
+        },
+        {
+          "type": "lyric",
+          "content": "When I hold you in my arms, I know I can't do no wrong now"
+        },
+        {
+          "type": "lyric",
+          "content": "When I hold you in my arms, my love can't do me no harm"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "REPETICIÓN FINAL",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["A7", "D7", "E7"]
+            },
+            {
+              "type": "lyric",
+              "content": "I feel good, I knew that I would now"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["E7", "D7"]
+            },
+            {
+              "type": "lyric",
+              "content": "So Good, So Good, 'Cause I got you"
+            },
+            {
+              "type": "text",
+              "content": "(Riff 3)"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Hey .......... Yeah"
+        },
+        {
+          "type": "text",
+          "content": "(Riff 1)"
+        }
+      ]
+    }
+  ]
+}

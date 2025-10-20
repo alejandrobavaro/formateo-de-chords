@@ -1,0 +1,608 @@
+{
+  "id": "the-rolling-stones-saint-of-me",
+  "title": "Saint Of Me",
+  "artist": "The Rolling Stones",
+  "originalKey": "A",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRODUCCIÓN",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "Esus4"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Saint Paul the persecutor"
+        },
+        {
+          "type": "chords",
+          "content": ["Esus4"]
+        },
+        {
+          "type": "lyric",
+          "content": "Was a cruel and sinful man"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Jesus hit him with a blinding light"
+        },
+        {
+          "type": "chords",
+          "content": ["E7"]
+        },
+        {
+          "type": "lyric",
+          "content": "And then his life began"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "Dsus4"]
+        },
+        {
+          "type": "lyric",
+          "content": "I said yeah"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "Esus4"]
+        },
+        {
+          "type": "lyric",
+          "content": "I said yeah"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Augustin knew temptation"
+        },
+        {
+          "type": "chords",
+          "content": ["Esus4"]
+        },
+        {
+          "type": "lyric",
+          "content": "He loved women, wine and song"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "And all the special pleasures"
+        },
+        {
+          "type": "chords",
+          "content": ["E7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Of doing something wrong"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "Dsus4"]
+        },
+        {
+          "type": "lyric",
+          "content": "I said yeah"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "Esus4"]
+        },
+        {
+          "type": "lyric",
+          "content": "I said yeah"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CORO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "I said yeah, oh yeah, oh yeah"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "You'll never make a saint of me"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh yeah, oh yeah"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "You'll never make a saint of me"
+        },
+        {
+          "type": "chords",
+          "content": ["Esus4", "E", "Esus4"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 3",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "And could you stand the torture"
+        },
+        {
+          "type": "chords",
+          "content": ["Esus4"]
+        },
+        {
+          "type": "lyric",
+          "content": "And could you stand the pain"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Could you put your faith in Jesus"
+        },
+        {
+          "type": "chords",
+          "content": ["E7"]
+        },
+        {
+          "type": "lyric",
+          "content": "When you're burning in the flames"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "Dsus4", "E", "Esus4"]
+        },
+        {
+          "type": "lyric",
+          "content": "I said yes, mmm mmm"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 4",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "I do believe in miracles"
+        },
+        {
+          "type": "chords",
+          "content": ["Esus4"]
+        },
+        {
+          "type": "lyric",
+          "content": "And I want to save my soul"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "And I know that I'm a sinner"
+        },
+        {
+          "type": "chords",
+          "content": ["E7"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm gonna die here in the cold"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "Dsus4", "E", "Esus4"]
+        },
+        {
+          "type": "lyric",
+          "content": "I said yes, I said yeah"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CORO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "I said yeah, oh yeah, oh yeah"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "You'll never make a saint of me"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh yeah, oh yeah"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "You'll never make a saint of me"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh yeah, oh yeah"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "You'll never make a saint of me"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh yeah, oh yeah"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "You'll never make a saint of me"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTERLUDIO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F#m7"]
+        },
+        {
+          "type": "lyric",
+          "content": "I thought I heard an angel cry"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "F#m", "Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A", "C#m", "Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "I thought I saw a teardrop falling from his eye"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INSTRUMENTAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "D"]
+        },
+        {
+          "type": "chords",
+          "content": ["E", "Esus4", "E", "E7"]
+        },
+        {
+          "type": "chords",
+          "content": ["A", "Dsus4", "E", "Esus4"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 5",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "John the Baptist was a martyr"
+        },
+        {
+          "type": "chords",
+          "content": ["Esus4"]
+        },
+        {
+          "type": "lyric",
+          "content": "But he stirred up Herod's hate"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "And Salome got her wish"
+        },
+        {
+          "type": "chords",
+          "content": ["E7"]
+        },
+        {
+          "type": "lyric",
+          "content": "To have him served up on a plate"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "Dsus4"]
+        },
+        {
+          "type": "lyric",
+          "content": "I said yeah"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "Esus4"]
+        },
+        {
+          "type": "lyric",
+          "content": "I said yeah"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CORO FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "I said yeah, oh yeah, oh yeah"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "You'll never make a saint of me"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh yeah, oh yeah"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "You'll never make a saint of me"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh yeah, oh yeah"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "You'll never make a saint of me"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh yeah, oh yeah"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "C#m"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F#m", "D", "F#m", "Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTERLUDIO FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A", "C#m", "F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "I thought I saw an angel"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "cry"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "OUTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "Esus4", "E"]
+        },
+        {
+          "type": "chords",
+          "content": ["Esus4", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "You'll never make a saint of me"
+        },
+        {
+          "type": "chords",
+          "content": ["Esus4", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "You'll never make a saint of me"
+        },
+        {
+          "type": "chords",
+          "content": ["Esus4", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "You'll never make a saint of me"
+        }
+      ]
+    }
+  ]
+}

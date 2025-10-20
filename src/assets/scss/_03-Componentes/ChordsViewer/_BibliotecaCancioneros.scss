@@ -1,38 +1,38 @@
 // ================================================================
-// 🎨 ESTILOS BIBLIOTECA CANCIONEROS - SCSS OPTIMIZADO
+// 🎨 ESTILOS BIBLIOTECA CANCIONEROS - SCSS OPTIMIZADO Y MEJORADO
 // ================================================================
 
-// 🎯 CONTENEDOR PRINCIPAL
+// 🎯 CONTENEDOR PRINCIPAL - MOBILE FIRST
 .modern-chords-gallery {
-  background-color: #121212;
+  background-color: #1a1a1a;
   color: #ffffff;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
-  padding: 6px;
+  padding: 8px;
   min-height: 100vh;
   width: 100%;
   box-sizing: border-box;
-  font-size: 13px;
+  font-size: 14px;
   
   // 📊 HEADER DE LA GALERÍA
   .gallery-header {
-    margin-bottom: 10px;
+    margin-bottom: 12px;
     width: 100%;
     
     .header-main {
       display: flex;
       flex-direction: column;
-      gap: 8px;
-      margin-bottom: 10px;
+      gap: 10px;
+      margin-bottom: 12px;
       width: 100%;
       
       .header-title {
         display: flex;
         align-items: center;
-        gap: 6px;
+        gap: 8px;
         flex-wrap: wrap;
         
         h1 {
-          font-size: 16px;
+          font-size: 18px;
           font-weight: 700;
           margin: 0;
           white-space: nowrap;
@@ -40,7 +40,7 @@
         }
         
         .header-icon {
-          font-size: 18px;
+          font-size: 20px;
           color: #ff7b25;
           flex-shrink: 0;
         }
@@ -48,13 +48,13 @@
         .subtitle {
           display: none;
           color: #b3b3b3;
-          font-size: 12px;
+          font-size: 14px;
         }
       }
       
       .header-stats {
         display: flex;
-        gap: 10px;
+        gap: 12px;
         flex-wrap: wrap;
         align-items: center;
         
@@ -62,16 +62,16 @@
           display: flex;
           flex-direction: column;
           align-items: center;
-          min-width: 50px;
+          min-width: 60px;
           
           .stat-number {
-            font-size: 16px;
+            font-size: 18px;
             font-weight: 700;
             color: #ff7b25;
           }
           
           .stat-label {
-            font-size: 11px;
+            font-size: 12px;
             color: #b3b3b3;
           }
         }
@@ -80,14 +80,14 @@
           background-color: transparent;
           color: #b3b3b3;
           border: 1px solid #404040;
-          padding: 5px 8px;
-          border-radius: 3px;
+          padding: 6px 10px;
+          border-radius: 4px;
           display: flex;
           align-items: center;
-          gap: 4px;
+          gap: 6px;
           cursor: pointer;
           transition: all 0.2s ease;
-          font-size: 11px;
+          font-size: 12px;
           
           &:hover, &.active {
             background-color: #2d2d2d;
@@ -101,35 +101,35 @@
     .header-controls {
       display: flex;
       flex-direction: column;
-      gap: 6px;
+      gap: 8px;
       width: 100%;
     }
   }
   
   // 🎛️ PANEL DE FILTROS
   .filters-panel {
-    background-color: #1e1e1e;
-    border-radius: 4px;
-    padding: 10px;
-    margin-bottom: 10px;
+    background-color: #2a2a2a;
+    border-radius: 6px;
+    padding: 12px;
+    margin-bottom: 12px;
     border: 1px solid #404040;
     
     .filter-controls-container {
       display: flex;
       flex-direction: column;
-      gap: 10px;
+      gap: 12px;
     }
     
     .filter-section {
       display: flex;
       flex-direction: column;
-      gap: 5px;
+      gap: 6px;
       
       .filter-section-header {
         display: flex;
         align-items: center;
-        gap: 5px;
-        font-size: 12px;
+        gap: 6px;
+        font-size: 14px;
         font-weight: 600;
         color: #b3b3b3;
       }
@@ -137,19 +137,19 @@
       // ⚡ ACCIONES RÁPIDAS
       .quick-actions {
         display: flex;
-        gap: 4px;
+        gap: 6px;
         flex-wrap: wrap;
         
         .action-btn {
           background-color: #2d2d2d;
           color: #b3b3b3;
           border: 1px solid #404040;
-          padding: 4px 6px;
-          border-radius: 3px;
-          font-size: 11px;
+          padding: 6px 8px;
+          border-radius: 4px;
+          font-size: 12px;
           display: flex;
           align-items: center;
-          gap: 3px;
+          gap: 4px;
           cursor: pointer;
           transition: all 0.2s ease;
           
@@ -165,19 +165,19 @@
       .alphabet-filter {
         display: flex;
         flex-wrap: wrap;
-        gap: 3px;
+        gap: 4px;
         
         .letter-filter-btn {
           background-color: #2d2d2d;
           color: #b3b3b3;
           border: 1px solid #404040;
-          padding: 3px 5px;
-          border-radius: 2px;
-          font-size: 11px;
+          padding: 4px 6px;
+          border-radius: 3px;
+          font-size: 12px;
           font-weight: 600;
           cursor: pointer;
           transition: all 0.2s ease;
-          min-width: 24px;
+          min-width: 28px;
           text-align: center;
           
           &:hover, &.active {
@@ -195,9 +195,9 @@
           background-color: #2d2d2d;
           color: #ffffff;
           border: 1px solid #404040;
-          padding: 5px 6px;
-          border-radius: 2px;
-          font-size: 12px;
+          padding: 6px 8px;
+          border-radius: 3px;
+          font-size: 14px;
           
           &:focus {
             outline: none;
@@ -210,18 +210,18 @@
       .sort-controls {
         display: flex;
         flex-wrap: wrap;
-        gap: 3px;
+        gap: 4px;
         
         .sort-btn {
           background-color: #2d2d2d;
           color: #b3b3b3;
           border: 1px solid #404040;
-          padding: 5px 6px;
-          border-radius: 2px;
-          font-size: 11px;
+          padding: 6px 8px;
+          border-radius: 3px;
+          font-size: 12px;
           display: flex;
           align-items: center;
-          gap: 3px;
+          gap: 4px;
           cursor: pointer;
           transition: all 0.2s ease;
           
@@ -232,7 +232,7 @@
           }
           
           .sort-direction {
-            margin-left: 2px;
+            margin-left: 3px;
           }
         }
       }
@@ -241,18 +241,18 @@
       .column-controls {
         display: flex;
         flex-wrap: wrap;
-        gap: 3px;
+        gap: 4px;
         
         .column-toggle-btn {
           background-color: #2d2d2d;
           color: #b3b3b3;
           border: 1px solid #404040;
-          padding: 4px 6px;
-          border-radius: 2px;
-          font-size: 11px;
+          padding: 6px 8px;
+          border-radius: 3px;
+          font-size: 12px;
           display: flex;
           align-items: center;
-          gap: 3px;
+          gap: 4px;
           cursor: pointer;
           transition: all 0.2s ease;
           
@@ -269,12 +269,12 @@
         background-color: #2d2d2d;
         color: #b3b3b3;
         border: 1px solid #404040;
-        padding: 5px 8px;
-        border-radius: 2px;
-        font-size: 11px;
+        padding: 6px 10px;
+        border-radius: 3px;
+        font-size: 12px;
         display: flex;
         align-items: center;
-        gap: 3px;
+        gap: 4px;
         cursor: pointer;
         transition: all 0.2s ease;
         
@@ -290,12 +290,12 @@
         background-color: #f44336;
         color: #ffffff;
         border: none;
-        padding: 5px 8px;
-        border-radius: 2px;
-        font-size: 11px;
+        padding: 6px 10px;
+        border-radius: 3px;
+        font-size: 12px;
         display: flex;
         align-items: center;
-        gap: 3px;
+        gap: 4px;
         cursor: pointer;
         transition: background-color 0.2s ease;
         
@@ -306,12 +306,12 @@
     }
   }
   
-  // 📋 CONTENEDOR DE LA TABLA - COMPACTO
+  // 📋 CONTENEDOR DE LA TABLA
   .excel-table-container {
-    background-color: #1e1e1e;
-    border-radius: 3px;
+    background-color: #2a2a2a;
+    border-radius: 6px;
     overflow: hidden;
-    margin-bottom: 6px;
+    margin-bottom: 8px;
     width: 100%;
     
     .table-wrapper {
@@ -321,38 +321,25 @@
       .excel-table {
         width: 100%;
         border-collapse: collapse;
-        font-size: 12px;
+        font-size: 14px;
         min-width: 100%;
         
-        // 🎯 ESTILO PARA TABLA ULTRA COMPACTA
+        // 🎯 ESTILO PARA TABLA COMPACTA
         &.ultra-compact-table {
           th, td {
-            padding: 4px 3px;
+            padding: 6px 4px;
             white-space: nowrap;
-            font-size: 11px;
+            font-size: 13px;
           }
           
           .song-count {
-            font-size: 10px;
-            padding: 1px 3px;
+            font-size: 11px;
+            padding: 2px 4px;
           }
           
           .key-badge, .genre-badge {
-            font-size: 10px;
-            padding: 1px 3px;
-          }
-          
-          .action-buttons {
-            gap: 3px;
-            
-            .play-icon-btn, .chords-btn {
-              padding: 2px 4px;
-              font-size: 10px;
-            }
-            
-            .play-icon-btn {
-              padding: 2px;
-            }
+            font-size: 11px;
+            padding: 2px 4px;
           }
         }
         
@@ -361,10 +348,10 @@
           background-color: #2d2d2d;
           
           th {
-            padding: 6px 3px;
+            padding: 8px 6px;
             text-align: left;
             font-weight: 600;
-            font-size: 11px;
+            font-size: 13px;
             color: #b3b3b3;
             border-bottom: 1px solid #404040;
             white-space: nowrap;
@@ -379,8 +366,8 @@
               }
               
               .sort-icon {
-                margin-left: 2px;
-                font-size: 12px;
+                margin-left: 3px;
+                font-size: 14px;
               }
             }
           }
@@ -408,25 +395,25 @@
               .group-header-content {
                 display: flex;
                 align-items: center;
-                gap: 5px;
-                padding: 4px 0;
+                gap: 8px;
+                padding: 6px 0;
                 
                 .group-name {
                   font-weight: 600;
-                  font-size: 12px;
+                  font-size: 14px;
                   color: #ff7b25;
                 }
                 
                 .group-meta {
-                  font-size: 10px;
+                  font-size: 12px;
                   color: #b3b3b3;
                   
                   .song-count {
-                    margin-left: 3px;
-                    padding: 1px 4px;
-                    background-color: #121212;
-                    border-radius: 6px;
-                    font-size: 9px;
+                    margin-left: 4px;
+                    padding: 2px 6px;
+                    background-color: #1a1a1a;
+                    border-radius: 8px;
+                    font-size: 11px;
                   }
                 }
               }
@@ -435,8 +422,8 @@
             // 🎯 FILAS DE CANCIONES
             &.song-row {
               td {
-                padding: 5px 3px;
-                font-size: 11px;
+                padding: 8px 6px;
+                font-size: 13px;
                 vertical-align: middle;
                 
                 .song-title-cell {
@@ -449,15 +436,15 @@
                 
                 .artist-text, .list-text {
                   color: #b3b3b3;
-                  font-size: 11px;
+                  font-size: 13px;
                 }
                 
                 // 🎯 BADGES DE TONO Y GÉNERO
                 .key-badge, .genre-badge {
                   background-color: #2d2d2d;
-                  padding: 2px 4px;
-                  border-radius: 2px;
-                  font-size: 10px;
+                  padding: 3px 6px;
+                  border-radius: 3px;
+                  font-size: 11px;
                   font-weight: 500;
                   display: inline-block;
                 }
@@ -470,48 +457,63 @@
                 .bpm-text {
                   font-weight: 600;
                   color: #ff7b25;
-                  font-size: 11px;
+                  font-size: 13px;
                 }
                 
                 // 🎯 CELDA DE DURACIÓN
                 .duration-cell {
                   display: flex;
                   align-items: center;
-                  gap: 3px;
+                  gap: 4px;
                   
                   .duration-icon {
-                    font-size: 10px;
+                    font-size: 12px;
                     color: #b3b3b3;
                   }
                   
                   .duration-text {
                     color: #b3b3b3;
-                    font-size: 11px;
+                    font-size: 13px;
                   }
                 }
                 
-                // 🎯 BOTONES DE ACCIÓN
+                // 🎯 BOTONES DE ACCIÓN MEJORADOS
                 .action-buttons {
                   display: flex;
-                  gap: 4px;
+                  gap: 6px;
                   align-items: center;
                   
+                  // 🎵 BOTÓN PLAY/PAUSE MEJORADO
                   .play-icon-btn {
                     background-color: transparent;
                     color: #b3b3b3;
                     border: 1px solid #404040;
-                    border-radius: 2px;
-                    padding: 3px;
+                    border-radius: 3px;
+                    padding: 4px;
                     display: flex;
                     align-items: center;
                     justify-content: center;
                     cursor: pointer;
                     transition: all 0.2s ease;
-                    font-size: 10px;
+                    font-size: 12px;
+                    min-width: 28px;
+                    min-height: 28px;
                     
-                    &:hover {
+                    &:hover:not(.disabled) {
                       background-color: #2d2d2d;
                       color: #ff7b25;
+                      border-color: #ff7b25;
+                    }
+                    
+                    &.disabled {
+                      opacity: 0.5;
+                      cursor: not-allowed;
+                    }
+                    
+                    &.playing {
+                      color: #ff7b25;
+                      border-color: #ff7b25;
+                      background-color: rgba(255, 123, 37, 0.1);
                     }
                   }
                   
@@ -519,14 +521,14 @@
                     background-color: transparent;
                     color: #ff7b25;
                     border: 1px solid #ff7b25;
-                    padding: 3px 5px;
-                    border-radius: 2px;
+                    padding: 4px 6px;
+                    border-radius: 3px;
                     display: flex;
                     align-items: center;
-                    gap: 2px;
+                    gap: 3px;
                     cursor: pointer;
                     transition: all 0.2s ease;
-                    font-size: 10px;
+                    font-size: 12px;
                     
                     &:hover {
                       background-color: #ff7b25;
@@ -543,19 +545,19 @@
     
     // 🎯 MENSAJE SIN RESULTADOS
     .no-results {
-      padding: 20px 10px;
+      padding: 30px 15px;
       text-align: center;
       color: #b3b3b3;
       
       h3 {
-        margin: 8px 0 4px;
+        margin: 12px 0 6px;
         color: #ffffff;
-        font-size: 14px;
+        font-size: 16px;
       }
       
       p {
         margin: 0;
-        font-size: 12px;
+        font-size: 14px;
       }
     }
   }
@@ -565,18 +567,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 6px 0;
-    font-size: 11px;
+    padding: 8px 0;
+    font-size: 13px;
     width: 100%;
     
     .footer-info {
       color: #b3b3b3;
       display: flex;
       flex-direction: column;
-      gap: 3px;
+      gap: 4px;
       
       .active-filters-info {
-        font-size: 10px;
+        font-size: 12px;
         color: #ff7b25;
       }
     }
@@ -586,14 +588,14 @@
         background-color: transparent;
         color: #b3b3b3;
         border: 1px solid #404040;
-        padding: 4px 6px;
-        border-radius: 2px;
+        padding: 6px 8px;
+        border-radius: 3px;
         display: flex;
         align-items: center;
-        gap: 3px;
+        gap: 4px;
         cursor: pointer;
         transition: all 0.2s ease;
-        font-size: 10px;
+        font-size: 12px;
         
         &:hover {
           background-color: #2d2d2d;
@@ -615,7 +617,7 @@
     }
     
     .search-container-gallery {
-      margin-bottom: 6px;
+      margin-bottom: 8px;
       width: 100%;
       
       .search-input-wrapper-gallery {
@@ -626,20 +628,20 @@
         
         .search-icon-gallery {
           position: absolute;
-          left: 6px;
+          left: 8px;
           color: #b3b3b3;
           pointer-events: none;
-          font-size: 12px;
+          font-size: 14px;
         }
         
         .search-input-gallery {
           width: 100%;
-          padding: 6px 8px 6px 26px;
-          background-color: #1e1e1e;
+          padding: 8px 10px 8px 32px;
+          background-color: #2a2a2a;
           border: 1px solid #404040;
-          border-radius: 2px;
+          border-radius: 4px;
           color: #ffffff;
-          font-size: 12px;
+          font-size: 14px;
           box-sizing: border-box;
           
           &::placeholder {
@@ -654,7 +656,7 @@
         
         .clear-btn-gallery {
           position: absolute;
-          right: 6px;
+          right: 8px;
           background: none;
           border: none;
           color: #b3b3b3;
@@ -663,7 +665,7 @@
           display: flex;
           align-items: center;
           justify-content: center;
-          font-size: 12px;
+          font-size: 14px;
           
           &:hover {
             color: #ff7b25;
@@ -672,10 +674,10 @@
       }
       
       .search-stats-gallery {
-        margin-top: 3px;
+        margin-top: 4px;
         
         .results-count {
-          font-size: 10px;
+          font-size: 12px;
           color: #b3b3b3;
         }
       }
@@ -687,12 +689,12 @@
       top: 100%;
       left: 0;
       right: 0;
-      background-color: #1e1e1e;
+      background-color: #2a2a2a;
       border: 1px solid #404040;
-      border-radius: 2px;
+      border-radius: 4px;
       z-index: 100;
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-      margin-top: 2px;
+      margin-top: 4px;
       overflow: hidden;
       width: 100%;
       
@@ -700,10 +702,10 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 6px;
+        padding: 8px;
         background-color: #2d2d2d;
         border-bottom: 1px solid #404040;
-        font-size: 10px;
+        font-size: 12px;
         color: #b3b3b3;
         
         .close-suggestions-btn {
@@ -715,7 +717,7 @@
           display: flex;
           align-items: center;
           justify-content: center;
-          font-size: 12px;
+          font-size: 14px;
           
           &:hover {
             color: #ff7b25;
@@ -724,14 +726,14 @@
       }
       
       .suggestions-list-gallery {
-        max-height: 180px;
+        max-height: 200px;
         overflow-y: auto;
         
         .suggestion-item-gallery {
           display: flex;
           justify-content: space-between;
           align-items: center;
-          padding: 6px;
+          padding: 8px;
           cursor: pointer;
           transition: background-color 0.2s ease;
           border-bottom: 1px solid #404040;
@@ -747,31 +749,31 @@
           .suggestion-info {
             display: flex;
             flex-direction: column;
-            gap: 1px;
+            gap: 2px;
             
             .suggestion-title {
               font-weight: 500;
-              font-size: 12px;
+              font-size: 14px;
             }
             
             .suggestion-artist {
-              font-size: 10px;
+              font-size: 12px;
               color: #b3b3b3;
             }
             
             .suggestion-key {
-              font-size: 9px;
+              font-size: 11px;
               color: #ff7b25;
               background-color: rgba(255, 123, 37, 0.1);
-              padding: 1px 3px;
-              border-radius: 1px;
+              padding: 2px 4px;
+              border-radius: 2px;
               align-self: flex-start;
             }
           }
           
           .suggestion-arrow {
             color: #b3b3b3;
-            font-size: 12px;
+            font-size: 14px;
           }
         }
       }
@@ -784,27 +786,27 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 20px 10px;
+    padding: 40px 20px;
     text-align: center;
     
     p {
-      margin: 8px 0 0;
+      margin: 12px 0 0;
       color: #b3b3b3;
-      font-size: 12px;
+      font-size: 14px;
     }
   }
   
   .error-state {
     .retry-button {
-      margin-top: 8px;
+      margin-top: 12px;
       background-color: #ff7b25;
       color: #ffffff;
       border: none;
-      padding: 5px 12px;
-      border-radius: 2px;
+      padding: 8px 16px;
+      border-radius: 4px;
       cursor: pointer;
       transition: background-color 0.2s ease;
-      font-size: 12px;
+      font-size: 14px;
       
       &:hover {
         background-color: #ff6a0c;
@@ -820,7 +822,7 @@
 // 📟 TABLET (768px)
 @media (min-width: 768px) {
   .modern-chords-gallery {
-    padding: 8px;
+    padding: 12px;
     
     .gallery-header {
       .header-main {
@@ -831,7 +833,7 @@
         .header-title {
           .subtitle {
             display: inline;
-            margin-left: 5px;
+            margin-left: 8px;
           }
         }
       }
@@ -848,11 +850,11 @@
       .filter-controls-container {
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 12px;
+        gap: 16px;
       }
       
       .filter-section {
-        min-width: 180px;
+        min-width: 200px;
         flex: 1;
       }
     }
@@ -862,7 +864,7 @@
         .excel-table {
           thead {
             th {
-              padding: 6px;
+              padding: 10px 8px;
             }
           }
           
@@ -870,13 +872,13 @@
             tr {
               &.group-header {
                 .group-header-content {
-                  padding: 5px;
+                  padding: 8px;
                 }
               }
               
               &.song-row {
                 td {
-                  padding: 6px;
+                  padding: 10px 8px;
                 }
               }
             }
@@ -886,7 +888,7 @@
     }
     
     .song-selector-gallery {
-      width: 60%;
+      width: 70%;
     }
   }
 }
@@ -894,22 +896,22 @@
 // 💻 ESCRITORIO (1024px)
 @media (min-width: 1024px) {
   .modern-chords-gallery {
-    max-width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 10px 20px;
+    padding: 16px 24px;
     
     .gallery-header {
       .header-main {
         .header-title {
           h1 {
-            font-size: 18px;
+            font-size: 20px;
           }
         }
         
         .header-stats {
           .stat-item {
             .stat-number {
-              font-size: 18px;
+              font-size: 20px;
             }
           }
         }
@@ -919,99 +921,26 @@
     // 🎛️ PANEL DE FILTROS ESCRITORIO
     .filters-panel {
       .filter-controls-container {
-        gap: 16px;
+        gap: 20px;
       }
       
       .filter-section {
-        min-width: 200px;
+        min-width: 220px;
       }
       
       .alphabet-filter {
-        gap: 4px;
+        gap: 6px;
         
         .letter-filter-btn {
-          min-width: 28px;
-          padding: 4px 6px;
-          font-size: 12px;
+          min-width: 32px;
+          padding: 6px 8px;
+          font-size: 13px;
         }
       }
     }
     
     .song-selector-gallery {
-      width: 45%;
-    }
-    
-    .excel-table-container {
-      .table-wrapper {
-        .excel-table {
-          font-size: 13px;
-          
-          thead {
-            th {
-              padding: 8px 6px;
-              font-size: 12px;
-            }
-          }
-          
-          tbody {
-            tr {
-              &.song-row {
-                td {
-                  padding: 8px 6px;
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-}
-
-// 🖥️ ESCRITORIO GRANDE (1200px)
-@media (min-width: 1200px) {
-  .modern-chords-gallery {
-    padding: 12px 24px;
-    max-width: 1400px;
-    
-    .excel-table-container {
-      .table-wrapper {
-        .excel-table {
-          thead {
-            th {
-              padding: 8px;
-            }
-          }
-          
-          tbody {
-            tr {
-              &.song-row {
-                td {
-                  padding: 8px;
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-}
-
-// 🖥️ ESCRITORIO EXTRA GRANDE (1600px)
-@media (min-width: 1600px) {
-  .modern-chords-gallery {
-    padding: 16px 32px;
-    max-width: 1600px;
-    
-    .gallery-header {
-      .header-main {
-        .header-title {
-          h1 {
-            font-size: 20px;
-          }
-        }
-      }
+      width: 50%;
     }
     
     .excel-table-container {
@@ -1021,8 +950,8 @@
           
           thead {
             th {
-              padding: 10px 8px;
-              font-size: 13px;
+              padding: 12px 8px;
+              font-size: 14px;
             }
           }
           
@@ -1030,7 +959,7 @@
             tr {
               &.song-row {
                 td {
-                  padding: 10px 8px;
+                  padding: 12px 8px;
                 }
               }
             }

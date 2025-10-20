@@ -1,0 +1,666 @@
+{
+    "id": "los-rancheros-el-che-y-los-rolling-stones",
+    "title": "El Ché y Los Rolling Stones",
+    "artist": "Los Rancheros",
+    "originalKey": "A",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Contra una pared dejé pintados"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Nuestros nombres enlazados"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "chord",
+            "content": "Asus2"
+          },
+          {
+            "type": "chord",
+            "content": "Asus4"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "chord",
+            "content": "Asus2"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Salpicados con el aerosol"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Junto a una leyenda que decía"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Escapemos de esta vida,"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "chord",
+            "content": "Asus2"
+          },
+          {
+            "type": "chord",
+            "content": "Asus4"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "chord",
+            "content": "Asus2"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Viva el Che y los Rolling Stones"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "D", "A", "Asus2", "Asus4", "A", "Asus2", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y me alejé de ti"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D", "A", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Suerte que te perdí Oh Oh Oh"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Fuimos como una tribu de salvajes"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Defendiendo con coraje"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "chord",
+            "content": "Asus2"
+          },
+          {
+            "type": "chord",
+            "content": "Asus4"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "chord",
+            "content": "Asus2"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Lo que dicta el corazón"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Recuerdo bien la tarde en el pasillo"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Que sacaste un cuchillo"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "chord",
+            "content": "Asus2"
+          },
+          {
+            "type": "chord",
+            "content": "Asus4"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "chord",
+            "content": "Asus2"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Y probamos el dolor"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO (REPETIR)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "D", "A", "Asus2", "Asus4", "A", "Asus2", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y me alejé de ti"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D", "A", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Suerte que te perdí Oh Oh Oh"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D", "A", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Fuiste tan dulce nena"
+          },
+          {
+            "type": "chords",
+            "content": ["F#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "Pero a la vez perversa"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "A", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Siempre me hablabas de morir"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "A", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y te seguí los pasos"
+          },
+          {
+            "type": "chords",
+            "content": ["F#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "Hasta que tu locura"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "A", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Me comenzaba a destruir"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "Bm", "D", "E", "A", "Asus2", "Asus4", "A", "Asus2", "A"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Fuimos a una iglesia en madrugada"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Estabas tan desesperada"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "chord",
+            "content": "Asus2"
+          },
+          {
+            "type": "chord",
+            "content": "Asus4"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "chord",
+            "content": "Asus2"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Creo que querías cambiar"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Y como nadie vino a abrir la puerta"
+          },
+          {
+            "type": "chord",
+            "content": "Bm"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "Te diste media vuelta"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "chord",
+            "content": "Asus2"
+          },
+          {
+            "type": "chord",
+            "content": "Asus4"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "chord",
+            "content": "Asus2"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Diciendo Dios aquí no estás"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO (REPETIR)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "D", "A", "Asus2", "Asus4", "A", "Asus2", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y me alejé de ti"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D", "A", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Suerte que te perdí Oh Oh Oh"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETIR)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D", "A", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Fuiste tan dulce nena"
+          },
+          {
+            "type": "chords",
+            "content": ["F#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "Pero a la vez perversa"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "A", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Siempre me hablabas de morir"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "A", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y te seguí los pasos"
+          },
+          {
+            "type": "chords",
+            "content": ["F#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "Hasta que tu locura"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "A", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Me comenzaba a destruir"
+          }
+        ]
+      }
+    ]
+  }
+  

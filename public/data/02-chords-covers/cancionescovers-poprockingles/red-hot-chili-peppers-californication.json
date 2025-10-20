@@ -1,0 +1,534 @@
+{
+  "id": "red-hot-chili-peppers-californication",
+  "title": "Californication",
+  "artist": "Red Hot Chili Peppers",
+  "originalKey": "Am",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am", "F"]
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "F"]
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "F"]
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "F"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Psychic spies from China"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Try to steal your mind's elation"
+        },
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Little girls from Sweden"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Dream of silver screen quotations"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "And if you want these kind of dreams"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "Dm", "Am", "F", "Am", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's Californication"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's the edge of the world"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "And all of western civilization"
+        },
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "The sun may rise in the East"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "At least it settles in the final location"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's understood that Hollywood"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Sells Californication"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Pay your surgeon very well"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "To break the spell of aging"
+        },
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Celebrity Skin is this your chin"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Or is that war your waging"
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "First born unicorn"
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hard core soft porn"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "G", "Dm", "Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Dream of Californication"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "G", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Dream of Californication"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "TERCERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Marry me girl be my fairy to the world"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Be my very own constellation"
+        },
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "A teenage bride with a baby inside"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Getting high on information"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "And buy me a star on the Boulevard"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "Dm", "Am", "F", "Am", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's Californication"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CUARTA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Space may be the final frontier"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "But it's made in a Hollywood basement"
+        },
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Cobain can you hear the spheres"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Singing songs off station to station"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "And Alderaan's not far away"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's Californication"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Born and raised by those who praise"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Control of population"
+        },
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Everybody's been there and"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "I don't mean on vacation"
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "First born unicorn"
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hard core soft porn"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "G", "Dm", "Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Dream of Californication"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "G", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Dream of Californication"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "G", "Dm", "Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Dream of Californication"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "G", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Dream of Californication"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F#m", "D", "F#m", "D"]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "D", "A", "E"]
+        },
+        {
+          "type": "chords",
+          "content": ["F#m", "D", "F#m", "D"]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "D", "A", "E"]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "D", "A", "E"]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "D", "A", "E"]
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "F", "Am", "F"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "QUINTA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Destruction leads to a very rough road"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "But it also breeds creation"
+        },
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "And earthquakes are to a girl's guitar"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "They're just another good vibration"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "And tidal waves couldn't save the world"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "From Californication"
+        }
+      ]
+    }
+  ]
+}

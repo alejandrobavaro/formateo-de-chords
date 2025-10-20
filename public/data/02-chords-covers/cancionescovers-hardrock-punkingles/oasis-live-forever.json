@@ -1,0 +1,424 @@
+{
+    "id": "oasis-live-forever",
+    "title": "Live Forever",
+    "artist": "Oasis",
+    "originalKey": "E",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "PRIMERA PARTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Maybe, I don't really wanna know"
+          },
+          {
+            "type": "chords",
+            "content": ["F#m7"]
+          },
+          {
+            "type": "lyric",
+            "content": "How your garden grows"
+          },
+          {
+            "type": "chords",
+            "content": ["A", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "'Cause I just wanna fly"
+          },
+          {
+            "type": "chords",
+            "content": ["E", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Lately, did you ever feel the pain"
+          },
+          {
+            "type": "chords",
+            "content": ["F#m7"]
+          },
+          {
+            "type": "lyric",
+            "content": "In the morning rain"
+          },
+          {
+            "type": "chords",
+            "content": ["A", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "As it soaks you to the bone"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C#m"
+              },
+              {
+                "type": "lyric",
+                "content": "Maybe I just wanna fly"
+              },
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "lyric",
+                "content": "Wanna live I don't wanna die"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F#m7"
+              },
+              {
+                "type": "lyric",
+                "content": "Maybe I just wanna breathe"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "Maybe I just don't believe"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["B", "C#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "Maybe you're the same as me"
+          },
+          {
+            "type": "chords",
+            "content": ["B"]
+          },
+          {
+            "type": "lyric",
+            "content": "We see things they'll never see"
+          },
+          {
+            "type": "chords",
+            "content": ["F#m7", "D7M"]
+          },
+          {
+            "type": "lyric",
+            "content": "You and I are gonna live forever"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "RIFF",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D7M"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SEGUNDA PARTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Maybe, I don't really wanna know"
+          },
+          {
+            "type": "chords",
+            "content": ["F#m7"]
+          },
+          {
+            "type": "lyric",
+            "content": "How your garden grows"
+          },
+          {
+            "type": "chords",
+            "content": ["A", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "'Cause I just wanna fly"
+          },
+          {
+            "type": "chords",
+            "content": ["E", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Lately, did you ever feel the pain"
+          },
+          {
+            "type": "chords",
+            "content": ["F#m7"]
+          },
+          {
+            "type": "lyric",
+            "content": "In the morning rain"
+          },
+          {
+            "type": "chords",
+            "content": ["A", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "As it soaks you to the bone"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (VARIACIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C#m"
+              },
+              {
+                "type": "lyric",
+                "content": "Maybe I will never be"
+              },
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "lyric",
+                "content": "All the things that I want to be"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F#m7"
+              },
+              {
+                "type": "lyric",
+                "content": "But now is not the time to cry"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "Now's the time to find out why"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["B", "C#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "I think you're the same as me"
+          },
+          {
+            "type": "chords",
+            "content": ["B"]
+          },
+          {
+            "type": "lyric",
+            "content": "We see things they'll never see"
+          },
+          {
+            "type": "chords",
+            "content": ["F#m7", "D7M"]
+          },
+          {
+            "type": "lyric",
+            "content": "You and I are gonna live forever"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "B", "F#m7", "A", "B"]
+          },
+          {
+            "type": "chords",
+            "content": ["E", "B", "F#m7", "A", "B"]
+          },
+          {
+            "type": "chords",
+            "content": ["E", "B", "F#m7", "A", "B"]
+          },
+          {
+            "type": "chords",
+            "content": ["E", "B", "F#m7", "D7M"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "RIFF FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F#m7", "D7M"]
+          },
+          {
+            "type": "lyric",
+            "content": "Gonna live forever"
+          },
+          {
+            "type": "chords",
+            "content": ["F#m7", "D7M"]
+          },
+          {
+            "type": "lyric",
+            "content": "Gonna live forever"
+          },
+          {
+            "type": "chords",
+            "content": ["F#m7", "D7M"]
+          },
+          {
+            "type": "lyric",
+            "content": "Gonna live forever"
+          },
+          {
+            "type": "chords",
+            "content": ["F#m7", "D7M"]
+          },
+          {
+            "type": "lyric",
+            "content": "We're gonna live forever"
+          },
+          {
+            "type": "chords",
+            "content": ["F#m7", "D7M"]
+          },
+          {
+            "type": "lyric",
+            "content": "We're gonna live forever"
+          },
+          {
+            "type": "chords",
+            "content": ["F#m7", "D7M"]
+          },
+          {
+            "type": "lyric",
+            "content": "We're gonna live forever"
+          },
+          {
+            "type": "chords",
+            "content": ["F#m7", "D7M"]
+          },
+          {
+            "type": "lyric",
+            "content": "We're gonna live forever"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F#m", "D7M"]
+          },
+          {
+            "type": "chords",
+            "content": ["F#m", "D7M"]
+          },
+          {
+            "type": "chords",
+            "content": ["F#m", "D7M"]
+          },
+          {
+            "type": "chords",
+            "content": ["F#m", "D7M"]
+          },
+          {
+            "type": "chords",
+            "content": ["F#m", "D7M"]
+          },
+          {
+            "type": "chords",
+            "content": ["F#m", "D7M"]
+          },
+          {
+            "type": "chords",
+            "content": ["F#m", "D7M"]
+          },
+          {
+            "type": "chords",
+            "content": ["F#m", "D7M", "F#m"]
+          }
+        ]
+      }
+    ]
+  }
+  

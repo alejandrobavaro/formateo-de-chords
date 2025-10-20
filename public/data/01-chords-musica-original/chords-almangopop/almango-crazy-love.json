@@ -1,0 +1,459 @@
+{
+  "id": "almango-crazy-love",
+  "title": "Crazy Love",
+  "artist": "Almango",
+  "originalKey": "F#m",
+  "tempo": "Upbeat",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F#m", "A", "B", "x4"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hey You! You Sexy Girl"
+        },
+        {
+          "type": "lyric",
+          "content": "Let´s have fun together."
+        },
+        {
+          "type": "lyric",
+          "content": "This is your Crazy night!"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "F#m"
+        },
+        {
+          "type": "lyric",
+          "content": "Walking the city,"
+        },
+        {
+          "type": "lyric",
+          "content": "The way I wanna feel it,"
+        },
+        {
+          "type": "lyric",
+          "content": "Oh, it's like a video game."
+        }
+      ]
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "F#m"
+        },
+        {
+          "type": "lyric",
+          "content": "Oh, Fucking rock life,"
+        },
+        {
+          "type": "lyric",
+          "content": "Out of control life,"
+        },
+        {
+          "type": "lyric",
+          "content": "Oh, my reason to live."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["B", "C#", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Uh Yeah… (Sexy bitch)"
+        },
+        {
+          "type": "chords",
+          "content": ["F#m", "A", "x4"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "It's a crazy girl, crazy life,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "Crazy fuck, crazy love."
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["B", "C#", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Ohhh... (Sexy bitch)"
+        },
+        {
+          "type": "chords",
+          "content": ["F#m", "A", "x4"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "It's a crazy girl, crazy life,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "Crazy fuck… Crazy love…"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 2 (Electro)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "Crazy love…"
+        },
+        {
+          "type": "chords",
+          "content": ["F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "No lights in the city,"
+        },
+        {
+          "type": "lyric",
+          "content": "The way I wanna live it,"
+        },
+        {
+          "type": "lyric",
+          "content": "Down like a hot wild cat."
+        },
+        {
+          "type": "chords",
+          "content": ["F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh, dancing all nite,"
+        },
+        {
+          "type": "lyric",
+          "content": "Oh, playing all nite,"
+        },
+        {
+          "type": "lyric",
+          "content": "Oh, my reason to live."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 1 (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["B", "C#", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Uh Yeah… (Sexy bitch)"
+        },
+        {
+          "type": "chords",
+          "content": ["F#m", "A", "x4"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "It's a crazy girl, crazy life,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "Crazy fuck, crazy love."
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["B", "C#", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Ohhh... (Sexy bitch)"
+        },
+        {
+          "type": "chords",
+          "content": ["F#m", "A", "x4"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "It's a crazy girl, crazy life,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "Crazy fuck… Crazy love…"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 2 (Electro) (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "Crazy love…"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BIS A",
+      "lines": [
+        {
+          "type": "text",
+          "content": "Riff electro en F#m"
+        },
+        {
+          "type": "lyric",
+          "content": "Crazy, Crazy, Crazy…"
+        },
+        {
+          "type": "lyric",
+          "content": "Crazy, Crazy, Crazy…"
+        },
+        {
+          "type": "chords",
+          "content": ["F#m", "A", "x4"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "It's a crazy girl, crazy life,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "Crazy fuck… Crazy love…"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 2 (Electro) (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "Crazy love…"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 1 (REPETICIÓN FINAL)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["B", "C#", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Uh Yeah… (Sexy bitch)"
+        },
+        {
+          "type": "chords",
+          "content": ["F#m", "A", "x4"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "It's a crazy girl, crazy life,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "Crazy fuck, crazy love."
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["B", "C#", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Ohhh... (Sexy bitch)"
+        },
+        {
+          "type": "chords",
+          "content": ["F#m", "A", "x4"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "It's a crazy girl, crazy life,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "Crazy fuck… Crazy love…"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 2 (Electro) (REPETICIÓN FINAL)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "Crazy love…"
+        }
+      ]
+    }
+  ]
+}

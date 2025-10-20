@@ -1,0 +1,370 @@
+{
+  "id": "creedence-down-on-the-corner",
+  "title": "Down On The Corner",
+  "artist": "Creedence Clearwater Revival",
+  "originalKey": "A",
+  "tempo": "Upbeat",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "text",
+          "content": "(Riff principal - 2 veces)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "A"
+            },
+            {
+              "type": "lyric",
+              "content": "Early in the evenin' just about supper time, over by the courthouse"
+            },
+            {
+              "type": "chord",
+              "content": "E"
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chord",
+              "content": "A"
+            },
+            {
+              "type": "lyric",
+              "content": "They're starting to unwind, four kids on the corner, trying to bring you up"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Willy picks a tune out and he blows it on the harp"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Down on the corner, out in the street,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "A"
+            },
+            {
+              "type": "lyric",
+              "content": "Willy and the Poorboys are"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Playin'"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Bring a nickel, tap your feet"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA PARTE",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "A"
+            },
+            {
+              "type": "lyric",
+              "content": "Rooster hits the washboard, and people just gotta smile,"
+            },
+            {
+              "type": "chord",
+              "content": "E"
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chord",
+              "content": "A"
+            },
+            {
+              "type": "lyric",
+              "content": "Blinky thumps the gut bass and solos for awhile."
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Poor-boy twangs the rhythm out on his Kalamazoo"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "and Willy goes into a dance and doubles on kazoo"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (Repetición)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Down on the corner, out in the street,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "A"
+            },
+            {
+              "type": "lyric",
+              "content": "Willy and the Poorboys are"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Playin'"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Bring a nickel, tap your feet"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "TERCERA PARTE",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "A"
+            },
+            {
+              "type": "lyric",
+              "content": "You don't need a penny just to hang around,"
+            },
+            {
+              "type": "chord",
+              "content": "E"
+            },
+            {
+              "type": "lyric",
+              "content": ""
+            },
+            {
+              "type": "chord",
+              "content": "A"
+            },
+            {
+              "type": "lyric",
+              "content": "but if you got a nickel won't you lay your money down"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Over on the corner, there's a happy noise"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "People come from all around to watch the magic boy"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Down on the corner, out in the street,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "A"
+            },
+            {
+              "type": "lyric",
+              "content": "Willy and the Poorboys are"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Playin'"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Bring a nickel, tap your feet"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "OUTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A", "E", "A", "D", "A"]
+        },
+        {
+          "type": "text",
+          "content": "(Riff final - Desvanecimiento)"
+        }
+      ]
+    }
+  ]
+}

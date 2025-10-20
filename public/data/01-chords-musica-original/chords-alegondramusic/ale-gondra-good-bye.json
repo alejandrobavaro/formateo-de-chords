@@ -1,0 +1,597 @@
+{
+  "id": "ale-gondra-good-bye",
+  "title": "Good Bye",
+  "artist": "Ale Gondra",
+  "originalKey": "D",
+  "tempo": "Upbeat",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INICIO",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": "Para papapa, para papapa,"
+        },
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "lyric",
+          "content": "Para papapa, para papapa,"
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": "Para papapa, pa pa."
+        },
+        {
+          "type": "text",
+          "content": "(Llego el momento)"
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": "Para papapa, para papapa,"
+        },
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "lyric",
+          "content": "Para papapa, pa pa."
+        },
+        {
+          "type": "text",
+          "content": "(Mi momento)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTRO (Solo)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Bm", "A"]
+        },
+        {
+          "type": "text",
+          "content": "(x2)"
+        },
+        {
+          "type": "chord",
+          "content": "Bm"
+        },
+        {
+          "type": "lyric",
+          "content": "Nena debo confesarte"
+        },
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "lyric",
+          "content": "Que esta noche me voy a bailar."
+        },
+        {
+          "type": "chord",
+          "content": "Bm"
+        },
+        {
+          "type": "lyric",
+          "content": "Ni tus ataques de celos"
+        },
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "lyric",
+          "content": "pueden detenerme mi amor así que chau chau."
+        },
+        {
+          "type": "chord",
+          "content": "Bm"
+        },
+        {
+          "type": "lyric",
+          "content": "Y para que me entiendas,"
+        },
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "lyric",
+          "content": "necesito un espacio"
+        },
+        {
+          "type": "chord",
+          "content": "F#"
+        },
+        {
+          "type": "lyric",
+          "content": "para poder respirar."
+        },
+        {
+          "type": "chord",
+          "content": "Bm"
+        },
+        {
+          "type": "lyric",
+          "content": "Así que no seas pesada"
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "lyric",
+          "content": "Y deja de perseguirme"
+        },
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "lyric",
+          "content": "Porque no me vas a encontrar."
+        },
+        {
+          "type": "text",
+          "content": "(Y hoy te digo)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "text",
+          "content": "Riff en D7"
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "Goo, go go-good Good Bye"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "Gogogogogogogo, Good Bye"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "Goo, go go-goo Good Bye"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "Goo, go go-goo Good Bye"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Riff en D7"
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "Gogogogogogogo, Good Bye"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "Goo, go go-goo Good Bye"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "Llego-llego-llego llego-llego mi momento."
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "Llego-llego-llego llego-llego. Así que, Good Bye"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTRO (Solo - Repetición)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Bm", "A"]
+        },
+        {
+          "type": "text",
+          "content": "(x2) (Bye byee)"
+        },
+        {
+          "type": "chord",
+          "content": "Bm"
+        },
+        {
+          "type": "lyric",
+          "content": "Nena tienes que entenderlo"
+        },
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "lyric",
+          "content": "Soy un ser libre y no te pertenezco."
+        },
+        {
+          "type": "chord",
+          "content": "Bm"
+        },
+        {
+          "type": "lyric",
+          "content": "Puedo hacer lo que quiera, esta noche"
+        },
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "lyric",
+          "content": "Y todas las que yo quiera, uh!"
+        },
+        {
+          "type": "chord",
+          "content": "Bm"
+        },
+        {
+          "type": "lyric",
+          "content": "Y para que me entiendas,"
+        },
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "lyric",
+          "content": "Tú me ahogas, me enamoras,"
+        },
+        {
+          "type": "chord",
+          "content": "F#"
+        },
+        {
+          "type": "lyric",
+          "content": "Y me vuelves a ahogar."
+        },
+        {
+          "type": "chord",
+          "content": "Bm"
+        },
+        {
+          "type": "lyric",
+          "content": "Así que dame un espacio,"
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "lyric",
+          "content": "que esta noche me emborracho"
+        },
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "lyric",
+          "content": "Así que no me vas a encontrar."
+        },
+        {
+          "type": "text",
+          "content": "(Y hoy te digo)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (Repetición)",
+      "lines": [
+        {
+          "type": "text",
+          "content": "Riff en D7"
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "Goo, go go-good Good Bye"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "Gogogogogogogo, Good Bye"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "Goo, go go-goo Good Bye"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "Goo, go go-goo Good Bye"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Riff en D7"
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "Gogogogogogogo, Good Bye"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "Goo, go go-goo Good Bye"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "Llego-llego-llego llego-llego mi momento."
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "Llego-llego-llego llego-llego. Así que, Good Bye"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BIS",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": "Llego el momento de vivir mi vida."
+        },
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "lyric",
+          "content": "No me controles no sos mi dueña."
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": "Soy libre y puedo hacer lo que quiera."
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "lyric",
+          "content": "No me controles no sos mi dueña."
+        },
+        {
+          "type": "chord",
+          "content": "Bm"
+        },
+        {
+          "type": "lyric",
+          "content": "Así que, no me controles,"
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "lyric",
+          "content": "no me controles, no me controles más."
+        },
+        {
+          "type": "chord",
+          "content": "Bm"
+        },
+        {
+          "type": "lyric",
+          "content": "No me controles,"
+        },
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "lyric",
+          "content": "no me controles, no me controles más."
+        },
+        {
+          "type": "chords",
+          "content": ["F#", "G", "F#", "G"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL (x4)",
+      "lines": [
+        {
+          "type": "text",
+          "content": "Riff en D7 (x4)"
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE + 2º VOZ PATO",
+          "color": "duo",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "Goo, go go-good Good Bye"
+            },
+            {
+              "type": "lyric",
+              "content": "Gogogogogogogo, Good Bye"
+            },
+            {
+              "type": "lyric",
+              "content": "Goo, go go-goo Good Bye"
+            },
+            {
+              "type": "lyric",
+              "content": "Goo, go go-goo Good Bye"
+            },
+            {
+              "type": "lyric",
+              "content": "Llego-llego-llego llego-llego mi momento."
+            },
+            {
+              "type": "lyric",
+              "content": "Llego-llego-llego llego-llego. Así que, Good Bye"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

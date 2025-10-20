@@ -1,0 +1,344 @@
+{
+  "id": "villancico-noche-de-paz",
+  "title": "Noche de Paz",
+  "artist": "Villancico Tradicional",
+  "originalKey": "A",
+  "tempo": "Slow (Navideño)",
+  "timeSignature": "3/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "E", "F#m", "B7"]
+        },
+        {
+          "type": "chords",
+          "content": ["E", "F", "E"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "lyric",
+          "content": "Noche de paz, noche de amor"
+        },
+        {
+          "type": "chord",
+          "content": "E"
+        },
+        {
+          "type": "lyric",
+          "content": "Todo duerme en derredor"
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": "Entre los astros que esparcen su luz"
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "lyric",
+          "content": "Bella anunciando al niño Jesús"
+        },
+        {
+          "type": "chord",
+          "content": "Bm7"
+        },
+        {
+          "type": "lyric",
+          "content": "Brilla la estrella de paz"
+        },
+        {
+          "type": "chord",
+          "content": "E"
+        },
+        {
+          "type": "lyric",
+          "content": "Brilla la estrella de amor"
+        },
+        {
+          "type": "chord",
+          "content": "F#m"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "B7"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "E"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA PARTE",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "lyric",
+          "content": "Noche de paz, noche de luz"
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "lyric",
+          "content": "Ha nacido Jesús"
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": "Pastorcillos que oíd anunciar"
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "lyric",
+          "content": "No temáis cuando entréis a adorar"
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "F#"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "Bm7"
+        },
+        {
+          "type": "lyric",
+          "content": "Que ha nacido el amor"
+        },
+        {
+          "type": "chord",
+          "content": "E"
+        },
+        {
+          "type": "lyric",
+          "content": "Que ha nacido el amor"
+        },
+        {
+          "type": "chord",
+          "content": "F#m"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "B7"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "E"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "chord",
+          "content": "C#"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PUENTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Bb", "F", "Bb"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Eb"
+            },
+            {
+              "type": "lyric",
+              "content": "Desde el pesebre del niño Jesús"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Bb"
+            },
+            {
+              "type": "lyric",
+              "content": "La Tierra entera se llena de luz"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Eb"
+            },
+            {
+              "type": "lyric",
+              "content": "Porque ha nacido Jesús"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "Entre canciones de amor"
+            },
+            {
+              "type": "chord",
+              "content": "Bb"
+            }
+          ]
+        },
+        {
+          "type": "chord",
+          "content": "F"
+        },
+        {
+          "type": "chord",
+          "content": "Bb"
+        }
+      ]
+    }
+  ]
+}

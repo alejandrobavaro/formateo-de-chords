@@ -1,0 +1,533 @@
+{
+  "id": "almango-fuck-you",
+  "title": "Fuck You",
+  "artist": "Almango",
+  "originalKey": "Cm",
+  "tempo": "Punk-Rock (140 BPM)",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Cm"]
+        },
+        {
+          "type": "text",
+          "content": "(4 veces - con power chords)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTROFA 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Cm"},
+            {"type": "lyric", "content": "Me recomiendan que deje de pensar."},
+            {"type": "chord", "content": "D#"},
+            {"type": "lyric", "content": "Estoy mareado, no por mucho más."}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Cm"},
+            {"type": "lyric", "content": "Estan mintiendo y censurándome."},
+            {"type": "chord", "content": "D#"},
+            {"type": "lyric", "content": "Estoy buscando algún escape."}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Cm"},
+            {"type": "lyric", "content": "Y no voy callar, porque lo que me dicen"},
+            {"type": "chord", "content": "D#"},
+            {"type": "lyric", "content": "ni se acerca a la verdad."}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "G#"},
+            {"type": "lyric", "content": "No voy a parar de investigar."},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Fuck you Bich!"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Cm"},
+            {"type": "lyric", "content": "Fuck you, fuck you baby!"},
+            {"type": "chord", "content": "F"},
+            {"type": "lyric", "content": "Fuck you, baby!"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Fuck you, fuck you baby!"},
+            {"type": "chord", "content": "Cm"},
+            {"type": "lyric", "content": "Fuck you, bich!"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Cm"},
+            {"type": "lyric", "content": "fuck you baby, basta de mentir"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "D#"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "Cm"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Cm"},
+            {"type": "lyric", "content": "Fuck you, fuck you baby!"},
+            {"type": "chord", "content": "F"},
+            {"type": "lyric", "content": "Fuck you, baby!"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Fuck you, fuck you baby!"},
+            {"type": "chord", "content": "Cm"},
+            {"type": "lyric", "content": "Fuck you, bich!"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Cm"},
+            {"type": "lyric", "content": "fuck you baby, basta de mentir"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "D#"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "Cm"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "chord",
+          "content": ["G#/Ainv"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTRO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Cm"]
+        },
+        {
+          "type": "text",
+          "content": "(4 veces - con power chords)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTROFA 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Cm"},
+            {"type": "lyric", "content": "Me recomiendan que no cuestione más."},
+            {"type": "chord", "content": "D#"},
+            {"type": "lyric", "content": "Estoy odiado, todos están detrás."}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Cm"},
+            {"type": "lyric", "content": "Se estan burlando, e ignorándome."},
+            {"type": "chord", "content": "D#"},
+            {"type": "lyric", "content": "Estoy buscando algún rescate."}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Cm"},
+            {"type": "lyric", "content": "No voy callar, porque lo que me dicen,"},
+            {"type": "chord", "content": "D#"},
+            {"type": "lyric", "content": "ni se acerca a la verdad."}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "G#"},
+            {"type": "lyric", "content": "No voy a parar, no jodan más"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Fuck you Bich!"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Cm"},
+            {"type": "lyric", "content": "Fuck you, fuck you baby!"},
+            {"type": "chord", "content": "F"},
+            {"type": "lyric", "content": "Fuck you, baby!"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Fuck you, fuck you baby!"},
+            {"type": "chord", "content": "Cm"},
+            {"type": "lyric", "content": "Fuck you, bich!"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Cm"},
+            {"type": "lyric", "content": "fuck you baby, basta de mentir"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "D#"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "Cm"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Cm"},
+            {"type": "lyric", "content": "Fuck you, fuck you baby!"},
+            {"type": "chord", "content": "F"},
+            {"type": "lyric", "content": "Fuck you, baby!"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Fuck you, fuck you baby!"},
+            {"type": "chord", "content": "Cm"},
+            {"type": "lyric", "content": "Fuck you, bich!"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Cm"},
+            {"type": "lyric", "content": "fuck you baby, basta de mentir"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "D#"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "Cm"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "chord",
+          "content": ["G#/Ainv"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BIS",
+      "lines": [
+        {
+          "type": "text",
+          "content": "Riff (C, D#, D) x4"
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Cm"},
+            {"type": "lyric", "content": "Basta de robarle al pueblo, NOOOOOO"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Cm", "G#", "G", "G#", "G"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Cm"},
+            {"type": "lyric", "content": "Planes gratis para todos y todas"}
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Riff (C, D#, D) x3 suave"
+        },
+        {
+          "type": "text",
+          "content": "(pogo) x3"}
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PUENTE",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Cm"},
+            {"type": "lyric", "content": "Cuidado, no confíes en los reyes del poder"},
+            {"type": "chord", "content": "F"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "Cm"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Cm"},
+            {"type": "lyric", "content": "Si piensas diferente (no te dejes corromper)"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "D#"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "Cm"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Cm"},
+            {"type": "lyric", "content": "Cuidado, te aviso están mas locos"},
+            {"type": "chord", "content": "F"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "que el de ayer"},
+            {"type": "chord", "content": "Cm"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Cm"},
+            {"type": "lyric", "content": "Cuidado, van por todo"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "D#"},
+            {"type": "lyric", "content": "Ambiciones del poder."},
+            {"type": "chord", "content": "Cm"},
+            {"type": "lyric", "content": "(Fuck you bich!)"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL (x2)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Cm"},
+            {"type": "lyric", "content": "Fuck you, fuck you baby!"},
+            {"type": "chord", "content": "F"},
+            {"type": "lyric", "content": "Fuck you, baby!"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Fuck you, fuck you baby!"},
+            {"type": "chord", "content": "Cm"},
+            {"type": "lyric", "content": "Fuck you, bich!"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Cm"},
+            {"type": "lyric", "content": "fuck you baby, basta de mentir"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "D#"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "Cm"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Cm"},
+            {"type": "lyric", "content": "Fuck you, fuck you baby!"},
+            {"type": "chord", "content": "F"},
+            {"type": "lyric", "content": "Fuck you, baby!"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Fuck you, fuck you baby!"},
+            {"type": "chord", "content": "Cm"},
+            {"type": "lyric", "content": "Fuck you, bich!"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Cm"},
+            {"type": "lyric", "content": "fuck you baby, basta de mentir"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "D#"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "Cm"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    }
+  ]
+}

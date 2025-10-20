@@ -1,0 +1,582 @@
+{
+    "id": "queen-bohemian-rhapsody",
+    "title": "Bohemian Rhapsody",
+    "artist": "Queen",
+    "originalKey": "Em",
+    "tempo": "Variable",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "PRIMERA PARTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Is this the real life?"
+          },
+          {
+            "type": "chords",
+            "content": ["A7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Is this just fantasy?"
+          },
+          {
+            "type": "chords",
+            "content": ["D7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Caught in a landslide"
+          },
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "No escape from reality"
+          },
+          {
+            "type": "chords",
+            "content": ["Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "Open your eyes"
+          },
+          {
+            "type": "chords",
+            "content": ["G7", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Look up to the skies and see"
+          },
+          {
+            "type": "chords",
+            "content": ["Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "I'm just a poor boy"
+          },
+          {
+            "type": "chords",
+            "content": ["D7"]
+          },
+          {
+            "type": "lyric",
+            "content": "I need no sympathy"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "G/B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Because I'm easy come, easy go"
+          },
+          {
+            "type": "chords",
+            "content": ["A#°", "D7/A", "D7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Doesn't really matter to me"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SEGUNDA PARTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "To me... Mama, just killed a man"
+          },
+          {
+            "type": "chords",
+            "content": ["Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "Put a gun against his head"
+          },
+          {
+            "type": "chords",
+            "content": ["D7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Pulled my trigger, now he's dead"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "Mama, life had just begun"
+          },
+          {
+            "type": "chords",
+            "content": ["Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "But now I've gone"
+          },
+          {
+            "type": "chords",
+            "content": ["D7"]
+          },
+          {
+            "type": "lyric",
+            "content": "And thrown it all away"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "TERCERA PARTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "Mama! Ooh!"
+          },
+          {
+            "type": "chords",
+            "content": ["Dm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Didn't mean to make you cry"
+          },
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "If I'm not back again this time tomorrow"
+          },
+          {
+            "type": "chords",
+            "content": ["C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Carry on, carry on"
+          },
+          {
+            "type": "chords",
+            "content": ["G/B", "Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "As if nothing really matters"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "CUARTA PARTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "Too late, my time has come"
+          },
+          {
+            "type": "chords",
+            "content": ["Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "Sends shivers down my spine"
+          },
+          {
+            "type": "chords",
+            "content": ["D7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Body's aching all the time"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "Goodbye everybody, I've got to go"
+          },
+          {
+            "type": "chords",
+            "content": ["Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "Gotta leave you all behind"
+          },
+          {
+            "type": "chords",
+            "content": ["D7"]
+          },
+          {
+            "type": "lyric",
+            "content": "And face the truth"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "Am", "Dm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Mama! Ooh! I don't wanna die"
+          },
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "I sometimes wish I'd never been born at all"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "QUINTA PARTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F#"]
+          },
+          {
+            "type": "lyric",
+            "content": "I see a little silhouetto of a man"
+          },
+          {
+            "type": "lyric",
+            "content": "Scaramouche, Scaramouche! Will you do the fandango?"
+          },
+          {
+            "type": "chords",
+            "content": ["A#", "F"]
+          },
+          {
+            "type": "lyric",
+            "content": "Thunderbolt and lightning, very, very frightening me!"
+          },
+          {
+            "type": "chords",
+            "content": ["E", "Db7", "F#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Galileo! Galileo! Galileo! Galileo! Galileo, Figaro! Magnifico!"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SEXTA PARTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Ab", "G", "F#", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "But I'm just a poor boy"
+          },
+          {
+            "type": "chords",
+            "content": ["Ab", "G", "F#", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Nobody loves me"
+          },
+          {
+            "type": "chords",
+            "content": ["C"]
+          },
+          {
+            "type": "lyric",
+            "content": "He's just a poor boy from a poor family"
+          },
+          {
+            "type": "chords",
+            "content": ["F", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Spare him his life from this monstrosity"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SÉPTIMA PARTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Ab", "G", "F#", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Easy come, easy go"
+          },
+          {
+            "type": "chords",
+            "content": ["Ab", "G", "F#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Will you let me go?"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "C", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Bismillah!"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "No, we will not let you go! (Let him go)"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "C", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Bismillah!"
+          },
+          {
+            "type": "lyric",
+            "content": "We will not let you go! (Let him go)"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "C", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Bismillah!"
+          },
+          {
+            "type": "lyric",
+            "content": "We will not let you go! (Let me go!)"
+          },
+          {
+            "type": "lyric",
+            "content": "Will not let you go! (Never, never, never, never let me go)"
+          },
+          {
+            "type": "chords",
+            "content": ["Ab5", "F#5", "B5", "A#5", "D#5", "G5", "C5"]
+          },
+          {
+            "type": "lyric",
+            "content": "Oh, oh, oh, oh"
+          },
+          {
+            "type": "lyric",
+            "content": "No, no, no, no, no, no, no!"
+          },
+          {
+            "type": "lyric",
+            "content": "Oh, mamma mia, mamma mia!"
+          },
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Mamma mia, let me go!"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "F", "B7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Beelzebub has a devil put aside for me!"
+          },
+          {
+            "type": "chords",
+            "content": ["E", "G", "G", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "For me! For me! For me!"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "OCTAVA PARTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "So you think you can stone me and spit in my eye?"
+          },
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "So you think you can love me and leave me to die?"
+          },
+          {
+            "type": "chords",
+            "content": ["Dm", "G", "Dm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Oh, baby! Can't do this to me, baby!"
+          },
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Just gotta get out"
+          },
+          {
+            "type": "chords",
+            "content": ["Dm", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Just gotta get right outta here!"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "NOVENA PARTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "G", "Am", "Ab°", "Am", "Ab°", "Am", "G", "C", "B7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Oh, yeah! Oh, yeah!"
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "F", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Nothing really matters"
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "Anyone can see"
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "Fm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Nothing really matters"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Nothing really matters to me"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F", "C", "C°", "G", "Gm", "A7", "D"]
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D", "F", "A7", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Any way the wind blows"
+          }
+        ]
+      }
+    ]
+  }
+  

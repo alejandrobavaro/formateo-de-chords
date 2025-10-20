@@ -1,0 +1,563 @@
+{
+  "id": "guns-n-roses-civil-war",
+  "title": "Civil War",
+  "artist": "Guns N' Roses",
+  "originalKey": "Bm",
+  "tempo": "Hard Rock/Balada",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Bm", "D"]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "D", "A/C#"]
+        },
+        {
+          "type": "text",
+          "content": "(Guitarra Acústica - Tablatura omitida por solicitud)"
+        },
+        {
+          "type": "text",
+          "content": "(Guitarra Eléctrica - Tablatura omitida por solicitud)"
+        },
+        {
+          "type": "lyric",
+          "content": "\"What we've got here is failure to communicate..."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Look at your young men fighting"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Look at your women crying"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Look at your young men dying"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "A/C#"]
+        },
+        {
+          "type": "lyric",
+          "content": "The way they've always done before"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "D", "Bm", "D", "A/C#"]
+        },
+        {
+          "type": "text",
+          "content": "(Guitarra Acústica - Tablatura omitida por solicitud)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Look at the hate we're breeding"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Look at the fear we're feeding"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Look at the lives we're leading"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "A/C#"]
+        },
+        {
+          "type": "lyric",
+          "content": "The way we've always done before"
+        },
+        {
+          "type": "chords",
+          "content": ["E5"]
+        },
+        {
+          "type": "text",
+          "content": "(Riff de paso - Tablatura omitida por solicitud)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "TERCERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Did you wear a black armband"
+        },
+        {
+          "type": "chords",
+          "content": ["F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "When they shot the man"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Who said peace could last forever"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "And in my first memories"
+        },
+        {
+          "type": "chords",
+          "content": ["F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "They shot Kennedy"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "G", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "I went numb when I learned to see"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "So I never fell for Vietnam"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "We got the wall of D.C. to remind us all"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "That you can't trust freedom"
+        },
+        {
+          "type": "chords",
+          "content": ["F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "When it's not in your hands"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "When everybody's fighting"
+        },
+        {
+          "type": "chords",
+          "content": ["G5", "A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "For their promised land"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMER ESTRIBILLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D", "F#5", "B5"]
+        },
+        {
+          "type": "lyric",
+          "content": "And I don't need your civil war"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "F#5", "B5", "G5", "A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "It feeds the rich while it buries the poor"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "F#5"]
+        },
+        {
+          "type": "lyric",
+          "content": "You're power hungry sellin' soldiers"
+        },
+        {
+          "type": "chords",
+          "content": ["B5"]
+        },
+        {
+          "type": "lyric",
+          "content": "In a human grocery store, ain't that fresh?"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "F#5", "B5", "G5", "A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "I don't need your civil war"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMER SOLO",
+      "lines": [
+        {
+          "type": "text",
+          "content": "(Solo de guitarra - Tablatura omitida por solicitud)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CUARTA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Look at the shoes you're filling"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Look at the blood we're spilling"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Look at the world we're killing"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "A/C#"]
+        },
+        {
+          "type": "lyric",
+          "content": "The way we've always done before"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Look in the doubt we've wallowed"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Look at the leaders we've followed"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Look at the lies we've swallowed"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "A/C#", "E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "And I don't wanna hear no more"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "QUINTA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "My hands are tied"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "For all I've seen has changed my mind"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "But still the wars go on as the years go by"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "A/C#"]
+        },
+        {
+          "type": "lyric",
+          "content": "With no love of god or human rights"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "'Cause all these dreams are swept aside"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "By bloody hands of the hypnotized"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Who carry the cross of homicide"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "A/C#", "E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "And history bears the scars of our civil wars"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDO ESTRIBILLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D", "F#5", "B5"]
+        },
+        {
+          "type": "lyric",
+          "content": "And I don't need your civil war"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "F#5", "B5", "G5", "A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "It feeds the rich while it buries the poor"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "F#5"]
+        },
+        {
+          "type": "lyric",
+          "content": "You're power hungry sellin' soldiers"
+        },
+        {
+          "type": "chords",
+          "content": ["B5"]
+        },
+        {
+          "type": "lyric",
+          "content": "In a human grocery store, ain't that fresh?"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "F#5", "B5", "G5", "A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "I don't need your civil war"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "F#5", "B5", "G5", "A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "I don't need your civil war"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "F#5", "B5", "G5", "A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "I don't need your civil war"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDO SOLO",
+      "lines": [
+        {
+          "type": "text",
+          "content": "(Solo de guitarra - Tablatura omitida por solicitud)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTERLUDIO",
+      "lines": [
+        {
+          "type": "text",
+          "content": "(Pasaje instrumental - Tablatura omitida por solicitud)"
+        },
+        {
+          "type": "lyric",
+          "content": "\"We practice selective annihilation of mayors and government officials..."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL",
+      "lines": [
+        {
+          "type": "lyric",
+          "content": "I don't need one more war"
+        },
+        {
+          "type": "lyric",
+          "content": "I don't need one more war"
+        },
+        {
+          "type": "lyric",
+          "content": "What's so civil about war, anyway?"
+        }
+      ]
+    }
+  ]
+}

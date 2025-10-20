@@ -4,10 +4,47 @@ import "../../assets/scss/_03-Componentes/ChordsViewer/_SongViewer.scss";
 
 const SongViewer = ({ song, transposition, showA4Outline, fullscreenMode, printViewRef }) => {
   const viewerRef = useRef(null);
-  const [autoFontSize, setAutoFontSize] = useState(14);
+  const [autoFontSize, setAutoFontSize] = useState(16);
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [columns, setColumns] = useState([[], []]);
+  const [columnCount, setColumnCount] = useState(2);
+  const [needsScroll, setNeedsScroll] = useState(false);
   
+  // Detectar tipo de pantalla y ajustar columnas
+  useEffect(() => {
+    const checkScreenType = () => {
+      const width = window.innerWidth;
+      const aspectRatio = width / window.innerHeight;
+      
+      let newColumnCount = 2;
+      let scrollNeeded = false;
+
+      if (width > 1600 && aspectRatio > 1.4) {
+        // Desktop muy grande - 3 columnas
+        newColumnCount = 3;
+      } else if (width > 1200) {
+        // Desktop - 2 columnas
+        newColumnCount = 2;
+      } else if (width > 768) {
+        // Tablet - 2 columnas optimizadas
+        newColumnCount = 2;
+      } else {
+        // Mobile - 1 columna
+        newColumnCount = 1;
+      }
+
+      setColumnCount(newColumnCount);
+      setNeedsScroll(scrollNeeded);
+    };
+
+    checkScreenType();
+    window.addEventListener('resize', checkScreenType);
+    
+    return () => {
+      window.removeEventListener('resize', checkScreenType);
+    };
+  }, []);
+
   // Pantalla completa
   const toggleFullscreen = () => {
     if (!document.fullscreenElement) {
@@ -54,90 +91,144 @@ const SongViewer = ({ song, transposition, showA4Outline, fullscreenMode, printV
     return chords[newChordIndex] + modifier;
   };
 
-  // Ajustar tamaño de fuente basado en el contenido
+  // Analizar contenido y ajustar layout
   useEffect(() => {
-    const adjustFontSize = () => {
+    const analyzeAndAdjustLayout = () => {
       if (!song || !song.content) return;
-      
+
       // Calcular densidad de contenido
-      const calculateContentDensity = (content) => {
-        if (!content) return 0;
-        
-        let totalElements = 0;
-        
-        content.forEach(item => {
-          totalElements += 1;
+      let totalElements = 0;
+      let totalCharacters = 0;
+
+      const countElements = (items) => {
+        items.forEach(item => {
+          totalElements++;
+          
+          if (item.name) totalCharacters += item.name.length;
+          if (item.content) {
+            if (Array.isArray(item.content)) {
+              totalCharacters += item.content.join('').length;
+            } else {
+              totalCharacters += item.content.toString().length;
+            }
+          }
+          
           if (item.lines) {
-            totalElements += calculateContentDensity(item.lines);
+            countElements(item.lines);
           }
         });
-        
-        return totalElements;
       };
+
+      countElements(song.content);
+
+      // AJUSTE INTELIGENTE MEJORADO de tamaño de fuente
+      const densityFactor = (totalElements * totalCharacters) / 1000;
+      const width = window.innerWidth;
       
-      const totalElements = calculateContentDensity(song.content);
-      
-      // Ajustar tamaño de fuente basado en la densidad
-      if (totalElements > 100) {
-        setAutoFontSize(11);
-      } else if (totalElements > 70) {
-        setAutoFontSize(12);
-      } else if (totalElements > 40) {
-        setAutoFontSize(13);
+      let optimalFontSize = 16;
+      let willNeedScroll = false;
+
+      // Ajuste más agresivo para diferentes dispositivos
+      if (width > 1600) {
+        // Desktop grande - puede usar fuente más grande
+        if (densityFactor > 250) {
+          optimalFontSize = 12;
+          willNeedScroll = true;
+        } else if (densityFactor > 180) {
+          optimalFontSize = 13;
+        } else if (densityFactor > 120) {
+          optimalFontSize = 14;
+        } else if (densityFactor > 70) {
+          optimalFontSize = 15;
+        } else {
+          optimalFontSize = 16;
+        }
+      } else if (width > 1200) {
+        // Desktop estándar
+        if (densityFactor > 200) {
+          optimalFontSize = 11;
+          willNeedScroll = true;
+        } else if (densityFactor > 150) {
+          optimalFontSize = 12;
+        } else if (densityFactor > 100) {
+          optimalFontSize = 13;
+        } else if (densityFactor > 60) {
+          optimalFontSize = 14;
+        } else if (densityFactor > 30) {
+          optimalFontSize = 15;
+        } else {
+          optimalFontSize = 16;
+        }
+      } else if (width > 768) {
+        // Tablet - optimizado para pantalla táctil
+        if (densityFactor > 150) {
+          optimalFontSize = 12;
+          willNeedScroll = true;
+        } else if (densityFactor > 100) {
+          optimalFontSize = 13;
+        } else if (densityFactor > 70) {
+          optimalFontSize = 14;
+        } else if (densityFactor > 40) {
+          optimalFontSize = 15;
+        } else {
+          optimalFontSize = 16;
+        }
       } else {
-        setAutoFontSize(14);
+        // Mobile
+        if (densityFactor > 100) {
+          optimalFontSize = 12;
+          willNeedScroll = true;
+        } else if (densityFactor > 70) {
+          optimalFontSize = 13;
+        } else if (densityFactor > 50) {
+          optimalFontSize = 14;
+        } else {
+          optimalFontSize = 15;
+        }
       }
+
+      // Aplicar límites razonables
+      optimalFontSize = Math.max(10, Math.min(18, optimalFontSize));
       
-      // Balancear columnas
-      const balancedColumns = balanceColumns(song.content);
-      setColumns(balancedColumns);
+      setAutoFontSize(optimalFontSize);
+      setNeedsScroll(willNeedScroll);
+
+      // Balancear columnas SECUENCIALMENTE
+      balanceColumnsSequentially(song.content, columnCount);
     };
 
-    adjustFontSize();
-  }, [song]);
-
-  // Balancear columnas
-  const balanceColumns = (content) => {
-    if (!content || content.length === 0) return [[], []];
-    
-    const elementWeights = content.map(item => {
-      if (item.type === "section") return 3;
-      if (item.type === "voice") return item.lines ? item.lines.length + 2 : 2;
-      if (item.type === "combined") return 1.5;
-      if (item.type === "chords") return 1.2;
-      if (item.type === "chord") return 1.1;
-      if (item.type === "lyric") return 1;
-      if (item.type === "text") return 0.8;
-      if (item.type === "divider") return 0.3;
-      return 1;
-    });
-    
-    const totalWeight = elementWeights.reduce((sum, weight) => sum + weight, 0);
-    const targetWeight = totalWeight / 2;
-    
-    let currentWeight = 0;
-    let splitIndex = 0;
-    
-    for (let i = 0; i < elementWeights.length; i++) {
-      currentWeight += elementWeights[i];
-      
-      if (currentWeight >= targetWeight) {
-        if (i < content.length - 1 && 
-            (content[i + 1].type === "section" || content[i + 1].type === "voice")) {
-          splitIndex = i + 1;
-        } else {
-          splitIndex = i + 1;
-        }
-        break;
+    const balanceColumnsSequentially = (content, numColumns) => {
+      if (!content || content.length === 0) {
+        setColumns(Array(numColumns).fill().map(() => []));
+        return;
       }
-    }
-    
-    splitIndex = Math.max(1, Math.min(splitIndex, content.length - 1));
-    
-    return [content.slice(0, splitIndex), content.slice(splitIndex)];
-  };
 
-  // Procesar líneas
+      const columns = Array(numColumns).fill().map(() => []);
+      
+      if (numColumns === 1) {
+        // 1 columna - todo en la primera
+        columns[0] = content;
+      } else if (numColumns === 2) {
+        // 2 columnas - división 60/40 aproximadamente
+        const splitIndex = Math.ceil(content.length * 0.6);
+        columns[0] = content.slice(0, splitIndex);
+        columns[1] = content.slice(splitIndex);
+      } else {
+        // 3 columnas - división 40/35/25 aproximadamente
+        const firstSplit = Math.ceil(content.length * 0.4);
+        const secondSplit = Math.ceil(content.length * 0.75);
+        columns[0] = content.slice(0, firstSplit);
+        columns[1] = content.slice(firstSplit, secondSplit);
+        columns[2] = content.slice(secondSplit);
+      }
+
+      setColumns(columns);
+    };
+
+    analyzeAndAdjustLayout();
+  }, [song, columnCount]);
+
+  // Procesar líneas para combinar acordes con letras
   const processLines = (lines) => {
     if (!lines) return [];
     
@@ -270,41 +361,32 @@ const SongViewer = ({ song, transposition, showA4Outline, fullscreenMode, printV
     });
   };
 
-  const [firstColumn, secondColumn] = columns;
+  const [firstColumn, secondColumn, thirdColumn] = columns;
 
   if (!song) {
     return <div className="song-loading">Cargando...</div>;
   }
 
   return (
-    <div className={`song-viewer ${showA4Outline ? 'a4-outline' : ''} ${isFullscreen ? 'fullscreen' : ''}`} ref={viewerRef}>
+    <div className={`song-viewer ${showA4Outline ? 'a4-outline' : ''} ${isFullscreen ? 'fullscreen' : ''} columns-${columnCount} ${needsScroll ? 'needs-scroll' : ''}`} ref={viewerRef}>
       
       {/* Botón pantalla completa */}
       <button className="fullscreen-toggle" onClick={toggleFullscreen}>
         {isFullscreen ? <BsFullscreenExit /> : <BsArrowsFullscreen />}
       </button>
 
-      {/* Vista impresión - SCROLL NATURAL */}
+      {/* Vista impresión - SOLO ACORDES, NADA MÁS */}
       <div className="print-container">
         <div 
           className="print-view" 
           ref={printViewRef}
           style={{
-            fontSize: `${autoFontSize}px`,
+            fontSize: '14px',
             width: '210mm',
             minHeight: '297mm',
             height: 'auto'
           }}
         >
-          <div className="song-header-print">
-            <h1 className="song-title-print">
-              {song.artist} - {song.title} 
-              {song.originalKey && (
-                <span className="tono-destacado"> (TONO: {transposeChord(song.originalKey)})</span>
-              )}
-            </h1>
-          </div>
-
           <div className="chords-content-print">
             <div className="song-columns-print">
               <div className="column-print">
@@ -318,7 +400,7 @@ const SongViewer = ({ song, transposition, showA4Outline, fullscreenMode, printV
         </div>
       </div>
 
-      {/* Contenido principal - SCROLL NATURAL */}
+      {/* Contenido principal */}
       <div className="song-header">
         <h1 className="song-title">
           {song.artist} - {song.title}
@@ -329,13 +411,25 @@ const SongViewer = ({ song, transposition, showA4Outline, fullscreenMode, printV
       </div>
 
       <div className="chords-viewer" style={{ fontSize: `${autoFontSize}px` }}>
-        <div className="song-columns">
-          <div className="column">
+        <div className={`song-columns columns-${columnCount}`}>
+          {/* Columna 1 - Siempre se llena primero */}
+          <div className="column column-1">
             {firstColumn && renderContent(firstColumn)}
           </div>
-          <div className="column">
-            {secondColumn && renderContent(secondColumn)}
-          </div>
+          
+          {/* Columna 2 - Se llena después de la columna 1 */}
+          {columnCount >= 2 && (
+            <div className="column column-2">
+              {secondColumn && renderContent(secondColumn)}
+            </div>
+          )}
+          
+          {/* Columna 3 - Solo en widescreen, se llena después de la columna 2 */}
+          {columnCount >= 3 && (
+            <div className="column column-3">
+              {thirdColumn && renderContent(thirdColumn)}
+            </div>
+          )}
         </div>
       </div>
     </div>

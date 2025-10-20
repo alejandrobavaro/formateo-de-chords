@@ -1,0 +1,381 @@
+{
+  "id": "roxette-crash-boom-bang",
+  "title": "Crash! Boom! Bang!",
+  "artist": "Roxette",
+  "originalKey": "Am",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am", "Em"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Am"},
+            {"type": "lyric", "content": "My Papa told me to stay out of trouble"},
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "Am"},
+            {"type": "lyric", "content": "I've learned that nothing really lasts forever"},
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "I sleep with the scars I wear that won't heal"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["D", "D11", "D"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "They won't heal"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "C", "Am", "F", "C", "G"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "'Cos every time I seem to fall in love"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Crash! Boom! Bang!"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "I find the heart but then I hit the wall"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Crash! Boom! Bang!"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Am"},
+            {"type": "lyric", "content": "That's the call, that's the game"},
+            {"type": "chord", "content": "F"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "And the pain stays the same"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am", "Em"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Am"},
+            {"type": "lyric", "content": "I'm walking down this empty road to nowhere"},
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "Am"},
+            {"type": "lyric", "content": "My Mama told me not to mess with sorrow"},
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "But I always did, and Lord, I still do"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "I'm still breaking the rules, I kick it up, I kick it down"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS (REPEAT)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "C", "Am", "F", "C", "G"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "'Cos every time I seem to fall in love"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Crash! Boom! Bang!"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "I find the heart but then I hit the wall"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Crash! Boom! Bang!"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Am"},
+            {"type": "lyric", "content": "That's my real middle-name"},
+            {"type": "chord", "content": "F"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "It has always been the same"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Am"},
+            {"type": "lyric", "content": "That's the call, that's the game"},
+            {"type": "chord", "content": "F"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "And the pain stays the same"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BRIDGE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Cm", "G#", "D#", "A#"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Cm"},
+            {"type": "lyric", "content": "I still feel the heat slowly fallin' from the sky"},
+            {"type": "chord", "content": "G#"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "D#"},
+            {"type": "lyric", "content": "And the taste of the kissing"},
+            {"type": "chord", "content": "A#"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Cm"},
+            {"type": "lyric", "content": "Shattered by rain comin' tumblin' from behind"},
+            {"type": "chord", "content": "G#"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "D#"},
+            {"type": "lyric", "content": "And the wild holy war"},
+            {"type": "chord", "content": "A#"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "A#9", "Am", "Em"]
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "A#9", "Am", "Em"]
+        },
+        {
+          "type": "chords",
+          "content": ["D", "D11", "D"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "I kick it up, I kick it down"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL CHORUS",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "C", "Am", "F", "C", "G"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "And every time I seem to fall in love"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Crash! Boom! Bang!"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "I find the roses dying on the floor"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Crash! Boom! Bang!"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Am"},
+            {"type": "lyric", "content": "That's the call, that's the game"},
+            {"type": "chord", "content": "F"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "And the pain stays the same"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Am"},
+            {"type": "lyric", "content": "That's my real middle-name"},
+            {"type": "chord", "content": "F"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "It has always been the same"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "OUTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am", "A#9", "Am", "A#9", "Am"]
+        }
+      ]
+    }
+  ]
+}

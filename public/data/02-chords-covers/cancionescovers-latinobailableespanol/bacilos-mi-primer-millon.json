@@ -1,0 +1,435 @@
+{
+  "id": "bacilos-mi-primer-millon",
+  "title": "Mi Primer Millón",
+  "artist": "Bacilos",
+  "originalKey": "E",
+  "tempo": "Upbeat",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRODUCCIÓN",
+      "lines": [
+        {
+          "type": "lyric",
+          "content": "Yo solo quiero pegar en la radio (x2)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Estoy ya cansado de estar endeudado"
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": "De verte sufriendo por cada centavo"
+        },
+        {
+          "type": "chords",
+          "content": ["C#m", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Dejémoslo todo y vámonos para Miami"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Voy a lo que voy, a volverme famoso"
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": "A la vida de artista, vivir de canciones"
+        },
+        {
+          "type": "chords",
+          "content": ["C#m", "A", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Vender ilusiones que rompan diez mil corazones"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Yo solo quiero pegar en la radio"
+        },
+        {
+          "type": "chords",
+          "content": ["C#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "Para ganar mi primer millón"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "F#7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Para comprarte una casa grande"
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": "En donde quepa tu corazón"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Yo solo quiero que la gente cante"
+        },
+        {
+          "type": "chords",
+          "content": ["C#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "Por todos lados esta canción"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "F#7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Desde San Juan hasta Barranquilla"
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Desde Sevilla hasta Nueva York"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTERLUDIO INSTRUMENTAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A", "B", "C#m", "C#m"]
+        },
+        {
+          "type": "chords",
+          "content": ["A", "B", "C#m", "C#m"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Apenas lleguemos llamamos a Emilio"
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Yo tengo un amigo, amigo de un amigo"
+        },
+        {
+          "type": "chords",
+          "content": ["C#m", "A", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Con línea directa al cielo de tantas estrellas"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Después andaremos de aquí para allá"
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Con Paulina Rubio y Alejandro Sanz"
+        },
+        {
+          "type": "chords",
+          "content": ["C#m", "A", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tranquila querida!, Paulina solo es una amiga"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Yo solo quiero pegar en la radio"
+        },
+        {
+          "type": "chords",
+          "content": ["C#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "Para ganar mi primer millón"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "F#7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Para comprarte una casa grande"
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": "En donde quepa tu corazón"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Yo solo quiero que la gente cante"
+        },
+        {
+          "type": "chords",
+          "content": ["C#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "Por todos lados esta canción"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "F#7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Desde Kabul hasta Curazao"
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Desde Callao hasta Panamá"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PUENTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A", "B", "C#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "Echale pa' lante... o echale pa' allá"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "B", "C#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "Que echa pa' delante, echa pa' delante"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "B", "C#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "Y echa pa' delante y echa pa' delante"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "B", "C#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "Ya quiero salir de esta bicicleta"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "B", "C#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "Salir a rumbear sin pensar en la cuenta"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "B", "C#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "Comprarte un vestido de Oscar de la Renta"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "B", "C#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tranquila que ahí viene mi primer millón"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A", "B", "C#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "Yo solo quiero pegar en la radio"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "B", "C#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "Yo solo quiero pegar en la radio"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "B", "C#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "Yo solo quiero pegar en la radio"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "B", "C#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "Yo solo quiero pegar en la radio"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Yo solo quiero pegar en la radio"
+        },
+        {
+          "type": "chords",
+          "content": ["C#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "Para ganar mi primer millón"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Para comprarte una casa grande"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "En donde quepa tu corazón"
+        }
+      ]
+    }
+  ]
+}

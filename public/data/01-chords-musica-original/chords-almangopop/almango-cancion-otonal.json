@@ -1,0 +1,490 @@
+{
+    "id": "almango-cancion-otonal",
+    "title": "Canción Otoñal",
+    "artist": "Almango",
+    "originalKey": "G#m",
+    "tempo": "Slow",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G#m"
+          },
+          {
+            "type": "chord",
+            "content": "G#m"
+          },
+          {
+            "type": "lyric",
+            "content": "Hoy siento en el corazón"
+          },
+          {
+            "type": "chord",
+            "content": "G#m"
+          },
+          {
+            "type": "lyric",
+            "content": "un vago temblor de estrellas,"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "pero mi senda se pierde"
+          },
+          {
+            "type": "chord",
+            "content": "G#m"
+          },
+          {
+            "type": "lyric",
+            "content": "en el alma de la niebla."
+          },
+          {
+            "type": "chord",
+            "content": "G#m"
+          },
+          {
+            "type": "lyric",
+            "content": "La luz me troncha las alas"
+          },
+          {
+            "type": "chord",
+            "content": "G#m"
+          },
+          {
+            "type": "lyric",
+            "content": "y el dolor de mi tristeza"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "va mojando los recuerdos"
+          },
+          {
+            "type": "chord",
+            "content": "G#m"
+          },
+          {
+            "type": "lyric",
+            "content": "en la fuente de la idea."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "lyric",
+                "content": "Todas mis rosas son blancas,"
+              }
+            ]
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "tan blancas como mi pena."
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "¿Si el azul es un ensueño,"
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "lyric",
+            "content": "qué será de la inocencia?"
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "lyric",
+                "content": "¿Qué será del corazón"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["E", "-", "F#", "-", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "si el Amor no tiene flechas?"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 2",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G#m"
+          },
+          {
+            "type": "lyric",
+            "content": "La nieve del alma tiene"
+          },
+          {
+            "type": "chord",
+            "content": "G#m"
+          },
+          {
+            "type": "lyric",
+            "content": "copos de besos y escenas"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "que se hundieron en la sombra"
+          },
+          {
+            "type": "chord",
+            "content": "G#m"
+          },
+          {
+            "type": "lyric",
+            "content": "o en la luz del que las piensa."
+          },
+          {
+            "type": "chord",
+            "content": "G#m"
+          },
+          {
+            "type": "lyric",
+            "content": "La nieve cae de las rosas,"
+          },
+          {
+            "type": "chord",
+            "content": "G#m"
+          },
+          {
+            "type": "lyric",
+            "content": "pero las del alma quedan,"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "y la garra de los años"
+          },
+          {
+            "type": "chord",
+            "content": "G#m"
+          },
+          {
+            "type": "lyric",
+            "content": "hace un sudario con ellas."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (Variación 1)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "lyric",
+                "content": "Todas mis rosas son blancas,"
+              }
+            ]
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "tan blancas como mi pena."
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Después habrá otra nieve"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "y otras rosas más perfectas,"
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "lyric",
+            "content": "¿Quedará la paz con nosotros"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "o nunca será posible"
+          },
+          {
+            "type": "chords",
+            "content": ["E", "-", "F#", "-", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "la solución del problema?"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO BASE",
+        "lines": [
+          {
+            "type": "text",
+            "content": "(Solo instrumental - Base: G#m)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (Variación 2 - Coros)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "lyric",
+                "content": "Todas mis rosas son blancas,"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "lyric",
+                "content": "(¿Y si la muerte es la muerte?)"
+              }
+            ]
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "tan blancas como mi pena."
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "lyric",
+                "content": "(¿qué será de los poetas?)"
+              }
+            ]
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "lyric",
+            "content": "Todas mis rosas son blancas,"
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "lyric",
+                "content": "(y de las cosas dormidas)"
+              }
+            ]
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "tan blancas como mi pena."
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "lyric",
+                "content": "(que ya nadie las recuerda)"
+              }
+            ]
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "lyric",
+            "content": "Todas mis rosas son blancas,"
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "lyric",
+                "content": "(¿Y si el amor nos engaña?)"
+              }
+            ]
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "tan blancas como mi pena."
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "lyric",
+                "content": "(El bien que quizá no exista,"
+              },
+              {
+                "type": "lyric",
+                "content": "y del mal que late cerca)"
+              }
+            ]
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "lyric",
+            "content": "Todas mis rosas son blancas,"
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "lyric",
+                "content": "(Hoy siento en el corazón"
+              },
+              {
+                "type": "lyric",
+                "content": "un vago temblor de estrellas)"
+              }
+            ]
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "tan blancas como mi pena."
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "lyric",
+                "content": "(y así nació canción Otoñal)"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

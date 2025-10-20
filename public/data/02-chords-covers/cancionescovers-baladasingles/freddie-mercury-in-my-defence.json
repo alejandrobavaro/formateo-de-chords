@@ -1,0 +1,252 @@
+{
+  "id": "freddie-mercury-in-my-defence",
+  "title": "In My Defence",
+  "artist": "Freddie Mercury",
+  "originalKey": "E",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "C#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "In my defence what is there to say"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "All the mistakes we made must be faced today"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "C#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's not easy now knowing where to start"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "While the world we love tears itself apart"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CORO",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "E"
+            },
+            {
+              "type": "lyric",
+              "content": "I'm just a singer with a song"
+            },
+            {
+              "type": "chord",
+              "content": "E/D#"
+            },
+            {
+              "type": "lyric",
+              "content": "How can I try to right the wrong"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "C#m"
+            },
+            {
+              "type": "lyric",
+              "content": "For just a singer with a melody"
+            },
+            {
+              "type": "chord",
+              "content": "A"
+            },
+            {
+              "type": "lyric",
+              "content": "I'm caught in between with a fading dream"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "C#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "In my defence what is there to say"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "We destroy the love it's our way"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "C#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "We never listen enough never face the truth"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Then like a passing song love is here and then is gone"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CORO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "E"
+            },
+            {
+              "type": "lyric",
+              "content": "I'm just a singer with a song"
+            },
+            {
+              "type": "chord",
+              "content": "E/D#"
+            },
+            {
+              "type": "lyric",
+              "content": "How can I try to right the wrong"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "C#m"
+            },
+            {
+              "type": "lyric",
+              "content": "For just a singer with a melody"
+            },
+            {
+              "type": "chord",
+              "content": "A"
+            },
+            {
+              "type": "lyric",
+              "content": "I'm caught in between with a fading dream"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["A", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Caught in between with a fading dream"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Caught in between with a fading dream"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C#m", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh what on Earth oh what on Earth"
+        },
+        {
+          "type": "chords",
+          "content": ["C#m", "A", "B", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "How do I try do we live or die"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh help me God please help me"
+        }
+      ]
+    }
+  ]
+}

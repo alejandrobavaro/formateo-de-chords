@@ -1,0 +1,333 @@
+{
+  "id": "almango-lets-do-it-now",
+  "title": "Let's Do It Now",
+  "artist": "Almango",
+  "originalKey": "Dm",
+  "tempo": "Funk-Pop (125 BPM)",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        },
+        {
+          "type": "text",
+          "content": "(4 veces - con funk rhythm)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTROFA 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Dm"},
+            {"type": "lyric", "content": "Ella camina y todos van detrás"},
+            {"type": "chord", "content": "Dm"},
+            {"type": "lyric", "content": "Derrite la pista con su sexy dance"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Gm"},
+            {"type": "lyric", "content": "Es misteriosa, hermosa mi babe."},
+            {"type": "chord", "content": "Dm"},
+            {"type": "lyric", "content": "Pero no te enamores, no no"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Dm"},
+            {"type": "lyric", "content": "No te enamores. Oh! Ya me enamore…"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Gm"},
+            {"type": "lyric", "content": "Baby come on, let's go"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Baby come on, let's go"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "A#"},
+            {"type": "lyric", "content": "Baby come on, let's go"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Let's do it now! Let's go!"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 1",
+      "lines": [
+        {
+          "type": "text",
+          "content": "(Dm x 4 + Gm x 2)"
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "lyric", "content": "Let's go!"}
+          ]
+        },
+        {
+          "type": "text",
+          "content": "(Dm x 4 + Gm x 4 - Corta la 3era vuelta)"
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "lyric", "content": "Let's go! Let's do it now!"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTRO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        },
+        {
+          "type": "text",
+          "content": "(4 veces)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTROFA 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Dm"},
+            {"type": "lyric", "content": "Ella domina y yo la sigo atrás,"},
+            {"type": "chord", "content": "Dm"},
+            {"type": "lyric", "content": "No hay quien resista, su hipnosis sensual."}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Gm"},
+            {"type": "lyric", "content": "Es tan intensa, perfecta mi babe."},
+            {"type": "chord", "content": "Dm"},
+            {"type": "lyric", "content": "Pero no te enamores, dice"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Dm"},
+            {"type": "lyric", "content": "No te enamores. Oh! Ya me enamore…"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Gm"},
+            {"type": "lyric", "content": "Baby come on, let's go"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Baby come on, let's go"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "A#"},
+            {"type": "lyric", "content": "Baby come on, let's go"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Let's do it now! Let's go!"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 2",
+      "lines": [
+        {
+          "type": "text",
+          "content": "(Dm x 4 + Gm x 2)"
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "lyric", "content": "Let's go!"}
+          ]
+        },
+        {
+          "type": "text",
+          "content": "(Dm x 4 + Gm x 4 - Corta la 3era vuelta)"
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "lyric", "content": "Let's go! Let's do it now!"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BIS (INGLÉS)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Dm/E"},
+            {"type": "lyric", "content": "There's a beauty in your eyes"},
+            {"type": "chord", "content": "Dm/E"},
+            {"type": "lyric", "content": "I'm in love with you tonight"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO 3",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Gm"},
+            {"type": "lyric", "content": "Baby come on, let's go"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Baby come on, let's go"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "A#"},
+            {"type": "lyric", "content": "Baby come on, let's go"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Let's do it now! Let's go!"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL",
+      "lines": [
+        {
+          "type": "text",
+          "content": "(Dm x 4 + Gm x 2)"
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "lyric", "content": "Let's go!"}
+          ]
+        },
+        {
+          "type": "text",
+          "content": "(Dm x 4 + Gm x 4 - Corta la 3era vuelta)"
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "lyric", "content": "Let's go! Let's do it now!"}
+          ]
+        }
+      ]
+    }
+  ]
+}

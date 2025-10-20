@@ -1,0 +1,457 @@
+﻿{
+    "id": "almango-el-poeta",
+    "title": "El Poeta",
+    "artist": "Almango",
+    "originalKey": "F#",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F#", "D#m", "A#m", "C#"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "VERSE 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F#", "D#m", "A#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "Amor de mis entrañas, viva muerte en vano espero tu palabra escrita."
+          },
+          {
+            "type": "chords",
+            "content": ["C#", "F#"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["D#m", "A#m", "C#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y pienso, con la flor que se marchita."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "VERSE 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F#", "D#m", "A#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "Que si vivo sin mí quiero perderte, el aire es inmortal, la piedra inerte."
+          },
+          {
+            "type": "chords",
+            "content": ["C#", "F#"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["D#m", "A#m", "C#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Ni conoce la sombra ni la evita."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G#", "A#", "B", "F#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Corazón interior no necesita la miel helada."
+          },
+          {
+            "type": "chords",
+            "content": ["C#", "G#", "A#", "B", "C#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Que la luna vierte."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F#", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Pero ya te sufrí, rasgué mis venas por ti."
+          },
+          {
+            "type": "chords",
+            "content": ["D#m", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["A#m", "C#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Tigre y paloma sobre tu cintura."
+          },
+          {
+            "type": "chords",
+            "content": ["F#", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Pero ya te sufrí, rasgué mis venas por ti."
+          },
+          {
+            "type": "chords",
+            "content": ["D#m", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["A#m", "C#"]
+          },
+          {
+            "type": "lyric",
+            "content": "En duelo de mordiscos y azucenas."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F#", "D#m", "A#m", "C#"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "VERSE 3",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F#", "D#m", "A#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "Llena de palabras mi locura, o déjame vivir en mi serena."
+          },
+          {
+            "type": "chords",
+            "content": ["C#", "F#"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["D#m", "A#m", "C#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Noche del alma para siempre tan oscura."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "VERSE 4",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F#", "D#m", "A#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "Que si vivo sin mí quiero perderte, el aire es inmortal, la piedra inerte."
+          },
+          {
+            "type": "chords",
+            "content": ["C#", "F#"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["D#m", "A#m", "C#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Ni conoce la sombra ni la evita."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G#", "A#", "B", "F#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Corazón interior no necesita la miel helada."
+          },
+          {
+            "type": "chords",
+            "content": ["C#", "G#", "A#", "B", "C#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Que la luna vierte."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F#", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Pero ya te sufrí, rasgué mis venas por ti."
+          },
+          {
+            "type": "chords",
+            "content": ["D#m", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["A#m", "C#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Tigre y paloma sobre tu cintura."
+          },
+          {
+            "type": "chords",
+            "content": ["F#", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Pero ya te sufrí, rasgué mis venas por ti."
+          },
+          {
+            "type": "chords",
+            "content": ["D#m", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["A#m", "C#"]
+          },
+          {
+            "type": "lyric",
+            "content": "En duelo de mordiscos y azucenas."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F#", "D#m", "A#m", "C#"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (SIN BANDA)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F#", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Pero ya te sufrí, rasgué mis venas por ti."
+          },
+          {
+            "type": "chords",
+            "content": ["D#m", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["A#m", "C#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Tigre y paloma sobre tu cintura."
+          },
+          {
+            "type": "chords",
+            "content": ["F#", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Pero ya te sufrí, rasgué mis venas por ti."
+          },
+          {
+            "type": "chords",
+            "content": ["D#m", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["A#m", "C#"]
+          },
+          {
+            "type": "lyric",
+            "content": "En duelo de mordiscos y azucenas."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F#", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Pero ya te sufrí, rasgué mis venas por ti."
+          },
+          {
+            "type": "chords",
+            "content": ["D#m", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["A#m", "C#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Tigre y paloma sobre tu cintura."
+          },
+          {
+            "type": "chords",
+            "content": ["F#", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Pero ya te sufrí, rasgué mis venas por ti."
+          },
+          {
+            "type": "chords",
+            "content": ["D#m", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["A#m", "C#"]
+          },
+          {
+            "type": "lyric",
+            "content": "En duelo de mordiscos y azucenas."
+          }
+        ]
+      }
+    ]
+  }
+  

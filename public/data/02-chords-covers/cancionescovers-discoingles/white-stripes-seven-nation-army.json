@@ -1,0 +1,361 @@
+{
+  "id": "white-stripes-seven-nation-army",
+  "title": "Seven Nation Army",
+  "artist": "The White Stripes",
+  "originalKey": "F#",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["B", "D", "B", "A", "G", "F#"]
+        },
+        {
+          "type": "text",
+          "content": "(Riff principal - Guitarra)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "B"
+            },
+            {
+              "type": "lyric",
+              "content": "I'm gonna fight 'em off,"
+            },
+            {
+              "type": "chords",
+              "content": ["F#", "-"]
+            },
+            {
+              "type": "lyric",
+              "content": "A seven nation army couldn't hold me back."
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F#"
+            },
+            {
+              "type": "lyric",
+              "content": "They're gonna rip it off,"
+            },
+            {
+              "type": "chords",
+              "content": ["F#", "-"]
+            },
+            {
+              "type": "lyric",
+              "content": "Taking their time right behind my back."
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["F#", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "And I'm talking to myself at night because I can't"
+        },
+        {
+          "type": "chords",
+          "content": ["B", "D", "B", "A", "G", "F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "forget."
+        },
+        {
+          "type": "chords",
+          "content": ["B", "B", "D", "B", "A", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Back and forth through my mind, behind a cigarette."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-CORO 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D", "-"]
+        },
+        {
+          "type": "lyric",
+          "content": "And the message coming from my eyes, says leave it"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "-"]
+        },
+        {
+          "type": "lyric",
+          "content": "alone."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F#"
+            },
+            {
+              "type": "lyric",
+              "content": "Don't want to hear about it,"
+            },
+            {
+              "type": "chords",
+              "content": ["F#", "-"]
+            },
+            {
+              "type": "lyric",
+              "content": "Every single one's got a story to tell."
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F#"
+            },
+            {
+              "type": "lyric",
+              "content": "Everyone knows about it,"
+            },
+            {
+              "type": "chords",
+              "content": ["F#", "-"]
+            },
+            {
+              "type": "lyric",
+              "content": "From the queen of England to the hounds of hell."
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["F#", "B", "B", "D", "B", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "And if I catch you coming back my way,"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm going to serve it to you."
+        },
+        {
+          "type": "chords",
+          "content": ["F#", "B", "B", "D", "B", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "And that ain't what you want to hear, but that's what"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'll do."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-CORO 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D", "-"]
+        },
+        {
+          "type": "lyric",
+          "content": "And the feeling coming from my bones, says find a home."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 3",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "B"
+            },
+            {
+              "type": "lyric",
+              "content": "I'm going to Wichita,"
+            },
+            {
+              "type": "chords",
+              "content": ["F#", "-"]
+            },
+            {
+              "type": "lyric",
+              "content": "Far from this opera forevermore."
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F#"
+            },
+            {
+              "type": "lyric",
+              "content": "I'm going to work the straw,"
+            },
+            {
+              "type": "chords",
+              "content": ["F#", "-"]
+            },
+            {
+              "type": "lyric",
+              "content": "Make the sweat drip out of every pore."
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["F#", "B", "B", "D", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "And I'm bleeding, and I'm bleeding,"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "G", "F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "And I'm bleeding right before the lord."
+        },
+        {
+          "type": "chords",
+          "content": ["B", "B", "D", "B", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "All the words are going to bleed from me,"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "And I will think no more."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-CORO FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D", "-"]
+        },
+        {
+          "type": "lyric",
+          "content": "And the stains coming from my blood, says go back"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "-"]
+        },
+        {
+          "type": "lyric",
+          "content": "home."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "OUTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["B", "D", "B", "A", "G", "F#"]
+        },
+        {
+          "type": "text",
+          "content": "(Riff principal - Repetición hasta fade out)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,613 @@
+{
+    "id": "almango-cuba",
+    "title": "Cuba",
+    "artist": "Almango",
+    "originalKey": "A",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "lyric",
+            "content": "¡Oh bovino frescor de cañaveral! ¡Oh curva de suspiro y barro!"
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "G", "Am", "E", "G", "Am", "C", "Am"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Cuando llegue la luna (iré a Santiago) en Cuba. (iré a Santiago)"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "En un coche caliente de agua negra (iré a Santiago, iré a Santiago)"
+          },
+          {
+            "type": "chords",
+            "content": ["E", "G", "Am", "C", "Am"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Cuando llegue la luna (iré a Santiago) en Cuba. (iré a Santiago)"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "En un coche caliente de agua negra (iré a Santiago, iré a Santiago)"
+          },
+          {
+            "type": "chords",
+            "content": ["E", "G", "Am", "C", "Am"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Cantan los techos de palmera, la palma ya es cigüeña."
+          },
+          {
+            "type": "chords",
+            "content": ["G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["F", "E", "F", "E", "F"]
+          },
+          {
+            "type": "lyric",
+            "content": "Quiere ser medusa de plátano."
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Con la rubia de Fonseca, y con el rosa de Romeo."
+          },
+          {
+            "type": "chords",
+            "content": ["G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["F", "E", "F", "E", "F"]
+          },
+          {
+            "type": "lyric",
+            "content": "Julieta baila al ritmo de semillas secas."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Mi coral en la tiniebla, el mar ahogado en la arena."
+          },
+          {
+            "type": "chords",
+            "content": ["G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["F", "E", "F", "E", "F"]
+          },
+          {
+            "type": "lyric",
+            "content": "Calor blanco, fruta muerta, ¡Oh Cuba!"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "¡Oh Cuba!"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "¡Oh Cuba, Cuba, Cuba!"
+          },
+          {
+            "type": "chords",
+            "content": ["F", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "¡Oh cintura caliente y gota de madera!"
+          },
+          {
+            "type": "chords",
+            "content": ["F", "G"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "BIS",
+        "lines": [
+          {
+            "type": "lyric",
+            "content": "¡Cuba! Hey!"
+          },
+          {
+            "type": "lyric",
+            "content": "¡Cuba! Hey!"
+          },
+          {
+            "type": "lyric",
+            "content": "¡Cuba! Hey!"
+          },
+          {
+            "type": "lyric",
+            "content": "¡Cuba! Hey!"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO 3",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Cuando llegue la luna (iré a Santiago) en Cuba. (iré a Santiago)"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "En un coche caliente de agua negra (iré a Santiago, iré a Santiago)"
+          },
+          {
+            "type": "chords",
+            "content": ["E", "G", "Am", "C", "Am"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO 4",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Cuando llegue la luna (iré a Santiago) en Cuba. (iré a Santiago)"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "En un coche caliente de agua negra (iré a Santiago, iré a Santiago)"
+          },
+          {
+            "type": "chords",
+            "content": ["E", "G", "Am", "C", "Am"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "G", "Am", "E", "G", "Am", "C", "Am"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 3",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "¡Arpa de troncos vivos, caimán, flor de tabaco!"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Siempre he dicho que yo iría a Santiago."
+          },
+          {
+            "type": "chords",
+            "content": ["F", "E", "F", "E", "F"]
+          },
+          {
+            "type": "lyric",
+            "content": "En un coche de agua negra."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 4",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Cantan los techos de palmera, la palma ya es cigüeña."
+          },
+          {
+            "type": "chords",
+            "content": ["G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["F", "E", "F", "E", "F"]
+          },
+          {
+            "type": "lyric",
+            "content": "Quiere ser medusa de plátano."
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Con la rubia de Fonseca, y con el rosa de Romeo."
+          },
+          {
+            "type": "chords",
+            "content": ["G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["F", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Julieta baila al ritmo de semillas secas."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "¡Oh Cuba!"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "¡Oh Cuba, Cuba, Cuba!"
+          },
+          {
+            "type": "chords",
+            "content": ["F", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "¡Oh cintura caliente y gota de madera!"
+          },
+          {
+            "type": "chords",
+            "content": ["F", "G"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Cuando llegue la luna (iré a Santiago) en Cuba. (iré a Santiago)"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "En un coche caliente de agua negra (iré a Santiago, iré a Santiago)"
+          },
+          {
+            "type": "chords",
+            "content": ["E", "G", "Am", "C", "Am"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Cuando llegue la luna (iré a Santiago) en Cuba. (iré a Santiago)"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "En un coche caliente de agua negra (iré a Santiago, iré a Santiago)"
+          },
+          {
+            "type": "chords",
+            "content": ["E", "G", "Am", "C", "Am"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL 3",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Cuando llegue la luna (iré a Santiago) en Cuba. (iré a Santiago)"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "En un coche caliente de agua negra (iré a Santiago, iré a Santiago)"
+          },
+          {
+            "type": "chords",
+            "content": ["E", "G", "Am", "C", "Am"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL 4",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Cuando llegue la luna (iré a Santiago) en Cuba. (iré a Santiago)"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "En un coche caliente de agua negra (iré a Santiago, iré a Santiago)"
+          },
+          {
+            "type": "chords",
+            "content": ["E", "G", "Am", "C", "Am"]
+          }
+        ]
+      }
+    ]
+  }
+  

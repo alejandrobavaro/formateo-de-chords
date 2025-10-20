@@ -1,0 +1,375 @@
+﻿{
+    "id": "almango-ideal",
+    "title": "Ideal",
+    "artist": "Almango",
+    "originalKey": "C",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO BASE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "Em", "F", "G"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "VERSE 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "-", "Em", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "He sido testigo, de sucesos que no ocurrirán."
+          },
+          {
+            "type": "chords",
+            "content": ["F", "-", "G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Transité caminos en los que no entraré jamás."
+          },
+          {
+            "type": "chords",
+            "content": ["C", "-", "Em", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Crimen en tu rostro, el semblante del ángel portador."
+          },
+          {
+            "type": "chords",
+            "content": ["F", "-", "G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "De la llave que abriera mi vida, y me dejara soltar mi pasión."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F", "-", "G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "¿Por qué no pudiste ser como yo te había imaginado?"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "C/B", "Am", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["F", "-", "G", "-", "C", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "¿Por qué no supiste interpretar mi canción?"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chords",
+                "content": ["F", "C"]
+              },
+              {
+                "type": "lyric",
+                "content": "A pesar del mal"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chords",
+                "content": ["Dm", "Am"]
+              },
+              {
+                "type": "lyric",
+                "content": "que tú me quisiste dar."
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["F", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Descubrí que en tu piel, no había antes ni después."
+          },
+          {
+            "type": "chords",
+            "content": ["Dm", "Am", "C/B", "C", "G"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "VERSE 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "-", "Em", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "No me ha quedado, ninguna piedra por mover."
+          },
+          {
+            "type": "chords",
+            "content": ["F", "-", "G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Mucho tiempo he buscado alguien que alumbrara mi ser."
+          },
+          {
+            "type": "chords",
+            "content": ["C", "-", "Em", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y me diera fuerzas para seguir remando contra la tempestad."
+          },
+          {
+            "type": "chords",
+            "content": ["F", "-", "G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Pero sólo tú en mi obra conseguiste el papel principal."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F", "-", "G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "¿Por qué no pudiste ser como yo te había imaginado?"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "C/B", "Am", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["F", "-", "G", "-", "C", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "¿Por qué no supiste interpretar mi canción?"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chords",
+                "content": ["F", "C"]
+              },
+              {
+                "type": "lyric",
+                "content": "A pesar del mal"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chords",
+                "content": ["Dm", "Am"]
+              },
+              {
+                "type": "lyric",
+                "content": "que tú me quisiste dar."
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["F", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Descubrí que en tu piel, no había antes ni después."
+          },
+          {
+            "type": "chords",
+            "content": ["Dm", "Am", "C/B", "C", "G"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "BIS",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Dm", "F", "G", "Am"]
+          },
+          {
+            "type": "lyric",
+            "content": "Tantas noches sin dormir esperando tu llegar, pero sé que algún día volverás."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO BASE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "Em", "F", "G", "-", "C", "Em", "F", "G", "-", "C", "Em", "F", "G", "-", "C", "Em", "F", "G"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "OUTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "Em", "F", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Na na naa, Na na na naa."
+          },
+          {
+            "type": "chords",
+            "content": ["C", "Em", "F", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Na na naa, Na na na naa."
+          },
+          {
+            "type": "chords",
+            "content": ["C", "Em", "F", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Volverás..."
+          },
+          {
+            "type": "chords",
+            "content": ["C", "Em", "F", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "a mí, a mí, amor por favor..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO (FINAL)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F", "-", "G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "¿Por qué no pudiste ser como yo te había imaginado?"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "C/B", "Am", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["F", "-", "G", "-", "C", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "¿Por qué no supiste interpretar mi canción?"
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,447 @@
+{
+  "id": "queen-one-vision",
+  "title": "One Vision",
+  "artist": "Queen",
+  "originalKey": "C",
+  "tempo": "Fast",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "C/B", "C"]
+        },
+        {
+          "type": "chords",
+          "content": ["A#/A", "A#"]
+        },
+        {
+          "type": "chords",
+          "content": ["C/B", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "One man, one goal"
+        },
+        {
+          "type": "chords",
+          "content": ["G/B", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "One mission"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "C/B", "C"]
+        },
+        {
+          "type": "chords",
+          "content": ["A#/A", "A#"]
+        },
+        {
+          "type": "chords",
+          "content": ["C/B", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "One heart, one soul"
+        },
+        {
+          "type": "chords",
+          "content": ["G/B", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Just one solution"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "One flesh, one bone, one true religion"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "One voice, one hope, one real decision"
+        },
+        {
+          "type": "chords",
+          "content": ["A#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Wowowowo gimme one vision"
+        },
+        {
+          "type": "chords",
+          "content": ["G#5", "A5", "A#5", "B5"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "C/B", "C"]
+        },
+        {
+          "type": "chords",
+          "content": ["A#/A", "A#"]
+        },
+        {
+          "type": "chords",
+          "content": ["C/B", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "No wrong, no right"
+        },
+        {
+          "type": "chords",
+          "content": ["A#4"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm gonna tell you there's no black and no white"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "C/B", "C"]
+        },
+        {
+          "type": "chords",
+          "content": ["A#/A", "A#"]
+        },
+        {
+          "type": "chords",
+          "content": ["C/B", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "No blood, no stain"
+        },
+        {
+          "type": "chords",
+          "content": ["F/A", "A#", "F/A", "F", "A#", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "All we need is one worldwide vision"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "One flesh, one bone, one true religion"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "One race, one hope, one real decision"
+        },
+        {
+          "type": "chords",
+          "content": ["A#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Wowowowo oh yeah oh yeah oh yeah"
+        },
+        {
+          "type": "chords",
+          "content": ["G#5", "A5", "A#5", "B5"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BIS",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "F/A", "C/A#"]
+        },
+        {
+          "type": "lyric",
+          "content": "I had a dream when I was young"
+        },
+        {
+          "type": "chords",
+          "content": ["F/A"]
+        },
+        {
+          "type": "lyric",
+          "content": "A dream of sweet illusion"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "F/A"]
+        },
+        {
+          "type": "lyric",
+          "content": "A glimpse of hope and unity"
+        },
+        {
+          "type": "chords",
+          "content": ["C5/A#", "F/A"]
+        },
+        {
+          "type": "lyric",
+          "content": "And visions of one sweet union"
+        },
+        {
+          "type": "chords",
+          "content": ["G#"]
+        },
+        {
+          "type": "lyric",
+          "content": "But a cold wind blows"
+        },
+        {
+          "type": "chords",
+          "content": ["A#"]
+        },
+        {
+          "type": "lyric",
+          "content": "And a dark rain falls"
+        },
+        {
+          "type": "chords",
+          "content": ["G#"]
+        },
+        {
+          "type": "lyric",
+          "content": "And in my heart it shows"
+        },
+        {
+          "type": "chords",
+          "content": ["A#", "G#", "A#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Look what they've done to my dreams"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "G/B", "C", "F/A", "A#", "F/A", "A#"]
+        },
+        {
+          "type": "chords",
+          "content": ["G/B", "C", "G/B", "C"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BIS 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F/A", "A#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Give me your hands"
+        },
+        {
+          "type": "chords",
+          "content": ["F/A", "A#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Give me your hearts, I'm ready"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "G/B", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "There's only one direction"
+        },
+        {
+          "type": "chords",
+          "content": ["F/A", "A#"]
+        },
+        {
+          "type": "lyric",
+          "content": "One world, one nation"
+        },
+        {
+          "type": "chords",
+          "content": ["F/A", "A#", "G/B", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Yeah! One vision"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "No hate, no fight. Just excitation"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "All through the night. It's a celebration"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Wowowowo, yeah"
+        },
+        {
+          "type": "lyric",
+          "content": "One one one one - One vision"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "One flesh, one bone. One true religion"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "One race, one hope. One real decision."
+        },
+        {
+          "type": "chords",
+          "content": ["F/A", "A#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Give me one light (yeah)"
+        },
+        {
+          "type": "chords",
+          "content": ["F/A", "A#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Give me one hope (hey) Just give me."
+        },
+        {
+          "type": "chords",
+          "content": ["G5", "G#5", "A5", "A#5"]
+        },
+        {
+          "type": "lyric",
+          "content": "One man (one man)"
+        },
+        {
+          "type": "chords",
+          "content": ["G5", "G#5", "A5", "A#5"]
+        },
+        {
+          "type": "lyric",
+          "content": "One bar (one night)"
+        },
+        {
+          "type": "chords",
+          "content": ["G5", "G#5", "A5", "A#5"]
+        },
+        {
+          "type": "lyric",
+          "content": "One day (hey hey)"
+        },
+        {
+          "type": "chords",
+          "content": ["G5", "G#5", "A5", "A#5", "B5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Just gimme, gimme, gimme, gimme"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Fried chicken!"
+        },
+        {
+          "type": "lyric",
+          "content": "Vision, vision, vision, vision."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "id": "abba-gimme-gimme-gimme-a-man-after-midnight",
+  "title": "Gimme Gimme Gimme (A Man After Midnight)",
+  "artist": "ABBA",
+  "originalKey": "D",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Bm", "G/B", "A9", "Bm", "-", "G/B", "Bm", "A9", "Bm"]
+        },
+        {
+          "type": "text",
+          "content": "(Bm D F#m Bm) x2"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "E"
+            },
+            {
+              "type": "lyric",
+              "content": "Half past twelve"
+            },
+            {
+              "type": "lyric",
+              "content": "And I'm watching the late show in my flat all alone"
+            },
+            {
+              "type": "chord",
+              "content": "Bm"
+            },
+            {
+              "type": "lyric",
+              "content": "How I hate to spend the evening on my own"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "E"
+            },
+            {
+              "type": "lyric",
+              "content": "(Autumn winds)"
+            },
+            {
+              "type": "lyric",
+              "content": "Blowing outside my window as I look around the room"
+            },
+            {
+              "type": "chord",
+              "content": "Bm"
+            },
+            {
+              "type": "lyric",
+              "content": "And it makes me so depressed to see the gloom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G4", "E", "F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Is there a man out there?, someone to hear my prayer"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Bm", "G", "A", "Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "Gimme gimme gimme a man after midnight"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["G", "Bm", "A", "Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "Won't somebody help me chase the shadows away"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Bm", "G", "A", "Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "Gimme gimme gimme a man after midnight"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["G", "Bm", "A", "Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "Take me through the darkness to the break of the day"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "E"
+            },
+            {
+              "type": "lyric",
+              "content": "(Movie stars)"
+            },
+            {
+              "type": "lyric",
+              "content": "Find the end of the rainbow with a fortune to win"
+            },
+            {
+              "type": "chord",
+              "content": "Bm"
+            },
+            {
+              "type": "lyric",
+              "content": "It's so different from the world I'm living in"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "E"
+            },
+            {
+              "type": "lyric",
+              "content": "(Tired of T.V)"
+            },
+            {
+              "type": "lyric",
+              "content": "I open the window and I gaze into the night"
+            },
+            {
+              "type": "chord",
+              "content": "Bm"
+            },
+            {
+              "type": "lyric",
+              "content": "But there's nothing there to see, no one in sight"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G4", "E", "F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Is there a man out there?, someone to hear my prayer"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Bm", "G", "A", "Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "Gimme gimme gimme a man after midnight"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["G", "Bm", "A", "Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "Won't somebody help me chase the shadows away"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Bm", "G", "A", "Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "Gimme gimme gimme a man after midnight"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["G", "Bm", "A", "Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "Take me through the darkness to the break of the day"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Bm7"]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "D", "F#m", "Bm"]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "D", "F#m", "Bm"]
+        }
+      ]
+    }
+  ]
+}

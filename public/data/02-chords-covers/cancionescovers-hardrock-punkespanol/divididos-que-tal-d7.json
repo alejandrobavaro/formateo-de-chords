@@ -1,0 +1,415 @@
+{
+    "id": "divididos-que-tal-d7",
+    "title": "Que Tal",
+    "artist": "Divididos",
+    "originalKey": "D7",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D7"]
+          },
+          {
+            "type": "lyric",
+            "content": "¿Qué tal te fue?"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D7"
+          },
+          {
+            "type": "lyric",
+            "content": "La pilcha no te queda mal."
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D7"
+          },
+          {
+            "type": "lyric",
+            "content": "Te dan amor, ¿o qué?"
+          },
+          {
+            "type": "chord",
+            "content": "D7"
+          },
+          {
+            "type": "lyric",
+            "content": "Tarjeta, corte karma y pan."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D7"
+          },
+          {
+            "type": "lyric",
+            "content": "Si no hay humor, ¿cuál es?"
+          },
+          {
+            "type": "chord",
+            "content": "D7"
+          },
+          {
+            "type": "lyric",
+            "content": "Si Borges nunca fue bebé."
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D7"
+          },
+          {
+            "type": "lyric",
+            "content": "Si no hay pasión, ¿cuál es?"
+          },
+          {
+            "type": "chord",
+            "content": "D7"
+          },
+          {
+            "type": "lyric",
+            "content": "No hay filo, fútbol, drogas,"
+          },
+          {
+            "type": "chord",
+            "content": "D7"
+          },
+          {
+            "type": "lyric",
+            "content": "no hay sexo y poder."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "Y el amor se fue?"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "¿Qué tal te fue?"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["D7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Espero que te sientas bien."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D7"
+          },
+          {
+            "type": "lyric",
+            "content": "Te dan amor, ¿o qué?"
+          },
+          {
+            "type": "chord",
+            "content": "D7"
+          },
+          {
+            "type": "lyric",
+            "content": "Votar, cagar, llorar, pagar."
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D7"
+          },
+          {
+            "type": "lyric",
+            "content": "Si no hay canción, ¿cuál es?"
+          },
+          {
+            "type": "chord",
+            "content": "D7"
+          },
+          {
+            "type": "lyric",
+            "content": "El mundo sordo como un pie."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D7"
+          },
+          {
+            "type": "lyric",
+            "content": "Si hay perdón, ¿cuál es?"
+          },
+          {
+            "type": "chord",
+            "content": "D7"
+          },
+          {
+            "type": "lyric",
+            "content": "¡Saltar!, ¡saltar!, ¡saltar!, ¡saltar!"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "Y el amor se fue?"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "¿Qué tal te fue?"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO BAJO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D7"]
+          },
+          {
+            "type": "text",
+            "content": "(SOLO BAJO)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D7"
+          },
+          {
+            "type": "lyric",
+            "content": "¿Qué tal te fue?"
+          },
+          {
+            "type": "chord",
+            "content": "D7"
+          },
+          {
+            "type": "lyric",
+            "content": "Con el balazo estás mejor."
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D7"
+          },
+          {
+            "type": "lyric",
+            "content": "Te dan amor, ¿o qué?"
+          },
+          {
+            "type": "chord",
+            "content": "D7"
+          },
+          {
+            "type": "lyric",
+            "content": "Bar, vereda y alquitrán."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D7"
+          },
+          {
+            "type": "lyric",
+            "content": "Si no hay función, ¿cuál es?"
+          },
+          {
+            "type": "chord",
+            "content": "D7"
+          },
+          {
+            "type": "lyric",
+            "content": "El monstruo baila sin telos."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "Y el amor se fue?"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "¿Qué tal te fue?"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

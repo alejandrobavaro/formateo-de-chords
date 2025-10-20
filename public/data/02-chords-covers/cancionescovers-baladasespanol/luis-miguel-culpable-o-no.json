@@ -1,0 +1,420 @@
+{
+  "id": "luis-miguel-culpable-o-no",
+  "title": "Culpable o No",
+  "artist": "Luis Miguel",
+  "originalKey": "Am",
+  "tempo": "Moderate Bolero",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am", "Dm7", "G", "C", "F#m7(5-)", "F", "Bm5-", "E4", "E"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Am"},
+            {"type": "lyric", "content": "Precisamente ahora"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Que tú ya te has ido"},
+            {"type": "chord", "content": "Dm7"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "Dm7/C"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "G/B"},
+            {"type": "lyric", "content": "Me han dicho que"},
+            {"type": "chord", "content": "G/A"},
+            {"type": "lyric", "content": "Has estado engañándome"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G/B"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "Dm/B"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "E"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Am"},
+            {"type": "lyric", "content": "¿Por qué de pronto tienes"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Tantos enemigos?"},
+            {"type": "chord", "content": "Dm7"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "Dm7/C"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Bm7(5-)"},
+            {"type": "lyric", "content": "¿Por qué tengo que andar"},
+            {"type": "chord", "content": "E"},
+            {"type": "lyric", "content": "Disculpándote?"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA PARTE",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Am"},
+            {"type": "lyric", "content": "Si ellos están mintiendo"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Por favor defiéndete"},
+            {"type": "chord", "content": "Dm7"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "Dm7/C"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "G/B"},
+            {"type": "lyric", "content": "Yo sé que no lo harás"},
+            {"type": "chord", "content": "G/A"},
+            {"type": "lyric", "content": "Pues dicen la verdad"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G/B"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "Dm/B"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "E"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Am"},
+            {"type": "lyric", "content": "Es una pena siempre"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Seguirás doliéndome"},
+            {"type": "chord", "content": "Dm7"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "Dm7/C"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Bm7(5-)"},
+            {"type": "lyric", "content": "Y culpable o no"},
+            {"type": "chord", "content": "E7"},
+            {"type": "lyric", "content": "¿Qué le puedo hacer ya?"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Am"},
+            {"type": "lyric", "content": "Miénteme como siempre"},
+            {"type": "chord", "content": "Dm7"},
+            {"type": "lyric", "content": "Por favor miénteme"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "G7"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Necesito creerte"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "F"},
+            {"type": "lyric", "content": "Convénceme"},
+            {"type": "chord", "content": "Bm7(5-)"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "E"},
+            {"type": "lyric", "content": "Miénteme con un beso"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Am"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "Dm7"},
+            {"type": "lyric", "content": "Que parezca de amor"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G7"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Necesito quererte"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "F"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "Bb"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "E"},
+            {"type": "lyric", "content": "Culpable o no"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Dm7", "G", "C", "F#m7(5-)", "F", "Bm5-", "E4", "E"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA PARTE (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Am"},
+            {"type": "lyric", "content": "No tengo ya derecho"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "En reprocharte nada"},
+            {"type": "chord", "content": "Dm7"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "Dm7/C"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "G/B"},
+            {"type": "lyric", "content": "Pues nada queda ya de ti"},
+            {"type": "chord", "content": "G/A"},
+            {"type": "lyric", "content": "De mí, de ayer"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G/B"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "Dm/B"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "E"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Am"},
+            {"type": "lyric", "content": "Qué pena nuestra historia"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Pudo ser fantástica"},
+            {"type": "chord", "content": "Dm7"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "Dm7/C"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Bm7(5-)"},
+            {"type": "lyric", "content": "Ya hora dime mi amor"},
+            {"type": "chord", "content": "E7"},
+            {"type": "lyric", "content": "¿Quién te va a defender?"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 2 (MODULACIÓN)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "F"},
+            {"type": "lyric", "content": "Miénteme como siempre"},
+            {"type": "chord", "content": "Bbm"},
+            {"type": "lyric", "content": "Por favor miénteme"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Ab7"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "Db"},
+            {"type": "lyric", "content": "Necesito creerte"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Gb"},
+            {"type": "lyric", "content": "Convénceme"},
+            {"type": "chord", "content": "Cm7(5-)"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "F"},
+            {"type": "lyric", "content": "Miénteme con un beso"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Bbm"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "Ebm7"},
+            {"type": "lyric", "content": "Que parezca de amor"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Ab7"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "Db"},
+            {"type": "lyric", "content": "Necesito quererte"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Gb"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "B"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "F"},
+            {"type": "lyric", "content": "Culpable o no"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F", "Bbm", "Ebm7", "Ab7", "Db"]
+        },
+        {
+          "type": "chords",
+          "content": ["Gb", "Cm7(5-)", "F", "Bbm"]
+        },
+        {
+          "type": "chords",
+          "content": ["Ebm7", "Ab7", "Db"]
+        },
+        {
+          "type": "chords",
+          "content": ["Gb", "B", "F", "Bbm"]
+        }
+      ]
+    }
+  ]
+}

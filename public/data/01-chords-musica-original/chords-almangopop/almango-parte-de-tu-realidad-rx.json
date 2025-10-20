@@ -1,0 +1,393 @@
+{
+  "id": "almango-parte-de-tu-realidad-rx",
+  "title": "Parte de tu realidad RX",
+  "artist": "Almango",
+  "originalKey": "Gm",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D#", "Gm", "F", "A#", "A"]
+        },
+        {
+          "type": "chords",
+          "content": ["Gm", "D#", "Gm", "F", "A#", "A"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Gm"
+        },
+        {
+          "type": "lyric",
+          "content": "Bendita seas por darme todo tu amor,"
+        },
+        {
+          "type": "chord",
+          "content": "Cm"
+        },
+        {
+          "type": "lyric",
+          "content": "Y amansar a las fieras que hay en mi interior"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Gm"
+        },
+        {
+          "type": "lyric",
+          "content": "Tus bellos ojos me enseñaron a observar,"
+        },
+        {
+          "type": "chord",
+          "content": "Cm"
+        },
+        {
+          "type": "lyric",
+          "content": "Que no solo brilla el oro y siempre hay más que dar"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D#", "A#", "Cm", "Gm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Una vez fracasé pero sigo en pie."
+        },
+        {
+          "type": "chords",
+          "content": ["D#", "A#", "C", "D", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Y es tal vez lo que yo siempre soñé."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A#", "F", "Gm", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Quién te salvará el tiempo dirá,"
+        },
+        {
+          "type": "chords",
+          "content": ["D#", "Gm", "D#", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "No creas en lo que dicen los demás."
+        },
+        {
+          "type": "chords",
+          "content": ["A#", "F", "Gm", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "En algún lugar me podrás hallar,"
+        },
+        {
+          "type": "chords",
+          "content": ["D#", "F", "A#", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Soy parte de tu realidad. Let´s Go!"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTRO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Gm", "D#", "Gm", "F", "A#", "A"]
+        },
+        {
+          "type": "chords",
+          "content": ["Gm", "D#", "Gm", "F", "A#", "A"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Gm"
+        },
+        {
+          "type": "lyric",
+          "content": "Y si las sombras me llegaran a gustar,"
+        },
+        {
+          "type": "chord",
+          "content": "Cm"
+        },
+        {
+          "type": "lyric",
+          "content": "no es lo que piensas, es lo demás."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Gm"
+        },
+        {
+          "type": "lyric",
+          "content": "Me dicen (Me dicen), y me atrapan"
+        },
+        {
+          "type": "chord",
+          "content": "Cm"
+        },
+        {
+          "type": "lyric",
+          "content": "(Me atrapan) y no lo puedo hallar"
+        },
+        {
+          "type": "chord",
+          "content": "A#"
+        },
+        {
+          "type": "lyric",
+          "content": "Pero yo sé."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D#", "A#", "Cm", "Gm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Una vez fracasé pero sigo en pie."
+        },
+        {
+          "type": "chords",
+          "content": ["D#", "A#", "C", "D", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Y es tal vez lo que yo siempre soñé."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A#", "F", "Gm", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Quién te salvará el tiempo dirá,"
+        },
+        {
+          "type": "chords",
+          "content": ["D#", "Gm", "D#", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "No creas en lo que dicen los demás."
+        },
+        {
+          "type": "chords",
+          "content": ["A#", "F", "Gm", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "En algún lugar me podrás hallar,"
+        },
+        {
+          "type": "chords",
+          "content": ["D#", "F", "A#", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Soy parte de tu realidad."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BIS",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tras un velo que no existe,"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "te escondiste ayer de mí."
+        },
+        {
+          "type": "chords",
+          "content": ["D#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Pero resulto muy tarde,"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Yo ya estoy aquí."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A#", "F", "Gm", "Dm"]
+        },
+        {
+          "type": "chords",
+          "content": ["D#", "Gm", "D#", "F"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A#", "F", "Gm", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "En algún lugar me podrás hallar,"
+        },
+        {
+          "type": "chords",
+          "content": ["D#", "F", "A#", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Soy parte de tu realidad."
+        },
+        {
+          "type": "chords",
+          "content": ["D#", "F", "A#", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Soy parte de tu realidad."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D#", "F", "Gm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Soy parte de tu… Realidad…"
+        }
+      ]
+    }
+  ]
+}

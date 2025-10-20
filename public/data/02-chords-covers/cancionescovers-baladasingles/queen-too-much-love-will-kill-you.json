@@ -1,0 +1,429 @@
+{
+  "id": "queen-too-much-love-will-kill-you",
+  "title": "Too Much Love Will Kill You",
+  "artist": "Queen",
+  "originalKey": "D",
+  "tempo": "Slow",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRODUCCIÓN",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D", "A/C#"]
+        },
+        {
+          "type": "chords",
+          "content": ["G9", "A/C#"]
+        },
+        {
+          "type": "chords",
+          "content": ["D", "A/C#"]
+        },
+        {
+          "type": "chords",
+          "content": ["G9", "A/C#"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A/C#", "D", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm just the pieces of the man I used to be"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "A/C#"]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Too many bitter tears are raining down on me"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D/F#"]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm far away from home"
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "Bm", "A", "A4", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "And I've been facing this alone for much too long"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh, I feel like no-one ever told the truth to me"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "A/C#"]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "About growing up and what a struggle it would be"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D/F#"]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "In my tangled state of mind"
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "Bm", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "I've been looking back to find where I went wrong"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Too much love will kill you"
+            },
+            {
+              "type": "chord",
+              "content": "G9"
+            },
+            {
+              "type": "lyric",
+              "content": "If you can't make up your mind"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Bm7"
+            },
+            {
+              "type": "lyric",
+              "content": "Torn between the lover and the love you leave behind"
+            },
+            {
+              "type": "chord",
+              "content": "A"
+            },
+            {
+              "type": "lyric",
+              "content": "You're headed for disaster"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["D/F#", "G9"]
+        },
+        {
+          "type": "lyric",
+          "content": "'Cos you never read the signs"
+        },
+        {
+          "type": "chords",
+          "content": ["A9", "G#dim", "D", "G/D", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Too much love will kill you every time"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "TERCERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A/C#", "D", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm just the shadow of the man I used to be"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "A/C#"]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "And it seems like there's no way out of this for me"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D/F#"]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "I used to bring you sunshine"
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "Bm", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Now all I ever do is bring you down, oooh"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CUARTA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "How would it be if you were standing in my shoes"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "A/C#"]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Can't you see that it's impossible to choose"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D/F#"]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "No there's no making sense of it"
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "Bm", "A", "A4", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Every way I go I'm bound to lose, oh yeah"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D", "G9"]
+        },
+        {
+          "type": "lyric",
+          "content": "Too much love will kill you"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Just as sure as none at all"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "G9"]
+        },
+        {
+          "type": "lyric",
+          "content": "It'll drain the power that's in you"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Make you plead and scream and crawl"
+        },
+        {
+          "type": "chords",
+          "content": ["D/F#", "G9"]
+        },
+        {
+          "type": "lyric",
+          "content": "And the pain will make you crazy"
+        },
+        {
+          "type": "chords",
+          "content": ["A9", "G#dim", "D", "G/D", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "You're the victim of your crime"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "G/D", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Too much love will kill you every time"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D", "G9"]
+        },
+        {
+          "type": "lyric",
+          "content": "Yeah too much love will kill you"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "It'll make your life a lie"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "G9"]
+        },
+        {
+          "type": "lyric",
+          "content": "Yes too much love will kill you"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "And you won't understand why"
+        },
+        {
+          "type": "chords",
+          "content": ["D/F#", "G9"]
+        },
+        {
+          "type": "lyric",
+          "content": "You'd give your life you'd sell your soul"
+        },
+        {
+          "type": "chords",
+          "content": ["A9", "G#dim"]
+        },
+        {
+          "type": "lyric",
+          "content": "But here it comes again"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "G/D", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Too much love will kill you in the end"
+        }
+      ]
+    }
+  ]
+}

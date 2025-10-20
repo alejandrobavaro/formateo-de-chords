@@ -1,0 +1,204 @@
+{
+  "id": "luis-miguel-la-incondicional",
+  "title": "La Incondicional",
+  "artist": "Luis Miguel",
+  "originalKey": "C",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "G", "Bb", "F", "C"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Tu, la misma siempre tu"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Amistad, ternura que sé yo"},
+            {"type": "chord", "content": "F"},
+            {"type": "lyric", "content": "Tu, mi sombra has sido tu"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "La historia de un amor"},
+            {"type": "chord", "content": "Dm"},
+            {"type": "lyric", "content": "Que no fue nada"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Tu, mi eternamente tu"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Un hotel, tu cuerpo y un adiós"},
+            {"type": "chord", "content": "F"},
+            {"type": "lyric", "content": "Tu, mi oculta amiga tu"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Un golpe de pasión"},
+            {"type": "chord", "content": "Dm"},
+            {"type": "lyric", "content": "Amor de madrugada"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Am"},
+            {"type": "lyric", "content": "No existe un lazo entre tu y yo"},
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "Nada de amores, nada de nada"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "F"},
+            {"type": "lyric", "content": "No hubo promesas"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Ni juramentos"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Nada de nada"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA PARTE",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Tu, la misma de ayer, la incondicional"},
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "La que no espera nada"},
+            {"type": "chord", "content": "F"},
+            {"type": "lyric", "content": "Tu, la misma de ayer, la que no supe amar"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "No sé por qué"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Tu, intensamente tu"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Soledad, cariño yo que sé"},
+            {"type": "chord", "content": "F"},
+            {"type": "lyric", "content": "Tu, mis horas bajas tu"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Un cuerpo de mujer"},
+            {"type": "chord", "content": "Dm"},
+            {"type": "lyric", "content": "Un par de rosas blancas"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Am"},
+            {"type": "lyric", "content": "No existe un lazo entre tu y yo"},
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "Nada de amores, nada de nada"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "F"},
+            {"type": "lyric", "content": "No hubo promesas"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Ni juramentos"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Nada de nada"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D", "F#m", "G", "A"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "lyric", "content": "Tu, la misma de ayer, la incondicional"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "La que no espera nada"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "Tu, la misma de ayer, la que no supe amar"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "No sé por qué"}
+          ]
+        }
+      ]
+    }
+  ]
+}

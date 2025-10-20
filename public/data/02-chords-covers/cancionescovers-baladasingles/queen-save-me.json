@@ -1,0 +1,324 @@
+{
+  "id": "queen-save-me",
+  "title": "Save Me",
+  "artist": "Queen",
+  "originalKey": "E",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "B/D#", "C#m", "B/D#", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "It started off so well"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "E/G#", "F#m", "E/G#"]
+        },
+        {
+          "type": "lyric",
+          "content": "They said we made a perfect pair"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "B", "B4", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "I clothed myself in your glory"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "And your love"
+        },
+        {
+          "type": "chords",
+          "content": ["E/G#", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "How I loved you"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "E", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "How I cried"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F#m", "E", "A", "E/G#"]
+        },
+        {
+          "type": "lyric",
+          "content": "The years of care and loyalty"
+        },
+        {
+          "type": "chords",
+          "content": ["F#m", "A", "E", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Were nothing but a sham it seems"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "B", "B4", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "The years belie we lived a lie"
+        },
+        {
+          "type": "chords",
+          "content": ["E/G#", "E", "A", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "I love you till I die"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CORO",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "B"
+            },
+            {
+              "type": "lyric",
+              "content": "Save me, save me, save me"
+            },
+            {
+              "type": "chord",
+              "content": "F#/A#"
+            },
+            {
+              "type": "lyric",
+              "content": "I can't face this life alone"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "E/G#"
+            },
+            {
+              "type": "lyric",
+              "content": "Save me, save me, save me"
+            },
+            {
+              "type": "chord",
+              "content": "B/A"
+            },
+            {
+              "type": "lyric",
+              "content": "I'm naked and I'm far from home"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "TERCERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "B/D#", "C#m", "B/D#", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "The slate will soon be clean"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "E/G#", "F#m", "E/G#"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'll erase the memories"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "B", "B4", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "To start again with somebody new"
+        },
+        {
+          "type": "chords",
+          "content": ["E/G#", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Was it all wasted"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "E", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "All that love?"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CUARTA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F#m", "E/G#", "A", "E/G#"]
+        },
+        {
+          "type": "lyric",
+          "content": "I hang my head and I advertise"
+        },
+        {
+          "type": "chords",
+          "content": ["F#m", "A", "E", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "A soul for sale or rent"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "B", "B4", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "I have no heart I'm cold inside"
+        },
+        {
+          "type": "chords",
+          "content": ["E/G#", "E", "A", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "I have no real intent"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CORO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["B", "F#/A#", "E/G#", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Save me, save me, save me"
+        },
+        {
+          "type": "chords",
+          "content": ["B", "C#", "F#", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "I can't face this life alone"
+        },
+        {
+          "type": "chords",
+          "content": ["B", "F#/A#", "B/A", "E/G#", "Em/G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Save me, save me, oohhh"
+        },
+        {
+          "type": "chords",
+          "content": ["B", "A", "E", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm naked and I'm far from home"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Each night I cry"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "I still believe the lie"
+        },
+        {
+          "type": "chords",
+          "content": ["E/G#", "E", "A", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "I love you till I die, yeah"
+        }
+      ]
+    }
+  ]
+}

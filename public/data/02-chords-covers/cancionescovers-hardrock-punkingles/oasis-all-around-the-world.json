@@ -1,0 +1,523 @@
+{
+    "id": "oasis-all-around-the-world",
+    "title": "All Around The World",
+    "artist": "Oasis",
+    "originalKey": "G",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "D", "C", "Em", "D"]
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D", "C", "Em", "D"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRIMERA PARTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "It's a bit early in the midnight hour for me"
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "To go through all the things that I want to be"
+          },
+          {
+            "type": "chords",
+            "content": ["C"]
+          },
+          {
+            "type": "lyric",
+            "content": "I don't believe in everything I see"
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "You know I'm blind so why do you disagree"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PUENTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "So take me away, 'cause I just don't want to stay"
+          },
+          {
+            "type": "chords",
+            "content": ["Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "And the lies you make me say are getting deeper everyday"
+          },
+          {
+            "type": "chords",
+            "content": ["D#"]
+          },
+          {
+            "type": "lyric",
+            "content": "These are crazy days and they make me shine"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "C", "D", "C#maj7", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Time keeps rolling by"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "All around the world, you've got to spread the word"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "Tell them what you heard, we're gonna make a better day"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "All around the world, you've got to spread the word"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Tell them what you heard, you know it's gonna be OK"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SEGUNDA PARTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "So what you gonna do when the wall comes falling down"
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "You never move, you never make a sound"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "Em", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "So where you gonna swim with the riches that you found?"
+          },
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "If you're lost at sea, I hope that you've drowned"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "Em", "D"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PUENTE (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "So take me away, 'cause I just don't want to stay"
+          },
+          {
+            "type": "chords",
+            "content": ["Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "And the lies you make me say are getting deeper everyday"
+          },
+          {
+            "type": "chords",
+            "content": ["D#"]
+          },
+          {
+            "type": "lyric",
+            "content": "These are crazy days and they make me shine"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "C", "D", "C#maj7", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Time keeps rolling by"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "All around the world, you've got to spread the word"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "Tell them what you heard, we're gonna make a better day"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "All around the world, you've got to spread the word"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Tell them what you heard, you know it's gonna be OK"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "CORO INTERMEDIO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D#", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "NaaNaaaNaaNaaa Naaaaaaaaaaaaaaaaa"
+          },
+          {
+            "type": "chords",
+            "content": ["D#", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "NaaNaaaNaaNaaa Naaaaaaaaaaaaaaaaa"
+          },
+          {
+            "type": "chords",
+            "content": ["D#", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "NaaNaaaNaaNaaa Naaaaaaaaaaaaaaaaa"
+          },
+          {
+            "type": "chords",
+            "content": ["D#", "D#"]
+          },
+          {
+            "type": "lyric",
+            "content": "NaaNaaaNaaNaaa NaaNaaaNaaNaaa"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G#"]
+          },
+          {
+            "type": "lyric",
+            "content": "All around the world, you've got to spread the word"
+          },
+          {
+            "type": "chords",
+            "content": ["A#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Tell them what you heard, we're gonna make a better day"
+          },
+          {
+            "type": "chords",
+            "content": ["C#maj7"]
+          },
+          {
+            "type": "lyric",
+            "content": "All around the world, you've got to spread the word"
+          },
+          {
+            "type": "chords",
+            "content": ["G#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Tell them what you heard, you know it's gonna be OK"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "OUTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F", "D#"]
+          },
+          {
+            "type": "lyric",
+            "content": "It's gonna be OK"
+          },
+          {
+            "type": "chords",
+            "content": ["F", "D#"]
+          },
+          {
+            "type": "lyric",
+            "content": "It's gonna be OK"
+          },
+          {
+            "type": "chords",
+            "content": ["F", "D#"]
+          },
+          {
+            "type": "lyric",
+            "content": "It's gonna be OK"
+          },
+          {
+            "type": "chords",
+            "content": ["F", "F"]
+          },
+          {
+            "type": "lyric",
+            "content": "It's gonna be OK"
+          },
+          {
+            "type": "chords",
+            "content": ["A#"]
+          },
+          {
+            "type": "lyric",
+            "content": "All around the world, you've got to spread the word"
+          },
+          {
+            "type": "chords",
+            "content": ["C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Tell them what you heard, we're gonna make a better day"
+          },
+          {
+            "type": "chords",
+            "content": ["A#"]
+          },
+          {
+            "type": "lyric",
+            "content": "All around the world, you've got to spread the word"
+          },
+          {
+            "type": "chords",
+            "content": ["D#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Tell them what you heard, you know it's gonna be OK"
+          },
+          {
+            "type": "chords",
+            "content": ["A#"]
+          },
+          {
+            "type": "lyric",
+            "content": "And I know what I know"
+          },
+          {
+            "type": "chords",
+            "content": ["C"]
+          },
+          {
+            "type": "lyric",
+            "content": "What I know what I know"
+          },
+          {
+            "type": "chords",
+            "content": ["D#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Yeah! I know what I know"
+          },
+          {
+            "type": "chords",
+            "content": ["A#"]
+          },
+          {
+            "type": "lyric",
+            "content": "It's gonna be OK"
+          },
+          {
+            "type": "lyric",
+            "content": "Yeah! I know what I know"
+          },
+          {
+            "type": "lyric",
+            "content": "And I know what I know"
+          },
+          {
+            "type": "lyric",
+            "content": "Yeah! I know what I know"
+          },
+          {
+            "type": "lyric",
+            "content": "Please don't cry, never say die"
+          },
+          {
+            "type": "lyric",
+            "content": "So please don't cry, never say die"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A#", "C", "D#", "A#"]
+          }
+        ]
+      }
+    ]
+  }
+  

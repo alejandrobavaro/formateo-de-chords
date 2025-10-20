@@ -1,0 +1,856 @@
+{
+  "id": "alejandro-sanz-corazon-partio",
+  "title": "Corazón Partío",
+  "artist": "Alejandro Sanz",
+  "originalKey": "D",
+  "tempo": "Moderate (Balada)",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D", "Em", "A", "D"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTRO LETRA",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": "Tiritas pa' este corazón partí'o"
+        },
+        {
+          "type": "text",
+          "content": "(Tiri-Tiri-Tirititando de frío)"
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "lyric",
+          "content": "Tiritas pa' este corazón partí'o"
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": "(Pa' este corazón)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": "Ya lo ves, que no hay dos, sin tres"
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "Que la vida va y viene"
+        },
+        {
+          "type": "chord",
+          "content": "G#m7(5-)"
+        },
+        {
+          "type": "lyric",
+          "content": "Y que no se detiene, y qué sé yo"
+        },
+        {
+          "type": "chord",
+          "content": "F#m"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "Pero miénteme aunque sea"
+        },
+        {
+          "type": "chord",
+          "content": "A7"
+        },
+        {
+          "type": "lyric",
+          "content": "Dime que algo queda entre nosotros dos"
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": "Que en tu habitación, nunca sale el sol"
+        },
+        {
+          "type": "chord",
+          "content": "G#m7(5-)"
+        },
+        {
+          "type": "lyric",
+          "content": "Ni existe el tiempo, ni el dolor"
+        },
+        {
+          "type": "chord",
+          "content": "F#m"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "Llévame, si quieres, a perder"
+        },
+        {
+          "type": "chord",
+          "content": "A7"
+        },
+        {
+          "type": "lyric",
+          "content": "A ningún destino, sin ningún porque"
+        },
+        {
+          "type": "chord",
+          "content": "F#m"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "B7"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA PARTE",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": "¿Ya lo sé? Que corazón que no ve"
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "Es corazón que no siente"
+        },
+        {
+          "type": "chord",
+          "content": "G#m7(5-)"
+        },
+        {
+          "type": "lyric",
+          "content": "O corazón que te miente, amor"
+        },
+        {
+          "type": "chord",
+          "content": "F#m"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "Pero sabes que en lo más profundo"
+        },
+        {
+          "type": "chord",
+          "content": "A7"
+        },
+        {
+          "type": "lyric",
+          "content": "De mi alma sigue aquel dolor"
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": "Por creer en ti, ¿qué fue de la ilusión"
+        },
+        {
+          "type": "chord",
+          "content": "G#m7(5-)"
+        },
+        {
+          "type": "lyric",
+          "content": "Y de lo bello que es vivir?"
+        },
+        {
+          "type": "chord",
+          "content": "F#m"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "¿Para qué me curaste"
+        },
+        {
+          "type": "chord",
+          "content": "A7"
+        },
+        {
+          "type": "lyric",
+          "content": "Cuando estaba herido"
+        },
+        {
+          "type": "chord",
+          "content": "F#m"
+        },
+        {
+          "type": "lyric",
+          "content": "Si hoy me dejas de nuevo"
+        },
+        {
+          "type": "chord",
+          "content": "B7"
+        },
+        {
+          "type": "lyric",
+          "content": "El corazón partío?"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Em"
+            },
+            {
+              "type": "lyric",
+              "content": "¿Y quién me va a entregar sus emociones?"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "A7"
+            },
+            {
+              "type": "lyric",
+              "content": "¿Quién me va a pedir que nunca le abandone?"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F#m"
+            },
+            {
+              "type": "lyric",
+              "content": "¿Quién me tapará esta noche si hace frío?"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "B7"
+            },
+            {
+              "type": "lyric",
+              "content": "¿Quién me va a curar el corazón partío?"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Em"
+            },
+            {
+              "type": "lyric",
+              "content": "¿Quién llenará de primaveras este enero"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "A7"
+            },
+            {
+              "type": "lyric",
+              "content": "Y bajará la luna para que juguemos?"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F#m"
+            },
+            {
+              "type": "lyric",
+              "content": "Dime, si tú te vas, dime, cariño mío"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "B7"
+            },
+            {
+              "type": "lyric",
+              "content": "¿Quién me va a curar el corazón partío?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PUENTE",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": "Tiritas pa' este corazón partí'o"
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "(Pa' este corazón partí'o)"
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "lyric",
+          "content": "Tiritas pa' este corazón partí'o"
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "TERCERA PARTE",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": "Dar solamente aquello que te sobra"
+        },
+        {
+          "type": "chord",
+          "content": "G#m7(5-)"
+        },
+        {
+          "type": "lyric",
+          "content": "Nunca fue copartir, sino dar limosna, amor"
+        },
+        {
+          "type": "chord",
+          "content": "F#m"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "Si no lo sabes tú"
+        },
+        {
+          "type": "chord",
+          "content": "A7"
+        },
+        {
+          "type": "lyric",
+          "content": "Te lo digo yo"
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": "Después de la tormenta"
+        },
+        {
+          "type": "chord",
+          "content": "D5+"
+        },
+        {
+          "type": "lyric",
+          "content": "Siempre llega la calma"
+        },
+        {
+          "type": "chord",
+          "content": "D6"
+        },
+        {
+          "type": "lyric",
+          "content": "Pero, sé que después de ti"
+        },
+        {
+          "type": "chord",
+          "content": "G#m7(5-)"
+        },
+        {
+          "type": "lyric",
+          "content": "Después de ti no hay nada"
+        },
+        {
+          "type": "chord",
+          "content": "F#m"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "¿Para qué me curaste"
+        },
+        {
+          "type": "chord",
+          "content": "A7"
+        },
+        {
+          "type": "lyric",
+          "content": "Cuando estaba herido"
+        },
+        {
+          "type": "chord",
+          "content": "F#m"
+        },
+        {
+          "type": "lyric",
+          "content": "Si hoy me dejas de nuevo"
+        },
+        {
+          "type": "chord",
+          "content": "B7"
+        },
+        {
+          "type": "lyric",
+          "content": "El corazón partío?"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Em", "A7", "F#m"]
+        },
+        {
+          "type": "chords",
+          "content": ["B7", "Em", "A7"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Em"
+            },
+            {
+              "type": "lyric",
+              "content": "¿Y quién me va a entregar sus emociones?"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "A7"
+            },
+            {
+              "type": "lyric",
+              "content": "¿Quién me va a pedir que nunca le abandone?"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F#m"
+            },
+            {
+              "type": "lyric",
+              "content": "¿Quién me tapará esta noche si hace frío?"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "B7"
+            },
+            {
+              "type": "lyric",
+              "content": "¿Quién me va a curar el corazón partío?"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Em"
+            },
+            {
+              "type": "lyric",
+              "content": "¿Quién llenará de primaveras este enero"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "A7"
+            },
+            {
+              "type": "lyric",
+              "content": "Y bajará la luna para que juguemos?"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F#m"
+            },
+            {
+              "type": "lyric",
+              "content": "Dime, si tú te vas, dime, cariño mío"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "B7"
+            },
+            {
+              "type": "lyric",
+              "content": "¿Quién me va a curar el corazón partío?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL (TONO SUBIDO)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "D", "C#7", "G"]
+        },
+        {
+          "type": "chords",
+          "content": ["F#m7", "E", "A", "G#7"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F#m"
+            },
+            {
+              "type": "lyric",
+              "content": "¿Y quién me va a entregar sus emociones?"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "B7"
+            },
+            {
+              "type": "lyric",
+              "content": "¿Quién me va a pedir que nunca le abandone?"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G#m"
+            },
+            {
+              "type": "lyric",
+              "content": "¿Quién me tapará esta noche si hace frío?"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "C#7"
+            },
+            {
+              "type": "lyric",
+              "content": "¿Quién me va a curar el corazón partío?"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F#m"
+            },
+            {
+              "type": "lyric",
+              "content": "¿Quién llenará de primaveras este enero"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "B7"
+            },
+            {
+              "type": "lyric",
+              "content": "Y bajará la luna para que juguemos?"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G#m"
+            },
+            {
+              "type": "lyric",
+              "content": "Dime, si tú te vas, dime, cariño mío"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "C#7"
+            },
+            {
+              "type": "lyric",
+              "content": "¿Quién me va a curar el corazón partío?"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

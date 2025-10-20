@@ -1,0 +1,466 @@
+{
+  "id": "queen-somebody-to-love",
+  "title": "Somebody To Love",
+  "artist": "Queen",
+  "originalKey": "E",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "B/D#", "C#m", "A9", "B4(7)"]
+        },
+        {
+          "type": "lyric",
+          "content": "Can anybody find me"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "A/G#", "B7", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Somebody to love?"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "B/D#", "C#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "Each morning I get up I die a little"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "F#7", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Can barely stand on my feet"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "B/D#", "C#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "Take a look in the mirror and cry"
+        },
+        {
+          "type": "chords",
+          "content": ["F#7", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Lord what you're doing to me"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "I have spent"
+        },
+        {
+          "type": "chords",
+          "content": ["F#7", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "All my years in believing you"
+        },
+        {
+          "type": "chords",
+          "content": ["B", "F#7", "B7", "A9"]
+        },
+        {
+          "type": "lyric",
+          "content": "But I just can't get no relief, Lord"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "E"
+            },
+            {
+              "type": "lyric",
+              "content": "Somebody, ooh somebody"
+            },
+            {
+              "type": "chord",
+              "content": "E"
+            },
+            {
+              "type": "lyric",
+              "content": "Can anybody find me"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "B/D#"
+            },
+            {
+              "type": "lyric",
+              "content": "Somebody to love?"
+            },
+            {
+              "type": "chord",
+              "content": "C#m"
+            },
+            {
+              "type": "lyric",
+              "content": "Somebody to love?"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["A9", "B4(7)", "E", "B/D#", "C#m", "A", "B"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "B/D#", "C#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "I work hard every day of my life"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "F#7", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "I work till I ache my bones"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "B/D#", "C#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "At the end of the day"
+        },
+        {
+          "type": "chords",
+          "content": ["F#7", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "I take home my hard earned pay all on my own"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "F#7"]
+        },
+        {
+          "type": "lyric",
+          "content": "I get down on my knees"
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": "And I start to pray"
+        },
+        {
+          "type": "chords",
+          "content": ["B", "F#7", "B7", "A9"]
+        },
+        {
+          "type": "lyric",
+          "content": "Till the tears run down from my eyes, Lord"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Somebody (somebody) ooh somebody"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "B/D#", "C#m", "A9"]
+        },
+        {
+          "type": "lyric",
+          "content": "Can anybody find me"
+        },
+        {
+          "type": "chords",
+          "content": ["B4(7)", "E", "B/D#", "C#m", "A", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Somebody to love?"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "TERCERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "(He works hard) Everyday (Everyday)"
+        },
+        {
+          "type": "chords",
+          "content": ["A7"]
+        },
+        {
+          "type": "lyric",
+          "content": "I try and I try and I try"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "But everybody wants to put me down"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "They say I'm goin' crazy"
+        },
+        {
+          "type": "chords",
+          "content": ["F#7"]
+        },
+        {
+          "type": "lyric",
+          "content": "They say I got a lot of water in my brain, got no common sense"
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": "I got nobody left to believe"
+        },
+        {
+          "type": "chords",
+          "content": ["B4"]
+        },
+        {
+          "type": "lyric",
+          "content": "Yeah - yeah yeah yeah"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "B/D#", "C#m", "E", "F#7", "B"]
+        },
+        {
+          "type": "chords",
+          "content": ["E", "B/D#", "C#m", "F#7", "B"]
+        },
+        {
+          "type": "chords",
+          "content": ["E", "F#7", "B"]
+        },
+        {
+          "type": "chords",
+          "content": ["B", "F#7", "B7", "A9"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CUARTA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Find me somebody to love"
+        },
+        {
+          "type": "lyric",
+          "content": "Find me somebody to love"
+        },
+        {
+          "type": "lyric",
+          "content": "Find me somebody to love"
+        },
+        {
+          "type": "lyric",
+          "content": "Find me somebody to love"
+        },
+        {
+          "type": "lyric",
+          "content": "Find me somebody to love"
+        },
+        {
+          "type": "lyric",
+          "content": "Find me somebody to love"
+        },
+        {
+          "type": "lyric",
+          "content": "Find me somebody to love"
+        },
+        {
+          "type": "lyric",
+          "content": "Find me somebody to love love love"
+        },
+        {
+          "type": "lyric",
+          "content": "Find me somebody to love"
+        },
+        {
+          "type": "lyric",
+          "content": "Find me somebody to love"
+        },
+        {
+          "type": "lyric",
+          "content": "Somebody somebody somebody somebody"
+        },
+        {
+          "type": "lyric",
+          "content": "Somebody find me"
+        },
+        {
+          "type": "lyric",
+          "content": "Somebody find me somebody to love"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "B/D#", "C#m", "A9", "B4(7)"]
+        },
+        {
+          "type": "lyric",
+          "content": "Can anybody find me"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Somebody to love"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "B/D#", "C#m", "A", "B", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Find me somebody to love"
+        },
+        {
+          "type": "chords",
+          "content": ["B/D#", "C#m", "A", "B", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Find me somebody to love"
+        },
+        {
+          "type": "chords",
+          "content": ["B/D#", "C#m", "A", "B", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Find me somebody to love"
+        },
+        {
+          "type": "chords",
+          "content": ["B/D#", "C#m", "A", "B", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Find me somebody to love"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,401 @@
+{
+  "id": "almango-entregare-mi-corazon",
+  "title": "Entregaré mi Corazón",
+  "artist": "Almango",
+  "originalKey": "C",
+  "tempo": "Pop-Rock (120 BPM)",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "F"]
+        },
+        {
+          "type": "text",
+          "content": "(4 veces)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTROFA 1 (ESPAÑOL)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Am"},
+            {"type": "lyric", "content": "Si vivo, lucho y doy amor,"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "F"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Siempre seré un gran campeón."},
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Am"},
+            {"type": "lyric", "content": "Estoy aquí para ganar"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "F"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "y entregarte mi corazón! Sa!"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "lyric", "content": "Oh oh oh oh oh oh oh!"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "lyric", "content": "Oh oh oh oh oh oh oh!"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Oh oh oh oh oh oh oh!"},
+            {"type": "chord", "content": "F"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "Am"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Oh oh oh oh oh oh oh!"},
+            {"type": "chord", "content": "F"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Entregaré mi corazón…"},
+            {"type": "chord", "content": "F"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTROFA 2 (INGLÉS)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Am"},
+            {"type": "lyric", "content": "You live, you fight, you are giving love"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "F"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "and life is gonna give you a wish."},
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Am"},
+            {"type": "lyric", "content": "I'm not here only to win this cup"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "F"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "I'm here to give you my heart. Sa!"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "lyric", "content": "Oh oh oh oh oh oh oh!"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "lyric", "content": "Oh oh oh oh oh oh oh!"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Oh oh oh oh oh oh oh!"},
+            {"type": "chord", "content": "F"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "Am"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Oh oh oh oh oh oh oh!"},
+            {"type": "chord", "content": "F"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Entregaré mi corazón…"},
+            {"type": "chord", "content": "F"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTRO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "F"]
+        },
+        {
+          "type": "text",
+          "content": "(4 veces)"
+        },
+        {
+          "type": "chord",
+          "content": ["C"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "lyric", "content": "Oh oh oh oh oh oh oh!"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "lyric", "content": "Oh oh oh oh oh oh oh!"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Oh oh oh oh oh oh oh!"},
+            {"type": "chord", "content": "F"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "Am"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Oh oh oh oh oh oh oh!"},
+            {"type": "chord", "content": "F"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Entregaré mi corazón…"},
+            {"type": "chord", "content": "F"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    }
+  ]
+}

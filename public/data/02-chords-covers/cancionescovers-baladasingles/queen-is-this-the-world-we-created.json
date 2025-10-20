@@ -1,0 +1,268 @@
+{
+  "id": "queen-is-this-the-world-we-created",
+  "title": "Is This The World We Created",
+  "artist": "Queen",
+  "originalKey": "C",
+  "tempo": "Slow",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "G/C", "C7", "F/C", "Ab", "Fm7", "C/E"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA ESTROFA",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Just look at all those hungry mouths we have to feed"
+        },
+        {
+          "type": "chords",
+          "content": ["Em7", "Dm7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Take a look at all the suffering we breed"
+        },
+        {
+          "type": "chords",
+          "content": ["G7", "C/E", "G", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "So many lonely faces scattered all around"
+        },
+        {
+          "type": "chords",
+          "content": ["C/E", "F", "Dm7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Searching for what they need"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CORO",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "Is this the world we created...?"
+            },
+            {
+              "type": "chord",
+              "content": "G/C"
+            },
+            {
+              "type": "lyric",
+              "content": "What did we do it for?"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "Is this the world we invaded?"
+            },
+            {
+              "type": "chord",
+              "content": "Asus2"
+            },
+            {
+              "type": "lyric",
+              "content": "Against the law"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "So it seems in the end"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "G/C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Is this what we'd all living for today?"
+        },
+        {
+          "type": "chords",
+          "content": ["C7", "F/C", "Ab"]
+        },
+        {
+          "type": "lyric",
+          "content": "The world that we created"
+        },
+        {
+          "type": "chords",
+          "content": ["Fm7", "C/E"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA ESTROFA",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "You know that every day a helpless child is born"
+        },
+        {
+          "type": "chords",
+          "content": ["Em7", "Dm7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Who needs some loving care inside a happy home"
+        },
+        {
+          "type": "chords",
+          "content": ["G7", "C/E", "G", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Somewhere a wealthy man is sitting on his throne"
+        },
+        {
+          "type": "chords",
+          "content": ["C/E", "F", "Dm7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Waiting for life to go by"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CORO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "Is this the world we created...?"
+            },
+            {
+              "type": "chord",
+              "content": "G/C"
+            },
+            {
+              "type": "lyric",
+              "content": "We made it all our own"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "Is this the world we devastated"
+            },
+            {
+              "type": "chord",
+              "content": "Asus2"
+            },
+            {
+              "type": "lyric",
+              "content": "Right to the bone?"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "If there's a God in the sky looking down"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "G/C", "C7"]
+        },
+        {
+          "type": "lyric",
+          "content": "What can He think of what we've done"
+        },
+        {
+          "type": "chords",
+          "content": ["F/C", "Ab"]
+        },
+        {
+          "type": "lyric",
+          "content": "To the world that He created?"
+        },
+        {
+          "type": "chords",
+          "content": ["Fm7", "C/E"]
+        }
+      ]
+    }
+  ]
+}

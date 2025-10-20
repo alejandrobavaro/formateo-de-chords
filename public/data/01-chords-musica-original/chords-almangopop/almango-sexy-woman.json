@@ -1,0 +1,427 @@
+{
+  "id": "almango-sexy-woman",
+  "title": "Sexy Woman",
+  "artist": "Almango",
+  "originalKey": "Fm",
+  "tempo": "Upbeat",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Fm", "(G#-A#-B-A#-G#)", "Fm", "G#", "A#", "x2"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Fm"
+        },
+        {
+          "type": "lyric",
+          "content": "Las tres de la mañana y me siento on fire,"
+        },
+        {
+          "type": "chord",
+          "content": "G#"
+        },
+        {
+          "type": "lyric",
+          "content": "La noche está en pañales quiero más, más!"
+        }
+      ]
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Fm"
+        },
+        {
+          "type": "lyric",
+          "content": "Un ángel de mujer me invitó a pasar,"
+        },
+        {
+          "type": "chord",
+          "content": "G#"
+        },
+        {
+          "type": "lyric",
+          "content": "Y yo le dije bueno, Let´s Rock, Rock!"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Fm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Baby you are a sexy woman,"
+        },
+        {
+          "type": "chords",
+          "content": ["G#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Baby you look so good,"
+        },
+        {
+          "type": "chords",
+          "content": ["D#", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Baby I just wanna dance with you!"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "text",
+          "content": "RIFF en Fm"
+        },
+        {
+          "type": "lyric",
+          "content": "Sexy woman, sexy, sexy."
+        },
+        {
+          "type": "chords",
+          "content": ["Fm"]
+        },
+        {
+          "type": "lyric",
+          "content": "You look so good, Sexy woman."
+        },
+        {
+          "type": "chords",
+          "content": ["(G-G#)", "x4"]
+        },
+        {
+          "type": "text",
+          "content": "RIFF en Fm"
+        },
+        {
+          "type": "lyric",
+          "content": "Sexy woman,"
+        },
+        {
+          "type": "chords",
+          "content": ["Fm", "G#"]
+        },
+        {
+          "type": "lyric",
+          "content": "You look so good, Sexy woman."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTRO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Fm", "(G#-A#-B-A#-G#)", "Fm", "G#", "A#", "x2"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Fm"
+        },
+        {
+          "type": "lyric",
+          "content": "Nena me despiertas una sed fatal,"
+        },
+        {
+          "type": "chord",
+          "content": "G#"
+        },
+        {
+          "type": "lyric",
+          "content": "Y mi autocontrol está fallando."
+        }
+      ]
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Fm"
+        },
+        {
+          "type": "lyric",
+          "content": "Hoy soy un ser humano con instinto animal"
+        },
+        {
+          "type": "chord",
+          "content": "G#"
+        },
+        {
+          "type": "lyric",
+          "content": "Con un lado salvaje, Let´s Rock, Rock!"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Fm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Baby you are a sexy woman,"
+        },
+        {
+          "type": "chords",
+          "content": ["G#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Baby you look so good,"
+        },
+        {
+          "type": "chords",
+          "content": ["D#", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Baby I just wanna dance with you!"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "text",
+          "content": "RIFF en Fm"
+        },
+        {
+          "type": "lyric",
+          "content": "Sexy woman, sexy, sexy."
+        },
+        {
+          "type": "chords",
+          "content": ["Fm"]
+        },
+        {
+          "type": "lyric",
+          "content": "You look so good, Sexy woman."
+        },
+        {
+          "type": "chords",
+          "content": ["(G-G#)", "x4"]
+        },
+        {
+          "type": "text",
+          "content": "RIFF en Fm"
+        },
+        {
+          "type": "lyric",
+          "content": "Sexy woman,"
+        },
+        {
+          "type": "chords",
+          "content": ["Fm", "G#"]
+        },
+        {
+          "type": "lyric",
+          "content": "You look so good, Sexy woman."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Fm", "(G#-A#-B-A#-G#)", "Fm", "G#", "A#", "x4"]
+        },
+        {
+          "type": "lyric",
+          "content": "Let´s Rock, Rock!"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Fm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Baby you are a sexy woman,"
+        },
+        {
+          "type": "chords",
+          "content": ["G#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Baby you look so good,"
+        },
+        {
+          "type": "chords",
+          "content": ["D#", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Baby I just wanna dance with you!"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 1 (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "text",
+          "content": "RIFF en Fm"
+        },
+        {
+          "type": "lyric",
+          "content": "Sexy woman, sexy, sexy."
+        },
+        {
+          "type": "chords",
+          "content": ["Fm"]
+        },
+        {
+          "type": "lyric",
+          "content": "You look so good, Sexy woman."
+        },
+        {
+          "type": "chords",
+          "content": ["(G-G#)", "x4"]
+        },
+        {
+          "type": "text",
+          "content": "RIFF en Fm"
+        },
+        {
+          "type": "lyric",
+          "content": "Sexy woman,"
+        },
+        {
+          "type": "chords",
+          "content": ["Fm", "G#"]
+        },
+        {
+          "type": "lyric",
+          "content": "You look so good, Sexy woman."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 2 (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "text",
+          "content": "RIFF en Fm"
+        },
+        {
+          "type": "lyric",
+          "content": "Sexy woman,"
+        },
+        {
+          "type": "chords",
+          "content": ["Fm"]
+        },
+        {
+          "type": "lyric",
+          "content": "You look so good, Sexy woman."
+        },
+        {
+          "type": "chords",
+          "content": ["(G-G#)", "x4"]
+        },
+        {
+          "type": "text",
+          "content": "RIFF en Fm"
+        },
+        {
+          "type": "lyric",
+          "content": "Sexy woman,"
+        },
+        {
+          "type": "chords",
+          "content": ["Fm", "G#"]
+        },
+        {
+          "type": "lyric",
+          "content": "You look so good, Sexy woman."
+        }
+      ]
+    }
+  ]
+}

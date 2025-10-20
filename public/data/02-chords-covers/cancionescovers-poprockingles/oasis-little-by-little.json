@@ -1,0 +1,380 @@
+{
+    "id": "oasis-little-by-little",
+    "title": "Little By Little",
+    "artist": "Oasis",
+    "originalKey": "C",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A#", "F", "Dm", "G", "C", "C/E"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRIMERA PARTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Dm", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "We the people fight for our existence,"
+          },
+          {
+            "type": "chords",
+            "content": ["Dm"]
+          },
+          {
+            "type": "lyric",
+            "content": "We don't claim to be perfect but we're free."
+          },
+          {
+            "type": "chords",
+            "content": ["Dm", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "We dream our dreams alone with no resistance,"
+          },
+          {
+            "type": "chords",
+            "content": ["Dm", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Fading like the stars we wish to be."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PUENTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C"]
+          },
+          {
+            "type": "lyric",
+            "content": "You know I didn't mean,"
+          },
+          {
+            "type": "chords",
+            "content": ["F", "C/E", "Dm"]
+          },
+          {
+            "type": "lyric",
+            "content": "What I just said,"
+          },
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "But my god woke up on the wrong side of his bed;"
+          },
+          {
+            "type": "chords",
+            "content": ["F"]
+          },
+          {
+            "type": "lyric",
+            "content": "And it just don't matter now."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "'Cause little by little we gave you"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Everything you've ever dreamed of,"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C/E"
+              },
+              {
+                "type": "lyric",
+                "content": "Little by little the wheels of your life"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "They're slowly falling off..."
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["C", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Little by little you have to give it all"
+          },
+          {
+            "type": "chords",
+            "content": ["Dm", "C/E", "F"]
+          },
+          {
+            "type": "lyric",
+            "content": "With all your life,"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "A#", "F"]
+          },
+          {
+            "type": "lyric",
+            "content": "And all the time, I just ask myself why you're really here."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SEGUNDA PARTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "True perfection has to be imperfect,"
+          },
+          {
+            "type": "chords",
+            "content": ["A"]
+          },
+          {
+            "type": "lyric",
+            "content": "I know that that sounds foolish but it's true."
+          },
+          {
+            "type": "chords",
+            "content": ["Dm"]
+          },
+          {
+            "type": "lyric",
+            "content": "The day has come and now you'll have to accept"
+          },
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "The life inside your head we give to you..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PUENTE (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C"]
+          },
+          {
+            "type": "lyric",
+            "content": "You know I didn't mean,"
+          },
+          {
+            "type": "chords",
+            "content": ["F", "C/E", "Dm"]
+          },
+          {
+            "type": "lyric",
+            "content": "What I just said"
+          },
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "But my god woke up on the wrong side of his bed"
+          },
+          {
+            "type": "chords",
+            "content": ["F"]
+          },
+          {
+            "type": "lyric",
+            "content": "And it just don't matter now."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "'Cause little by little we gave you"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Everything you've ever dreamed of,"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C/E"
+              },
+              {
+                "type": "lyric",
+                "content": "Little by little the wheels of your life"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "They're slowly falling off..."
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["C", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Little by little you have to give it all"
+          },
+          {
+            "type": "chords",
+            "content": ["Dm", "C/E", "F"]
+          },
+          {
+            "type": "lyric",
+            "content": "With all your life,"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "G", "F", "C", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Why am I really here?"
+          },
+          {
+            "type": "chords",
+            "content": ["F", "C", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Why am I really here?"
+          },
+          {
+            "type": "chords",
+            "content": ["F", "C", "G", "F"]
+          },
+          {
+            "type": "lyric",
+            "content": "Why am I really here?"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INSTRUMENTAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "G", "F", "C"]
+          },
+          {
+            "type": "chords",
+            "content": ["C", "C", "G", "F"]
+          },
+          {
+            "type": "chords",
+            "content": ["C", "C", "G"]
+          }
+        ]
+      }
+    ]
+  }
+  

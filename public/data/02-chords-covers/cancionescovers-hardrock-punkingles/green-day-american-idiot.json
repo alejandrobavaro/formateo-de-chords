@@ -1,0 +1,436 @@
+{
+  "id": "green-day-american-idiot",
+  "title": "American Idiot",
+  "artist": "Green Day",
+  "originalKey": "A",
+  "tempo": "Punk Rock",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A5", "D5", "G5", "D5", "A5", "G5"]
+        },
+        {
+          "type": "chords",
+          "content": ["A5", "D5", "G5", "D5", "A5"]
+        },
+        {
+          "type": "chords",
+          "content": ["A5", "D5", "G5", "D5", "A5", "G5"]
+        },
+        {
+          "type": "chords",
+          "content": ["A5", "D5", "G5", "D5", "A5"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A5", "D5", "G5", "D5", "A5", "G5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Don't wanna be an American idiot"
+        },
+        {
+          "type": "chords",
+          "content": ["A5", "D5", "G5", "D5", "A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Don't want a nation under the new media"
+        },
+        {
+          "type": "chords",
+          "content": ["A5", "D5", "G5", "D5", "A5", "G5"]
+        },
+        {
+          "type": "lyric",
+          "content": "And can you hear the sound of hysteria?"
+        },
+        {
+          "type": "chords",
+          "content": ["A5", "D5", "G5", "D5", "A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "The subliminal mind fuck America"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Welcome to a new kind of tension"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "All across the alienation"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Where everything isn't meant to be okay"
+        },
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Television dreams of tomorrow"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "We're not the ones meant to follow"
+        },
+        {
+          "type": "lyric",
+          "content": "For that's enough to argue"
+        },
+        {
+          "type": "chords",
+          "content": ["A5", "D5", "G5", "D5", "A5", "G5"]
+        },
+        {
+          "type": "chords",
+          "content": ["A5", "D5", "G5", "D5", "A5"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A5", "D5", "G5", "D5", "A5", "G5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Well maybe I am the faggot America"
+        },
+        {
+          "type": "chords",
+          "content": ["A5", "D5", "G5", "D5", "A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm not a part of a redneck agenda"
+        },
+        {
+          "type": "chords",
+          "content": ["A5", "D5", "G5", "D5", "A5", "G5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Now everybody do the propaganda!"
+        },
+        {
+          "type": "chords",
+          "content": ["A5", "D5", "G5", "D5", "A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "And sing along in the age of paranoia"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Welcome to a new kind of tension"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "All across the alienation"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Where everything isn't meant to be okay"
+        },
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Television dreams of tomorrow"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "We're not the ones meant to follow"
+        },
+        {
+          "type": "lyric",
+          "content": "For that's enough to argue"
+        },
+        {
+          "type": "chords",
+          "content": ["A5", "D5", "G5", "D5", "A5", "G5"]
+        },
+        {
+          "type": "chords",
+          "content": ["A5", "D5", "G5", "D5", "A5", "G5"]
+        },
+        {
+          "type": "chords",
+          "content": ["A5", "D5", "G5", "D5", "A5"]
+        },
+        {
+          "type": "chords",
+          "content": ["A5", "D5", "G5", "D5", "A5", "G5"]
+        },
+        {
+          "type": "chords",
+          "content": ["A5", "D5", "G5", "D5", "A5"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D5", "A5", "E5", "A5"]
+        },
+        {
+          "type": "chords",
+          "content": ["D5", "A5", "E5"]
+        },
+        {
+          "type": "text",
+          "content": "(Solo de guitarra - Tablatura omitida por solicitud)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "TERCERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A5", "D5", "G5", "D5", "A5", "G5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Don't want to be an American idiot"
+        },
+        {
+          "type": "chords",
+          "content": ["A5", "D5", "G5", "D5", "A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "One nation controlled by the media"
+        },
+        {
+          "type": "chords",
+          "content": ["A5", "D5", "G5", "D5", "A5", "G5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Information age of hysteria"
+        },
+        {
+          "type": "chords",
+          "content": ["A5", "D5", "G5", "D5", "A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Is calling out the idiot America"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Welcome to a new kind of tension"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "All across the alienation"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Where everything isn't meant to be okay"
+        },
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Television dreams of tomorrow"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "We're not the ones meant to follow"
+        },
+        {
+          "type": "lyric",
+          "content": "For that's enough to argue"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A5", "D5", "G5", "D5", "A5", "G5"]
+        },
+        {
+          "type": "chords",
+          "content": ["A5", "D5", "G5", "D5", "A5"]
+        },
+        {
+          "type": "chords",
+          "content": ["A5", "D5", "G5", "D5", "A5", "G5"]
+        },
+        {
+          "type": "chords",
+          "content": ["A5", "D5", "G5", "D5", "A5"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,528 @@
+{
+  "id": "robbie-williams-no-regrets",
+  "title": "No Regrets",
+  "artist": "Robbie Williams",
+  "originalKey": "D",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRODUCCIÓN",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Gmaj9/B", "Bm7"]
+        },
+        {
+          "type": "chords",
+          "content": ["Gmaj9/B", "Bm7"]
+        },
+        {
+          "type": "chords",
+          "content": ["Asus4", "A"]
+        },
+        {
+          "type": "chords",
+          "content": ["Asus4", "A"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Bm7", "Asus4"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tell me a story"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Where we all changed"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7", "Asus4"]
+        },
+        {
+          "type": "lyric",
+          "content": "And we'd live our lives together"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "And not estranged"
+        },
+        {
+          "type": "chords",
+          "content": ["F#m", "F#", "Em7"]
+        },
+        {
+          "type": "lyric",
+          "content": "I didn't lose my mind, it was mine to give away"
+        },
+        {
+          "type": "chords",
+          "content": ["Gmaj7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F#m", "F#", "Em7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Couldn't stay to watch me cry, you didn't have the time"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "So I softly slip away"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Em9"]
+        },
+        {
+          "type": "lyric",
+          "content": "No regrets"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7"]
+        },
+        {
+          "type": "lyric",
+          "content": "They don't work"
+        },
+        {
+          "type": "chords",
+          "content": ["Em9"]
+        },
+        {
+          "type": "lyric",
+          "content": "No regrets now"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "They only hurt"
+        },
+        {
+          "type": "chords",
+          "content": ["Em9"]
+        },
+        {
+          "type": "lyric",
+          "content": "Sing me a love song"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Drop me a line"
+        },
+        {
+          "type": "chords",
+          "content": ["C#m7b5", "F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Suppose it's just a point of view"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7"]
+        },
+        {
+          "type": "lyric",
+          "content": "But they tell me I'm doing fine"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTERLUDIO INSTRUMENTAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Cm7", "Bbsus4", "Bb", "Bbsus4", "Bb"]
+        },
+        {
+          "type": "lyric",
+          "content": "(Played twice)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Bm7", "Asus4"]
+        },
+        {
+          "type": "lyric",
+          "content": "I know from the outside"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "Asus4", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "We looked good for each other"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7", "Asus4"]
+        },
+        {
+          "type": "lyric",
+          "content": "I guess things were going wrong when"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "Asus4", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "You didn't like my mother"
+        },
+        {
+          "type": "chords",
+          "content": ["F#m", "F#", "Em7"]
+        },
+        {
+          "type": "lyric",
+          "content": "I don't want to hate but that's all you've left me with"
+        },
+        {
+          "type": "chords",
+          "content": ["Gmaj7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F#m", "F#", "Em7"]
+        },
+        {
+          "type": "lyric",
+          "content": "A bitter after taste and a fantasy"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Of how we all can live"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Em9"]
+        },
+        {
+          "type": "lyric",
+          "content": "No regrets"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7"]
+        },
+        {
+          "type": "lyric",
+          "content": "They don't work"
+        },
+        {
+          "type": "chords",
+          "content": ["Em9"]
+        },
+        {
+          "type": "lyric",
+          "content": "No regrets now"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "They only hurt"
+        },
+        {
+          "type": "chords",
+          "content": ["Em9"]
+        },
+        {
+          "type": "lyric",
+          "content": "I know they're still talking"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Demons in your head"
+        },
+        {
+          "type": "chords",
+          "content": ["C#m7b5", "F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "If I could just stop hating you"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'd feel sorry for us instead"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PUENTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E/G#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Remember the photographs insane"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "The one where we all laughed so lame"
+        },
+        {
+          "type": "chords",
+          "content": ["E/G#"]
+        },
+        {
+          "type": "lyric",
+          "content": "We were having the time of our lives, well thank you"
+        },
+        {
+          "type": "chords",
+          "content": ["G7/B", "Gaug"]
+        },
+        {
+          "type": "lyric",
+          "content": "It was a real blast"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Em9"]
+        },
+        {
+          "type": "lyric",
+          "content": "No regrets"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7"]
+        },
+        {
+          "type": "lyric",
+          "content": "They don't work"
+        },
+        {
+          "type": "chords",
+          "content": ["Em9"]
+        },
+        {
+          "type": "lyric",
+          "content": "No regrets now"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "They only hurt"
+        },
+        {
+          "type": "chords",
+          "content": ["Em9"]
+        },
+        {
+          "type": "lyric",
+          "content": "Sing me a love song"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Drop me a line"
+        },
+        {
+          "type": "chords",
+          "content": ["C#m7b5", "F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Suppose it's just a point of view"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "But they tell me I'm doing fine"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "OUTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Everything I wanted to be, every time I walked away"
+        },
+        {
+          "type": "chords",
+          "content": ["C#", "F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Every time you told me to leave, I just wanted to stay"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Every time you looked at me and every time you smiled"
+        },
+        {
+          "type": "chords",
+          "content": ["C#", "F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "I felt so vacant. You treat me like a child"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "I loved the way we used to laugh, I loved the way we used to smile"
+        },
+        {
+          "type": "chords",
+          "content": ["C#", "F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Often I sit down and think of you for a while"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "And then it passes me by and I think of someone else instead"
+        },
+        {
+          "type": "chords",
+          "content": ["C#", "F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "I guess the love we once had is officially dead"
+        }
+      ]
+    }
+  ]
+}

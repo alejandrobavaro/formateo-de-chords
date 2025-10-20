@@ -1,0 +1,421 @@
+{
+  "id": "roxette-joyride",
+  "title": "Joyride",
+  "artist": "Roxette",
+  "originalKey": "G",
+  "tempo": "Upbeat",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "F/G", "C/G", "G"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Hello you fool I love you"},
+            {"type": "chord", "content": "F/G"},
+            {"type": "chord", "content": "C/G"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "C'mon join the joyride"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "C", "Am", "G"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Hit the road out of nowhere"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Had to jump in my car"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Be a rider in the love game"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Following the stars"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Don't need no book of wisdom"},
+            {"type": "chord", "content": "Am"},
+            {"type": "lyric", "content": "I get no money-talk at all"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "She has a train going downtown"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "She's got a club on the moon"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "And she's telling all her secrets"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "In a wonderful balloon"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "She's the heart of the funfair"},
+            {"type": "chord", "content": "Am"},
+            {"type": "lyric", "content": "She got me whistling her private tune"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-CHORUS",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D", "C", "G", "D", "C"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "And it all begins where it ends"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "And she's all my, my magic friend"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "F", "C", "G", "C", "G"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "She says 'Hello you fool I love you'"},
+            {"type": "chord", "content": "F"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "C'mon join the joyride"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Join the joyride"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "C", "Am", "G"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "She's a flower - I can paint her"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "She's a child of the sun"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "We're a part of this together"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Could never turn around and run"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Don't need no fortune teller"},
+            {"type": "chord", "content": "Am"},
+            {"type": "lyric", "content": "To know where my lucky love belongs"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-CHORUS (REPEAT)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D", "C", "G", "D", "C"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "'Cause it all begins again when it ends"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "And we're all magic friends"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS (REPEAT)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "F", "C", "G", "C", "G"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "She says 'Hello you fool I love you'"},
+            {"type": "chord", "content": "F"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "C'mon join the joyride"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Join the joyride"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "She says 'Hello you fool I love you'"},
+            {"type": "chord", "content": "F"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "C'mon join the joyride"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Be a joyrider"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "F", "C", "F", "G", "C", "F", "C", "F", "G", "F", "C", "G", "A5", "A#5", "B5"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BRIDGE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C5", "G5"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "C5"},
+            {"type": "lyric", "content": "I'll take you on a skyride"},
+            {"type": "lyric", "content": "Feeling like you're spellbound"},
+            {"type": "chord", "content": "G5"},
+            {"type": "lyric", "content": "Sunshine is a lady"},
+            {"type": "lyric", "content": "Rocks you like a baby"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL CHORUS",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "F", "C", "G", "C", "G"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "She says 'Hello you fool I love you'"},
+            {"type": "chord", "content": "F"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "C'mon join the joyride"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Join the joyride"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Hello, hello you fool I love you"},
+            {"type": "chord", "content": "F"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "C'mon, c'mon join the joyride"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Be a joyrider"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Roxette!"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "OUTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "F", "C", "F", "G"]
+        }
+      ]
+    }
+  ]
+}

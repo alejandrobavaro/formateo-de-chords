@@ -1,0 +1,630 @@
+{
+  "id": "green-day-when-i-come-around",
+  "title": "When I Come Around",
+  "artist": "Green Day",
+  "originalKey": "G",
+  "tempo": "Punk Rock",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G5", "D5", "E5", "C5"]
+        },
+        {
+          "type": "chords",
+          "content": ["G5", "D5", "E5", "C5"]
+        },
+        {
+          "type": "chords",
+          "content": ["G5", "D5", "E5", "C5"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G5"]
+        },
+        {
+          "type": "lyric",
+          "content": "I heard you crying loud"
+        },
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E5", "C5"]
+        },
+        {
+          "type": "lyric",
+          "content": "All the way across town"
+        },
+        {
+          "type": "chords",
+          "content": ["G5"]
+        },
+        {
+          "type": "lyric",
+          "content": "You've been searching for that someone"
+        },
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "And it's me out on the prowl"
+        },
+        {
+          "type": "chords",
+          "content": ["C5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G5"]
+        },
+        {
+          "type": "lyric",
+          "content": "As you sit around feeling"
+        },
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Sorry for yourself"
+        },
+        {
+          "type": "chords",
+          "content": ["C5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Well, don't get lonely now"
+        },
+        {
+          "type": "chords",
+          "content": ["G5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E5", "C5"]
+        },
+        {
+          "type": "lyric",
+          "content": "And dry your whining eyes"
+        },
+        {
+          "type": "chords",
+          "content": ["G5"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm just roaming for the moment"
+        },
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Sleazin' my back yard"
+        },
+        {
+          "type": "chords",
+          "content": ["C5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G5"]
+        },
+        {
+          "type": "lyric",
+          "content": "So don't get so uptight"
+        },
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "You've been thinking"
+        },
+        {
+          "type": "chords",
+          "content": ["C5"]
+        },
+        {
+          "type": "lyric",
+          "content": "About ditching me"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMER ESTRIBILLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "No time to search the world around"
+        },
+        {
+          "type": "chords",
+          "content": ["C5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "'Cause you know where I'll be found"
+        },
+        {
+          "type": "chords",
+          "content": ["C5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G5", "D5", "E5", "C5"]
+        },
+        {
+          "type": "lyric",
+          "content": "When I come around"
+        },
+        {
+          "type": "chords",
+          "content": ["G5", "D5", "E5", "C5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G5"]
+        },
+        {
+          "type": "lyric",
+          "content": "I've heard it all before"
+        },
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E5", "C5"]
+        },
+        {
+          "type": "lyric",
+          "content": "So don't knock down my door"
+        },
+        {
+          "type": "chords",
+          "content": ["G5"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm a loser and a user"
+        },
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "So I don't need no accuser"
+        },
+        {
+          "type": "chords",
+          "content": ["C5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G5"]
+        },
+        {
+          "type": "lyric",
+          "content": "To try and slag me down because I know"
+        },
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "You're right"
+        },
+        {
+          "type": "chords",
+          "content": ["C5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G5"]
+        },
+        {
+          "type": "lyric",
+          "content": "So go do what you like"
+        },
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E5", "C5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Make sure you do it wise"
+        },
+        {
+          "type": "chords",
+          "content": ["G5"]
+        },
+        {
+          "type": "lyric",
+          "content": "You may find out that your self-doubt"
+        },
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Means nothing was ever there"
+        },
+        {
+          "type": "chords",
+          "content": ["C5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G5"]
+        },
+        {
+          "type": "lyric",
+          "content": "You can't go forcing something if"
+        },
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's just not right"
+        },
+        {
+          "type": "chords",
+          "content": ["C5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDO ESTRIBILLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "No time to search the world around"
+        },
+        {
+          "type": "chords",
+          "content": ["C5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "'Cause you know where I'll be found"
+        },
+        {
+          "type": "chords",
+          "content": ["C5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G5", "D5", "E5", "C5"]
+        },
+        {
+          "type": "lyric",
+          "content": "When I come around"
+        },
+        {
+          "type": "chords",
+          "content": ["G5", "D5", "E5", "C5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G5", "D5", "E5", "C5"]
+        },
+        {
+          "type": "chords",
+          "content": ["G5", "D5", "E5", "C5"]
+        },
+        {
+          "type": "text",
+          "content": "(Solo de guitarra - Tablatura omitida por solicitud)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "No time to search the world around"
+        },
+        {
+          "type": "chords",
+          "content": ["C5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "'Cause you know where I'll be found"
+        },
+        {
+          "type": "chords",
+          "content": ["C5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G5", "D5", "E5", "C5"]
+        },
+        {
+          "type": "lyric",
+          "content": "When I come around"
+        },
+        {
+          "type": "chords",
+          "content": ["G5", "D5", "E5", "C5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G5", "D5", "E5", "C5"]
+        },
+        {
+          "type": "lyric",
+          "content": "When I come around"
+        },
+        {
+          "type": "chords",
+          "content": ["G5", "D5", "E5", "C5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G5", "D5", "E5", "C5"]
+        },
+        {
+          "type": "lyric",
+          "content": "When I come around"
+        },
+        {
+          "type": "chords",
+          "content": ["G5", "D5", "E5", "C5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G5", "D5", "E5", "C5"]
+        },
+        {
+          "type": "lyric",
+          "content": "When I come around"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,544 @@
+{
+  "id": "the-beatles-help",
+  "title": "Help!",
+  "artist": "The Beatles",
+  "originalKey": "C",
+  "tempo": "Upbeat",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Help, I need somebody"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Help, Not just anybody"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Help, You know, I need someone"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Help!"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO",
+      "lines": [
+        {
+          "type": "text",
+          "content": "[Solo de guitarra]"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "RIFF",
+      "lines": [
+        {
+          "type": "text",
+          "content": "[Riff de guitarra]"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "When I was younger (When I was younger)"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "So much younger than today (I never needed)"
+            },
+            {
+              "type": "chords",
+              "content": ["Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "I never needed anybody's"
+            },
+            {
+              "type": "chords",
+              "content": ["C", "F", "G"]
+            },
+            {
+              "type": "lyric",
+              "content": "Help in any way"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "But now these days are gone (now these days are gone)"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "I'm not so self-assured (Now I find)"
+            },
+            {
+              "type": "chords",
+              "content": ["Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "Now I find I've changed my mind,"
+            },
+            {
+              "type": "chords",
+              "content": ["C", "F", "G"]
+            },
+            {
+              "type": "lyric",
+              "content": "I've opened up the doors"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Am"]
+            },
+            {
+              "type": "lyric",
+              "content": "Help me if you can"
+            },
+            {
+              "type": "lyric",
+              "content": "I'm feeling down"
+            },
+            {
+              "type": "chords",
+              "content": ["F"]
+            },
+            {
+              "type": "lyric",
+              "content": "And I do appreciate"
+            },
+            {
+              "type": "lyric",
+              "content": "You're being 'round"
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Help me get my feet"
+            },
+            {
+              "type": "lyric",
+              "content": "Back on the ground"
+            },
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "Won't you please"
+            },
+            {
+              "type": "lyric",
+              "content": "Please help me?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA PARTE",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "And now my life has changed in (Now my life has changed)"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "Oh, so many ways"
+            },
+            {
+              "type": "chords",
+              "content": ["Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "My independence seems (My independence)"
+            },
+            {
+              "type": "chords",
+              "content": ["C", "F", "G"]
+            },
+            {
+              "type": "lyric",
+              "content": "To vanish in the haze (Vanish in the haze)"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "But every now and then (But every now and then)"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "I feel so insecure"
+            },
+            {
+              "type": "chords",
+              "content": ["Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "I know that I just need you like"
+            },
+            {
+              "type": "chords",
+              "content": ["C", "F", "G"]
+            },
+            {
+              "type": "lyric",
+              "content": "I never done before"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Am"]
+            },
+            {
+              "type": "lyric",
+              "content": "Help me if you can"
+            },
+            {
+              "type": "lyric",
+              "content": "I'm feeling down"
+            },
+            {
+              "type": "chords",
+              "content": ["F"]
+            },
+            {
+              "type": "lyric",
+              "content": "And I do appreciate"
+            },
+            {
+              "type": "lyric",
+              "content": "You're being 'round"
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Help me get my feet"
+            },
+            {
+              "type": "lyric",
+              "content": "Back on the ground"
+            },
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "Won't you please"
+            },
+            {
+              "type": "lyric",
+              "content": "Please help me?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "When I was younger (When I was younger)"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "So much younger than today (I never needed)"
+            },
+            {
+              "type": "chords",
+              "content": ["Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "I never needed anybody's"
+            },
+            {
+              "type": "chords",
+              "content": ["C", "F", "G"]
+            },
+            {
+              "type": "lyric",
+              "content": "Help in any way"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "But now these days are gone (now these days are gone)"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "I'm not so self-assured (Now I find)"
+            },
+            {
+              "type": "chords",
+              "content": ["Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "Now I find I've changed my mind,"
+            },
+            {
+              "type": "chords",
+              "content": ["C", "F", "G"]
+            },
+            {
+              "type": "lyric",
+              "content": "And opened up the doors"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Am"]
+            },
+            {
+              "type": "lyric",
+              "content": "Help me if you can"
+            },
+            {
+              "type": "lyric",
+              "content": "I'm feeling down"
+            },
+            {
+              "type": "chords",
+              "content": ["F"]
+            },
+            {
+              "type": "lyric",
+              "content": "And I do appreciate"
+            },
+            {
+              "type": "lyric",
+              "content": "You're being 'round"
+            },
+            {
+              "type": "chords",
+              "content": ["D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Help me get my feet"
+            },
+            {
+              "type": "lyric",
+              "content": "Back on the ground"
+            },
+            {
+              "type": "chords",
+              "content": ["G"]
+            },
+            {
+              "type": "lyric",
+              "content": "Won't you please"
+            },
+            {
+              "type": "lyric",
+              "content": "Please help me?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Em", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Help me, help me, ooh"
+        }
+      ]
+    }
+  ]
+}

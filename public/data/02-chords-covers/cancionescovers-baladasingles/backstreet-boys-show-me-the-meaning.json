@@ -1,0 +1,441 @@
+{
+  "id": "backstreet-boys-show-me-the-meaning",
+  "title": "Show Me The Meaning Of Being Lonely",
+  "artist": "Backstreet Boys",
+  "originalKey": "E",
+  "tempo": "Balada Pop",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Em", "C", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Show me the meaning of being lonely"
+        },
+        {
+          "type": "text",
+          "content": "(Riff: Em C D)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Em", "C", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "So many words for the broken heart"
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "C", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's hard to see in a crimson love"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "C", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "So hard to breathe Walk with me, and maybe"
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "C", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Nights of light so soon become"
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "C", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Wild and free I could feel the sun"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "C", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Your every wish will be done They tell me"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Em", "C", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Show me the meaning of being lonely"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Em", "C", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Is this the feeling I need to walk with?"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "B", "Em"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tell me why I can't be there where you are"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "There's something missing in my heart"
+        },
+        {
+          "type": "text",
+          "content": "(Riff: Em C D)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Em", "C", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Life goes on as it never ends"
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "C", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Eyes of stone observe the trends"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "C", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "They never say forever gaze"
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "C", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Guilty roads to an endless love (endless love)"
+        },
+        {
+          "type": "chords",
+          "content": ["Em"]
+        },
+        {
+          "type": "lyric",
+          "content": "There's no control"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Are you with me now?"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "C", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Your every wish will be done"
+        },
+        {
+          "type": "text",
+          "content": "They tell me"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Em", "C", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Show me the meaning of being lonely"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Em", "C", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Is this the feeling I need to walk with (tell me why)"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "B", "Em"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tell me why I can't be there where you are"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "D", "F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "There's something missing in my heart"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BRIDGE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F#m", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "There's nowhere to run"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "I have no place to go"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "E", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Surrender my heart, body and soul"
+        },
+        {
+          "type": "chords",
+          "content": ["Db"]
+        },
+        {
+          "type": "lyric",
+          "content": "How can it be you're asking me to feel"
+        },
+        {
+          "type": "chords",
+          "content": ["F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "the things you never show"
+        },
+        {
+          "type": "text",
+          "content": "(D E F#m D E)"
+        },
+        {
+          "type": "text",
+          "content": "(Oooooooooooooooh....)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO",
+      "lines": [
+        {
+          "type": "text",
+          "content": "(F#m D E F#m)"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "E", "A", "Db", "F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "You are missing in my heart"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tell me why I can't be there where you are"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL CHORUS",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["F#m", "D", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Show me the meaning of being lonely"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["F#m", "D", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Is this the feeling I need to walk with? (tell me why)"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["A", "Db", "F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tell me why I can't be there where you are (where you are)"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "There's something missing in my heart"
+        },
+        {
+          "type": "chords",
+          "content": ["F#m", "D", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Show me the meaning of being lonely (being lonely)"
+        },
+        {
+          "type": "chords",
+          "content": ["F#m", "D", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Is this the feeling I need to walk with? (tell me why)"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "Db", "F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tell me why I can't be there where you are (where you are)"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "There's something missing in my heart"
+        }
+      ]
+    }
+  ]
+}

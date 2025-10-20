@@ -1,0 +1,493 @@
+{
+  "id": "almango-me-perdi",
+  "title": "Me perdí",
+  "artist": "Almango",
+  "originalKey": "G#",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G#", "A", "x2"]
+        },
+        {
+          "type": "chords",
+          "content": ["D#", "G#", "A"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "G#"
+        },
+        {
+          "type": "lyric",
+          "content": "Siempre observaba de lejos,"
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "lyric",
+          "content": "Veía al mundo y la vida pasar,"
+        },
+        {
+          "type": "chord",
+          "content": "D#"
+        },
+        {
+          "type": "lyric",
+          "content": "Nunca dejaba mis huellas,"
+        },
+        {
+          "type": "chord",
+          "content": "G#"
+        },
+        {
+          "type": "lyric",
+          "content": "Hasta que un día me enamoré."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "text",
+          "content": "Yeah yeah!"
+        },
+        {
+          "type": "chords",
+          "content": ["C#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Caí en tu prisión, no puedo pensar,"
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Te veo desnuda en mi cama, ay x dios"
+        },
+        {
+          "type": "chords",
+          "content": ["F#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Perdí la visión, de la realidad."
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Todo cambió, y sin querer me perdí."
+        },
+        {
+          "type": "chords",
+          "content": ["F#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "G#"
+        },
+        {
+          "type": "lyric",
+          "content": "Aunque resista no puedo."
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "lyric",
+          "content": "Soy débil a tu desnudez,"
+        },
+        {
+          "type": "chord",
+          "content": "D#"
+        },
+        {
+          "type": "lyric",
+          "content": "Me siento tan hechizado,"
+        },
+        {
+          "type": "chord",
+          "content": "G#"
+        },
+        {
+          "type": "lyric",
+          "content": "pero esta vez soy muy feliz."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "text",
+          "content": "Yeah yeah!"
+        },
+        {
+          "type": "chords",
+          "content": ["C#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Caí en tu prisión, no puedo pensar,"
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Te veo desnuda en mi cama, ay x dios"
+        },
+        {
+          "type": "chords",
+          "content": ["F#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Perdí la razón, te di el corazón."
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Todo cambió, y sin querer me perdí."
+        },
+        {
+          "type": "chords",
+          "content": ["F#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Ohhhhhhhhhhhhh…"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A", "G#", "x2"]
+        },
+        {
+          "type": "chords",
+          "content": ["F#", "E", "D#", "E", "F#"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 1 (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "text",
+          "content": "Yeah yeah!"
+        },
+        {
+          "type": "chords",
+          "content": ["C#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Caí en tu prisión, no puedo pensar,"
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Te veo desnuda en mi cama, ay x dios"
+        },
+        {
+          "type": "chords",
+          "content": ["F#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Perdí la razón, te di el corazón."
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Todo cambió, y sin querer me perdí."
+        },
+        {
+          "type": "chords",
+          "content": ["F#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Caí en tu prisión, no puedo pensar,"
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Te veo desnuda en mi cama, ay x dios"
+        },
+        {
+          "type": "chords",
+          "content": ["F#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Perdí la razón, te di el corazón."
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Todo cambió,"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "F#", "E", "F#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C#"]
+        },
+        {
+          "type": "lyric",
+          "content": "y sin querer me perdí."
+        }
+      ]
+    }
+  ]
+}

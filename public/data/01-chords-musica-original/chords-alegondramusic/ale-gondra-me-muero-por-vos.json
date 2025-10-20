@@ -1,0 +1,427 @@
+{
+  "id": "ale-gondra-me-muero-por-vos",
+  "title": "Me muero por vos",
+  "artist": "Ale Gondra",
+  "originalKey": "Cm",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO (SOLITO)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Cm", "Fm", "G", "Cm", "x1"]
+        },
+        {
+          "type": "text",
+          "content": "Heyou! Ale Gondra"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Cm"
+        },
+        {
+          "type": "lyric",
+          "content": "Te reconozco que estuve mal,"
+        },
+        {
+          "type": "chord",
+          "content": "Fm"
+        },
+        {
+          "type": "lyric",
+          "content": "Te reconozco mi debilidad,"
+        },
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "lyric",
+          "content": "Te reconozco todos mis malos hábitos,"
+        },
+        {
+          "type": "chord",
+          "content": "Cm"
+        },
+        {
+          "type": "lyric",
+          "content": "Reconozco mis errores en el amor."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Cm"
+        },
+        {
+          "type": "lyric",
+          "content": "Y este tiempo en soledad,"
+        },
+        {
+          "type": "chord",
+          "content": "Fm"
+        },
+        {
+          "type": "lyric",
+          "content": "Aprendí y cambie, mucho la verdad,"
+        },
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "lyric",
+          "content": "Porque la vida a mí también me ha golpeado."
+        },
+        {
+          "type": "chord",
+          "content": "Cm"
+        },
+        {
+          "type": "lyric",
+          "content": "Nena, por eso hoy te pido perdón."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Cm"
+            },
+            {
+              "type": "lyric",
+              "content": "Amor me muero por vos y hoy te pido perdón"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Fm"
+            },
+            {
+              "type": "lyric",
+              "content": "Yo ya no sé qué hacer, si tú no estás aquí"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Mi vida es un desastre, por favor ten en cuenta"
+        },
+        {
+          "type": "chords",
+          "content": ["Cm"]
+        },
+        {
+          "type": "lyric",
+          "content": "que me muero por vos."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTRO (SOLITO) (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Cm", "Fm", "G", "Cm", "x1"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Cm"
+        },
+        {
+          "type": "lyric",
+          "content": "Lamento que antes no funcionó,"
+        },
+        {
+          "type": "chord",
+          "content": "Fm"
+        },
+        {
+          "type": "lyric",
+          "content": "Lamento haber sido tan terco,"
+        },
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "lyric",
+          "content": "Tú eras la luz de mis sueños,"
+        },
+        {
+          "type": "chord",
+          "content": "Cm"
+        },
+        {
+          "type": "lyric",
+          "content": "y yo era un estúpido, queriendo volar."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Cm"
+        },
+        {
+          "type": "lyric",
+          "content": "Tal vez tenía que ser así,"
+        },
+        {
+          "type": "chord",
+          "content": "Fm"
+        },
+        {
+          "type": "lyric",
+          "content": "Tal vez no estaba listo para ti,"
+        },
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "lyric",
+          "content": "Y ahora que ya pasó un tiempo,"
+        },
+        {
+          "type": "chord",
+          "content": "Cm"
+        },
+        {
+          "type": "lyric",
+          "content": "me di cuenta mi vida, que eres todo para mí."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Cm"
+            },
+            {
+              "type": "lyric",
+              "content": "Amor me muero por vos y hoy te pido perdón"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Fm"
+            },
+            {
+              "type": "lyric",
+              "content": "Yo ya no sé qué hacer, si tú no estás aquí"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Mi vida es un desastre, por favor ten en cuenta"
+        },
+        {
+          "type": "chords",
+          "content": ["Cm"]
+        },
+        {
+          "type": "lyric",
+          "content": "que me muero por vos."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BIS",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Cm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Lalalala lala lala lalaa"
+        },
+        {
+          "type": "chords",
+          "content": ["Fm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Lalalala la la lala lala lalaaaa"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "Cm"]
+        },
+        {
+          "type": "lyric",
+          "content": "La lala lala lalala la lala lala lala lala."
+        },
+        {
+          "type": "chords",
+          "content": ["Cm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Lalalala lala lala lalaa"
+        },
+        {
+          "type": "chords",
+          "content": ["Fm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Lalalala la la lala lala lalaaaa"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "Cm"]
+        },
+        {
+          "type": "lyric",
+          "content": "La lala lala lalala la lala lala lala lala."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Cm"
+            },
+            {
+              "type": "lyric",
+              "content": "Amor me muero por vos y hoy te pido perdón"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Fm"
+            },
+            {
+              "type": "lyric",
+              "content": "Yo ya no sé qué hacer, si tú no estás aquí"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Mi vida es un desastre, por favor ten en cuenta"
+        },
+        {
+          "type": "chords",
+          "content": ["Cm"]
+        },
+        {
+          "type": "lyric",
+          "content": "que me muero por vos."
+        }
+      ]
+    }
+  ]
+}

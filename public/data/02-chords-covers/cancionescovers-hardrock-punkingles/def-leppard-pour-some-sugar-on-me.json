@@ -1,0 +1,600 @@
+{
+  "id": "def-leppard-pour-some-sugar-on-me",
+  "title": "Pour Some Sugar On Me",
+  "artist": "Def Leppard",
+  "originalKey": "B",
+  "tempo": "Hard Rock",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["B5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Step inside, walk this way"
+        },
+        {
+          "type": "lyric",
+          "content": "You and me babe, Hey, hey!"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["B5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Love is like a bomb, baby, c'mon get it on"
+        },
+        {
+          "type": "lyric",
+          "content": "Livin' like a lover with a radar phone"
+        },
+        {
+          "type": "lyric",
+          "content": "Lookin' like a tramp, like a video vamp"
+        },
+        {
+          "type": "lyric",
+          "content": "Demolition woman, can I be your man?"
+        },
+        {
+          "type": "lyric",
+          "content": "Razzle 'n' a dazzle 'n' a flash a little light"
+        },
+        {
+          "type": "lyric",
+          "content": "Television lover, baby, go all night"
+        },
+        {
+          "type": "lyric",
+          "content": "Sometime, anytime, sugar me sweet"
+        },
+        {
+          "type": "lyric",
+          "content": "Little miss ah innocent sugar me, yeah"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-CHORUS",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["B5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hey!"
+        },
+        {
+          "type": "chords",
+          "content": ["E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "C'mon, take a bottle, shake it up"
+        },
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Break the bubble, break it up"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Pour some sugar on me"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Ooh, in the name of love"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Pour some sugar on me"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "C'mon fire me up"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Pour your sugar on me"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh, I can't get enough"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["B5"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm hot, sticky sweet"
+        },
+        {
+          "type": "lyric",
+          "content": "From my head to my feet yeah"
+        },
+        {
+          "type": "lyric",
+          "content": "Listen! red light, yellow light, green-a-light go!"
+        },
+        {
+          "type": "lyric",
+          "content": "Crazy little woman in a one man show"
+        },
+        {
+          "type": "lyric",
+          "content": "Mirror queen, mannequin, rhythm of love"
+        },
+        {
+          "type": "lyric",
+          "content": "Sweet dream, saccharine, loosen up"
+        },
+        {
+          "type": "lyric",
+          "content": "You gotta squeeze a little, squeeze a little"
+        },
+        {
+          "type": "lyric",
+          "content": "Tease a little more"
+        },
+        {
+          "type": "lyric",
+          "content": "Easy operator come a knockin' on my door"
+        },
+        {
+          "type": "lyric",
+          "content": "Sometime, anytime, sugar me sweet"
+        },
+        {
+          "type": "lyric",
+          "content": "Little miss innocent sugar me, yeah"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-CHORUS 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Take a bottle, shake it up"
+        },
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Break the bubble, break it up"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Pour some sugar on me"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Ooh, in the name of love"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Pour some sugar on me"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "C'mon fire me up"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Pour your sugar on me"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh, I can't get enough"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": "You got the peaches, I got the cream"
+        },
+        {
+          "type": "lyric",
+          "content": "Sweet to taste, saccharine"
+        },
+        {
+          "type": "lyric",
+          "content": "'Cos I'm hot, say what, sticky sweet"
+        },
+        {
+          "type": "lyric",
+          "content": "From my head, my head, to my feet"
+        },
+        {
+          "type": "lyric",
+          "content": "Do you take sugar? one lump or two?"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL CHORUS",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Take a bottle, shake it up"
+        },
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Break the bubble, break it up"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Pour some sugar on me"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Ooh, in the name of love"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Pour some sugar on me"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "C'mon fire me up"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Pour your sugar on me"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh, I can't get enough"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Pour some sugar on me"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh, in the name of love"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Pour some sugar on me"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Get it, come get it"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Pour your sugar on me"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Ooh"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Pour some sugar on me"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Yeah! Sugar me!"
+        }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 // ======================================================
-// VISUALIZADOR DE ACORDES - COMPONENTE OPTIMIZADO
+// VISUALIZADOR DE ACORDES - COMPONENTE CORREGIDO
 // ======================================================
 
 // 📦 IMPORTACIONES DE REACT Y DEPENDENCIAS
@@ -10,74 +10,195 @@ import SongViewer from './SongViewer';
 import Controls from './Controls';
 import "../../assets/scss/_03-Componentes/ChordsViewer/_ChordsViewerIndex.scss";
 
-// 🗂️ BIBLIOTECAS DE CANCIONES DISPONIBLES
-// Cada biblioteca tiene: ID único, nombre para mostrar, ruta al listado JSON y ruta base de las canciones
+// ======================================================
+// BIBLIOTECAS DE CANCIONES DISPONIBLES - RUTAS CORREGIDAS
+// ======================================================
+// RUTAS CORREGIDAS - USANDO LAS MISMAS RUTAS QUE LA BIBLIOTECA
 const SONG_LIBRARIES = [
-  { id: 'alegondra', name: 'Ale Gondra', path: '/data/listadocancionesalegondramusic.json', basePath: '/data/cancionesalegondramusic/' },
-  { id: 'almangopop', name: 'Almango Pop', path: '/data/listadocancionesalmangopop.json', basePath: '/data/cancionesalmangopop/' },
-  { id: 'casamiento', name: 'Casamiento', path: '/data/listadocancionescasamiento.json', basePath: '/data/cancionesshowcasamiento/' },
-  { id: 'covers1', name: 'Covers 1', path: '/data/listadochordscoversseleccionados1.json', basePath: '/data/cancionescoversseleccionados1/' },
-  // ✅ BIBLIOTECA AGREGADA: COVERS 2 - Esta es la que faltaba!
-  { id: 'covers2', name: 'Covers 2', path: '/data/listadochordscoversseleccionados2.json', basePath: '/data/cancionescoversseleccionados2/' },
-  { id: 'covers3', name: 'Covers 3', path: '/data/listadochordscoversseleccionados3.json', basePath: '/data/cancionescoversseleccionados3/' },
-  { id: 'coverslatinos1', name: 'Latinos', path: '/data/listadochordscoverslatinos1.json', basePath: '/data/cancionescoverslatinos1/' },
-  { id: 'coversnacionales1', name: 'Nacionales', path: '/data/listadochordscoversnacionales1.json', basePath: '/data/cancionescoversnacionales1/' },
+  // MÚSICA ORIGINAL - RUTAS CORREGIDAS
+  { 
+    id: 'alegondra', 
+    name: 'Ale Gondra', 
+    path: '/listado-chords-alegondramusic.json', 
+    basePath: '/data/01-chords-musica-original/chords-alegondramusic/' 
+  },
+  { 
+    id: 'almangopop', 
+    name: 'Almango Pop', 
+    path: '/listado-chords-almango-pop.json', 
+    basePath: '/data/01-chords-musica-original/chords-almangopop/' 
+  },
+  
+  // SHOWS ESPECÍFICOS - RUTAS CORREGIDAS
+  { 
+    id: 'casamiento', 
+    name: 'Casamiento', 
+    path: '/listado-chords-casamiento-ale-fabi.json', 
+    basePath: '/data/03-chords-de-shows-por-listados/chords-show-casamiento-ale-fabi/' 
+  },
+  
+  // COVERS ORGANIZADOS POR GÉNERO - RUTAS CORREGIDAS
+  { 
+    id: 'covers-baladasespanol', 
+    name: 'Baladas Español', 
+    path: '/data/02-chords-covers/listadocancionescovers-baladasespanol.json', 
+    basePath: '/data/02-chords-covers/cancionescovers-baladasespanol/' 
+  },
+  { 
+    id: 'covers-baladasingles', 
+    name: 'Baladas Inglés', 
+    path: '/data/02-chords-covers/listadocancionescovers-baladasingles.json', 
+    basePath: '/data/02-chords-covers/cancionescovers-baladasingles/' 
+  },
+  { 
+    id: 'covers-poprockespanol', 
+    name: 'Pop Rock Español', 
+    path: '/data/02-chords-covers/listadocancionescovers-poprockespanol.json', 
+    basePath: '/data/02-chords-covers/cancionescovers-poprockespanol/' 
+  },
+  { 
+    id: 'covers-poprockingles', 
+    name: 'Pop Rock Inglés', 
+    path: '/data/02-chords-covers/listadocancionescovers-poprockingles.json', 
+    basePath: '/data/02-chords-covers/cancionescovers-poprockingles/' 
+  },
+  { 
+    id: 'covers-latinobailableespanol', 
+    name: 'Latino Bailable', 
+    path: '/data/02-chords-covers/listadocancionescovers-latinobailableespanol.json', 
+    basePath: '/data/02-chords-covers/cancionescovers-latinobailableespanol/' 
+  },
+  { 
+    id: 'covers-rockbailableespanol', 
+    name: 'Rock Bailable Español', 
+    path: '/data/02-chords-covers/listadocancionescovers-rockbailableespanol.json', 
+    basePath: '/data/02-chords-covers/cancionescovers-rockbailableespanol/' 
+  },
+  { 
+    id: 'covers-rockbailableingles', 
+    name: 'Rock Bailable Inglés', 
+    path: '/data/02-chords-covers/listadocancionescovers-rockbailableingles.json', 
+    basePath: '/data/02-chords-covers/cancionescovers-rockbailableingles/' 
+  },
+  { 
+    id: 'covers-hardrock-punkespanol', 
+    name: 'Hard Rock/Punk Español', 
+    path: '/data/02-chords-covers/listadocancionescovers-hardrock-punkespanol.json', 
+    basePath: '/data/02-chords-covers/cancionescovers-hardrock-punkespanol/' 
+  },
+  { 
+    id: 'covers-hardrock-punkingles', 
+    name: 'Hard Rock/Punk Inglés', 
+    path: '/data/02-chords-covers/listadocancionescovers-hardrock-punkingles.json', 
+    basePath: '/data/02-chords-covers/cancionescovers-hardrock-punkingles/' 
+  },
+  { 
+    id: 'covers-discoingles', 
+    name: 'Disco Inglés', 
+    path: '/data/02-chords-covers/listadocancionescovers-discoingles.json', 
+    basePath: '/data/02-chords-covers/cancionescovers-discoingles/' 
+  },
+  { 
+    id: 'covers-reggaeingles', 
+    name: 'Reggae Inglés', 
+    path: '/data/02-chords-covers/listadocancionescovers-reggaeingles.json', 
+    basePath: '/data/02-chords-covers/cancionescovers-reggaeingles/' 
+  },
+  { 
+    id: 'covers-festivos-bso', 
+    name: 'Festivos & BSO', 
+    path: '/data/02-chords-covers/listadocancionescovers-festivos-bso.json', 
+    basePath: '/data/02-chords-covers/cancionescovers-festivos-bso/' 
+  }
 ];
 
-// 🎵 COMPONENTE PRINCIPAL DEL VISUALIZADOR DE ACORDES
+// ======================================================
+// COMPONENTE PRINCIPAL DEL VISUALIZADOR DE ACORDES
+// ======================================================
 const ChordsViewerIndex = () => {
-  // 🔄 ESTADOS DEL COMPONENTE
-  const [selectedSong, setSelectedSong] = useState(null);          // Canción seleccionada actualmente
-  const [songDetails, setSongDetails] = useState(null);            // Detalles completos de la canción
-  const [transposition, setTransposition] = useState(0);           // Nivel de transposición (semitones)
-  const [showA4Outline, setShowA4Outline] = useState(false);       // Mostrar outline A4 para impresión
-  const [loading, setLoading] = useState(true);                    // Estado de carga
-  const [error, setError] = useState(null);                        // Mensaje de error
-  const [fullscreenMode, setFullscreenMode] = useState(false);     // Modo pantalla completa
-  const [currentLibrary, setCurrentLibrary] = useState('');        // Biblioteca actual
+  // ESTADOS DEL COMPONENTE
+  const [selectedSong, setSelectedSong] = useState(null);
+  const [songDetails, setSongDetails] = useState(null);
+  const [transposition, setTransposition] = useState(0);
+  const [showA4Outline, setShowA4Outline] = useState(false);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+  const [fullscreenMode, setFullscreenMode] = useState(false);
+  const [currentLibrary, setCurrentLibrary] = useState('');
 
-  // 🎯 HOOKS Y REFERENCIAS
-  const location = useLocation();                                  // Hook para acceder a la ubicación URL
-  const containerRef = useRef(null);                               // Referencia al contenedor principal
-  const printViewRef = useRef(null);                               // Referencia para la vista de impresión
+  // HOOKS Y REFERENCIAS
+  const location = useLocation();
+  const containerRef = useRef(null);
+  const printViewRef = useRef(null);
 
-  // 📥 FUNCIÓN PARA CARGAR ARCHIVOS JSON
+  // ======================================================
+  // FUNCIÓN PARA CARGAR ARCHIVOS JSON - MEJORADA
+  // ======================================================
   const fetchJsonFile = async (path) => {
     try {
+      console.log(`📥 Intentando cargar: ${path}`);
       const response = await fetch(path);
-      if (!response.ok) throw new Error(`Error: ${response.status}`);
-      return await response.json();
+      
+      if (!response.ok) {
+        throw new Error(`Error HTTP ${response.status} - ${path}`);
+      }
+      
+      const text = await response.text();
+      
+      if (!text.trim()) {
+        throw new Error(`Archivo vacío - ${path}`);
+      }
+      
+      try {
+        const data = JSON.parse(text);
+        console.log(`✅ JSON cargado correctamente: ${path}`);
+        return data;
+      } catch (parseError) {
+        console.error(`❌ Error parseando JSON en ${path}:`, parseError);
+        throw new Error(`JSON inválido en ${path}: ${parseError.message}`);
+      }
     } catch (error) {
-      console.error(`Error cargando ${path}:`, error);
+      console.error(`💥 Error cargando ${path}:`, error);
       throw error;
     }
   };
 
-  // 🎼 FUNCIÓN PARA CARGAR UNA CANCIÓN INDIVIDUAL
+  // ======================================================
+  // FUNCIÓN PARA CARGAR UNA CANCIÓN INDIVIDUAL - MEJORADA
+  // ======================================================
   const loadIndividualSong = async (song, basePath, libraryId) => {
     try {
       setLoading(true);
       setError(null);
-      if (!song || !song.file) throw new Error('Datos inválidos');
+      
+      if (!song || !song.file) {
+        throw new Error('Datos de canción inválidos');
+      }
 
       const songPath = `${basePath}${song.file}`;
+      console.log(`🎵 Cargando canción individual: ${songPath}`);
+      
       const response = await fetch(songPath);
-      if (!response.ok) throw new Error(`No se pudo cargar: ${song.file}`);
+      
+      if (!response.ok) {
+        throw new Error(`No se pudo cargar: ${song.file} (${response.status})`);
+      }
 
       const songData = await response.json();
+      console.log(`✅ Canción cargada: ${song.title}`, songData);
+      
       setSelectedSong({ ...song, ...songData });
       setSongDetails(songData);
       
-      // 📚 Establecer la biblioteca actual basada en el ID
       const library = SONG_LIBRARIES.find(lib => lib.id === libraryId);
       setCurrentLibrary(library ? library.name : '');
       
     } catch (err) {
-      console.error('Error:', err);
+      console.error('❌ Error cargando canción individual:', err);
       setError(`Error: ${err.message}`);
       setSelectedSong({
         ...song,
-        lyrics: `⚠️ Error: ${err.message}`,
+        lyrics: `⚠️ Error cargando la canción: ${err.message}`,
         chords: ''
       });
     } finally {
@@ -85,7 +206,9 @@ const ChordsViewerIndex = () => {
     }
   };
 
-  // 📋 FUNCIÓN PARA OBTENER METADATOS DE LA CANCIÓN
+  // ======================================================
+  // FUNCIÓN PARA OBTENER METADATOS DE LA CANCIÓN
+  // ======================================================
   const getSongMetadata = () => {
     if (!songDetails) return null;
     
@@ -98,7 +221,9 @@ const ChordsViewerIndex = () => {
     };
   };
 
-  // 🖥️ FUNCIÓN PARA ACTIVAR/DESACTIVAR PANTALLA COMPLETA
+  // ======================================================
+  // FUNCIÓN PARA ACTIVAR/DESACTIVAR PANTALLA COMPLETA
+  // ======================================================
   const toggleFullscreen = () => {
     if (!document.fullscreenElement) {
       containerRef.current?.requestFullscreen().catch(err => console.error(err));
@@ -109,60 +234,74 @@ const ChordsViewerIndex = () => {
     }
   };
 
-  // 🖨️ FUNCIONES DE EXPORTACIÓN (POR IMPLEMENTAR)
+  // ======================================================
+  // FUNCIONES DE EXPORTACIÓN (POR IMPLEMENTAR)
+  // ======================================================
   const handleExportPDF = async () => {
-    // ... implementación futura para exportar a PDF
+    console.log('Exportar PDF - Función por implementar');
   };
 
   const handleExportJPG = async () => {
-    // ... implementación futura para exportar a JPG
+    console.log('Exportar JPG - Función por implementar');
   };
 
   const handlePrint = () => {
     window.print();
   };
 
-  // ⚡ EFECTO PARA CARGAR CANCIÓN DESDE LOS PARÁMETROS DE LA URL
+  // ======================================================
+  // EFECTO PARA CARGAR CANCIÓN DESDE LOS PARÁMETROS DE LA URL - MEJORADO
+  // ======================================================
   useEffect(() => {
     const loadSongFromURL = async () => {
       try {
         setLoading(true);
         setError(null);
         
-        // 📝 Obtener parámetros de la URL
         const urlParams = new URLSearchParams(location.search);
         const libraryParam = urlParams.get('library');
         const songFileParam = urlParams.get('song');
         
+        console.log('🔍 Parámetros URL:', { libraryParam, songFileParam });
+        
         if (!libraryParam || !songFileParam) {
+          console.log('ℹ️ No hay parámetros de canción en la URL');
           setLoading(false);
           return;
         }
 
-        // 🔍 Buscar la biblioteca correspondiente
         const library = SONG_LIBRARIES.find(lib => lib.id === libraryParam);
-        if (!library) throw new Error('Biblioteca no encontrada');
+        if (!library) {
+          throw new Error(`Biblioteca no encontrada: ${libraryParam}`);
+        }
 
-        // 📦 Cargar el listado de canciones de la biblioteca
+        console.log(`📚 Biblioteca encontrada: ${library.name}`);
+
+        // CARGAR EL LISTADO DE LA BIBLIOTECA
         const data = await fetchJsonFile(library.path);
         let songsArray = [];
         
-        // 📋 Procesar diferentes formatos de listados
-        if (data.songs) songsArray = data.songs;
-        else if (data.albums) songsArray = data.albums.flatMap(album => album.songs);
-        else throw new Error('Formato inválido');
+        if (data.songs) {
+          songsArray = data.songs;
+        } else if (data.albums) {
+          songsArray = data.albums.flatMap(album => album.songs || []);
+        } else {
+          throw new Error('Formato de biblioteca inválido');
+        }
 
-        // 🎯 Buscar la canción específica
+        console.log(`🎵 Total de canciones en biblioteca: ${songsArray.length}`);
+
         const decodedSongFile = decodeURIComponent(songFileParam);
         const targetSong = songsArray.find(song => song.file === decodedSongFile);
         
         if (targetSong) {
+          console.log(`🎯 Canción encontrada: ${targetSong.title}`);
           await loadIndividualSong(targetSong, library.basePath, libraryParam);
         } else {
-          throw new Error('Canción no encontrada');
+          throw new Error(`Canción no encontrada: ${decodedSongFile}`);
         }
       } catch (err) {
-        console.error('Error:', err);
+        console.error('💥 Error cargando canción desde URL:', err);
         setError(`Error: ${err.message}`);
         setSelectedSong(null);
       } finally {
@@ -173,42 +312,61 @@ const ChordsViewerIndex = () => {
     loadSongFromURL();
   }, [location.search]);
 
-  // ⏳ ESTADO DE CARGA INICIAL
-  if (loading && !selectedSong) return <div className="chords-loading">Cargando...</div>;
+  // ======================================================
+  // ESTADO DE CARGA INICIAL
+  // ======================================================
+  if (loading && !selectedSong) {
+    return (
+      <div className="chords-loading">
+        <BsMusicNoteBeamed />
+        <p>Cargando canción...</p>
+      </div>
+    );
+  }
   
-  // ❌ MANEJO DE ERRORES
-  if (error) return (
-    <div className="chords-error">
-      <h3>Error</h3>
-      <p>{error}</p>
-      <button onClick={() => window.location.reload()} className="retry-button">Reintentar</button>
-    </div>
-  );
+  // ======================================================
+  // MANEJO DE ERRORES
+  // ======================================================
+  if (error) {
+    return (
+      <div className="chords-error">
+        <h3>Error</h3>
+        <p>{error}</p>
+        <button onClick={() => window.location.reload()} className="retry-button">
+          Reintentar
+        </button>
+      </div>
+    );
+  }
 
-  // 📊 OBTENER METADATOS PARA MOSTRAR
+  // ======================================================
+  // OBTENER METADATOS PARA MOSTRAR
+  // ======================================================
   const metadata = getSongMetadata();
 
-  // 🎨 RENDERIZADO DEL COMPONENTE
+  // ======================================================
+  // RENDERIZADO DEL COMPONENTE
+  // ======================================================
   return (
     <div className="chords-viewer-integrated" ref={containerRef}>
       
-      {/* 🔲 BOTÓN DE PANTALLA COMPLETA */}
+      {/* BOTÓN DE PANTALLA COMPLETA */}
       <button className="fullscreen-toggle-btn" onClick={toggleFullscreen}>
         {fullscreenMode ? <BsFullscreenExit /> : <BsArrowsFullscreen />}
       </button>
 
-      {/* 📦 CONTENEDOR PRINCIPAL */}
+      {/* CONTENEDOR PRINCIPAL */}
       <div className="unified-container">
         
-        {/* 🏷️ HEADER CON TÍTULO */}
+        {/* HEADER CON TÍTULO */}
         <div className="main-header">
           <div className="header-title-section">
             <BsMusicNoteBeamed className="title-icon" />
-            <h1>Visualizador de Chords</h1>
+            <h1>Visualizador de Acordes</h1>
           </div>
         </div>
 
-        {/* 🎛️ FILA DE CONTROLES E INFORMACIÓN */}
+        {/* FILA DE CONTROLES E INFORMACIÓN */}
         <div className="controls-row">
           <div className="song-info">
             {selectedSong ? (
@@ -238,11 +396,11 @@ const ChordsViewerIndex = () => {
                 </div>
               </div>
             ) : (
-              <h2 className="no-song-title">Selecciona una canción</h2>
+              <h2 className="no-song-title">Selecciona una canción desde la biblioteca</h2>
             )}
           </div>
           
-          {/* 🎚️ CONTROLES DE TRANSPOSICIÓN Y EXPORTACIÓN */}
+          {/* CONTROLES DE TRANSPOSICIÓN Y EXPORTACIÓN */}
           <div className="controls-container">
             <Controls
               transposition={transposition}
@@ -257,7 +415,7 @@ const ChordsViewerIndex = () => {
           </div>
         </div>
 
-        {/* 👁️ ÁREA DE VISUALIZACIÓN DE LA CANCIÓN */}
+        {/* ÁREA DE VISUALIZACIÓN DE LA CANCIÓN */}
         <div className="viewer-area">
           {selectedSong ? (
             <SongViewer
@@ -271,9 +429,9 @@ const ChordsViewerIndex = () => {
             <div className="no-song-message">
               <div className="welcome-content">
                 <h2>Visualizador de Acordes</h2>
-                <p>Selecciona una canción desde la galería</p>
+                <p>Selecciona una canción desde la galería para ver los acordes</p>
                 <div className="instruction-box">
-                  <span>Ve a la biblioteca y elige una canción</span>
+                  <span>Ve a la biblioteca y haz clic en "Chord" para abrir una canción</span>
                 </div>
               </div>
             </div>
@@ -286,4 +444,5 @@ const ChordsViewerIndex = () => {
   );
 };
 
+// EXPORTACIÓN DEL COMPONENTE PRINCIPAL
 export default ChordsViewerIndex;

@@ -1,0 +1,397 @@
+﻿{
+    "id": "almango-i-wanna",
+    "title": "I Wanna",
+    "artist": "Almango",
+    "originalKey": "A",
+    "tempo": "Upbeat",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "G", "D", "E", "-", "A", "G", "D", "E"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "VERSE 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "G", "D", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Q yo escucho a Marley, no es una gran noticia."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "G", "D", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "El reggae me gusta, me eleva, me excita."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "G", "D", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Oh oh oh, es locura total."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "G", "D", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Sentirse en el aire, estar para atrás."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "D", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "El ritmo es un touch flashero, delirio total."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "I wanna move your ass, dance, de acá para allá."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "You come to me every day of my entire life."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "I wanna see your tits, hot, bailando con vos."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "D", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Oh yeah that’s great my baby, juntitos los dos."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "G", "D", "E", "-", "A", "G", "D", "E"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "VERSE 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "G", "D", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Si yo tomo algo me entrego a la risa."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "G", "D", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Pintarte me gusta, soy todo un artista."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "G", "D", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Oh oh oh me copo de más."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "G", "D", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Que lindo es mirarte bailando mamá."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "D", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "El ritmo es un touch flashero, delirio total."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "I wanna move your ass, dance, de acá para allá."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "You come to me every day of my entire life."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "I wanna see your tits, hot, bailando con vos."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "D", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Oh yeah that’s great my baby, juntitos los dos."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "BIS",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "D", "E", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "You wanna move, you wanna move, you wanna move, and las chicas también."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "RAP",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "You wanna tell the other people."
+          },
+          {
+            "type": "chords",
+            "content": ["E", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "I’m a maniac, cos the chala me coloca in the air."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "And I’m crazy for the girls, I’m crazy for here tits, and I wanna see here dancing, all night long."
+          },
+          {
+            "type": "chords",
+            "content": ["D", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "Ooooh this people wanna move, and las chicas también."
+          },
+          {
+            "type": "chords",
+            "content": ["E", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "And everybody wanna see your ass."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "BIS (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "D", "E", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "You wanna move, you wanna move, you wanna move, and las chicas también."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO 1 (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "I wanna move your ass, dance, de acá para allá."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "You come to me every day of my entire life."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "I wanna see your tits, hot, bailando con vos."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "D", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Oh yeah that’s great my baby, juntitos los dos."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO 2 (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "I wanna move your ass, dance, de acá para allá."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "You come to me every day of my entire life."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "I wanna see your tits, hot, bailando con vos."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "D", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Oh yeah that’s great my baby, juntitos los dos."
+          }
+        ]
+      }
+    ]
+  }
+  

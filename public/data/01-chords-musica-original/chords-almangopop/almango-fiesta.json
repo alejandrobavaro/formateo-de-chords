@@ -1,0 +1,480 @@
+{
+  "id": "almango-fiesta",
+  "title": "Fiesta",
+  "artist": "Almango",
+  "originalKey": "Gm",
+  "tempo": "Upbeat",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Gm", "F", "Dm", "x4"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Gm"
+        },
+        {
+          "type": "lyric",
+          "content": "Come on, Come on baby,"
+        },
+        {
+          "type": "lyric",
+          "content": "Como como sube."
+        },
+        {
+          "type": "chord",
+          "content": "F"
+        },
+        {
+          "type": "lyric",
+          "content": "Como, como sube, Súbete a mi nube."
+        },
+        {
+          "type": "chord",
+          "content": "Gm"
+        },
+        {
+          "type": "lyric",
+          "content": "Todos los chicos van, todas las chicas van,"
+        },
+        {
+          "type": "chord",
+          "content": "F"
+        },
+        {
+          "type": "lyric",
+          "content": "Todo invita a bailar. Hey!"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Gm", "F", "Gm", "x2"]
+        },
+        {
+          "type": "lyric",
+          "content": "Mueve lo, mueve lo,"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm", "F", "Gm", "Gm", "F", "F#", "Gm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Mueve lo, nena muevelo!"
+        },
+        {
+          "type": "lyric",
+          "content": "Quiero, quiero fiesta.. Quiero, quiero fiesta."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Gm", "F", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Pepepeperepe pepepe perepepe. Fiesta!!"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm", "F", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Pepepeperepe pepepe perepepe. Fiesta!!"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm", "F", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Pepepeperepe pepepe perepepe. Fiesta!!"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm", "F", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Pepepeperepe pepepe perepepe. Fiesta!!"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Gm"
+        },
+        {
+          "type": "lyric",
+          "content": "Come on, Come on baby"
+        },
+        {
+          "type": "lyric",
+          "content": "Como como sube."
+        },
+        {
+          "type": "chord",
+          "content": "F"
+        },
+        {
+          "type": "lyric",
+          "content": "Como, como sube, Súbete a mi nube."
+        },
+        {
+          "type": "chord",
+          "content": "Gm"
+        },
+        {
+          "type": "lyric",
+          "content": "Todos los chicos van, todas las chicas van,"
+        },
+        {
+          "type": "chord",
+          "content": "F"
+        },
+        {
+          "type": "lyric",
+          "content": "Todo invita a bailar. Hey!"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Gm", "F", "Gm", "x2"]
+        },
+        {
+          "type": "lyric",
+          "content": "Mueve lo, mueve lo,"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm", "F", "Gm", "Gm", "F", "F#", "Gm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Mueve lo, nena muevelo!"
+        },
+        {
+          "type": "lyric",
+          "content": "Quiero, quiero fiesta.. Quiero, quiero fiesta."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Gm", "F", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Pepepeperepe pepepe perepepe. Fiesta!!"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm", "F", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Pepepeperepe pepepe perepepe. Fiesta!!"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm", "F", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Pepepeperepe pepepe perepepe. Fiesta!!"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm", "F", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Pepepeperepe pepepe perepepe. Fiesta!!"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BIS 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Gm", "F", "Gm", "x4"]
+        },
+        {
+          "type": "lyric",
+          "content": "If you wanna dance, baby be my girl."
+        },
+        {
+          "type": "lyric",
+          "content": "Cos I wanna wanna wanna dance."
+        },
+        {
+          "type": "lyric",
+          "content": "If you wanna dance, baby be my girl."
+        },
+        {
+          "type": "lyric",
+          "content": "Let´s go down now."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BIS 2",
+      "lines": [
+        {
+          "type": "text",
+          "content": "Riff Gm x 4"
+        },
+        {
+          "type": "lyric",
+          "content": "Let´s go up, Let´s go down, Come on, Let´s do it"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INSTRUMENTAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Gm", "x4"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Gm", "F", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Pepepeperepe pepepe perepepe. Fiesta!!"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm", "F", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Pepepeperepe pepepe perepepe. Fiesta!!"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm", "F", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Pepepeperepe pepepe perepepe. Fiesta!!"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm", "F", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Pepepeperepe pepepe perepepe. Fiesta!!"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Gm", "F", "Gm", "x2"]
+        },
+        {
+          "type": "lyric",
+          "content": "Mueve lo, mueve lo,"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm", "F", "Gm", "Gm", "F", "F#", "Gm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Mueve lo, nena muevelo!"
+        },
+        {
+          "type": "lyric",
+          "content": "Quiero, quiero fiesta.. Quiero, quiero fiesta."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CORTE",
+      "lines": [
+        {
+          "type": "text",
+          "content": "Are you ready?"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL (x4)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Gm", "F", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Na narana nana nanarana na Fiesta!!"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm", "F", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Na narana nana nanarana na Fiesta!!"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm", "F", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Na narana nana nanarana na Fiesta!!"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm", "F", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Na narana nana nanarana na Fiesta!!"
+        },
+        {
+          "type": "text",
+          "content": "UHHHHHH!"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Gm", "F", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Pepepeperepe pepepe perepepe. Fiesta!!"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm", "F", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Pepepeperepe pepepe perepepe. Fiesta!!"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm", "F", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Pepepeperepe pepepe perepepe. Fiesta!!"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm", "F", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Pepepeperepe pepepe perepepe. Fiesta!!"
+        }
+      ]
+    }
+  ]
+}

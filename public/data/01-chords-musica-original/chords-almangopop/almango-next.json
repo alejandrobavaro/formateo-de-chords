@@ -1,0 +1,375 @@
+{
+    "id": "almango-next",
+    "title": "Next",
+    "artist": "Almango",
+    "originalKey": "Am",
+    "tempo": "Upbeat",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "text",
+            "content": "Come on, come on,"
+          },
+          {
+            "type": "text",
+            "content": "Play with me, yeah."
+          },
+          {
+            "type": "lyric",
+            "content": "Ven aquí,"
+          },
+          {
+            "type": "lyric",
+            "content": "sorpréndeme, ¡waaw!"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 1",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "I'm waiting for the love,"
+          },
+          {
+            "type": "lyric",
+            "content": "the fucking love, uhohoh!"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "Come on, come on... or Next!"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (Repetición)",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "text",
+            "content": "Come on, come on,"
+          },
+          {
+            "type": "text",
+            "content": "Love me slow, yeah."
+          },
+          {
+            "type": "lyric",
+            "content": "Make me smile."
+          },
+          {
+            "type": "lyric",
+            "content": "sorpréndeme, ¡waaw!"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 2",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "I'm playing for the love,"
+          },
+          {
+            "type": "lyric",
+            "content": "the fucking love, uooo."
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "Come on, come on... or Next!"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Si quieres mi amor, conquístame,"
+          },
+          {
+            "type": "lyric",
+            "content": "Si eres débil aléjate,"
+          },
+          {
+            "type": "lyric",
+            "content": "Si quieres ganar arriésgate,"
+          },
+          {
+            "type": "lyric",
+            "content": "Si tienes suerte. You will be mine."
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "text",
+            "content": "Next!!!"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (Repetición)",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 3",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "text",
+            "content": "Come on, come on,"
+          },
+          {
+            "type": "text",
+            "content": "Give me flow, well,"
+          },
+          {
+            "type": "lyric",
+            "content": "Live or die,"
+          },
+          {
+            "type": "lyric",
+            "content": "sorpréndeme, ¡waaw!"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "I'm looking for sweet love,"
+          },
+          {
+            "type": "lyric",
+            "content": "the fucking love, uhohoh!"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "Come on, come on... or Next!"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Si quieres mi amor, conquístame,"
+          },
+          {
+            "type": "lyric",
+            "content": "Si eres débil aléjate,"
+          },
+          {
+            "type": "lyric",
+            "content": "Si quieres ganar arriésgate,"
+          },
+          {
+            "type": "lyric",
+            "content": "Si tienes suerte. You will be mine."
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "text",
+            "content": "Next!!!"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "text",
+            "content": "Come on baby! Let's Rock!"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Si quieres mi amor, conquístame,"
+          },
+          {
+            "type": "lyric",
+            "content": "Si eres débil aléjate,"
+          },
+          {
+            "type": "lyric",
+            "content": "Si quieres ganar arriésgate,"
+          },
+          {
+            "type": "lyric",
+            "content": "Si tienes suerte. You will be mine."
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "text",
+            "content": "SAY GOOD BYE!!"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO 2",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Si quieres mi amor, conquístame,"
+          },
+          {
+            "type": "lyric",
+            "content": "Si eres débil aléjate,"
+          },
+          {
+            "type": "lyric",
+            "content": "Si quieres ganar arriésgate,"
+          },
+          {
+            "type": "lyric",
+            "content": "Si tienes suerte. You will be mine."
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "text",
+            "content": "Next!!!"
+          }
+        ]
+      }
+    ]
+  }
+  

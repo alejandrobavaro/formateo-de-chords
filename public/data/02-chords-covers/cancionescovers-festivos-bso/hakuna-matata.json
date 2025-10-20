@@ -1,0 +1,421 @@
+{
+  "id": "hakuna-matata",
+  "title": "Hakuna Matata",
+  "artist": "Elton John (The Lion King)",
+  "originalKey": "Am",
+  "tempo": "Canción alegre",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hakuna Matata..."
+        },
+        {
+          "type": "chords",
+          "content": ["D", "G7"]
+        },
+        {
+          "type": "lyric",
+          "content": "una forma de ser"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hakuna Matata..."
+        },
+        {
+          "type": "chords",
+          "content": ["C", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "nada que temer."
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Sin preocuparse es como hay que vivir"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "a vivir así, ya que aprendí..."
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hakuna matata."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTERVALO 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "Dm", "C", "G", "Dm", "Am", "G"]
+        },
+        {
+          "type": "chords",
+          "content": ["Bb", "F", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Cuando un joven era el"
+        },
+        {
+          "type": "chords",
+          "content": ["Bb", "F", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Cuando un joven era yo (Muy bien. Gracias)"
+        },
+        {
+          "type": "chords",
+          "content": ["Eb", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Sintió que su aroma, le dio mucha fama"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "vacío la sabana después de comer"
+        },
+        {
+          "type": "chords",
+          "content": ["Bb"]
+        },
+        {
+          "type": "lyric",
+          "content": "un alma sensible soy,"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "aunque de cuero cubierto estoy."
+        },
+        {
+          "type": "chords",
+          "content": ["E", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Y a mis amigos el viento se los llevó"
+        },
+        {
+          "type": "chords",
+          "content": ["G7sus", "C", "F", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "que vergüenza, (que vergüenza)"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "C", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "mi nombre cambió, (pero ese nombre no te queda)"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "Bb"]
+        },
+        {
+          "type": "lyric",
+          "content": "y mucho sufrí yo, (ay como sufrió)"
+        },
+        {
+          "type": "chords",
+          "content": ["Eb", "Bb"]
+        },
+        {
+          "type": "lyric",
+          "content": "cada vez que yo... (Pumba, no en frente de los niños... Ah, perdón)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hakuna Matata..."
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "una forma de ser"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hakuna Matata..."
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "nada que temer."
+        },
+        {
+          "type": "chords",
+          "content": ["E", "Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Sin preocuparse es como hay que vivir"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "a vivir así, ya que aprendí..."
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hakuna matata."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTERVALO 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "F", "G", "C", "C", "F", "G"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hakuna matata,"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hakuna matata,"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hakuna matata,"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hakuna matata,"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hakuna matata,"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hakuna matata."
+        },
+        {
+          "type": "chords",
+          "content": ["E", "Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Sin preocuparse es como hay que vivir"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C", "G7"]
+        },
+        {
+          "type": "lyric",
+          "content": "a vivir así, ya que aprendí,"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hakuna matata."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "OUTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "F", "G", "E", "Am", "C", "F", "G"]
+        },
+        {
+          "type": "chords",
+          "content": ["C", "F", "G"]
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hakuna matata..."
+        }
+      ]
+    }
+  ]
+}

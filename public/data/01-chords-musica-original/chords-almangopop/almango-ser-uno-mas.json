@@ -1,0 +1,265 @@
+﻿{
+    "id": "almango-ser-uno-mas",
+    "title": "Ser Uno Más",
+    "artist": "Almango Pop Music",
+    "originalKey": "E",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO BASE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "G#m", "A", "E", "-", "E", "G#m", "A", "E"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "VERSE 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "-", "G#m", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Voy caminando muy cerca del río, viendo la gente pasar."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "-", "E", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "No tengo ganas de leer un libro ni de trabajar."
+          },
+          {
+            "type": "chords",
+            "content": ["E", "-", "G#m", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Estoy gastado de tanto ruido que no puedo ni pensar."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "-", "B", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Es como estar en el mismo sitio mañana, ayer y hoy."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chords",
+                "content": ["E", "A", "C#m", "B"]
+              },
+              {
+                "type": "lyric",
+                "content": "Tan cerca estaba de ser uno más, perdido como un loco."
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chords",
+                "content": ["E", "A", "C#m", "B"]
+              },
+              {
+                "type": "lyric",
+                "content": "Y hoy te digo a vos, no te aguantes más, no caigas en el pozo... como yo."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO BASE (VARIACIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "G#m", "A", "B"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "VERSE 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "-", "G#m", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Estoy sentado muy cerca del río, viendo en la orilla un fogón."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "-", "B", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y nada llena hoy mi vacío, me estoy volviendo loco."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chords",
+                "content": ["E", "A", "C#m", "B"]
+              },
+              {
+                "type": "lyric",
+                "content": "Tan cerca estaba de ser uno más, perdido como un loco."
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chords",
+                "content": ["E", "A", "C#m", "B"]
+              },
+              {
+                "type": "lyric",
+                "content": "Y hoy te digo a vos, no te aguantes más, no caigas en el pozo... como yo."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO VIOLA BASE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["B", "A", "-", "B", "A"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "BIS ROCK N ROLL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "A#-A", "-", "B", "-", "A", "A#-A", "-", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "¡Yo estoy re loquito mi vida! ¡Dejen de mirarme, quiero liberarme! Y no me importa un carajo lo que digan los demás. ¡Dejen de mirarme, quiero liberarme!"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "E", "-", "D", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Ser uno más... Por eso yo te digo a vos. Ser uno más... No caigas en el pozo como yo."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "VERSE 3",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Los autos, los caminos, y me pisa un colectivo."
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Los pungas, sus pulgas, yo ya esto no lo puedo bancar."
+          },
+          {
+            "type": "chords",
+            "content": ["E", "-", "C#m", "-", "B", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Oh no! Iuju! Iuju! Yeah baby, I'm crazy... Un loco más, I'm so crazy."
+          },
+          {
+            "type": "chords",
+            "content": ["E", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Una abuela me pega, una huelga se crea, una perra me mea, una piedra me habla, una puta me ama y yo soy un loco."
+          },
+          {
+            "type": "chords",
+            "content": ["D", "E", "-", "D", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Un loco más... Por eso yo te digo a vos. Ser uno más... No caigas en el pozo como yo."
+          }
+        ]
+      }
+    ]
+  }
+  

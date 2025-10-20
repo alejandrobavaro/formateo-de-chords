@@ -1,0 +1,299 @@
+{
+  "id": "queen-youre-my-best-friend",
+  "title": "You're My Best Friend",
+  "artist": "Queen",
+  "originalKey": "A",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Bm/A", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Ooo, you make me live"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm/A", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Whatever this world can give to me"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm/A", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's you, you're all I see"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Ooo, you make me live now honey"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm/A", "A", "E/G#", "F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "Ooo, you make me live"
+        },
+        {
+          "type": "chords",
+          "content": ["B", "D", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "You're the best friend that I ever had"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "E/G#", "F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "I've been with you such a long time"
+        },
+        {
+          "type": "chords",
+          "content": ["B", "D", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "You're my sunshine and I want you to know"
+        },
+        {
+          "type": "chords",
+          "content": ["C#/F", "F#m", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "That my feelings are true"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "Dm6"]
+        },
+        {
+          "type": "lyric",
+          "content": "I really love you"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "You're my best friend"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Bm/A", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Ooo, you make me live"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "A/F", "F#m", "A7/G"]
+        },
+        {
+          "type": "lyric",
+          "content": "I've been wandering round but I still come back to you"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "Dm6"]
+        },
+        {
+          "type": "lyric",
+          "content": "In rain or shine you've stood by me girl"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "C#", "F#m", "B7"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm happy, happy at home"
+        },
+        {
+          "type": "chords",
+          "content": ["E6", "E", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "You're my best friend"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "TERCERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Bm/A", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Ooo, you make me live"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm/A", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Whenever this world is cruel to me"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm/A", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "I got you to help me forgive"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Ooo, you make me live now honey"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm/A", "A", "E/G#", "F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "Ooo, you make me live"
+        },
+        {
+          "type": "chords",
+          "content": ["B", "D", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "You're the first one"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "E/G#", "F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "When things turn out bad"
+        },
+        {
+          "type": "chords",
+          "content": ["B", "D", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "You know I'll never be lonely"
+        },
+        {
+          "type": "chords",
+          "content": ["C#/F", "F#m", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "You're my only one"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "Dm6"]
+        },
+        {
+          "type": "lyric",
+          "content": "And I love the things that you do"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "You're my best friend"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Bm/A", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Ooo, you make me live"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm happy, happy at home"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "You're my best friend"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Ooo, you make me live"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "You, you're my best friend"
+        }
+      ]
+    }
+  ]
+}

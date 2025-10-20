@@ -1,0 +1,375 @@
+{
+  "id": "robbie-williams-misunderstood",
+  "title": "Misunderstood",
+  "artist": "Robbie Williams",
+  "originalKey": "E",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRODUCCIÓN",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "B", "A", "B"]
+        },
+        {
+          "type": "chords",
+          "content": ["E", "B", "A", "B"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "B", "A", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tryin' to be misunderstood"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "B", "A", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "But it doesn't do me any good"
+        },
+        {
+          "type": "chords",
+          "content": ["C#m", "B", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Love the way they smile at me"
+        },
+        {
+          "type": "chords",
+          "content": ["Abm", "F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "Held that face for eternity"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Now let them all fly off"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PUENTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F#m", "Abm"]
+        },
+        {
+          "type": "lyric",
+          "content": "When it comes down"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "It all comes down"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "You will not be found"
+        },
+        {
+          "type": "chords",
+          "content": ["F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "When it's over"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's all over"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Even if I make a sound"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "B", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'll be misunderstood"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "B", "A", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "By the beautiful and good in... This city"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "B", "A", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "None of it was planned"
+        },
+        {
+          "type": "chords",
+          "content": ["F#m", "A", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Take me by the hand"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Just don't try and understand"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "B", "A", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Try to be misunderstood"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "B", "A", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Just a product of my childhood"
+        },
+        {
+          "type": "chords",
+          "content": ["C#m", "B", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "And still I find myself outside"
+        },
+        {
+          "type": "chords",
+          "content": ["Abm", "F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "You can't say I haven't tried"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Perhaps I tried too hard"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PUENTE (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F#m", "Abm"]
+        },
+        {
+          "type": "lyric",
+          "content": "No excuses"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "I won't apologize"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Or justify your lies"
+        },
+        {
+          "type": "chords",
+          "content": ["F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "Come find me"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tell them to me"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Look me in the eyes"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "B", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'll be misunderstood"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "B", "A", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "By the beautiful and good in... This city"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "B", "A", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "None of this was planned"
+        },
+        {
+          "type": "chords",
+          "content": ["F#m", "A", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Take me by the hand"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Just don't try and understand"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "B", "A", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Can't forgive, sorry to say"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "B", "A", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "You don't know you're guilty anyway"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Isn't it funny how we don't speak"
+        },
+        {
+          "type": "chords",
+          "content": ["B", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "The language of love"
+        }
+      ]
+    }
+  ]
+}

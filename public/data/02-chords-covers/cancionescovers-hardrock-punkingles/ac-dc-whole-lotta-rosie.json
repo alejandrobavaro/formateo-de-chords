@@ -1,0 +1,425 @@
+{
+  "id": "ac-dc-whole-lotta-rosie",
+  "title": "Whole Lotta Rosie",
+  "artist": "AC/DC",
+  "originalKey": "G",
+  "tempo": "Rock",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "text",
+          "content": "(Riff intro - repetir 4x)"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A", "G", "E"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "A", "G", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Wanna tell you a story,"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A", "G", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "'bout a woman I know,"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A", "G", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "ah, come to lovin'"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A", "G", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "she steals the show."
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A", "G", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "She ain't exactly pretty,"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A", "G", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "ain't exactly small,"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A", "G", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Forty-two, thirty-nine, fifty-six,"
+        },
+        {
+          "type": "lyric",
+          "content": "you could say she's got it all!"
+        },
+        {
+          "type": "text",
+          "content": "(Riff: E A G E - repetir 4x)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Never had a woman, never had a woman"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "like you,"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "doing all the things, doing all the things"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "you do."
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Ain't no fairy story, ain't no skin and bone,"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "but you give it all you got weighing in at"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "nineteen stone."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["C", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "You're a whole lotta woman,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["C", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "a whole lotta woman,"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "whole lotta Rosie,"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "whole lotta Rosie,"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "whole lotta Rosie"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "and you're a whole lotta woman."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "TERCERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh, honey you can do it, do it to me all"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "night long,"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "only wanna turn, only wanna turn me"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "on."
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A", "G", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "All through the night time,"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A", "G", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "and right around the clock,"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A", "G", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "whooh, to my surprise, Rosie never stops!"
+        },
+        {
+          "type": "text",
+          "content": "(Riff: E A G E - repetir 7x)"
+        },
+        {
+          "type": "text",
+          "content": "(Riff: C A)"
+        },
+        {
+          "type": "text",
+          "content": "(Riff: E A G E - repetir 8x)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["C", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "You're a whole lotta woman,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["C", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "a whole lotta woman,"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "whole lotta Rosie,"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "whole lotta Rosie,"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "you're a whole lotta Rosie,"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "A", "D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "whole lotta woman-man-man-man-man,"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "A", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "yeah, yeah, yeah!"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "G", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Whole lotta Rosie,"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "G", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "whole lotta woman,"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A", "G", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh, whole lotta woman"
+        },
+        {
+          "type": "text",
+          "content": "(Riff: E A G E - repetir 8x)"
+        }
+      ]
+    }
+  ]
+}

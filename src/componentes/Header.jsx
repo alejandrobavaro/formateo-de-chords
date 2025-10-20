@@ -32,14 +32,14 @@ const Header = () => {
   // 📁 RUTAS DE ARCHIVOS JSON DE CANCIONES
   // ======================================================
   const jsonFiles = [
-    "/data/listadocancionesalegondramusic.json",
-    "/data/listadocancionesalmangopop.json",
-    "/data/listadocancionescasamiento.json",
-    "/data/listadochordscoverslatinos1.json",
-    "/data/listadochordscoversnacionales1.json",
-    "/data/listadochordscoversseleccionados1.json",
-    "/data/listadochordscoversseleccionados2.json",
-    "/data/listadochordscoversseleccionados3.json"
+    "/chords/listado-chords-alegondramusic.json",
+    "/chords/listado-chords-almango-pop.json",
+    "/chords/listado-chords-casamiento-ale-fabi.json",
+    "/chords/listadochordscoverslatinos1.json",
+    "/chords/listadochordscoversnacionales1.json",
+    "/chords/listadochordscoversseleccionados1.json",
+    "/chords/listadochordscoversseleccionados2.json",
+    "/chords/listadochordscoversseleccionados3.json"
   ];
 
   // ======================================================
@@ -156,8 +156,8 @@ const Header = () => {
   const getLibraryIdFromPath = (path) => {
     const filename = path.split('/').pop().replace('.json', '');
     const libraryMap = {
-      'listadocancionesalegondramusic': 'alegondra',
-      'listadocancionesalmangopop': 'almangopop',
+      'listadochords-alegondramusic': 'alegondra',
+      'listadochords-almangopop': 'almangopop',
       'listadocancionescasamiento': 'casamiento',
       'listadochordscoversseleccionados1': 'covers1',
       'listadochordscoversseleccionados2': 'covers2',

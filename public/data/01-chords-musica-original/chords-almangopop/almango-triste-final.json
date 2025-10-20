@@ -1,0 +1,266 @@
+﻿{
+    "id": "almango-triste-final",
+    "title": "Triste Final",
+    "artist": "Almango",
+    "originalKey": "C#m",
+    "tempo": "Slow",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO PIANO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C#m", "G#m", "A"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "VERSE 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C#m", "G#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "Dar, ¿qué dar? Cuando vacío estás."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "C#m"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["C#m", "G#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "Más, no hay más. Si ya no te quedás."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "C#m"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["C#m", "G#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "Hoy vas, detrás de una historia más."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "C#m", "B"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "B", "A", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Nooo, hoy sólo me dejas sin maaaaás..."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "B", "C#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "que un triste final, final..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO PIANO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C#m", "G#m", "A"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "VERSE 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C#m", "G#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "No, no estás y el tiempo se me va."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "C#m"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["C#m", "G#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y yo, no sé si puedo continuar."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "C#m"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["C#m", "G#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "Verás que yo vivía para vos."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "C#m", "B"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "B", "A", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Nooo, hoy sólo me dejas sin maaaaás..."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "B", "C#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "que un triste final, final..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO BASE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C#m", "G#m", "A"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO 3",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "B", "A", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Nooo, hoy sólo me dejas sin maaaaás..."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "B", "C#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "que un triste final, final..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO 4",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "B", "A", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Nooo, hoy sólo me dejas sin maaaaás..."
+          },
+          {
+            "type": "chords",
+            "content": ["A", "B", "C#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "que un triste final, final..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "BASE FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C#m", "G#m", "A"]
+          }
+        ]
+      }
+    ]
+  }
+  

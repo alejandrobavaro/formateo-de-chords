@@ -1,0 +1,365 @@
+{
+    "id": "queen-fat-bottomed-girls",
+    "title": "Fat Bottomed Girls",
+    "artist": "Queen",
+    "originalKey": "C",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "A#", "F"]
+          },
+          {
+            "type": "lyric",
+            "content": "Are… you gonna take me home tonight?"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "A#", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Ah… down beside that red firelight?"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "A#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Are… you gonna let it all hang out"
+          },
+          {
+            "type": "chords",
+            "content": ["C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Fat bottomed girls"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "You make the rockin' world go round"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRIMERA PARTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Hey I was just a skinny lad"
+          },
+          {
+            "type": "chords",
+            "content": ["C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Never knew no good from bad"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "G7"]
+          },
+          {
+            "type": "lyric",
+            "content": "But I knew life before I left my nursery"
+          },
+          {
+            "type": "chords",
+            "content": ["C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Left alone with big fat fanny"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "F"]
+          },
+          {
+            "type": "lyric",
+            "content": "She was such a naughty nanny"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "G7", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Heap big woman you made a bad boy out of me"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "Oh… won't you take me home tonight?"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "Oh… down beside your red firelight"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "lyric",
+                "content": "Oh… and you give it all you got"
+              },
+              {
+                "type": "chord",
+                "content": "G7"
+              },
+              {
+                "type": "lyric",
+                "content": "Fat bottomed girls you make the rockin' world go round"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SEGUNDA PARTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C"]
+          },
+          {
+            "type": "lyric",
+            "content": "I've been singing with my band"
+          },
+          {
+            "type": "chords",
+            "content": ["C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Across the wire across the land"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "G7"]
+          },
+          {
+            "type": "lyric",
+            "content": "I seen ev'ry blue eyed floozy on the way"
+          },
+          {
+            "type": "chords",
+            "content": ["C"]
+          },
+          {
+            "type": "lyric",
+            "content": "But their beauty and their style"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "Ab"]
+          },
+          {
+            "type": "lyric",
+            "content": "Went kind of smooth after a while"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "G7", "C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Take me to them dirty ladies every time"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "F", "A#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Oh… won't you take me home tonight?"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "F", "G7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Oh… down beside your red firelight"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "F"]
+          },
+          {
+            "type": "lyric",
+            "content": "Oh… you gonna let it all hang out"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "G7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Fat bottomed girls you make the rockin' world go round"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "TERCERA PARTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Now your mortgages and homes"
+          },
+          {
+            "type": "chords",
+            "content": ["C"]
+          },
+          {
+            "type": "lyric",
+            "content": "I got stiffness in the bones"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "G7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Ain't no beauty queens in this locality (I tell you)"
+          },
+          {
+            "type": "chords",
+            "content": ["C"]
+          },
+          {
+            "type": "lyric",
+            "content": "Oh but I still get my pleasure"
+          },
+          {
+            "type": "chords",
+            "content": ["F"]
+          },
+          {
+            "type": "lyric",
+            "content": "Still got my greatest treasure"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "G7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Heap big woman you gonna make a big man out of me"
+          },
+          {
+            "type": "chords",
+            "content": ["C"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "F", "A#"]
+          },
+          {
+            "type": "lyric",
+            "content": "Get on your bikes and ride"
+          },
+          {
+            "type": "lyric",
+            "content": "Oooh yeah them fat bottomed girls"
+          },
+          {
+            "type": "lyric",
+            "content": "Fat bottomed girls"
+          },
+          {
+            "type": "lyric",
+            "content": "Yeah yeah yeah"
+          },
+          {
+            "type": "lyric",
+            "content": "Fat bottomed girls"
+          },
+          {
+            "type": "lyric",
+            "content": "Yes yes…"
+          }
+        ]
+      }
+    ]
+  }
+  

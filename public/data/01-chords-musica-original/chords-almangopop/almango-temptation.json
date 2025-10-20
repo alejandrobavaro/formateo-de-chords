@@ -1,0 +1,421 @@
+{
+  "id": "almango-temptation",
+  "title": "Temptation",
+  "artist": "Almango",
+  "originalKey": "Am",
+  "tempo": "Upbeat",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am", "(F#-G-G#-Am)"]
+        },
+        {
+          "type": "text",
+          "content": "RIFF: Am-C-Am + Am-C-Am"
+        },
+        {
+          "type": "text",
+          "content": "RIFF: Am-Em-Am + Am-C-Am"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Am/7"
+        },
+        {
+          "type": "lyric",
+          "content": "Ser virtual, invítame."
+        },
+        {
+          "type": "lyric",
+          "content": "Conéctate, te propongo un juego."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Am/7"
+        },
+        {
+          "type": "lyric",
+          "content": "Permíteme hackear tu mente,"
+        },
+        {
+          "type": "lyric",
+          "content": "Tu fuego ya me está tentando."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 1",
+      "lines": [
+        {
+          "type": "text",
+          "content": "RIFF: Am-C-Am + Am-C-Am"
+        },
+        {
+          "type": "lyric",
+          "content": "Sexy! (Nena dame más mucho más)"
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "(F#-G-G#-Am)"]
+        },
+        {
+          "type": "lyric",
+          "content": "It´s my temptation"
+        },
+        {
+          "type": "text",
+          "content": "RIFF: Am-C-Am + Am-C-Am"
+        },
+        {
+          "type": "lyric",
+          "content": "Sexy! (Nena dame más mucho más)"
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "(F#-G-G#-Am)"]
+        },
+        {
+          "type": "lyric",
+          "content": "It´s my temptation."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 2",
+      "lines": [
+        {
+          "type": "text",
+          "content": "RIFF VIOLA REPITE MELODIA - Am"
+        },
+        {
+          "type": "lyric",
+          "content": "I like your moves, I like the way you dance"
+        },
+        {
+          "type": "lyric",
+          "content": "I like your moves, I like the way you dance"
+        },
+        {
+          "type": "lyric",
+          "content": "I like your moves, I like the way you dance"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "I like your moves, I wanna do it your way."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 3",
+      "lines": [
+        {
+          "type": "text",
+          "content": "RIFF: (C-Am) x3 + (C-A-D-C-A)"
+        },
+        {
+          "type": "lyric",
+          "content": "I like your moves, I like the way you dance"
+        },
+        {
+          "type": "text",
+          "content": "RIFF: (C-Am) x3 + (C-A-D-C-A)"
+        },
+        {
+          "type": "lyric",
+          "content": "I like your moves, I like the way you dance"
+        },
+        {
+          "type": "text",
+          "content": "RIFF: (C-Am) x3 + (C-A-D-C-A)"
+        },
+        {
+          "type": "lyric",
+          "content": "I like your moves, I like the way you dance"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "I like your moves, I wanna do it your way."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTRO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "text",
+          "content": "RIFF: Am-C-Am + Am-C-Am"
+        },
+        {
+          "type": "text",
+          "content": "RIFF: Am-Em-Am + Am-C-Am"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Am/7"
+        },
+        {
+          "type": "lyric",
+          "content": "Ser virtual, enciéndeme."
+        },
+        {
+          "type": "lyric",
+          "content": "Proyéctate, navega mi mundo."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Am/7"
+        },
+        {
+          "type": "lyric",
+          "content": "Descárgame, explora mis sueños."
+        },
+        {
+          "type": "lyric",
+          "content": "Tu fuego ya me está tentando…"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 1 (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "text",
+          "content": "RIFF: Am-C-Am + Am-C-Am"
+        },
+        {
+          "type": "lyric",
+          "content": "Sexy! (Nena dame más mucho más)"
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "(F#-G-G#-Am)"]
+        },
+        {
+          "type": "lyric",
+          "content": "It´s my temptation"
+        },
+        {
+          "type": "text",
+          "content": "RIFF: Am-C-Am + Am-C-Am"
+        },
+        {
+          "type": "lyric",
+          "content": "Sexy! (Nena dame más mucho más)"
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "(F#-G-G#-Am)"]
+        },
+        {
+          "type": "lyric",
+          "content": "It´s my temptation."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 2 (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "text",
+          "content": "RIFF VIOLA REPITE MELODIA - Am"
+        },
+        {
+          "type": "lyric",
+          "content": "I like your moves, I like the way you dance"
+        },
+        {
+          "type": "lyric",
+          "content": "I like your moves, I like the way you dance"
+        },
+        {
+          "type": "lyric",
+          "content": "I like your moves, I like the way you dance"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "I like your moves, I wanna do it your way."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 3 (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "text",
+          "content": "RIFF: (C-Am) x3 + (C-A-D-C-A)"
+        },
+        {
+          "type": "lyric",
+          "content": "I like your moves, I like the way you dance"
+        },
+        {
+          "type": "text",
+          "content": "RIFF: (C-Am) x3 + (C-A-D-C-A)"
+        },
+        {
+          "type": "lyric",
+          "content": "I like your moves, I like the way you dance"
+        },
+        {
+          "type": "text",
+          "content": "RIFF: (C-Am) x3 + (C-A-D-C-A)"
+        },
+        {
+          "type": "lyric",
+          "content": "I like your moves, I like the way you dance"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "I like your moves, I wanna do it your way."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTRO FINAL (x4)",
+      "lines": [
+        {
+          "type": "text",
+          "content": "RIFF: Am-C-Am + Am-C-Am"
+        },
+        {
+          "type": "text",
+          "content": "RIFF: Am-Em-Am + Am-C-Am"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 1 FINAL (x2)",
+      "lines": [
+        {
+          "type": "text",
+          "content": "RIFF: Am-C-Am + Am-C-Am"
+        },
+        {
+          "type": "lyric",
+          "content": "Sexy! (Nena dame más mucho más)"
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "(F#-G-G#-Am)"]
+        },
+        {
+          "type": "lyric",
+          "content": "It´s my temptation"
+        },
+        {
+          "type": "text",
+          "content": "RIFF: Am-C-Am + Am-C-Am"
+        },
+        {
+          "type": "lyric",
+          "content": "Sexy! (Nena dame más mucho más)"
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "(F#-G-G#-Am)"]
+        },
+        {
+          "type": "lyric",
+          "content": "It´s my temptation."
+        }
+      ]
+    }
+  ]
+}

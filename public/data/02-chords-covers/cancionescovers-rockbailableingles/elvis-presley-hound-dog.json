@@ -1,0 +1,199 @@
+{
+  "id": "elvis-presley-hound-dog",
+  "title": "Hound Dog",
+  "artist": "Elvis Presley",
+  "originalKey": "C",
+  "tempo": "Rock and Roll",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "You ain't nothin' but a hound dog"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "cryin' all the time."
+        },
+        {
+          "type": "chords",
+          "content": ["C7"]
+        },
+        {
+          "type": "lyric",
+          "content": "You ain't nothin' but a hound dog"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "cryin' all the time."
+        },
+        {
+          "type": "chords",
+          "content": ["D7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Well, you ain't never caught a rabbit"
+        },
+        {
+          "type": "chords",
+          "content": ["C7", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "and you ain't no friend of mine."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "RIFF 1",
+      "lines": [
+        {
+          "type": "text",
+          "content": "(Riff de guitarra - Tablatura omitida por solicitud)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "You ain't nothin' but a hound dog"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "cryin' all the time."
+        },
+        {
+          "type": "text",
+          "content": "(Riff 1)"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "You ain't nothin' but a hound dog"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "cryin' all the time."
+        },
+        {
+          "type": "chords",
+          "content": ["G7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Well, you ain't never caught a rabbit"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "and you ain't no friend of mine."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "When they said you was high classed,"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "well, that was just a lie."
+        },
+        {
+          "type": "text",
+          "content": "(Riff 1)"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "When they said you was high classed,"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "well, that was just a lie."
+        },
+        {
+          "type": "chords",
+          "content": ["G7"]
+        },
+        {
+          "type": "lyric",
+          "content": "You ain't never caught a rabbit"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "and you ain't no friend of mine."
+        }
+      ]
+    }
+  ]
+}

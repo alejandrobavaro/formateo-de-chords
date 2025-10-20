@@ -1,0 +1,450 @@
+{
+  "id": "almango-sexotica",
+  "title": "Sexótica",
+  "artist": "Almango",
+  "originalKey": "Gm",
+  "tempo": "Upbeat",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Gm", "x2"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Gm"
+        },
+        {
+          "type": "lyric",
+          "content": "Sexótica tentación, vibra en mi corazón."
+        },
+        {
+          "type": "lyric",
+          "content": "Fucking night, fucking time, tonight…"
+        },
+        {
+          "type": "chord",
+          "content": "Cm"
+        },
+        {
+          "type": "lyric",
+          "content": "Abre tus puertas a mi vida."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Gm"
+        },
+        {
+          "type": "lyric",
+          "content": "Sexótica filmación, juegos de atracción."
+        },
+        {
+          "type": "lyric",
+          "content": "Fucking night, fucking time, tonight…"
+        },
+        {
+          "type": "chord",
+          "content": "Cm"
+        },
+        {
+          "type": "lyric",
+          "content": "Abre tus puertas a mi vida."
+        },
+        {
+          "type": "chord",
+          "content": "Gm"
+        },
+        {
+          "type": "lyric",
+          "content": "Fucking night, fucking time, tonight…"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Gm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Uh uh uh. Yeah baby!"
+        },
+        {
+          "type": "lyric",
+          "content": "Uh uh uh. All night long."
+        },
+        {
+          "type": "chords",
+          "content": ["A#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Uh uh uh. Cos I need you."
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Uh uh uh. Cos I feel you."
+        },
+        {
+          "type": "chords",
+          "content": ["Gm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Uh uh uh. It’s temptation,"
+        },
+        {
+          "type": "lyric",
+          "content": "Uh uh uh, all night long."
+        },
+        {
+          "type": "chords",
+          "content": ["A#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Uh uh uh. Don’t stop, Uh uh uh."
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Stop, Come on baby!"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Uh uh uh. Come on baby,"
+        },
+        {
+          "type": "lyric",
+          "content": "Uh uh uh. Baby oh yeah!"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTRO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Gm", "x2"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Gm"
+        },
+        {
+          "type": "lyric",
+          "content": "Sexótica excitación, noche de rendición."
+        },
+        {
+          "type": "lyric",
+          "content": "Fucking night, fucking time, tonight…"
+        },
+        {
+          "type": "chord",
+          "content": "Cm"
+        },
+        {
+          "type": "lyric",
+          "content": "Abre tus puertas a mi vida."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Gm"
+        },
+        {
+          "type": "lyric",
+          "content": "Sexótica sensación, vibra en mi corazón."
+        },
+        {
+          "type": "lyric",
+          "content": "Fucking night, fucking time, tonight…"
+        },
+        {
+          "type": "chord",
+          "content": "Cm"
+        },
+        {
+          "type": "lyric",
+          "content": "Abre tus puertas a mi vida."
+        },
+        {
+          "type": "chord",
+          "content": "Gm"
+        },
+        {
+          "type": "lyric",
+          "content": "Fucking night, fucking time, tonight…"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Gm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Uh uh uh. Yeah baby!"
+        },
+        {
+          "type": "lyric",
+          "content": "Uh uh uh. All night long."
+        },
+        {
+          "type": "chords",
+          "content": ["A#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Uh uh uh. Cos I need you."
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Uh uh uh. Cos I feel you."
+        },
+        {
+          "type": "chords",
+          "content": ["Gm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Uh uh uh. It’s temptation,"
+        },
+        {
+          "type": "lyric",
+          "content": "Uh uh uh, all night long."
+        },
+        {
+          "type": "chords",
+          "content": ["A#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Uh uh uh. Don’t stop, Uh uh uh."
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Stop, Come on baby!"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Uh uh uh. Come on baby,"
+        },
+        {
+          "type": "lyric",
+          "content": "Uh uh uh. Baby oh yeah!"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BIS Y SOLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Gm", "Cm", "Gm"]
+        },
+        {
+          "type": "lyric",
+          "content": "I said! Fucking night, fucking time, tonight…"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Nothing like see you dancing yeah! x2"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm"]
+        },
+        {
+          "type": "lyric",
+          "content": "I’m feeling your slave. These night it’s hot!"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (SOLO BOMBO)",
+      "lines": [
+        {
+          "type": "lyric",
+          "content": "Uh uh uh. Uh uh uh x2"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (x2)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Gm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Uh uh uh. Yeah baby!"
+        },
+        {
+          "type": "lyric",
+          "content": "Uh uh uh. All night long."
+        },
+        {
+          "type": "chords",
+          "content": ["A#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Uh uh uh. Cos I need you."
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Uh uh uh. Cos I feel you."
+        },
+        {
+          "type": "chords",
+          "content": ["Gm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Uh uh uh. It’s temptation,"
+        },
+        {
+          "type": "lyric",
+          "content": "Uh uh uh, all night long."
+        },
+        {
+          "type": "chords",
+          "content": ["A#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Uh uh uh. Don’t stop, Uh uh uh."
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Stop, Come on baby!"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Uh uh uh. Come on baby,"
+        },
+        {
+          "type": "lyric",
+          "content": "Uh uh uh. Baby oh yeah!"
+        },
+        {
+          "type": "lyric",
+          "content": "Fuck me, and Love me tonight! Yeah!!"
+        }
+      ]
+    }
+  ]
+}

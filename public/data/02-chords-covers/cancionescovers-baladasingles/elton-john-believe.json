@@ -1,0 +1,444 @@
+{
+  "id": "elton-john-believe",
+  "title": "Believe",
+  "artist": "Elton John",
+  "originalKey": "D",
+  "tempo": "Balada",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F#m", "A/E", "D", "Bm", "C#sus4", "C#"]
+        },
+        {
+          "type": "text",
+          "content": "(Repetir 2 veces)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "I believe in love, it's all we got"
+        },
+        {
+          "type": "chords",
+          "content": ["A/E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Love has no boundaries, costs nothing to touch"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "C#sus4", "C#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "War makes money, cancer sleeps"
+        },
+        {
+          "type": "chords",
+          "content": ["A/E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Curled up in my father and that means something to me"
+        },
+        {
+          "type": "chords",
+          "content": ["F#m", "Bm", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Churches and dictators, politics and papers"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "Bm", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Everything crumbles sooner or later"
+        },
+        {
+          "type": "chords",
+          "content": ["F#m", "Em", "F#7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "But love, I believe in love"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "G", "F#7", "Bm", "C#sus4", "C#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "I believe in love, it's all we got"
+        },
+        {
+          "type": "chords",
+          "content": ["A/E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Love has no boundaries, no borders to cross"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "C#sus4", "C#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "Love is simple, hate breeds"
+        },
+        {
+          "type": "chords",
+          "content": ["A/E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Those who think difference is the child of disease"
+        },
+        {
+          "type": "chords",
+          "content": ["F#m", "Bm", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Father and son make love and guns"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Families together kill someone"
+        },
+        {
+          "type": "chords",
+          "content": ["F#m", "Em", "F#7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Without love, I believe in love"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "G", "F#7", "Bm", "C#sus4", "C#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INSTRUMENTAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F#m", "A/E", "D", "Bm", "C#sus4", "C#"]
+        },
+        {
+          "type": "text",
+          "content": "(Repetir 2 veces)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "Without love I wouldn't believe"
+        },
+        {
+          "type": "chords",
+          "content": ["A/E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "In anything that lives and breathes"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "C#sus4", "C#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "Without love I'd have no anger"
+        },
+        {
+          "type": "chords",
+          "content": ["A/E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "I wouldn't believe in the right to stand here"
+        },
+        {
+          "type": "chords",
+          "content": ["F#m", "Bm", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Without love I wouldn't believe"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "Bm", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "I couldn't believe in you"
+        },
+        {
+          "type": "chords",
+          "content": ["F#m", "Em", "F#7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "And I wouldn't believe in me"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "G", "F#7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Without love"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "G", "F#7", "Bm", "A", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F#7", "Bm", "A", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "I believe in love"
+        },
+        {
+          "type": "chords",
+          "content": ["F#7", "Bm", "A", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "I believe in love"
+        },
+        {
+          "type": "chords",
+          "content": ["F#7", "Bm", "F#", "Bm", "Em", "F#7", "Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "I believe in love"
+        }
+      ]
+    }
+  ]
+}

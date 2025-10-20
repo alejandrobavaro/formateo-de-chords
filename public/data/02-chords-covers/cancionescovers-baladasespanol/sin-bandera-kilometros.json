@@ -1,0 +1,464 @@
+{
+  "id": "sin-bandera-kilometros",
+  "title": "Kilómetros",
+  "artist": "Sin Bandera",
+  "originalKey": "G",
+  "tempo": "Moderate (Balada romántica)",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "text",
+          "content": "(Punteo de intro - omitido por solicitud)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA ESTROFA",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "lyric",
+          "content": "A varios cientos de kilómetros"
+        },
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "lyric",
+          "content": "Puede tu voz darme calor igual que un sol"
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "Y siento como un cambio armónico"
+        },
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "lyric",
+          "content": "Va componiendo una canción en mi interior"
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "lyric",
+          "content": "Seguir no suena lógico"
+        },
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "lyric",
+          "content": "Pero no olvido tu perfume mágico"
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "Y en este encuentro telefónico"
+        },
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "lyric",
+          "content": "He recordado que estoy loco por ti"
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "G"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "lyric",
+          "content": "Que todo el mundo cabe en el teléfono"
+        },
+        {
+          "type": "chord",
+          "content": "G5"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "C5"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Em"
+            },
+            {
+              "type": "lyric",
+              "content": "Que no hay distancias grandes"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Am7"
+            },
+            {
+              "type": "lyric",
+              "content": "para nuestro amor"
+            }
+          ]
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "lyric",
+          "content": "Que todo es perfecto"
+        },
+        {
+          "type": "chord",
+          "content": "Bm7"
+        },
+        {
+          "type": "lyric",
+          "content": "cuando te siento"
+        },
+        {
+          "type": "chord",
+          "content": "F"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Am7"
+            },
+            {
+              "type": "lyric",
+              "content": "Tan cerca aunque estés tan lejos"
+            }
+          ]
+        },
+        {
+          "type": "chord",
+          "content": "D7"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "G5"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "TRANSICIÓN",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "C5", "C"]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "Am7", "D"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA ESTROFA",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "lyric",
+          "content": "A varios cientos de kilómetros"
+        },
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "lyric",
+          "content": "Tiene un secreto que decirte mi dolor"
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "En cuanto cuelgues el teléfono"
+        },
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "lyric",
+          "content": "Se quedará pensando mi corazón"
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "lyric",
+          "content": "Que todo el mundo cabe en el teléfono"
+        },
+        {
+          "type": "chord",
+          "content": "G5"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "C5"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Em"
+            },
+            {
+              "type": "lyric",
+              "content": "Que no hay distancias grandes"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Am7"
+            },
+            {
+              "type": "lyric",
+              "content": "para nuestro amor"
+            }
+          ]
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "lyric",
+          "content": "Que todo es perfecto"
+        },
+        {
+          "type": "chord",
+          "content": "Bm7"
+        },
+        {
+          "type": "lyric",
+          "content": "cuando te siento"
+        },
+        {
+          "type": "chord",
+          "content": "F"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Am7"
+            },
+            {
+              "type": "lyric",
+              "content": "Tan cerca aunque estés tan lejos"
+            }
+          ]
+        },
+        {
+          "type": "chord",
+          "content": "D7"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "C5"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PUENTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Bm7", "Am7", "G5"]
+        },
+        {
+          "type": "chords",
+          "content": ["C5", "Bm7", "Am7", "D7"]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7", "Am7", "G5"]
+        },
+        {
+          "type": "chords",
+          "content": ["C5", "Bm7", "Am7", "D7"]
+        }
+      ]
+    }
+  ]
+}

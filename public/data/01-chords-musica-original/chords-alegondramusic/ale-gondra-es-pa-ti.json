@@ -1,0 +1,570 @@
+{
+  "id": "ale-gondra-es-pa-ti",
+  "title": "Es pa´ ti",
+  "artist": "Ale Gondra",
+  "originalKey": "Am",
+  "tempo": "Moderate (Reggaeton feel)",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO (SPOKEN)",
+      "lines": [
+        {
+          "type": "text",
+          "content": "Heyou, What's up babe, You know what?"
+        },
+        {
+          "type": "text",
+          "content": "This song is for you, Yeah! Let´s go!"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTRO (RIFF)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am", "C", "C/B", "Am"]
+        },
+        {
+          "type": "text",
+          "content": "(x2)"
+        },
+        {
+          "type": "lyric",
+          "content": "Esta noche, estoy aquí, aquí solitario,"
+        },
+        {
+          "type": "lyric",
+          "content": "y con el corazón rotito. Esta canción es pa´ ti, Baby."
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "C", "C/B", "Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Esta noche, estoy aquí, aquí solitario,"
+        },
+        {
+          "type": "lyric",
+          "content": "y con el corazón rotito. Esta canción es pa´ ti, Baby."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO 1",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "lyric",
+          "content": "Estoy sentado en el sillón y qué más da."
+        },
+        {
+          "type": "lyric",
+          "content": "Prendo la tele y te veo en cada canal,"
+        },
+        {
+          "type": "lyric",
+          "content": "y para colmo estás con él, muy feliz allí, sin mí. Uh!"
+        },
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "lyric",
+          "content": "Me dejaste sin un cómo ni un porqué,"
+        },
+        {
+          "type": "lyric",
+          "content": "no me diste ni el tiempo de entender,"
+        },
+        {
+          "type": "lyric",
+          "content": "en qué me había equivocado después... ¡como yo te amé!"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am", "C", "C/B", "Am"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "Pero baby baby baby baby, ¿qué ha pasado?"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "Pero bebi bebi bebi bebi, demasiado,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "Pero baby baby baby baby, dime qué pasó,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "que no puedo entender. Uh!!"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "C", "C/B", "Am"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "Baby baby baby baby, ¿qué ha pasado?"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "Pero baby baby baby baby, yo te amo."
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "Pero baby baby baby baby, dime qué pasó,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "que no puedo entender. Yeah!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTRO (VARIACIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am", "C", "C/B", "Am"]
+        },
+        {
+          "type": "text",
+          "content": "(x2)"
+        },
+        {
+          "type": "text",
+          "content": "Oh Right so. Let's forget dancing…"
+        },
+        {
+          "type": "text",
+          "content": "And remember this song is for you…"
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "C", "C/B", "Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Esta noche, estoy aquí, aquí solitario,"
+        },
+        {
+          "type": "lyric",
+          "content": "y con el corazón rotito. Esta canción es pa´ ti, Baby."
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "C", "C/B", "Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Esta noche, estoy aquí, aquí solitario,"
+        },
+        {
+          "type": "lyric",
+          "content": "y con el corazón rotito. Esta canción es pa´ ti, Baby."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO 2",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "lyric",
+          "content": "Estoy sentado en el sillón y qué más da."
+        },
+        {
+          "type": "lyric",
+          "content": "Prendo la tele y te veo en cada canal,"
+        },
+        {
+          "type": "lyric",
+          "content": "y para colmo estás con él, muy feliz allí, sin mí. Uh!"
+        },
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "lyric",
+          "content": "Me dejaste sin un cómo ni un porqué,"
+        },
+        {
+          "type": "lyric",
+          "content": "no me diste ni el tiempo de entender,"
+        },
+        {
+          "type": "lyric",
+          "content": "en qué me había equivocado después... ¡como yo te amé!"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BIS RAP",
+      "lines": [
+        {
+          "type": "text",
+          "content": "(Corte)"
+        },
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "lyric",
+          "content": "Y hoy te compuse este reggaetón,"
+        },
+        {
+          "type": "lyric",
+          "content": "porque me mueve to, me mueve mueve el to,"
+        },
+        {
+          "type": "lyric",
+          "content": "me saca todo todo tooo, y así te olvido."
+        },
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "lyric",
+          "content": "Y todo esto lo hice para sacarte de mi cabeza,"
+        },
+        {
+          "type": "text",
+          "content": "(Corte)"
+        },
+        {
+          "type": "text",
+          "content": "Ya no puedo seguir así. No! I still love you babe!"
+        },
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "lyric",
+          "content": "No puedo creer que ya no estés aquí a mi lado,"
+        },
+        {
+          "type": "lyric",
+          "content": "que seamos dos extraños. Ya no puedo más."
+        },
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "lyric",
+          "content": "Te dejo en paz, yo te dejo en paz."
+        },
+        {
+          "type": "lyric",
+          "content": "Qué pena que me da todo esto…"
+        },
+        {
+          "type": "text",
+          "content": "(Corte)"
+        },
+        {
+          "type": "text",
+          "content": "So, let´s dance babe."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 1 (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am", "C", "C/B", "Am"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "Pero baby baby baby baby, ¿qué ha pasado?"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "Pero bebi bebi bebi bebi, demasiado,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "Pero baby baby baby baby, dime qué pasó,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "que no puedo entender. Yeahhhh!!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 2 (NUEVO)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am", "C", "C/B", "Am"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "Porque moviendo tooooo, porque moviendo toooo,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "Bailando sale todo afuera nena!"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "C", "C/B", "Am"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "Porque moviendo tooooo, porque moviendo tooooo,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "Bailando sale todo afuera nena! Oh yeaaaahhhh!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am", "C", "C/B", "Am"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "Baby baby baby baby, ¿qué ha pasado?"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "Pero bebi bebi bebi bebi, demasiado,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "Pero baby baby baby baby, dime qué pasó,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "que no puedo entender. Yeahhhh!!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am", "C", "C/B", "Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Esta noche, estoy aquí, aquí solitario,"
+        },
+        {
+          "type": "lyric",
+          "content": "y con el corazón rotito. Esta canción es pa´ ti…"
+        }
+      ]
+    }
+  ]
+}

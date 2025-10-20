@@ -1,0 +1,440 @@
+{
+  "id": "almango-gracias-por-elegirme",
+  "title": "Gracias por elegirme",
+  "artist": "Almango",
+  "originalKey": "A",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A", "E", "Bm", "E"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "lyric",
+          "content": "La vida es más bella, cuando me acompaña,"
+        },
+        {
+          "type": "chord",
+          "content": "E"
+        },
+        {
+          "type": "lyric",
+          "content": "tu sonrisa de ángel, tus besos mi amor."
+        },
+        {
+          "type": "chord",
+          "content": "Bm"
+        },
+        {
+          "type": "lyric",
+          "content": "Siento que mi corazón explota aquí por vos."
+        },
+        {
+          "type": "chord",
+          "content": "E"
+        },
+        {
+          "type": "lyric",
+          "content": "Bailando al compás juntos los dos."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "lyric",
+          "content": "No pasa un segundo que no piense en vos,"
+        },
+        {
+          "type": "chord",
+          "content": "E"
+        },
+        {
+          "type": "lyric",
+          "content": "que no extrañe tu piel que no sienta tu aroma."
+        },
+        {
+          "type": "chord",
+          "content": "Bm"
+        },
+        {
+          "type": "lyric",
+          "content": "Siento que mi corazón explota aquí por vos."
+        },
+        {
+          "type": "chord",
+          "content": "E"
+        },
+        {
+          "type": "lyric",
+          "content": "Bailando al compás juntos los dos."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "A"
+            },
+            {
+              "type": "lyric",
+              "content": "Bailando,"
+            },
+            {
+              "type": "text",
+              "content": "(todas mis neuronas se revolucionan,"
+            },
+            {
+              "type": "text",
+              "content": "cuando te mueves nena)"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "E"
+            },
+            {
+              "type": "lyric",
+              "content": "Bailando,"
+            },
+            {
+              "type": "text",
+              "content": "(Es una locura lo que me generas,"
+            },
+            {
+              "type": "text",
+              "content": "y me estoy enamorado)"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Cada instante a tu lado,"
+        },
+        {
+          "type": "lyric",
+          "content": "siento que es un regalo"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "gracias por elegirme a mí."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTRO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A", "E", "Bm", "E"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "lyric",
+          "content": "No pasa un segundo que no piense en vos,"
+        },
+        {
+          "type": "chord",
+          "content": "E"
+        },
+        {
+          "type": "lyric",
+          "content": "que no extrañe tu piel que no sienta tu aroma."
+        },
+        {
+          "type": "chord",
+          "content": "Bm"
+        },
+        {
+          "type": "lyric",
+          "content": "Siento que mi corazón explota aquí por vos."
+        },
+        {
+          "type": "chord",
+          "content": "E"
+        },
+        {
+          "type": "lyric",
+          "content": "Bailando al compás juntos los dos."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "A"
+            },
+            {
+              "type": "lyric",
+              "content": "Bailando,"
+            },
+            {
+              "type": "text",
+              "content": "(todas mis neuronas se revolucionan,"
+            },
+            {
+              "type": "text",
+              "content": "cuando te mueves nena)"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "E"
+            },
+            {
+              "type": "lyric",
+              "content": "Bailando,"
+            },
+            {
+              "type": "text",
+              "content": "(Es una locura lo que me generas,"
+            },
+            {
+              "type": "text",
+              "content": "y me estoy enamorado)"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Cada instante a tu lado,"
+        },
+        {
+          "type": "lyric",
+          "content": "siento que es un regalo"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "gracias por elegirme a mí."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTRO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A", "E", "Bm", "E"]
+        }
+      ]
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "E"
+        },
+        {
+          "type": "lyric",
+          "content": "Bailando al compás juntos los dos."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (x2)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "A"
+            },
+            {
+              "type": "lyric",
+              "content": "Bailando,"
+            },
+            {
+              "type": "text",
+              "content": "(todas mis neuronas se revolucionan,"
+            },
+            {
+              "type": "text",
+              "content": "cuando te mueves nena)"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "E"
+            },
+            {
+              "type": "lyric",
+              "content": "Bailando,"
+            },
+            {
+              "type": "text",
+              "content": "(Es una locura lo que me generas,"
+            },
+            {
+              "type": "text",
+              "content": "y me estoy enamorado)"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Cada instante a tu lado,"
+        },
+        {
+          "type": "lyric",
+          "content": "siento que es un regalo"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "gracias por elegirme a mí."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTRO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A", "E", "Bm", "E"]
+        }
+      ]
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "E"
+        },
+        {
+          "type": "lyric",
+          "content": "Bailando al compás juntos los dos."
+        }
+      ]
+    }
+  ]
+}

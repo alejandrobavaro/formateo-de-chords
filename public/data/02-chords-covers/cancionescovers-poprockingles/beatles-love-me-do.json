@@ -1,0 +1,248 @@
+{
+  "id": "the-beatles-love-me-do",
+  "title": "Love Me Do",
+  "artist": "The Beatles",
+  "originalKey": "E",
+  "tempo": "Upbeat",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "A", "E", "A"]
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A", "E"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["E", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "Love, love me do"
+            },
+            {
+              "type": "chords",
+              "content": ["E", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "You know I love you"
+            },
+            {
+              "type": "chords",
+              "content": ["E", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "I'll always be true"
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "So please love me do"
+            },
+            {
+              "type": "chords",
+              "content": ["A", "E", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "Oh-oh, love me do"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["E", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "Love, love me do"
+            },
+            {
+              "type": "chords",
+              "content": ["E", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "You know I love you"
+            },
+            {
+              "type": "chords",
+              "content": ["E", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "I'll always be true"
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "So please love me do"
+            },
+            {
+              "type": "chords",
+              "content": ["A", "E", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "Oh-oh, love me do"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["B", "A", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Someone to love, somebody new"
+            },
+            {
+              "type": "chords",
+              "content": ["B", "A", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Someone to love, someone like you"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["B", "A", "E"]
+        },
+        {
+          "type": "chords",
+          "content": ["B", "A", "E"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["E", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "Love, love me do"
+            },
+            {
+              "type": "chords",
+              "content": ["E", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "You know I love you"
+            },
+            {
+              "type": "chords",
+              "content": ["E", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "I'll always be true"
+            },
+            {
+              "type": "chords",
+              "content": ["E"]
+            },
+            {
+              "type": "lyric",
+              "content": "So please love me do"
+            },
+            {
+              "type": "chords",
+              "content": ["A", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Oh-oh, love me do"
+            },
+            {
+              "type": "chords",
+              "content": ["E", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "Yes, love me do"
+            },
+            {
+              "type": "chords",
+              "content": ["E", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "Oh-oh, love me do"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

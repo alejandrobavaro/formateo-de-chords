@@ -1,0 +1,577 @@
+{
+    "id": "oasis-dyou-know-what-i-mean",
+    "title": "D'You Know What I Mean?",
+    "artist": "Oasis",
+    "originalKey": "Em",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "G", "D2", "A4"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "G", "D2", "A4"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "G", "D2", "A4"]
+          },
+          {
+            "type": "chords",
+            "content": ["C9", "D2", "A4", "A4"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRIMERA PARTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Step off the train all alone at dawn"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "Back into the hole where I was born"
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "G", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "The sun in the sky never raised an eye to me"
+          },
+          {
+            "type": "chords",
+            "content": ["A"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "There's blood on the track and they must be mine"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "The fool on the hill and I feel fine"
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Don't look back 'cause you know what you might see"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "A"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Look into the wall of my mind's eye"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "I think I know, but I don't know why"
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "G", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "The questions are the answers you might need"
+          },
+          {
+            "type": "chords",
+            "content": ["A"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Coming in a mess going out in style"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "I ain't good looking but I'm someone's child"
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "G", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "No-one can give me the air that's mine to breathe"
+          },
+          {
+            "type": "chords",
+            "content": ["A"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PUENTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E4", "E", "D2", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "I met my maker, I made him cry"
+          },
+          {
+            "type": "chords",
+            "content": ["E4", "E", "D2", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "And on my shoulder he asked me why"
+          },
+          {
+            "type": "chords",
+            "content": ["E4", "E", "D2", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "His people won't fly through the storm"
+          },
+          {
+            "type": "chords",
+            "content": ["C7M", "D2", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "I said 'Listen up man, they don't even know you're born'"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "lyric",
+                "content": "All my people right here, right now"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "D'you know what I mean? Yeah, yeah"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "All my people right here, right now"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "D'you know what I mean? Yeah, yeah"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "G", "D", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "Yeah, yeah"
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "G", "D", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "Yeah, yeah"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "G", "D", "A"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "G", "D", "A"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SEGUNDA PARTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "I don't really care for what you believe"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "So open up your fist or you won't receive"
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "G", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "The thoughts and the words of every man you'll need"
+          },
+          {
+            "type": "chords",
+            "content": ["A"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Get up off the floor and believe in life"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "No one's ever gonna ever ask you twice"
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "G", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Get on the bus and bring it on home to me"
+          },
+          {
+            "type": "chords",
+            "content": ["A"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PUENTE (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E4", "E", "D2", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "I met my maker, I made him cry"
+          },
+          {
+            "type": "chords",
+            "content": ["E4", "E", "D2", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "And on my shoulder he asked me why"
+          },
+          {
+            "type": "chords",
+            "content": ["E4", "E", "D2", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "His people won't fly through the storm"
+          },
+          {
+            "type": "chords",
+            "content": ["C7M", "D2", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "I said 'Listen up man, they don't even know you're born'"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "lyric",
+                "content": "All my people right here, right now"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "They know what I mean? Yeah, yeah"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "All my people right here, right now"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "D'you know what I mean? Yeah, yeah"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "G", "D", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "Yeah, yeah"
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "G", "D", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "Yeah, yeah"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "G", "D", "A"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "G", "D", "A"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "G", "D", "A"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "G", "D", "A"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "lyric",
+                "content": "All my people right here, right now"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "D'you know what I mean? Yeah, yeah"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "All my people right here, right now"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "D'you know what I mean? Yeah, yeah"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "G", "D", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "Yeah, yeah"
+          },
+          {
+            "type": "chords",
+            "content": ["Em", "G", "D", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "Yeah, yeah"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C7M", "D2", "C7M", "D2"]
+          },
+          {
+            "type": "chords",
+            "content": ["C7M", "D2", "A4"]
+          },
+          {
+            "type": "chords",
+            "content": ["C7M", "D2", "Em", "E"]
+          }
+        ]
+      }
+    ]
+  }
+  

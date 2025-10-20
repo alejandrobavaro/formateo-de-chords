@@ -1,0 +1,341 @@
+{
+    "id": "oasis-let-there-be-love",
+    "title": "Let There Be Love",
+    "artist": "Oasis",
+    "originalKey": "A",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "A7M(5+)"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRIMERA PARTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "A7M(5+)"]
+          },
+          {
+            "type": "lyric",
+            "content": "Who kicked a hole in the sky, so the heavens would cry over me?"
+          },
+          {
+            "type": "chords",
+            "content": ["F#m", "D"]
+          },
+          {
+            "type": "chords",
+            "content": ["A", "A7M(5+)"]
+          },
+          {
+            "type": "lyric",
+            "content": "Who stole the soul from the sun in a world come undone at the seams?"
+          },
+          {
+            "type": "chords",
+            "content": ["F#m", "D"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "Let there be love"
+              },
+              {
+                "type": "chord",
+                "content": "G9/D"
+              },
+              {
+                "type": "lyric",
+                "content": "Let there be love"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F#m"
+              },
+              {
+                "type": "lyric",
+                "content": "I hope the weather is calm as you sail up your heavenly stream"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "Suspended clear in the sky are the words that we sing in our dreams"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["A", "G9/D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Let there be love"
+          },
+          {
+            "type": "chords",
+            "content": ["F#m", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Let there be love"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PUENTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F#m", "C#7/F"]
+          },
+          {
+            "type": "lyric",
+            "content": "Come on baby blue"
+          },
+          {
+            "type": "chords",
+            "content": ["E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Shake up your tired eyes, the world is waiting for you"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "B7/D#", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "May all your dreaming fill the empty sky"
+          },
+          {
+            "type": "chords",
+            "content": ["C#7"]
+          },
+          {
+            "type": "lyric",
+            "content": "But if it makes you happy"
+          },
+          {
+            "type": "chords",
+            "content": ["F#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "Keep on clapping"
+          },
+          {
+            "type": "chords",
+            "content": ["C#7", "F#m7/E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Just remember I'll be by your side"
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "And if you don't let go"
+          },
+          {
+            "type": "chords",
+            "content": ["B7/D#", "E", "C#7/F"]
+          },
+          {
+            "type": "lyric",
+            "content": "It's gonna pass you by"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "B7/D#", "E", "C#7/F"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "A7M(5+)"]
+          },
+          {
+            "type": "lyric",
+            "content": "Who kicked a hole in the sky, so the heavens would cry over me?"
+          },
+          {
+            "type": "chords",
+            "content": ["F#m", "D"]
+          },
+          {
+            "type": "chords",
+            "content": ["A", "A7M(5+)"]
+          },
+          {
+            "type": "lyric",
+            "content": "Who stole the soul from the sun in a world come undone at the seams?"
+          },
+          {
+            "type": "chords",
+            "content": ["F#m", "D"]
+          },
+          {
+            "type": "chords",
+            "content": ["A", "G9/D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Let there be love"
+          },
+          {
+            "type": "chords",
+            "content": ["F#m", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Let there be love"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "G9/D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Let there be love"
+          },
+          {
+            "type": "chords",
+            "content": ["F#m", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Let there be love"
+          },
+          {
+            "type": "chords",
+            "content": ["A", "G9/D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Let there be love"
+          },
+          {
+            "type": "chords",
+            "content": ["F#m", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Let there be love"
+          },
+          {
+            "type": "chords",
+            "content": ["A", "G9/D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Let there be love"
+          },
+          {
+            "type": "chords",
+            "content": ["F#m", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Let there be love"
+          },
+          {
+            "type": "chords",
+            "content": ["A", "G9/D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Let there be love"
+          },
+          {
+            "type": "chords",
+            "content": ["F#m", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Let there be love"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G9/D", "A", "G9/D", "A"]
+          },
+          {
+            "type": "chords",
+            "content": ["G9/D", "A", "G9/D", "A"]
+          }
+        ]
+      }
+    ]
+  }
+  

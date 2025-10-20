@@ -1,0 +1,408 @@
+{
+  "id": "queen-no-one-but-you",
+  "title": "No-One But You (Only The Good Die Young)",
+  "artist": "Queen",
+  "originalKey": "C",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "A hand above the water"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "An angel reaching for the sky"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm", "A", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Is it raining in heaven"
+        },
+        {
+          "type": "chords",
+          "content": ["G7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Do you want us to cry?"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "And everywhere the broken-hearted"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "On every lonely avenue"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm", "A", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "No-one could reach them"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "Bb", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "No-one but you"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CORO",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "One by one"
+            },
+            {
+              "type": "chord",
+              "content": "F#m7"
+            },
+            {
+              "type": "lyric",
+              "content": "Only the good die young"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "They're only flying too close to the sun"
+            },
+            {
+              "type": "chord",
+              "content": "A"
+            },
+            {
+              "type": "lyric",
+              "content": "And life goes on"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["D", "G7", "G", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Without you..."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "TERCERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Another tricky situation"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "A get to drowning in the blues"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm", "A", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "And I find myself thinking"
+        },
+        {
+          "type": "chords",
+          "content": ["G7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Well - what would you do?"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CUARTA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Yes! - it was such an operation"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Forever paying every due"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm", "A", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hell, you made a sensation"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "G", "A7"]
+        },
+        {
+          "type": "lyric",
+          "content": "You found a way through - and"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CORO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D", "F#m7", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "One by one"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "D", "F#m7", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Only the good die young"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "D", "F#m7", "Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "They're only flying too close to the sun"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "G#"]
+        },
+        {
+          "type": "lyric",
+          "content": "We'll remember -"
+        },
+        {
+          "type": "chords",
+          "content": ["G7", "G", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Forever..."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "And now the party must be over"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "I guess we'll never understand"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm", "A", "Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "The sense of your leaving"
+        },
+        {
+          "type": "chords",
+          "content": ["G7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Was it the way it was planned?"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "And so we grace another table"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "And raise our glasses one more time"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "Bb", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "There's a face at the window"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "G", "A7"]
+        },
+        {
+          "type": "lyric",
+          "content": "And I ain't never, never sayin' goodbye..."
+        },
+        {
+          "type": "chords",
+          "content": ["D", "F#m7", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "One by one"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "D", "F#m7", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Only the good die young"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "D", "F#m7", "Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "They're only flying too close to the sun"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "G#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Cryin' for nothing"
+        },
+        {
+          "type": "chords",
+          "content": ["Em7", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Cryin' for no-one"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "No-one but you"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "C", "G", "D9", "D"]
+        }
+      ]
+    }
+  ]
+}

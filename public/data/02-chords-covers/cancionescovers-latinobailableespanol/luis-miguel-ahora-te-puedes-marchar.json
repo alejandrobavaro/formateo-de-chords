@@ -1,0 +1,324 @@
+{
+  "id": "luis-miguel-ahora-te-puedes-marchar",
+  "title": "Ahora Te Puedes Marchar",
+  "artist": "Luis Miguel",
+  "originalKey": "D",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D", "Bm", "D", "Bm"]
+        },
+        {
+          "type": "chords",
+          "content": ["D", "Bm", "D", "Bm"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D", "Bm"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "Si tú me hubieras dicho siempre la verdad"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["D", "Bm"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "Si hubieras respondido cuando te llamé"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "A", "G", "A"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Si hubieras amado, cuando te amé"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["D", "Bm"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "Serías en mis sueños la mejor mujer"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "A", "D", "A"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Si no supiste amar"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "A", "D"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Ahora te puedes marchar"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D", "Bm"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "Si tú supieras lo que yo sufrí por ti"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["D", "Bm"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "Teniendo que olvidarte sin saber por qué"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "A", "G", "A"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Y ahora me llamas, me quieres ver"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["D", "Bm"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "Me juras que has cambiado y piensas en volver"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "A", "D", "A"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Si no supiste amar"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "A", "D"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Ahora te puedes marchar"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BRIDGE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A#", "D", "G", "D"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "A#"},
+            {"type": "lyric", "content": "Aléjate de mí, no hay nada más que hablar"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "A", "F#", "Bm", "A"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Contigo yo perdí, ya tengo con quién ganar"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "Ya sé que no hubo nadie que te diera lo que yo te di"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Bm"},
+            {"type": "lyric", "content": "Que nadie te ha cuidado como te cuidé"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "A", "G", "A"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Por eso comprendo que estás aquí"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["D", "Bm"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "Pero ha pasado el tiempo y yo también cambié"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "A", "D", "A"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Si no supiste amar"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "A", "D"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Ahora te puedes marchar"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "OUTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D", "Bm", "D", "Bm"]
+        }
+      ]
+    }
+  ]
+}

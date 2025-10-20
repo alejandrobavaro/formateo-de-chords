@@ -1,0 +1,475 @@
+{
+  "id": "mick-jagger-god-gave-me-everything",
+  "title": "God Gave Me Everything",
+  "artist": "Mick Jagger",
+  "originalKey": "C#m",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRODUCCIÓN",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C#m", "E", "A", "F#"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C#m", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "You can see it in a clear blue sky"
+        },
+        {
+          "type": "chords",
+          "content": ["B", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "You can see it in a woman's eyes"
+        },
+        {
+          "type": "chords",
+          "content": ["C#m", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "You can hear it in your babies cries"
+        },
+        {
+          "type": "chords",
+          "content": ["B", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "You can hear it in your lover's sighs"
+        },
+        {
+          "type": "chords",
+          "content": ["C#m", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "You can touch it in a grain of sand"
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": "Yeah, hold it right there"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "In the palm of your hand"
+        },
+        {
+          "type": "chords",
+          "content": ["C#m", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Feel it round you every day"
+        },
+        {
+          "type": "chords",
+          "content": ["B", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "And hear what I've got to say"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C#m", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "God gave me everything I want"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Come on"
+        },
+        {
+          "type": "chords",
+          "content": ["F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'll give it all to you"
+        },
+        {
+          "type": "chords",
+          "content": ["C#m", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "God gave me everything I want"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Come on"
+        },
+        {
+          "type": "chords",
+          "content": ["F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'll give it all to you"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C#m", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "I saw it in the midnight sun"
+        },
+        {
+          "type": "chords",
+          "content": ["B", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "And I felt it in the race I won"
+        },
+        {
+          "type": "chords",
+          "content": ["C#m", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "And I hear it in the windy storm"
+        },
+        {
+          "type": "chords",
+          "content": ["B", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "And I feel it in the icy dawn"
+        },
+        {
+          "type": "chords",
+          "content": ["C#m", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "And I smell it in the wine I taste"
+        },
+        {
+          "type": "chords",
+          "content": ["B", "A#"]
+        },
+        {
+          "type": "lyric",
+          "content": "And I see it in my father's face"
+        },
+        {
+          "type": "chords",
+          "content": ["C#m", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "And I hear it in a symphony"
+        },
+        {
+          "type": "chords",
+          "content": ["B", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "And I feel it in the love you show for me, yeah"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C#m", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "God gave me everything I want"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Come on"
+        },
+        {
+          "type": "chords",
+          "content": ["F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'll give it all to you"
+        },
+        {
+          "type": "chords",
+          "content": ["C#m", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "God gave me everything I want"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Come on"
+        },
+        {
+          "type": "chords",
+          "content": ["F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'll give it all to you"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Come on"
+        },
+        {
+          "type": "chords",
+          "content": ["F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'll give it all to you"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PUENTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["B", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Crazy you said"
+        },
+        {
+          "type": "chords",
+          "content": ["B", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "It's all in your head"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C#m", "E", "B", "A"]
+        },
+        {
+          "type": "chords",
+          "content": ["C#m", "E", "B", "A"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C#m", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "God gave me everything I want"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "I can't stop, can't stop"
+        },
+        {
+          "type": "chords",
+          "content": ["F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm still looking now"
+        },
+        {
+          "type": "chords",
+          "content": ["C#m", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "God gave me everything I want"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh, come on"
+        },
+        {
+          "type": "chords",
+          "content": ["F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'll give it all to you"
+        },
+        {
+          "type": "chords",
+          "content": ["C#m", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "God gave me everything I want"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Come on"
+        },
+        {
+          "type": "chords",
+          "content": ["F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'll give it all to you"
+        },
+        {
+          "type": "chords",
+          "content": ["C#m", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "God gave me everything I want"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "I can't stop, can't stop"
+        },
+        {
+          "type": "chords",
+          "content": ["F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm still looking now"
+        },
+        {
+          "type": "chords",
+          "content": ["C#m", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "God gave me everything I want"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh, come on"
+        },
+        {
+          "type": "chords",
+          "content": ["F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'll give it all to you"
+        }
+      ]
+    }
+  ]
+}

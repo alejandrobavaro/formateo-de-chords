@@ -1,0 +1,542 @@
+{
+  "id": "rosana-si-tu-no-estas-aqui",
+  "title": "Si Tú No Estás Aquí",
+  "artist": "Rosana",
+  "originalKey": "A",
+  "tempo": "Moderate (Balada)",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "PRIMERA ESTROFA",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "lyric",
+          "content": "No quiero estar sin ti"
+        },
+        {
+          "type": "chord",
+          "content": "C#m"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": "Si tú no estás aquí me sobra el aire"
+        },
+        {
+          "type": "chord",
+          "content": "E"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "lyric",
+          "content": "No quiero estar así"
+        },
+        {
+          "type": "chord",
+          "content": "C#m"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": "Si tú no estás la gente se hace nadie"
+        },
+        {
+          "type": "chord",
+          "content": "E"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "C#m"
+        },
+        {
+          "type": "lyric",
+          "content": "Si tú no estás aquí no sé"
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": "Qué diablos hago amándote"
+        },
+        {
+          "type": "chord",
+          "content": "E"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "C#m"
+        },
+        {
+          "type": "lyric",
+          "content": "Si tú no estás aquí sabrás"
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": "Que Dios no va a entender por qué te vas"
+        },
+        {
+          "type": "chord",
+          "content": "E"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA ESTROFA",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "lyric",
+          "content": "No quiero estar sin ti"
+        },
+        {
+          "type": "chord",
+          "content": "C#m"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": "Si tú no estás aquí me falta el sueño"
+        },
+        {
+          "type": "chord",
+          "content": "E"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "lyric",
+          "content": "No quiero andar así"
+        },
+        {
+          "type": "chord",
+          "content": "C#m"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": "Latiendo un corazón de amor sin dueño"
+        },
+        {
+          "type": "chord",
+          "content": "E"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "C#m"
+        },
+        {
+          "type": "lyric",
+          "content": "Si tú no estás aquí no sé"
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": "Qué diablos hago amándote"
+        },
+        {
+          "type": "chord",
+          "content": "E"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "C#m"
+        },
+        {
+          "type": "lyric",
+          "content": "Si tú no estás aquí sabrás"
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": "Que Dios no va a entender por qué te vas"
+        },
+        {
+          "type": "chord",
+          "content": "E"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PUENTE",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "lyric",
+          "content": "Derramaré mis sueños si algún día no te tengo"
+        },
+        {
+          "type": "chord",
+          "content": "C#m"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": "Lo más grande se hará lo más pequeño"
+        },
+        {
+          "type": "chord",
+          "content": "E"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "lyric",
+          "content": "Pasearé en un cielo sin estrellas esta vez"
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "E"
+        },
+        {
+          "type": "lyric",
+          "content": "Tratando de entender quién hizo un infierno el paraíso"
+        },
+        {
+          "type": "chord",
+          "content": "C#m"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "F#"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": "No te vayas nunca porque no"
+        },
+        {
+          "type": "chord",
+          "content": "E"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "lyric",
+          "content": "No puedo estar sin ti"
+        },
+        {
+          "type": "chord",
+          "content": "C#m"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": "Si tú no estás aquí"
+        },
+        {
+          "type": "chord",
+          "content": "E"
+        },
+        {
+          "type": "lyric",
+          "content": "Me quema el aire"
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "C#m"
+            },
+            {
+              "type": "lyric",
+              "content": "Si tú no estás aquí no sé"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Qué diablos hago amándote"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "E"
+            },
+            {
+              "type": "lyric",
+              "content": "Si tú no estás aquí sabrás"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "A"
+            },
+            {
+              "type": "lyric",
+              "content": "Que Dios no va a entender por qué te vas"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C#m", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Si tú no estás aquí no sé"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Qué diablos hago amándote"
+        },
+        {
+          "type": "chords",
+          "content": ["C#m", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Si tú no estás aquí sabrás"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Que Dios no va a entender por qué te vas"
+        }
+      ]
+    }
+  ]
+}

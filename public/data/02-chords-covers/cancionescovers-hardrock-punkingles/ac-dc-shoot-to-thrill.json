@@ -1,0 +1,489 @@
+{
+  "id": "ac-dc-shoot-to-thrill",
+  "title": "Shoot to Thrill",
+  "artist": "AC/DC",
+  "originalKey": "D",
+  "tempo": "Rock",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D/F#"]
+        },
+        {
+          "type": "text",
+          "content": "(Intro riff)"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "All you women who want a man of the street,"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "but don't know which way you wanna turn,"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "just keep a-coming and put your hand out to me"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "'cause I'm the one who's gonna make you burn."
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm gonna take you down, oh, down, down, down!"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "So don't you fool around,"
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm gonna pull it, pull it, pull the trigger."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["E", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Shoot to thrill,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["E", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "play to kill,"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "too many women with too many pills."
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["E", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Shoot to thrill,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["E", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "play to kill,"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["A", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "I got my gun at the ready, gonna fire at will."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Yeah, I'm like evil, I get under your skin,"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "just like a bomb that's ready to blow,"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "'cause I'm illegal, I got everything"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "that all you women might need to know."
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm gonna take you down, yeah, down, down, down!"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "So don't you fool around,"
+        },
+        {
+          "type": "chords",
+          "content": ["B"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm gonna pull it, pull it, pull the trigger."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["E", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Shoot to thrill,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["E", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "play to kill,"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "too many women with too many pills."
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["E", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Shoot to thrill,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["E", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "play to kill,"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["A", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "I got my gun at the ready, gonna fire at will."
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "'Cause I shoot to thrill, and I'm ready to kill,"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "I can't get enough, I can't get the thrill."
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "I shoot to thrill, play to kill, yeah, pull the trigger!"
+        },
+        {
+          "type": "chords",
+          "content": ["B", "A", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Pull it, pull it, pull it, pull the trigger!"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["E", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Shoot to thrill,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["E", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "play to kill,"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "too many women with too many pills."
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["E", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Shoot to thrill,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["E", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "play to kill,"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["A", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "I got my gun at the ready, gonna fire at will."
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "'Cause I shoot to thrill, and I'm ready to kill,"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "and I can't get enough, and I can't get the thrill,"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "'cause I shoot to thrill, play to kill!"
+        },
+        {
+          "type": "text",
+          "content": "(Riff final: E D A E D A E D A)"
+        }
+      ]
+    }
+  ]
+}

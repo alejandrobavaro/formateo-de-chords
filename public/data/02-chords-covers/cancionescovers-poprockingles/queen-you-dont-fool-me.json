@@ -1,0 +1,429 @@
+{
+  "id": "queen-you-dont-fool-me",
+  "title": "You Don't Fool Me",
+  "artist": "Queen",
+  "originalKey": "Em",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Em"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh oh...ooooooooooooooooooo"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Em", "D", "Am"]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "D", "Am", "E"]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "D", "Am", "Em"]
+        },
+        {
+          "type": "lyric",
+          "content": "You don't fool me, you don't fool me"
+        },
+        {
+          "type": "lyric",
+          "content": "You don't fool me, you don't fool me"
+        },
+        {
+          "type": "lyric",
+          "content": "You don't fool me"
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "D", "Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "You don't fool me, you don't fool me"
+        },
+        {
+          "type": "lyric",
+          "content": "You don't fool me, you don't fool me"
+        },
+        {
+          "type": "lyric",
+          "content": "You don't fool me"
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "D", "Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Da /da da da /dah"
+        },
+        {
+          "type": "lyric",
+          "content": "Da da da dah"
+        },
+        {
+          "type": "lyric",
+          "content": "Da da da ah"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Em", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "You don't fool me - those pretty eyes"
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "Em"]
+        },
+        {
+          "type": "lyric",
+          "content": "That sexy smile - you don't fool me, uh uh uh"
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "You don't rule me - you're no surprise"
+        },
+        {
+          "type": "chords",
+          "content": ["Am", "Em"]
+        },
+        {
+          "type": "lyric",
+          "content": "You're telling lies - hey, you don't fool me"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "TERCERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Em"]
+        },
+        {
+          "type": "lyric",
+          "content": "Mmm, mama said be careful of that girl"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Mama said you know that she's no good"
+        },
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Mama said be cool, don't you be no fool"
+        },
+        {
+          "type": "chords",
+          "content": ["Em"]
+        },
+        {
+          "type": "lyric",
+          "content": "Yup bu/ ba ba ba ba /da da da daaah"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Em", "D", "Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "You don't fool me, you don't fool me"
+        },
+        {
+          "type": "lyric",
+          "content": "You don't fool me, you don't fool me"
+        },
+        {
+          "type": "lyric",
+          "content": "You don't fool me"
+        },
+        {
+          "type": "chords",
+          "content": ["Em"]
+        },
+        {
+          "type": "lyric",
+          "content": "You don't fool me, she'll take you"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "You don't fool me, and break you"
+        },
+        {
+          "type": "chords",
+          "content": ["Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "You don't fool me, and break you"
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Sooner or later you'll be playing by her rules"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PUENTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Em", "Em7", "C", "Cm"]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "Em7", "C", "Cm"]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "Am7", "D", "Em"]
+        },
+        {
+          "type": "chords",
+          "content": ["D", "C", "D", "Em", "D"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CUARTA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Em", "D", "C", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Baby you don't fool me, yeah"
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "D", "Am"]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "D", "Am", "E"]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "D", "Am", "Em"]
+        },
+        {
+          "type": "lyric",
+          "content": "You don't fool me"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "QUINTA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Em", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "You don't have to say 'don't mind'"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "You don't have to teach me things I know"
+        },
+        {
+          "type": "chords",
+          "content": ["Em"]
+        },
+        {
+          "type": "lyric",
+          "content": "Sooner or later you'll be playing by her rules"
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh-fool-you / oh-rule-you / she'll take you (take you)"
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "And break you (break you) yeah"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEXTA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Em"]
+        },
+        {
+          "type": "lyric",
+          "content": "Mama said be cool"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Mama said she'll take you for a fool"
+        },
+        {
+          "type": "chords",
+          "content": ["Em"]
+        },
+        {
+          "type": "lyric",
+          "content": "She'll take you and break you"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Em", "D2/E", "Am/E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Na na na na na na na na nah"
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "D2/E", "Am/E"]
+        },
+        {
+          "type": "lyric",
+          "content": "You don't fool me, you don't fool me"
+        },
+        {
+          "type": "lyric",
+          "content": "You don't fool me, you don't fool me"
+        },
+        {
+          "type": "lyric",
+          "content": "You don't fool me"
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "D2/E", "Am/E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Na na na na na na na na nah"
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "D2/E", "Am/E"]
+        },
+        {
+          "type": "lyric",
+          "content": "You don't fool me, you don't fool me"
+        },
+        {
+          "type": "lyric",
+          "content": "You don't fool me, you don't fool me"
+        },
+        {
+          "type": "lyric",
+          "content": "You don't fool me"
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "D", "Am", "Em"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,322 @@
+{
+  "id": "system-of-a-down-hypnotize",
+  "title": "Hypnotize",
+  "artist": "System of a Down",
+  "originalKey": "E",
+  "tempo": "Upbeat",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRODUCCIÓN",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Why don't you ask the kids at Tiananmen"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Square"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Was fashion the reason"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Why they were there"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "They disguise it"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hypnotize it"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Television made you"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Buy it"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm just sitting in my car"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "And waiting for my"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "She's scared that I will take her away from"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "there"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Her dreams and her"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Country left with no one there"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Mezmerize"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "the simple minded"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Propaganda"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Leaves us blinded"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm just sitting in my car"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "And waiting for my girl"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INSTRUMENTAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "chords",
+          "content": ["C", "E"]
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "chords",
+          "content": ["C", "E"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm just sitting in my car"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G", "B", "E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "And waiting for my girl"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm just sitting in my car"
+        },
+        {
+          "type": "chords",
+          "content": ["A6", "C", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G", "B", "E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "And waiting for my girl"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm just sitting in my car"
+        },
+        {
+          "type": "chords",
+          "content": ["A6", "C", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["G", "B", "E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "And waiting for my girl"
+        }
+      ]
+    }
+  ]
+}

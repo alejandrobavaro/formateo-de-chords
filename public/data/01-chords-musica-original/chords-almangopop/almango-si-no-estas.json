@@ -1,0 +1,418 @@
+{
+  "id": "almango-si-no-estas",
+  "title": "Si no estás...",
+  "artist": "Almango",
+  "originalKey": "C",
+  "tempo": "Romantic Ballad (75 BPM)",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "C/B"]
+        },
+        {
+          "type": "text",
+          "content": "(2 veces)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTROFA 1 (DIÁLOGO)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Poder entender, el que ya no estás,"},
+            {"type": "chord", "content": "C/B"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "me hace pensar que todo fue irreal."}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "CHICA",
+          "color": "chica",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Lo que ayer ame, y me hacia vibrar."},
+            {"type": "chord", "content": "C/B"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "Dm"},
+            {"type": "lyric", "content": "Hoy me desangra, quiero estallar."}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO 1 (A DUO)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Dm"},
+            {"type": "lyric", "content": "Aunque igual te espero,"},
+            {"type": "chord", "content": "Am"},
+            {"type": "lyric", "content": "mi dulce veneno."}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "CHICA",
+          "color": "chica",
+          "lines": [
+            {"type": "chord", "content": "Dm"},
+            {"type": "lyric", "content": "Me niego a perderte,"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "aquí estoy muriendo."}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 1 (A DUO)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Si no estás, no hay más amor."},
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "No hay luz en mi ventana,"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "CHICA",
+          "color": "chica",
+          "lines": [
+            {"type": "chord", "content": "F"},
+            {"type": "lyric", "content": "y mi mundo se derrumba."},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Si no estás, no hay más calor."},
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "Mi vida se desarma,"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "CHICA",
+          "color": "chica",
+          "lines": [
+            {"type": "chord", "content": "F"},
+            {"type": "lyric", "content": "y sin ti no importa nada."},
+            {"type": "chord", "content": "Fm"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTROFA 2 (DIÁLOGO)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Si me preguntas, lo que nos paso."},
+            {"type": "chord", "content": "C/B"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Tal vez fue mi fuego lo que te asfixió."}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "CHICA",
+          "color": "chica",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Consumí tu aire con la monotonía."},
+            {"type": "chord", "content": "C/B"},
+            {"type": "lyric", "content": ""},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Amargué mi sueño de estar con vos."}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO 2 (A DUO)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Dm"},
+            {"type": "lyric", "content": "Aunque igual te espero,"},
+            {"type": "chord", "content": "Am"},
+            {"type": "lyric", "content": "mi dulce veneno."}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "CHICA",
+          "color": "chica",
+          "lines": [
+            {"type": "chord", "content": "Dm"},
+            {"type": "lyric", "content": "Me niego a perderte,"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "aquí estoy muriendo."}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 2 (A DUO)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Si no estás, no hay más amor."},
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "No hay luz en mi ventana,"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "CHICA",
+          "color": "chica",
+          "lines": [
+            {"type": "chord", "content": "F"},
+            {"type": "lyric", "content": "y mi mundo se derrumba."},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Si no estás, no hay más calor."},
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "Mi vida se desarma,"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "CHICA",
+          "color": "chica",
+          "lines": [
+            {"type": "chord", "content": "F"},
+            {"type": "lyric", "content": "y sin ti no importa nada."},
+            {"type": "chord", "content": "Fm"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BIS (A DUO)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Dm"},
+            {"type": "lyric", "content": "Aunque ya no estés a mi lado,"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "te seguiré extrañando."}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "CHICA",
+          "color": "chica",
+          "lines": [
+            {"type": "chord", "content": "Dm"},
+            {"type": "lyric", "content": "Estoy muriendo, vida."},
+            {"type": "chord", "content": "F"},
+            {"type": "lyric", "content": "Ven por mí…"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "Em", "F", "G"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL (SIN BANDA)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Si no estás (si no estás),"},
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "no has más amor. (no has más),"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "CHICA",
+          "color": "chica",
+          "lines": [
+            {"type": "chord", "content": "F"},
+            {"type": "lyric", "content": "No hay luz en mi ventana,"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "y mi mundo se derrumba."}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL (CON BANDA)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Si no estás, (si no estás),"},
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "no hay más amor (no has más),"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "CHICA",
+          "color": "chica",
+          "lines": [
+            {"type": "chord", "content": "F"},
+            {"type": "lyric", "content": "No hay luz en mi ventana,"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "y mi mundo se derrumba."}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Si no estás, (si no estás),"},
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "no hay más calor (no has más),"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "CHICA",
+          "color": "chica",
+          "lines": [
+            {"type": "chord", "content": "F"},
+            {"type": "lyric", "content": "Mi vida se desarma,"},
+            {"type": "chord", "content": "Fm"},
+            {"type": "lyric", "content": "y sin ti no importa nada."}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F", "C"]
+        },
+        {
+          "type": "chords",
+          "content": ["F/C"]
+        },
+        {
+          "type": "voice",
+          "name": "ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Si no estás…"}
+          ]
+        }
+      ]
+    }
+  ]
+}

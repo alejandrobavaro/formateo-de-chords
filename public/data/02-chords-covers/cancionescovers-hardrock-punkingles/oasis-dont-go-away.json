@@ -1,0 +1,439 @@
+{
+    "id": "oasis-dont-go-away",
+    "title": "Don't Go Away",
+    "artist": "Oasis",
+    "originalKey": "F#m",
+    "tempo": "Slow",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F#m7", "E"]
+          },
+          {
+            "type": "chords",
+            "content": ["D7M", "B2"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRIMERA PARTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F#m7", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "A cold and frosty morning there's not a lot to say"
+          },
+          {
+            "type": "chords",
+            "content": ["D7M", "B2"]
+          },
+          {
+            "type": "lyric",
+            "content": "About the things caught in my mind"
+          },
+          {
+            "type": "chords",
+            "content": ["F#m7", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "And as the day was dawning my plane flew away"
+          },
+          {
+            "type": "chords",
+            "content": ["D7M", "B2"]
+          },
+          {
+            "type": "lyric",
+            "content": "With all the things caught in my mind"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Bm", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "And I wanna be there when you're coming down"
+          },
+          {
+            "type": "chords",
+            "content": ["Bm", "D", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "And I wanna be there when you hit the ground"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "So don't go away, say what you say"
+              },
+              {
+                "type": "chord",
+                "content": "E/G#"
+              },
+              {
+                "type": "lyric",
+                "content": "But say that you'll stay, forever and a day"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F#m7"
+              },
+              {
+                "type": "lyric",
+                "content": "In the time of my life, 'cause I need more time"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "Yes I need more time just to make things right"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SEGUNDA PARTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F#m7", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Damn my situation and the games I have to play"
+          },
+          {
+            "type": "chords",
+            "content": ["D7M", "B2"]
+          },
+          {
+            "type": "lyric",
+            "content": "With all the things caught in my mind"
+          },
+          {
+            "type": "chords",
+            "content": ["F#m7", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "Damn my education I can't find the words to say"
+          },
+          {
+            "type": "chords",
+            "content": ["D7M", "B2"]
+          },
+          {
+            "type": "lyric",
+            "content": "About the things caught in my mind"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Bm", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "And I don't wanna be there when you're coming down"
+          },
+          {
+            "type": "chords",
+            "content": ["Bm", "D", "E"]
+          },
+          {
+            "type": "lyric",
+            "content": "And I don't wanna be there when you hit the ground"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "So don't go away, say what you say"
+              },
+              {
+                "type": "chord",
+                "content": "E/G#"
+              },
+              {
+                "type": "lyric",
+                "content": "But say that you'll stay, forever and a day"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F#m7"
+              },
+              {
+                "type": "lyric",
+                "content": "In the time of my life, 'cause I need more time"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "Yes I need more time just to make things right"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PUENTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Dm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Me and you what's going on"
+          },
+          {
+            "type": "chords",
+            "content": ["A", "A/E", "F#m"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "A/E", "F#m"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PUENTE 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D", "Dm"]
+          },
+          {
+            "type": "lyric",
+            "content": "All we seem to know is how to show the feelings that are wrong"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "E", "F#m7", "E", "D", "E"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "So don't go away, say what you say"
+              },
+              {
+                "type": "chord",
+                "content": "E/G#"
+              },
+              {
+                "type": "lyric",
+                "content": "But say that you'll stay, forever and a day"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F#m7"
+              },
+              {
+                "type": "lyric",
+                "content": "In the time of my life, 'cause I need more time"
+              },
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "Yes I need more time just to make things right"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "chords",
+            "content": ["F#m7", "E", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Yes I need more time just to make things right"
+          },
+          {
+            "type": "chords",
+            "content": ["F#m7", "E", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Yes I need more time just to make things right"
+          },
+          {
+            "type": "chords",
+            "content": ["F#m7", "E", "D", "Dm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Yes I need more time just to make things right"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "A/E", "F#m"]
+          },
+          {
+            "type": "chords",
+            "content": ["A", "A/E", "F#m"]
+          }
+        ]
+      }
+    ]
+  }
+  

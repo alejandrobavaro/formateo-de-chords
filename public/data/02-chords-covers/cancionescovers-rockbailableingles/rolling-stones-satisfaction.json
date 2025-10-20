@@ -1,0 +1,559 @@
+{
+  "id": "the-rolling-stones-satisfaction",
+  "title": "(I Can't Get No) Satisfaction",
+  "artist": "The Rolling Stones",
+  "originalKey": "E",
+  "tempo": "Upbeat",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRODUCCIÓN",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "D"]
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D"]
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D"]
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E7", "A7"]
+        },
+        {
+          "type": "lyric",
+          "content": "I can't get no satisfaction"
+        },
+        {
+          "type": "chords",
+          "content": ["E7", "A7"]
+        },
+        {
+          "type": "lyric",
+          "content": "I can't get no satisfaction"
+        },
+        {
+          "type": "chords",
+          "content": ["E7", "B7"]
+        },
+        {
+          "type": "lyric",
+          "content": "'Cause I try and I try"
+        },
+        {
+          "type": "chords",
+          "content": ["E7", "A7"]
+        },
+        {
+          "type": "lyric",
+          "content": "And I try and I try"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "I can't get no"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "I can't get no"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "When I'm drivin' in my car"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "And the man comes on the radio"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "He's tellin' me more and more"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "About some useless information"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Supposed to fire my imagination"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "I can't get no"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh, no, no, no"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hey, hey, hey"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "That's what I say"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E7", "A7"]
+        },
+        {
+          "type": "lyric",
+          "content": "I can't get no satisfaction"
+        },
+        {
+          "type": "chords",
+          "content": ["E7", "A7"]
+        },
+        {
+          "type": "lyric",
+          "content": "I can't get no satisfaction"
+        },
+        {
+          "type": "chords",
+          "content": ["E7", "B7"]
+        },
+        {
+          "type": "lyric",
+          "content": "'Cause I try and I try"
+        },
+        {
+          "type": "chords",
+          "content": ["E7", "A7"]
+        },
+        {
+          "type": "lyric",
+          "content": "And I try and I try"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "I can't get no"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "I can't get no"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "When I'm watchin' my TV"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "And that man comes on to tell me"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "How white my shirts can be"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "But he can't be a man"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "'Cause he doesn't smoke"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "The same cigarettes as me"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "I can't get no"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh, no, no, no"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hey, hey, hey"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "That's what I say"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E7", "A7"]
+        },
+        {
+          "type": "lyric",
+          "content": "I can't get no satisfaction"
+        },
+        {
+          "type": "chords",
+          "content": ["E7", "A7"]
+        },
+        {
+          "type": "lyric",
+          "content": "I can't get no girl reaction"
+        },
+        {
+          "type": "chords",
+          "content": ["E7", "B7"]
+        },
+        {
+          "type": "lyric",
+          "content": "'Cause I try and I try"
+        },
+        {
+          "type": "chords",
+          "content": ["E7", "A7"]
+        },
+        {
+          "type": "lyric",
+          "content": "And I try and I try"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 3",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "I can't get no"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "I can't get no"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "When I'm ridin' round the world"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "And I'm doin' this"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "And I'm signing that"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "And I'm tryin' to make"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Some girl who tells me"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Baby better"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Come back later next week"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "'Cause you see"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm on losing streak"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "I can't get no"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh, no, no, no"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hey, hey, hey"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "That's what I say"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "I can't get no"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "I can't get no"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "I can't get no"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "No satisfaction"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "No satisfaction"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "No satisfaction"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "No satisfaction"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "I can't get no"
+        }
+      ]
+    }
+  ]
+}

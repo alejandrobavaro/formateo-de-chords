@@ -1,0 +1,377 @@
+{
+  "id": "juanes-mala-gente",
+  "title": "Mala Gente",
+  "artist": "Juanes",
+  "originalKey": "D",
+  "tempo": "Upbeat (Pop rock)",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO (Riff inicial)",
+      "lines": [
+        {
+          "type": "text",
+          "content": "(Riff de guitarra - omitido por solicitud)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA ESTROFA",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Bm"
+        },
+        {
+          "type": "lyric",
+          "content": "Tú me pides que te deje ahora, ahora"
+        },
+        {
+          "type": "chord",
+          "content": "F#"
+        },
+        {
+          "type": "lyric",
+          "content": "Ahora cuando más te necesito"
+        },
+        {
+          "type": "chord",
+          "content": "Bm"
+        },
+        {
+          "type": "lyric",
+          "content": "Tú me dices que este amor se fue al olvido, ahora"
+        },
+        {
+          "type": "chord",
+          "content": "F#"
+        },
+        {
+          "type": "lyric",
+          "content": "Ahora cuando yo ya no te olvido"
+        },
+        {
+          "type": "chord",
+          "content": "Bm"
+        },
+        {
+          "type": "lyric",
+          "content": "Tú me pides que seamos solo amigos, amigos"
+        },
+        {
+          "type": "chord",
+          "content": "F#"
+        },
+        {
+          "type": "lyric",
+          "content": "Y a mí no me interesa ser tu amigo"
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "Tú me dices que este amor ha sido en vano"
+        },
+        {
+          "type": "chord",
+          "content": "F#"
+        },
+        {
+          "type": "lyric",
+          "content": "Qué malo que dices eso, pero qué bueno que se acabó"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Bm"
+            },
+            {
+              "type": "lyric",
+              "content": "Mala gente, te burlaste de mis sentimientos"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F#"
+            },
+            {
+              "type": "lyric",
+              "content": "y ahora te lamentas"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Bm"
+            },
+            {
+              "type": "lyric",
+              "content": "Mala gente, vas a pagarla caro"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F#"
+            },
+            {
+              "type": "lyric",
+              "content": "porque a mí tú ya no me interesas"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Bm"
+            },
+            {
+              "type": "lyric",
+              "content": "Mala gente, porque tú eres una mentirosa"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Em"
+            },
+            {
+              "type": "lyric",
+              "content": "y una mala gente"
+            },
+            {
+              "type": "chord",
+              "content": "F#"
+            },
+            {
+              "type": "lyric",
+              "content": "En el infierno enterita, enterita te vas a quemar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA ESTROFA",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Bm"
+        },
+        {
+          "type": "lyric",
+          "content": "Tú me pides que regrese ahora, ahora"
+        },
+        {
+          "type": "chord",
+          "content": "F#"
+        },
+        {
+          "type": "lyric",
+          "content": "Y ahora es a mí a quien no le importa"
+        },
+        {
+          "type": "chord",
+          "content": "Bm"
+        },
+        {
+          "type": "lyric",
+          "content": "Tú me pides que seamos más que amigos, amigos"
+        },
+        {
+          "type": "chord",
+          "content": "F#"
+        },
+        {
+          "type": "lyric",
+          "content": "Y amigos, ¿para qué si no hay cariño?"
+        },
+        {
+          "type": "chord",
+          "content": "E"
+        },
+        {
+          "type": "lyric",
+          "content": "Hoy por fin me he dado cuenta de tu engaño"
+        },
+        {
+          "type": "chord",
+          "content": "F#"
+        },
+        {
+          "type": "lyric",
+          "content": "De tu mala calaña y tanto mal que me hiciste tú"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Bm"
+            },
+            {
+              "type": "lyric",
+              "content": "Mala gente, te burlaste de mis sentimientos"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F#"
+            },
+            {
+              "type": "lyric",
+              "content": "y ahora te lamentas"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Bm"
+            },
+            {
+              "type": "lyric",
+              "content": "Mala gente, vas a pagarla caro"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F#"
+            },
+            {
+              "type": "lyric",
+              "content": "porque a mí tú ya no me interesas"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Bm"
+            },
+            {
+              "type": "lyric",
+              "content": "Mala gente, porque tú eres una mentirosa"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "Em"
+            },
+            {
+              "type": "lyric",
+              "content": "y una mala gente"
+            },
+            {
+              "type": "chord",
+              "content": "F#"
+            },
+            {
+              "type": "lyric",
+              "content": "En el infierno enterita, enterita te vas a quemar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "OUTRO (Riff final)",
+      "lines": [
+        {
+          "type": "text",
+          "content": "(Riff de guitarra - omitido por solicitud)"
+        }
+      ]
+    }
+  ]
+}

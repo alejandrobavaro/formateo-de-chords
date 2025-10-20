@@ -1,0 +1,403 @@
+﻿{
+    "id": "almango-huye-reina-mia",
+    "title": "Huye Reina Mía",
+    "artist": "Almango",
+    "originalKey": "Gm",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Gm", "D#", "A#", "F"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "VERSE 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Gm", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "La luna mostró sus ojos, reveló pasión oculta."
+          },
+          {
+            "type": "chords",
+            "content": ["D#", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["A#", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y mi vida gira, gira."
+          },
+          {
+            "type": "chords",
+            "content": ["F", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Mi vida sigue girando."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "VERSE 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Gm", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "En el aire algo dormido, perdí el amor en sus brazos."
+          },
+          {
+            "type": "chords",
+            "content": ["D#", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["A#", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Golpea, dispara y mata."
+          },
+          {
+            "type": "chords",
+            "content": ["F", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Sus labios hoy me hacen daño."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Dm", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Huye reina mía, mía..."
+          },
+          {
+            "type": "chords",
+            "content": ["A#", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Huye junto a la luna."
+          },
+          {
+            "type": "chords",
+            "content": ["Dm", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Que yo no soy tu dueño."
+          },
+          {
+            "type": "chords",
+            "content": ["A#", "F", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Solo fui tu compañero..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "VERSE 3",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Gm", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Nena, déjame que sueñe nuestra última aventura."
+          },
+          {
+            "type": "chords",
+            "content": ["D#", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["A#", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Te invitaré a que vueles con los ojitos cerrados."
+          },
+          {
+            "type": "chords",
+            "content": ["F", "-"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "VERSE 4",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Gm", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "El final está tan cerca, es nuestra última balada."
+          },
+          {
+            "type": "chords",
+            "content": ["D#", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["A#", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Siento el aire falso, ahogándonos en el fuego."
+          },
+          {
+            "type": "chords",
+            "content": ["F", "-"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Dm", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Huye reina mía, mía..."
+          },
+          {
+            "type": "chords",
+            "content": ["A#", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Huye junto a la luna."
+          },
+          {
+            "type": "chords",
+            "content": ["Dm", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Que yo no soy tu dueño."
+          },
+          {
+            "type": "chords",
+            "content": ["A#", "F", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Solo fui tu compañero..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "RECITADO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "D", "D#", "F"]
+          },
+          {
+            "type": "lyric",
+            "content": "El final está tan cerca, es nuestra última balada."
+          },
+          {
+            "type": "lyric",
+            "content": "Siento aire falso, muero en el fuego y en la nada que me atrapa."
+          },
+          {
+            "type": "lyric",
+            "content": "Por el camino quedan años y recuerdos que acompañan."
+          },
+          {
+            "type": "lyric",
+            "content": "Bajaremos la cabeza, aceptaremos el pasado."
+          },
+          {
+            "type": "lyric",
+            "content": "Cómo canta mi herida, ¡ay, cómo canta y sangra!"
+          },
+          {
+            "type": "lyric",
+            "content": "Por el cielo va la luna con tu ego de la mano."
+          },
+          {
+            "type": "lyric",
+            "content": "Dentro del alma lloran, dando gritos, nos matamos."
+          },
+          {
+            "type": "lyric",
+            "content": "El amor malo mata y lentamente nos ha matado."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Dm", "A#", "Dm", "A#", "A#", "F", "D"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Dm", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Huye reina mía, mía..."
+          },
+          {
+            "type": "chords",
+            "content": ["A#", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Huye junto a la luna."
+          },
+          {
+            "type": "chords",
+            "content": ["Dm", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Que yo no soy tu dueño."
+          },
+          {
+            "type": "chords",
+            "content": ["A#", "F", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Solo fui tu compañero..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Dm", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Huye reina mía, mía..."
+          },
+          {
+            "type": "chords",
+            "content": ["A#", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Huye junto a la luna."
+          },
+          {
+            "type": "chords",
+            "content": ["Dm", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Que yo no soy tu dueño."
+          },
+          {
+            "type": "chords",
+            "content": ["A#", "F", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "Solo fui tu compañero..."
+          }
+        ]
+      }
+    ]
+  }
+  
+
+
+
+  

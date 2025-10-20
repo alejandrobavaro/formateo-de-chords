@@ -1,0 +1,333 @@
+{
+  "id": "ac-dc-stiff-upper-lip",
+  "title": "Stiff Upper Lip",
+  "artist": "AC/DC",
+  "originalKey": "D",
+  "tempo": "Rock",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "A", "G", "E", "A", "G"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Well, I was out on a drive, on a bit of a trip,"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "lookin' for thrills to get me some kicks."
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Yeah, I warn you, ladies, I shoot from the hip,"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "I was born with a stiff, stiff upper lip."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "A", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Like a dog in a howl I bite everything,"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "and I'm big and I'm drawl, and I'll ball your thing."
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Now keep a stiff upper lip, and I shoot from the hip."
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh, keep a stiff upper lip,"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "and I shoot, and I shoot, shoot from the hip,"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "E", "A", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "I shoot from the hip. Now listen!"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "TERCERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "A", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Well I'm workin' it out, and I've done everything"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "and I can't reform, no, can you feel my sting?"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Baby, keep a stiff upper lip, and I shoot from the hip, yeah!"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "A", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "I keep a stiff upper lip,"
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "and I shoot, and I shoot, and I shoot, shoot, shoot, yeah,"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "shoot from the hip. Yeah yeah!"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "Riff Intermedio",
+      "lines": [
+        {
+          "type": "text",
+          "content": "(Riff: E A G E A G A E A G E A G)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CUARTA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "A", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Well, I'm out on the prowl, and I'll ball your thing,"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "I've got the teeth that'll bite you, can you feel that sting?"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Baby, keep a stiff upper lip, and I shoot from the hip, yeah!"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "A", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "I keep a stiff upper lip,"
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["A"]
+            },
+            {
+              "type": "lyric",
+              "content": "and I shoot, shoot, shoot from the hip."
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "I got a stiff upper lip, stiff upper lip,"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "stiff upper lip, stiff upper lip,"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "I got a stiff upper lip, stiff upper lip,"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "stiff upper lip, stiff upper lip"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "and I shoot, and I shoot, and I shoot,"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "shoot from the hip, yeah!"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,491 @@
+{
+  "id": "ale-gondra-no-te-rindas",
+  "title": "No te rindas",
+  "artist": "Ale Gondra",
+  "originalKey": "Em",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Em7", "D", "C", "x2"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Em7"
+        },
+        {
+          "type": "lyric",
+          "content": "Cuando duelan todas tus heridas,"
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": "Cuando estés solo y sin valor,"
+        },
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "lyric",
+          "content": "Cuando nadie juegue de tu lado,"
+        },
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "lyric",
+          "content": "No te rindas."
+        }
+      ]
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Em7"
+        },
+        {
+          "type": "lyric",
+          "content": "Cuando ya las luces no enciendan,"
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": "Cuando no haya nada que perder,"
+        },
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "lyric",
+          "content": "Cuando el miedo te abrace fuerte,"
+        },
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "lyric",
+          "content": "Nunca dejes de luchar."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G9"
+            },
+            {
+              "type": "lyric",
+              "content": "No te rindas por favor,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "D9/F#"
+            },
+            {
+              "type": "lyric",
+              "content": "solo vos podes salir."
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "C", "C/B", "D"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G9"
+            },
+            {
+              "type": "lyric",
+              "content": "Y si hay que luchar"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "D9/F#"
+            },
+            {
+              "type": "lyric",
+              "content": "contra ese mal,"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "C", "C/B", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "se que vos vencerás."
+        },
+        {
+          "type": "chord",
+          "content": "C9"
+        },
+        {
+          "type": "lyric",
+          "content": "No te rindas…"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Em7"
+        },
+        {
+          "type": "lyric",
+          "content": "Cuando ya no quieras levantarte,"
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": "Cuando la belleza diga adiós,"
+        },
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "lyric",
+          "content": "Cuando no haya risa ni deseos,"
+        },
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "lyric",
+          "content": "Nunca dejes de luchar."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G9"
+            },
+            {
+              "type": "lyric",
+              "content": "No te rindas por favor,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "D9/F#"
+            },
+            {
+              "type": "lyric",
+              "content": "solo vos podes salir."
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "C", "C/B", "D"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G9"
+            },
+            {
+              "type": "lyric",
+              "content": "Y si hay que luchar"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "D9/F#"
+            },
+            {
+              "type": "lyric",
+              "content": "contra ese mal,"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "D9/F#", "G9", "A", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "No te rindas…"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Em", "D9/F#", "G9", "A", "G", "x4"]
+        },
+        {
+          "type": "text",
+          "content": "(Última vuelta) Em - D9/F# - G9 - A"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "No te rindas por favor,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "D/C#"
+            },
+            {
+              "type": "lyric",
+              "content": "solo vos podes salir."
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "G9", "D9/F#", "A"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Y si hay que luchar"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "D/C#"
+            },
+            {
+              "type": "lyric",
+              "content": "contra ese mal,"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "G9", "D9/F#", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "se que vos vencerás."
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "No te rindas por favor,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "D/C#"
+            },
+            {
+              "type": "lyric",
+              "content": "solo vos vencerás."
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "G9", "D9/F#", "A"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Y si hay que luchar"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "D/C#"
+            },
+            {
+              "type": "lyric",
+              "content": "contra ese mal,"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "G9", "D9/F#", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "se que vos vencerás."
+        },
+        {
+          "type": "chords",
+          "content": ["G9", "A", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "No te rindas…"
+        }
+      ]
+    }
+  ]
+}

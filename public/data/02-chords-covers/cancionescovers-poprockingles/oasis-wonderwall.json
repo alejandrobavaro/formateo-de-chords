@@ -1,0 +1,496 @@
+{
+    "id": "oasis-wonderwall",
+    "title": "Wonderwall",
+    "artist": "Oasis",
+    "originalKey": "Em",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em7", "G", "D4", "A7(4)"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em7", "G", "D4", "A7(4)"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em7", "G", "D4", "A7(4)"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em7", "G", "D4", "A7(4)"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRIMERA PARTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em7", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Today is gonna be the day"
+          },
+          {
+            "type": "chords",
+            "content": ["D4"]
+          },
+          {
+            "type": "lyric",
+            "content": "That they're gonna throw it back to you"
+          },
+          {
+            "type": "chords",
+            "content": ["A7(4)"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em7", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "By now you should've somehow realized what you gotta do"
+          },
+          {
+            "type": "chords",
+            "content": ["D4", "A7(4)"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em7", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "I don't believe that anybody feels the way I do"
+          },
+          {
+            "type": "chords",
+            "content": ["D4", "A7(4)"]
+          },
+          {
+            "type": "lyric",
+            "content": "About you now"
+          },
+          {
+            "type": "chords",
+            "content": ["Em7", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Backbeat, the word was on the street"
+          },
+          {
+            "type": "chords",
+            "content": ["D4", "A7(4)"]
+          },
+          {
+            "type": "lyric",
+            "content": "That the fire in your heart is out"
+          },
+          {
+            "type": "chords",
+            "content": ["Em7", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "I'm sure you've heard it all before"
+          },
+          {
+            "type": "chords",
+            "content": ["D4", "A7(4)"]
+          },
+          {
+            "type": "lyric",
+            "content": "But you never really had a doubt"
+          },
+          {
+            "type": "chords",
+            "content": ["Em7", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "I don't believe that anybody feels the way I do"
+          },
+          {
+            "type": "chords",
+            "content": ["D4", "A7(4)"]
+          },
+          {
+            "type": "lyric",
+            "content": "About you now"
+          },
+          {
+            "type": "chords",
+            "content": ["Em7", "G", "D4", "A7(4)"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRÉ-REFRÁN",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C9", "D", "Em7"]
+          },
+          {
+            "type": "lyric",
+            "content": "And all the roads we have to walk are winding"
+          },
+          {
+            "type": "chords",
+            "content": ["C9", "D", "Em7"]
+          },
+          {
+            "type": "lyric",
+            "content": "And all the lights that lead us there are blinding"
+          },
+          {
+            "type": "chords",
+            "content": ["C9", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "There are many things that I would like to say to you"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D11/F#", "Em7"]
+          },
+          {
+            "type": "chords",
+            "content": ["G", "A7(4)"]
+          },
+          {
+            "type": "lyric",
+            "content": "But I don't know how"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C9"
+              },
+              {
+                "type": "lyric",
+                "content": "Because maybe"
+              },
+              {
+                "type": "chord",
+                "content": "Em7"
+              },
+              {
+                "type": "lyric",
+                "content": "You're gonna be the one"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "That saves me"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["Em7", "C9", "Em7", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "And after all"
+          },
+          {
+            "type": "chords",
+            "content": ["Em7", "C9", "Em7", "G", "Em7", "A7(4)"]
+          },
+          {
+            "type": "lyric",
+            "content": "You're my wonderwall"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SEGUNDA PARTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em7", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Today was gonna be the day"
+          },
+          {
+            "type": "chords",
+            "content": ["D4", "A7(4)"]
+          },
+          {
+            "type": "lyric",
+            "content": "But they'll never throw it back to you"
+          },
+          {
+            "type": "chords",
+            "content": ["Em7", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "By now you should've somehow realized what you're not to do"
+          },
+          {
+            "type": "chords",
+            "content": ["D4", "A7(4)"]
+          },
+          {
+            "type": "chords",
+            "content": ["Em7", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "I don't believe that anybody feels the way I do"
+          },
+          {
+            "type": "chords",
+            "content": ["D4", "A7(4)"]
+          },
+          {
+            "type": "lyric",
+            "content": "About you now"
+          },
+          {
+            "type": "chords",
+            "content": ["Em7", "G", "D4", "A7(4)"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C9", "D", "Em7"]
+          },
+          {
+            "type": "lyric",
+            "content": "And all the roads that lead you there were winding"
+          },
+          {
+            "type": "chords",
+            "content": ["C9", "D", "Em7"]
+          },
+          {
+            "type": "lyric",
+            "content": "And all the lights that light the way are blinding"
+          },
+          {
+            "type": "chords",
+            "content": ["C9", "D"]
+          },
+          {
+            "type": "lyric",
+            "content": "There are many things that I would like to say to you"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D11/F#", "Em7"]
+          },
+          {
+            "type": "chords",
+            "content": ["G", "A7(4)"]
+          },
+          {
+            "type": "lyric",
+            "content": "But I don't know how"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C9"
+              },
+              {
+                "type": "lyric",
+                "content": "I said maybe"
+              },
+              {
+                "type": "chord",
+                "content": "Em7"
+              },
+              {
+                "type": "lyric",
+                "content": "You're gonna be the one"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "That saves me"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["Em7", "C9", "Em7", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "And after all"
+          },
+          {
+            "type": "chords",
+            "content": ["Em7", "C9", "Em7", "G", "Em7"]
+          },
+          {
+            "type": "lyric",
+            "content": "You're my wonderwall"
+          },
+          {
+            "type": "chords",
+            "content": ["C9", "Em7", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "I said maybe"
+          },
+          {
+            "type": "chords",
+            "content": ["Em7"]
+          },
+          {
+            "type": "lyric",
+            "content": "You're gonna be the one"
+          },
+          {
+            "type": "chords",
+            "content": ["C9", "Em7", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "That saves me"
+          },
+          {
+            "type": "chords",
+            "content": ["Em7", "C9", "Em7", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "You're gonna be the one"
+          },
+          {
+            "type": "chords",
+            "content": ["C9", "Em7", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "That saves me"
+          },
+          {
+            "type": "chords",
+            "content": ["Em7", "C9", "Em7", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "You're gonna be the one"
+          },
+          {
+            "type": "chords",
+            "content": ["C9", "Em7", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "That saves me"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C9", "Em7", "G", "Em7"]
+          },
+          {
+            "type": "chords",
+            "content": ["C9", "Em7", "G", "Em7"]
+          },
+          {
+            "type": "chords",
+            "content": ["C9", "Em7", "G", "Em7"]
+          },
+          {
+            "type": "chords",
+            "content": ["C9", "Em7", "G", "Em7"]
+          }
+        ]
+      }
+    ]
+  }
+  

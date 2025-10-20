@@ -1,0 +1,358 @@
+{
+  "id": "chayanne-provocame",
+  "title": "Provócame",
+  "artist": "Chayanne",
+  "originalKey": "C",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRODUCCIÓN",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "F"]
+        },
+        {
+          "type": "chords",
+          "content": ["C", "F"]
+        },
+        {
+          "type": "chords",
+          "content": ["C", "F"]
+        },
+        {
+          "type": "chords",
+          "content": ["C", "F"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Coqueteando junto a él"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Te encontré en aquel café"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Pero tus ojos, se clavaron en mí."
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Te miré y te hice sonreír,"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "desde aquel día, tú eres mi obsesión"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Sé que me sigues por donde voy,"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Y me espías en cada rincón."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Te noto tras mis pasos,"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Te escondes en mi sombra"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Y no comprendo la razón."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Provócame, mujer, provócame,"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Provócame, a ver, atrévete,"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Provócame, a mí, acércate,"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Provócame, aquí, de piel a piel,"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "F#dim"]
+        },
+        {
+          "type": "lyric",
+          "content": "Provócame, libérate de una vez,"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "C/B", "Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "Ten valor, enfréntate"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Provócame y conquista mi amor."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Me escribes y no firmas jamás,"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Llamas y no quieres hablar,"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Envías rosas y poemas de amor,"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "y te siento siempre alrededor"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "¿Qué misterioso asunto ocultarás?,"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "¿Por qué secretamente vienes y vas?,"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "No dejas huellas pero sé que estás"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Te noto tras mis pasos,"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Te escondes en mi sombra"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Y no comprendo la razón."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (MODULACIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Provócame, mujer, provócame,"
+        },
+        {
+          "type": "chords",
+          "content": ["D#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Provócame, a ver, atrévete,"
+        },
+        {
+          "type": "chords",
+          "content": ["G#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Provócame, a mí, acércate,"
+        },
+        {
+          "type": "chords",
+          "content": ["D#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Provócame, aquí, de piel a piel,"
+        },
+        {
+          "type": "chords",
+          "content": ["G#", "G#dim"]
+        },
+        {
+          "type": "lyric",
+          "content": "Provócame, libérate de una vez,"
+        },
+        {
+          "type": "chords",
+          "content": ["D#", "A#/D", "Cm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Ten valor, enfréntate"
+        },
+        {
+          "type": "chords",
+          "content": ["A#", "G#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Provócame y conquista mi amor."
+        }
+      ]
+    }
+  ]
+}

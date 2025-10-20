@@ -1,0 +1,446 @@
+{
+  "id": "u2-i-still-havent-found-what-im-looking-for",
+  "title": "I Still Haven't Found What I'm Looking For",
+  "artist": "U2",
+  "originalKey": "A",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRODUCCIÓN",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A", "A5(7M)"]
+        },
+        {
+          "type": "chords",
+          "content": ["A", "A5(7M)"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A", "A5(7M)"]
+        },
+        {
+          "type": "lyric",
+          "content": "I have climbed the highest mountains"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "A5(7M)"]
+        },
+        {
+          "type": "lyric",
+          "content": "I have run through the fields"
+        },
+        {
+          "type": "chords",
+          "content": ["D9", "D4+(9)"]
+        },
+        {
+          "type": "lyric",
+          "content": "Only to be with you"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Only to be with you"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "A5(7M)"]
+        },
+        {
+          "type": "lyric",
+          "content": "I have run I have crawled"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "A5(7M)"]
+        },
+        {
+          "type": "lyric",
+          "content": "I have scaled these city walls, these city walls"
+        },
+        {
+          "type": "chords",
+          "content": ["D9", "D4+(9)"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Only to be with you"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "D9"]
+        },
+        {
+          "type": "lyric",
+          "content": "But I still haven't found"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "What I'm looking for"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D9"]
+        },
+        {
+          "type": "lyric",
+          "content": "But I still haven't found"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "What I'm looking for"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A", "A5(7M)"]
+        },
+        {
+          "type": "lyric",
+          "content": "I have kissed honey lips"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "A5(7M)"]
+        },
+        {
+          "type": "lyric",
+          "content": "Felt the healing in her fingertips"
+        },
+        {
+          "type": "chords",
+          "content": ["D9", "D4+(9)"]
+        },
+        {
+          "type": "lyric",
+          "content": "It burned like fire"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "This burning desire"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "A5(7M)"]
+        },
+        {
+          "type": "lyric",
+          "content": "I have spoke with the tongue of angels"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "A5(7M)"]
+        },
+        {
+          "type": "lyric",
+          "content": "I have held the hand of a devil"
+        },
+        {
+          "type": "chords",
+          "content": ["D9", "D4+(9)"]
+        },
+        {
+          "type": "lyric",
+          "content": "It was warm in the night"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "I was cold as a stone"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "D9"]
+        },
+        {
+          "type": "lyric",
+          "content": "But I still haven't found"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "What I'm looking for"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D9"]
+        },
+        {
+          "type": "lyric",
+          "content": "But I still haven't found"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "What I'm looking for"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D9"]
+        },
+        {
+          "type": "lyric",
+          "content": "But I still haven't found"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "What I'm looking for"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D9"]
+        },
+        {
+          "type": "lyric",
+          "content": "But I still haven't found"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "What I'm looking for"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "TERCERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A", "A5(7M)"]
+        },
+        {
+          "type": "lyric",
+          "content": "I believe in the Kingdom come"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "A5(7M)"]
+        },
+        {
+          "type": "lyric",
+          "content": "Then all the colors will bleed into one"
+        },
+        {
+          "type": "chords",
+          "content": ["D9", "D4+(9)"]
+        },
+        {
+          "type": "lyric",
+          "content": "Bleed into one"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "But yes, I'm still running"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "A5(7M)"]
+        },
+        {
+          "type": "lyric",
+          "content": "You broke the bonds and you"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Loosed the chains"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "A5(7M)"]
+        },
+        {
+          "type": "lyric",
+          "content": "Carried the cross"
+        },
+        {
+          "type": "chords",
+          "content": ["D9", "D4+(9)"]
+        },
+        {
+          "type": "lyric",
+          "content": "Of my shame"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh, my shame"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "You know I believe it"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "D9"]
+        },
+        {
+          "type": "lyric",
+          "content": "But I still haven't found"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "What I'm looking for"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D9"]
+        },
+        {
+          "type": "lyric",
+          "content": "But I still haven't found"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "What I'm looking for"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D9"]
+        },
+        {
+          "type": "lyric",
+          "content": "But I still haven't found"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "What I'm looking for"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D9"]
+        },
+        {
+          "type": "lyric",
+          "content": "But I still haven't found"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "What I'm looking for"
+        }
+      ]
+    }
+  ]
+}

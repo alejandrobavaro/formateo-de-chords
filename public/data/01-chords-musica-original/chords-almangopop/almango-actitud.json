@@ -1,0 +1,467 @@
+{
+  "id": "almango-actitud",
+  "title": "Actitud",
+  "artist": "Almango",
+  "originalKey": "Fm",
+  "tempo": "Upbeat",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO 1",
+      "lines": [
+        {
+          "type": "text",
+          "content": "Actitud!!"
+        },
+        {
+          "type": "chords",
+          "content": ["Fm", "G", "G#", "D#", "E", "Fm"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTRO 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Fm", "x2", "G", "G#", "x2"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Fm"
+        },
+        {
+          "type": "lyric",
+          "content": "Veo en tus ojos algo que me llega,"
+        },
+        {
+          "type": "chord",
+          "content": "Fm"
+        },
+        {
+          "type": "lyric",
+          "content": "Algo aquí está muy Hot. Muy Hot!"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Fm"
+        },
+        {
+          "type": "lyric",
+          "content": "Todas se derriten según como aplique,"
+        },
+        {
+          "type": "chord",
+          "content": "Fm"
+        },
+        {
+          "type": "lyric",
+          "content": "mis armas de seducción."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "B", "A#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Con actitud…"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTRO 2 (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Fm", "x2", "G", "G#", "x2"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Fm"
+        },
+        {
+          "type": "lyric",
+          "content": "Sin pedir permiso me acerco a tu oído,"
+        },
+        {
+          "type": "chord",
+          "content": "Fm"
+        },
+        {
+          "type": "lyric",
+          "content": "y así va a comenzar mi show. Fire!!"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Fm"
+        },
+        {
+          "type": "lyric",
+          "content": "Aquí comienza el juego en un mundo nuevo,"
+        },
+        {
+          "type": "chord",
+          "content": "Fm"
+        },
+        {
+          "type": "lyric",
+          "content": "ardiente y con actitud."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "B", "A#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Con actitud…"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Fm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Aquí voy, hacia vos."
+        },
+        {
+          "type": "chords",
+          "content": ["G", "G#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Nena tú vas a ser mía"
+        },
+        {
+          "type": "chords",
+          "content": ["D#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hay algo que tu mirada dice"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "Fm"]
+        },
+        {
+          "type": "lyric",
+          "content": "hay hay hay hay amoor."
+        },
+        {
+          "type": "chords",
+          "content": ["Fm"]
+        },
+        {
+          "type": "lyric",
+          "content": "No me detendría ni una bomba"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "G#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Se que esos besos serán míos nena."
+        },
+        {
+          "type": "chords",
+          "content": ["D#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hay algo que tu mirada me dice"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "Fm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Y hay hay hay hay amoor. Actitud!"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTRO 2 (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Fm", "x2", "G", "G#", "x2"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "B", "A#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Con actitud…"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Fm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Aquí voy, hacia vos."
+        },
+        {
+          "type": "chords",
+          "content": ["G", "G#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Nena tú vas a ser mía"
+        },
+        {
+          "type": "chords",
+          "content": ["D#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hay algo que tu mirada dice"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "Fm"]
+        },
+        {
+          "type": "lyric",
+          "content": "hay hay hay hay amoor."
+        },
+        {
+          "type": "chords",
+          "content": ["Fm"]
+        },
+        {
+          "type": "lyric",
+          "content": "No me detendría ni una bomba"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "G#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Se que esos besos serán míos nena."
+        },
+        {
+          "type": "chords",
+          "content": ["D#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hay algo que tu mirada me dice"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "Fm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Y hay hay hay hay amoor. Actitud"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Fm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Aquí voy, hacia vos."
+        },
+        {
+          "type": "chords",
+          "content": ["G", "G#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Nena tú vas a ser mía"
+        },
+        {
+          "type": "chords",
+          "content": ["D#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hay algo que tu mirada dice"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "Fm"]
+        },
+        {
+          "type": "lyric",
+          "content": "hay hay hay hay amoor."
+        },
+        {
+          "type": "chords",
+          "content": ["Fm"]
+        },
+        {
+          "type": "lyric",
+          "content": "No me detendría ni una bomba"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "G#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Se que esos besos serán míos nena."
+        },
+        {
+          "type": "chords",
+          "content": ["D#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hay algo que tu mirada me dice"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "Fm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Y hay hay hay hay amoor. Actitud"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTRO 2 FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Fm", "x2", "G", "G#", "x2"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Fm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Actitud."
+        }
+      ]
+    }
+  ]
+}

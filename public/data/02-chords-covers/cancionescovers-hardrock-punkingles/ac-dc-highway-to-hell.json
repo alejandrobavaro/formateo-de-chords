@@ -1,0 +1,567 @@
+{
+  "id": "ac-dc-highway-to-hell",
+  "title": "Highway To Hell",
+  "artist": "AC/DC",
+  "originalKey": "E",
+  "tempo": "Fast Rock",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "A", "D"]
+        },
+        {
+          "type": "chords",
+          "content": ["A", "D", "A", "D", "A", "E"]
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A", "D"]
+        },
+        {
+          "type": "chords",
+          "content": ["A", "D", "A", "D", "A", "E"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Living easy, livin' free"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A", "D", "A", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Season ticket, on a one way ride"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Asking nothing, leave me be"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A", "D", "A", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Taking everything in my stride"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Don't need reason, don't need rhyme"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A", "D", "A", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Ain't nothin' that I’d rather do"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Going down, party time"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A", "D", "A", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "My friends are gonna be there too"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["E", "A", "D", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "I'm on the highway to hell"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["E", "A", "D", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "On the highway to hell"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A", "D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Highway to hell"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm on the highway to hell"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "No stop signs, speed limit"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A", "D", "A", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Nobody's gonna slow me down"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Like a wheel, gonna spin it"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A", "D", "A", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Nobody's gonna mess me 'round"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hey, Satan!"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A", "D", "A", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Paid my dues"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Playin' in a rockin' band"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hey, mama!"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Look at me"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "D", "A", "B"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm on my way to the promised land"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["E", "A", "D", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "I'm on the highway to hell"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A", "D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Highway to hell"
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["E", "A", "D", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "I'm on the highway to hell"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Highway to hell"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "A4", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Don't stop me!"
+        },
+        {
+          "type": "text",
+          "content": "(A A4 A A4 A)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E", "D", "A"]
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D", "A"]
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D", "A"]
+        },
+        {
+          "type": "chords",
+          "content": ["E", "D", "A"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["E", "A", "D", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "I'm on the highway to hell"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["E", "A", "D", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "I'm on the highway to hell"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["E", "A", "D", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "I'm on the highway to hell"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A", "D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm on the highway"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A", "D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Highway to hell"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A", "D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Highway to hell"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A", "D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Highway to hell"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Highway to hell"
+        },
+        {
+          "type": "lyric",
+          "content": "And I'm going down"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "All the way"
+        },
+        {
+          "type": "chords",
+          "content": ["E", "A", "D", "A"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm on the highway to hell"
+        }
+      ]
+    }
+  ]
+}

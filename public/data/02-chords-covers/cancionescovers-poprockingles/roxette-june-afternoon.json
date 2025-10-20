@@ -1,0 +1,553 @@
+{
+  "id": "roxette-june-afternoon",
+  "title": "June Afternoon",
+  "artist": "Roxette",
+  "originalKey": "G",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "C", "D", "C"]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "Em", "C", "D"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Didn't I tell you everything"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Is possible in this deja vu"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "C", "D", "C"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Try the riverboat, the carousel"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Feed the pigeons, barbecue"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "C", "G", "D", "D4", "D"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "Look at all the people"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Happy faces all around"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "C", "G", "D"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "Smiling, throwing kisses"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Busy making lazy sounds"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A", "D", "E"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "It's a bright June afternoon"},
+            {"type": "chord", "content": "D"},
+            {"type": "chord", "content": "E"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["D", "A"]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "It never gets dark"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["F#m", "D", "E"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "F#m"},
+            {"type": "lyric", "content": "Whaa whaa here comes the sun"},
+            {"type": "chord", "content": "D"},
+            {"type": "chord", "content": "E"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["A", "D", "E"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Get your green, green tambourine"},
+            {"type": "chord", "content": "D"},
+            {"type": "chord", "content": "E"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["D", "A"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "Let's play in the park"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["F#m", "D", "E"]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "F#m"},
+            {"type": "lyric", "content": "Whaa whaa here comes the sun"},
+            {"type": "chord", "content": "D"},
+            {"type": "chord", "content": "E"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "C9", "D", "G", "C", "D", "Em"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Some folks are on blankets slowly"},
+            {"type": "chord", "content": "C9"},
+            {"type": "lyric", "content": "Daydreaming and reaching for their food"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "C9", "D", "G", "Em", "D", "C"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Let's go buy an ice cream"},
+            {"type": "chord", "content": "C9"},
+            {"type": "lyric", "content": "And a magazine with an attitude"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "C9", "G", "D"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "And put on a cassette we can"},
+            {"type": "chord", "content": "C9"},
+            {"type": "lyric", "content": "Pretend that you are a star"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "C9", "G", "D"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "'Cos life's so very simple"},
+            {"type": "chord", "content": "C9"},
+            {"type": "lyric", "content": "Just like la la la"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS (REPEAT)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A", "D", "E"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "It's a bright June afternoon"},
+            {"type": "chord", "content": "D"},
+            {"type": "chord", "content": "E"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["D", "A"]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "It never gets dark"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["F#m", "D", "E"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "F#m"},
+            {"type": "lyric", "content": "Whaa whaa here comes the sun"},
+            {"type": "chord", "content": "D"},
+            {"type": "chord", "content": "E"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["A", "D", "E"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Get your green, green tambourine"},
+            {"type": "chord", "content": "D"},
+            {"type": "chord", "content": "E"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["D", "A"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "Let's play in the park"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["F#m", "D", "E", "C", "G"]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "F#m"},
+            {"type": "lyric", "content": "Whaa whaa here comes the sun"},
+            {"type": "chord", "content": "D"},
+            {"type": "chord", "content": "E"},
+            {"type": "chord", "content": "C"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BRIDGE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Em", "Bm", "Em", "B7"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "There's a painter painting his masterpiece"},
+            {"type": "chord", "content": "Bm"},
+            {"type": "lyric", "content": "There are some squirrels jumping in the trees"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["C", "G", "B7", "D"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "There's a wide-eyed boy with a red balloon"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "All my life I've longed for this afternoon"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "C", "D", "C"]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "Em", "C", "D"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL CHORUS",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A", "D", "E"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "It's a bright June afternoon"},
+            {"type": "chord", "content": "D"},
+            {"type": "chord", "content": "E"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["D", "A"]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "It never gets dark"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["F#m", "D", "E"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "F#m"},
+            {"type": "lyric", "content": "Whaa whaa here comes the sun"},
+            {"type": "chord", "content": "D"},
+            {"type": "chord", "content": "E"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["A", "D", "E"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Get your green, green tambourine"},
+            {"type": "chord", "content": "D"},
+            {"type": "chord", "content": "E"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["D", "A"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "Let's play in the park"},
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["F#m", "D", "E"]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "F#m"},
+            {"type": "lyric", "content": "Whaa whaa here comes the sun"},
+            {"type": "chord", "content": "D"},
+            {"type": "chord", "content": "E"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "OUTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A", "D", "E", "D", "A"]
+        },
+        {
+          "type": "chords",
+          "content": ["A", "F#m", "D", "E"]
+        },
+        {
+          "type": "chords",
+          "content": ["A", "D", "E", "D", "A"]
+        },
+        {
+          "type": "chords",
+          "content": ["A", "F#m", "D", "E"]
+        },
+        {
+          "type": "chords",
+          "content": ["A", "D", "E", "D", "A"]
+        },
+        {
+          "type": "chords",
+          "content": ["A", "F#m", "D", "E"]
+        }
+      ]
+    }
+  ]
+}

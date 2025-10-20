@@ -1,0 +1,281 @@
+﻿{
+    "id": "almango-buena-sorpresa",
+    "title": "Buena Sorpresa",
+    "artist": "Almango",
+    "originalKey": "C",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO BASE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "G", "F", "C", "G", "-", "C", "G", "F", "C", "G", "Am"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "VERSE 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "-", "Am", "-", "G", "-", "Am", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Buena sorpresa me llevé yo ayer, cuando de repente una mujer me besó."
+          },
+          {
+            "type": "chords",
+            "content": ["C", "-", "Am", "-", "G", "-", "Am", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "De pelo rojizo, minifalda azul, muñeca perfecta y me besó."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Dm", "-", "G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "No comprendí por qué, pero igual no me importó."
+          },
+          {
+            "type": "chords",
+            "content": ["Dm", "-", "G", "-", "F", "-", "G", "-", "C", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Ella dejó de besarme y luego se escapó."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "-", "G", "-", "F", "-", "C", "-", "G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "¿Qué harías si un día te llega el amor así? No podría, mi vida, dejarte escapar..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO BASE (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "G", "F", "C", "G", "-", "C", "G", "F", "C", "G", "Am"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "VERSE 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "-", "Am", "-", "G", "-", "Am", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Me sentí tan bien que la fui a buscar, la encontré y la vi, ella estaba en un bar."
+          },
+          {
+            "type": "chords",
+            "content": ["C", "-", "Am", "-", "G", "-", "Am", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Sentada sola me miró al pasar, me senté en la mesa y empezamos a hablar."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Dm", "-", "G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Ella me pidió disculpas, y yo no las acepté."
+          },
+          {
+            "type": "chords",
+            "content": ["Dm", "-", "G", "-", "F", "-", "G", "-", "C", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Le partí la boca de un beso y después le pregunté."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "-", "G", "-", "F", "-", "C", "-", "G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "¿Qué harías si un día te llega el amor así? No podría, mi vida, dejarte escapar..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "BIS",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Hoy yo creo que vale la pena que lo intentemos, mi amor."
+          },
+          {
+            "type": "chords",
+            "content": ["F", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Para pasar la vida juntos, siempre, junto a vos."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO VIOLA BASE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Dm", "G", "C", "Am", "-", "Dm", "G", "F", "G", "C"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO CORTADO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "-", "G", "-", "F", "-", "C", "-", "G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "¿Qué harías si un día te llega el amor así? No podría, mi vida, dejarte escapar..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "-", "G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "¿Qué harías si un día te llega el amor así?"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "-", "G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y yo le dije, nena, ¿querés escaparte conmigo?"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F", "-", "G", "-", "C", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y me dijo que sí!!"
+          },
+          {
+            "type": "chords",
+            "content": ["F", "-", "G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y me dijo queeeeeeeee..."
+          },
+          {
+            "type": "chords",
+            "content": ["F", "-", "G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y me dijo que sí!!"
+          }
+        ]
+      }
+    ]
+  }
+  

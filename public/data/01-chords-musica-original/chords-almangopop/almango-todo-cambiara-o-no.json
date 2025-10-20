@@ -1,0 +1,460 @@
+{
+    "id": "almango-todo-cambiara-o-no",
+    "title": "Todo cambiará, o no…",
+    "artist": "Almango",
+    "originalKey": "G#m",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G#m"
+          },
+          {
+            "type": "lyric",
+            "content": "Hoy siento en el corazón"
+          },
+          {
+            "type": "chord",
+            "content": "G#m"
+          },
+          {
+            "type": "lyric",
+            "content": "un vago temblor de miedo,"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "y así la vida se me pierde"
+          },
+          {
+            "type": "chord",
+            "content": "G#m"
+          },
+          {
+            "type": "lyric",
+            "content": "en la bruma, del pasado."
+          },
+          {
+            "type": "chord",
+            "content": "G#m"
+          },
+          {
+            "type": "lyric",
+            "content": "La luz te roza las alas"
+          },
+          {
+            "type": "chord",
+            "content": "G#m"
+          },
+          {
+            "type": "lyric",
+            "content": "y enciende fuego las mías."
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "Van volando los recuerdos"
+          },
+          {
+            "type": "chord",
+            "content": "G#m"
+          },
+          {
+            "type": "lyric",
+            "content": "de la historia, nuestra historia."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "lyric",
+            "content": "Ven a mí, cielo… aquí estoy, vida…"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "lyric",
+            "content": "No me voy, nada… No me voy…"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Y si un abrazo logra abrir tu corazón,"
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "lyric",
+            "content": "con todo mi amor, con toda pasión."
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "lyric",
+            "content": "Tal vez volviendo a intentarlo una vez más,"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["E", "F#", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Todo cambiará, todo volverá… o no?"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 2",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G#m"
+          },
+          {
+            "type": "lyric",
+            "content": "La nieve apagó el incendio"
+          },
+          {
+            "type": "chord",
+            "content": "G#m"
+          },
+          {
+            "type": "lyric",
+            "content": "copos de besos se fueron"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "se hundieron en la sombra"
+          },
+          {
+            "type": "chord",
+            "content": "G#m"
+          },
+          {
+            "type": "lyric",
+            "content": "sin tu luz, sin mis sueños."
+          },
+          {
+            "type": "chord",
+            "content": "G#m"
+          },
+          {
+            "type": "lyric",
+            "content": "Derrito hielo en la cama,"
+          },
+          {
+            "type": "chord",
+            "content": "G#m"
+          },
+          {
+            "type": "lyric",
+            "content": "pero las lágrimas quedan,"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "naufragan en los años"
+          },
+          {
+            "type": "chord",
+            "content": "G#m"
+          },
+          {
+            "type": "lyric",
+            "content": "de la historia, nuestra historia."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "lyric",
+            "content": "Ven a mí, cielo… aquí estoy, vida…"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "lyric",
+            "content": "No me voy, nada… No me voy…"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Y si un abrazo logra abrir tu corazón,"
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "lyric",
+            "content": "con todo mi amor, con toda pasión."
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "lyric",
+            "content": "Tal vez volviendo a intentarlo una vez más,"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["E", "F#", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Todo cambiará, todo volverá… o no?"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO BASE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G#m", "F#m"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "lyric",
+            "content": "Ven a mí, cielo… aquí estoy, vida…"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "lyric",
+            "content": "No me voy, nada… No me voy…"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (Repetición)",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "lyric",
+            "content": "Ven a mí, cielo… aquí estoy, vida…"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "lyric",
+            "content": "No me voy, nada… No me voy…"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Y si un abrazo logra abrir tu corazón,"
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "lyric",
+            "content": "con todo mi amor, con toda pasión."
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "lyric",
+            "content": "Tal vez volviendo a intentarlo una vez más,"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["E", "F#", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "Todo cambiará, todo volverá… o no?"
+          }
+        ]
+      }
+    ]
+  }
+  

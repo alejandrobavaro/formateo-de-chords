@@ -1,0 +1,918 @@
+{
+  "id": "guns-n-roses-november-rain",
+  "title": "November Rain",
+  "artist": "Guns N' Roses",
+  "originalKey": "D",
+  "tempo": "Balada Épica",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D7M", "A/C#", "Bm7", "A"]
+        },
+        {
+          "type": "chords",
+          "content": ["D7M", "Bm7", "A"]
+        },
+        {
+          "type": "chords",
+          "content": ["D7M", "A/C#", "Bm7", "A"]
+        },
+        {
+          "type": "chords",
+          "content": ["D7M", "Bm7", "A"]
+        },
+        {
+          "type": "chords",
+          "content": ["D7M", "Bm7", "A"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D7M"]
+        },
+        {
+          "type": "lyric",
+          "content": "When I look into your eyes"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "I can see a love restrained"
+        },
+        {
+          "type": "chords",
+          "content": ["D7M"]
+        },
+        {
+          "type": "lyric",
+          "content": "But darling when I hold you"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Don't you know I feel the same"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Nothing lasts forever"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "And we both know hearts can change"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "And it's hard to hold a candle"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "In the cold November rain"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D7M"]
+        },
+        {
+          "type": "lyric",
+          "content": "We've been through this"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Such a long, long time"
+        },
+        {
+          "type": "chords",
+          "content": ["D7M"]
+        },
+        {
+          "type": "lyric",
+          "content": "Just trying to kill the pain, oh yeah"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "But lovers always come"
+        },
+        {
+          "type": "chords",
+          "content": ["D7M"]
+        },
+        {
+          "type": "lyric",
+          "content": "And lovers always go"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "An' no one's really sure"
+        },
+        {
+          "type": "chords",
+          "content": ["D7M"]
+        },
+        {
+          "type": "lyric",
+          "content": "Who's letting go today, walking away"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "If we could take the time to lay it on the line"
+        },
+        {
+          "type": "chords",
+          "content": ["D7M"]
+        },
+        {
+          "type": "lyric",
+          "content": "I could rest my head just knowing"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "That you were mine, all mine"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "So if you want to love me"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Then darling don't refrain"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "Or I'll just end up walking"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "In the cold November rain"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Do you need some time, on your own"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Do you need some time, all alone"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Everybody needs some time, on their own"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Don't you know you need some time, all alone"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PONTE 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C#5"]
+        },
+        {
+          "type": "lyric",
+          "content": "I know it's hard to keep an open heart"
+        },
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "When even friends seem out to harm you"
+        },
+        {
+          "type": "chords",
+          "content": ["C#5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": "But if you could heal a broken heart"
+        },
+        {
+          "type": "chords",
+          "content": ["B5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["C#5", "D5", "A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Wouldn't time be out to charm you"
+        },
+        {
+          "type": "chords",
+          "content": ["E5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D7M", "Bm7", "A"]
+        },
+        {
+          "type": "chords",
+          "content": ["D7M", "Bm7", "A"]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "E", "A"]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "E", "A"]
+        },
+        {
+          "type": "text",
+          "content": "(Solo de guitarra - Tablatura omitida por solicitud)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "TERCERA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D7M"]
+        },
+        {
+          "type": "lyric",
+          "content": "And when your fears subside"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "And shadows still remain"
+        },
+        {
+          "type": "chords",
+          "content": ["D7M"]
+        },
+        {
+          "type": "lyric",
+          "content": "I know that you can love me"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "When there's no one left to blame"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "So nevermind the darkness"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "We still can find a way"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm"]
+        },
+        {
+          "type": "lyric",
+          "content": "'Cause nothing lasts forever"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Even cold November rain"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PONTE 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A5", "F5", "G5"]
+        },
+        {
+          "type": "chords",
+          "content": ["A5", "F5", "G5"]
+        },
+        {
+          "type": "chords",
+          "content": ["A5", "F5", "G5"]
+        },
+        {
+          "type": "chords",
+          "content": ["A5", "F5", "G5"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Sometimes I need some time, on my own"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Sometimes I need some time, all alone"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Everybody needs some time, on their own"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Don't you know you need some time, all alone"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D7M", "Bm7", "A"]
+        },
+        {
+          "type": "chords",
+          "content": ["D7M", "Bm7", "A"]
+        },
+        {
+          "type": "text",
+          "content": "(Solo de guitarra - Tablatura omitida por solicitud)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A5", "E5", "D5", "C5"]
+        },
+        {
+          "type": "chords",
+          "content": ["F5", "G5", "A5"]
+        },
+        {
+          "type": "chords",
+          "content": ["A5", "E5", "D5", "C5"]
+        },
+        {
+          "type": "chords",
+          "content": ["F5", "G5"]
+        },
+        {
+          "type": "lyric",
+          "content": "You're not the only one"
+        },
+        {
+          "type": "lyric",
+          "content": "You're not the only one"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Don't ya think that you need somebody?"
+        },
+        {
+          "type": "chords",
+          "content": ["E5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Don't ya think that you need someone?"
+        },
+        {
+          "type": "chords",
+          "content": ["C5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Everybody needs somebody"
+        },
+        {
+          "type": "chords",
+          "content": ["G5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "You're not the only one"
+        },
+        {
+          "type": "lyric",
+          "content": "You're not the only one"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Don't ya think that you need somebody?"
+        },
+        {
+          "type": "chords",
+          "content": ["E5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Don't ya think that you need someone?"
+        },
+        {
+          "type": "chords",
+          "content": ["C5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Everybody needs somebody"
+        },
+        {
+          "type": "chords",
+          "content": ["G5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "You're not the only one"
+        },
+        {
+          "type": "lyric",
+          "content": "You're not the only one"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Don't ya think that you need somebody?"
+        },
+        {
+          "type": "chords",
+          "content": ["E5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Don't ya think that you need someone?"
+        },
+        {
+          "type": "chords",
+          "content": ["C5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Everybody needs somebody"
+        },
+        {
+          "type": "chords",
+          "content": ["G5", "A5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    }
+  ]
+}

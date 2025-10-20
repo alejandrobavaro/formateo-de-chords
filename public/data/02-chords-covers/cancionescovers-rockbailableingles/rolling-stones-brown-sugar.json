@@ -1,0 +1,302 @@
+{
+  "id": "the-rolling-stones-brown-sugar",
+  "title": "Brown Sugar",
+  "artist": "The Rolling Stones",
+  "originalKey": "C",
+  "tempo": "Upbeat",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRODUCCIÓN",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "G", "C", "F", "C"]
+        },
+        {
+          "type": "chords",
+          "content": ["C", "G", "C", "F", "C"]
+        },
+        {
+          "type": "chords",
+          "content": ["Eb", "C", "G#", "Bb", "C"]
+        },
+        {
+          "type": "chords",
+          "content": ["Eb", "C", "G#", "Bb", "C"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Gold coast slave ship bound for cotton fields"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Sold in a market down in New Orleans"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Scarred old slaver knows he's doing alright"
+        },
+        {
+          "type": "chords",
+          "content": ["Bb"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hear him whip the women"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Just around midnight"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Brown sugar, how come you taste so good?"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Brown sugar, just like a young girl should"
+        },
+        {
+          "type": "chords",
+          "content": ["Eb", "C", "G#", "Bb", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Drums beating, cold English blood runs hot"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Lady of the house wonderin' where it's gonna stop"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Houseboy knows that he's doing alright"
+        },
+        {
+          "type": "chords",
+          "content": ["Bb"]
+        },
+        {
+          "type": "lyric",
+          "content": "You should have heard him"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Just around midnight"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Brown sugar, how come you taste so good?"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Brown sugar, just like a young girl should"
+        },
+        {
+          "type": "chords",
+          "content": ["Eb", "C", "G#", "Bb", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 3",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "I bet your mama was a tent show queen"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "And all her boyfriends were sweet sixteen"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm no schoolboy, but I know what I like"
+        },
+        {
+          "type": "chords",
+          "content": ["Bb"]
+        },
+        {
+          "type": "lyric",
+          "content": "You should have heard me"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Just around midnight"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Brown sugar, how come you taste so good?"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Brown sugar, just like a young girl should"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Yeah, yeah, yeah, woo!"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Yeah, yeah, yeah, woo!"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "I said yeah, yeah, yeah, woo!"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Brown sugar"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,418 @@
+{
+  "id": "ale-gondra-cuando-el-amor-es-puro",
+  "title": "Cuando el amor es puro",
+  "artist": "Ale Gondra",
+  "originalKey": "G",
+  "tempo": "Slow",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "C9", "G", "G", "C9", "G"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "lyric",
+          "content": "Cuando el amor es puro,"
+        },
+        {
+          "type": "chord",
+          "content": "C9"
+        },
+        {
+          "type": "lyric",
+          "content": "Cuando una caricia nace del alma,"
+        },
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "lyric",
+          "content": "Cuando el alma se refleja en los ojos,"
+        },
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "lyric",
+          "content": "Es ahí cuando todo tiene sentido."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["C", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Y la nada se convierte en un todo,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "Y esa luz me llena el corazón,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["C", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "y la poesía se escribe por dentro,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["C", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Son esas cosas que a veces"
+            },
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "te hacen volar."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTRO (VARIACIÓN)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "C", "G", "G", "C", "G"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "lyric",
+          "content": "Cuando el amor es puro,"
+        },
+        {
+          "type": "chord",
+          "content": "C9"
+        },
+        {
+          "type": "lyric",
+          "content": "Cuando a un estallido lo contiene un abrazo,"
+        },
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "lyric",
+          "content": "Cuando un abrazo es real en su esencia,"
+        },
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "lyric",
+          "content": "Es ahí cuando todo tiene sentido."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["C", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Y la nada se convierte en un todo,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "Y esa luz me llena el corazón,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["C", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "y la poesía se escribe por dentro,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["C", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Son esas cosas que a veces"
+            },
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "te hacen volar."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "D", "G"]
+        },
+        {
+          "type": "text",
+          "content": "(x2)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (CON COROS)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["C", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Y la nada se convierte en un todo,"
+            },
+            {
+              "type": "text",
+              "content": "(en un todo)"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "Y esa luz me llena el corazón,"
+            },
+            {
+              "type": "text",
+              "content": "(el corazón)"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["C", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "y la poesía se escribe por dentro,"
+            },
+            {
+              "type": "text",
+              "content": "(se escribe por dentro)"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["C", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Son esas cosas que a veces"
+            },
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "te hacen volar."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Son esas cosas que a veces"
+        },
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "lyric",
+          "content": "te hacen volar."
+        },
+        {
+          "type": "chords",
+          "content": ["C", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Son esas cosas que a veces"
+        },
+        {
+          "type": "chord",
+          "content": "G"
+        },
+        {
+          "type": "lyric",
+          "content": "te hacen soñar."
+        }
+      ]
+    }
+  ]
+}

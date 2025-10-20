@@ -1,9 +1,9 @@
 // ================================================================
-// 📚 GALERÍA HOME CANCIONEROS - COMPONENTE PRINCIPAL OPTIMIZADO
+// 📚 GALERÍA HOME CANCIONEROS - COMPONENTE CORREGIDO
 // ================================================================
 
 // 🔗 IMPORTACIONES DE DEPENDENCIAS EXTERNAS
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect, useState, useRef, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import { 
   BsSearch, 
@@ -11,6 +11,7 @@ import {
   BsSortUp, 
   BsMusicNoteBeamed, 
   BsPlayFill,
+  BsPauseFill,
   BsFilter,
   BsX,
   BsArrowRight,
@@ -33,16 +34,30 @@ import {
 // 🎨 IMPORTACIÓN DE ESTILOS LOCALES
 import "../../assets/scss/_03-Componentes/ChordsViewer/_BibliotecaCancioneros.scss";
 
-// 📁 LISTA DE ARCHIVOS JSON CON LAS CANCIONES - RUTAS ESTÁTICAS
+// ================================================================
+// 📁 LISTA DE ARCHIVOS JSON CON LAS CANCIONES - RUTAS ACTUALIZADAS
+// ================================================================
 const jsonFiles = [
-  "/data/listadocancionesalegondramusic.json",
-  "/data/listadocancionesalmangopop.json",
-  "/data/listadocancionescasamiento.json",
-  "/data/listadochordscoverslatinos1.json",
-  "/data/listadochordscoversnacionales1.json",
-  "/data/listadochordscoversseleccionados1.json",
-  "/data/listadochordscoversseleccionados2.json",
-  "/data/listadochordscoversseleccionados3.json"
+  // MÚSICA ORIGINAL
+  "/listado-chords-alegondramusic.json",
+  "/listado-chords-almango-pop.json",
+  
+  // SHOWS ESPECÍFICOS
+  "/listado-chords-casamiento-ale-fabi.json",
+  
+  // COVERS ORGANIZADOS POR GÉNERO
+  "/data/02-chords-covers/listadocancionescovers-baladasespanol.json",
+  "/data/02-chords-covers/listadocancionescovers-baladasingles.json",
+  "/data/02-chords-covers/listadocancionescovers-poprockespanol.json",
+  "/data/02-chords-covers/listadocancionescovers-poprockingles.json",
+  "/data/02-chords-covers/listadocancionescovers-latinobailableespanol.json",
+  "/data/02-chords-covers/listadocancionescovers-rockbailableespanol.json",
+  "/data/02-chords-covers/listadocancionescovers-rockbailableingles.json",
+  "/data/02-chords-covers/listadocancionescovers-hardrock-punkespanol.json",
+  "/data/02-chords-covers/listadocancionescovers-hardrock-punkingles.json",
+  "/data/02-chords-covers/listadocancionescovers-discoingles.json",
+  "/data/02-chords-covers/listadocancionescovers-reggaeingles.json",
+  "/data/02-chords-covers/listadocancionescovers-festivos-bso.json"
 ];
 
 // ================================================================
@@ -57,13 +72,13 @@ const SongSelector = ({
   placeholder = "Buscar canción...",
   compact = false
 }) => {
-  // 🎯 ESTADOS PARA GESTIONAR LAS SUGERENCIAS Y EL FOCO
+  // ESTADOS DEL COMPONENTE SELECTOR
   const [filteredSongs, setFilteredSongs] = useState([]);
   const [showSuggestions, setShowSuggestions] = useState(false);
   const [isFocused, setIsFocused] = useState(false);
   const searchRef = useRef(null);
 
-  // 🔍 EFECTO PARA FILTRAR CANCIONES SEGÚN EL TÉRMINO DE BÚSQUEDA
+  // EFECTO PARA FILTRAR CANCIONES SEGÚN LA BÚSQUEDA
   useEffect(() => {
     if (!Array.isArray(songs)) {
       setFilteredSongs([]);
@@ -85,7 +100,7 @@ const SongSelector = ({
     setFilteredSongs(filtered);
   }, [songs, searchQuery]);
 
-  // 🖱️ EFECTO PARA CERRAR SUGERENCIAS AL HACER CLIC FUERA DEL COMPONENTE
+  // EFECTO PARA MANEJAR CLIC FUERA DEL SELECTOR
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (searchRef.current && !searchRef.current.contains(event.target)) {
@@ -98,7 +113,7 @@ const SongSelector = ({
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
-  // 🎵 FUNCIÓN PARA MANEJAR LA SELECCIÓN DE UNA CANCIÓN
+  // FUNCIÓN PARA SELECCIONAR UNA CANCIÓN
   const handleSongSelect = (song) => {
     onSelectSong?.(song);
     setShowSuggestions(false);
@@ -106,13 +121,13 @@ const SongSelector = ({
     onSearchChange("");
   };
 
-  // 🗑️ FUNCIÓN PARA LIMPIAR LA Búsqueda
+  // FUNCIÓN PARA LIMPIAR LA BÚSQUEDA
   const clearSearch = () => {
     onSearchChange("");
     setShowSuggestions(false);
   };
 
-  // 👁️ FUNCIÓN PARA MANEJAR EL FOCO EN EL INPUT DE BÚSQUEDA
+  // FUNCIÓN PARA MANEJAR EL FOCO DEL INPUT
   const handleFocus = () => {
     setIsFocused(true);
     setShowSuggestions(true);
@@ -120,8 +135,6 @@ const SongSelector = ({
 
   return (
     <div className={`song-selector-gallery ${compact ? 'compact' : ''}`} ref={searchRef}>
-      
-      {/* 🔍 CONTENEDOR DE BÚSQUEDA PRINCIPAL */}
       <div className="search-container-gallery">
         <div className="search-input-wrapper-gallery">
           <BsSearch className="search-icon-gallery" />
@@ -143,7 +156,6 @@ const SongSelector = ({
           )}
         </div>
 
-        {/* 📊 CONTADOR DE RESULTADOS DE BÚSQUEDA */}
         {searchQuery && (
           <div className="search-stats-gallery">
             <span className="results-count">
@@ -153,7 +165,6 @@ const SongSelector = ({
         )}
       </div>
 
-      {/* 📋 DROPDOWN DE SUGERENCIAS DE BÚSQUEDA */}
       {showSuggestions && searchQuery && filteredSongs.length > 0 && (
         <div className="suggestions-dropdown-gallery">
           <div className="suggestions-header-gallery">
@@ -206,10 +217,10 @@ const FilterControls = ({
   onExpandAll,
   onCollapseAll
 }) => {
-  // 🎯 OPCIONES DE FILTRO POR PRIMERA LETRA
+  // ALFABETO PARA FILTRO POR LETRA
   const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
   
-  // 🎯 OPCIONES DE ORDENAMIENTO
+  // OPCIONES DE ORDENAMIENTO
   const sortOptions = [
     { key: 'artist', label: 'Artista', icon: <BsAlphabet /> },
     { key: 'title', label: 'Título', icon: <BsAlphabet /> },
@@ -220,7 +231,7 @@ const FilterControls = ({
     { key: 'list', label: 'Lista', icon: <BsMusicPlayer /> }
   ];
 
-  // 🎯 OPCIONES DE COLUMNAS
+  // OPCIONES DE COLUMNAS VISIBLES
   const columnOptions = [
     { key: 'artist', label: 'Artista', icon: <BsMusicPlayer /> },
     { key: 'title', label: 'Título', icon: <BsAlphabet /> },
@@ -233,8 +244,7 @@ const FilterControls = ({
 
   return (
     <div className="filter-controls-container">
-      
-      {/* 🎯 ACCIONES RÁPIDAS */}
+      {/* SECCIÓN: ACCIONES RÁPIDAS */}
       <div className="filter-section">
         <div className="filter-section-header">
           <BsLightning />
@@ -252,7 +262,7 @@ const FilterControls = ({
         </div>
       </div>
 
-      {/* 🔤 FILTRO ALFABÉTICO POR PRIMERA LETRA */}
+      {/* SECCIÓN: FILTRO POR LETRA */}
       <div className="filter-section">
         <div className="filter-section-header">
           <BsAlphabet />
@@ -283,7 +293,7 @@ const FilterControls = ({
         </div>
       </div>
 
-      {/* 🎛️ FILTRO POR LISTA/BIBLIOTECA */}
+      {/* SECCIÓN: FILTRO POR LISTA */}
       <div className="filter-section">
         <div className="filter-section-header">
           <BsCollection />
@@ -305,7 +315,7 @@ const FilterControls = ({
         </div>
       </div>
 
-      {/* 🔄 ORDENAMIENTO */}
+      {/* SECCIÓN: ORDENAMIENTO */}
       <div className="filter-section">
         <div className="filter-section-header">
           <BsArrowDownUp />
@@ -330,7 +340,7 @@ const FilterControls = ({
         </div>
       </div>
 
-      {/* 👁️ VISIBILIDAD DE COLUMNAS */}
+      {/* SECCIÓN: COLUMNAS VISIBLES */}
       <div className="filter-section">
         <div className="filter-section-header">
           <BsEye />
@@ -350,7 +360,7 @@ const FilterControls = ({
         </div>
       </div>
 
-      {/* 🔄 BOTÓN DE ORDEN ASC/DESC */}
+      {/* BOTÓN: CAMBIAR DIRECCIÓN DE ORDENAMIENTO */}
       {sortConfig.key && (
         <div className="filter-section">
           <button
@@ -363,7 +373,7 @@ const FilterControls = ({
         </div>
       )}
 
-      {/* 🗑️ BOTÓN DE LIMPIAR FILTROS */}
+      {/* BOTÓN: LIMPIAR FILTROS */}
       {(activeFilters.letter || activeFilters.list) && (
         <div className="filter-section">
           <button
@@ -383,10 +393,160 @@ const FilterControls = ({
 };
 
 // ================================================================
-// 🏠 COMPONENTE PRINCIPAL DE LA GALERÍA
+// 🎵 COMPONENTE REPRODUCTOR DE AUDIO SIMPLIFICADO CON FADE
+// ================================================================
+const AudioPlayer = ({ 
+  mp3File, 
+  songId,
+  currentlyPlaying,
+  onPlay,
+  onPause
+}) => {
+  const audioRef = useRef(null);
+  const fadeIntervalRef = useRef(null);
+  const isPlaying = currentlyPlaying === songId;
+
+  // FUNCIÓN PARA APLICAR FADE OUT
+  const fadeOut = useCallback(() => {
+    if (!audioRef.current) return;
+    
+    const audio = audioRef.current;
+    const fadeDuration = 1000; // 1 segundo de fade
+    const steps = 10;
+    const stepTime = fadeDuration / steps;
+    const stepDecrease = audio.volume / steps;
+    
+    clearInterval(fadeIntervalRef.current);
+    
+    fadeIntervalRef.current = setInterval(() => {
+      if (audio.volume > stepDecrease) {
+        audio.volume -= stepDecrease;
+      } else {
+        audio.volume = 0;
+        audio.pause();
+        clearInterval(fadeIntervalRef.current);
+        onPause?.();
+      }
+    }, stepTime);
+  }, [onPause]);
+
+  // FUNCIÓN PARA APLICAR FADE IN
+  const fadeIn = useCallback(() => {
+    if (!audioRef.current) return;
+    
+    const audio = audioRef.current;
+    const fadeDuration = 1000; // 1 segundo de fade
+    const steps = 10;
+    const stepTime = fadeDuration / steps;
+    const stepIncrease = 1 / steps;
+    
+    audio.volume = 0;
+    
+    clearInterval(fadeIntervalRef.current);
+    
+    fadeIntervalRef.current = setInterval(() => {
+      if (audio.volume < 0.9) {
+        audio.volume += stepIncrease;
+      } else {
+        audio.volume = 1;
+        clearInterval(fadeIntervalRef.current);
+      }
+    }, stepTime);
+  }, []);
+
+  // FUNCIÓN PARA REPRODUCIR O PAUSAR EL AUDIO
+  const togglePlay = useCallback(() => {
+    if (!audioRef.current) return;
+
+    if (isPlaying) {
+      // Aplicar fade out y pausar
+      fadeOut();
+    } else {
+      // Notificar que se va a reproducir esta canción (para pausar otras)
+      onPlay?.(songId);
+      
+      // Aplicar fade in y reproducir
+      audioRef.current.play().catch(err => {
+        console.error("Error reproduciendo audio:", err);
+        onPause?.();
+      });
+      
+      // Iniciar fade in después de un pequeño delay
+      setTimeout(() => {
+        fadeIn();
+      }, 100);
+    }
+  }, [isPlaying, songId, onPlay, onPause, fadeOut, fadeIn]);
+
+  // EFECTO PARA SINCRONIZAR EL ESTADO DE REPRODUCCIÓN
+  useEffect(() => {
+    if (!audioRef.current) return;
+
+    // Si esta canción debería estar reproduciéndose pero no lo está
+    if (isPlaying && audioRef.current.paused) {
+      audioRef.current.play().catch(console.error);
+    } 
+    // Si esta canción NO debería estar reproduciéndose pero sí lo está
+    else if (!isPlaying && !audioRef.current.paused) {
+      fadeOut();
+    }
+  }, [isPlaying, fadeOut]);
+
+  // EFECTO DE LIMPIEZA
+  useEffect(() => {
+    return () => {
+      clearInterval(fadeIntervalRef.current);
+      if (audioRef.current) {
+        audioRef.current.pause();
+        audioRef.current = null;
+      }
+    };
+  }, []);
+
+  // MANEJADORES DE EVENTOS DEL AUDIO
+  const handleEnded = () => {
+    onPause?.();
+  };
+
+  const handleError = (e) => {
+    console.error("Error de audio:", e);
+    onPause?.();
+  };
+
+  // SI NO HAY ARCHIVO DE AUDIO, MOSTRAR BOTÓN DESHABILITADO
+  if (!mp3File) {
+    return (
+      <button className="play-icon-btn disabled" disabled title="Audio no disponible">
+        <BsMusicPlayer />
+      </button>
+    );
+  }
+
+  return (
+    <>
+      <audio
+        ref={audioRef}
+        src={mp3File}
+        onEnded={handleEnded}
+        onError={handleError}
+        preload="none"
+      />
+      <button 
+        className={`play-icon-btn ${isPlaying ? 'playing' : ''}`}
+        onClick={togglePlay}
+        title={isPlaying ? "Pausar" : "Reproducir"}
+      >
+        {isPlaying ? <BsPauseFill /> : <BsPlayFill />}
+      </button>
+    </>
+  );
+};
+
+// ================================================================
+// 🏠 COMPONENTE PRINCIPAL DE LA GALERÍA MEJORADO
 // ================================================================
 const BibliotecaCancioneros = () => {
-  // 📊 ESTADOS PARA GESTIONAR LOS DATOS Y LA INTERFAZ
+  // ESTADOS PRINCIPALES DEL COMPONENTE
   const [groups, setGroups] = useState([]);
   const [filteredGroups, setFilteredGroups] = useState([]);
   const [songDetails, setSongDetails] = useState({});
@@ -400,9 +560,10 @@ const BibliotecaCancioneros = () => {
     list: null
   });
   const [showFilters, setShowFilters] = useState(false);
-  const [viewMode, setViewMode] = useState('table'); // 'table' o 'grid'
-  
-  // 🎛️ ESTADO PARA CONTROLAR LAS COLUMNAS VISIBLES EN LA TABLA
+  const [viewMode, setViewMode] = useState('table');
+  const [currentlyPlaying, setCurrentlyPlaying] = useState(null);
+
+  // ESTADO PARA COLUMNAS VISIBLES
   const [visibleColumns, setVisibleColumns] = useState({
     title: true,
     artist: true,
@@ -414,70 +575,251 @@ const BibliotecaCancioneros = () => {
     actions: true
   });
   
-  // 🧭 HOOK DE NAVEGACIÓN DE REACT ROUTER
+  // HOOK DE NAVEGACIÓN DE REACT ROUTER
   const navigate = useNavigate();
 
   // ================================================================
-  // 📥 EFECTO PARA CARGAR LOS DATOS DE LOS ARCHIVOS JSON
+  // FUNCIONES HELPER MEJORADAS
+  // ================================================================
+
+  // FUNCIÓN PARA OBTENER LA RUTA BASE SEGÚN EL ARCHIVO
+  const getBasePath = (listPath) => {
+    const filename = listPath.split('/').pop();
+    
+    if (listPath.includes('listado-chords-alegondramusic.json')) {
+      return '/data/01-chords-musica-original/chords-alegondramusic/';
+    } else if (listPath.includes('listado-chords-almango-pop.json')) {
+      return '/data/01-chords-musica-original/chords-almangopop/';
+    } else if (listPath.includes('listado-chords-casamiento-ale-fabi.json')) {
+      return '/data/03-chords-de-shows-por-listados/chords-show-casamiento-ale-fabi/';
+    } else if (listPath.includes('02-chords-covers')) {
+      const baseName = filename.replace('listadocancionescovers-', '').replace('.json', '');
+      return `/data/02-chords-covers/cancionescovers-${baseName}/`;
+    }
+    
+    return '/data/';
+  };
+
+  // FUNCIÓN PARA OBTENER EL ID DE LA BIBLIOTECA DESDE LA RUTA
+  const getLibraryIdFromPath = (path) => {
+    const filename = path.split('/').pop().replace('.json', '');
+    const libraryMap = {
+      'listado-chords-alegondramusic': 'alegondra',
+      'listado-chords-almango-pop': 'almangopop',
+      'listado-chords-casamiento-ale-fabi': 'casamiento',
+      'listadocancionescovers-baladasespanol': 'covers-baladasespanol',
+      'listadocancionescovers-baladasingles': 'covers-baladasingles',
+      'listadocancionescovers-poprockespanol': 'covers-poprockespanol',
+      'listadocancionescovers-poprockingles': 'covers-poprockingles',
+      'listadocancionescovers-latinobailableespanol': 'covers-latinobailableespanol',
+      'listadocancionescovers-rockbailableespanol': 'covers-rockbailableespanol',
+      'listadocancionescovers-rockbailableingles': 'covers-rockbailableingles',
+      'listadocancionescovers-hardrock-punkespanol': 'covers-hardrock-punkespanol',
+      'listadocancionescovers-hardrock-punkingles': 'covers-hardrock-punkingles',
+      'listadocancionescovers-discoingles': 'covers-discoingles',
+      'listadocancionescovers-reggaeingles': 'covers-reggaeingles',
+      'listadocancionescovers-festivos-bso': 'covers-festivos-bso'
+    };
+    
+    return libraryMap[filename] || filename;
+  };
+
+  // FUNCIÓN PARA OBTENER EL NOMBRE DE LA BIBLIOTECA DESDE LA RUTA
+  const getLibraryNameFromPath = (path) => {
+    const filename = path.split('/').pop().replace('.json', '');
+    const nameMap = {
+      'listado-chords-alegondramusic': 'Ale Gondra',
+      'listado-chords-almango-pop': 'Almango Pop',
+      'listado-chords-casamiento-ale-fabi': 'Show Casamiento',
+      'listadocancionescovers-baladasespanol': 'Baladas Español',
+      'listadocancionescovers-baladasingles': 'Baladas Inglés',
+      'listadocancionescovers-poprockespanol': 'Pop Rock Español',
+      'listadocancionescovers-poprockingles': 'Pop Rock Inglés',
+      'listadocancionescovers-latinobailableespanol': 'Latino Bailable',
+      'listadocancionescovers-rockbailableespanol': 'Rock Bailable Español',
+      'listadocancionescovers-rockbailableingles': 'Rock Bailable Inglés',
+      'listadocancionescovers-hardrock-punkespanol': 'Hard Rock/Punk Español',
+      'listadocancionescovers-hardrock-punkingles': 'Hard Rock/Punk Inglés',
+      'listadocancionescovers-discoingles': 'Disco Inglés',
+      'listadocancionescovers-reggaeingles': 'Reggae Inglés',
+      'listadocancionescovers-festivos-bso': 'Festivos & BSO'
+    };
+    
+    return nameMap[filename] || filename.replace('listadocanciones', '').replace('covers-', '').replace(/-/g, ' ');
+  };
+
+  // ================================================================
+  // FUNCIONES DE MANEJO DE ESTADO
+  // ================================================================
+
+  // FUNCIÓN PARA CAMBIAR FILTROS
+  const handleFilterChange = (filterType, value) => {
+    setActiveFilters(prev => ({
+      ...prev,
+      [filterType]: value
+    }));
+  };
+
+  // FUNCIÓN PARA CAMBIAR ORDENAMIENTO
+  const handleSortChange = (key, direction = 'ascending') => {
+    if (sortConfig.key === key && !direction) {
+      direction = sortConfig.direction === 'ascending' ? 'descending' : 'ascending';
+    }
+    setSortConfig({ key, direction });
+  };
+
+  // FUNCIÓN PARA ALTERNAR VISIBILIDAD DE COLUMNAS
+  const handleToggleColumn = (columnKey) => {
+    setVisibleColumns(prev => ({
+      ...prev,
+      [columnKey]: !prev[columnKey]
+    }));
+  };
+
+  // FUNCIÓN PARA EXPANDIR TODOS LOS GRUPOS
+  const expandAllGroups = () => {
+    const allGroupIds = groups.map(group => group.id);
+    setSelectedGroups(new Set(allGroupIds));
+  };
+
+  // FUNCIÓN PARA COLAPSAR TODOS LOS GRUPOS
+  const collapseAllGroups = () => {
+    setSelectedGroups(new Set());
+  };
+
+  // ================================================================
+  // FUNCIONES DE CONTROL DE AUDIO MEJORADAS
+  // ================================================================
+
+  // FUNCIÓN PARA REPRODUCIR UNA CANCIÓN (PAUSA LAS DEMÁS AUTOMÁTICAMENTE)
+  const handlePlay = (songId) => {
+    setCurrentlyPlaying(songId);
+  };
+
+  // FUNCIÓN PARA PAUSAR LA CANCIÓN ACTUAL
+  const handlePause = () => {
+    setCurrentlyPlaying(null);
+  };
+
+  // ================================================================
+  // EFECTO PARA CARGAR LOS DATOS DE LOS ARCHIVOS JSON - MEJORADO
   // ================================================================
   useEffect(() => {
     const loadData = async () => {
       try {
         setIsLoading(true);
-        // ⚡ Cargar todos los archivos JSON en paralelo
-        const responses = await Promise.all(
-          jsonFiles.map(file => 
+        console.log("🔍 Iniciando carga de archivos JSON...");
+        
+        // PRIMERO VERIFICAMOS QUÉ ARCHIVOS EXISTEN REALMENTE
+        const fileChecks = await Promise.allSettled(
+          jsonFiles.map(async (file) => {
+            try {
+              const response = await fetch(file, { method: 'HEAD' });
+              return {
+                file,
+                exists: response.ok,
+                status: response.status
+              };
+            } catch (err) {
+              return {
+                file,
+                exists: false,
+                error: err.message
+              };
+            }
+          })
+        );
+
+        console.log("📋 Verificación de archivos:", fileChecks);
+
+        const existingFiles = fileChecks
+          .filter(result => result.status === 'fulfilled' && result.value.exists)
+          .map(result => result.value.file);
+
+        console.log("✅ Archivos existentes:", existingFiles);
+
+        // AHORA CARGAMOS SOLO LOS ARCHIVOS QUE EXISTEN
+        const responses = await Promise.allSettled(
+          existingFiles.map(file => 
             fetch(file)
-              .then(res => {
-                if (!res.ok) throw new Error(`Error cargando ${file}`);
-                return res.json();
+              .then(async (res) => {
+                if (!res.ok) throw new Error(`HTTP ${res.status} - ${file}`);
+                
+                // VERIFICAMOS SI EL CONTENIDO ES VÁLIDO
+                const text = await res.text();
+                if (!text.trim()) {
+                  throw new Error(`Archivo vacío - ${file}`);
+                }
+                
+                try {
+                  const data = JSON.parse(text);
+                  return { file, data, success: true };
+                } catch (parseError) {
+                  throw new Error(`JSON inválido en ${file}: ${parseError.message}`);
+                }
               })
               .catch(err => {
-                console.warn(`No se pudo cargar ${file}:`, err);
-                return null;
+                console.warn(`❌ No se pudo cargar ${file}:`, err.message);
+                return { file, error: err.message, success: false };
               })
           )
         );
 
-        // 🎯 Filtrar respuestas válidas
-        const validResponses = responses.filter(res => res !== null);
+        console.log("📦 Respuestas de carga:", responses);
+
+        const validGroups = [];
         
-        // 🔄 Procesar los datos según la estructura de cada archivo
-        const parsedGroups = validResponses.map((data, index) => {
-          if (data.albums) {
-            // 📀 Procesar archivos con estructura de álbumes
-            return data.albums.map(album => ({
-              groupName: album.album_name || "Sin título",
-              artist: album.artist || null,
-              songs: album.songs || [],
-              id: `group-${index}-${album.album_name || ''}`,
-              path: jsonFiles[index],
-              type: 'album',
-              libraryId: getLibraryIdFromPath(jsonFiles[index])
-            }));
-          } else if (data.songs) {
-            // 🎵 Procesar archivos con estructura de colecciones
-            return [{
-              groupName: data.name || `Lista ${index + 1}`,
-              songs: data.songs,
-              id: `group-${index}`,
-              path: jsonFiles[index],
-              type: 'collection',
-              libraryId: getLibraryIdFromPath(jsonFiles[index])
-            }];
+        responses.forEach((response) => {
+          if (response.status === 'fulfilled' && response.value.success) {
+            const { file, data } = response.value;
+            console.log(`🎵 Procesando archivo: ${file}`, data);
+            
+            if (data.albums && Array.isArray(data.albums)) {
+              // ESTRUCTURA CON ÁLBUMES
+              data.albums.forEach(album => {
+                if (album.songs && Array.isArray(album.songs)) {
+                  validGroups.push({
+                    groupName: album.album_name || "Sin título",
+                    artist: album.artist || null,
+                    songs: album.songs,
+                    id: `album-${file}-${album.album_name || 'sin-titulo'}`,
+                    path: file,
+                    type: 'album',
+                    libraryId: getLibraryIdFromPath(file),
+                    libraryName: getLibraryNameFromPath(file),
+                    totalSongs: album.songs.length
+                  });
+                }
+              });
+            } else if (data.songs && Array.isArray(data.songs)) {
+              // ESTRUCTURA DIRECTA CON CANCIONES
+              validGroups.push({
+                groupName: data.name || getLibraryNameFromPath(file),
+                artist: data.artist || null,
+                songs: data.songs,
+                id: `collection-${file}`,
+                path: file,
+                type: 'collection',
+                libraryId: getLibraryIdFromPath(file),
+                libraryName: getLibraryNameFromPath(file),
+                totalSongs: data.songs.length
+              });
+            } else {
+              console.warn(`⚠️ Formato no reconocido en ${file}:`, data);
+            }
+          } else {
+            const file = response.status === 'fulfilled' ? response.value.file : 'unknown';
+            console.warn(`🚫 Archivo fallido: ${file}`, response.reason || response.value);
           }
-          return [];
         });
 
-        // 📦 Aplanar el array de grupos
-        const flattenedGroups = parsedGroups.flat();
-        setGroups(flattenedGroups);
-        setFilteredGroups(flattenedGroups);
+        console.log("🎯 Grupos procesados:", validGroups);
+        setGroups(validGroups);
+        setFilteredGroups(validGroups);
         
-        // 📂 POR DEFECTO: COLAPSAR TODOS LOS GRUPOS
         setSelectedGroups(new Set());
       } catch (error) {
-        console.error("Error cargando JSONs:", error);
+        console.error("💥 Error cargando JSONs:", error);
         setError("Error al cargar las canciones. Intenta recargar la página.");
       } finally {
         setIsLoading(false);
@@ -488,125 +830,12 @@ const BibliotecaCancioneros = () => {
   }, []);
 
   // ================================================================
-  // 📝 EFECTO PARA CARGAR DETALLES ADICIONALES DE LAS CANCIONES
-  // ================================================================
-  useEffect(() => {
-    const loadSongDetails = async () => {
-      const details = {};
-      const songsToLoad = [];
-      
-      // 📋 Recolectar canciones para cargar detalles
-      groups.forEach(group => {
-        if (selectedGroups.has(group.id) && group.songs) {
-          group.songs.slice(0, 10).forEach(song => {
-            if (song.file && !songDetails[song.id || song.title]) {
-              songsToLoad.push({ song, group });
-            }
-          });
-        }
-      });
-
-      // ⚡ Cargar detalles en paralelo
-      const detailPromises = songsToLoad.map(async ({ song, group }) => {
-        try {
-          const basePath = getBasePath(group.path);
-          const songPath = `${basePath}${song.file}`;
-          const response = await fetch(songPath);
-          if (response.ok) {
-            const songData = await response.json();
-            details[song.id || song.title] = songData;
-          }
-        } catch (err) {
-          console.warn(`No se pudo cargar detalles de ${song.title}:`, err);
-        }
-      });
-
-      await Promise.all(detailPromises);
-      setSongDetails(prev => ({ ...prev, ...details }));
-    };
-
-    if (groups.length > 0) {
-      loadSongDetails();
-    }
-  }, [groups, selectedGroups]);
-
-  // ================================================================
-  // 🗺️ FUNCIÓN PARA OBTENER LA RUTA BASE DESDE LA RUTA DEL LISTADO
-  // ================================================================
-  const getBasePath = (listPath) => {
-    const filename = listPath.split('/').pop();
-    const baseName = filename.replace('listado', '').replace('.json', '');
-    return `/data/${baseName}/`;
-  };
-
-  // ================================================================
-  // 🆔 FUNCIÓN PARA OBTENER ID DE BIBLIOTECA DESDE LA RUTA
-  // ================================================================
-  const getLibraryIdFromPath = (path) => {
-    const filename = path.split('/').pop().replace('.json', '');
-    const libraryMap = {
-      'listadocancionesalegondramusic': 'alegondra',
-      'listadocancionesalmangopop': 'almangopop',
-      'listadocancionescasamiento': 'casamiento',
-      'listadochordscoversseleccionados1': 'covers1',
-      'listadochordscoversseleccionados2': 'covers2',
-      'listadochordscoversseleccionados3': 'covers3',
-      'listadochordscoverslatinos1': 'coverslatinos1',
-      'listadochordscoversnacionales1': 'coversnacionales1'
-    };
-    
-    return libraryMap[filename] || 'covers1';
-  };
-
-  // ================================================================
-  // 🎯 FUNCIÓN PARA MANEJAR CAMBIOS DE FILTRO
-  // ================================================================
-  const handleFilterChange = (filterType, value) => {
-    setActiveFilters(prev => ({
-      ...prev,
-      [filterType]: value
-    }));
-  };
-
-  // ================================================================
-  // 🔄 FUNCIÓN PARA MANEJAR CAMBIOS DE ORDENAMIENTO
-  // ================================================================
-  const handleSortChange = (key, direction = 'ascending') => {
-    if (sortConfig.key === key && !direction) {
-      direction = sortConfig.direction === 'ascending' ? 'descending' : 'ascending';
-    }
-    setSortConfig({ key, direction });
-  };
-
-  // ================================================================
-  // 👁️ FUNCIÓN PARA ALTERNAR VISIBILIDAD DE COLUMNAS
-  // ================================================================
-  const handleToggleColumn = (columnKey) => {
-    setVisibleColumns(prev => ({
-      ...prev,
-      [columnKey]: !prev[columnKey]
-    }));
-  };
-
-  // ================================================================
-  // 📂 FUNCIONES PARA EXPANDIR/COLAPSAR TODOS LOS GRUPOS
-  // ================================================================
-  const expandAllGroups = () => {
-    const allGroupIds = groups.map(group => group.id);
-    setSelectedGroups(new Set(allGroupIds));
-  };
-
-  const collapseAllGroups = () => {
-    setSelectedGroups(new Set());
-  };
-
-  // ================================================================
-  // 🔍 EFECTO PARA APLICAR FILTROS, BÚSQUEDA Y ORDENAMIENTO
+  // EFECTO PARA APLICAR FILTROS, BÚSQUEDA Y ORDENAMIENTO
   // ================================================================
   useEffect(() => {
     let result = [...groups];
     
-    // 🔎 Aplicar filtro de búsqueda si hay término
+    // FILTRAR POR TÉRMINO DE BÚSQUEDA
     if (searchTerm) {
       const term = searchTerm.toLowerCase();
       result = result.map(group => ({
@@ -620,27 +849,25 @@ const BibliotecaCancioneros = () => {
       })).filter(group => group.songs.length > 0);
     }
     
-    // 🔤 Aplicar filtro por primera letra
+    // FILTRAR POR LETRA
     if (activeFilters.letter && activeFilters.letter !== 'all') {
       result = result.map(group => ({
         ...group,
         songs: group.songs.filter(song => {
           if (activeFilters.letter === '0-9') {
-            // Filtrar por números (0-9)
             return /^\d/.test(song.title || '');
           }
-          // Filtrar por letra específica
           return (song.title || '').toUpperCase().startsWith(activeFilters.letter);
         })
       })).filter(group => group.songs.length > 0);
     }
     
-    // 📚 Aplicar filtro por lista/biblioteca
+    // FILTRAR POR LISTA
     if (activeFilters.list) {
       result = result.filter(group => group.libraryId === activeFilters.list);
     }
     
-    // 🔄 Aplicar ordenamiento si está configurado
+    // APLICAR ORDENAMIENTO
     if (sortConfig.key) {
       result = result.map(group => ({
         ...group,
@@ -653,7 +880,6 @@ const BibliotecaCancioneros = () => {
             aValue = aDetails[sortConfig.key] || '';
             bValue = bDetails[sortConfig.key] || '';
           } else if (sortConfig.key === 'list') {
-            // 📋 Ordenar por nombre de lista
             const aGroup = groups.find(g => g.songs?.includes(a))?.groupName || '';
             const bGroup = groups.find(g => g.songs?.includes(b))?.groupName || '';
             aValue = aGroup;
@@ -663,12 +889,10 @@ const BibliotecaCancioneros = () => {
             bValue = b[sortConfig.key] || '';
           }
           
-          // Manejar valores vacíos
           if (aValue === '' && bValue !== '') return sortConfig.direction === 'ascending' ? 1 : -1;
           if (aValue !== '' && bValue === '') return sortConfig.direction === 'ascending' ? -1 : 1;
           if (aValue === '' && bValue === '') return 0;
           
-          // Comparación normal
           if (aValue < bValue) {
             return sortConfig.direction === 'ascending' ? -1 : 1;
           }
@@ -683,9 +907,7 @@ const BibliotecaCancioneros = () => {
     setFilteredGroups(result);
   }, [groups, searchTerm, sortConfig, songDetails, activeFilters]);
 
-  // ================================================================
-  // 📂 FUNCIÓN PARA ALTERNAR LA EXPANSIÓN/COLAPSO DE GRUPOS
-  // ================================================================
+  // FUNCIÓN PARA ALTERNAR EXPANSIÓN DE GRUPOS
   const toggleGroup = (groupId) => {
     setSelectedGroups(prev => {
       const newSet = new Set(prev);
@@ -698,49 +920,55 @@ const BibliotecaCancioneros = () => {
     });
   };
 
-  // ================================================================
-  // 🎵 FUNCIÓN PARA NAVEGAR AL VISOR DE ACORDES
-  // ================================================================
+  // FUNCIÓN PARA ABRIR CANCIÓN EN EL VISOR DE ACORDES
   const openInChordsViewer = (song, group) => {
+    console.log("🎵 Abriendo canción:", song.title);
+    console.log("📁 Grupo:", group.libraryName);
+    console.log("📄 Archivo:", song.file);
+    
     const libraryId = getLibraryIdFromPath(group.path);
-    navigate(`/chords-viewer?library=${libraryId}&song=${encodeURIComponent(song.file)}`);
+    const encodedSongFile = encodeURIComponent(song.file);
+    
+    console.log("🔗 Navegando a:", `/chords-viewer?library=${libraryId}&song=${encodedSongFile}`);
+    
+    navigate(`/chords-viewer?library=${libraryId}&song=${encodedSongFile}`);
   };
 
-  // ================================================================
-  // 🎲 FUNCIÓN PARA GENERAR DATOS DE EJEMPLO (BPM, GÉNERO, DURACIÓN)
-  // ================================================================
+  // FUNCIÓN PARA OBTENER DATOS REALES DE LA CANCIÓN (NO GENERADOS)
   const getSongExtraData = (song) => {
-    // 📊 Datos de ejemplo hasta que tengamos los datos reales
-    const titleHash = song.title ? song.title.split('').reduce((a, b) => {
-      a = ((a << 5) - a) + b.charCodeAt(0);
-      return a & a;
-    }, 0) : 0;
-    
-    const genres = ['Pop', 'Rock', 'Balada', 'Latino', 'Folklore', 'Cumbia', 'Reggaeton'];
-    const genre = genres[Math.abs(titleHash) % genres.length];
-    
-    const bpm = 80 + (Math.abs(titleHash) % 60); // BPM entre 80 y 140
-    const duration = `${Math.floor(Math.abs(titleHash) % 4)}:${Math.floor(Math.abs(titleHash) % 60).toString().padStart(2, '0')}`;
-    
-    return { genre, bpm, duration };
+    // USAR LOS DATOS REALES DEL JSON EN LUGAR DE GENERAR ALEATORIOS
+    return {
+      genre: song.genre || 'No especificado',
+      bpm: song.bpm || 'N/A',
+      duration: song.duration || '0:00',
+      key: song.key || 'N/A',
+      style: song.style || 'No especificado'
+    };
   };
 
   // ================================================================
-  // 📋 LISTAS DISPONIBLES PARA FILTRO
+  // LISTAS DISPONIBLES PARA FILTRO
   // ================================================================
   const availableLists = [
     { id: 'alegondra', name: 'Ale Gondra' },
     { id: 'almangopop', name: 'Almango Pop' },
-    { id: 'casamiento', name: 'Casamiento' },
-    { id: 'covers1', name: 'Covers Seleccionados 1' },
-    { id: 'covers2', name: 'Covers Seleccionados 2' },
-    { id: 'covers3', name: 'Covers Seleccionados 3' },
-    { id: 'coverslatinos1', name: 'Covers Latinos' },
-    { id: 'coversnacionales1', name: 'Covers Nacionales' }
+    { id: 'casamiento', name: 'Show Casamiento' },
+    { id: 'covers-baladasespanol', name: 'Baladas Español' },
+    { id: 'covers-baladasingles', name: 'Baladas Inglés' },
+    { id: 'covers-poprockespanol', name: 'Pop Rock Español' },
+    { id: 'covers-poprockingles', name: 'Pop Rock Inglés' },
+    { id: 'covers-latinobailableespanol', name: 'Latino Bailable' },
+    { id: 'covers-rockbailableespanol', name: 'Rock Bailable Español' },
+    { id: 'covers-rockbailableingles', name: 'Rock Bailable Inglés' },
+    { id: 'covers-hardrock-punkespanol', name: 'Hard Rock/Punk Español' },
+    { id: 'covers-hardrock-punkingles', name: 'Hard Rock/Punk Inglés' },
+    { id: 'covers-discoingles', name: 'Disco Inglés' },
+    { id: 'covers-reggaeingles', name: 'Reggae Inglés' },
+    { id: 'covers-festivos-bso', name: 'Festivos & BSO' }
   ];
 
   // ================================================================
-  // ⏳ RENDERIZADO DE ESTADOS DE CARGA Y ERROR
+  // RENDERIZADO DE ESTADOS DE CARGA Y ERROR
   // ================================================================
   if (isLoading) {
     return (
@@ -763,12 +991,11 @@ const BibliotecaCancioneros = () => {
   }
 
   // ================================================================
-  // 🎨 RENDERIZADO PRINCIPAL DEL COMPONENTE
+  // RENDERIZADO PRINCIPAL DEL COMPONENTE
   // ================================================================
   return (
     <main className="modern-chords-gallery dark-theme excel-style compact-view">
-      
-      {/* 🎯 HEADER CON CONTROLES Y ESTADÍSTICAS */}
+      {/* HEADER PRINCIPAL DE LA GALERÍA */}
       <div className="gallery-header">
         <div className="header-main">
           <div className="header-title">
@@ -809,18 +1036,14 @@ const BibliotecaCancioneros = () => {
           </div>
         </div>
 
-        {/* 🔍 SELECTOR DE BÚSQUEDA MEJORADO */}
         <div className="header-controls">
           <SongSelector
             songs={groups.flatMap(group => group.songs || [])}
             selectedSong={null}
             onSelectSong={(song) => {
-              // 📍 Encontrar el grupo al que pertenece la canción
               const group = groups.find(g => g.songs?.includes(song));
               if (group) {
-                // 📂 Expandir el grupo
                 setSelectedGroups(prev => new Set([...prev, group.id]));
-                // 🎵 Navegar a la canción
                 openInChordsViewer(song, group);
               }
             }}
@@ -832,7 +1055,7 @@ const BibliotecaCancioneros = () => {
         </div>
       </div>
 
-      {/* 🎛️ PANEL DE FILTROS Y ORDENAMIENTO */}
+      {/* PANEL DE FILTROS (SE MUESTRA CUANDO ESTÁ ACTIVO) */}
       {showFilters && (
         <div className="filters-panel">
           <FilterControls
@@ -849,7 +1072,7 @@ const BibliotecaCancioneros = () => {
         </div>
       )}
 
-      {/* 📊 TABLA PRINCIPAL DE CANCIONES */}
+      {/* CONTENEDOR PRINCIPAL DE LA TABLA */}
       <div className="excel-table-container">
         <div className="table-wrapper">
           <table className="excel-table ultra-compact-table">
@@ -955,11 +1178,9 @@ const BibliotecaCancioneros = () => {
               </tr>
             </thead>
             <tbody>
-              {/* 🔄 RENDERIZADO DE GRUPOS Y CANCIONES */}
               {filteredGroups.map((group, gIndex) => (
                 <React.Fragment key={group.id}>
-                  
-                  {/* 📁 FILA DE ENCABEZADO DE GRUPO */}
+                  {/* FILA DE ENCABEZADO DEL GRUPO */}
                   <tr 
                     className={`group-header ${selectedGroups.has(group.id) ? 'expanded' : ''}`}
                     onClick={() => toggleGroup(group.id)}
@@ -980,20 +1201,23 @@ const BibliotecaCancioneros = () => {
                     </td>
                   </tr>
                   
-                  {/* 🎵 FILAS DE CANCIONES DENTRO DEL GRUPO */}
+                  {/* FILAS DE CANCIONES (SE MUESTRAN CUANDO EL GRUPO ESTÁ EXPANDIDO) */}
                   {selectedGroups.has(group.id) && group.songs.map((song, sIndex) => {
                     const extraData = getSongExtraData(song);
+                    const songId = song.id || song.title;
                     
                     return (
                       <tr key={`${gIndex}-${sIndex}`} className="song-row">
                         <td className="col-expand"></td>
                         
+                        {/* COLUMNA: ARTISTA */}
                         {visibleColumns.artist && (
                           <td className="col-artist">
                             <span className="artist-text">{song.artist || 'N/A'}</span>
                           </td>
                         )}
                         
+                        {/* COLUMNA: TÍTULO */}
                         {visibleColumns.title && (
                           <td className="col-title">
                             <div className="song-title-cell">
@@ -1002,50 +1226,60 @@ const BibliotecaCancioneros = () => {
                           </td>
                         )}
                         
+                        {/* COLUMNA: GÉNERO */}
                         {visibleColumns.genre && (
                           <td className="col-genre">
-                            <span className="genre-badge">{extraData.genre}</span>
+                            <span className="genre-badge">{song.genre || extraData.genre}</span>
                           </td>
                         )}
                         
+                        {/* COLUMNA: BPM */}
                         {visibleColumns.bpm && (
                           <td className="col-bpm">
-                            <span className="bpm-text">{extraData.bpm}</span>
+                            <span className="bpm-text">{song.bpm || extraData.bpm}</span>
                           </td>
                         )}
                         
+                        {/* COLUMNA: TONO */}
                         {visibleColumns.key && (
                           <td className="col-key">
                             <span className="key-badge">
-                              {songDetails[song.id || song.title]?.originalKey || song.key || 'N/A'}
+                              {song.key || 'N/A'}
                             </span>
                           </td>
                         )}
                         
+                        {/* COLUMNA: DURACIÓN */}
                         {visibleColumns.duration && (
                           <td className="col-duration">
                             <div className="duration-cell">
                               <BsClock className="duration-icon" />
-                              <span className="duration-text">{extraData.duration}</span>
+                              <span className="duration-text">{song.duration || extraData.duration}</span>
                             </div>
                           </td>
                         )}
                         
+                        {/* COLUMNA: LISTA */}
                         {visibleColumns.list && (
                           <td className="col-list">
-                            <span className="list-text">{group.groupName}</span>
+                            <span className="list-text">{group.libraryName || group.groupName}</span>
                           </td>
                         )}
                         
+                        {/* COLUMNA: ACCIONES */}
                         {visibleColumns.actions && (
                           <td className="col-actions">
                             <div className="action-buttons">
-                              <button
-                                className="play-icon-btn"
-                                title="Reproducir (próximamente)"
-                              >
-                                <BsMusicPlayer />
-                              </button>
+                              {/* BOTÓN REPRODUCIR AUDIO MEJORADO CON FADE */}
+                              <AudioPlayer 
+                                mp3File={song.mp3_file} 
+                                songId={songId}
+                                currentlyPlaying={currentlyPlaying}
+                                onPlay={handlePlay}
+                                onPause={handlePause}
+                              />
+                              
+                              {/* BOTÓN ABRIR ACORDES */}
                               <button
                                 onClick={(e) => {
                                   e.stopPropagation();
@@ -1069,7 +1303,7 @@ const BibliotecaCancioneros = () => {
           </table>
         </div>
         
-        {/* 📝 MENSAJE CUANDO NO HAY RESULTADOS */}
+        {/* MENSAJE CUANDO NO HAY RESULTADOS */}
         {filteredGroups.length === 0 && (
           <div className="no-results">
             <BsMusicNoteBeamed />
@@ -1079,7 +1313,7 @@ const BibliotecaCancioneros = () => {
         )}
       </div>
 
-      {/* 📋 FOOTER DE LA TABLA CON INFORMACIÓN Y CONTROLES */}
+      {/* FOOTER DE LA TABLA CON INFORMACIÓN Y ACCIONES */}
       <div className="table-footer">
         <div className="footer-info">
           <span>Mostrando {filteredGroups.reduce((total, group) => total + (group.songs?.length || 0), 0)} canciones</span>

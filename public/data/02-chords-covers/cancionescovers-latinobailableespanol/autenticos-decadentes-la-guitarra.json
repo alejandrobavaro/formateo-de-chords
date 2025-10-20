@@ -1,0 +1,665 @@
+{
+    "id": "autenticos-decadentes-la-guitarra",
+    "title": "La Guitarra",
+    "artist": "Auténticos Decadentes",
+    "originalKey": "E",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["B", "–", "E"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "lyric",
+            "content": "Tuve un problema de difícil solución"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "En una época difícil de mi vida"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G#m"
+          },
+          {
+            "type": "lyric",
+            "content": "Estaba entre la espada y la pared"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric",
+            "content": "Y aguantando la opinión de mi familia"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "Yo no quería una vida normal"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "No me gustaban los horarios de oficina"
+          },
+          {
+            "type": "chord",
+            "content": "G#7"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "C#m"
+          },
+          {
+            "type": "lyric",
+            "content": "Y mi espíritu rebelde se reía"
+          },
+          {
+            "type": "chord",
+            "content": "C#7"
+          },
+          {
+            "type": "lyric",
+            "content": "Del dinero, del lujo y del confort"
+          },
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "chord",
+            "content": "B7"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G#m"
+          },
+          {
+            "type": "lyric",
+            "content": "Y tuve una revelación"
+          },
+          {
+            "type": "chord",
+            "content": "C#m"
+          },
+          {
+            "type": "lyric",
+            "content": "Ya sé lo que quiero en esta vida"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "chord",
+            "content": "G#m"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Voy a seguir mi vocación"
+          },
+          {
+            "type": "chord",
+            "content": "F#7"
+          },
+          {
+            "type": "lyric",
+            "content": "Será la música mi techo y mi comida"
+          },
+          {
+            "type": "chord",
+            "content": "B7"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "Porque yo no quiero trabajar"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "B7"
+              },
+              {
+                "type": "lyric",
+                "content": "No quiero ir a estudiar, no me quiero casar"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["C#m", "–", "G#m"]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "Quiero tocar la guitarra todo el día"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "Y que la gente se enamore de mi voz"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["F#7", "–", "B7"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (x2)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "Porque yo no quiero trabajar"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "lyric",
+                "content": "No quiero ir a estudiar, no me quiero casar"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["C#m", "–", "G#m"]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "Y en la cabeza tenía la voz de mi viejo"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "Que me sonaba como un rulo de tambor"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["F#7", "–", "B7"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "Vos mejor que te afeités, mejor que madurés"
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "chord",
+            "content": "C#m"
+          },
+          {
+            "type": "lyric",
+            "content": "Mejor que laburés, ya me cansé de que te tomes la cerveza"
+          },
+          {
+            "type": "chord",
+            "content": "G#m"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "F#7"
+          },
+          {
+            "type": "lyric",
+            "content": "Te voy a dar con la guitarra en la cabeza"
+          },
+          {
+            "type": "chord",
+            "content": "B7"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "Vos mejor que te afeités, mejor que madurés"
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "chord",
+            "content": "C#m"
+          },
+          {
+            "type": "lyric",
+            "content": "Mejor que laburés, ya me cansé de ser tu fuente de dinero"
+          },
+          {
+            "type": "chord",
+            "content": "G#m"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "F#7"
+          },
+          {
+            "type": "lyric",
+            "content": "Voy a ponerte esa guitarra de sombrero"
+          },
+          {
+            "type": "chord",
+            "content": "B7"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTERLUDIO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "–", "A", "–", "G#7", "–", "C#m", "–", "C#7"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "lyric",
+            "content": "Y tuve una revelación"
+          },
+          {
+            "type": "chord",
+            "content": "G#m"
+          },
+          {
+            "type": "lyric",
+            "content": "Ya sé lo que quiero en esta vida"
+          },
+          {
+            "type": "chord",
+            "content": "C#m"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "chord",
+            "content": "G#m"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Voy a seguir mi vocación"
+          },
+          {
+            "type": "chord",
+            "content": "F#7"
+          },
+          {
+            "type": "lyric",
+            "content": "Será la música mi techo y mi comida"
+          },
+          {
+            "type": "chord",
+            "content": "B7"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL (x2)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "Porque yo no quiero trabajar"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "lyric",
+                "content": "No quiero ir a estudiar, no me quiero casar"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["C#m", "–", "G#m"]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "Quiero tocar la guitarra todo el día"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "E"
+              },
+              {
+                "type": "lyric",
+                "content": "Y que la gente se enamore de mi voz"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["F#7", "–", "B7"]
+          }
+        ]
+      }
+    ]
+  }
+  

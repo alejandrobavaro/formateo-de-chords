@@ -1,0 +1,332 @@
+{
+    "id": "almango-she",
+    "title": "She",
+    "artist": "Almango (cover de Green Day)",
+    "originalKey": "G",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "D", "C", "G"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "VERSE 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Ella… llora en silencio."
+          },
+          {
+            "type": "chords",
+            "content": ["D", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Un triste sueño ha robado su lugar."
+          },
+          {
+            "type": "chords",
+            "content": ["C", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y… no vuela más una moneda, ha sorteado su final."
+          },
+          {
+            "type": "chords",
+            "content": ["C", "G"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "¿Cuántas veces has brillado con tu propia luz?"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["D", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "¿Cuántas puertas has marcado con alguna cruz?"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "G"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PUENTE 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "G", "C", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Grí-ta-me hasta que tu ser, se-li-bere del dolor."
+          },
+          {
+            "type": "chords",
+            "content": ["C", "G", "D"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "D", "C", "G"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "VERSE 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Ella… duerme en el tiempo."
+          },
+          {
+            "type": "chords",
+            "content": ["D", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y sueña con un mundo simple e ideal."
+          },
+          {
+            "type": "chords",
+            "content": ["C", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["G", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y… la soledad encierra su alma en cubo de cristal."
+          },
+          {
+            "type": "chords",
+            "content": ["C", "G"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "¿Cuántas veces has brillado con tu propia luz?"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["D", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "¿Cuántas puertas has marcado con alguna cruz?"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "G"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PUENTE 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "G", "C", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Grí-ta-me hasta que tu ser, se-li-bere del dolor."
+          },
+          {
+            "type": "chords",
+            "content": ["C", "G", "D"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO VIOLA",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "D", "C", "G", "-", "G", "D", "C", "G"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO 3",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "¿Cuántas veces has brillado con tu propia luz?"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chords",
+            "content": ["D", "-"]
+          },
+          {
+            "type": "lyric",
+            "content": "¿Cuántas puertas has marcado con alguna cruz?"
+          },
+          {
+            "type": "chords",
+            "content": ["C", "G"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PUENTE 3",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "G", "C", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Grí-ta-me hasta que tu ser, se-li-bere del dolor."
+          },
+          {
+            "type": "chords",
+            "content": ["C", "G", "D"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PUENTE FINAL (SOLO VOCES Y VIOLA)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "G", "C", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Grí-ta-me hasta que tu ser, se-li-bere del dolor."
+          },
+          {
+            "type": "chords",
+            "content": ["C", "G", "D"]
+          }
+        ]
+      }
+    ]
+  }
+  

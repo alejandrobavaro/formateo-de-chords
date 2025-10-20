@@ -1,0 +1,319 @@
+{
+    "id": "offspring-pretty-fly-for-a-white-guy",
+    "title": "Pretty Fly (For a White Guy)",
+    "artist": "The Offspring",
+    "originalKey": "F#",
+    "tempo": "Fast",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "lyric",
+            "content": "Gunter glieben glauchen globen"
+          },
+          {
+            "type": "lyric",
+            "content": "Power CORD"
+          },
+          {
+            "type": "lyric",
+            "content": "Give it to me baby, ahnha ahnha (x3)"
+          },
+          {
+            "type": "lyric",
+            "content": "And all girls say I'm pretty fly for a white guy"
+          },
+          {
+            "type": "chords",
+            "content": ["F#5", "C#5", "E5", "F#5", "B5", "A5", "E5", "–", "F#5", "C#5", "E5", "F#5", "B5", "A5", "E5", "–", "F#5", "C#5", "E5", "F#5", "B5", "A5", "E5"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F#5", "C#5", "E5", "F#5"]
+          },
+          {
+            "type": "lyric",
+            "content": "Uno duos três quatro cinco cinco seis"
+          },
+          {
+            "type": "lyric",
+            "content": "You know it's kind of hard, just to get alone today"
+          },
+          {
+            "type": "lyric",
+            "content": "Our subject isn't cool, but the fakes it anyway"
+          },
+          {
+            "type": "lyric",
+            "content": "He may not have a clue, and he may not have style"
+          },
+          {
+            "type": "lyric",
+            "content": "But everything he lacks, he makes up in denial"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F#5"
+              },
+              {
+                "type": "lyric",
+                "content": "So don't debate, a player straight"
+              },
+              {
+                "type": "chord",
+                "content": "C5 / C#5"
+              },
+              {
+                "type": "lyric",
+                "content": "You know he really doesn't get it anyway"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A5"
+              },
+              {
+                "type": "lyric",
+                "content": "He's gonna play the field, and keep it real"
+              },
+              {
+                "type": "chord",
+                "content": "E5"
+              },
+              {
+                "type": "lyric",
+                "content": "For you no way, for you no way"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["F#5", "C5 / C#5", "A5", "E5", "B5 / C5"]
+          },
+          {
+            "type": "lyric",
+            "content": "So if you don't hate, just overcompensate"
+          },
+          {
+            "type": "lyric",
+            "content": "At least you'll know you can always go no Ricki Lake"
+          },
+          {
+            "type": "lyric",
+            "content": "The world needs wannabe's so"
+          },
+          {
+            "type": "chords",
+            "content": ["F#5", "C#5 / C5", "B5", "F#5", "A5", "B5", "F#5"]
+          },
+          {
+            "type": "lyric",
+            "content": "Hey hey do that brand new thing"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F#5", "C#5", "E5", "F#5"]
+          },
+          {
+            "type": "lyric",
+            "content": "Give it to me baby, ahnha ahnha (x3)"
+          },
+          {
+            "type": "lyric",
+            "content": "And all girls say I'm pretty fly for a white guy"
+          },
+          {
+            "type": "lyric",
+            "content": "He needs some cool tunes, not just any will suffice"
+          },
+          {
+            "type": "lyric",
+            "content": "But they didn't have Ice Cube, so he bought Vanilla Ice"
+          },
+          {
+            "type": "lyric",
+            "content": "Now cruising in his Pinto, he sees homies as he pass"
+          },
+          {
+            "type": "lyric",
+            "content": "But if he looks twice, they're gonna kick his lily ass"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F#5"
+              },
+              {
+                "type": "lyric",
+                "content": "So don't debate, a player straight"
+              },
+              {
+                "type": "chord",
+                "content": "C5 / C#5"
+              },
+              {
+                "type": "lyric",
+                "content": "You know he really doesn't get it anyway"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A5"
+              },
+              {
+                "type": "lyric",
+                "content": "He's gonna play the field, and keep it real"
+              },
+              {
+                "type": "chord",
+                "content": "E5"
+              },
+              {
+                "type": "lyric",
+                "content": "For you no way, for you no way"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["F#5", "C5 / C#5", "A5", "E5", "B5 / C5"]
+          },
+          {
+            "type": "lyric",
+            "content": "So if you don't hate, just overcompensate"
+          },
+          {
+            "type": "lyric",
+            "content": "At least you'll know you can always go no Ricki Lake"
+          },
+          {
+            "type": "lyric",
+            "content": "The world needs wannabe's so"
+          },
+          {
+            "type": "lyric",
+            "content": "The world loves wannabe's so"
+          },
+          {
+            "type": "lyric",
+            "content": "Let's get some more wannabe's"
+          },
+          {
+            "type": "chords",
+            "content": ["F#5", "C#5 / C5", "B5", "F#5", "A5", "B5", "F#5"]
+          },
+          {
+            "type": "lyric",
+            "content": "Hey hey do that brand new thing"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PUENTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F#5", "E5", "F#5", "E5"]
+          },
+          {
+            "type": "lyric",
+            "content": "Friends say he's trying too hard"
+          },
+          {
+            "type": "lyric",
+            "content": "And he's not quite hip"
+          },
+          {
+            "type": "lyric",
+            "content": "But in his own mind, he's the, he's the dopest trip"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "OUTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F#5", "C#5", "E5", "F#5", "B5", "A5", "E5", "–", "F#5", "C#5", "E5", "F#5"]
+          },
+          {
+            "type": "lyric",
+            "content": "Give it to me baby, ahnha ahnha (x3)"
+          },
+          {
+            "type": "lyric",
+            "content": "Uno duos três quatro cinco cinco seis"
+          }
+        ]
+      }
+    ]
+  }
+  

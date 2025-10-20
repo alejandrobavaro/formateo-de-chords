@@ -1,0 +1,369 @@
+{
+  "id": "blur-song-2",
+  "title": "Song 2",
+  "artist": "Blur",
+  "originalKey": "F#m",
+  "tempo": "Fast",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F#5", "E5", "A5", "B5", "C#5"]
+        },
+        {
+          "type": "chords",
+          "content": ["F#5", "E5", "A5", "B5", "C#5"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["F#5", "E5", "A5", "B5", "C#5"]
+            },
+            {
+              "type": "lyric",
+              "content": "Woo-hoo"
+            },
+            {
+              "type": "chords",
+              "content": ["F#5", "E5", "A5", "B5", "C#5"]
+            },
+            {
+              "type": "lyric",
+              "content": "Woo-hoo"
+            },
+            {
+              "type": "chords",
+              "content": ["F#5", "E5", "A5", "B5", "C#5"]
+            },
+            {
+              "type": "lyric",
+              "content": "Woo-hoo"
+            },
+            {
+              "type": "chords",
+              "content": ["F#5", "E5", "A5", "B5", "C#5"]
+            },
+            {
+              "type": "lyric",
+              "content": "Woo-hoo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["F#5", "E5", "A5", "B5", "C#5"]
+            },
+            {
+              "type": "lyric",
+              "content": "I got my head checked"
+            },
+            {
+              "type": "chords",
+              "content": ["F#5", "E5", "A5", "B5", "C#5"]
+            },
+            {
+              "type": "lyric",
+              "content": "By a jumbo jet"
+            },
+            {
+              "type": "chords",
+              "content": ["F#5", "E5", "A5", "B5", "C#5"]
+            },
+            {
+              "type": "lyric",
+              "content": "It wasn't easy"
+            },
+            {
+              "type": "chords",
+              "content": ["F#5", "E5", "A5", "B5", "C#5"]
+            },
+            {
+              "type": "lyric",
+              "content": "But nothing is, no"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["F#5", "E5"]
+            },
+            {
+              "type": "lyric",
+              "content": "Woo-hoo"
+            },
+            {
+              "type": "chords",
+              "content": ["A5", "B5", "C#5"]
+            },
+            {
+              "type": "lyric",
+              "content": "When I feel heavy metal"
+            },
+            {
+              "type": "chords",
+              "content": ["F#5", "E5"]
+            },
+            {
+              "type": "lyric",
+              "content": "Woo-hoo"
+            },
+            {
+              "type": "chords",
+              "content": ["A5", "B5", "C#5"]
+            },
+            {
+              "type": "lyric",
+              "content": "And I'm pins and I'm needles"
+            },
+            {
+              "type": "chords",
+              "content": ["F#5", "E5"]
+            },
+            {
+              "type": "lyric",
+              "content": "Woo-hoo"
+            },
+            {
+              "type": "chords",
+              "content": ["A5", "B5", "C#5"]
+            },
+            {
+              "type": "lyric",
+              "content": "Well I lie and I'm easy"
+            },
+            {
+              "type": "chords",
+              "content": ["F#5"]
+            },
+            {
+              "type": "lyric",
+              "content": "All of the time but"
+            },
+            {
+              "type": "chords",
+              "content": ["A5", "D5"]
+            },
+            {
+              "type": "lyric",
+              "content": "I'm never sure why I need you"
+            },
+            {
+              "type": "lyric",
+              "content": "Pleased to meet you"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTERLUDIO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F#5", "E5", "A5", "B5", "C#5"]
+        },
+        {
+          "type": "chords",
+          "content": ["F#5", "E5", "A5", "B5", "C#5"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA PARTE",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["F#5", "E5", "A5", "B5", "C#5"]
+            },
+            {
+              "type": "lyric",
+              "content": "I got my head down"
+            },
+            {
+              "type": "chords",
+              "content": ["F#5", "E5", "A5", "B5", "C#5"]
+            },
+            {
+              "type": "lyric",
+              "content": "When I was young"
+            },
+            {
+              "type": "chords",
+              "content": ["F#5", "E5", "A5", "B5", "C#5"]
+            },
+            {
+              "type": "lyric",
+              "content": "It's not my problem"
+            },
+            {
+              "type": "chords",
+              "content": ["F#5", "E5", "A5", "B5", "C#5"]
+            },
+            {
+              "type": "lyric",
+              "content": "It's not my problem"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["F#5", "E5"]
+            },
+            {
+              "type": "lyric",
+              "content": "Woo-hoo"
+            },
+            {
+              "type": "chords",
+              "content": ["A5", "B5", "C#5"]
+            },
+            {
+              "type": "lyric",
+              "content": "When I feel heavy metal"
+            },
+            {
+              "type": "chords",
+              "content": ["F#5", "E5"]
+            },
+            {
+              "type": "lyric",
+              "content": "Woo-hoo"
+            },
+            {
+              "type": "chords",
+              "content": ["A5", "B5", "C#5"]
+            },
+            {
+              "type": "lyric",
+              "content": "And I'm pins and I'm needles"
+            },
+            {
+              "type": "chords",
+              "content": ["F#5", "E5"]
+            },
+            {
+              "type": "lyric",
+              "content": "Woo-hoo"
+            },
+            {
+              "type": "chords",
+              "content": ["A5", "B5", "C#5"]
+            },
+            {
+              "type": "lyric",
+              "content": "Well I lie and I'm easy"
+            },
+            {
+              "type": "chords",
+              "content": ["F#5"]
+            },
+            {
+              "type": "lyric",
+              "content": "All of the time but"
+            },
+            {
+              "type": "chords",
+              "content": ["A5", "D5"]
+            },
+            {
+              "type": "lyric",
+              "content": "I'm never sure why I need you"
+            },
+            {
+              "type": "lyric",
+              "content": "Pleased to meet you"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F#5", "E5", "A5", "B5", "C#5"]
+        },
+        {
+          "type": "chords",
+          "content": ["F#5", "E5", "A5", "B5", "C#5"]
+        },
+        {
+          "type": "chords",
+          "content": ["F#5", "E5", "A5", "B5", "C#5"]
+        },
+        {
+          "type": "chords",
+          "content": ["F#5", "E5", "A5", "B5", "C#5", "F#5"]
+        }
+      ]
+    }
+  ]
+}

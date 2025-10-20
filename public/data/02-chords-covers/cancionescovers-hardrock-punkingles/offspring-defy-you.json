@@ -1,0 +1,278 @@
+{
+    "id": "offspring-defy-you",
+    "title": "Defy You",
+    "artist": "The Offspring",
+    "originalKey": "D",
+    "tempo": "Fast",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D", "G", "A", "B", "–", "D", "G", "A", "B", "–", "D", "G", "A", "B", "–", "D", "G", "A", "B"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "You push me around"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "but you cannot win"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "You throw me down"
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "lyric",
+            "content": "but I'll rise again"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "The more you say"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "the more I defy you"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "So get out of my face"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "You cannot stop us"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "you cannot bring us down"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "Never give up"
+              },
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "lyric",
+                "content": "we go on and on"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["D", "G", "A", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "You'll never break us, never bring us down"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "We are alive"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "BIS",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D", "G", "G", "A", "A", "B", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "All my will, All my strength, Rip it out, Start again"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "Can you leave it all behind"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Can you leave it all behind"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "cause you can't go back"
+              },
+              {
+                "type": "chord",
+                "content": "B"
+              },
+              {
+                "type": "lyric",
+                "content": "you can't go back"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D", "G", "A", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "You cannot stop us, you cannot bring us down"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Never give up, we go on and on"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "G", "A", "B"]
+          },
+          {
+            "type": "lyric",
+            "content": "You'll never break us, never bring us down"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "We are alive"
+          }
+        ]
+      }
+    ]
+  }
+  

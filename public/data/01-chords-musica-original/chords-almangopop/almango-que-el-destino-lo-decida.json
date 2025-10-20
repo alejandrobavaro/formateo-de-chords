@@ -1,0 +1,544 @@
+{
+    "id": "almango-que-el-destino-lo-decida",
+    "title": "Que el destino lo decida",
+    "artist": "Almango",
+    "originalKey": "F#",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F#", "C#"]
+          },
+          {
+            "type": "chords",
+            "content": ["F#", "C#"]
+          },
+          {
+            "type": "chords",
+            "content": ["A", "B", "F#"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 1",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "F#"
+          },
+          {
+            "type": "lyric",
+            "content": "A veces siento que todo se cae,"
+          },
+          {
+            "type": "chord",
+            "content": "C#"
+          },
+          {
+            "type": "lyric",
+            "content": "y no lo puedo sostener."
+          },
+          {
+            "type": "chord",
+            "content": "F#"
+          },
+          {
+            "type": "lyric",
+            "content": "Antes tenía una vida sencilla,"
+          },
+          {
+            "type": "chord",
+            "content": "C#"
+          },
+          {
+            "type": "lyric",
+            "content": "hasta que me enamoré de vos."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 2",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "F#"
+          },
+          {
+            "type": "lyric",
+            "content": "A veces giro y es siempre, siempre lo mismo."
+          },
+          {
+            "type": "chord",
+            "content": "C#"
+          },
+          {
+            "type": "lyric",
+            "content": "Esto no va a cambiar."
+          },
+          {
+            "type": "chord",
+            "content": "F#"
+          },
+          {
+            "type": "lyric",
+            "content": "Ay pero nena cuando te miro a los ojos,"
+          },
+          {
+            "type": "chord",
+            "content": "C#"
+          },
+          {
+            "type": "lyric",
+            "content": "me nublo, y quiero que seas feliz."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D#m"
+          },
+          {
+            "type": "lyric",
+            "content": "Uh uh uh! Que terrible amor,"
+          },
+          {
+            "type": "chord",
+            "content": "A#m"
+          },
+          {
+            "type": "lyric",
+            "content": "Uh uh uh! Siempre vuelvo a vos,"
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "lyric",
+            "content": "Uh uh uh! Que el destino lo decida..."
+          },
+          {
+            "type": "chord",
+            "content": "C#"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "F#"
+          },
+          {
+            "type": "lyric",
+            "content": "Con lo que das, igual yo soy,"
+          },
+          {
+            "type": "chord",
+            "content": "A#m"
+          },
+          {
+            "type": "lyric",
+            "content": "soy feliz, feliz."
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "chord",
+            "content": "C#"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chord",
+            "content": "F#"
+          },
+          {
+            "type": "lyric",
+            "content": "Si vas, si voy, si vuelvo, igual yo soy,"
+          },
+          {
+            "type": "chord",
+            "content": "A#m"
+          },
+          {
+            "type": "lyric",
+            "content": "soy feliz, feliz..."
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "chord",
+            "content": "C#"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "lyric",
+            "content": "Y que el destino nena, lo decida..."
+          },
+          {
+            "type": "chord",
+            "content": "F#"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (Repetición)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F#", "C#"]
+          },
+          {
+            "type": "chords",
+            "content": ["F#", "C#"]
+          },
+          {
+            "type": "chords",
+            "content": ["A", "B", "F#"]
+          },
+          {
+            "type": "text",
+            "content": "Que el destino lo decida..."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 3",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "F#"
+          },
+          {
+            "type": "lyric",
+            "content": "A veces quiero salir corriendo,"
+          },
+          {
+            "type": "chord",
+            "content": "C#"
+          },
+          {
+            "type": "lyric",
+            "content": "y no volver nunca más."
+          },
+          {
+            "type": "chord",
+            "content": "F#"
+          },
+          {
+            "type": "lyric",
+            "content": "Pero recuerdo todo lo que vivimos,"
+          },
+          {
+            "type": "chord",
+            "content": "C#"
+          },
+          {
+            "type": "lyric",
+            "content": "y el corazón me hace pensar."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 4",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "F#"
+          },
+          {
+            "type": "lyric",
+            "content": "A veces giro y es siempre, siempre lo mismo."
+          },
+          {
+            "type": "chord",
+            "content": "C#"
+          },
+          {
+            "type": "lyric",
+            "content": "Esto no va a cambiar."
+          },
+          {
+            "type": "chord",
+            "content": "F#"
+          },
+          {
+            "type": "lyric",
+            "content": "Ay pero nena cuando te miro a los ojos,"
+          },
+          {
+            "type": "chord",
+            "content": "C#"
+          },
+          {
+            "type": "lyric",
+            "content": "me nublo, y quiero que seas feliz."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PRE-ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D#m"
+          },
+          {
+            "type": "lyric",
+            "content": "Uh uh uh! Que terrible amor,"
+          },
+          {
+            "type": "chord",
+            "content": "A#m"
+          },
+          {
+            "type": "lyric",
+            "content": "Uh uh uh! Siempre vuelvo a vos,"
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "lyric",
+            "content": "Uh uh uh! Que el destino lo decida..."
+          },
+          {
+            "type": "chord",
+            "content": "C#"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "F#"
+          },
+          {
+            "type": "lyric",
+            "content": "Con lo que das, igual yo soy,"
+          },
+          {
+            "type": "chord",
+            "content": "A#m"
+          },
+          {
+            "type": "lyric",
+            "content": "soy feliz, feliz."
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "chord",
+            "content": "C#"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chord",
+            "content": "F#"
+          },
+          {
+            "type": "lyric",
+            "content": "Si vas, si voy, si vuelvo, igual yo soy,"
+          },
+          {
+            "type": "chord",
+            "content": "A#m"
+          },
+          {
+            "type": "lyric",
+            "content": "soy feliz, feliz..."
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "chord",
+            "content": "C#"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "lyric",
+            "content": "Y que el destino nena, lo decida..."
+          },
+          {
+            "type": "chord",
+            "content": "F#"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "F#"
+          },
+          {
+            "type": "lyric",
+            "content": "Si tengo mi guitarra"
+          },
+          {
+            "type": "chord",
+            "content": "A#m"
+          },
+          {
+            "type": "lyric",
+            "content": "y a vos nena, soy feliz..."
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "chord",
+            "content": "C#"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chord",
+            "content": "F#"
+          },
+          {
+            "type": "lyric",
+            "content": "Espero que este amor,"
+          },
+          {
+            "type": "chord",
+            "content": "A#m"
+          },
+          {
+            "type": "lyric",
+            "content": "nos acompañe para siempre..."
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "chord",
+            "content": "C#"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "lyric",
+            "content": "Y que el destino nena, lo decida..."
+          },
+          {
+            "type": "chord",
+            "content": "F#"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (Repetición)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F#", "C#"]
+          },
+          {
+            "type": "chords",
+            "content": ["F#", "C#"]
+          },
+          {
+            "type": "chords",
+            "content": ["A", "B", "F#"]
+          }
+        ]
+      }
+    ]
+  }
+  

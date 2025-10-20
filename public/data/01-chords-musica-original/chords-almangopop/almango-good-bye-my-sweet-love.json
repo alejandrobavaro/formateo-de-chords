@@ -1,0 +1,445 @@
+{
+    "id": "almango-good-bye-my-sweet-love",
+    "title": "Good bye my sweet love",
+    "artist": "Almango",
+    "originalKey": "Gm",
+    "tempo": "Slow",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Gm", "D#", "A#", "F"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 1",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Gm"
+          },
+          {
+            "type": "lyric",
+            "content": "La luna mostró tus ojos,"
+          },
+          {
+            "type": "chord",
+            "content": "D#"
+          },
+          {
+            "type": "lyric",
+            "content": "reveló pasiones ocultas."
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "lyric",
+            "content": "La tierra gira, gira."
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "Mi vida sigue girando."
+          },
+          {
+            "type": "chord",
+            "content": "Gm"
+          },
+          {
+            "type": "lyric",
+            "content": "En el aire algo dormido,"
+          },
+          {
+            "type": "chord",
+            "content": "D#"
+          },
+          {
+            "type": "lyric",
+            "content": "perdí el amor en tus brazos."
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "lyric",
+            "content": "Y de a golpes, me fue matando,"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "tus labios hoy me hacen daño."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Cm"
+          },
+          {
+            "type": "lyric",
+            "content": "Good bye my sweet, sweet love, yeah"
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "lyric",
+            "content": "I love you but I can't live with you,"
+          },
+          {
+            "type": "chord",
+            "content": "Cm"
+          },
+          {
+            "type": "lyric",
+            "content": "I love you but I can't live with you,"
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "lyric",
+            "content": "I love you but I can't,"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "I love you but I can't, live with you."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 2",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Gm"
+          },
+          {
+            "type": "lyric",
+            "content": "Nena, déjame que sueñe"
+          },
+          {
+            "type": "chord",
+            "content": "D#"
+          },
+          {
+            "type": "lyric",
+            "content": "nuestra última aventura,"
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "lyric",
+            "content": "te invitaré a que vueles,"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "con los ojitos cerrados."
+          },
+          {
+            "type": "chord",
+            "content": "Gm"
+          },
+          {
+            "type": "lyric",
+            "content": "El final está tan cerca"
+          },
+          {
+            "type": "chord",
+            "content": "D#"
+          },
+          {
+            "type": "lyric",
+            "content": "que es nuestra última balada."
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "lyric",
+            "content": "Siento el aire falso,"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "ahogándonos en el fuego."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Cm"
+          },
+          {
+            "type": "lyric",
+            "content": "Good bye my sweet, sweet love, yeah"
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "lyric",
+            "content": "I love you but I can't live with you,"
+          },
+          {
+            "type": "chord",
+            "content": "Cm"
+          },
+          {
+            "type": "lyric",
+            "content": "I love you but I can't live with you,"
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "lyric",
+            "content": "I love you but I can't,"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "I love you but I can't, live with you."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO (x8)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Gm", "D", "D#", "F"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO 1",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Cm"
+          },
+          {
+            "type": "lyric",
+            "content": "Good bye my sweet, sweet love, yeah"
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "lyric",
+            "content": "I love you but I can't live with you,"
+          },
+          {
+            "type": "chord",
+            "content": "Cm"
+          },
+          {
+            "type": "lyric",
+            "content": "I love you but I can't live with you,"
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "lyric",
+            "content": "I love you but I can't,"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "I love you but I can't, live with you."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO 2",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Cm"
+          },
+          {
+            "type": "lyric",
+            "content": "Good bye my sweet, sweet love, yeah"
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "lyric",
+            "content": "I love you but I can't live with you,"
+          },
+          {
+            "type": "chord",
+            "content": "Cm"
+          },
+          {
+            "type": "lyric",
+            "content": "I love you but I can't live with you,"
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "lyric",
+            "content": "I love you but I can't,"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "I love you but I can't, live with you."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL (Sin Banda)",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Cm"
+          },
+          {
+            "type": "lyric",
+            "content": "Good bye my sweet, sweet love,"
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "lyric",
+            "content": "I love you but I can't live with you,"
+          },
+          {
+            "type": "chord",
+            "content": "Cm"
+          },
+          {
+            "type": "lyric",
+            "content": "I love you but I can't live with you,"
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "lyric",
+            "content": "I love you but I can't,"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "I love you but I can't, live with you. Uhhh.."
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,338 @@
+{
+  "id": "roxette-big-love",
+  "title": "Big Love",
+  "artist": "Roxette",
+  "originalKey": "A",
+  "tempo": "Upbeat",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "She's the top, she's got the world on a string."},
+            {"type": "lyric", "content": "She makes me boogie, makes me do anything yea yea."}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["F#m"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "F#m"},
+            {"type": "lyric", "content": "- Hey now, touch the sky,"},
+            {"type": "lyric", "content": "You've got a certain kind of look in your eyes."}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Well, she's a miracle, she's all that I need"},
+            {"type": "lyric", "content": "Like the water and the air that I breathe yea yea."}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["F#m"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "F#m"},
+            {"type": "lyric", "content": "- Hey now, reach the sky,"},
+            {"type": "lyric", "content": "There's a certain kind of look in your smile."}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-CHORUS",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D", "A", "E"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "And I know what love can do."}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "F#m", "E"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Bm"},
+            {"type": "lyric", "content": "Yes I know what hearts can do."}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["B", "E", "C#m", "F#"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "B"},
+            {"type": "lyric", "content": "The big love is taking the wheel,"},
+            {"type": "chord", "content": "E"},
+            {"type": "lyric", "content": "The big love goes head over heels,"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "C#m"},
+            {"type": "lyric", "content": "The big lust, bring it into the small world,"},
+            {"type": "chord", "content": "F#"},
+            {"type": "lyric", "content": "The bigger, the better. Big love,"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["B", "E", "C#m", "F#"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "B"},
+            {"type": "lyric", "content": "Waiting to catch the big one,"},
+            {"type": "chord", "content": "E"},
+            {"type": "lyric", "content": "Head over heels, the big one,"}
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "C#m"},
+            {"type": "lyric", "content": "Bring it into the small world."},
+            {"type": "chord", "content": "F#"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["E", "B", "F#", "E", "F#"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "E"},
+            {"type": "lyric", "content": "I'm building the big big love,"},
+            {"type": "chord", "content": "B"},
+            {"type": "chord", "content": "F#"},
+            {"type": "chord", "content": "E"},
+            {"type": "chord", "content": "F#"},
+            {"type": "lyric", "content": "I'm building the big big love."}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "It's kinda strange, a bit mysterious,"},
+            {"type": "lyric", "content": "I gotta take it oh so so serious."}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["F#m"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "F#m"},
+            {"type": "lyric", "content": "- Hey now, touch the sky,"},
+            {"type": "lyric", "content": "You've got a certain kind of look in your eyes."}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "It used to be so hard, so lonely at night,"},
+            {"type": "lyric", "content": "Well, she's my baby and I'm feeling alright."}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["F#m"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "F#m"},
+            {"type": "lyric", "content": "- Hey now, move the sky,"},
+            {"type": "lyric", "content": "There's a certain kind of look in that smile."}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "When I'm making love with her."},
+            {"type": "lyric", "content": "When I'm making love to her yea."}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BRIDGE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A", "E", "B"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "It has to be a big thing."},
+            {"type": "chord", "content": "E"},
+            {"type": "chord", "content": "B"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["A", "E", "B"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "It's bringing me to my knees."},
+            {"type": "chord", "content": "E"},
+            {"type": "chord", "content": "B"},
+            {"type": "lyric", "content": ""}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["A", "E", "B"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Has to be a big thing,"},
+            {"type": "chord", "content": "E"},
+            {"type": "chord", "content": "B"},
+            {"type": "lyric", "content": "Big thing,"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["A", "E", "F#"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "A"},
+            {"type": "lyric", "content": "Ya know what I'm saying..."},
+            {"type": "chord", "content": "E"},
+            {"type": "chord", "content": "F#"},
+            {"type": "lyric", "content": ""}
+          ]
+        }
+      ]
+    }
+  ]
+}

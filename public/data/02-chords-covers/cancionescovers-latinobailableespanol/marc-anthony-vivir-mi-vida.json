@@ -1,0 +1,530 @@
+{
+  "id": "marc-anthony-vivir-mi-vida",
+  "title": "Vivir Mi Vida",
+  "artist": "Marc Anthony",
+  "originalKey": "F#m",
+  "tempo": "Upbeat (Salsa/Latin pop)",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (INICIAL)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F#m"
+            },
+            {
+              "type": "lyric",
+              "content": "Voy a reír, voy a bailar"
+            },
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Vivir mi vida lalalalá"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "A"
+            },
+            {
+              "type": "lyric",
+              "content": "Voy a reír, voy a gozar"
+            },
+            {
+              "type": "chord",
+              "content": "E"
+            },
+            {
+              "type": "lyric",
+              "content": "Vivir mi vida lalalalá"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F#m"
+            },
+            {
+              "type": "lyric",
+              "content": "Voy a reír (¡eso!) Voy a bailar"
+            },
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Vivir mi vida lalalalá"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "A"
+            },
+            {
+              "type": "lyric",
+              "content": "Voy a reír, voy a gozar"
+            },
+            {
+              "type": "chord",
+              "content": "E"
+            },
+            {
+              "type": "lyric",
+              "content": "Vivir mi vida lalalalá"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": "A veces llega la lluvia"
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "lyric",
+          "content": "Para limpiar las heridas"
+        },
+        {
+          "type": "chord",
+          "content": "F#m"
+        },
+        {
+          "type": "lyric",
+          "content": "A veces solo una gota"
+        },
+        {
+          "type": "chord",
+          "content": "A"
+        },
+        {
+          "type": "lyric",
+          "content": "Puede vencer la sequía"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F#m"
+            },
+            {
+              "type": "lyric",
+              "content": "Y para qué llorar, pa' qué"
+            },
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Si duele una pena, se olvida"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F#m"
+            },
+            {
+              "type": "lyric",
+              "content": "Y para qué sufrir, pa' qué"
+            },
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Si así es la vida, hay que vivirla"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Lalalé"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F#m"
+            },
+            {
+              "type": "lyric",
+              "content": "Voy a reír, voy a bailar"
+            },
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Vivir mi vida lalalalá"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "A"
+            },
+            {
+              "type": "lyric",
+              "content": "Voy a reír, voy a gozar"
+            },
+            {
+              "type": "chord",
+              "content": "E"
+            },
+            {
+              "type": "lyric",
+              "content": "Vivir mi vida lalalalá"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["D", "A", "E"]
+        },
+        {
+          "type": "chords",
+          "content": ["F#m", "D", "A", "E"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA PARTE",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "F#m"
+        },
+        {
+          "type": "lyric",
+          "content": "Voy a vivir el momento"
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": "Para entender el destino"
+        },
+        {
+          "type": "chord",
+          "content": "F#m"
+        },
+        {
+          "type": "lyric",
+          "content": "Voy a escuchar en silencio"
+        },
+        {
+          "type": "chord",
+          "content": "D"
+        },
+        {
+          "type": "lyric",
+          "content": "Para encontrar el camino"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F#m"
+            },
+            {
+              "type": "lyric",
+              "content": "Y para qué llorar, pa' qué"
+            },
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Si duele una pena, se olvida"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F#m"
+            },
+            {
+              "type": "lyric",
+              "content": "Y para qué sufrir, pa' qué"
+            },
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Si duele una pena, se olvida"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Lalalé"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F#m"
+            },
+            {
+              "type": "lyric",
+              "content": "Voy a reír, voy a bailar"
+            },
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Pa' qué llorar, pa' qué sufrir"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "text",
+              "content": "Empieza a soñar, a reír"
+            },
+            {
+              "type": "chord",
+              "content": "F#m"
+            },
+            {
+              "type": "lyric",
+              "content": "Voy a reír, voy a bailar"
+            },
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Siente y baila y goza"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "A"
+            },
+            {
+              "type": "lyric",
+              "content": "Que la vida es una sola"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F#m"
+            },
+            {
+              "type": "lyric",
+              "content": "Vive, sigue"
+            },
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Siempre pa'lante"
+            },
+            {
+              "type": "chord",
+              "content": "A"
+            },
+            {
+              "type": "lyric",
+              "content": "No mires pa'trás"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["F#m", "D", "A", "E"]
+        },
+        {
+          "type": "chords",
+          "content": ["F#m", "D", "A", "E"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "F#m"
+            },
+            {
+              "type": "lyric",
+              "content": "Voy a reír, voy a bailar"
+            },
+            {
+              "type": "chord",
+              "content": "D"
+            },
+            {
+              "type": "lyric",
+              "content": "Vivir mi vida lalalalá"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "A"
+            },
+            {
+              "type": "lyric",
+              "content": "Voy a reír, voy a gozar"
+            },
+            {
+              "type": "chord",
+              "content": "E"
+            },
+            {
+              "type": "lyric",
+              "content": "Vivir mi vida lalalalá"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

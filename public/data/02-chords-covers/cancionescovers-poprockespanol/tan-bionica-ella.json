@@ -1,0 +1,543 @@
+{
+    "id": "tan-bionica-ella",
+    "title": "Ella",
+    "artist": "Tan Biónica",
+    "originalKey": "G",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "D", "F#", "Bm"]
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D", "A", "Bm"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "lyric",
+            "content": "Después de 24 meses, sin dormir"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "sostiene su endereza con gotitas de marfil."
+          },
+          {
+            "type": "chord",
+            "content": "F#"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "lyric",
+            "content": "Me tira una mirada que no puedo resistir"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "se aleja con un Jony que la ayuda a revivir."
+          },
+          {
+            "type": "chord",
+            "content": "F#"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "lyric",
+            "content": "Despliega movimientos energéticos,"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "frenéticos, eléctricos."
+          },
+          {
+            "type": "chord",
+            "content": "F#"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Ella tiene un look,"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "tiene un look"
+              },
+              {
+                "type": "chord",
+                "content": "F#"
+              },
+              {
+                "type": "chord",
+                "content": "Bm"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Ella dibuja mi destino con rouge."
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "chord",
+                "content": "Bm"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Ella tiene swing,"
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "tiene swing."
+              },
+              {
+                "type": "chord",
+                "content": "F#"
+              },
+              {
+                "type": "chord",
+                "content": "Bm"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Tiene todo lo que necesita de mí."
+              },
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "chord",
+                "content": "Bm"
+              },
+              {
+                "type": "chord",
+                "content": "A"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PUENTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "D", "A", "Bm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y está saliendo el sol, para vos."
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D", "F#", "Bm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y está bailando mi corazón."
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D", "A", "Bm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y estás tratando de sentirte mejor."
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D", "F#", "Bm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y está bailando mi corazón."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETIR)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "D", "F#", "Bm"]
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D", "A", "Bm"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "lyric",
+            "content": "Princesa, de la noche heredera de Caín."
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Duplica en ese espejo"
+          },
+          {
+            "type": "chord",
+            "content": "F#"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Bm"
+          },
+          {
+            "type": "lyric",
+            "content": "Y come bombos electrónicos,"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "psicóticos, agónicos."
+          },
+          {
+            "type": "chord",
+            "content": "F#"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETIR)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "D", "F#", "Bm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Ella tiene un look, tiene un look"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D", "A", "Bm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Ella dibuja mi destino con rouge."
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D", "F#", "Bm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Ella tiene swing, tiene swing."
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D", "A", "Bm", "A"]
+          },
+          {
+            "type": "lyric",
+            "content": "Tiene todo lo que necesita de mí."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PUENTE (REPETIR)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "D", "A", "Bm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y está saliendo el sol, Oh Oh."
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D", "F#", "Bm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y está bailando mi corazón."
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D", "A", "Bm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y estás tratando de sentirte mejor."
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D", "F#", "Bm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y está bailando mi corazón."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "CIERRE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "D", "A", "Bm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Pensá que hay noches nena, que soy como vos."
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D", "F#", "Bm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y está bailando mi corazón."
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D", "A", "Bm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y estás tratando de sentirte mejor."
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D", "F#", "Bm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y está bailando mi corazón."
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D", "A", "Bm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y está saliendo el sol, Oh Oh."
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D", "F#", "Bm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y está bailando mi corazón."
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D", "A", "Bm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y estás tratando de sentirte mejor."
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D", "F#", "Bm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y está bailando mi corazón."
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D", "A", "Bm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y está saliendo el sol, Oh Oh."
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D", "F#", "Bm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y está bailando mi corazón."
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D", "A", "Bm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y estás tratando de sentirte mejor."
+          },
+          {
+            "type": "chords",
+            "content": ["G", "D", "F#", "Bm"]
+          },
+          {
+            "type": "lyric",
+            "content": "Y está bailando mi corazón."
+          }
+        ]
+      }
+    ]
+  }
+  

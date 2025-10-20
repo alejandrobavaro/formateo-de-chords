@@ -1,0 +1,722 @@
+{
+    "id": "almango-si-tu-sonries",
+    "title": "Si tú sonríes",
+    "artist": "Almango",
+    "originalKey": "Am",
+    "tempo": "Upbeat",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO 1",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "Vine a curarte corazón, baila conmigo pa' olvidar,"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "Dile al pasado, ¡cha-cha chau! ¡¡Vamos a bailar!!"
+          },
+          {
+            "type": "chords",
+            "content": ["E", "G", "Am", "C", "Am"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO 2 (con SINTE)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "G", "Am"]
+          },
+          {
+            "type": "chords",
+            "content": ["E", "G", "Am", "C", "Am"]
+          },
+          {
+            "type": "text",
+            "content": "¡Vamos a bailar!"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 1",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "Hoy tu vida es una fiesta,"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "porque estás vivo, porque estás sano,"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "tienes amigos, tienes cariño."
+          },
+          {
+            "type": "chords",
+            "content": ["E", "F"]
+          },
+          {
+            "type": "chords",
+            "content": ["E", "F"]
+          },
+          {
+            "type": "lyric",
+            "content": "Solo sonríe y disfruta."
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "Hoy tu vida es una fiesta,"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "tienes abrigo, tienes mi abrazo,"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "tienes de todo, hasta mascota,"
+          },
+          {
+            "type": "chords",
+            "content": ["E", "F"]
+          },
+          {
+            "type": "chords",
+            "content": ["E", "F"]
+          },
+          {
+            "type": "lyric",
+            "content": "ya olvida y disfruta."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Dale que el dolor bailando se va,"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "dale que todo lo bueno vendrá,"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "Sacude el boom boom,"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "sacude el boom boom,"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "sacude, sacude, sacude el boom boom,"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "sacude el boom boom, ¡sacude el bombo!!!"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO 2 (con SINTE)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "G", "Am"]
+          },
+          {
+            "type": "chords",
+            "content": ["E", "G", "Am", "C", "Am"]
+          },
+          {
+            "type": "text",
+            "content": "¡Vamos a bailar!"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 2",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "Hoy tu vida es una fiesta,"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "si tú sonríes, la vida es bella,"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "las cosas buenas vienen solitas,"
+          },
+          {
+            "type": "chords",
+            "content": ["E", "F"]
+          },
+          {
+            "type": "chords",
+            "content": ["E", "F"]
+          },
+          {
+            "type": "lyric",
+            "content": "solo sonríe y disfruta."
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "Hoy tu vida es una fiesta,"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "no olvides nunca, tú eres bella,"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "tú eres todo lo que tú sueñes,"
+          },
+          {
+            "type": "chords",
+            "content": ["E", "F"]
+          },
+          {
+            "type": "chords",
+            "content": ["E", "F"]
+          },
+          {
+            "type": "lyric",
+            "content": "ya olvida y disfruta."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Dale que el dolor bailando se va,"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "dale que todo lo bueno vendrá,"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "Sacude el boom boom,"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "sacude el boom boom,"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "sacude, sacude, sacude el boom boom,"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "sacude el boom boom, ¡sacude el bombo!!!"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO 1 (Repetición)",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "Vine a curarte corazón, baila conmigo pa' olvidar,"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "Dile al pasado, ¡cha-cha chau! ¡¡Vamos a bailar!!"
+          },
+          {
+            "type": "chords",
+            "content": ["E", "G", "Am", "C", "Am"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO VIOLA (x2)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "G", "F", "E", "F"]
+          },
+          {
+            "type": "chords",
+            "content": ["Am", "G", "F", "E", "G", "Am", "C", "G"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (Solo Vocales)",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Dale que el dolor bailando se va,"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "dale que todo lo bueno vendrá,"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "REPETICIÓN ESTRIBILLO (Solo Vocales)",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Dale que el dolor bailando se va,"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "dale que todo lo bueno vendrá,"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (Con Banda)",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "Sacude el boom boom,"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric",
+            "content": "sacude el boom boom,"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "sacude, sacude, sacude el boom boom,"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "sacude el boom boom, ¡sacude el bombo!!!"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "CORTE",
+        "lines": [
+          {
+            "type": "text",
+            "content": "(Corte)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL (x2)",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "Porque... Tú tienes un ángel en tu sonrisa,"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "que me hace bien y me hace bailar."
+          },
+          {
+            "type": "chords",
+            "content": ["E", "G", "Am", "C", "Am"]
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "Tú tienes un ángel (un ángel), que brilla (que brilla)"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "y con ritmo alegre brilla más. Uh! Uh! Uh! Uh!"
+          },
+          {
+            "type": "chords",
+            "content": ["E", "G", "Am", "C", "Am"]
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "Sacude el boom boom, (Oh Yeah!)"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "sacude el boom boom (Boom boomboomboom boom)"
+          },
+          {
+            "type": "chords",
+            "content": ["E", "G", "Am", "C", "Am"]
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "Sacude el boom boom, (Oh Baby, oh Yeah!)"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": ""
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "sacude el boom boom."
+          },
+          {
+            "type": "chords",
+            "content": ["E", "G", "Am", "C", "Am"]
+          },
+          {
+            "type": "text",
+            "content": "Si tú sonríes siempre hay fiesta!"
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,484 @@
+{
+    "id": "oasis-supersonic",
+    "title": "Supersonic",
+    "artist": "Oasis",
+    "originalKey": "Em",
+    "tempo": "Fast",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO/ESTROFA 1",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em7", "G", "A7(4)"]
+          },
+          {
+            "type": "lyric",
+            "content": "I need to be myself"
+          },
+          {
+            "type": "chords",
+            "content": ["Em7", "G", "A7(4)"]
+          },
+          {
+            "type": "lyric",
+            "content": "I can't be no one else"
+          },
+          {
+            "type": "chords",
+            "content": ["Em7"]
+          },
+          {
+            "type": "lyric",
+            "content": "I'm feeling supersonic"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "A7(4)"]
+          },
+          {
+            "type": "lyric",
+            "content": "Give me gin and tonic"
+          },
+          {
+            "type": "chords",
+            "content": ["Em7"]
+          },
+          {
+            "type": "lyric",
+            "content": "You can have it all, but"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "A7(4)"]
+          },
+          {
+            "type": "lyric",
+            "content": "How much do you want it?"
+          },
+          {
+            "type": "chords",
+            "content": ["Em7", "G", "A7(4)"]
+          },
+          {
+            "type": "lyric",
+            "content": "You make me laugh"
+          },
+          {
+            "type": "chords",
+            "content": ["Em7", "G", "A7(4)"]
+          },
+          {
+            "type": "lyric",
+            "content": "Give me your autograph"
+          },
+          {
+            "type": "chords",
+            "content": ["Em7"]
+          },
+          {
+            "type": "lyric",
+            "content": "Can I ride with you"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "A7(4)"]
+          },
+          {
+            "type": "lyric",
+            "content": "In your B.M.W?"
+          },
+          {
+            "type": "chords",
+            "content": ["Em7"]
+          },
+          {
+            "type": "lyric",
+            "content": "You can sail with me"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "A7(4)"]
+          },
+          {
+            "type": "lyric",
+            "content": "In my yellow submarine"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PUENTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "You need to find out"
+          },
+          {
+            "type": "lyric",
+            "content": "'Cause no one's gonna tell you what I'm on about"
+          },
+          {
+            "type": "chords",
+            "content": ["Em"]
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "You need to find a way for what you wanna say"
+          },
+          {
+            "type": "chords",
+            "content": ["B7"]
+          },
+          {
+            "type": "lyric",
+            "content": "But before tomorrow"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "'Cause my friend said he'd take you home"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "He sits in a corner all alone"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "He lives under a waterfall"
+              },
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "lyric",
+                "content": "Nobody can see him"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["C", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Nobody can ever hear him call"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "Nobody can ever hear him call"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INSTRUMENTAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D", "Em"]
+          },
+          {
+            "type": "chords",
+            "content": ["C", "G", "D", "Em"]
+          },
+          {
+            "type": "chords",
+            "content": ["C", "G", "D", "Em"]
+          },
+          {
+            "type": "chords",
+            "content": ["D", "B7"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em7", "G", "A7(4)"]
+          },
+          {
+            "type": "lyric",
+            "content": "You need to be yourself"
+          },
+          {
+            "type": "chords",
+            "content": ["Em7", "G", "A7(4)"]
+          },
+          {
+            "type": "lyric",
+            "content": "You can't be no one else"
+          },
+          {
+            "type": "chords",
+            "content": ["Em7"]
+          },
+          {
+            "type": "lyric",
+            "content": "I know a girl called Elsa"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "A7(4)"]
+          },
+          {
+            "type": "lyric",
+            "content": "She's into Alka-Seltzer"
+          },
+          {
+            "type": "chords",
+            "content": ["Em7"]
+          },
+          {
+            "type": "lyric",
+            "content": "She sniffs it through a cane"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "A7(4)"]
+          },
+          {
+            "type": "lyric",
+            "content": "On a supersonic train"
+          },
+          {
+            "type": "chords",
+            "content": ["Em7", "G", "A7(4)"]
+          },
+          {
+            "type": "lyric",
+            "content": "And she makes me laugh"
+          },
+          {
+            "type": "chords",
+            "content": ["Em7", "G", "A7(4)"]
+          },
+          {
+            "type": "lyric",
+            "content": "I got her autograph"
+          },
+          {
+            "type": "chords",
+            "content": ["Em7"]
+          },
+          {
+            "type": "lyric",
+            "content": "She done it with the doctor"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "A7(4)"]
+          },
+          {
+            "type": "lyric",
+            "content": "On a helicopter"
+          },
+          {
+            "type": "chords",
+            "content": ["Em7"]
+          },
+          {
+            "type": "lyric",
+            "content": "She's sniffing in a tissue"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "A7(4)"]
+          },
+          {
+            "type": "lyric",
+            "content": "Selling The Big Issue"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PUENTE (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "And when she finds out"
+          },
+          {
+            "type": "chords",
+            "content": ["Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "No one's gonna tell her what I'm on about"
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "You need to find a way"
+          },
+          {
+            "type": "chords",
+            "content": ["B7"]
+          },
+          {
+            "type": "lyric",
+            "content": "For what you wanna say"
+          },
+          {
+            "type": "lyric",
+            "content": "But before tomorrow"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "'Cause my friend said he'd take you home"
+              },
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "He sits in a corner all alone"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "D"
+              },
+              {
+                "type": "lyric",
+                "content": "He lives under a waterfall"
+              },
+              {
+                "type": "chord",
+                "content": "Em"
+              },
+              {
+                "type": "lyric",
+                "content": "Nobody can see him"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["C", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Nobody can ever hear him call"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "Em"]
+          },
+          {
+            "type": "lyric",
+            "content": "Nobody can ever hear him call"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "G", "D", "Em"]
+          }
+        ]
+      }
+    ]
+  }
+  

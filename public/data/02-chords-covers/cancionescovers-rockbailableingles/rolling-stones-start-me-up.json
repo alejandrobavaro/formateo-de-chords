@@ -1,0 +1,450 @@
+{
+  "id": "the-rolling-stones-start-me-up",
+  "title": "Start Me Up",
+  "artist": "The Rolling Stones",
+  "originalKey": "C",
+  "tempo": "Upbeat",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRODUCCIÓN",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "F"]
+        },
+        {
+          "type": "chords",
+          "content": ["C", "F"]
+        },
+        {
+          "type": "chords",
+          "content": ["C", "F", "G", "Bb"]
+        },
+        {
+          "type": "chords",
+          "content": ["C", "F"]
+        },
+        {
+          "type": "chords",
+          "content": ["C", "F"]
+        },
+        {
+          "type": "chords",
+          "content": ["C", "F", "G", "Bb", "Eb", "Bb", "C"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "F", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "If you start me up"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "C", "F", "Bb"]
+        },
+        {
+          "type": "lyric",
+          "content": "If you start me up I'll never stop"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "F", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "You can start me up"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "C", "F", "Bb"]
+        },
+        {
+          "type": "lyric",
+          "content": "You can start me up I'll never stop"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "F", "C", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "I've been running hot"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "F", "Bb"]
+        },
+        {
+          "type": "lyric",
+          "content": "You got me just about to blow my top"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "F", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "You can start me up"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "Bb"]
+        },
+        {
+          "type": "lyric",
+          "content": "You can start me up"
+        },
+        {
+          "type": "chords",
+          "content": ["Bb"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'll never stop, never stop, never stop"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "You make a grown man cry"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "F", "Eb", "Bb", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "You make a grown man cry"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "F", "Eb", "Bb", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "You make a grown man cry"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "F", "C", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Spread out the oil, the gasoline"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "I walk smooth ride in a mean"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Mean machine"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "F", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "You can start me up"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "Bb"]
+        },
+        {
+          "type": "lyric",
+          "content": "Kick on the starter"
+        },
+        {
+          "type": "chords",
+          "content": ["Bb"]
+        },
+        {
+          "type": "lyric",
+          "content": "Give it all you've got (you got, you got)"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "I can't compete"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "F", "Bb"]
+        },
+        {
+          "type": "lyric",
+          "content": "With the riders in the other heats"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "F", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "If you rough it up"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "Bb"]
+        },
+        {
+          "type": "lyric",
+          "content": "If you like it you can slide it up"
+        },
+        {
+          "type": "chords",
+          "content": ["Bb"]
+        },
+        {
+          "type": "lyric",
+          "content": "Slide it up, Slide it up, slide it up"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Don't make a grown man cry"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "F", "Eb", "Bb", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Don't make a grown man cry"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "F", "Eb", "Bb", "Eb", "Bb"]
+        },
+        {
+          "type": "lyric",
+          "content": "Don't make a grown man cry"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PUENTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "F", "C", "F"]
+        },
+        {
+          "type": "chords",
+          "content": ["C", "F"]
+        },
+        {
+          "type": "chords",
+          "content": ["C", "F", "G", "Bb"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "F", "C", "F", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Start me up, Ah, you've got to"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "Bb"]
+        },
+        {
+          "type": "lyric",
+          "content": "You've got to, Never, never, never stop"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "F", "C", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Start it up, Ah"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "F", "Bb"]
+        },
+        {
+          "type": "lyric",
+          "content": "Start it up, never, never, never"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "You make a grown man cry"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "F", "Eb", "Bb", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "You make a grown man cry"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "F", "Eb", "Bb"]
+        },
+        {
+          "type": "lyric",
+          "content": "You make a grown man cry"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "F", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Ride like the wind, at double speed"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'll take you places that you've never"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Never seen"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "F", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "If you start it up"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "C", "F", "Bb"]
+        },
+        {
+          "type": "lyric",
+          "content": "Love the day when we will never stop"
+        },
+        {
+          "type": "chords",
+          "content": ["Bb"]
+        },
+        {
+          "type": "lyric",
+          "content": "Never stop, never, never, never stop"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "F", "C", "F", "C", "F", "Bb"]
+        },
+        {
+          "type": "lyric",
+          "content": "Tough me up Never stop, never stop"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "F"]
+        },
+        {
+          "type": "lyric",
+          "content": "You, you, you make a grown man cry"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "F", "C", "F", "C", "F", "Bb", "D", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "You, you make a dead man come"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "F", "C", "F", "C", "F", "Bb"]
+        },
+        {
+          "type": "lyric",
+          "content": "You, you, you make a dead man come"
+        }
+      ]
+    }
+  ]
+}
