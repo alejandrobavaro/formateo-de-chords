@@ -1,0 +1,314 @@
+// src/assets/scss/_03-Componentes/ChordsViewer/Formats/_PrintViewer.scss
+
+.print-viewer {
+  background: white;
+  width: 210mm;
+  min-height: 297mm;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  font-family: Arial, sans-serif !important;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  color: #000000;
+  
+  /* Contorno A4 */
+  &.a4-outline {
+    outline: 1px dashed #2c3e50;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+
+  /* Estados */
+  &.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    
+    .loading-message {
+      font-size: 16px;
+      color: #666;
+      font-style: italic;
+    }
+  }
+
+  /* Header impresión */
+  .print-header {
+    text-align: center;
+    padding: 2mm 0;
+    border-bottom: 1px solid #000;
+    height: 6mm;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    
+    .song-title-print {
+      margin: 0;
+      font-weight: 700;
+      color: #000;
+      font-size: 14px !important;
+      
+      .tono-destacado {
+        color: #ff3366;
+        font-weight: 800;
+      }
+    }
+
+    .print-metadata {
+      display: flex;
+      justify-content: center;
+      gap: 4mm;
+      margin-top: 1mm;
+      font-size: 10px;
+      
+      .metadata-item {
+        color: #666;
+        font-weight: 600;
+        background: #f0f0f0;
+        padding: 1px 4px;
+        border-radius: 2px;
+      }
+    }
+  }
+
+  /* Visor de acordes */
+  .chords-viewer {
+    padding: 0;
+    font-family: Arial, sans-serif !important;
+    line-height: 1.1;
+    margin: 0;
+    height: calc(297mm - 6mm);
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+
+  /* Columnas OPTIMIZADAS - 2 COLUMNAS SIEMPRE */
+  .print-columns {
+    display: grid;
+    margin: 0;
+    padding: 0 1.5mm;
+    height: 100%;
+    box-sizing: border-box;
+
+    /* 2 columnas para impresión A4 */
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5mm;
+    padding: 0 1.5mm;
+  }
+
+  .print-column {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2mm;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    height: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+
+  /* --- Títulos sección --- */
+  .section-header {
+    width: 100%;
+    text-align: left;
+    margin: 1mm 0 0.5mm 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .section-title {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 0;
+    padding: 0.3mm 0.8mm;
+    display: inline-block;
+    background-color: #f0f0f0;
+    border-radius: 0.8mm;
+    font-size: 12px !important;
+  }
+
+  /* --- Bloques de voz --- */
+  .voice-section {
+    width: 100%;
+    padding: 0;
+    margin: 0.8mm 0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    
+    /* Voz Ale - Rosado */
+    &.voice-ale {
+      background-color: #ffe6e6 !important;
+      border-left: 2px solid #ff4444;
+    }
+    
+    /* Voz Pato - Verde */
+    &.voice-pato {
+      background-color: #e6ffe6 !important;
+      border-left: 2px solid #44ff44;
+    }
+  }
+
+  /* --- Etiqueta voz --- */
+  .voice-label-horizontal {
+    width: 100%;
+    text-align: left;
+    padding: 0;
+    margin: 0 0 0.3mm 0;
+    box-sizing: border-box;
+    
+    .voice-name {
+      font-weight: 700;
+      color: #2c3e50;
+      background-color: #f0f8ff;
+      border-radius: 0.4mm;
+      padding: 0 0.8mm;
+      display: inline-block;
+      font-size: 11px !important;
+    }
+  }
+
+  .voice-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1mm;
+    flex-grow: 1;
+    min-width: 0;
+    box-sizing: border-box;
+    padding: 0;
+  }
+
+  /* --- Líneas canción --- */
+  .song-line {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.1mm;
+    margin: 0;
+    min-height: auto;
+    line-height: 1.1;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+  }
+
+  .song-line-combined {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.1mm;
+    margin: 0;
+    min-height: auto;
+    line-height: 1.1;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+  }
+
+  /* --- Acordes --- */
+  .chords-line {
+    display: flex;
+    gap: 0.8mm;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .chord {
+    font-weight: 700;
+    color: #0000ff !important;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    font-size: 11px !important;
+  }
+
+  /* --- Letras --- */
+  .lyrics-line {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.1;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 12px !important;
+  }
+
+  /* --- Texto secundario --- */
+  .text-line {
+    font-style: italic;
+    color: #666;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 11px !important;
+  }
+
+  /* --- Divisores --- */
+  .section-divider {
+    height: 0.2mm;
+    background-color: #ccc;
+    margin: 0.8mm 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  /* Footer impresión */
+  .print-footer {
+    margin-top: 8px;
+    padding-top: 6px;
+    border-top: 1px solid #e0e0e0;
+    font-size: 10px;
+    color: #666;
+    text-align: center;
+    
+    .print-optimization-info {
+      font-weight: 600;
+      background: #f0f0f0;
+      padding: 3px 6px;
+      border-radius: 2px;
+      display: inline-block;
+    }
+  }
+}
+
+/* --- Impresión MEJORADA --- */
+@media print {
+  @page {
+    margin: 0 !important;
+    padding: 0 !important;
+    size: A4;
+  }
+  
+  .print-viewer {
+    width: 210mm !important;
+    height: auto !important;
+    min-height: 297mm !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+  }
+  
+  /* Colores impresión */
+  .voice-section,
+  .voice-label-horizontal .voice-name,
+  .chord,
+  .tono-destacado {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+}

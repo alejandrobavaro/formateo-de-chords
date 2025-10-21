@@ -1,7 +1,4 @@
-// ======================================================
-// CONTROLES COMPACTOS - COMPONENTE OPTIMIZADO
-// ======================================================
-
+// src/componentes/ChordsViewer/Controls.jsx
 import React from "react";
 import { 
   BsPrinter, 
@@ -12,6 +9,7 @@ import {
   BsPlus,
   BsAspectRatio
 } from "react-icons/bs";
+import "../../assets/scss/_03-Componentes/ChordsViewer/_Controls.scss";
 
 const Controls = ({
   transposition,

@@ -1,8 +1,4 @@
-// ======================================================
-// VISUALIZADOR DE ACORDES - COMPONENTE CORREGIDO
-// ======================================================
-
-// 📦 IMPORTACIONES DE REACT Y DEPENDENCIAS
+// src/componentes/ChordsViewer/ChordsViewerIndex.jsx
 import React, { useState, useEffect, useRef } from 'react';
 import { useLocation } from 'react-router-dom';
 import { BsArrowsFullscreen, BsFullscreenExit, BsMusicNoteBeamed } from "react-icons/bs";
@@ -10,12 +6,9 @@ import SongViewer from './SongViewer';
 import Controls from './Controls';
 import "../../assets/scss/_03-Componentes/ChordsViewer/_ChordsViewerIndex.scss";
 
-// ======================================================
-// BIBLIOTECAS DE CANCIONES DISPONIBLES - RUTAS CORREGIDAS
-// ======================================================
-// RUTAS CORREGIDAS - USANDO LAS MISMAS RUTAS QUE LA BIBLIOTECA
+// BIBLIOTECAS DE CANCIONES DISPONIBLES
 const SONG_LIBRARIES = [
-  // MÚSICA ORIGINAL - RUTAS CORREGIDAS
+  // MÚSICA ORIGINAL
   { 
     id: 'alegondra', 
     name: 'Ale Gondra', 
@@ -29,7 +22,7 @@ const SONG_LIBRARIES = [
     basePath: '/data/01-chords-musica-original/chords-almangopop/' 
   },
   
-  // SHOWS ESPECÍFICOS - RUTAS CORREGIDAS
+  // SHOWS ESPECÍFICOS
   { 
     id: 'casamiento', 
     name: 'Casamiento', 
@@ -37,7 +30,7 @@ const SONG_LIBRARIES = [
     basePath: '/data/03-chords-de-shows-por-listados/chords-show-casamiento-ale-fabi/' 
   },
   
-  // COVERS ORGANIZADOS POR GÉNERO - RUTAS CORREGIDAS
+  // COVERS ORGANIZADOS POR GÉNERO
   { 
     id: 'covers-baladasespanol', 
     name: 'Baladas Español', 
@@ -112,9 +105,6 @@ const SONG_LIBRARIES = [
   }
 ];
 
-// ======================================================
-// COMPONENTE PRINCIPAL DEL VISUALIZADOR DE ACORDES
-// ======================================================
 const ChordsViewerIndex = () => {
   // ESTADOS DEL COMPONENTE
   const [selectedSong, setSelectedSong] = useState(null);
@@ -131,9 +121,7 @@ const ChordsViewerIndex = () => {
   const containerRef = useRef(null);
   const printViewRef = useRef(null);
 
-  // ======================================================
-  // FUNCIÓN PARA CARGAR ARCHIVOS JSON - MEJORADA
-  // ======================================================
+  // FUNCIÓN PARA CARGAR ARCHIVOS JSON
   const fetchJsonFile = async (path) => {
     try {
       console.log(`📥 Intentando cargar: ${path}`);
@@ -163,9 +151,7 @@ const ChordsViewerIndex = () => {
     }
   };
 
-  // ======================================================
-  // FUNCIÓN PARA CARGAR UNA CANCIÓN INDIVIDUAL - MEJORADA
-  // ======================================================
+  // FUNCIÓN PARA CARGAR UNA CANCIÓN INDIVIDUAL
   const loadIndividualSong = async (song, basePath, libraryId) => {
     try {
       setLoading(true);
@@ -206,52 +192,7 @@ const ChordsViewerIndex = () => {
     }
   };
 
-  // ======================================================
-  // FUNCIÓN PARA OBTENER METADATOS DE LA CANCIÓN
-  // ======================================================
-  const getSongMetadata = () => {
-    if (!songDetails) return null;
-    
-    return {
-      originalKey: songDetails.originalKey || selectedSong?.key || 'N/A',
-      tempo: songDetails.tempo || 'N/A',
-      timeSignature: songDetails.timeSignature || 'N/A',
-      genre: songDetails.genre || 'N/A',
-      duration: songDetails.duration || 'N/A'
-    };
-  };
-
-  // ======================================================
-  // FUNCIÓN PARA ACTIVAR/DESACTIVAR PANTALLA COMPLETA
-  // ======================================================
-  const toggleFullscreen = () => {
-    if (!document.fullscreenElement) {
-      containerRef.current?.requestFullscreen().catch(err => console.error(err));
-      setFullscreenMode(true);
-    } else {
-      document.exitFullscreen();
-      setFullscreenMode(false);
-    }
-  };
-
-  // ======================================================
-  // FUNCIONES DE EXPORTACIÓN (POR IMPLEMENTAR)
-  // ======================================================
-  const handleExportPDF = async () => {
-    console.log('Exportar PDF - Función por implementar');
-  };
-
-  const handleExportJPG = async () => {
-    console.log('Exportar JPG - Función por implementar');
-  };
-
-  const handlePrint = () => {
-    window.print();
-  };
-
-  // ======================================================
-  // EFECTO PARA CARGAR CANCIÓN DESDE LOS PARÁMETROS DE LA URL - MEJORADO
-  // ======================================================
+  // EFECTO PARA CARGAR CANCIÓN DESDE LOS PARÁMETROS DE LA URL
   useEffect(() => {
     const loadSongFromURL = async () => {
       try {
@@ -312,9 +253,44 @@ const ChordsViewerIndex = () => {
     loadSongFromURL();
   }, [location.search]);
 
-  // ======================================================
+  // FUNCIÓN PARA OBTENER METADATOS DE LA CANCIÓN
+  const getSongMetadata = () => {
+    if (!songDetails) return null;
+    
+    return {
+      originalKey: songDetails.originalKey || selectedSong?.key || 'N/A',
+      tempo: songDetails.tempo || 'N/A',
+      timeSignature: songDetails.timeSignature || 'N/A',
+      genre: songDetails.genre || 'N/A',
+      duration: songDetails.duration || 'N/A'
+    };
+  };
+
+  // FUNCIÓN PARA ACTIVAR/DESACTIVAR PANTALLA COMPLETA
+  const toggleFullscreen = () => {
+    if (!document.fullscreenElement) {
+      containerRef.current?.requestFullscreen().catch(err => console.error(err));
+      setFullscreenMode(true);
+    } else {
+      document.exitFullscreen();
+      setFullscreenMode(false);
+    }
+  };
+
+  // FUNCIONES DE EXPORTACIÓN
+  const handleExportPDF = async () => {
+    console.log('Exportar PDF - Función por implementar');
+  };
+
+  const handleExportJPG = async () => {
+    console.log('Exportar JPG - Función por implementar');
+  };
+
+  const handlePrint = () => {
+    window.print();
+  };
+
   // ESTADO DE CARGA INICIAL
-  // ======================================================
   if (loading && !selectedSong) {
     return (
       <div className="chords-loading">
@@ -324,9 +300,7 @@ const ChordsViewerIndex = () => {
     );
   }
   
-  // ======================================================
   // MANEJO DE ERRORES
-  // ======================================================
   if (error) {
     return (
       <div className="chords-error">
@@ -339,14 +313,9 @@ const ChordsViewerIndex = () => {
     );
   }
 
-  // ======================================================
   // OBTENER METADATOS PARA MOSTRAR
-  // ======================================================
   const metadata = getSongMetadata();
 
-  // ======================================================
-  // RENDERIZADO DEL COMPONENTE
-  // ======================================================
   return (
     <div className="chords-viewer-integrated" ref={containerRef}>
       
@@ -362,7 +331,7 @@ const ChordsViewerIndex = () => {
         <div className="main-header">
           <div className="header-title-section">
             <BsMusicNoteBeamed className="title-icon" />
-            <h1>Visualizador de Acordes</h1>
+            <h1>Visualizador de Acordes Inteligente</h1>
           </div>
         </div>
 
@@ -417,25 +386,13 @@ const ChordsViewerIndex = () => {
 
         {/* ÁREA DE VISUALIZACIÓN DE LA CANCIÓN */}
         <div className="viewer-area">
-          {selectedSong ? (
-            <SongViewer
-              song={selectedSong}
-              transposition={transposition}
-              showA4Outline={showA4Outline}
-              fullscreenMode={fullscreenMode}
-              printViewRef={printViewRef}
-            />
-          ) : (
-            <div className="no-song-message">
-              <div className="welcome-content">
-                <h2>Visualizador de Acordes</h2>
-                <p>Selecciona una canción desde la galería para ver los acordes</p>
-                <div className="instruction-box">
-                  <span>Ve a la biblioteca y haz clic en "Chord" para abrir una canción</span>
-                </div>
-              </div>
-            </div>
-          )}
+          <SongViewer
+            song={selectedSong}
+            transposition={transposition}
+            showA4Outline={showA4Outline}
+            fullscreenMode={fullscreenMode}
+            printViewRef={printViewRef}
+          />
         </div>
 
       </div>
@@ -444,5 +401,4 @@ const ChordsViewerIndex = () => {
   );
 };
 
-// EXPORTACIÓN DEL COMPONENTE PRINCIPAL
 export default ChordsViewerIndex;
