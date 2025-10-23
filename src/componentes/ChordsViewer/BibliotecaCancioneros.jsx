@@ -37,6 +37,7 @@ import "../../assets/scss/_03-Componentes/ChordsViewer/_BibliotecaCancioneros.sc
 // ================================================================
 // 📁 LISTA DE ARCHIVOS JSON CON LAS CANCIONES - RUTAS ACTUALIZADAS
 // ================================================================
+// 📁 LISTA DE ARCHIVOS JSON CON LAS CANCIONES - RUTAS ACTUALIZADAS PARA PUBLIC
 const jsonFiles = [
   // MÚSICA ORIGINAL
   "/listado-chords-alegondramusic.json",
@@ -46,18 +47,18 @@ const jsonFiles = [
   "/listado-chords-casamiento-ale-fabi.json",
   
   // COVERS ORGANIZADOS POR GÉNERO
-  "/data/02-chords-covers/listadocancionescovers-baladasespanol.json",
-  "/data/02-chords-covers/listadocancionescovers-baladasingles.json",
-  "/data/02-chords-covers/listadocancionescovers-poprockespanol.json",
-  "/data/02-chords-covers/listadocancionescovers-poprockingles.json",
-  "/data/02-chords-covers/listadocancionescovers-latinobailableespanol.json",
-  "/data/02-chords-covers/listadocancionescovers-rockbailableespanol.json",
-  "/data/02-chords-covers/listadocancionescovers-rockbailableingles.json",
-  "/data/02-chords-covers/listadocancionescovers-hardrock-punkespanol.json",
-  "/data/02-chords-covers/listadocancionescovers-hardrock-punkingles.json",
-  "/data/02-chords-covers/listadocancionescovers-discoingles.json",
-  "/data/02-chords-covers/listadocancionescovers-reggaeingles.json",
-  "/data/02-chords-covers/listadocancionescovers-festivos-bso.json"
+  "/listadocancionescovers-baladasespanol.json",
+  "/listadocancionescovers-baladasingles.json",
+  "/listadocancionescovers-poprockespanol.json",
+  "/listadocancionescovers-poprockingles.json",
+  "/listadocancionescovers-latinobailableespanol.json",
+  "/listadocancionescovers-rockbailableespanol.json",
+  "/listadocancionescovers-rockbailableingles.json",
+  "/listadocancionescovers-hardrock-punkespanol.json",
+  "/listadocancionescovers-hardrock-punkingles.json",
+  "/listadocancionescovers-discoingles.json",
+  "/listadocancionescovers-reggaeingles.json",
+  "/listadocancionescovers-festivos-bso.json"
 ];
 
 // ================================================================

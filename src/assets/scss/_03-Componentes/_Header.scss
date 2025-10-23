@@ -1,3 +1,4 @@
+// src/assets/scss/_03-Componentes/_Header.scss
 /* =============================================== */
 /* 🎵 HEADER PRINCIPAL - Mobile First */
 /* =============================================== */
@@ -11,6 +12,7 @@
   position: sticky;
   top: 0;
   z-index: 1000;
+  backdrop-filter: blur(10px);
 }
 
 /* --- 📦 CONTENEDOR PRINCIPAL --- */
@@ -62,6 +64,7 @@
 /* --- 🔍 BARRA DE BÚSQUEDA (OCULTA EN MÓVIL) --- */
 .header-search-container {
   display: none;
+  position: relative;
 }
 
 /* --- 📱 NAVEGACIÓN MÓVIL --- */
@@ -177,10 +180,15 @@
     border-radius: 20px;
     padding: 0.4rem 0.8rem;
     transition: border-color 0.2s ease;
-  }
 
-  .header-search-wrapper:focus-within {
-    border-color: #e63946;
+    &.enhanced {
+      background: rgba(255, 255, 255, 0.08);
+      
+      &:focus-within {
+        border-color: #e63946;
+        background: rgba(255, 255, 255, 0.12);
+      }
+    }
   }
 
   .header-search-icon {
@@ -210,13 +218,31 @@
     cursor: pointer;
     padding: 0.2rem;
     border-radius: 50%;
+    transition: color 0.2s ease;
   }
 
   .header-clear-btn:hover {
     color: #e63946;
   }
 
-  /* --- 📋 SUGERENCIAS DE BÚSQUEDA --- */
+  /* --- INDICADOR DE CARGA --- */
+  .search-loading-indicator {
+    position: absolute;
+    right: 35px;
+    top: 50%;
+    transform: translateY(-50%);
+    
+    .loading-spinner {
+      width: 16px;
+      height: 16px;
+      border: 2px solid rgba(255, 255, 255, 0.3);
+      border-top: 2px solid #e63946;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+  }
+
+  /* --- 📋 SUGERENCIAS DE BÚSQUEDA MEJORADAS --- */
   .header-search-suggestions {
     position: absolute;
     top: 100%;
@@ -228,8 +254,14 @@
     margin-top: 0.5rem;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
     z-index: 1001;
-    max-height: 250px;
+    max-height: 350px;
     overflow-y: auto;
+
+    &.enhanced {
+      background: rgba(42, 42, 42, 0.98);
+      backdrop-filter: blur(10px);
+      border: 1px solid #e63946;
+    }
   }
 
   .suggestions-header {
@@ -250,6 +282,7 @@
     cursor: pointer;
     padding: 0.2rem;
     border-radius: 3px;
+    transition: color 0.2s ease;
   }
 
   .close-suggestions-btn:hover {
@@ -267,19 +300,38 @@
     padding: 0.6rem 1rem;
     cursor: pointer;
     transition: background-color 0.2s ease;
+    border-left: 3px solid transparent;
+
+    &:hover {
+      background: rgba(230, 57, 70, 0.1);
+      border-left-color: #e63946;
+    }
+
+    &.recent {
+      background: rgba(255, 215, 0, 0.05);
+      
+      .recent-icon {
+        color: #ffd700;
+        margin-right: 8px;
+        font-size: 0.8rem;
+      }
+    }
+
+    .top-result-icon {
+      color: #ffd700;
+      margin-right: 8px;
+      font-size: 0.8rem;
+    }
   }
 
-  .suggestion-item:hover {
-    background: rgba(230, 57, 70, 0.1);
-  }
-
-  /* 🎵 INFORMACIÓN EN UNA SOLA LÍNEA */
+  /* 🎵 INFORMACIÓN EN UNA SOLA LÍNEA MEJORADA */
   .suggestion-info-single-line {
     display: flex;
     align-items: center;
     gap: 0.3rem;
     flex: 1;
     min-width: 0;
+    flex-wrap: wrap;
   }
 
   .suggestion-artist {
@@ -289,7 +341,7 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    max-width: 40%;
+    max-width: 30%;
   }
 
   .suggestion-separator {
@@ -304,16 +356,54 @@
     overflow: hidden;
     text-overflow: ellipsis;
     flex: 1;
+    min-width: 100px;
+  }
+
+  .suggestion-key {
+    font-size: 0.7rem;
+    background: rgba(255, 209, 102, 0.2);
+    color: #ffd166;
+    padding: 0.1rem 0.4rem;
+    border-radius: 8px;
+    font-weight: 600;
+  }
+
+  .suggestion-library {
+    font-size: 0.7rem;
+    background: rgba(230, 57, 70, 0.2);
+    color: #e63946;
+    padding: 0.1rem 0.4rem;
+    border-radius: 8px;
   }
 
   .suggestion-arrow {
     color: rgba(255, 255, 255, 0.4);
     font-size: 0.8rem;
     margin-left: 0.5rem;
+    transition: color 0.2s ease;
   }
 
   .suggestion-item:hover .suggestion-arrow {
     color: #e63946;
+  }
+
+  /* MENSAJE SIN RESULTADOS */
+  .no-results-message {
+    padding: 1rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+    font-style: italic;
+    font-size: 0.8rem;
+  }
+
+  /* TIPS DE BÚSQUEDA */
+  .search-tips {
+    padding: 0.6rem 1rem;
+    border-top: 1px solid #444;
+    background: rgba(0, 0, 0, 0.2);
+    font-size: 0.7rem;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
   }
 
   /* --- 🧭 NAVEGACIÓN TABLET --- */
@@ -416,5 +506,65 @@
 
   .nav-text-short {
     display: inline;
+  }
+}
+
+/* =============================================== */
+/* 🎠 ANIMACIONES */
+/* =============================================== */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* =============================================== */
+/* 🎨 ESTILOS DE ACCESIBILIDAD */
+/* =============================================== */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  
+  .loading-spinner {
+    animation: none !important;
+  }
+}
+
+/* Focus styles para mejor accesibilidad */
+.header-search-input:focus,
+.nav-link:focus,
+.header-clear-btn:focus,
+.close-suggestions-btn:focus {
+  outline: 2px solid #e63946;
+  outline-offset: 2px;
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .header {
+    background: #000000;
+    border-bottom: 2px solid #e63946;
+  }
+  
+  .header-search-wrapper {
+    border: 2px solid #ffffff;
+  }
+  
+  .suggestion-item:hover {
+    background: #333333;
+    border-left: 3px solid #e63946;
   }
 }

@@ -1,109 +1,14 @@
-// src/componentes/ChordsViewer/ChordsViewerIndex.jsx
+// src/componentes/ChordsViewer/ChordsViewerIndex.jsx - VERSIÓN CORREGIDA
 import React, { useState, useEffect, useRef } from 'react';
-import { useLocation } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { BsArrowsFullscreen, BsFullscreenExit, BsMusicNoteBeamed } from "react-icons/bs";
 import SongViewer from './SongViewer';
 import Controls from './Controls';
+import ListNavigator from './ListNavigator';
+import PrintViewer from './Formats/PrintViewer';
+import { useSearch } from '../SearchContext';
+import { useContentAnalyzer } from './ContentAnalyzer';
 import "../../assets/scss/_03-Componentes/ChordsViewer/_ChordsViewerIndex.scss";
-
-// BIBLIOTECAS DE CANCIONES DISPONIBLES
-const SONG_LIBRARIES = [
-  // MÚSICA ORIGINAL
-  { 
-    id: 'alegondra', 
-    name: 'Ale Gondra', 
-    path: '/listado-chords-alegondramusic.json', 
-    basePath: '/data/01-chords-musica-original/chords-alegondramusic/' 
-  },
-  { 
-    id: 'almangopop', 
-    name: 'Almango Pop', 
-    path: '/listado-chords-almango-pop.json', 
-    basePath: '/data/01-chords-musica-original/chords-almangopop/' 
-  },
-  
-  // SHOWS ESPECÍFICOS
-  { 
-    id: 'casamiento', 
-    name: 'Casamiento', 
-    path: '/listado-chords-casamiento-ale-fabi.json', 
-    basePath: '/data/03-chords-de-shows-por-listados/chords-show-casamiento-ale-fabi/' 
-  },
-  
-  // COVERS ORGANIZADOS POR GÉNERO
-  { 
-    id: 'covers-baladasespanol', 
-    name: 'Baladas Español', 
-    path: '/data/02-chords-covers/listadocancionescovers-baladasespanol.json', 
-    basePath: '/data/02-chords-covers/cancionescovers-baladasespanol/' 
-  },
-  { 
-    id: 'covers-baladasingles', 
-    name: 'Baladas Inglés', 
-    path: '/data/02-chords-covers/listadocancionescovers-baladasingles.json', 
-    basePath: '/data/02-chords-covers/cancionescovers-baladasingles/' 
-  },
-  { 
-    id: 'covers-poprockespanol', 
-    name: 'Pop Rock Español', 
-    path: '/data/02-chords-covers/listadocancionescovers-poprockespanol.json', 
-    basePath: '/data/02-chords-covers/cancionescovers-poprockespanol/' 
-  },
-  { 
-    id: 'covers-poprockingles', 
-    name: 'Pop Rock Inglés', 
-    path: '/data/02-chords-covers/listadocancionescovers-poprockingles.json', 
-    basePath: '/data/02-chords-covers/cancionescovers-poprockingles/' 
-  },
-  { 
-    id: 'covers-latinobailableespanol', 
-    name: 'Latino Bailable', 
-    path: '/data/02-chords-covers/listadocancionescovers-latinobailableespanol.json', 
-    basePath: '/data/02-chords-covers/cancionescovers-latinobailableespanol/' 
-  },
-  { 
-    id: 'covers-rockbailableespanol', 
-    name: 'Rock Bailable Español', 
-    path: '/data/02-chords-covers/listadocancionescovers-rockbailableespanol.json', 
-    basePath: '/data/02-chords-covers/cancionescovers-rockbailableespanol/' 
-  },
-  { 
-    id: 'covers-rockbailableingles', 
-    name: 'Rock Bailable Inglés', 
-    path: '/data/02-chords-covers/listadocancionescovers-rockbailableingles.json', 
-    basePath: '/data/02-chords-covers/cancionescovers-rockbailableingles/' 
-  },
-  { 
-    id: 'covers-hardrock-punkespanol', 
-    name: 'Hard Rock/Punk Español', 
-    path: '/data/02-chords-covers/listadocancionescovers-hardrock-punkespanol.json', 
-    basePath: '/data/02-chords-covers/cancionescovers-hardrock-punkespanol/' 
-  },
-  { 
-    id: 'covers-hardrock-punkingles', 
-    name: 'Hard Rock/Punk Inglés', 
-    path: '/data/02-chords-covers/listadocancionescovers-hardrock-punkingles.json', 
-    basePath: '/data/02-chords-covers/cancionescovers-hardrock-punkingles/' 
-  },
-  { 
-    id: 'covers-discoingles', 
-    name: 'Disco Inglés', 
-    path: '/data/02-chords-covers/listadocancionescovers-discoingles.json', 
-    basePath: '/data/02-chords-covers/cancionescovers-discoingles/' 
-  },
-  { 
-    id: 'covers-reggaeingles', 
-    name: 'Reggae Inglés', 
-    path: '/data/02-chords-covers/listadocancionescovers-reggaeingles.json', 
-    basePath: '/data/02-chords-covers/cancionescovers-reggaeingles/' 
-  },
-  { 
-    id: 'covers-festivos-bso', 
-    name: 'Festivos & BSO', 
-    path: '/data/02-chords-covers/listadocancionescovers-festivos-bso.json', 
-    basePath: '/data/02-chords-covers/cancionescovers-festivos-bso/' 
-  }
-];
 
 const ChordsViewerIndex = () => {
   // ESTADOS DEL COMPONENTE
@@ -114,42 +19,20 @@ const ChordsViewerIndex = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [fullscreenMode, setFullscreenMode] = useState(false);
-  const [currentLibrary, setCurrentLibrary] = useState('');
 
   // HOOKS Y REFERENCIAS
   const location = useLocation();
+  const navigate = useNavigate();
   const containerRef = useRef(null);
-  const printViewRef = useRef(null);
-
-  // FUNCIÓN PARA CARGAR ARCHIVOS JSON
-  const fetchJsonFile = async (path) => {
-    try {
-      console.log(`📥 Intentando cargar: ${path}`);
-      const response = await fetch(path);
-      
-      if (!response.ok) {
-        throw new Error(`Error HTTP ${response.status} - ${path}`);
-      }
-      
-      const text = await response.text();
-      
-      if (!text.trim()) {
-        throw new Error(`Archivo vacío - ${path}`);
-      }
-      
-      try {
-        const data = JSON.parse(text);
-        console.log(`✅ JSON cargado correctamente: ${path}`);
-        return data;
-      } catch (parseError) {
-        console.error(`❌ Error parseando JSON en ${path}:`, parseError);
-        throw new Error(`JSON inválido en ${path}: ${parseError.message}`);
-      }
-    } catch (error) {
-      console.error(`💥 Error cargando ${path}:`, error);
-      throw error;
-    }
-  };
+  const analysis = useContentAnalyzer(selectedSong);
+  
+  // USAR CONTEXTO DE BÚSQUEDA
+  const { 
+    librariesData, 
+    getSongNavigationPath, 
+    getSongByLibraryAndFile,
+    isLoading: contextLoading 
+  } = useSearch();
 
   // FUNCIÓN PARA CARGAR UNA CANCIÓN INDIVIDUAL
   const loadIndividualSong = async (song, basePath, libraryId) => {
@@ -173,20 +56,69 @@ const ChordsViewerIndex = () => {
       const songData = await response.json();
       console.log(`✅ Canción cargada: ${song.title}`, songData);
       
-      setSelectedSong({ ...song, ...songData });
+      // AGREGAR INFORMACIÓN DE BIBLIOTECA A LA CANCIÓN
+      const songWithLibrary = { 
+        ...song, 
+        ...songData,
+        libraryId: libraryId,
+        libraryName: song.libraryName || 'Lista',
+        basePath: basePath
+      };
+      
+      setSelectedSong(songWithLibrary);
       setSongDetails(songData);
       
-      const library = SONG_LIBRARIES.find(lib => lib.id === libraryId);
-      setCurrentLibrary(library ? library.name : '');
+      console.log(`🎯 Canción configurada en estado:`, songWithLibrary);
       
     } catch (err) {
       console.error('❌ Error cargando canción individual:', err);
       setError(`Error: ${err.message}`);
-      setSelectedSong({
-        ...song,
-        lyrics: `⚠️ Error cargando la canción: ${err.message}`,
-        chords: ''
-      });
+      setSelectedSong(null);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  // FUNCIÓN PARA CAMBIAR DE CANCIÓN DESDE EL NAVEGADOR
+  const handleSongChange = async (newSong) => {
+    if (!newSong) return;
+    
+    try {
+      setLoading(true);
+      setError(null);
+      
+      console.log(`🔄 Cambiando a canción:`, newSong);
+      
+      const songPath = `${newSong.basePath}${newSong.file}`;
+      const response = await fetch(songPath);
+      
+      if (!response.ok) {
+        throw new Error(`No se pudo cargar: ${newSong.file}`);
+      }
+      
+      const songData = await response.json();
+      
+      // AGREGAR INFORMACIÓN DE BIBLIOTECA
+      const songWithLibrary = { 
+        ...newSong, 
+        ...songData,
+        libraryId: newSong.libraryId,
+        libraryName: newSong.libraryName,
+        basePath: newSong.basePath
+      };
+      
+      setSelectedSong(songWithLibrary);
+      setSongDetails(songData);
+      
+      // ACTUALIZAR URL SIN RECARGAR PÁGINA COMPLETA
+      const encodedSongFile = encodeURIComponent(newSong.file);
+      navigate(`/chords-viewer?library=${newSong.libraryId}&song=${encodedSongFile}`, { replace: true });
+      
+      console.log(`✅ Canción cambiada exitosamente: ${newSong.title}`);
+      
+    } catch (err) {
+      console.error('❌ Error cambiando canción:', err);
+      setError(`Error al cargar: ${newSong.title}`);
     } finally {
       setLoading(false);
     }
@@ -206,40 +138,69 @@ const ChordsViewerIndex = () => {
         console.log('🔍 Parámetros URL:', { libraryParam, songFileParam });
         
         if (!libraryParam || !songFileParam) {
-          console.log('ℹ️ No hay parámetros de canción en la URL');
+          console.log('ℹ️ No hay parámetros de canción en la URL - Mostrando estado vacío');
           setLoading(false);
           return;
         }
 
-        const library = SONG_LIBRARIES.find(lib => lib.id === libraryParam);
-        if (!library) {
-          throw new Error(`Biblioteca no encontrada: ${libraryParam}`);
-        }
-
-        console.log(`📚 Biblioteca encontrada: ${library.name}`);
-
-        // CARGAR EL LISTADO DE LA BIBLIOTECA
-        const data = await fetchJsonFile(library.path);
-        let songsArray = [];
-        
-        if (data.songs) {
-          songsArray = data.songs;
-        } else if (data.albums) {
-          songsArray = data.albums.flatMap(album => album.songs || []);
-        } else {
-          throw new Error('Formato de biblioteca inválido');
-        }
-
-        console.log(`🎵 Total de canciones en biblioteca: ${songsArray.length}`);
-
+        // DECODIFICAR EL NOMBRE DEL ARCHIVO
         const decodedSongFile = decodeURIComponent(songFileParam);
-        const targetSong = songsArray.find(song => song.file === decodedSongFile);
+        console.log(`📁 Archivo decodificado: ${decodedSongFile}`);
+
+        // BUSCAR CANCIÓN EN EL CONTEXTO
+        const targetSong = getSongByLibraryAndFile(libraryParam, decodedSongFile);
         
         if (targetSong) {
-          console.log(`🎯 Canción encontrada: ${targetSong.title}`);
-          await loadIndividualSong(targetSong, library.basePath, libraryParam);
+          console.log(`🎯 Canción encontrada en contexto:`, targetSong);
+          await loadIndividualSong(targetSong, targetSong.basePath, libraryParam);
         } else {
-          throw new Error(`Canción no encontrada: ${decodedSongFile}`);
+          console.log('❌ Canción no encontrada en contexto, intentando carga manual...');
+          
+          // INTENTAR CARGA MANUAL SI NO ESTÁ EN EL CONTEXTO
+          const libraryData = librariesData[libraryParam];
+          if (libraryData) {
+            let manualSong = null;
+            
+            // BUSCAR EN ÁLBUMES
+            if (libraryData.albums && libraryData.albums.length > 0) {
+              for (const album of libraryData.albums) {
+                manualSong = album.songs?.find(song => song.file === decodedSongFile);
+                if (manualSong) {
+                  manualSong = {
+                    ...manualSong,
+                    libraryId: libraryParam,
+                    libraryName: libraryData.name,
+                    basePath: libraryData.basePath,
+                    albumId: album.album_id,
+                    albumName: album.album_name
+                  };
+                  break;
+                }
+              }
+            }
+            
+            // BUSCAR EN CANCIONES DIRECTAS
+            if (!manualSong && libraryData.songs && libraryData.songs.length > 0) {
+              manualSong = libraryData.songs.find(song => song.file === decodedSongFile);
+              if (manualSong) {
+                manualSong = {
+                  ...manualSong,
+                  libraryId: libraryParam,
+                  libraryName: libraryData.name,
+                  basePath: libraryData.basePath
+                };
+              }
+            }
+            
+            if (manualSong) {
+              console.log(`✅ Canción encontrada manualmente:`, manualSong);
+              await loadIndividualSong(manualSong, libraryData.basePath, libraryParam);
+            } else {
+              throw new Error(`Canción no encontrada: ${decodedSongFile}`);
+            }
+          } else {
+            throw new Error(`Biblioteca no encontrada: ${libraryParam}`);
+          }
         }
       } catch (err) {
         console.error('💥 Error cargando canción desde URL:', err);
@@ -250,8 +211,11 @@ const ChordsViewerIndex = () => {
       }
     };
 
-    loadSongFromURL();
-  }, [location.search]);
+    // CARGAR CANCIÓN CUANDO LOS DATOS DEL CONTEXTO ESTÉN LISTOS O CUANDO CAMBIE LA URL
+    if (!contextLoading) {
+      loadSongFromURL();
+    }
+  }, [location.search, librariesData, contextLoading, getSongByLibraryAndFile]);
 
   // FUNCIÓN PARA OBTENER METADATOS DE LA CANCIÓN
   const getSongMetadata = () => {
@@ -291,11 +255,26 @@ const ChordsViewerIndex = () => {
   };
 
   // ESTADO DE CARGA INICIAL
+  if (contextLoading) {
+    return (
+      <div className="chords-loading">
+        <BsMusicNoteBeamed />
+        <p>Cargando bibliotecas musicales...</p>
+        <div className="loading-progress">
+          <div className="progress-bar"></div>
+        </div>
+      </div>
+    );
+  }
+
   if (loading && !selectedSong) {
     return (
       <div className="chords-loading">
         <BsMusicNoteBeamed />
         <p>Cargando canción...</p>
+        <div className="loading-progress">
+          <div className="progress-bar"></div>
+        </div>
       </div>
     );
   }
@@ -335,6 +314,16 @@ const ChordsViewerIndex = () => {
           </div>
         </div>
 
+        {/* NAVEGADOR DE LISTA - DEBE MOSTRARSE SI HAY CANCIÓN SELECCIONADA */}
+        {selectedSong && (
+          <div className="navigator-section">
+            <ListNavigator 
+              currentSong={selectedSong}
+              onSongChange={handleSongChange}
+            />
+          </div>
+        )}
+
         {/* FILA DE CONTROLES E INFORMACIÓN */}
         <div className="controls-row">
           <div className="song-info">
@@ -355,9 +344,9 @@ const ChordsViewerIndex = () => {
                       <span className="metadata-item">
                         <strong>Compás:</strong> {metadata.timeSignature}
                       </span>
-                      {currentLibrary && (
+                      {selectedSong.libraryName && (
                         <span className="metadata-item">
-                          <strong>Lista:</strong> {currentLibrary}
+                          <strong>Lista:</strong> {selectedSong.libraryName}
                         </span>
                       )}
                     </>
@@ -391,10 +380,20 @@ const ChordsViewerIndex = () => {
             transposition={transposition}
             showA4Outline={showA4Outline}
             fullscreenMode={fullscreenMode}
-            printViewRef={printViewRef}
           />
         </div>
 
+      </div>
+
+      {/* VISUALIZADOR DE IMPRESIÓN (OCULTO POR DEFECTO) */}
+      <div className="print-container">
+        {selectedSong && analysis && (
+          <PrintViewer 
+            song={selectedSong}
+            transposition={transposition}
+            analysis={analysis}
+          />
+        )}
       </div>
 
     </div>

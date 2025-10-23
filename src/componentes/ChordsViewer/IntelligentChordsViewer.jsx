@@ -2,36 +2,31 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useContentAnalyzer } from './ContentAnalyzer';
 import TabletViewer from './Formats/TabletViewer';
-import PrintViewer from './Formats/PrintViewer';
 import DesktopViewer from './Formats/DesktopViewer';
 import MobileViewer from './Formats/MobileViewer';
 import "../../assets/scss/_03-Componentes/ChordsViewer/_IntelligentChordsViewer.scss";
 
 const IntelligentChordsViewer = ({ song, transposition, showA4Outline, fullscreenMode }) => {
   const [currentFormat, setCurrentFormat] = useState('desktop');
-  const [isPrintMode, setIsPrintMode] = useState(false);
   const analysis = useContentAnalyzer(song);
   const containerRef = useRef(null);
 
   // Detectar formato automáticamente basado en pantalla
   useEffect(() => {
     const detectOptimalFormat = () => {
-      if (isPrintMode) return 'print';
-      
       const width = window.innerWidth;
       const aspectRatio = width / window.innerHeight;
       
-      // Detección precisa por formato
       if (width <= 768) {
         return 'mobile';
       } else if (width <= 1024) {
         return 'tablet';
       } else if (width > 1600 && aspectRatio > 1.4) {
-        return 'desktop'; // Widescreen
+        return 'desktop';
       } else if (width > 1200) {
-        return 'desktop'; // Desktop estándar
+        return 'desktop';
       } else {
-        return 'tablet'; // Por defecto
+        return 'tablet';
       }
     };
 
@@ -41,34 +36,19 @@ const IntelligentChordsViewer = ({ song, transposition, showA4Outline, fullscree
       setCurrentFormat(detectOptimalFormat());
     };
     
-    // Detectar modo impresión
-    const handleBeforePrint = () => {
-      setIsPrintMode(true);
-      setCurrentFormat('print');
-    };
-    
-    const handleAfterPrint = () => {
-      setIsPrintMode(false);
-      setCurrentFormat(detectOptimalFormat());
-    };
-    
     window.addEventListener('resize', handleResize);
-    window.addEventListener('beforeprint', handleBeforePrint);
-    window.addEventListener('afterprint', handleAfterPrint);
     
     return () => {
       window.removeEventListener('resize', handleResize);
-      window.removeEventListener('beforeprint', handleBeforePrint);
-      window.removeEventListener('afterprint', handleAfterPrint);
     };
-  }, [isPrintMode]);
+  }, []);
 
   // Renderizar el visualizador apropiado
   const renderViewer = () => {
     const commonProps = { 
       song, 
       transposition, 
-      showA4Outline: showA4Outline && !isPrintMode,
+      showA4Outline: showA4Outline,
       analysis,
       currentFormat
     };
@@ -80,8 +60,6 @@ const IntelligentChordsViewer = ({ song, transposition, showA4Outline, fullscree
         return <TabletViewer {...commonProps} />;
       case 'desktop':
         return <DesktopViewer {...commonProps} />;
-      case 'print':
-        return <PrintViewer {...commonProps} />;
       default:
         return <TabletViewer {...commonProps} />;
     }
@@ -101,7 +79,7 @@ const IntelligentChordsViewer = ({ song, transposition, showA4Outline, fullscree
   return (
     <div 
       ref={containerRef}
-      className={`intelligent-chords-viewer format-${currentFormat} ${fullscreenMode ? 'fullscreen' : ''} ${isPrintMode ? 'print-mode' : ''}`}
+      className={`intelligent-chords-viewer format-${currentFormat} ${fullscreenMode ? 'fullscreen' : ''}`}
     >
       {renderViewer()}
     </div>

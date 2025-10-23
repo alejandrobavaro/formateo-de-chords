@@ -4,7 +4,7 @@ import { BsArrowsFullscreen, BsFullscreenExit } from "react-icons/bs";
 import IntelligentChordsViewer from './IntelligentChordsViewer';
 import "../../assets/scss/_03-Componentes/ChordsViewer/_SongViewer.scss";
 
-const SongViewer = ({ song, transposition, showA4Outline, fullscreenMode, printViewRef }) => {
+const SongViewer = ({ song, transposition, showA4Outline, fullscreenMode }) => {
   const viewerRef = useRef(null);
   const [isFullscreen, setIsFullscreen] = useState(false);
   
@@ -37,6 +37,11 @@ const SongViewer = ({ song, transposition, showA4Outline, fullscreenMode, printV
     };
   }, []);
 
+  // Sincronizar con el prop fullscreenMode
+  useEffect(() => {
+    setIsFullscreen(fullscreenMode);
+  }, [fullscreenMode]);
+
   if (!song) {
     return (
       <div className="song-viewer no-song">
@@ -54,7 +59,7 @@ const SongViewer = ({ song, transposition, showA4Outline, fullscreenMode, printV
       ref={viewerRef}
     >
       {/* Botón de pantalla completa */}
-      <button className="fullscreen-toggle" onClick={toggleFullscreen}>
+      <button className="fullscreen-toggle" onClick={toggleFullscreen} title={isFullscreen ? "Salir de pantalla completa" : "Pantalla completa"}>
         {isFullscreen ? <BsFullscreenExit /> : <BsArrowsFullscreen />}
       </button>
 

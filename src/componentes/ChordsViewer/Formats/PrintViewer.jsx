@@ -3,75 +3,89 @@ import React from 'react';
 import { 
   getOptimalConfig, 
   balanceColumnsIntelligently,
-  renderContent 
+  renderContent,
+  getTranspositionInfo,
+  getFormatInfo
 } from '../ContentAnalyzer';
 import "../../../assets/scss/_03-Componentes/ChordsViewer/Formats/_PrintViewer.scss";
 
 const PrintViewer = ({ song, transposition, analysis }) => {
   if (!song || !analysis) {
-    return (
-      <div className="print-viewer loading">
-        <div className="loading-message">Optimizando para impresión A4...</div>
-      </div>
-    );
+    return null;
   }
 
-  // CONFIGURACIÓN FIJA PARA IMPRESIÓN - 2 COLUMNAS SIEMPRE
+  // CONFIGURACIÓN ULTRA COMPACTA PARA 1 HOJA A4
   const config = getOptimalConfig(analysis, 'print');
   
-  // Forzar configuración óptima para A4
-  const forcedConfig = {
+  const printConfig = {
     ...config,
-    targetColumns: 2, // SIEMPRE 2 columnas para A4
-    fontSize: Math.max(9, config.fontSize) // Mínimo 9px para legibilidad
+    targetColumns: 2,
+    fontSize: Math.max(9, config.fontSize),
+    gap: 1,
+    lineHeight: 1.1,
+    compactMode: true
   };
 
-  // Balancear en 2 columnas perfectamente para A4
+  // Balancear en 2 columnas
   const columns = balanceColumnsIntelligently(
     song.content, 
-    forcedConfig.targetColumns, 
+    printConfig.targetColumns, 
     analysis
   );
 
   const [col1, col2] = columns;
 
+  // Información de transposición
+  const transpositionInfo = getTranspositionInfo(transposition, song.originalKey);
+  
+  // Información del formato
+  const formatInfo = getFormatInfo('print', printConfig.fontSize, analysis.lineCount, analysis.isComplex);
+
   return (
     <div 
-      className="print-viewer a4-outline print-optimized"
+      className="print-viewer print-ultra-compact"
       style={{ 
-        fontSize: `${forcedConfig.fontSize}px`,
-        gap: `${forcedConfig.gap}mm`,
-        lineHeight: forcedConfig.lineHeight
+        fontSize: `${printConfig.fontSize}px`,
+        gap: `${printConfig.gap}mm`,
+        lineHeight: printConfig.lineHeight
       }}
     >
-      {/* Header de impresión profesional */}
-      <div className="print-header">
-        <h1 className="song-title-print">
-          {song.artist} - {song.title}
-        </h1>
-        <div className="print-metadata">
-          <span className="metadata-item">Tono: {song.originalKey || 'N/A'}</span>
-          <span className="metadata-item">Líneas: {analysis.lineCount}</span>
-          <span className="metadata-item">Columnas: 2</span>
-          <span className="metadata-item">Formato: A4</span>
+      {/* CONTENIDO EN 2 COLUMNAS - TODO EN UNA MISMA PÁGINA */}
+      <div className="print-content">
+        
+        {/* HEADER COMPACTO INTEGRADO EN LA MISMA PÁGINA */}
+        <div className="print-header-integrated">
+          <div className="song-title-print">
+            <strong>{song.artist} - {song.title}</strong>
+            {transpositionInfo && (
+              <span className="transposition-info">{transpositionInfo}</span>
+            )}
+            {song.originalKey && (
+              <span className="tono-destacado"> (TONO: {song.originalKey})</span>
+            )}
+          </div>
+          <div className="print-format-info">
+            {formatInfo}
+          </div>
         </div>
-      </div>
-      
-      {/* CONTENIDO EN 2 COLUMNAS PERFECTAS PARA A4 */}
-      <div className="print-columns">
-        <div className="print-column column-1">
-          {renderContent(col1, transposition)}
-        </div>
-        <div className="print-column column-2">
-          {renderContent(col2, transposition)}
-        </div>
-      </div>
-      
-      {/* Footer de impresión */}
-      <div className="print-footer">
-        <div className="print-optimization-info">
-          ✅ TEXTO COMPLETO EN 2 COLUMNAS A4 • {analysis.lineCount} líneas • 
-          Optimizado para impresión • {forcedConfig.fontSize}px
+
+        <div className="print-columns columns-2">
+          <div className="print-column column-1">
+            {renderContent(col1, transposition, {
+              isPrint: true,
+              ensureCompleteContent: true,
+              compactMode: true,
+              currentFormat: 'print'
+            })}
+          </div>
+          <div className="print-column column-2">
+            {renderContent(col2, transposition, {
+              isPrint: true, 
+              ensureCompleteContent: true,
+              compactMode: true,
+              currentFormat: 'print'
+            })}
+          </div>
         </div>
       </div>
     </div>

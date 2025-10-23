@@ -1,0 +1,77 @@
+{
+    "name": "Ale Gondra - Covers Festivos y BSO",
+    "artist": "Ale Gondra",
+    "type": "cover",
+    "description": "Listado de covers de canciones festivas y bandas sonoras",
+    "year": 2025,
+    "basePath": "/data/02-chords-covers/cancionescovers-festivos-bso/",
+    "albums": [
+      {
+        "album_id": "covers-festivos-bso",
+        "album_name": "Covers Festivos y BSO",
+        "artist": "Ale Gondra",
+        "year": 2025,
+        "cover_image": "/data/02-chords-covers/cancionescovers-festivos-bso/cover-festivos-bso.jpg",
+        "genre": "Festivo/BSO",
+        "songs": [
+          {
+            "id": "hakuna-matata",
+            "title": "Hakuna Matata",
+            "artist": "Elton John (Cover: Ale Gondra)",
+            "file": "hakuna-matata.json",
+            "track_number": 1,
+            "duration": "",
+            "key": "",
+            "bpm": 0,
+            "genre": "Festivo",
+            "style": "BSO Infantil",
+            "mp3_file": "/audio/mp3cancionescovers/mp3cancionescovers-festivos-bso/hakuna-matata.mp3",
+            "multitrack": {}
+          },
+          {
+            "id": "hallelujah",
+            "title": "Hallelujah",
+            "artist": "Leonard Cohen (Cover: Ale Gondra)",
+            "file": "hallelujah.json",
+            "track_number": 2,
+            "duration": "",
+            "key": "",
+            "bpm": 0,
+            "genre": "Festivo",
+            "style": "Balada Espiritual",
+            "mp3_file": "/audio/mp3cancionescovers/mp3cancionescovers-festivos-bso/hallelujah.mp3",
+            "multitrack": {}
+          },
+          {
+            "id": "queen-flash",
+            "title": "Flash",
+            "artist": "Queen (Cover: Ale Gondra)",
+            "file": "queen-flash.json",
+            "track_number": 3,
+            "duration": "",
+            "key": "",
+            "bpm": 0,
+            "genre": "BSO",
+            "style": "Rock Sinfónico",
+            "mp3_file": "/audio/mp3cancionescovers/mp3cancionescovers-festivos-bso/queen-flash.mp3",
+            "multitrack": {}
+          },
+          {
+            "id": "villancico-noche-de-paz",
+            "title": "Noche de Paz",
+            "artist": "Tradicional (Cover: Ale Gondra)",
+            "file": "villancico-noche-de-paz.json",
+            "track_number": 4,
+            "duration": "",
+            "key": "",
+            "bpm": 0,
+            "genre": "Festivo",
+            "style": "Villancico",
+            "mp3_file": "/audio/mp3cancionescovers/mp3cancionescovers-festivos-bso/villancico-noche-de-paz.mp3",
+            "multitrack": {}
+          }
+        ]
+      }
+    ]
+  }
+  

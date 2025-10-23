@@ -29,8 +29,9 @@
     }
     
     .fullscreen-toggle {
-      top: 8px;
-      right: 8px;
+      top: 12px;
+      right: 12px;
+      background: rgba(255, 255, 255, 0.95);
     }
   }
 
@@ -50,10 +51,12 @@
         font-size: 1.8em;
         margin-bottom: 15px;
         font-weight: 600;
+        color: #2c3e50;
       }
       
       p {
         font-size: 1.1em;
+        color: #6c757d;
       }
     }
   }
@@ -66,64 +69,29 @@
   right: 8px;
   background: rgba(255, 255, 255, 0.9);
   border: 1px solid #ccc;
-  border-radius: 3px;
-  padding: 6px;
+  border-radius: 4px;
+  padding: 8px;
   cursor: pointer;
-  z-index: 10;
+  z-index: 100;
   font-size: 16px;
   color: #2c3e50;
+  transition: all 0.2s ease;
   
   &:hover {
     background: white;
     border-color: #2c3e50;
+    transform: scale(1.1);
   }
 }
 
-/* --- Vista impresión OPTIMIZADA para A4 --- */
-.print-container {
-  position: absolute;
-  left: -9999px;
-  width: 210mm;
-  height: auto;
-  min-height: 297mm;
-}
-
-.print-view {
-  width: 210mm;
-  height: auto;
-  min-height: 297mm;
-  padding: 0;
-  margin: 0;
-  background-color: white;
-  font-family: Arial, sans-serif;
-  line-height: 1.1;
-  box-sizing: border-box;
-  overflow: hidden;
-  
-  /* Optimizado específicamente para impresión */
-  .section-title {
-    font-size: 12px !important;
-  }
-  
-  .chord {
-    font-size: 11px !important;
-  }
-  
-  .lyrics-line {
-    font-size: 12px !important;
-  }
-  
-  .voice-name {
-    font-size: 11px !important;
-  }
-}
-
-/* --- Impresión MEJORADA --- */
+/* =============================================== */
+/* ESTILOS DE IMPRESIÓN MEJORADOS */
+/* =============================================== */
 @media print {
   @page {
     margin: 0 !important;
     padding: 0 !important;
-    size: A4;
+    size: A4 portrait;
   }
   
   .song-viewer {
@@ -139,17 +107,20 @@
     display: none !important;
   }
   
-  /* Colores impresión */
+  /* Asegurar que los colores se impriman */
   .voice-section,
   .voice-label-horizontal .voice-name,
   .chord,
-  .tono-destacado {
+  .tono-destacado,
+  .section-title {
     -webkit-print-color-adjust: exact !important;
     print-color-adjust: exact !important;
   }
 }
 
-/* --- Responsive OPTIMIZADO --- */
+/* =============================================== */
+/* RESPONSIVE OPTIMIZADO */
+/* =============================================== */
 
 /* Mobile (< 768px) */
 @media (max-width: 768px) {
@@ -162,7 +133,7 @@
   .fullscreen-toggle {
     top: 4px;
     right: 4px;
-    padding: 4px;
+    padding: 6px;
     font-size: 14px;
   }
 }
@@ -193,6 +164,17 @@
   .song-viewer {
     &.a4-outline {
       max-width: 1200px;
+    }
+  }
+}
+
+/* Mejoras de accesibilidad */
+@media (prefers-reduced-motion: reduce) {
+  .fullscreen-toggle {
+    transition: none;
+    
+    &:hover {
+      transform: none;
     }
   }
 }

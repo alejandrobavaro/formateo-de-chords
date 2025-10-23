@@ -12,112 +12,139 @@
   overflow: hidden;
   box-sizing: border-box;
   color: #000000;
-  
-  /* Contorno A4 */
-  &.a4-outline {
-    outline: 1px dashed #2c3e50;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  }
+  display: none;
 
-  /* Estados */
-  &.loading {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 200px;
-    
-    .loading-message {
-      font-size: 16px;
-      color: #666;
-      font-style: italic;
-    }
-  }
-
-  /* Header impresión */
-  .print-header {
-    text-align: center;
-    padding: 2mm 0;
-    border-bottom: 1px solid #000;
-    height: 6mm;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
+  /* Header integrado - sin saltos de página */
+  .print-header-integrated {
+    padding: 3mm 10mm 1mm 10mm;
+    border-bottom: 0.2mm solid #ccc;
+    margin-bottom: 1mm;
+    background: #fafafa;
+    page-break-inside: avoid;
+    break-inside: avoid;
     
     .song-title-print {
-      margin: 0;
+      font-size: 10px !important;
       font-weight: 700;
-      color: #000;
-      font-size: 14px !important;
+      text-align: center;
+      margin-bottom: 0.3mm;
+      line-height: 1.1;
+      
+      strong {
+        color: #000;
+      }
+      
+      .transposition-info {
+        color: #666;
+        font-style: italic;
+        font-size: 8px !important;
+        margin-left: 0.5mm;
+      }
       
       .tono-destacado {
         color: #ff3366;
         font-weight: 800;
+        font-size: 8px !important;
+        margin-left: 0.5mm;
       }
     }
-
-    .print-metadata {
-      display: flex;
-      justify-content: center;
-      gap: 4mm;
-      margin-top: 1mm;
-      font-size: 10px;
-      
-      .metadata-item {
-        color: #666;
-        font-weight: 600;
-        background: #f0f0f0;
-        padding: 1px 4px;
-        border-radius: 2px;
-      }
+    
+    .print-format-info {
+      font-size: 6px !important;
+      color: #666;
+      text-align: center;
+      background: #e9ecef;
+      padding: 0.2mm 0.8mm;
+      border-radius: 0.1mm;
+      border: 0.2px solid #dee2e6;
     }
   }
 
-  /* Visor de acordes */
-  .chords-viewer {
+  /* Modo ultra compacto */
+  &.print-ultra-compact {
+    .print-content {
+      padding: 0 !important; /* Sin padding adicional */
+    }
+
+    .print-columns.columns-2 {
+      gap: 1.5mm !important; /* Espacio entre columnas aún más reducido */
+      min-height: 285mm !important; /* Más espacio para el contenido */
+      padding: 0 10mm !important;
+    }
+
+    /* Reducir todos los espacios verticales */
+    .section-header {
+      margin: 0.3mm 0 0.2mm 0 !important;
+    }
+
+    .voice-section {
+      margin: 0.2mm 0 !important;
+      padding: 0.2mm 0.4mm !important;
+    }
+
+    .song-line,
+    .song-line-combined {
+      margin: 0.05mm 0 !important;
+      padding: 0 !important;
+    }
+
+    .section-divider {
+      margin: 0.2mm 0 !important;
+      height: 0.03mm !important;
+    }
+  }
+
+  .print-content {
+    width: 100%;
+    height: 100%;
     padding: 0;
-    font-family: Arial, sans-serif !important;
-    line-height: 1.1;
     margin: 0;
-    height: calc(297mm - 6mm);
-    overflow: hidden;
     box-sizing: border-box;
+    page-break-inside: avoid;
   }
 
-  /* Columnas OPTIMIZADAS - 2 COLUMNAS SIEMPRE */
   .print-columns {
     display: grid;
     margin: 0;
-    padding: 0 1.5mm;
+    padding: 0 10mm;
     height: 100%;
     box-sizing: border-box;
+    page-break-inside: avoid;
 
-    /* 2 columnas para impresión A4 */
-    grid-template-columns: 1fr 1fr;
-    gap: 1.5mm;
-    padding: 0 1.5mm;
+    &.columns-2 {
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5mm;
+      padding: 0 10mm;
+      min-height: 285mm;
+    }
   }
 
   .print-column {
     display: flex;
     flex-direction: column;
-    gap: 0.2mm;
+    gap: 0.05mm; /* Espacio ultra reducido entre elementos */
     margin: 0;
     padding: 0;
     align-items: center;
     height: 100%;
     overflow: hidden;
     box-sizing: border-box;
+    page-break-inside: avoid;
   }
 
-  /* --- Títulos sección --- */
+  /* --- Títulos sección COMPACTADOS --- */
   .section-header {
     width: 100%;
     text-align: left;
-    margin: 1mm 0 0.5mm 0;
+    margin: 0.5mm 0 0.3mm 0;
     padding: 0;
     box-sizing: border-box;
+    page-break-before: avoid;
+    border-bottom: 0.2mm solid #333;
+    
+    &.compact {
+      margin: 0.3mm 0 0.2mm 0 !important;
+    }
   }
 
   .section-title {
@@ -125,95 +152,154 @@
     text-transform: uppercase;
     color: #000000;
     margin: 0;
-    padding: 0.3mm 0.8mm;
+    padding: 0.1mm 0.4mm;
     display: inline-block;
-    background-color: #f0f0f0;
-    border-radius: 0.8mm;
-    font-size: 12px !important;
+    background-color: #f5f5f5;
+    border-radius: 0.2mm;
+    font-size: 8px !important;
+    border-left: 0.5px solid #333;
+    
+    &.compact {
+      font-size: 7px !important;
+      padding: 0.1mm 0.3mm !important;
+    }
   }
 
-  /* --- Bloques de voz --- */
+  /* --- Bloques de voz COMPACTADOS --- */
   .voice-section {
     width: 100%;
-    padding: 0;
-    margin: 0.8mm 0;
+    padding: 0.3mm 0.5mm;
+    margin: 0.4mm 0;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
+    page-break-inside: avoid;
+    border-radius: 0.1mm;
     
-    /* Voz Ale - Rosado */
+    /* Voz Ale - Rosado más sutil */
     &.voice-ale {
-      background-color: #ffe6e6 !important;
-      border-left: 2px solid #ff4444;
+      background-color: #fef5f5 !important;
+      border-left: 0.5px solid #ff4444;
     }
     
-    /* Voz Pato - Verde */
+    /* Voz Pato - Verde más sutil */
     &.voice-pato {
-      background-color: #e6ffe6 !important;
-      border-left: 2px solid #44ff44;
+      background-color: #f5fef5 !important;
+      border-left: 0.5px solid #44ff44;
+    }
+    
+    &.compact {
+      margin: 0.2mm 0 !important;
+      padding: 0.2mm 0.4mm !important;
     }
   }
 
-  /* --- Etiqueta voz --- */
+  /* --- Etiqueta voz EN LÍNEA --- */
   .voice-label-horizontal {
     width: 100%;
     text-align: left;
     padding: 0;
-    margin: 0 0 0.3mm 0;
+    margin: 0 0 0.1mm 0;
     box-sizing: border-box;
     
     .voice-name {
-      font-weight: 700;
+      font-weight: 600;
       color: #2c3e50;
-      background-color: #f0f8ff;
-      border-radius: 0.4mm;
-      padding: 0 0.8mm;
+      background-color: #f8f9fa;
+      border-radius: 0.1mm;
+      padding: 0.05mm 0.3mm;
       display: inline-block;
-      font-size: 11px !important;
+      font-size: 7px !important;
+      border: 0.3px solid #e9ecef;
+      margin-right: 0.5mm;
+      
+      /* Estilos para múltiples voces en línea */
+      &.voice-ale {
+        background-color: #fff5f5 !important;
+        border-color: #ffdddd;
+      }
+      
+      &.voice-pato {
+        background-color: #f5fff5 !important;
+        border-color: #ddffdd;
+      }
+      
+      &.compact {
+        font-size: 6px !important;
+        padding: 0.05mm 0.2mm !important;
+      }
+    }
+
+    /* Contenedor para múltiples voces en una línea */
+    .voice-names-inline {
+      display: flex;
+      gap: 0.5mm;
+      flex-wrap: wrap;
+      align-items: center;
+      
+      .voice-name {
+        margin-right: 0;
+      }
     }
   }
 
   .voice-content {
     display: flex;
     flex-direction: column;
-    gap: 0.1mm;
+    gap: 0.02mm; /* Espacio mínimo */
     flex-grow: 1;
     min-width: 0;
     box-sizing: border-box;
     padding: 0;
+    
+    &.compact {
+      gap: 0.01mm !important;
+    }
   }
 
-  /* --- Líneas canción --- */
+  /* --- Líneas canción ULTRA COMPACTAS --- */
   .song-line {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.1mm;
+    gap: 0.02mm;
     margin: 0;
     min-height: auto;
-    line-height: 1.1;
+    line-height: 1.05;
     width: 100%;
     box-sizing: border-box;
     padding: 0;
+    page-break-inside: avoid;
+    
+    &.compact {
+      gap: 0.01mm !important;
+      margin: 0.05mm 0 !important;
+    }
   }
 
   .song-line-combined {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.1mm;
+    gap: 0.02mm;
     margin: 0;
     min-height: auto;
-    line-height: 1.1;
+    line-height: 1.05;
     width: 100%;
     box-sizing: border-box;
     padding: 0;
+    page-break-inside: avoid;
+    
+    &.compact {
+      gap: 0.01mm !important;
+      margin: 0.05mm 0 !important;
+    }
   }
 
-  /* --- Acordes --- */
+  /* --- Acordes COMPACTOS --- */
   .chords-line {
     display: flex;
-    gap: 0.8mm;
+    gap: 0.3mm;
     justify-content: center;
     flex-wrap: wrap;
     margin: 0;
@@ -226,24 +312,37 @@
     font-weight: 700;
     color: #0000ff !important;
     margin: 0;
-    padding: 0;
+    padding: 0.02mm 0.2mm;
     white-space: nowrap;
-    font-size: 11px !important;
+    font-size: 8px !important;
+    background-color: #f0f8ff;
+    border-radius: 0.05mm;
+    border: 0.2px solid #cce0ff;
+    
+    &.compact {
+      font-size: 7px !important;
+      padding: 0.02mm 0.15mm !important;
+    }
   }
 
-  /* --- Letras --- */
+  /* --- Letras COMPACTAS --- */
   .lyrics-line {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    line-height: 1.1;
+    line-height: 1.05;
     text-align: center;
     width: 100%;
     box-sizing: border-box;
-    font-size: 12px !important;
+    font-size: 8px !important;
+    
+    &.compact {
+      font-size: 7px !important;
+      line-height: 1.02 !important;
+    }
   }
 
-  /* --- Texto secundario --- */
+  /* --- Texto secundario COMPACTO --- */
   .text-line {
     font-style: italic;
     color: #666;
@@ -254,61 +353,189 @@
     text-align: center;
     width: 100%;
     box-sizing: border-box;
-    font-size: 11px !important;
+    font-size: 7px !important;
+    background-color: #fafafa;
+    border-radius: 0.05mm;
+    padding: 0.05mm 0.1mm !important;
+    
+    &.compact {
+      font-size: 6px !important;
+      padding: 0.03mm 0.08mm !important;
+    }
   }
 
-  /* --- Divisores --- */
+  /* --- Divisores MÁS DELGADOS --- */
   .section-divider {
-    height: 0.2mm;
-    background-color: #ccc;
-    margin: 0.8mm 0;
+    height: 0.02mm;
+    background: linear-gradient(90deg, transparent, #ddd, transparent);
+    margin: 0.2mm 0;
     padding: 0;
     width: 100%;
     box-sizing: border-box;
+    
+    &.compact {
+      height: 0.01mm !important;
+      margin: 0.1mm 0 !important;
+    }
   }
 
-  /* Footer impresión */
-  .print-footer {
-    margin-top: 8px;
-    padding-top: 6px;
-    border-top: 1px solid #e0e0e0;
-    font-size: 10px;
-    color: #666;
-    text-align: center;
+  /* --- Grupos de voces compactos --- */
+  .voice-group-compact {
+    margin: 0.2mm 0;
     
-    .print-optimization-info {
-      font-weight: 600;
-      background: #f0f0f0;
-      padding: 3px 6px;
-      border-radius: 2px;
-      display: inline-block;
+    .voice-content-compact {
+      display: flex;
+      flex-direction: column;
+      gap: 0.01mm;
     }
   }
 }
 
-/* --- Impresión MEJORADA --- */
+/* =============================================== */
+/* ESTILOS DE IMPRESIÓN CORREGIDOS - SIN SALTOS */
+/* =============================================== */
 @media print {
   @page {
     margin: 0 !important;
     padding: 0 !important;
-    size: A4;
+    size: A4 portrait;
+  }
+  
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    box-sizing: border-box;
+  }
+  
+  body * {
+    visibility: hidden;
+  }
+  
+  .print-container,
+  .print-container *,
+  .print-viewer,
+  .print-viewer * {
+    visibility: visible !important;
   }
   
   .print-viewer {
+    display: block !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
     width: 210mm !important;
-    height: auto !important;
     min-height: 297mm !important;
+    height: auto !important;
     margin: 0 !important;
     padding: 0 !important;
-    overflow: hidden !important;
+    background: white !important;
+    overflow: visible !important;
+    font-family: Arial, sans-serif !important;
+    color: black !important;
+    
+    /* Ocultar elementos no deseados */
+    .loading,
+    .song-header,
+    .tablet-info-badge,
+    .tablet-footer,
+    .optimization-info {
+      display: none !important;
+    }
   }
   
-  /* Colores impresión */
-  .voice-section,
-  .voice-label-horizontal .voice-name,
-  .chord,
-  .tono-destacado {
-    -webkit-print-color-adjust: exact !important;
-    print-color-adjust: exact !important;
+  .print-content {
+    width: 210mm !important;
+    min-height: 297mm !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    background: white !important;
+    box-sizing: border-box;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
   }
+  
+  .print-header-integrated {
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+  
+  .print-columns.columns-2 {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 1.5mm !important;
+    padding: 0 10mm !important;
+    min-height: 285mm !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+  
+  .print-column {
+    min-height: 280mm !important;
+    page-break-inside: avoid !important;
+  }
+  
+  /* EVITAR SALTO DE PÁGINA EN ELEMENTOS CRÍTICOS */
+  .section-header,
+  .voice-section,
+  .song-line-combined {
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+}
+
+/* =============================================== */
+/* CLASES UTILITARIAS PARA COMPACTACIÓN */
+/* =============================================== */
+
+/* Voces en línea */
+.voices-inline {
+  display: flex !important;
+  gap: 0.5mm;
+  flex-wrap: wrap;
+  margin-bottom: 0.1mm;
+}
+
+.voice-tag {
+  font-size: 6px !important;
+  padding: 0.05mm 0.2mm !important;
+  border-radius: 0.05mm !important;
+  border: 0.2px solid !important;
+}
+
+.voice-tag-ale {
+  background: #fff5f5 !important;
+  border-color: #ffdddd !important;
+  color: #cc0000 !important;
+}
+
+.voice-tag-pato {
+  background: #f5fff5 !important;
+  border-color: #ddffdd !important;
+  color: #006600 !important;
+}
+
+/* Texto super compacto */
+.text-micro {
+  font-size: 6px !important;
+  line-height: 1 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Espaciado mínimo */
+.no-margin {
+  margin: 0 !important;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.min-gap {
+  gap: 0.01mm !important;
+}
+
+/* Forzar que no haya saltos */
+.no-page-break {
+  page-break-inside: avoid !important;
+  break-inside: avoid !important;
 }

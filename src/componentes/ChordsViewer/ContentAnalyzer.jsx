@@ -469,45 +469,90 @@ export const processLines = (lines) => {
 };
 
 // Renderizador de contenido común
-export const renderContent = (content, transposition = 0) => {
+export const renderContent = (content, transposition = 0, options = {}) => {
   if (!content) return null;
 
+  const { isPrint = false, compactMode = false, currentFormat = 'desktop' } = options;
+
   return content.map((item, index) => {
+    // Lógica especial para modo compacto en impresión
+    if (compactMode && isPrint) {
+      // Agrupar múltiples voces en una línea
+      if (item.type === "voice" && content[index + 1]?.type === "voice") {
+        const voiceGroup = [item];
+        let nextIndex = index + 1;
+        
+        // Agrupar voces consecutivas
+        while (content[nextIndex]?.type === "voice") {
+          voiceGroup.push(content[nextIndex]);
+          nextIndex++;
+        }
+        
+        return (
+          <div key={index} className="voice-group-compact">
+            <div className="voice-label-horizontal">
+              <div className="voice-names-inline">
+                {voiceGroup.map((voice, i) => (
+                  <span 
+                    key={i} 
+                    className={`voice-name voice-${voice.color || 'default'} voice-tag voice-tag-${voice.color || 'default'}`}
+                  >
+                    {voice.name || 'VOZ'}
+                  </span>
+                ))}
+              </div>
+            </div>
+            <div className="voice-content-compact">
+              {voiceGroup.map((voice, i) => (
+                <React.Fragment key={i}>
+                  {voice.lines && renderContent(processLines(voice.lines), transposition, { isPrint, compactMode, currentFormat })}
+                </React.Fragment>
+              ))}
+            </div>
+          </div>
+        );
+      }
+    }
+
     switch (item.type) {
       case "section":
         return (
           <React.Fragment key={index}>
-            <div className="section-header">
-              <span className="section-title">{item.name?.toUpperCase() || 'SECCIÓN'}</span>
+            <div className={`section-header ${compactMode ? 'compact' : ''}`}>
+              <span className={`section-title ${compactMode ? 'compact' : ''}`}>
+                {item.name?.toUpperCase() || 'SECCIÓN'}
+              </span>
             </div>
-            {item.lines && renderContent(processLines(item.lines), transposition)}
+            {item.lines && renderContent(processLines(item.lines), transposition, { isPrint, compactMode, currentFormat })}
           </React.Fragment>
         );
       
       case "voice":
         return (
-          <div key={index} className={`voice-section voice-${item.color || 'default'}`}>
+          <div key={index} className={`voice-section voice-${item.color || 'default'} ${compactMode ? 'compact' : ''}`}>
             <div className="voice-label-horizontal">
-              <span className="voice-name">{item.name || 'VOZ'}</span>
+              <span className={`voice-name ${compactMode ? 'compact' : ''} voice-${item.color || 'default'}`}>
+                {item.name || 'VOZ'}
+              </span>
             </div>
-            <div className="voice-content">
-              {item.lines && renderContent(processLines(item.lines), transposition)}
+            <div className={`voice-content ${compactMode ? 'compact' : ''}`}>
+              {item.lines && renderContent(processLines(item.lines), transposition, { isPrint, compactMode, currentFormat })}
             </div>
           </div>
         );
       
       case "combined":
         return (
-          <div key={index} className="song-line-combined">
+          <div key={index} className={`song-line-combined ${compactMode ? 'compact' : ''}`}>
             <div className="chords-line">
               {item.chords.map((chord, i) => (
-                <span key={i} className="chord">
+                <span key={i} className={`chord ${compactMode ? 'compact' : ''}`}>
                   {transposeChord(chord, transposition)}
                 </span>
               ))}
             </div>
             {item.lyric && (
-              <div className="lyrics-line">
+              <div className={`lyrics-line ${compactMode ? 'compact' : ''}`}>
                 {item.lyric}
               </div>
             )}
@@ -516,10 +561,10 @@ export const renderContent = (content, transposition = 0) => {
       
       case "chords":
         return (
-          <div key={index} className="song-line">
+          <div key={index} className={`song-line ${compactMode ? 'compact' : ''}`}>
             <div className="chords-line">
               {item.content.map((chord, i) => (
-                <span key={i} className="chord">
+                <span key={i} className={`chord ${compactMode ? 'compact' : ''}`}>
                   {transposeChord(chord, transposition)}
                 </span>
               ))}
@@ -529,30 +574,36 @@ export const renderContent = (content, transposition = 0) => {
       
       case "chord":
         return (
-          <div key={index} className="song-line">
+          <div key={index} className={`song-line ${compactMode ? 'compact' : ''}`}>
             <div className="chords-line">
-              <span className="chord">{transposeChord(item.content, transposition)}</span>
+              <span className={`chord ${compactMode ? 'compact' : ''}`}>
+                {transposeChord(item.content, transposition)}
+              </span>
             </div>
           </div>
         );
       
       case "lyric":
         return (
-          <div key={index} className="song-line">
-            <div className="lyrics-line">{item.content}</div>
+          <div key={index} className={`song-line ${compactMode ? 'compact' : ''}`}>
+            <div className={`lyrics-line ${compactMode ? 'compact' : ''}`}>
+              {item.content}
+            </div>
           </div>
         );
       
       case "text":
         return (
-          <div key={index} className="song-line">
-            <div className="text-line">{item.content}</div>
+          <div key={index} className={`song-line ${compactMode ? 'compact' : ''}`}>
+            <div className={`text-line ${compactMode ? 'compact' : ''}`}>
+              {item.content}
+            </div>
           </div>
         );
       
       case "divider":
         return (
-          <div key={index} className="section-divider"></div>
+          <div key={index} className={`section-divider ${compactMode ? 'compact' : ''}`}></div>
         );
       
       default:
@@ -563,6 +614,45 @@ export const renderContent = (content, transposition = 0) => {
         );
     }
   });
+};
+
+// Función para obtener información de transposición
+export const getTranspositionInfo = (transposition, originalKey) => {
+  if (transposition === 0) return '';
+  
+  const direction = transposition > 0 ? '+' : '';
+  const trasteInfo = Math.abs(transposition);
+  const trasteText = trasteInfo === 1 ? 'er Traste' : 'º Traste';
+  
+  return ` (Transportado ${direction}${transposition} - ${trasteInfo}${trasteText})`;
+};
+
+// Función para obtener información del formato
+export const getFormatInfo = (currentFormat, fontSize, lineCount, isComplex = false) => {
+  const formatIcons = {
+    mobile: '📱',
+    tablet: '📟', 
+    desktop: '💻',
+    print: '🖨️'
+  };
+  
+  const formatNames = {
+    mobile: 'MOBILE',
+    tablet: 'TABLET',
+    desktop: 'DESKTOP',
+    print: 'PRINT'
+  };
+  
+  const columnInfo = {
+    mobile: '1 COLUMNA',
+    tablet: '2 COLUMNAS',
+    desktop: '3 COLUMNAS',
+    print: '2 COLUMNAS'
+  };
+  
+  const complexityInfo = isComplex ? ' • CONTENIDO COMPLEJO' : ' • CONTENIDO OPTIMIZADO';
+  
+  return `${formatIcons[currentFormat] || '📄'} ${formatNames[currentFormat] || 'FORMATO'} • ${columnInfo[currentFormat] || ''} • ${fontSize}px • ${lineCount} líneas${complexityInfo}`;
 };
 
 export default useContentAnalyzer;

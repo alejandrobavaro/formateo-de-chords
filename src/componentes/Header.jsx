@@ -1,108 +1,61 @@
-// ======================================================
-// 📦 IMPORTACIONES DE DEPENDENCIAS
-// ======================================================
+// src/componentes/Header.jsx
 import React, { useState, useRef, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { BsList, BsMusicNoteList, BsSearch, BsX, BsArrowRight } from "react-icons/bs";
+import { BsList, BsMusicNoteList, BsSearch, BsX, BsArrowRight, BsStar, BsClock } from "react-icons/bs";
 import { FiHome, FiFileText, FiMusic, FiVideo, FiEdit } from "react-icons/fi";
 import { Navbar, Nav, Container, Tooltip, OverlayTrigger } from "react-bootstrap";
+import { useSearch } from './SearchContext';
 import "../assets/scss/_03-Componentes/_Header.scss";
 
-// ======================================================
-// 🎵 COMPONENTE HEADER CON BÚSQUEDA INTEGRADA
-// ======================================================
 const Header = () => {
-  // ======================================================
-  // 🎯 ESTADOS DEL COMPONENTE
-  // ======================================================
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false); // Controla menú móvil
-  const [searchQuery, setSearchQuery] = useState(""); // Término de búsqueda actual
-  const [showSearchSuggestions, setShowSearchSuggestions] = useState(false); // Mostrar/ocultar sugerencias
-  const [isSearchFocused, setIsSearchFocused] = useState(false); // Estado de foco en búsqueda
-  const [allSongs, setAllSongs] = useState([]); // Todas las canciones cargadas
-  const [filteredSongs, setFilteredSongs] = useState([]); // Canciones filtradas por búsqueda
+  // ESTADOS DEL COMPONENTE
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState("");
+  const [showSearchSuggestions, setShowSearchSuggestions] = useState(false);
+  const [isSearchFocused, setIsSearchFocused] = useState(false);
+  const [recentSearches, setRecentSearches] = useState([]);
   
-  // ======================================================
-  // 🎯 REFERENCIAS Y HOOKS
-  // ======================================================
-  const searchRef = useRef(null); // Referencia al contenedor de búsqueda
-  const navigate = useNavigate(); // Hook de navegación de React Router
+  // REFERENCIAS Y HOOKS
+  const searchRef = useRef(null);
+  const navigate = useNavigate();
+  
+  // USAR EL CONTEXTO CENTRALIZADO
+  const { searchSongs, getSongNavigationPath, isLoading } = useSearch();
+  
+  const [searchResults, setSearchResults] = useState([]);
 
-  // ======================================================
-  // 📁 RUTAS DE ARCHIVOS JSON DE CANCIONES
-  // ======================================================
-  const jsonFiles = [
-    "/chords/listado-chords-alegondramusic.json",
-    "/chords/listado-chords-almango-pop.json",
-    "/chords/listado-chords-casamiento-ale-fabi.json",
-    "/chords/listadochordscoverslatinos1.json",
-    "/chords/listadochordscoversnacionales1.json",
-    "/chords/listadochordscoversseleccionados1.json",
-    "/chords/listadochordscoversseleccionados2.json",
-    "/chords/listadochordscoversseleccionados3.json"
-  ];
-
-  // ======================================================
-  // ⚡ EFECTO: CARGAR TODAS LAS CANCIONES AL INICIAR
-  // ======================================================
+  // CARGAR BÚSQUEDAS RECIENTES DESDE LOCALSTORAGE
   useEffect(() => {
-    const loadAllSongs = async () => {
-      try {
-        // 📥 Cargar todos los archivos JSON en paralelo
-        const responses = await Promise.all(
-          jsonFiles.map(file => 
-            fetch(file)
-              .then(res => res.ok ? res.json() : null)
-              .catch(() => null)
-          )
-        );
-
-        // 🎵 Procesar y aplanar todas las canciones
-        const songs = responses
-          .filter(res => res !== null)
-          .flatMap(data => {
-            if (data.albums) return data.albums.flatMap(album => album.songs || []);
-            if (data.songs) return data.songs;
-            return [];
-          })
-          .filter(song => song && song.title);
-
-        setAllSongs(songs);
-      } catch (error) {
-        console.error("Error cargando canciones para búsqueda:", error);
-      }
-    };
-
-    loadAllSongs();
+    const saved = localStorage.getItem('recentSongSearches');
+    if (saved) {
+      setRecentSearches(JSON.parse(saved).slice(0, 5));
+    }
   }, []);
 
-  // ======================================================
-  // 🔍 EFECTO: FILTRAR CANCIONES SEGÚN TÉRMINO DE BÚSQUEDA
-  // ======================================================
+  // GUARDAR BÚSQUEDA RECIENTE
+  const saveRecentSearch = (song) => {
+    const searches = JSON.parse(localStorage.getItem('recentSongSearches') || '[]');
+    
+    // EVITAR DUPLICADOS
+    const filtered = searches.filter(s => s.id !== song.id);
+    const updated = [song, ...filtered].slice(0, 10);
+    
+    localStorage.setItem('recentSongSearches', JSON.stringify(updated));
+    setRecentSearches(updated.slice(0, 5));
+  };
+
+  // BÚSQUEDA EN TIEMPO REAL
   useEffect(() => {
     if (!searchQuery.trim()) {
-      setFilteredSongs([]);
+      setSearchResults([]);
       return;
     }
 
-    const term = searchQuery.toLowerCase().trim();
-    const filtered = allSongs.filter(song => {
-      const title = song.title || "";
-      const artist = song.artist || "";
-      const key = song.key || "";
-      return (
-        title.toLowerCase().includes(term) || 
-        artist.toLowerCase().includes(term) ||
-        key.toLowerCase().includes(term)
-      );
-    });
+    const results = searchSongs(searchQuery);
+    setSearchResults(results.slice(0, 8)); // MOSTRAR MÁXIMO 8 RESULTADOS
+  }, [searchQuery, searchSongs]);
 
-    setFilteredSongs(filtered.slice(0, 5)); // 🔢 Mostrar solo 5 resultados
-  }, [searchQuery, allSongs]);
-
-  // ======================================================
-  // 🖱️ EFECTO: CERRAR SUGERENCIAS AL CLIC FUERA DEL COMPONENTE
-  // ======================================================
+  // MANEJAR CLIC FUERA DEL COMPONENTE DE BÚSQUEDA
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (searchRef.current && !searchRef.current.contains(event.target)) {
@@ -115,79 +68,112 @@ const Header = () => {
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
-  // ======================================================
-  // 🎯 FUNCIÓN: MANEJAR SELECCIÓN DE CANCIÓN EN BÚSQUEDA
-  // ======================================================
+  // MANEJAR SELECCIÓN DE CANCIÓN
   const handleSongSelect = (song) => {
-    // 🔍 Buscar en qué biblioteca está la canción
-    const findSongLibrary = async () => {
-      for (const file of jsonFiles) {
-        try {
-          const response = await fetch(file);
-          if (!response.ok) continue;
-          
-          const data = await response.json();
-          let songsArray = [];
-          
-          if (data.albums) songsArray = data.albums.flatMap(album => album.songs || []);
-          else if (data.songs) songsArray = data.songs;
-          
-          const foundSong = songsArray.find(s => s.file === song.file);
-          if (foundSong) {
-            const libraryId = getLibraryIdFromPath(file);
-            // 🧭 Navegar al visualizador de acordes
-            navigate(`/chords-viewer?library=${libraryId}&song=${encodeURIComponent(song.file)}`);
-            setSearchQuery("");
-            setShowSearchSuggestions(false);
-            return;
-          }
-        } catch (error) {
-          console.warn(`Error buscando en ${file}:`, error);
-        }
-      }
-    };
-
-    findSongLibrary();
-  };
-
-  // ======================================================
-  // 🆔 FUNCIÓN: OBTENER ID DE BIBLIOTECA DESDE RUTA DE ARCHIVO
-  // ======================================================
-  const getLibraryIdFromPath = (path) => {
-    const filename = path.split('/').pop().replace('.json', '');
-    const libraryMap = {
-      'listadochords-alegondramusic': 'alegondra',
-      'listadochords-almangopop': 'almangopop',
-      'listadocancionescasamiento': 'casamiento',
-      'listadochordscoversseleccionados1': 'covers1',
-      'listadochordscoversseleccionados2': 'covers2',
-      'listadochordscoversseleccionados3': 'covers3',
-      'listadochordscoverslatinos1': 'coverslatinos1',
-      'listadochordscoversnacionales1': 'coversnacionales1'
-    };
+    saveRecentSearch(song);
     
-    return libraryMap[filename] || 'covers1';
+    const path = getSongNavigationPath(song);
+    if (path) {
+      navigate(path);
+      setSearchQuery("");
+      setShowSearchSuggestions(false);
+      setIsMobileMenuOpen(false);
+    }
   };
 
-  // ======================================================
-  // 🗑️ FUNCIÓN: LIMPIAR TÉRMINO DE BÚSQUEDA
-  // ======================================================
+  // LIMPIAR BÚSQUEDA
   const clearSearch = () => {
     setSearchQuery("");
     setShowSearchSuggestions(false);
   };
 
-  // ======================================================
-  // 👁️ FUNCIÓN: MANEJAR FOCO EN CAMPO DE BÚSQUEDA
-  // ======================================================
+  // MANEJAR FOCO EN EL INPUT
   const handleSearchFocus = () => {
     setIsSearchFocused(true);
     setShowSearchSuggestions(true);
   };
 
-  // ======================================================
-  // 🎵 ICONOS PARA LA NAVEGACIÓN
-  // ======================================================
+  // RENDERIZAR SUGERENCIAS MEJORADAS
+  const renderSuggestions = () => {
+    if (!showSearchSuggestions || !searchQuery) return null;
+
+    const hasResults = searchResults.length > 0;
+    const hasRecentSearches = recentSearches.length > 0 && !searchQuery;
+
+    if (!hasResults && !hasRecentSearches) return null;
+
+    return (
+      <div className="header-search-suggestions enhanced">
+        <div className="suggestions-header">
+          <span>
+            {searchQuery 
+              ? `${searchResults.length} resultado${searchResults.length !== 1 ? 's' : ''}`
+              : 'Búsquedas recientes'
+            }
+          </span>
+          <button 
+            className="close-suggestions-btn"
+            onClick={() => setShowSearchSuggestions(false)}
+          >
+            <BsX />
+          </button>
+        </div>
+        
+        <div className="suggestions-list">
+          {/* BÚSQUEDAS RECIENTES */}
+          {!searchQuery && recentSearches.map((song) => (
+            <div
+              key={`recent-${song.id}`}
+              className="suggestion-item recent"
+              onClick={() => handleSongSelect(song)}
+            >
+              <BsClock className="recent-icon" />
+              <div className="suggestion-info-single-line">
+                <span className="suggestion-artist">{song.artist || 'Artista desconocido'}</span>
+                <span className="suggestion-separator"> - </span>
+                <span className="suggestion-title">{song.title}</span>
+                <span className="suggestion-library">{song.libraryName}</span>
+              </div>
+              <BsArrowRight className="suggestion-arrow" />
+            </div>
+          ))}
+          
+          {/* RESULTADOS DE BÚSQUEDA */}
+          {searchQuery && searchResults.map((song, index) => (
+            <div
+              key={song.id || index}
+              className="suggestion-item"
+              onClick={() => handleSongSelect(song)}
+            >
+              {index === 0 && <BsStar className="top-result-icon" />}
+              <div className="suggestion-info-single-line">
+                <span className="suggestion-artist">{song.artist || 'Artista desconocido'}</span>
+                <span className="suggestion-separator"> - </span>
+                <span className="suggestion-title">{song.title}</span>
+                <span className="suggestion-key">{song.key}</span>
+                <span className="suggestion-library">{song.libraryName}</span>
+              </div>
+              <BsArrowRight className="suggestion-arrow" />
+            </div>
+          ))}
+          
+          {/* SIN RESULTADOS */}
+          {searchQuery && searchResults.length === 0 && (
+            <div className="no-results-message">
+              No se encontraron canciones para "{searchQuery}"
+            </div>
+          )}
+        </div>
+        
+        {/* TIPS DE BÚSQUEDA */}
+        <div className="search-tips">
+          <span>💡 Tip: Busca por título, artista o tono musical</span>
+        </div>
+      </div>
+    );
+  };
+
+  // ICONOS PARA LA NAVEGACIÓN
   const icons = {
     home: <FiHome size={14} />,
     chords: <FiMusic size={14} />,
@@ -197,9 +183,7 @@ const Header = () => {
     library: <BsMusicNoteList size={14} />
   };
 
-  // ======================================================
-  // 💬 TEXTO PARA TOOLTIPS DE NAVEGACIÓN
-  // ======================================================
+  // TEXTO PARA TOOLTIPS
   const tooltips = {
     biblioteca: "Biblioteca completa de canciones",
     chords: "Visualizador de Cancioneros",
@@ -208,22 +192,18 @@ const Header = () => {
     format: "Formateo de Partituras"
   };
 
-  // ======================================================
-  // 📱 MANEJADORES DE INTERACCIÓN MÓVIL
-  // ======================================================
+  // MANEJADORES DE INTERACCIÓN MÓVIL
   const handleToggleMobileMenu = () => setIsMobileMenuOpen(!isMobileMenuOpen);
   const closeMobile = () => setIsMobileMenuOpen(false);
   const renderTooltip = (text) => <Tooltip>{text}</Tooltip>;
 
-  // ======================================================
-  // 🎨 RENDERIZADO DEL COMPONENTE
-  // ======================================================
+  // RENDERIZADO DEL COMPONENTE
   return (
     <header className="header">
       <Navbar expand="lg" className="navbar">
         <Container className="header-container">
 
-          {/* 🏷️ LOGO Y MARCA */}
+          {/* LOGO Y MARCA */}
           <Navbar.Brand as={Link} to="/" className="logo-container">
             <img
               src="/img/02-logos/logo-formateo-chords.png"
@@ -236,13 +216,13 @@ const Header = () => {
             </div>
           </Navbar.Brand>
 
-          {/* 🔍 BARRA DE BÚSQUEDA INTEGRADA */}
+          {/* BARRA DE BÚSQUEDA MEJORADA */}
           <div className="header-search-container" ref={searchRef}>
-            <div className="header-search-wrapper">
+            <div className="header-search-wrapper enhanced">
               <BsSearch className="header-search-icon" />
               <input
                 type="text"
-                placeholder="Buscar canción..."
+                placeholder="Buscar canción, artista o tono..."
                 value={searchQuery}
                 onChange={(e) => {
                   setSearchQuery(e.target.value);
@@ -251,47 +231,23 @@ const Header = () => {
                 onFocus={handleSearchFocus}
                 className="header-search-input"
               />
-              {searchQuery && (
+              {isLoading && (
+                <div className="search-loading-indicator">
+                  <div className="loading-spinner"></div>
+                </div>
+              )}
+              {searchQuery && !isLoading && (
                 <button className="header-clear-btn" onClick={clearSearch}>
                   <BsX />
                 </button>
               )}
             </div>
 
-            {/* 📋 SUGERENCIAS DE BÚSQUEDA (UNA SOLA LÍNEA) */}
-            {showSearchSuggestions && searchQuery && filteredSongs.length > 0 && (
-              <div className="header-search-suggestions">
-                <div className="suggestions-header">
-                  <span>Resultados de búsqueda</span>
-                  <button 
-                    className="close-suggestions-btn"
-                    onClick={() => setShowSearchSuggestions(false)}
-                  >
-                    <BsX />
-                  </button>
-                </div>
-                
-                <div className="suggestions-list">
-                  {filteredSongs.map((song) => (
-                    <div
-                      key={song.id || song.title}
-                      className="suggestion-item"
-                      onClick={() => handleSongSelect(song)}
-                    >
-                      <div className="suggestion-info-single-line">
-                        <span className="suggestion-artist">{song.artist || 'Artista desconocido'}</span>
-                        <span className="suggestion-separator"> - </span>
-                        <span className="suggestion-title">{song.title}</span>
-                      </div>
-                      <BsArrowRight className="suggestion-arrow" />
-                    </div>
-                  ))}
-                </div>
-              </div>
-            )}
+            {/* SUGERENCIAS MEJORADAS */}
+            {renderSuggestions()}
           </div>
 
-          {/* 📱 NAVEGACIÓN PRINCIPAL */}
+          {/* NAVEGACIÓN PRINCIPAL */}
           <div className="nav-section">
             <Navbar.Toggle aria-controls="basic-navbar-nav" className="navbar-toggler">
               <BsList className="menu-icon" onClick={handleToggleMobileMenu} />
@@ -300,7 +256,7 @@ const Header = () => {
             <Navbar.Collapse id="basic-navbar-nav" className={isMobileMenuOpen ? "show" : ""}>
               <Nav className="nav-primary">
 
-                {/* 📚 BIBLIOTECA CANCIONEROS */}
+                {/* BIBLIOTECA CANCIONEROS */}
                 <OverlayTrigger placement="bottom" overlay={renderTooltip(tooltips.biblioteca)}>
                   <Nav.Link as={Link} to="/biblioteca-cancioneros" className="nav-link" onClick={closeMobile}>
                     {icons.library} 
@@ -309,7 +265,7 @@ const Header = () => {
                   </Nav.Link>
                 </OverlayTrigger>
 
-                {/* 🎼 VISUALIZADOR CHORDS */}
+                {/* VISUALIZADOR CHORDS */}
                 <OverlayTrigger placement="bottom" overlay={renderTooltip(tooltips.chords)}>
                   <Nav.Link as={Link} to="/chords-viewer" className="nav-link" onClick={closeMobile}>
                     {icons.chords} 
@@ -317,7 +273,7 @@ const Header = () => {
                   </Nav.Link>
                 </OverlayTrigger>
 
-                {/* ▶️ REPRODUCTOR PISTAS */}
+                {/* REPRODUCTOR PISTAS */}
                 <OverlayTrigger placement="bottom" overlay={renderTooltip(tooltips.player)}>
                   <Nav.Link as={Link} to="/player" className="nav-link" onClick={closeMobile}>
                     {icons.video} 
@@ -325,7 +281,7 @@ const Header = () => {
                   </Nav.Link>
                 </OverlayTrigger>
 
-                {/* 🎵 TEORÍA MUSICAL */}
+                {/* TEORÍA MUSICAL */}
                 <OverlayTrigger placement="bottom" overlay={renderTooltip(tooltips.library)}>
                   <Nav.Link as={Link} to="/formateo-chords" className="nav-link" onClick={closeMobile}>
                     {icons.formateo} 
@@ -333,7 +289,7 @@ const Header = () => {
                   </Nav.Link>
                 </OverlayTrigger>
 
-                {/* 📝 FORMATEO */}
+                {/* FORMATEO */}
                 <OverlayTrigger placement="bottom" overlay={renderTooltip(tooltips.format)}>
                   <Nav.Link as={Link} to="/chords-format" className="nav-link" onClick={closeMobile}>
                     {icons.format} 

@@ -1,0 +1,91 @@
+{
+    "name": "Ale Gondra - Covers Reggae Inglés",
+    "artist": "Ale Gondra",
+    "type": "cover",
+    "description": "Listado de covers de canciones de reggae en inglés",
+    "year": 2025,
+    "basePath": "/data/02-chords-covers/cancionescovers-reggaeingles/",
+    "albums": [
+      {
+        "album_id": "covers-reggaeingles",
+        "album_name": "Covers Reggae Inglés",
+        "artist": "Ale Gondra",
+        "year": 2025,
+        "cover_image": "/data/02-chords-covers/cancionescovers-reggaeingles/cover-reggaeingles.jpg",
+        "genre": "Reggae",
+        "songs": [
+          {
+            "id": "bob-marley-could-you-be-loved",
+            "title": "Could You Be Loved",
+            "artist": "Bob Marley (Cover: Ale Gondra)",
+            "file": "bob-marley-could-you-be-loved.json",
+            "track_number": 1,
+            "duration": "",
+            "key": "",
+            "bpm": 0,
+            "genre": "Reggae",
+            "style": "Reggae Clásico",
+            "mp3_file": "/audio/mp3cancionescovers/mp3cancionescovers-reggaeingles/bob-marley-could-you-be-loved.mp3",
+            "multitrack": {}
+          },
+          {
+            "id": "bob-marley-is-this-love",
+            "title": "Is This Love",
+            "artist": "Bob Marley (Cover: Ale Gondra)",
+            "file": "bob-marley-is-this-love.json",
+            "track_number": 2,
+            "duration": "",
+            "key": "",
+            "bpm": 0,
+            "genre": "Reggae",
+            "style": "Reggae Clásico",
+            "mp3_file": "/audio/mp3cancionescovers/mp3cancionescovers-reggaeingles/bob-marley-is-this-love.mp3",
+            "multitrack": {}
+          },
+          {
+            "id": "bob-marley-no-woman-no-cry",
+            "title": "No Woman, No Cry",
+            "artist": "Bob Marley (Cover: Ale Gondra)",
+            "file": "bob-marley-no-woman-no-cry.json",
+            "track_number": 3,
+            "duration": "",
+            "key": "",
+            "bpm": 0,
+            "genre": "Reggae",
+            "style": "Reggae Clásico",
+            "mp3_file": "/audio/mp3cancionescovers/mp3cancionescovers-reggaeingles/bob-marley-no-woman-no-cry.mp3",
+            "multitrack": {}
+          },
+          {
+            "id": "bob-marley-three-little-birds",
+            "title": "Three Little Birds",
+            "artist": "Bob Marley (Cover: Ale Gondra)",
+            "file": "bob-marley-three-little-birds.json",
+            "track_number": 4,
+            "duration": "",
+            "key": "",
+            "bpm": 0,
+            "genre": "Reggae",
+            "style": "Reggae Clásico",
+            "mp3_file": "/audio/mp3cancionescovers/mp3cancionescovers-reggaeingles/bob-marley-three-little-birds.mp3",
+            "multitrack": {}
+          },
+          {
+            "id": "sublime-santeria",
+            "title": "Santeria",
+            "artist": "Sublime (Cover: Ale Gondra)",
+            "file": "sublime-santeria.json",
+            "track_number": 5,
+            "duration": "",
+            "key": "",
+            "bpm": 0,
+            "genre": "Reggae",
+            "style": "Reggae Rock",
+            "mp3_file": "/audio/mp3cancionescovers/mp3cancionescovers-reggaeingles/sublime-santeria.mp3",
+            "multitrack": {}
+          }
+        ]
+      }
+    ]
+  }
+  

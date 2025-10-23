@@ -1,145 +1,202 @@
 {
-  "songs": [
+  "name": "Ale Gondra - Show de Casamiento Ale & Fabi",
+  "artist": "Ale Gondra",
+  "type": "show",
+  "description": "Listado de canciones para el show de casamiento de Ale y Fabi",
+  "year": 2025,
+  "basePath": "/data/03-chords-de-shows-por-listados/chords-show-casamiento-ale-fabi/",
+  "albums": [
     {
-      "id": "creedence-have-you-ever-seen-the-rain",
-      "title": "Have You Ever Seen The Rain",
-      "artist": "Creedence Clearwater Revival",
-      "file": "creedence-have-you-ever-seen-the-rain.json",
-      "key": "A"
-    },
-    {
-      "id": "creedence-proud-mary",
-      "title": "Proud Mary",
-      "artist": "Creedence Clearwater Revival",
-      "file": "creedence-proud-mary.json",
-      "key": "A"
-    },
-    {
-      "id": "bonnie-tyler-its-a-heartache",
-      "title": "It's a Heartache",
-      "artist": "Bonnie Tyler",
-      "file": "bonnie-tyler-its-a-heartache.json",
-      "key": "A"
-    },
-    {
-      "id": "beatles-stand-by-me",
-      "title": "Stand by Me",
-      "artist": "Beatles",
-      "file": "beatles-stand-by-me.json",
-      "key": "G"
-    },
-    {
-      "id": "police-every-breath-you-take",
-      "title": "Every Breath You Take",
-      "artist": "Police",
-      "file": "police-every-breath-you-take.json",
-      "key": "G"
-    },
-    {
-      "id": "queen-radio-ga-ga",
-      "title": "Radio Ga Ga",
-      "artist": "Queen",
-      "file": "queen-radio-ga-ga.json",
-      "key": "D"
-    },
-    {
-      "id": "queen-i-want-to-break-free",
-      "title": "I Want to Break Free",
-      "artist": "Queen",
-      "file": "queen-i-want-to-break-free.json",
-      "key": "C"
-    },
-    {
-      "id": "a-ha-take-on-me",
-      "title": "Take on Me",
-      "artist": "A-ha",
-      "file": "a-ha-take-on-me.json",
-      "key": "F"
-    },
-    {
-      "id": "a-ha-take-on-me-transportado",
-      "title": "Take on Me (Transportado - 3er Traste)",
-      "artist": "A-ha",
-      "file": "a-ha-take-on-me-transportado.json",
-      "key": "F",
-      "capo": 3
-    },
-    {
-      "id": "erasure-little-respect",
-      "title": "Little Respect",
-      "artist": "Erasure",
-      "file": "erasure-little-respect.json",
-      "key": "A"
-    },
-    {
-      "id": "depeche-mode-i-just-cant-get-enough",
-      "title": "I Just Can't Get Enough",
-      "artist": "Depeche Mode",
-      "file": "depeche-mode-i-just-cant-get-enough.json",
-      "key": "G"
-    },
-    {
-      "id": "lipps-inc-funkytown",
-      "title": "Funkytown",
-      "artist": "Lipps Inc",
-      "file": "lipps-inc-funkytown.json",
-      "key": "Gm"
-    },
-    {
-      "id": "roy-orbison-pretty-woman",
-      "title": "Pretty Woman",
-      "artist": "Roy Orbison",
-      "file": "roy-orbison-pretty-woman.json",
-      "key": "A"
-    },
-    {
-      "id": "the-wonders-that-thing-you-do",
-      "title": "That Thing You Do",
-      "artist": "The Wonders",
-      "file": "the-wonders-that-thing-you-do.json",
-      "key": "D"
-    },
-    {
-      "id": "queen-crazy-little-thing-called-love",
-      "title": "Crazy Little Thing Called Love",
-      "artist": "Queen",
-      "file": "queen-crazy-little-thing-called-love.json",
-      "key": "D"
-    },
-    {
-      "id": "creedence-travelin-band",
-      "title": "Travelin Band",
-      "artist": "Creedence Clearwater Revival",
-      "file": "creedence-travelin-band.json",
-      "key": "E"
-    },
-    {
-      "id": "dire-straits-walk-of-life",
-      "title": "Walk Of Life",
-      "artist": "Dire Straits",
-      "file": "dire-straits-walk-of-life.json",
-      "key": "E"
-    },
-    {
-      "id": "kenny-loggins-footloose",
-      "title": "Footloose",
-      "artist": "Kenny Loggins",
-      "file": "kenny-loggins-footloose.json",
-      "key": "F"
-    },
-    {
-      "id": "magneto-vuela-vuela",
-      "title": "Vuela Vuela",
-      "artist": "Magneto",
-      "file": "magneto-vuela-vuela.json",
-      "key": "Em"
-    },
-    {
-      "id": "bananarama-venus",
-      "title": "Venus",
-      "artist": "Bananarama",
-      "file": "bananarama-venus.json",
-      "key": "Dm"
+      "album_id": "show-casamiento-ale-fabi",
+      "album_name": "Show de Casamiento Ale & Fabi",
+      "artist": "Ale Gondra",
+      "year": 2025,
+      "cover_image": "/data/03-chords-de-shows-por-listados/chords-show-casamiento-ale-fabi/cover-casamiento-ale-fabi.jpg",
+      "genre": "Show en Vivo",
+      "songs": [
+        {
+          "id": "a-ha-take-on-me",
+          "title": "Take On Me",
+          "artist": "A-ha (Cover: Ale Gondra)",
+          "file": "a-ha-take-on-me.json",
+          "track_number": 1,
+          "duration": "",
+          "key": "",
+          "bpm": 0,
+          "genre": "Pop Rock",
+          "style": "Pop Clásico",
+          "mp3_file": "/audio/mp3shows/mp3shows-casamiento-ale-fabi/a-ha-take-on-me.mp3",
+          "multitrack": {}
+        },
+        {
+          "id": "a-ha-take-on-me-transportado",
+          "title": "Take On Me (Transportado)",
+          "artist": "A-ha (Cover: Ale Gondra)",
+          "file": "a-ha-take-on-me-transportado.json",
+          "track_number": 2,
+          "duration": "",
+          "key": "",
+          "bpm": 0,
+          "genre": "Pop Rock",
+          "style": "Pop Clásico",
+          "mp3_file": "/audio/mp3shows/mp3shows-casamiento-ale-fabi/a-ha-take-on-me-transportado.mp3",
+          "multitrack": {}
+        },
+        {
+          "id": "beatles-stand-by-me",
+          "title": "Stand By Me",
+          "artist": "The Beatles (Cover: Ale Gondra)",
+          "file": "beatles-stand-by-me.json",
+          "track_number": 3,
+          "duration": "",
+          "key": "",
+          "bpm": 0,
+          "genre": "Pop Rock",
+          "style": "Balada Pop",
+          "mp3_file": "/audio/mp3shows/mp3shows-casamiento-ale-fabi/beatles-stand-by-me.mp3",
+          "multitrack": {}
+        },
+        {
+          "id": "bonnie-tyler-its-a-heartache",
+          "title": "It's a Heartache",
+          "artist": "Bonnie Tyler (Cover: Ale Gondra)",
+          "file": "bonnie-tyler-its-a-heartache.json",
+          "track_number": 4,
+          "duration": "",
+          "key": "",
+          "bpm": 0,
+          "genre": "Pop Rock",
+          "style": "Pop Clásico",
+          "mp3_file": "/audio/mp3shows/mp3shows-casamiento-ale-fabi/bonnie-tyler-its-a-heartache.mp3",
+          "multitrack": {}
+        },
+        {
+          "id": "creedence-have-you-ever-seen-the-rain",
+          "title": "Have You Ever Seen the Rain",
+          "artist": "Creedence Clearwater Revival (Cover: Ale Gondra)",
+          "file": "creedence-have-you-ever-seen-the-rain.json",
+          "track_number": 5,
+          "duration": "",
+          "key": "",
+          "bpm": 0,
+          "genre": "Pop Rock",
+          "style": "Rock Clásico",
+          "mp3_file": "/audio/mp3shows/mp3shows-casamiento-ale-fabi/creedence-have-you-ever-seen-the-rain.mp3",
+          "multitrack": {}
+        },
+        {
+          "id": "creedence-proud-mary",
+          "title": "Proud Mary",
+          "artist": "Creedence Clearwater Revival (Cover: Ale Gondra)",
+          "file": "creedence-proud-mary.json",
+          "track_number": 6,
+          "duration": "",
+          "key": "",
+          "bpm": 0,
+          "genre": "Pop Rock",
+          "style": "Rock Clásico",
+          "mp3_file": "/audio/mp3shows/mp3shows-casamiento-ale-fabi/creedence-proud-mary.mp3",
+          "multitrack": {}
+        },
+        {
+          "id": "erasure-little-respect",
+          "title": "A Little Respect",
+          "artist": "Erasure (Cover: Ale Gondra)",
+          "file": "erasure-little-respect.json",
+          "track_number": 7,
+          "duration": "",
+          "key": "",
+          "bpm": 0,
+          "genre": "Pop Rock",
+          "style": "Pop Electrónico",
+          "mp3_file": "/audio/mp3shows/mp3shows-casamiento-ale-fabi/erasure-little-respect.mp3",
+          "multitrack": {}
+        },
+        {
+          "id": "magneto-vuela-vuela",
+          "title": "Vuela Vuela",
+          "artist": "Magneto (Cover: Ale Gondra)",
+          "file": "magneto-vuela-vuela.json",
+          "track_number": 8,
+          "duration": "",
+          "key": "",
+          "bpm": 0,
+          "genre": "Pop Rock",
+          "style": "Pop Latino",
+          "mp3_file": "/audio/mp3shows/mp3shows-casamiento-ale-fabi/magneto-vuela-vuela.mp3",
+          "multitrack": {}
+        },
+        {
+          "id": "police-every-breath-you-take",
+          "title": "Every Breath You Take",
+          "artist": "The Police (Cover: Ale Gondra)",
+          "file": "police-every-breath-you-take.json",
+          "track_number": 9,
+          "duration": "",
+          "key": "",
+          "bpm": 0,
+          "genre": "Pop Rock",
+          "style": "Rock Alternativo",
+          "mp3_file": "/audio/mp3shows/mp3shows-casamiento-ale-fabi/police-every-breath-you-take.mp3",
+          "multitrack": {}
+        },
+        {
+          "id": "queen-i-want-to-break-free",
+          "title": "I Want to Break Free",
+          "artist": "Queen (Cover: Ale Gondra)",
+          "file": "queen-i-want-to-break-free.json",
+          "track_number": 10,
+          "duration": "",
+          "key": "",
+          "bpm": 0,
+          "genre": "Pop Rock",
+          "style": "Rock Clásico",
+          "mp3_file": "/audio/mp3shows/mp3shows-casamiento-ale-fabi/queen-i-want-to-break-free.mp3",
+          "multitrack": {}
+        },
+        {
+          "id": "queen-radio-ga-ga",
+          "title": "Radio Ga Ga",
+          "artist": "Queen (Cover: Ale Gondra)",
+          "file": "queen-radio-ga-ga.json",
+          "track_number": 11,
+          "duration": "",
+          "key": "",
+          "bpm": 0,
+          "genre": "Pop Rock",
+          "style": "Rock Clásico",
+          "mp3_file": "/audio/mp3shows/mp3shows-casamiento-ale-fabi/queen-radio-ga-ga.mp3",
+          "multitrack": {}
+        },
+        {
+          "id": "roy-orbison-pretty-woman",
+          "title": "Pretty Woman",
+          "artist": "Roy Orbison (Cover: Ale Gondra)",
+          "file": "roy-orbison-pretty-woman.json",
+          "track_number": 12,
+          "duration": "",
+          "key": "",
+          "bpm": 0,
+          "genre": "Pop Rock",
+          "style": "Rock Clásico",
+          "mp3_file": "/audio/mp3shows/mp3shows-casamiento-ale-fabi/roy-orbison-pretty-woman.mp3",
+          "multitrack": {}
+        },
+        {
+          "id": "the-wonders-that-thing-you-do",
+          "title": "That Thing You Do",
+          "artist": "The Wonders (Cover: Ale Gondra)",
+          "file": "the-wonders-that-thing-you-do.json",
+          "track_number": 13,
+          "duration": "",
+          "key": "",
+          "bpm": 0,
+          "genre": "Pop Rock",
+          "style": "Pop Clásico",
+          "mp3_file": "/audio/mp3shows/mp3shows-casamiento-ale-fabi/the-wonders-that-thing-you-do.mp3",
+          "multitrack": {}
+        }
+      ]
     }
   ]
 }
