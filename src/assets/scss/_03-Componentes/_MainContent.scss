@@ -1,40 +1,99 @@
 // ================================================
-// MAIN CONTENT - Reproductor arriba, Galería debajo
+// ARCHIVO: _MainContent.scss - ESTILOS ESPECÍFICOS DEL COMPONENTE
+// UBICACIÓN: src/assets/scss/_03-Componentes/_MainContent.scss
+// DESCRIPCIÓN: Estilos exclusivos para el componente MainContent.jsx
+// IMPORTANTE: Estos estilos fueron extraídos de App.scss para independizar el componente
 // ================================================
 
-//---------contenedor principal--------------------//
-.mainContent {
-  width: 100%;
-  min-height: 100vh;
-  background-color: transparent;
-  padding: 0;
-  display: flex;
-  justify-content: center;
+// ================================================
+// ESTILOS PARA MAINCONTENT COMPACTO
+// ================================================
+
+/* HERO COMPACTO */
+.hero-compact {
+  background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+  border-radius: 6px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #444;
 }
 
-//---------contenedor principal de los elementos--------------------//
-.mainContentContainer {
+.hero-title {
   display: flex;
-  flex-direction: column; /* 👈 apila los items verticalmente */
-  width: 100%;
-  max-width: 1400px; /* opcional: limitar en pantallas muy grandes */
-  padding: 0;
-  box-sizing: border-box;
-}
-
-//---------items del contenedor--------------------//
-.gridItem {
-  width: 100%;
-  background-color: transparent;
-  padding: 10px 0; /* un poco de respiro entre bloques */
-  display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
-/* =============================================== */
-/* ESTILOS ADICIONALES PARA MAINCONTENT */
-/* =============================================== */
+.hero-icon {
+  color: #e63946;
+}
+
+.hero-subtitle {
+  color: #e9ecef;
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+/* SECCIÓN DE ACCESO RÁPIDO */
+.quick-access-section {
+  margin-bottom: 1rem;
+}
+
+.section-title {
+  font-size: 1.2rem;
+  margin-bottom: 0.8rem;
+  color: #ffd166;
+  text-align: left;
+  padding-left: 0.5rem;
+}
+
+.cards-grid-compact {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 0.5rem;
+}
+
+.action-card-compact {
+  background: #2a2a2a;
+  border-radius: 6px;
+  padding: 0.8rem;
+  text-decoration: none;
+  border-top: 3px solid;
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  
+  &:hover {
+    transform: translateY(-2px);
+    background: #3a3a3a;
+  }
+}
+
+.card-icon-compact {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-content-compact {
+  flex: 1;
+}
+
+.card-title-compact {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+  color: #f8f9fa;
+}
+
+.card-desc-compact {
+  font-size: 0.75rem;
+  color: #adb5bd;
+  line-height: 1.2;
+}
 
 /* TARJETA PRINCIPAL DESTACADA */
 .action-card-primary {
@@ -63,10 +122,71 @@
   50% { opacity: 0.7; transform: scale(1.1); }
 }
 
-/* =============================================== */
-/* ESTILOS PARA HEADER DESTACADO */
-/* =============================================== */
+/* TARJETA DESHABILITADA */
+.action-card-disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+  
+  &:hover {
+    transform: none !important;
+    background: #2a2a2a !important;
+  }
+  
+  .card-badge {
+    display: inline-block;
+    background: linear-gradient(135deg, #06d6a0, #118ab2);
+    color: white;
+    font-size: 0.65rem;
+    font-weight: 700;
+    padding: 0.15rem 0.3rem;
+    border-radius: 3px;
+    margin-top: 0.3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+}
 
+/* SECCIÓN DE INFORMACIÓN */
+.info-section-compact {
+  margin-top: 1rem;
+}
+
+.info-grid-compact {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.8rem;
+}
+
+.info-item-compact {
+  background: #2a2a2a;
+  border-radius: 6px;
+  padding: 0.8rem;
+  text-align: center;
+  border: 1px solid #444;
+}
+
+.info-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.info-item-compact h4 {
+  font-size: 0.9rem;
+  margin-bottom: 0.3rem;
+  color: #ffd166;
+}
+
+.info-item-compact p {
+  font-size: 0.75rem;
+  color: #adb5bd;
+  margin-bottom: 0;
+}
+
+// ================================================
+// ESTILOS PARA HEADER DESTACADO (si se usan en MainContent)
+// ================================================
+
+/* ESTILOS PARA HEADER DESTACADO */
 .nav-item-highlight {
   background: linear-gradient(135deg, #e63946 0%, #c1121f 100%) !important;
   color: white !important;
@@ -89,12 +209,31 @@
   50% { transform: scale(1.1); }
 }
 
-/* =============================================== */
-/* RESPONSIVE PARA HEADER DESTACADO */
-/* =============================================== */
+// ================================================
+// RESPONSIVE PARA MAINCONTENT
+// ================================================
 
 /* MOBILE */
 @media (max-width: 767px) {
+  .cards-grid-compact {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.4rem;
+  }
+  
+  .action-card-compact {
+    padding: 0.6rem;
+  }
+  
+  .card-icon-compact {
+    font-size: 1.5rem;
+  }
+  
+  .info-grid-compact {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+  
+  /* RESPONSIVE PARA HEADER DESTACADO */
   .nav-item-highlight {
     background: #e63946 !important;
     
@@ -104,8 +243,18 @@
   }
 }
 
-/* TABLET Y ESCRITORIO */
-@media (min-width: 768px) {
+/* TABLET */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .cards-grid-compact {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.6rem;
+  }
+  
+  .info-grid-compact {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  /* TABLET Y ESCRITORIO PARA HEADER DESTACADO */
   .nav-item-highlight {
     position: relative;
     
@@ -121,9 +270,20 @@
       animation: slide-line 3s infinite;
     }
   }
+  
+  @keyframes slide-line {
+    0%, 100% { width: 60%; left: 20%; }
+    50% { width: 80%; left: 10%; }
+  }
 }
 
-@keyframes slide-line {
-  0%, 100% { width: 60%; left: 20%; }
-  50% { width: 80%; left: 10%; }
+/* ESCRITORIO */
+@media (min-width: 1024px) {
+  .cards-grid-compact {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  
+  .info-grid-compact {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }

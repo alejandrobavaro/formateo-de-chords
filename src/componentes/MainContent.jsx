@@ -1,5 +1,8 @@
 // ======================================================
-// MAINCONTENT.JSX - VERSIÓN ACTUALIZADA
+// MAINCONTENT.JSX - VERSIÓN CON ESTILOS INDEPENDIENTES
+// DESCRIPCIÓN: Componente principal de la página de inicio
+// ESTILOS: Ubicados en src/assets/scss/_03-Componentes/_MainContent.scss
+// ESTRATEGIA: Mobile-first, diseño compacto, máximo aprovechamiento de espacio
 // ======================================================
 
 import React from "react";
@@ -15,13 +18,18 @@ import {
   BsHouse
 } from "react-icons/bs";
 
+// Importar estilos específicos del componente
+import "../assets/scss/_03-Componentes/_MainContent.scss";
+
 // ======================================================
 // COMPONENTE PRINCIPAL
+// DESCRIPCIÓN: Renderiza la página de inicio con acceso rápido a todas las secciones
 // ======================================================
 const MainContent = () => {
   
   // ======================================================
   // TARJETAS DE ACCIÓN RÁPIDA (ACTUALIZADAS)
+  // DESCRIPCIÓN: Configuración de las tarjetas de acceso rápido
   // ======================================================
   const actionCards = [
     {
@@ -29,14 +37,14 @@ const MainContent = () => {
       description: "Página principal",
       icon: <BsHouse />,
       path: "/",
-      color: "#ffd166"
+      color: "#ffd166" // Dorado
     },
     {
       title: "Música",
       description: "Reproductor con visualizador de acordes",
       icon: <BsMusicNoteBeamed />,
       path: "/musica",
-      color: "#e63946",
+      color: "#e63946", // Rojo principal
       primary: true
     },
     {
@@ -44,14 +52,14 @@ const MainContent = () => {
       description: "Reproductor de video musical",
       icon: <BsFilm />,
       path: "/Videos",
-      color: "#118ab2"
+      color: "#118ab2" // Azul
     },
     {
       title: "Pistas",
       description: "Próximamente",
       icon: <BsPlayCircle />,
       path: "#",
-      color: "#06d6a0",
+      color: "#06d6a0", // Verde
       disabled: true
     },
     {
@@ -59,26 +67,27 @@ const MainContent = () => {
       description: "Teoría musical y recursos",
       icon: <BsBook />,
       path: "/formateo-chords",
-      color: "#7209b7"
+      color: "#7209b7" // Púrpura
     },
     {
       title: "Formateo",
       description: "Formateo de partituras",
       icon: <BsGear />,
       path: "/chords-format",
-      color: "#f15bb5"
+      color: "#f15bb5" // Rosa
     },
     {
       title: "Contacto",
       description: "Información de contacto",
       icon: <BsEnvelope />,
       path: "/contacto",
-      color: "#4cc9f0"
+      color: "#4cc9f0" // Azul claro
     }
   ];
 
   // ======================================================
   // FUNCIÓN: MANEJAR CLIC EN BOTÓN DESHABILITADO
+  // DESCRIPCIÓN: Muestra alerta cuando se intenta acceder a sección en desarrollo
   // ======================================================
   const handleDisabledClick = (e) => {
     e.preventDefault();
@@ -87,12 +96,14 @@ const MainContent = () => {
 
   // ======================================================
   // RENDER PRINCIPAL
+  // DESCRIPCIÓN: Estructura de la página de inicio con tres secciones principales
   // ======================================================
   return (
     <div className="main-content-compact">
       
       {/* ====================================================== */}
       {/* HERO SECTION COMPACTA */}
+      {/* DESCRIPCIÓN: Encabezado principal con título y descripción */}
       {/* ====================================================== */}
       <section className="hero-compact">
         <div className="hero-content">
@@ -108,17 +119,20 @@ const MainContent = () => {
 
       {/* ====================================================== */}
       {/* ACCESOS DIRECTOS - GRID COMPACTO */}
+      {/* DESCRIPCIÓN: Grid de tarjetas para acceso rápido a todas las secciones */}
       {/* ====================================================== */}
       <section className="quick-access-section">
         <h2 className="section-title">Acceso Rápido</h2>
         <div className="cards-grid-compact">
           {actionCards.map((card, index) => (
             card.disabled ? (
+              // Tarjeta deshabilitada (en desarrollo)
               <button
                 key={index}
                 className="action-card-compact action-card-disabled"
                 onClick={handleDisabledClick}
                 style={{ borderTopColor: card.color }}
+                aria-label={`${card.title} - ${card.description} (En desarrollo)`}
               >
                 <div className="card-icon-compact" style={{ color: card.color }}>
                   {card.icon}
@@ -126,15 +140,17 @@ const MainContent = () => {
                 <div className="card-content-compact">
                   <h3 className="card-title-compact">{card.title}</h3>
                   <p className="card-desc-compact">{card.description}</p>
-                  <span className="card-badge">Pronto</span>
+                  <span className="card-badge" aria-hidden="true">Pronto</span>
                 </div>
               </button>
             ) : (
+              // Tarjeta habilitada (enlace funcional)
               <Link 
                 key={index} 
                 to={card.path} 
                 className={`action-card-compact ${card.primary ? 'action-card-primary' : ''}`}
                 style={{ borderTopColor: card.color }}
+                aria-label={`Ir a ${card.title} - ${card.description}`}
               >
                 <div className="card-icon-compact" style={{ color: card.color }}>
                   {card.icon}
@@ -151,21 +167,22 @@ const MainContent = () => {
 
       {/* ====================================================== */}
       {/* INFORMACIÓN RÁPIDA */}
+      {/* DESCRIPCIÓN: Sección con información destacada sobre las funcionalidades */}
       {/* ====================================================== */}
       <section className="info-section-compact">
         <div className="info-grid-compact">
           <div className="info-item-compact">
-            <div className="info-icon">🎵</div>
+            <div className="info-icon" aria-hidden="true">🎵</div>
             <h4>Reproductor Completo</h4>
             <p>Escucha música con visualizador de acordes integrado</p>
           </div>
           <div className="info-item-compact">
-            <div className="info-icon">🎸</div>
+            <div className="info-icon" aria-hidden="true">🎸</div>
             <h4>Acordes Inteligentes</h4>
             <p>Visualiza y transpone acordes en tiempo real</p>
           </div>
           <div className="info-item-compact">
-            <div className="info-icon">📺</div>
+            <div className="info-icon" aria-hidden="true">📺</div>
             <h4>Videos Musicales</h4>
             <p>Reproductor de video con lista de reproducción</p>
           </div>

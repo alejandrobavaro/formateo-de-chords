@@ -457,7 +457,7 @@ const MMusicaEscucha = () => {
   // RENDERIZADO COMPLETO
   // ============================================
   return (
-    <div className="reproductor-almango-estructura-mas-altura">
+    <div className="reproductor-almango-estructura-mas-altura reproductor-independiente">
       <audio ref={audioRef} />
 
       {/* HEADER ULTRA COMPACTO - TODO EN 1 LÍNEA */}

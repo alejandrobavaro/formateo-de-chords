@@ -13,7 +13,8 @@
           "title": "MIX CCR Bonnie Tyler",
           "artist": "Almango Pop",
           "duration": "12:30",
-          "mp3_url": "/audio/02-mp3-covers/Intro-Ccr-Have-you-Ccr-Proud-Its-a-hearche.mp3",
+          "mp3_url": "/audio/03-mp3-medleys/Intro-Ccr-Have-you-Ccr-Proud-Its-a-hearche.mp3",
+
           "chords_url": [
             "/chords/02-cancioneroscovers/creedence-have-you-ever-seen-the-rain.json",
             "/chords/02-cancioneroscovers/creedence-proud-mary.json",
@@ -34,7 +35,7 @@
           "title": "Stand by Me / Every Breath You Take",
           "artist": "Almango Pop",
           "duration": "08:45",
-          "mp3_url": "/audio/02-mp3-covers/Beatles-Stand-by-me-Police-Every-breath-you.mp3",
+          "mp3_url": "/audio/03-mp3-medleys/Beatles-Stand-by-me-Police-Every-breath-you.mp3",
           "chords_url": [
             "/chords/02-cancioneroscovers/beatles-stand-by-me.json",
             "/chords/02-cancioneroscovers/police-every-breath-you-take.json"
@@ -54,7 +55,7 @@
           "title": "I Want to Break Free + Radio GaGa",
           "artist": "Almango Pop",
           "duration": "07:50",
-          "mp3_url": "/audio/02-mp3-covers/Queen-Radio-Gaga-I-want-to-break-free.mp3",
+          "mp3_url": "/audio/03-mp3-medleys/Queen-Radio-Gaga-I-want-to-break-free.mp3",
           "chords_url": [
             "/chords/02-cancioneroscovers/queen-i-want-to-break-free.json",
             "/chords/02-cancioneroscovers/queen-radio-ga-ga.json"
@@ -74,10 +75,8 @@
           "title": "Take on Me",
           "artist": "Almango Pop",
           "duration": "03:50",
-          "mp3_url": "/audio/02-mp3-covers/Aha-Take-on-me.mp3",
-          "chords_url": [
-            "/chords/02-cancioneroscovers/a-ha-take-on-me.json"
-          ],
+          "mp3_url": "/audio/03-mp3-medleys/Aha-Take-on-me.mp3",
+          "chords_url": ["/chords/02-cancioneroscovers/a-ha-take-on-me.json"],
           "details": {
             "letra": "A-ha - Take on Me (versión completa)",
             "acordes": ["A", "E", "F#m", "D"],
@@ -93,7 +92,7 @@
           "title": "A Little Respect / Your Love",
           "artist": "Almango Pop",
           "duration": "06:15",
-          "mp3_url": "/audio/02-mp3-covers/A-Little-Respect-Your-Love-19-09-2025.mp3",
+          "mp3_url": "/audio/03-mp3-medleys/A-Little-Respect-Your-Love-19-09-2025.mp3",
           "chords_url": [
             "/chords/02-cancioneroscovers/erasure-little-respect.json",
             "/chords/02-cancioneroscovers/the-wonders-that-thing-you-do.json"
@@ -113,7 +112,7 @@
           "title": "Pretty Woman / That Thing You Do",
           "artist": "Almango Pop",
           "duration": "06:40",
-          "mp3_url": "/audio/02-mp3-covers/Preaty-woman-The-Wonders-19-09-2025.mp3",
+          "mp3_url": "/audio/03-mp3-medleys/Preaty-woman-The-Wonders-19-09-2025.mp3",
           "chords_url": [
             "/chords/02-cancioneroscovers/roy-orbison-pretty-woman.json",
             "/chords/02-cancioneroscovers/the-wonders-that-thing-you-do.json"
@@ -133,7 +132,7 @@
           "title": "Never Tear Us Apart",
           "artist": "Almango Pop",
           "duration": "04:20",
-          "mp3_url": "/audio/02-mp3-covers/INXS-Never-tear-us-apart-1.mp3",
+          "mp3_url": "/audio/03-mp3-medleys/INXS-Never-tear-us-apart-1.mp3",
           "chords_url": [
             "/chords/02-cancioneroscovers/inxs-never-tear-us-apart.json"
           ],
