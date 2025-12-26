@@ -1,0 +1,274 @@
+// ============================================
+// ITEM DE CANCIÓN ULTRA COMPACTO - VERSIÓN MÁS COMPACTA
+// OBJETIVO: Máxima densidad de información - TODO MÁS PEQUEÑO PERO LEGIBLE
+// Altura objetivo: 30px (antes 32px)
+// ============================================
+
+.cancion-item {
+  display: grid;
+  grid-template-columns: 16px 22px 1fr 32px 48px; // Más compacto
+  align-items: center;
+  padding: 0.1rem 0.3rem; // Más compacto
+  border-bottom: 1px solid rgba(100, 100, 150, 0.08);
+  transition: all 0.15s ease;
+  min-height: 30px; // MÁS COMPACTO (antes 32px)
+  gap: 0.3rem; // Menos espacio
+  
+  &:hover {
+    background: rgba(50, 50, 80, 0.2);
+    border-radius: 4px;
+  }
+  
+  &.cancion-actual {
+    background: rgba(156, 136, 255, 0.1);
+    border-radius: 4px;
+    border-left: 2px solid #9c88ff;
+    
+    .info-titulo {
+      color: #9c88ff;
+      font-weight:500;
+    }
+  }
+  
+  /* Número de pista - MÁS PEQUEÑO */
+  .item-numero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    .numero-normal {
+      color: rgba(200, 200, 220, 0.4);
+      font-size: 0.6rem; // Más pequeño
+      font-weight: 600;
+    }
+    
+    .numero-reproduciendo {
+      color: #00a8ff;
+      font-size: 0.65rem; // Más pequeño
+      animation: pulsoSuave 1.5s infinite;
+    }
+  }
+  
+  /* Portada mini - MÁS PEQUEÑA */
+  .item-portada {
+    .portada-img {
+      width: 20px; // Más pequeña
+      height: 20px;
+      border-radius: 3px;
+      object-fit: cover;
+      border: 1px solid rgba(156, 136, 255, 0.15);
+    }
+  }
+  
+  /* Información de la canción - TODO MÁS PEQUEÑO */
+  .item-info {
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.02rem; // Mínimo espacio
+    
+    .info-titulo {
+      color: #fff;
+      font-size: 0.5rem; // MÁS PEQUEÑO (antes 0.72rem)
+      font-weight: 600;
+      white-space: nowrap;
+      overflow: visible;
+      text-overflow: clip;
+      line-height: 1.1;
+      max-width: 100%;
+    }
+    
+    .info-artista {
+      color: rgba(220, 220, 240, 0.7);
+      font-size: 0.4rem; // MÁS PEQUEÑO (antes 0.62rem)
+      white-space: nowrap;
+      overflow: visible;
+      text-overflow: clip;
+      line-height: 1.1;
+      max-width: 100%;
+    }
+  }
+  
+  /* Duración - MÁS PEQUEÑA */
+  .item-duracion {
+    color: rgba(200, 200, 220, 0.5);
+    font-size: 0.6rem; // Más pequeño
+    font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  /* Controles de acción - MÁS COMPACTOS */
+  .item-controles {
+    display: flex;
+    align-items: center;
+    gap: 0.15rem; // Menos espacio
+    
+    .control-btn {
+      width: 18px; // Más pequeño
+      height: 18px;
+      border-radius: 4px;
+      border: none;
+      background: rgba(40, 40, 70, 0.6);
+      color: #fff;
+      font-size: 0.6rem; // Más pequeño
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      padding: 0;
+      transition: all 0.15s ease;
+      
+      &:hover {
+        background: rgba(60, 60, 90, 0.8);
+        transform: translateY(-1px);
+      }
+      
+      &.control-play {
+        background: rgba(156, 136, 255, 0.15);
+        color: #9c88ff;
+        
+        &:hover {
+          background: rgba(156, 136, 255, 0.25);
+        }
+      }
+      
+      &.control-chords {
+        background: rgba(0, 168, 255, 0.15);
+        color: #00a8ff;
+        font-size: 0.65rem; // Más pequeño pero proporcional
+        
+        &:hover {
+          background: rgba(0, 168, 255, 0.25);
+          transform: translateY(-1px);
+        }
+      }
+    }
+  }
+}
+
+/* ================================
+   ANIMACIÓN PARA REPRODUCCIÓN
+   ================================ */
+@keyframes pulsoSuave {
+  0%, 100% { opacity: 0.7; }
+  50% { opacity: 1; }
+}
+
+/* ================================
+   TABLET (≥768px) - UN POCO MÁS DE ESPACIO
+   ================================ */
+@media (min-width: 768px) {
+  .cancion-item {
+    grid-template-columns: 18px 24px 1fr 35px 52px;
+    padding: 0.15rem 0.4rem;
+    min-height: 32px; // Un poco más alto
+    gap: 0.35rem;
+    
+    .item-numero {
+      .numero-normal {
+        font-size: 0.62rem;
+      }
+      
+      .numero-reproduciendo {
+        font-size: 0.68rem;
+      }
+    }
+    
+    .item-portada {
+      .portada-img {
+        width: 22px;
+        height: 22px;
+      }
+    }
+    
+    .item-info {
+      .info-titulo {
+        font-size: 0.7rem;
+      }
+      
+      .info-artista {
+        font-size: 0.6rem;
+      }
+    }
+    
+    .item-duracion {
+      font-size: 0.62rem;
+    }
+    
+    .item-controles {
+      .control-btn {
+        width: 20px;
+        height: 20px;
+        font-size: 0.62rem;
+        
+        &.control-chords {
+          font-size: 0.68rem;
+        }
+      }
+    }
+  }
+}
+
+/* ================================
+   ESCRITORIO (≥1024px) - PROPORCIONAL
+   ================================ */
+@media (min-width: 1024px) {
+  .cancion-item {
+    grid-template-columns: 20px 26px 1fr 38px 56px;
+    padding: 0.2rem 0.6rem;
+    min-height: 34px; // Altura óptima para 100 canciones
+    
+    .item-portada {
+      .portada-img {
+        width: 24px;
+        height: 24px;
+        border-radius: 4px;
+      }
+    }
+    
+    .item-info {
+      .info-titulo {
+        font-size: 0.72rem;
+      }
+      
+      .info-artista {
+        font-size: 0.62rem;
+      }
+    }
+    
+    .item-controles {
+      .control-btn {
+        width: 22px;
+        height: 22px;
+        border-radius: 5px;
+        font-size: 0.65rem;
+        
+        &.control-chords {
+          font-size: 0.7rem;
+        }
+      }
+    }
+  }
+}
+
+/* ================================
+   ESCRITORIO GRANDE (≥1440px) - UN POCO MÁS
+   ================================ */
+@media (min-width: 1440px) {
+  .cancion-item {
+    grid-template-columns: 22px 28px 1fr 40px 60px;
+    padding: 0.25rem 0.7rem;
+    min-height: 36px;
+    
+    .item-info {
+      .info-titulo {
+        font-size: 0.74rem;
+      }
+      
+      .info-artista {
+        font-size: 0.64rem;
+      }
+    }
+  }
+}

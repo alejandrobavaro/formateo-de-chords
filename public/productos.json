@@ -1,0 +1,209 @@
+[
+  {
+    "id": 1,
+    "nombre": "Remera Vintage Almango",
+    "precio": 18990,
+    "imagen": "/img/10-tienda/tienda1-a.png",
+    "categoria": "merchandising",
+    "descripcion": "Remera premium algodón con diseño retro exclusivo",
+    "destacado": true
+  },
+  {
+    "id": 2,
+    "nombre": "Pack VIP Show + Meet & Greet",
+    "precio": 29990,
+    "imagen": "/img/10-tienda/tienda2-a.png",
+    "categoria": "experiencias",
+    "descripcion": "Entrada premium + encuentro con la banda + merchandising",
+    "destacado": true
+  },
+  {
+    "id": 3,
+    "nombre": "CD Signed Edition",
+    "precio": 8990,
+    "imagen": "/img/10-tienda/tienda3-a.png",
+    "categoria": "musica",
+    "descripcion": "Álbum físico firmado por los integrantes",
+    "destacado": true
+  },
+  {
+    "id": 4,
+    "nombre": "Gorra Oficial Trucker",
+    "precio": 12990,
+    "imagen": "/img/10-tienda/tienda4-a.png",
+    "categoria": "merchandising",
+    "descripcion": "Gorra ajustable con logo bordado",
+    "destacado": false
+  },
+  {
+    "id": 5,
+    "nombre": "Entrada Doble + Brindis",
+    "precio": 24990,
+    "imagen": "/img/10-tienda/tienda5-a.png",
+    "categoria": "entradas",
+    "descripcion": "2 entradas + brindis especial post-show",
+    "destacado": true
+  },
+  {
+    "id": 6,
+    "nombre": "Taza Térmica Limited",
+    "precio": 7990,
+    "imagen": "/img/10-tienda/tienda6-a.png",
+    "categoria": "merchandising",
+    "descripcion": "Taza térmica con diseño exclusivo",
+    "destacado": false
+  },
+  {
+    "id": 7,
+    "nombre": "Vinilo Coleccionista",
+    "precio": 15990,
+    "imagen": "/img/10-tienda/tienda7-a.png",
+    "categoria": "musica",
+    "descripcion": "Edición limitada en vinilo 180g",
+    "destacado": true
+  },
+  {
+    "id": 8,
+    "nombre": "Hoodie Almango Pop",
+    "precio": 22990,
+    "imagen": "/img/10-tienda/tienda8-a.png",
+    "categoria": "merchandising",
+    "descripcion": "Buzo con capucha premium",
+    "destacado": true
+  },
+  {
+    "id": 9,
+    "nombre": "Pack Familiar 4 Personas",
+    "precio": 69990,
+    "imagen": "/img/10-tienda/tienda9-a.png",
+    "categoria": "entradas",
+    "descripcion": "Ahorro especial para grupos familiares",
+    "destacado": false
+  },
+  {
+    "id": 10,
+    "nombre": "Póster Autografiado",
+    "precio": 5990,
+    "imagen": "/img/10-tienda/tienda10-a.png",
+    "categoria": "merchandising",
+    "descripcion": "Póster premium firmado por la banda",
+    "destacado": true
+  },
+  {
+    "id": 11,
+    "nombre": "Experiencia Soundcheck",
+    "precio": 17990,
+    "imagen": "/img/10-tienda/tienda11-a.png",
+    "categoria": "experiencias",
+    "descripcion": "Acceso exclusivo al soundcheck del show",
+    "destacado": false
+  },
+  {
+    "id": 12,
+    "nombre": "Pack Merchandising Completo",
+    "precio": 45990,
+    "imagen": "/img/10-tienda/tienda12-a.png",
+    "categoria": "merchandising",
+    "descripcion": "Remera + CD + Gorra + Póster",
+    "destacado": true
+  },
+  {
+    "id": 13,
+    "nombre": "Entrada General + CD",
+    "precio": 16990,
+    "imagen": "/img/10-tienda/tienda13-a.png",
+    "categoria": "paquetes",
+    "descripcion": "Combo entrada + álbum físico",
+    "destacado": false
+  },
+  {
+    "id": 14,
+    "nombre": "Stickers Pack Oficial",
+    "precio": 2990,
+    "imagen": "/img/10-tienda/tienda14-a.png",
+    "categoria": "merchandising",
+    "descripcion": "Set de stickers exclusivos",
+    "destacado": false
+  },
+  {
+    "id": 15,
+    "nombre": "Sesión Foto Backstage",
+    "precio": 34990,
+    "imagen": "/img/10-tienda/tienda15-a.png",
+    "categoria": "experiencias",
+    "descripcion": "Sesión fotográfica detrás de escena",
+    "destacado": true
+  },
+  {
+    "id": 16,
+    "nombre": "Pack Aniversario 5 Años",
+    "precio": 32990,
+    "imagen": "/img/10-tienda/tienda16-a.png",
+    "categoria": "merchandising",
+    "descripcion": "Edición especial de aniversario",
+    "destacado": true
+  },
+  {
+    "id": 17,
+    "nombre": "Bolso Totem Almango",
+    "precio": 14990,
+    "imagen": "/img/10-tienda/tienda17-.png",
+    "categoria": "merchandising",
+    "descripcion": "Bolso ecológico con diseño exclusivo",
+    "destacado": false
+  },
+  {
+    "id": 18,
+    "nombre": "Entrada Sector Premium",
+    "precio": 12990,
+    "imagen": "/img/10-tienda/promotienda1.png",
+    "categoria": "entradas",
+    "descripcion": "Zona preferencial con mejor vista",
+    "destacado": true
+  },
+  {
+    "id": 19,
+    "nombre": "Libro Fotográfico Oficial",
+    "precio": 18990,
+    "imagen": "/img/10-tienda/tienda20-.png",
+    "categoria": "merchandising",
+    "descripcion": "Libro con fotos exclusivas de la banda",
+    "destacado": false
+  },
+  {
+    "id": 20,
+    "nombre": "Masterclass Instrumental",
+    "precio": 25990,
+    "imagen": "/img/10-tienda/tienda21-.png",
+    "categoria": "experiencias",
+    "descripcion": "Clase especial con los músicos",
+    "destacado": true
+  },
+  {
+    "id": 21,
+    "nombre": "Pack Digital Completo",
+    "precio": 7990,
+    "imagen": "/img/10-tienda/tienda22-.png",
+    "categoria": "musica",
+    "descripcion": "Descargas + Videos exclusivos",
+    "destacado": false
+  },
+  {
+    "id": 22,
+    "nombre": "Medias Temáticas",
+    "precio": 4990,
+    "imagen": "/img/10-tienda/tienda23-.png",
+    "categoria": "merchandising",
+    "descripcion": "Pack de 3 pares de medias oficiales",
+    "destacado": false
+  },
+  {
+    "id": 23,
+    "nombre": "Carrito Compras VIP",
+    "precio": 89990,
+    "imagen": "/img/10-tienda/carritocompras1a.jpg",
+    "categoria": "paquetes",
+    "descripcion": "Pack completo merchandising + experiencias",
+    "destacado": true
+  }
+]

@@ -1,401 +1,725 @@
-// src/componentes/ChordsViewer/ChordsViewerIndex.jsx - VERSIÓN CORREGIDA
+// ============================================
+// ARCHIVO: ChordsViewerIndex.jsx - VERSIÓN COMPLETA CORREGIDA
+// DESCRIPCIÓN: Visualizador de acordes con soporte para medleys
+// MEJORAS: Detecta medleys y muestra badge especial
+// DISEÑO: Respeta completamente el diseño original del Sass
+// ============================================
+
 import React, { useState, useEffect, useRef } from 'react';
-import { useLocation, useNavigate } from 'react-router-dom';
-import { BsArrowsFullscreen, BsFullscreenExit, BsMusicNoteBeamed } from "react-icons/bs";
-import SongViewer from './SongViewer';
-import Controls from './Controls';
-import ListNavigator from './ListNavigator';
-import PrintViewer from './Formats/PrintViewer';
-import { useSearch } from '../SearchContext';
-import { useContentAnalyzer } from './ContentAnalyzer';
+import { 
+  BsArrowsFullscreen, 
+  BsFullscreenExit, 
+  BsMusicNoteBeamed,
+  BsPrinter,
+  BsDash,
+  BsPlus,
+  BsArrowCounterclockwise
+} from "react-icons/bs";
 import "../../assets/scss/_03-Componentes/ChordsViewer/_ChordsViewerIndex.scss";
 
-const ChordsViewerIndex = () => {
-  // ESTADOS DEL COMPONENTE
+const ChordsViewerIndex = ({ 
+  chordsData = null,
+  transpositionProp = 0,
+  songMetadata = null,
+  compactMode = 'extreme'
+}) => {
+  
+  // ============================================
+  // ESTADOS PRINCIPALES
+  // ============================================
   const [selectedSong, setSelectedSong] = useState(null);
-  const [songDetails, setSongDetails] = useState(null);
-  const [transposition, setTransposition] = useState(0);
+  const [transposition, setTransposition] = useState(transpositionProp);
   const [showA4Outline, setShowA4Outline] = useState(false);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   const [fullscreenMode, setFullscreenMode] = useState(false);
+  const [screenSize, setScreenSize] = useState('desktop');
+  const [contentDensity, setContentDensity] = useState('medium');
 
-  // HOOKS Y REFERENCIAS
-  const location = useLocation();
-  const navigate = useNavigate();
+  // ============================================
+  // REFERENCIAS
+  // ============================================
   const containerRef = useRef(null);
-  const analysis = useContentAnalyzer(selectedSong);
-  
-  // USAR CONTEXTO DE BÚSQUEDA
-  const { 
-    librariesData, 
-    getSongNavigationPath, 
-    getSongByLibraryAndFile,
-    isLoading: contextLoading 
-  } = useSearch();
 
-  // FUNCIÓN PARA CARGAR UNA CANCIÓN INDIVIDUAL
-  const loadIndividualSong = async (song, basePath, libraryId) => {
-    try {
-      setLoading(true);
-      setError(null);
-      
-      if (!song || !song.file) {
-        throw new Error('Datos de canción inválidos');
-      }
-
-      const songPath = `${basePath}${song.file}`;
-      console.log(`🎵 Cargando canción individual: ${songPath}`);
-      
-      const response = await fetch(songPath);
-      
-      if (!response.ok) {
-        throw new Error(`No se pudo cargar: ${song.file} (${response.status})`);
-      }
-
-      const songData = await response.json();
-      console.log(`✅ Canción cargada: ${song.title}`, songData);
-      
-      // AGREGAR INFORMACIÓN DE BIBLIOTECA A LA CANCIÓN
-      const songWithLibrary = { 
-        ...song, 
-        ...songData,
-        libraryId: libraryId,
-        libraryName: song.libraryName || 'Lista',
-        basePath: basePath
-      };
-      
-      setSelectedSong(songWithLibrary);
-      setSongDetails(songData);
-      
-      console.log(`🎯 Canción configurada en estado:`, songWithLibrary);
-      
-    } catch (err) {
-      console.error('❌ Error cargando canción individual:', err);
-      setError(`Error: ${err.message}`);
-      setSelectedSong(null);
-    } finally {
-      setLoading(false);
-    }
-  };
-
-  // FUNCIÓN PARA CAMBIAR DE CANCIÓN DESDE EL NAVEGADOR
-  const handleSongChange = async (newSong) => {
-    if (!newSong) return;
-    
-    try {
-      setLoading(true);
-      setError(null);
-      
-      console.log(`🔄 Cambiando a canción:`, newSong);
-      
-      const songPath = `${newSong.basePath}${newSong.file}`;
-      const response = await fetch(songPath);
-      
-      if (!response.ok) {
-        throw new Error(`No se pudo cargar: ${newSong.file}`);
-      }
-      
-      const songData = await response.json();
-      
-      // AGREGAR INFORMACIÓN DE BIBLIOTECA
-      const songWithLibrary = { 
-        ...newSong, 
-        ...songData,
-        libraryId: newSong.libraryId,
-        libraryName: newSong.libraryName,
-        basePath: newSong.basePath
-      };
-      
-      setSelectedSong(songWithLibrary);
-      setSongDetails(songData);
-      
-      // ACTUALIZAR URL SIN RECARGAR PÁGINA COMPLETA
-      const encodedSongFile = encodeURIComponent(newSong.file);
-      navigate(`/chords-viewer?library=${newSong.libraryId}&song=${encodedSongFile}`, { replace: true });
-      
-      console.log(`✅ Canción cambiada exitosamente: ${newSong.title}`);
-      
-    } catch (err) {
-      console.error('❌ Error cambiando canción:', err);
-      setError(`Error al cargar: ${newSong.title}`);
-    } finally {
-      setLoading(false);
-    }
-  };
-
-  // EFECTO PARA CARGAR CANCIÓN DESDE LOS PARÁMETROS DE LA URL
+  // ============================================
+  // EFECTO: PROCESAR DATOS CUANDO CAMBIA chordsData
+  // DESCRIPCIÓN: Convierte los datos crudos en estructura procesada
+  // ESPECIAL: Detecta si es medley por la propiedad esMedley
+  // ============================================
   useEffect(() => {
-    const loadSongFromURL = async () => {
+    const procesarDatosReproductor = () => {
       try {
         setLoading(true);
         setError(null);
         
-        const urlParams = new URLSearchParams(location.search);
-        const libraryParam = urlParams.get('library');
-        const songFileParam = urlParams.get('song');
-        
-        console.log('🔍 Parámetros URL:', { libraryParam, songFileParam });
-        
-        if (!libraryParam || !songFileParam) {
-          console.log('ℹ️ No hay parámetros de canción en la URL - Mostrando estado vacío');
+        if (!chordsData) {
+          setSelectedSong(null);
           setLoading(false);
           return;
         }
 
-        // DECODIFICAR EL NOMBRE DEL ARCHIVO
-        const decodedSongFile = decodeURIComponent(songFileParam);
-        console.log(`📁 Archivo decodificado: ${decodedSongFile}`);
-
-        // BUSCAR CANCIÓN EN EL CONTEXTO
-        const targetSong = getSongByLibraryAndFile(libraryParam, decodedSongFile);
-        
-        if (targetSong) {
-          console.log(`🎯 Canción encontrada en contexto:`, targetSong);
-          await loadIndividualSong(targetSong, targetSong.basePath, libraryParam);
-        } else {
-          console.log('❌ Canción no encontrada en contexto, intentando carga manual...');
-          
-          // INTENTAR CARGA MANUAL SI NO ESTÁ EN EL CONTEXTO
-          const libraryData = librariesData[libraryParam];
-          if (libraryData) {
-            let manualSong = null;
+        // Verificar si es un objeto válido
+        if (typeof chordsData === 'object' && chordsData !== null) {
+          // Verificar si tiene contenido estructurado
+          if (Array.isArray(chordsData.content)) {
+            const cancionProcesada = {
+              ...chordsData,
+              id: chordsData.id || `song-${Date.now()}`,
+              key: chordsData.originalKey || chordsData.key || 'C',
+              title: chordsData.title || 'Canción',
+              artist: chordsData.artist || 'Artista',
+              // Propiedad especial para medleys
+              esMedley: chordsData.esMedley || false,
+              cancionesIncluidas: chordsData.cancionesIncluidas || 1
+            };
             
-            // BUSCAR EN ÁLBUMES
-            if (libraryData.albums && libraryData.albums.length > 0) {
-              for (const album of libraryData.albums) {
-                manualSong = album.songs?.find(song => song.file === decodedSongFile);
-                if (manualSong) {
-                  manualSong = {
-                    ...manualSong,
-                    libraryId: libraryParam,
-                    libraryName: libraryData.name,
-                    basePath: libraryData.basePath,
-                    albumId: album.album_id,
-                    albumName: album.album_name
-                  };
-                  break;
-                }
-              }
-            }
+            setSelectedSong(cancionProcesada);
+            const densidad = analizarDensidadContenido(chordsData.content);
+            setContentDensity(densidad);
             
-            // BUSCAR EN CANCIONES DIRECTAS
-            if (!manualSong && libraryData.songs && libraryData.songs.length > 0) {
-              manualSong = libraryData.songs.find(song => song.file === decodedSongFile);
-              if (manualSong) {
-                manualSong = {
-                  ...manualSong,
-                  libraryId: libraryParam,
-                  libraryName: libraryData.name,
-                  basePath: libraryData.basePath
-                };
-              }
-            }
-            
-            if (manualSong) {
-              console.log(`✅ Canción encontrada manualmente:`, manualSong);
-              await loadIndividualSong(manualSong, libraryData.basePath, libraryParam);
-            } else {
-              throw new Error(`Canción no encontrada: ${decodedSongFile}`);
-            }
-          } else {
-            throw new Error(`Biblioteca no encontrada: ${libraryParam}`);
+          } else if (typeof chordsData.content === 'string') {
+            // Para contenido simple
+            setSelectedSong({
+              ...chordsData,
+              esMedley: false,
+              cancionesIncluidas: 1
+            });
+            setContentDensity('low');
           }
         }
+
       } catch (err) {
-        console.error('💥 Error cargando canción desde URL:', err);
+        console.error('Error procesando datos:', err);
         setError(`Error: ${err.message}`);
-        setSelectedSong(null);
+        setSelectedSong(crearEjemplo());
+        setContentDensity('medium');
       } finally {
         setLoading(false);
       }
     };
 
-    // CARGAR CANCIÓN CUANDO LOS DATOS DEL CONTEXTO ESTÉN LISTOS O CUANDO CAMBIE LA URL
-    if (!contextLoading) {
-      loadSongFromURL();
-    }
-  }, [location.search, librariesData, contextLoading, getSongByLibraryAndFile]);
+    procesarDatosReproductor();
+  }, [chordsData, songMetadata]);
 
-  // FUNCIÓN PARA OBTENER METADATOS DE LA CANCIÓN
-  const getSongMetadata = () => {
-    if (!songDetails) return null;
+  // ============================================
+  // FUNCIÓN: analizarDensidadContenido
+  // ============================================
+  const analizarDensidadContenido = (contenido) => {
+    if (!contenido || !Array.isArray(contenido)) return 'medium';
     
+    let totalLineas = 0;
+    let totalCaracteres = 0;
+    
+    const contarLineas = (items) => {
+      items.forEach(item => {
+        if (item.lines && Array.isArray(item.lines)) {
+          totalLineas += item.lines.length;
+          item.lines.forEach(line => {
+            if (line.content) {
+              if (Array.isArray(line.content)) {
+                totalCaracteres += line.content.join('').length;
+              } else {
+                totalCaracteres += String(line.content).length;
+              }
+            }
+          });
+        }
+      });
+    };
+    
+    contarLineas(contenido);
+    
+    const densidad = totalCaracteres / Math.max(1, totalLineas);
+    
+    if (totalLineas < 30) return 'very-low';
+    if (totalLineas < 60) return 'low';
+    if (totalLineas < 120) return 'medium';
+    if (totalLineas < 200) return 'high';
+    return 'very-high';
+  };
+
+  // ============================================
+  // FUNCIÓN: crearEjemplo
+  // ============================================
+  const crearEjemplo = () => {
     return {
-      originalKey: songDetails.originalKey || selectedSong?.key || 'N/A',
-      tempo: songDetails.tempo || 'N/A',
-      timeSignature: songDetails.timeSignature || 'N/A',
-      genre: songDetails.genre || 'N/A',
-      duration: songDetails.duration || 'N/A'
+      id: `ejemplo-${Date.now()}`,
+      title: 'Ejemplo',
+      artist: 'Artista',
+      originalKey: 'C',
+      key: 'C',
+      tempo: '120',
+      timeSignature: '4/4',
+      esMedley: false,
+      cancionesIncluidas: 1,
+      content: [
+        {
+          type: 'section',
+          name: 'INTRO',
+          lines: [
+            { type: 'chord', content: 'C' },
+            { type: 'chord', content: 'G' }
+          ]
+        }
+      ]
     };
   };
 
-  // FUNCIÓN PARA ACTIVAR/DESACTIVAR PANTALLA COMPLETA
+  // ============================================
+  // FUNCIÓN: transponerAcorde
+  // ============================================
+  const transponerAcorde = (acorde, semitonos) => {
+    if (!acorde || ['N.C.', '(E)', '-', '–', '', 'X'].includes(acorde.trim())) {
+      return acorde;
+    }
+    
+    const notas = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"];
+    const regexAcorde = /^([A-G](#|b)?)(.*)$/i;
+    const coincidencia = acorde.match(regexAcorde);
+    
+    if (!coincidencia) return acorde;
+    
+    let notaBase = coincidencia[1].toUpperCase();
+    const modificadores = coincidencia[3] || '';
+    
+    const bemolASostenido = {
+      'DB': 'C#', 'EB': 'D#', 'GB': 'F#', 'AB': 'G#', 'BB': 'A#',
+      'D♭': 'C#', 'E♭': 'D#', 'G♭': 'F#', 'A♭': 'G#', 'B♭': 'A#',
+      'CB': 'B', 'FB': 'E'
+    };
+    
+    notaBase = bemolASostenido[notaBase] || notaBase;
+    
+    const posicionNota = notas.indexOf(notaBase);
+    if (posicionNota === -1) return acorde;
+    
+    const nuevaPosicion = (posicionNota + semitonos + 12) % 12;
+    return notas[nuevaPosicion] + modificadores;
+  };
+
+  // ============================================
+  // FUNCIÓN: calcularTamañoFuente
+  // ============================================
+  const calcularTamañoFuente = () => {
+    const baseSizes = {
+      'mobile': { 'very-low': 13, 'low': 12, 'medium': 11, 'high': 10, 'very-high': 9 },
+      'tablet': { 'very-low': 14, 'low': 13, 'medium': 12, 'high': 11, 'very-high': 10 },
+      'desktop': { 'very-low': 15, 'low': 14, 'medium': 13, 'high': 12, 'very-high': 11 }
+    };
+    
+    let size = baseSizes[screenSize]?.[contentDensity] || 12;
+    
+    if (compactMode === 'compact') size -= 1;
+    if (compactMode === 'extreme') size -= 2;
+    
+    return Math.max(8, size);
+  };
+
+  // ============================================
+  // FUNCIÓN: dividirEnColumnasOptimizado
+  // ============================================
+  const dividirEnColumnasOptimizado = (contenido) => {
+    if (!contenido || !Array.isArray(contenido)) return [[], [], []];
+    
+    const columnas = [[], [], []];
+    
+    if (screenSize === 'mobile') {
+      columnas[0] = [...contenido];
+      
+    } else if (screenSize === 'tablet') {
+      const mitad = Math.ceil(contenido.length / 2);
+      let puntoCorte = mitad;
+      
+      for (let i = mitad; i < Math.min(mitad + 5, contenido.length); i++) {
+        if (contenido[i]?.type === 'section' || contenido[i]?.type === 'voice') {
+          puntoCorte = i;
+          break;
+        }
+      }
+      
+      columnas[0] = contenido.slice(0, puntoCorte);
+      columnas[1] = contenido.slice(puntoCorte);
+      
+    } else {
+      const tercios = [
+        Math.ceil(contenido.length / 3),
+        Math.ceil((contenido.length * 2) / 3)
+      ];
+      
+      let cortes = [tercios[0], tercios[1]];
+      
+      for (let c = 0; c < cortes.length; c++) {
+        for (let i = cortes[c]; i < Math.min(cortes[c] + 3, contenido.length); i++) {
+          if (contenido[i]?.type === 'section' || contenido[i]?.type === 'voice') {
+            cortes[c] = i;
+            break;
+          }
+        }
+      }
+      
+      columnas[0] = contenido.slice(0, cortes[0]);
+      columnas[1] = contenido.slice(cortes[0], cortes[1]);
+      columnas[2] = contenido.slice(cortes[1]);
+    }
+    
+    return columnas;
+  };
+
+  // ============================================
+  // FUNCIÓN: renderizarContenido
+  // DESCRIPCIÓN: Renderiza el contenido musical
+  // ESPECIAL: No modifica el diseño, solo procesa los datos
+  // ============================================
+  const renderizarContenido = (contenido) => {
+    if (!contenido || !Array.isArray(contenido)) return null;
+
+    return contenido.map((elemento, indice) => {
+      
+      switch (elemento.type) {
+        case 'section':
+          // Verificar si es una sección especial que debe mostrar título
+          const mostrarTitulo = esSeccionEspecial(elemento.name);
+          
+          return (
+            <div 
+              key={indice} 
+              className={`seccion-ultra-compacta densidad-${contentDensity}`}
+            >
+              {mostrarTitulo && (
+                <div className="titulo-seccion-ultra-compacto especial">
+                  {elemento.name ? elemento.name.toUpperCase() : 'SECCIÓN'}
+                </div>
+              )}
+              {elemento.lines && renderizarLineas(elemento.lines)}
+            </div>
+          );
+        
+        case 'divider':
+          return <div key={indice} className="divisor-ultra-compacto"></div>;
+        
+        case 'voice':
+          const esVozAle = elemento.name?.includes('ALE') || elemento.name?.includes('Ale');
+          const esVozPato = elemento.name?.includes('PATO') || elemento.name?.includes('Pato');
+          
+          return (
+            <div 
+              key={indice} 
+              className={`voz-ultra-compacta ${esVozAle ? 'voz-ale' : ''} ${esVozPato ? 'voz-pato' : ''}`}
+            >
+              <div className="etiqueta-voz-ultra-compacta">
+                {elemento.name || 'VOZ'}
+              </div>
+              {elemento.lines && renderizarLineas(elemento.lines, esVozAle, esVozPato)}
+            </div>
+          );
+        
+        default:
+          return null;
+      }
+    });
+  };
+
+  // ============================================
+  // FUNCIÓN: esSeccionEspecial
+  // DESCRIPCIÓN: Determina qué secciones mostrar título
+  // ============================================
+  const esSeccionEspecial = (nombreSeccion) => {
+    if (!nombreSeccion) return false;
+    
+    const nombreLower = nombreSeccion.toLowerCase();
+    const seccionesEspeciales = [
+      'intro', 'pre.?estribillo', 'estribillo', 'coro', 'chorus',
+      'solo', 'instrumental', 'puente', 'bridge', 'outro', 'final',
+      'interludio', 'interlude', 'coda', 'ad.?lib', 'repetición',
+      'intro instrumental', 'solo de guitarra', 'break'
+    ];
+    
+    return seccionesEspeciales.some(seccion => 
+      new RegExp(seccion, 'i').test(nombreLower)
+    );
+  };
+
+  // ============================================
+  // FUNCIÓN: renderizarLineas
+  // ============================================
+  const renderizarLineas = (lineas, enVozAle = false, enVozPato = false) => {
+    if (!lineas || !Array.isArray(lineas)) return null;
+
+    return lineas.map((linea, indiceLinea) => {
+      const claseVoz = enVozAle ? 'linea-ale' : enVozPato ? 'linea-pato' : '';
+      
+      switch (linea.type) {
+        case 'chord':
+          return (
+            <div key={indiceLinea} className={`linea-acorde-ultra-compacta ${claseVoz}`}>
+              <span className="acorde-ultra-compacto">
+                {transponerAcorde(linea.content, transposition)}
+              </span>
+            </div>
+          );
+        
+        case 'chords':
+          return (
+            <div key={indiceLinea} className={`linea-acordes-ultra-compacta ${claseVoz}`}>
+              {Array.isArray(linea.content) ? 
+                linea.content.map((acorde, idx) => (
+                  <span key={idx} className="acorde-ultra-compacto">
+                    {transponerAcorde(acorde, transposition)}
+                    {idx < linea.content.length - 1 ? ' ' : ''}
+                  </span>
+                )) : 
+                <span className="acorde-ultra-compacto">
+                  {transponerAcorde(linea.content, transposition)}
+                </span>
+              }
+            </div>
+          );
+        
+        case 'lyric':
+          return (
+            <div key={indiceLinea} className={`linea-letra-ultra-compacta ${claseVoz}`}>
+              {linea.content}
+            </div>
+          );
+        
+        default:
+          return null;
+      }
+    });
+  };
+
+  // ============================================
+  // DETECCIÓN DE TAMAÑO DE PANTALLA
+  // ============================================
+  useEffect(() => {
+    const detectScreenSize = () => {
+      const width = window.innerWidth;
+      if (width < 768) return 'mobile';
+      if (width < 1024) return 'tablet';
+      return 'desktop';
+    };
+
+    setScreenSize(detectScreenSize());
+    
+    const handleResize = () => {
+      setScreenSize(detectScreenSize());
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  // ============================================
+  // FUNCIONES DE CONTROL
+  // ============================================
   const toggleFullscreen = () => {
     if (!document.fullscreenElement) {
-      containerRef.current?.requestFullscreen().catch(err => console.error(err));
+      containerRef.current?.requestFullscreen?.().catch(console.error);
       setFullscreenMode(true);
     } else {
-      document.exitFullscreen();
+      document.exitFullscreen?.();
       setFullscreenMode(false);
     }
-  };
-
-  // FUNCIONES DE EXPORTACIÓN
-  const handleExportPDF = async () => {
-    console.log('Exportar PDF - Función por implementar');
-  };
-
-  const handleExportJPG = async () => {
-    console.log('Exportar JPG - Función por implementar');
   };
 
   const handlePrint = () => {
     window.print();
   };
 
-  // ESTADO DE CARGA INICIAL
-  if (contextLoading) {
+  // ============================================
+  // EFECTOS ADICIONALES
+  // ============================================
+  useEffect(() => {
+    const handleFullscreenChange = () => {
+      setFullscreenMode(!!document.fullscreenElement);
+    };
+
+    document.addEventListener('fullscreenchange', handleFullscreenChange);
+    return () => {
+      document.removeEventListener('fullscreenchange', handleFullscreenChange);
+    };
+  }, []);
+
+  useEffect(() => {
+    setTransposition(transpositionProp);
+  }, [transpositionProp]);
+
+  // ============================================
+  // RENDER: ESTADOS ESPECIALES
+  // ============================================
+  if (loading) {
     return (
-      <div className="chords-loading">
-        <BsMusicNoteBeamed />
-        <p>Cargando bibliotecas musicales...</p>
-        <div className="loading-progress">
-          <div className="progress-bar"></div>
-        </div>
+      <div className="cargando-ultra-compacto">
+        <BsMusicNoteBeamed className="icono-cargando" />
+        <span>Cargando acordes...</span>
       </div>
     );
   }
 
-  if (loading && !selectedSong) {
-    return (
-      <div className="chords-loading">
-        <BsMusicNoteBeamed />
-        <p>Cargando canción...</p>
-        <div className="loading-progress">
-          <div className="progress-bar"></div>
-        </div>
-      </div>
-    );
-  }
-  
-  // MANEJO DE ERRORES
   if (error) {
     return (
-      <div className="chords-error">
-        <h3>Error</h3>
-        <p>{error}</p>
-        <button onClick={() => window.location.reload()} className="retry-button">
-          Reintentar
-        </button>
+      <div className="error-ultra-compacto">
+        <span>⚠️</span>
+        <span>{error}</span>
+        <button onClick={() => setError(null)} className="btn-cerrar-error">×</button>
       </div>
     );
   }
 
-  // OBTENER METADATOS PARA MOSTRAR
-  const metadata = getSongMetadata();
+  // ============================================
+  // PREPARACIÓN DE DATOS
+  // ============================================
+  const columnas = selectedSong && Array.isArray(selectedSong.content) 
+    ? dividirEnColumnasOptimizado(selectedSong.content) 
+    : [[], [], []];
+  
+  const tamañoFuente = calcularTamañoFuente();
+  const columnasVisibles = screenSize === 'mobile' ? 1 : screenSize === 'tablet' ? 2 : 3;
 
+  // ============================================
+  // RENDER PRINCIPAL - RESPETANDO DISEÑO ORIGINAL
+  // ============================================
   return (
-    <div className="chords-viewer-integrated" ref={containerRef}>
+    <div 
+      className={`visor-acordes-ultra-compacto-v2 densidad-${contentDensity} modo-${compactMode} ${showA4Outline ? 'borde-a4' : ''}`}
+      ref={containerRef}
+      style={{ fontSize: `${tamañoFuente}px` }}
+    >
       
-      {/* BOTÓN DE PANTALLA COMPLETA */}
-      <button className="fullscreen-toggle-btn" onClick={toggleFullscreen}>
+      {/* BOTÓN PANTALLA COMPLETA */}
+      <button 
+        className="btn-fullscreen-ultra-compacto" 
+        onClick={toggleFullscreen}
+        title={fullscreenMode ? "Salir pantalla completa" : "Pantalla completa"}
+      >
         {fullscreenMode ? <BsFullscreenExit /> : <BsArrowsFullscreen />}
       </button>
 
-      {/* CONTENEDOR PRINCIPAL */}
-      <div className="unified-container">
-        
-        {/* HEADER CON TÍTULO */}
-        <div className="main-header">
-          <div className="header-title-section">
-            <BsMusicNoteBeamed className="title-icon" />
-            <h1>Visualizador de Acordes Inteligente</h1>
-          </div>
-        </div>
-
-        {/* NAVEGADOR DE LISTA - DEBE MOSTRARSE SI HAY CANCIÓN SELECCIONADA */}
-        {selectedSong && (
-          <div className="navigator-section">
-            <ListNavigator 
-              currentSong={selectedSong}
-              onSongChange={handleSongChange}
-            />
-          </div>
-        )}
-
-        {/* FILA DE CONTROLES E INFORMACIÓN */}
-        <div className="controls-row">
-          <div className="song-info">
+      {/* HEADER ULTRA COMPACTO - DISEÑO ORIGINAL */}
+      <div className="header-una-linea-total">
+        <div className="header-contenido-una-linea">
+          
+          {/* TÍTULO Y METADATA */}
+          <div className="titulo-metadata-una-linea">
             {selectedSong ? (
-              <div className="song-details-header">
-                <h2 className="song-title-display">
-                  {selectedSong.artist} - {selectedSong.title}
-                </h2>
-                <div className="song-metadata">
-                  {metadata && (
-                    <>
-                      <span className="metadata-item">
-                        <strong>Tono:</strong> {metadata.originalKey}
-                      </span>
-                      <span className="metadata-item">
-                        <strong>Tempo:</strong> {metadata.tempo}
-                      </span>
-                      <span className="metadata-item">
-                        <strong>Compás:</strong> {metadata.timeSignature}
-                      </span>
-                      {selectedSong.libraryName && (
-                        <span className="metadata-item">
-                          <strong>Lista:</strong> {selectedSong.libraryName}
-                        </span>
-                      )}
-                    </>
+              <>
+                <span className="artista-micro">{selectedSong.artist}</span>
+                <span className="separador-micro"> - </span>
+                <span className="titulo-cancion-micro">{selectedSong.title}</span>
+                <span className="tono-micro">
+                  ({selectedSong.originalKey || selectedSong.key || 'C'})
+                  {transposition !== 0 && (
+                    <span className="transp-activa-micro">
+                      {transposition > 0 ? '+' : ''}{transposition}
+                    </span>
                   )}
-                </div>
-              </div>
+                </span>
+                
+                {/* BADGE ESPECIAL PARA MEDLEYS - DISEÑO DISCRETO */}
+                {selectedSong.esMedley && (
+                  <span className="medley-badge-mini">
+                    🎶 {selectedSong.cancionesIncluidas} canciones
+                  </span>
+                )}
+              </>
             ) : (
-              <h2 className="no-song-title">Selecciona una canción desde la biblioteca</h2>
+              <span className="sin-cancion-micro">🎵 Selecciona canción</span>
             )}
           </div>
           
-          {/* CONTROLES DE TRANSPOSICIÓN Y EXPORTACIÓN */}
-          <div className="controls-container">
-            <Controls
-              transposition={transposition}
-              setTransposition={setTransposition}
-              showA4Outline={showA4Outline}
-              setShowA4Outline={setShowA4Outline}
-              onExportPDF={handleExportPDF}
-              onExportJPG={handleExportJPG}
-              onPrint={handlePrint}
-              hasSelectedSong={!!selectedSong}
-            />
+          {/* CONTROLES - DISEÑO ORIGINAL */}
+          <div className="controles-una-linea">
+            
+            {/* TRANSPOSICIÓN */}
+            <div className="transp-controls-micro">
+              <button 
+                className="btn-transp-micro" 
+                onClick={() => setTransposition(prev => Math.max(-6, prev - 1))}
+                disabled={!selectedSong}
+                title="Bajar semitono"
+              >
+                <BsDash />
+              </button>
+              
+              <span className="transp-valor-micro">
+                {transposition > 0 ? '+' : ''}{transposition}
+              </span>
+              
+              <button 
+                className="btn-transp-micro" 
+                onClick={() => setTransposition(prev => Math.min(6, prev + 1))}
+                disabled={!selectedSong}
+                title="Subir semitono"
+              >
+                <BsPlus />
+              </button>
+              
+              <button 
+                className="btn-reset-transp-micro"
+                onClick={() => setTransposition(0)}
+                disabled={!selectedSong || transposition === 0}
+                title="Tono original"
+              >
+                <BsArrowCounterclockwise />
+              </button>
+            </div>
+            
+            {/* SEPARADOR */}
+            <div className="separador-controles"></div>
+            
+            {/* OPCIONES */}
+            <div className="opciones-micro">
+              <button 
+                className={`btn-opcion-micro ${showA4Outline ? 'activo' : ''}`}
+                onClick={() => setShowA4Outline(!showA4Outline)}
+                disabled={!selectedSong}
+                title={showA4Outline ? "Ocultar guía A4" : "Mostrar guía A4"}
+              >
+                A4
+              </button>
+              
+              <button 
+                className="btn-opcion-micro"
+                onClick={handlePrint}
+                disabled={!selectedSong}
+                title="Imprimir"
+              >
+                <BsPrinter />
+              </button>
+            </div>
           </div>
         </div>
-
-        {/* ÁREA DE VISUALIZACIÓN DE LA CANCIÓN */}
-        <div className="viewer-area">
-          <SongViewer
-            song={selectedSong}
-            transposition={transposition}
-            showA4Outline={showA4Outline}
-            fullscreenMode={fullscreenMode}
-          />
-        </div>
-
       </div>
 
-      {/* VISUALIZADOR DE IMPRESIÓN (OCULTO POR DEFECTO) */}
-      <div className="print-container">
-        {selectedSong && analysis && (
-          <PrintViewer 
-            song={selectedSong}
-            transposition={transposition}
-            analysis={analysis}
-          />
+      {/* ÁREA DE VISUALIZACIÓN - DISEÑO ORIGINAL */}
+      <div className="area-visual-ultra-compacta">
+        
+        {!selectedSong ? (
+          <div className="instruccion-ultra-compacta">
+            <div className="logo-banda-micro">
+              <img 
+                src="/img/04-gif/logogondraworldanimado6.gif" 
+                alt="Almango Pop Covers"
+                onError={(e) => {
+                  e.target.style.display = 'none';
+                  e.target.parentElement.innerHTML = '<span class="logo-fallback">🎵 Almango</span>';
+                }}
+              />
+            </div>
+            <p>Reproduce una canción para ver los acordes</p>
+          </div>
+        ) : (
+          <div className="columnas-container-ultra-compacto">
+            
+            {/* COLUMNA 1 */}
+            {columnas[0].length > 0 && (
+              <div className="columna-ultra-compacta col-1">
+                {renderizarContenido(columnas[0])}
+              </div>
+            )}
+            
+            {/* COLUMNA 2 */}
+            {columnasVisibles >= 2 && columnas[1].length > 0 && (
+              <div className="columna-ultra-compacta col-2">
+                {renderizarContenido(columnas[1])}
+              </div>
+            )}
+            
+            {/* COLUMNA 3 */}
+            {columnasVisibles >= 3 && columnas[2].length > 0 && (
+              <div className="columna-ultra-compacta col-3">
+                {renderizarContenido(columnas[2])}
+              </div>
+            )}
+          </div>
         )}
       </div>
 
+      {/* LEYENDA - DISEÑO ORIGINAL */}
+      {selectedSong && (
+        <div className="leyenda-ultra-compacta">
+          <div className="leyenda-contenido">
+            <span className="leyenda-item">
+              <span className="color-muestra ale"></span>
+              <span>ALE</span>
+            </span>
+            <span className="leyenda-item">
+              <span className="color-muestra pato"></span>
+              <span>PATO</span>
+            </span>
+            <span className="leyenda-item">
+              <span className="color-muestra acorde"></span>
+              <span>ACORDES</span>
+            </span>
+            <span className="leyenda-item info-columnas">
+              {columnasVisibles} col • {tamañoFuente}px
+            </span>
+            {/* INFO DE MEDLEY EN LEYENDA */}
+            {selectedSong.esMedley && (
+              <span className="leyenda-item medley-info">
+                <span className="color-muestra medley">🎶</span>
+                <span>MEDLEY</span>
+              </span>
+            )}
+          </div>
+        </div>
+      )}
+
+      {/* IMPRESIÓN - DISEÑO ORIGINAL */}
+      <div className="impresion-oculta-ultra-compacta">
+        {selectedSong && (
+          <div className="pagina-a4-impresion">
+            <div className="cabecera-impresion">
+              <h1>{selectedSong.artist} - {selectedSong.title}</h1>
+              {selectedSong.esMedley && (
+                <div className="medley-info-impresion">
+                  MEDLEY • {selectedSong.cancionesIncluidas} canciones incluidas
+                </div>
+              )}
+              <div className="metadatos-impresion">
+                Tono: {selectedSong.originalKey || selectedSong.key || 'C'}
+                {transposition !== 0 && ` (Transportado ${transposition > 0 ? '+' : ''}${transposition})`}
+              </div>
+            </div>
+            <div className="contenido-impresion">
+              {renderizarContenido(selectedSong.content || [])}
+            </div>
+          </div>
+        )}
+      </div>
+      
+      {/* ESTILO INLINE PARA BADGE DE MEDLEY (MÍNIMO) */}
+      <style jsx>{`
+        .medley-badge-mini {
+          display: inline-flex;
+          align-items: center;
+          gap: 3px;
+          padding: 1px 6px;
+          background: rgba(106, 17, 203, 0.1);
+          border: 1px solid rgba(106, 17, 203, 0.3);
+          border-radius: 10px;
+          margin-left: 6px;
+          font-size: 9px;
+          color: #6a11cb;
+          font-weight: 600;
+        }
+        
+        .leyenda-item.medley-info .color-muestra.medley {
+          width: 12px;
+          height: 12px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 8px;
+        }
+        
+        .medley-info-impresion {
+          font-size: 11px;
+          color: #6a11cb;
+          font-weight: 600;
+          margin: 2px 0 4px 0;
+        }
+      `}</style>
     </div>
   );
 };

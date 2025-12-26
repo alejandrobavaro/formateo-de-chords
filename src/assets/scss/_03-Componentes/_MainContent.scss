@@ -31,3 +31,99 @@
   justify-content: center;
   align-items: center;
 }
+
+/* =============================================== */
+/* ESTILOS ADICIONALES PARA MAINCONTENT */
+/* =============================================== */
+
+/* TARJETA PRINCIPAL DESTACADA */
+.action-card-primary {
+  border: 2px solid #e63946 !important;
+  background: rgba(230, 57, 70, 0.1) !important;
+  position: relative;
+  
+  &:hover {
+    background: rgba(230, 57, 70, 0.2) !important;
+    transform: translateY(-3px) !important;
+    box-shadow: 0 4px 12px rgba(230, 57, 70, 0.3);
+  }
+  
+  &::before {
+    content: "✨";
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    font-size: 1.2rem;
+    animation: sparkle 2s infinite;
+  }
+}
+
+@keyframes sparkle {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.7; transform: scale(1.1); }
+}
+
+/* =============================================== */
+/* ESTILOS PARA HEADER DESTACADO */
+/* =============================================== */
+
+.nav-item-highlight {
+  background: linear-gradient(135deg, #e63946 0%, #c1121f 100%) !important;
+  color: white !important;
+  font-weight: 700 !important;
+  box-shadow: 0 2px 8px rgba(230, 57, 70, 0.4) !important;
+  
+  &:hover {
+    background: linear-gradient(135deg, #c1121f 0%, #a4131c 100%) !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 4px 12px rgba(230, 57, 70, 0.5) !important;
+  }
+  
+  .nav-icon-compact {
+    animation: pulse-icon 2s infinite;
+  }
+}
+
+@keyframes pulse-icon {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
+
+/* =============================================== */
+/* RESPONSIVE PARA HEADER DESTACADO */
+/* =============================================== */
+
+/* MOBILE */
+@media (max-width: 767px) {
+  .nav-item-highlight {
+    background: #e63946 !important;
+    
+    &:hover {
+      background: #c1121f !important;
+    }
+  }
+}
+
+/* TABLET Y ESCRITORIO */
+@media (min-width: 768px) {
+  .nav-item-highlight {
+    position: relative;
+    
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: -2px;
+      left: 10%;
+      right: 10%;
+      height: 3px;
+      background: #ffd166;
+      border-radius: 2px;
+      animation: slide-line 3s infinite;
+    }
+  }
+}
+
+@keyframes slide-line {
+  0%, 100% { width: 60%; left: 20%; }
+  50% { width: 80%; left: 10%; }
+}

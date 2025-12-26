@@ -1,76 +1,76 @@
 // src/assets/scss/_03-Componentes/ChordsViewer/_IntelligentChordsViewer.scss
 
 .intelligent-chords-viewer {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
+  
+  // Estados por formato
+  &.format-desktop {
+    background: #f8f9fa;
+  }
+  
+  &.format-tablet {
+    background: #fafbfc;
+  }
+  
+  &.format-mobile {
+    background: #ffffff;
+  }
+  
+  &.format-print {
+    background: white;
+  }
+  
+  // Modo pantalla completa
+  &.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+    background: white;
     
-    // Estados por formato
-    &.format-desktop {
-      background: #f8f9fa;
-    }
-    
-    &.format-tablet {
-      background: #fafbfc;
-    }
-    
-    &.format-mobile {
-      background: #ffffff;
-    }
-    
-    &.format-print {
-      background: white;
-    }
-    
-    // Modo pantalla completa
-    &.fullscreen {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100vw;
+    .desktop-viewer,
+    .tablet-viewer,
+    .mobile-viewer {
       height: 100vh;
-      z-index: 1000;
-      background: white;
-      
-      .desktop-viewer,
-      .tablet-viewer,
-      .mobile-viewer {
-        height: 100vh;
-      }
-    }
-    
-    // Modo impresión
-    &.print-mode {
-      background: white;
-    }
-    
-    // Estado sin canción
-    &.no-song {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 400px;
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-      
-      .no-song-message {
-        text-align: center;
-        color: white;
-        
-        h2 {
-          font-size: 2em;
-          margin-bottom: 15px;
-          font-weight: 700;
-          text-shadow: 0 2px 4px rgba(0,0,0,0.3);
-        }
-        
-        p {
-          font-size: 1.2em;
-          opacity: 0.9;
-        }
-      }
     }
   }
   
-  // Transiciones suaves entre formatos
-  .format-transition {
-    transition: all 0.3s ease-in-out;
+  // Modo impresión
+  &.print-mode {
+    background: white;
   }
+  
+  // Estado sin canción
+  &.no-song {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    
+    .no-song-message {
+      text-align: center;
+      color: white;
+      
+      h2 {
+        font-size: 2em;
+        margin-bottom: 15px;
+        font-weight: 700;
+        text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+      }
+      
+      p {
+        font-size: 1.2em;
+        opacity: 0.9;
+      }
+    }
+  }
+}
+
+// Transiciones suaves entre formatos
+.format-transition {
+  transition: all 0.3s ease-in-out;
+}

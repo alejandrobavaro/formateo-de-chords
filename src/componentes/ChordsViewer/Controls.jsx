@@ -1,4 +1,8 @@
-// src/componentes/ChordsViewer/Controls.jsx
+// ============================================
+// ARCHIVO: Controls.jsx - VERSIÓN ULTRA COMPACTA
+// OBJETIVO: Reducir controles a una sola línea muy compacta
+// ============================================
+
 import React from "react";
 import { 
   BsPrinter, 
@@ -22,85 +26,76 @@ const Controls = ({
   hasSelectedSong
 }) => {
   return (
-    <div className="controls-single-line">
+    <div className="controls-micro-line">
       
-      {/* Control de transposición */}
-      <div className="control-group">
-        <span className="control-label">
-          <BsMusicNoteBeamed className="control-icon" />
-          Tono:
-        </span>
-        <div className="transposition-controls">
-          <button
-            onClick={() => setTransposition(transposition - 1)}
-            className="control-btn transp-btn"
-            disabled={!hasSelectedSong}
-            title="Bajar semitono"
-          >
-            <BsDash />
-          </button>
-          <span className="transp-value">
-            {transposition > 0 ? "+" : ""}{transposition}
-          </span>
-          <button
-            onClick={() => setTransposition(transposition + 1)}
-            className="control-btn transp-btn"
-            disabled={!hasSelectedSong}
-            title="Subir semitono"
-          >
-            <BsPlus />
-          </button>
-        </div>
-      </div>
-
-      {/* Separador */}
-      <div className="control-separator"></div>
-
-      {/* Guía A4 */}
-      <div className="control-group">
+      {/* Control de transposición compacto */}
+      <div className="control-group-micro">
         <button
-          onClick={() => setShowA4Outline(!showA4Outline)}
-          className={`control-btn outline-btn ${showA4Outline ? 'active' : ''}`}
+          onClick={() => setTransposition(transposition - 1)}
+          className="control-btn-micro transp-btn-micro"
           disabled={!hasSelectedSong}
-          title={showA4Outline ? "Ocultar guía A4" : "Mostrar guía A4"}
+          title="Bajar semitono"
         >
-          <BsAspectRatio />
-          <span className="btn-label">A4</span>
+          <BsDash />
         </button>
+        <span className="transp-value-micro">
+          {transposition > 0 ? "+" : ""}{transposition}
+        </span>
+        <button
+          onClick={() => setTransposition(transposition + 1)}
+          className="control-btn-micro transp-btn-micro"
+          disabled={!hasSelectedSong}
+          title="Subir semitono"
+        >
+          <BsPlus />
+        </button>
+        <span className="control-icon-micro">
+          <BsMusicNoteBeamed />
+        </span>
       </div>
 
       {/* Separador */}
-      <div className="control-separator"></div>
+      <div className="control-separator-micro"></div>
 
-      {/* Exportación */}
-      <div className="control-group">
-        <span className="control-label">Exportar:</span>
-        <div className="export-controls">
-          <button 
-            onClick={onExportPDF} 
-            className="control-btn export-btn"
-            title="Exportar a PDF"
-            disabled={!hasSelectedSong}
-          >
-            <BsFiletypePdf />
-          </button>
-          <button 
-            onClick={onExportJPG} 
-            className="control-btn export-btn"
-            title="Exportar a JPG"
-            disabled={!hasSelectedSong}
-          >
-            <BsFiletypeJpg />
-          </button>
-          <button 
-            onClick={onPrint} 
-            className="control-btn export-btn"
-            title="Imprimir"
-            disabled={!hasSelectedSong}
-          >
-            <BsPrinter />
-          </button>
-        </div>
+      {/* Guía A4 mini */}
+      <button
+        onClick={() => setShowA4Outline(!showA4Outline)}
+        className={`control-btn-micro outline-btn-micro ${showA4Outline ? 'active' : ''}`}
+        disabled={!hasSelectedSong}
+        title={showA4Outline ? "Sin guía" : "Guía A4"}
+      >
+        <BsAspectRatio />
+      </button>
+
+      {/* Separador */}
+      <div className="control-separator-micro"></div>
+
+      {/* Exportación mini */}
+      <div className="control-group-micro">
+        <button 
+          onClick={onExportPDF} 
+          className="control-btn-micro export-btn-micro"
+          title="Exportar PDF"
+          disabled={!hasSelectedSong}
+        >
+          <BsFiletypePdf />
+        </button>
+        <button 
+          onClick={onExportJPG} 
+          className="control-btn-micro export-btn-micro"
+          title="Exportar JPG"
+          disabled={!hasSelectedSong}
+        >
+          <BsFiletypeJpg />
+        </button>
+        <button 
+          onClick={onPrint} 
+          className="control-btn-micro export-btn-micro"
+          title="Imprimir"
+          disabled={!hasSelectedSong}
+        >
+          <BsPrinter />
+        </button>
       </div>
 
     </div>

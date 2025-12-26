@@ -1,62 +1,47 @@
 /* =============================================== */
-/* ESTILOS CONTROLES - OPTIMIZADO */
+/* ESTILOS CONTROLES MICRO - ULTRA COMPACTO */
+/* Altura objetivo: 28px (reducido de 32px) */
 /* =============================================== */
 
-/* --- Contenedor principal --- */
-.controls-single-line {
+/* --- Contenedor principal micro --- */
+.controls-micro-line {
   display: flex;
   align-items: center;
-  gap: 8px;
-  padding: 4px;
+  gap: 4px; // Reducido de 8px
+  padding: 2px; // Reducido de 4px
   background: #2a2a2a;
-  border: 1px solid #444;
-  border-radius: 6px;
-  flex-wrap: wrap;
+  border: 1px solid #333;
+  border-radius: 4px; // Reducido de 6px
+  height: 28px; // Altura fija compacta
 }
 
-/* --- Grupos de controles --- */
-.control-group {
+/* --- Grupos de controles micro --- */
+.control-group-micro {
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 2px; // Reducido de 6px
   flex-shrink: 0;
 }
 
-/* --- Etiquetas --- */
-.control-label {
-  display: flex;
-  align-items: center;
-  gap: 3px;
-  font-size: 11px;
-  color: #fff;
-  font-weight: 600;
-  white-space: nowrap;
-}
-
-.control-icon {
-  color: #ffd166;
-  font-size: 12px;
-}
-
-/* --- Botones de control --- */
-.control-btn {
+/* --- Botones de control micro --- */
+.control-btn-micro {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 4px 6px;
+  padding: 2px 4px; // Reducido
   background: #222;
-  border: 1px solid #444;
-  border-radius: 3px;
+  border: 1px solid #333;
+  border-radius: 2px; // Reducido de 3px
   color: #fff;
   cursor: pointer;
-  font-size: 11px;
-  transition: all 0.2s ease;
-  min-width: 28px;
-  height: 24px;
+  font-size: 10px; // Reducido de 11px
+  transition: all 0.15s ease;
+  min-width: 24px; // Reducido de 28px
+  height: 20px; // Reducido de 24px
 
   &:hover:not(:disabled) {
-    background: #333;
-    border-color: #666;
+    background: #2a2a2a;
+    border-color: #444;
   }
 
   &:active:not(:disabled) {
@@ -64,7 +49,7 @@
   }
 
   &:disabled {
-    opacity: 0.4;
+    opacity: 0.3;
     cursor: not-allowed;
   }
 
@@ -80,245 +65,179 @@
   }
 }
 
-/* --- Controles de transposición --- */
-.transposition-controls {
-  display: flex;
-  align-items: center;
-  gap: 3px;
-}
-
-.transp-btn {
-  padding: 3px 5px;
-  min-width: 22px;
-  height: 20px;
+/* --- Controles de transposición micro --- */
+.transp-btn-micro {
+  padding: 1px 3px; // Reducido
+  min-width: 20px; // Reducido de 22px
+  height: 18px; // Reducido de 20px
   font-weight: bold;
 }
 
-.transp-value {
-  font-size: 11px;
+.transp-value-micro {
+  font-size: 10px; // Reducido de 11px
   font-weight: 600;
   color: #fff;
-  min-width: 20px;
+  min-width: 16px; // Reducido
   text-align: center;
   background: #222;
-  padding: 3px 5px;
-  border-radius: 2px;
-  border: 1px solid #444;
+  padding: 2px 3px; // Reducido
+  border-radius: 1px; // Reducido
+  border: 1px solid #333;
+  margin: 0 1px;
 }
 
-/* --- Botón de guía A4 --- */
-.outline-btn {
-  gap: 3px;
-  padding: 3px 6px;
+.control-icon-micro {
+  color: #ffd166;
+  font-size: 11px; // Reducido
+  margin-left: 2px;
+}
+
+/* --- Separadores micro --- */
+.control-separator-micro {
+  width: 1px;
+  height: 14px; // Reducido
+  background: #333;
+  margin: 0 1px; // Reducido
+}
+
+/* --- Botón de guía A4 micro --- */
+.outline-btn-micro {
+  padding: 2px 4px;
   
-  .btn-label {
-    font-size: 10px;
-    font-weight: 600;
+  &:hover:not(:disabled) {
+    .btn-label {
+      display: none;
+    }
   }
 }
 
-/* --- Controles de exportación --- */
-.export-controls {
-  display: flex;
-  gap: 3px;
-}
-
-.export-btn {
-  padding: 3px 5px;
-  min-width: 24px;
-  height: 20px;
-  font-size: 12px;
-}
-
-/* --- Separadores --- */
-.control-separator {
-  width: 1px;
-  height: 16px;
-  background: #444;
-  margin: 0 2px;
+/* --- Controles de exportación micro --- */
+.export-btn-micro {
+  padding: 2px 3px; // Reducido
+  min-width: 22px; // Reducido
+  height: 18px; // Reducido
+  font-size: 11px; // Reducido
 }
 
 /* =============================================== */
-/* RESPONSIVE DESIGN */
+/* RESPONSIVE DESIGN MICRO */
 /* =============================================== */
 
 /* --- Tablet (768px) --- */
 @media (max-width: 1024px) {
-  .controls-single-line {
-    gap: 6px;
-    padding: 3px;
+  .controls-micro-line {
+    gap: 3px;
+    padding: 1px;
+    height: 26px; // Más compacto
   }
   
-  .control-group {
-    gap: 4px;
+  .control-group-micro {
+    gap: 1px;
   }
   
-  .control-label {
+  .control-btn-micro {
+    padding: 1px 3px;
+    min-width: 22px;
+    height: 18px;
+    font-size: 9px;
+  }
+  
+  .transp-value-micro {
+    font-size: 9px;
+    min-width: 14px;
+    padding: 1px 2px;
+  }
+  
+  .control-icon-micro {
     font-size: 10px;
-  }
-  
-  .control-btn {
-    padding: 3px 5px;
-    min-width: 26px;
-    height: 22px;
-    font-size: 10px;
-  }
-  
-  .transp-value {
-    font-size: 10px;
-    min-width: 18px;
-    padding: 2px 4px;
   }
 }
 
 /* --- Mobile (768px) --- */
 @media (max-width: 768px) {
-  .controls-single-line {
-    gap: 4px;
-    padding: 2px;
-    justify-content: center;
+  .controls-micro-line {
+    gap: 2px;
+    padding: 1px;
+    height: 24px; // Más compacto
   }
   
-  .control-group {
-    gap: 3px;
-  }
-  
-  .control-label {
-    font-size: 9px;
-    
-    span:last-child {
-      display: none;
-    }
-  }
-  
-  .control-icon {
-    font-size: 11px;
-  }
-  
-  .control-btn {
-    padding: 2px 4px;
-    min-width: 24px;
-    height: 20px;
-    font-size: 10px;
-  }
-  
-  .transp-btn {
+  .control-btn-micro {
+    padding: 1px 2px;
     min-width: 20px;
-    height: 18px;
-    padding: 2px 4px;
-  }
-  
-  .transp-value {
-    font-size: 9px;
-    min-width: 16px;
-    padding: 2px 3px;
-  }
-  
-  .outline-btn .btn-label {
+    height: 16px;
     font-size: 9px;
   }
   
-  .export-btn {
-    min-width: 22px;
-    height: 18px;
-    font-size: 11px;
-    padding: 2px 4px;
+  .transp-btn-micro {
+    min-width: 18px;
+    height: 16px;
+    padding: 1px 2px;
   }
   
-  .control-separator {
-    height: 14px;
+  .transp-value-micro {
+    font-size: 9px;
+    min-width: 14px;
+    padding: 1px 2px;
+  }
+  
+  .export-btn-micro {
+    min-width: 20px;
+    height: 16px;
+    font-size: 10px;
+    padding: 1px 2px;
+  }
+  
+  .control-separator-micro {
+    height: 12px;
   }
 }
 
 /* --- Mobile pequeño (480px) --- */
 @media (max-width: 480px) {
-  .controls-single-line {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 4px;
-    padding: 6px;
+  .controls-micro-line {
+    flex-direction: row;
+    height: auto;
+    padding: 3px;
   }
   
-  .control-group {
-    justify-content: space-between;
+  .control-group-micro {
+    justify-content: center;
+    width: 100%;
   }
   
-  .control-separator {
+  .control-separator-micro {
     width: 100%;
     height: 1px;
-    margin: 2px 0;
-  }
-  
-  .control-label {
-    font-size: 10px;
-    
-    span:last-child {
-      display: inline;
-    }
-  }
-  
-  .transposition-controls {
-    justify-content: flex-end;
-  }
-  
-  .export-controls {
-    justify-content: flex-end;
+    margin: 1px 0;
   }
 }
 
-/* --- Modo alto contraste --- */
-@media (prefers-contrast: high) {
-  .controls-single-line {
-    border: 1px solid #fff;
-  }
-  
-  .control-btn {
-    border: 1px solid #fff;
-    
-    &:hover:not(:disabled) {
-      border: 1px solid #ffd166;
-    }
-    
-    &.active {
-      border: 1px solid #ffd166;
-    }
-  }
-  
-  .transp-value {
-    border: 1px solid #fff;
-  }
-  
-  .control-separator {
-    background: #fff;
-  }
-}
-
-/* --- Modo oscuro --- */
+/* --- Modo oscuro micro --- */
 @media (prefers-color-scheme: dark) {
-  .controls-single-line {
-    background: #2a2a2a;
-    border-color: #444;
+  .controls-micro-line {
+    background: #1a1a1a;
+    border-color: #2a2a2a;
   }
   
-  .control-btn {
-    background: #222;
-    border-color: #444;
+  .control-btn-micro {
+    background: #111;
+    border-color: #2a2a2a;
     
     &:hover:not(:disabled) {
-      background: #2a2a2a;
-      border-color: #666;
+      background: #1a1a1a;
+      border-color: #333;
     }
   }
   
-  .transp-value {
-    background: #222;
-    border-color: #444;
+  .transp-value-micro {
+    background: #111;
+    border-color: #2a2a2a;
   }
 }
 
-/* --- Mejoras de accesibilidad --- */
+/* --- Mejoras de accesibilidad micro --- */
 @media (prefers-reduced-motion: reduce) {
-  .control-btn {
+  .control-btn-micro {
     transition: none;
   }
 }

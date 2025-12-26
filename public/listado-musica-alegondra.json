@@ -1,0 +1,251 @@
+{
+  "artista": "Ale Gondra",
+  "discografia": [
+    {
+      "album_id": "a-nada-de-serlo-todo",
+      "album_name": "A NADA DE SERLO TODO",
+      "year": "2020",
+      "cover_image": "/img/09-discos/ALE-GONDRA-TAPA-DISCO-1.jpg",
+      "songs": [
+        {
+          "id": "nada-01",
+          "track_number": 1,
+          "title": "A nada de serlo todo",
+          "artist": "Ale Gondra",
+          "duration": "02:48",
+          "mp3_url": "/audio/01-mp3-musicaoriginal/mp3cancionesalegondramusic/5D - 01 - A nada de serlo todo - Ale Gondra (Final Master) ®.mp3",
+          "chords_url": "/chords/01-cancionerosmusicaoriginal/cancionesalegondramusic/ale-gondra-a-nada-de-serlo-todo.json",
+          "details": {
+            "letra": "A nada de serlo todo\nY a todo de ser la nada\nEn este juego de moda\nDonde el alma está quebrada...",
+            "acordes": ["C", "G", "Am", "F"],
+            "bpm": 120,
+            "tonalidad": "C Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia"
+          }
+        },
+        {
+          "id": "nada-02",
+          "track_number": 2,
+          "title": "Afloja",
+          "artist": "Ale Gondra",
+          "duration": "03:05",
+          "mp3_url": "/audio/01-mp3-musicaoriginal/mp3cancionesalegondramusic/5D - 02 - Afloja - Ale Gondra (Final Master) ®.mp3",
+          "chords_url": "/chords/01-cancionerosmusicaoriginal/cancionesalegondramusic/ale-gondra-afloja.json",
+          "details": {
+            "letra": "Afloja un poco la presión\nDeja que fluya el corazón\nNo todo tiene que ser perfecto\nA veces lo simple es lo correcto...",
+            "acordes": ["D", "A", "Bm", "G"],
+            "bpm": 110,
+            "tonalidad": "D Mayor",
+            "compas": "4/4",
+            "dificultad": "Básica"
+          }
+        },
+        {
+          "id": "nada-03",
+          "track_number": 3,
+          "title": "Aquella Noche",
+          "artist": "Ale Gondra",
+          "duration": "04:02",
+          "mp3_url": "/audio/01-mp3-musicaoriginal/mp3cancionesalegondramusic/5D - 03 - Aquella Noche - Ale Gondra (Final Master).mp3",
+          "chords_url": "/chords/01-cancionerosmusicaoriginal/cancionesalegondramusic/ale-gondra-aquella-noche.json",
+          "details": {
+            "letra": "Aquella noche bajo la luna\nTodo era magia y fantasía\nTu mirada era una fortuna\nQue iluminaba cada día...",
+            "acordes": ["Am", "G", "F", "E"],
+            "bpm": 95,
+            "tonalidad": "Am",
+            "compas": "4/4",
+            "dificultad": "Intermedia"
+          }
+        },
+        {
+          "id": "nada-04",
+          "track_number": 4,
+          "title": "Cual es la vida real",
+          "artist": "Ale Gondra",
+          "duration": "04:43",
+          "mp3_url": "/audio/01-mp3-musicaoriginal/mp3cancionesalegondramusic/5D - 04 - Cual es la vida real - Ale Gondra (Final Master) ®.mp3",
+          "chords_url": "/chords/01-cancionerosmusicaoriginal/cancionesalegondramusic/ale-gondra-cual-es-la-vida-real.json",
+          "details": {
+            "letra": "Cuál es la vida real\nLa que sueño o la que vivo\nCuál es la verdad esencial\nQue en mi pecho percibo...",
+            "acordes": ["Em", "C", "G", "D"],
+            "bpm": 105,
+            "tonalidad": "Em",
+            "compas": "4/4",
+            "dificultad": "Avanzada"
+          }
+        },
+        {
+          "id": "nada-05",
+          "track_number": 5,
+          "title": "Cuando el amor es Puro",
+          "artist": "Ale Gondra",
+          "duration": "05:12",
+          "mp3_url": "/audio/01-mp3-musicaoriginal/mp3cancionesalegondramusic/5D - 05 - Cuando el amor es Puro - Ale Gondra (Final Master) ®.mp3",
+          "chords_url": "/chords/01-cancionerosmusicaoriginal/cancionesalegondramusic/ale-gondra-cuando-el-amor-es-puro.json",
+          "details": {
+            "letra": "Cuando el amor es puro\nNo hay barreras que lo paren\nEs un sentimiento seguro\nQue en el alma quiere quedarse...",
+            "acordes": ["G", "D", "Em", "C"],
+            "bpm": 85,
+            "tonalidad": "G Mayor",
+            "compas": "6/8",
+            "dificultad": "Intermedia"
+          }
+        },
+        {
+          "id": "nada-06",
+          "track_number": 6,
+          "title": "Es pa' ti",
+          "artist": "Ale Gondra",
+          "duration": "03:30",
+          "mp3_url": "/audio/01-mp3-musicaoriginal/mp3cancionesalegondramusic/5D - 06 - Es pa´ti - Ale Gondra (Final Master) ®.mp3",
+          "chords_url": "/chords/01-cancionerosmusicaoriginal/cancionesalegondramusic/ale-gondra-es-pa-ti.json",
+          "details": {
+            "letra": "Esta canción es pa' ti\nQue llenas mi vida de alegría\nCon tu forma de ser y reír\nEres mi melodía...",
+            "acordes": ["A", "E", "F#m", "D"],
+            "bpm": 115,
+            "tonalidad": "A Mayor",
+            "compas": "4/4",
+            "dificultad": "Básica"
+          }
+        },
+        {
+          "id": "nada-07",
+          "track_number": 7,
+          "title": "Good bye",
+          "artist": "Ale Gondra",
+          "duration": "03:08",
+          "mp3_url": "/audio/01-mp3-musicaoriginal/mp3cancionesalegondramusic/5D - 07 - Good bye - Ale Gondra (Final Master).mp3",
+          "chords_url": "/chords/01-cancionerosmusicaoriginal/cancionesalegondramusic/ale-gondra-good-bye.json",
+          "details": {
+            "letra": "Good bye, adiós, hasta siempre\nSe cierra este capítulo\nCon el corazón latente\nY recuerdos en el futuro...",
+            "acordes": ["Cm", "G#", "D#", "Fm"],
+            "bpm": 100,
+            "tonalidad": "Cm",
+            "compas": "4/4",
+            "dificultad": "Intermedia"
+          }
+        },
+        {
+          "id": "nada-08",
+          "track_number": 8,
+          "title": "Hay en mi para ti",
+          "artist": "Ale Gondra",
+          "duration": "03:36",
+          "mp3_url": "/audio/01-mp3-musicaoriginal/mp3cancionesalegondramusic/5D - 08 - Hay en mi para ti - Ale Gondra (Final Master).mp3",
+          "chords_url": "/chords/01-cancionerosmusicaoriginal/cancionesalegondramusic/ale-gondra-hay-en-mi-para-ti.json",
+          "details": {
+            "letra": "Hay en mí para ti\nUn amor que nunca termina\nUn sentimiento que vi\nCrecer día a día...",
+            "acordes": ["Bm", "G", "D", "A"],
+            "bpm": 110,
+            "tonalidad": "Bm",
+            "compas": "4/4",
+            "dificultad": "Intermedia"
+          }
+        },
+        {
+          "id": "nada-09",
+          "track_number": 9,
+          "title": "Hay un lugar",
+          "artist": "Ale Gondra",
+          "duration": "03:58",
+          "mp3_url": "/audio/01-mp3-musicaoriginal/mp3cancionesalegondramusic/5D - 09 - Hay un lugar - Ale Gondra (Final Master).mp3",
+          "chords_url": "/chords/01-cancionerosmusicaoriginal/cancionesalegondramusic/ale-gondra-hay-un-lugar.json",
+          "details": {
+            "letra": "Hay un lugar en mi mente\nDonde siempre estás presente\nUn rincón especial\nDonde nuestro amor es eternal...",
+            "acordes": ["E", "C#m", "A", "B"],
+            "bpm": 95,
+            "tonalidad": "E Mayor",
+            "compas": "4/4",
+            "dificultad": "Avanzada"
+          }
+        },
+        {
+          "id": "nada-10",
+          "track_number": 10,
+          "title": "Hoy me siento Libre",
+          "artist": "Ale Gondra",
+          "duration": "03:20",
+          "mp3_url": "/audio/01-mp3-musicaoriginal/mp3cancionesalegondramusic/5D - 10 - Hoy me siento Libre - Ale Gondra (Final Master) ®.mp3",
+          "chords_url": "/chords/01-cancionerosmusicaoriginal/cancionesalegondramusic/ale-gondra-hoy-me-siento-libre.json",
+          "details": {
+            "letra": "Hoy me siento libre\nComo el viento que vuela sin rumbo\nSin cadenas que me prohiben\nSer quien quiero en este mundo...",
+            "acordes": ["D", "A", "Bm", "G"],
+            "bpm": 125,
+            "tonalidad": "D Mayor",
+            "compas": "4/4",
+            "dificultad": "Básica"
+          }
+        },
+        {
+          "id": "nada-11",
+          "track_number": 11,
+          "title": "Me muero por vos",
+          "artist": "Ale Gondra",
+          "duration": "03:46",
+          "mp3_url": "/audio/01-mp3-musicaoriginal/mp3cancionesalegondramusic/5D - 11 - Me muero por vos - Ale Gondra (Final Master).mp3",
+          "chords_url": "/chords/01-cancionerosmusicaoriginal/cancionesalegondramusic/ale-gondra-me-muero-por-vos.json",
+          "details": {
+            "letra": "Me muero por vos\nCada instante, cada momento\nEres el aire que respiro\nY el latido de mi sentimiento...",
+            "acordes": ["F#m", "D", "A", "E"],
+            "bpm": 105,
+            "tonalidad": "F#m",
+            "compas": "4/4",
+            "dificultad": "Intermedia"
+          }
+        },
+        {
+          "id": "nada-12",
+          "track_number": 12,
+          "title": "Te amé con Locura",
+          "artist": "Ale Gondra",
+          "duration": "03:47",
+          "mp3_url": "/audio/01-mp3-musicaoriginal/mp3cancionesalegondramusic/5D - 12 - Te ame con Locura - Ale Gondra (Final Master) ®.mp3",
+          "chords_url": "/chords/01-cancionerosmusicaoriginal/cancionesalegondramusic/ale-gondra-te-ame-con-locura.json",
+          "details": {
+            "letra": "Te amé con locura\nCon toda el alma y el corazón\nFue una aventura\nLlena de pasión y emoción...",
+            "acordes": ["C", "G", "Am", "F"],
+            "bpm": 115,
+            "tonalidad": "C Mayor",
+            "compas": "4/4",
+            "dificultad": "Básica"
+          }
+        },
+        {
+          "id": "nada-13",
+          "track_number": 13,
+          "title": "Tu perfume en mi piel",
+          "artist": "Ale Gondra & Melody",
+          "duration": "04:08",
+          "mp3_url": "/audio/01-mp3-musicaoriginal/mp3cancionesalegondramusic/5D - 13 - Tu perfume en mi piel - Ale Gondra & Melody (Final Master).mp3",
+          "chords_url": "/chords/01-cancionerosmusicaoriginal/cancionesalegondramusic/ale-gondra-melody-tu-perfume-en-mi-piel.json",
+          "details": {
+            "letra": "Tu perfume en mi piel\nQuedó grabado en mi memoria\nEs un sello tan fiel\nQue cuenta nuestra historia...",
+            "acordes": ["G", "D", "Em", "C"],
+            "bpm": 90,
+            "tonalidad": "G Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia"
+          }
+        },
+        {
+          "id": "nada-14",
+          "track_number": 14,
+          "title": "Uno los dos",
+          "artist": "Ale Gondra",
+          "duration": "03:07",
+          "mp3_url": "/audio/01-mp3-musicaoriginal/mp3cancionesalegondramusic/5D - 14 - Uno los dos - Ale Gondra (Final Master).mp3",
+          "chords_url": "/chords/01-cancionerosmusicaoriginal/cancionesalegondramusic/ale-gondra-uno-los-dos.json",
+          "details": {
+            "letra": "Uno los dos, un solo corazón\nDos almas que se encuentran\nEn perfecta unión\nCompartiendo el mismo latir\nY el mismo amor por vivir...",
+            "acordes": ["A", "E", "F#m", "D"],
+            "bpm": 110,
+            "tonalidad": "A Mayor",
+            "compas": "4/4",
+            "dificultad": "Básica"
+          }
+        }
+      ]
+    }
+  ]
+}
