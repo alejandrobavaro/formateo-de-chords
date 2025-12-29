@@ -1,0 +1,641 @@
+{
+  "id": "ac-dc-back-in-black",
+  "title": "Back In Black",
+  "artist": "AC/DC",
+  "originalKey": "A",
+  "tempo": "Fast Rock",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Back in black"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Back in black"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "I hit the sack"
+        },
+        {
+          "type": "chords",
+          "content": ["D/F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "I've been too long I'm glad to be back"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Yes, I'm let loose"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "From the noose"
+        },
+        {
+          "type": "chords",
+          "content": ["D/F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "That's kept me hanging about"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "I've been looking at the sky"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "'Cause it's gettin' me high"
+        },
+        {
+          "type": "chords",
+          "content": ["D/F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Forget the hearse 'cause I never die"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "I got nine lives"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Cat's eyes"
+        },
+        {
+          "type": "chords",
+          "content": ["D/F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Abusin' every one of them and running wild"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["D", "A", "E", "D", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "'Cause I'm back"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["D", "A", "E", "D", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Yes, I'm back"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["C", "G", "D", "C", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Well, I'm back"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["C", "G", "D", "C", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Yes, I'm back"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["D", "A", "E", "D", "E", "D", "A", "E", "D", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Well, I'm ba--a--a--a-ck, ba--a--a--a-ck"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "(Well) I'm b-ack in black"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Yes, I'm ba-ck in black"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Back in the back"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Of a cadillac"
+        },
+        {
+          "type": "chords",
+          "content": ["D/F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Number one with a bullet, I'm a power pack"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Yes, I'm in a bang"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "With a gang"
+        },
+        {
+          "type": "chords",
+          "content": ["D/F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "They've got to catch me if they want me to hang"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "'Cause I'm back on the track"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "And I'm beatin' the flack"
+        },
+        {
+          "type": "chords",
+          "content": ["D/F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Nobody's gonna get me on another rap"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "So look at me now"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm just makin' my play"
+        },
+        {
+          "type": "chords",
+          "content": ["D/F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Don't try to push your luck, just get out of my way"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["D", "A", "E", "D", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "'Cause I'm back"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["D", "A", "E", "D", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Yes, I'm back"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["C", "G", "D", "C", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Well, I'm back"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["C", "G", "D", "C", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Yes, I'm back"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["D", "A", "E", "D", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Well, I'm back, back"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "A", "E", "D", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "(Well) I'm back in black"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Yes, I'm back in black"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "LEAD",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A", "G", "D/F#"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS 3",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D", "A", "E", "D", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "'Cause I'm bac-k"
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["D", "A", "E", "D", "E"]
+            },
+            {
+              "type": "lyric",
+              "content": "Yes, I'm back"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["C", "G", "D", "C", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Well, I'm back"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["C", "G", "D", "C", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "Yes, I'm back"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["D", "A", "E", "D", "E", "D", "A", "E", "D", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Well, I'm ba--a--a--a-ck, ba--a--a--a-ck"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "(Well) I'm b-ack in black"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Yes, I'm ba-ck in black"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "RIFFS",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D", "A", "E", "D", "E", "D"]
+        },
+        {
+          "type": "chords",
+          "content": ["D", "A", "E", "D", "E", "D"]
+        },
+        {
+          "type": "chords",
+          "content": ["D", "A", "E", "D", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "hooo yeah"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "A", "E", "D", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Ohh yeah"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "G", "D", "C", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Yes I am"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "G", "D", "C", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Oh yeah"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "A", "E", "D", "E", "D"]
+        },
+        {
+          "type": "chords",
+          "content": ["D", "A", "E", "D", "E", "D"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "OUTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D", "A", "E", "D", "E", "D", "A", "E", "D", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Well, I'm ba--a--a--a-ck, ba--a--a--a-ck"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "G", "D", "C", "D"]
+        },
+        {
+          "type": "lyric",
+          "content": "B-a-a-a-ac-k, b-a-a-a-ac-k"
+        },
+        {
+          "type": "chords",
+          "content": ["D", "A", "E", "D", "E", "D", "A", "E", "D", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Yes I'm ba--a--a--a-ck, ba--a--a--a-ck"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "Yes. I'm back in black"
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": "Yes, I'm ba-ck in black"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "E"]
+        },
+        {
+          "type": "lyric",
+          "content": "Outta the sack!"
+        },
+        {
+          "type": "chords",
+          "content": ["A", "G", "D/F#"]
+        },
+        {
+          "type": "text",
+          "content": "(repeat to end)"
+        }
+      ]
+    }
+  ]
+}

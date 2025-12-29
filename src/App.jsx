@@ -30,7 +30,7 @@ import { MusicaProvider } from "./componentes/ReproductorMusica/MusicaContexto";
 // ======================================================
 // CONTEXTOS EXISTENTES
 // ======================================================
-import { SearchProvider } from './componentes/SearchContext';
+import { SearchProvider } from './componentes/ASearchContext';
 
 // ======================================================
 // BIBLIOTECAS DE CANCIONES

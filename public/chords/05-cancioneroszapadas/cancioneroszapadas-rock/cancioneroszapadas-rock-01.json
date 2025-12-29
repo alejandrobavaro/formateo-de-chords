@@ -1,0 +1,102 @@
+{
+    "id": "zapada-rock-001",
+    "title": "Zapada Rock Clásico",
+    "artist": "Rockola Covers",
+    "originalKey": "E",
+    "tempo": 120,
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "A", "B", "E"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 1",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric": "Rock clásico, guitarra y potencia,"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric": ""
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "lyric": "el bajo y la batería no paran."
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric": "Canta y grita,"
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric": ""
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "lyric": "el rock es tu canción."
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "B", "A", "E"]
+          }
+        ]
+      }
+    ]
+  }
+  

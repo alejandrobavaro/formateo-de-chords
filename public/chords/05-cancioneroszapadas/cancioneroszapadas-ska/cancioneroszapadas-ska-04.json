@@ -1,0 +1,81 @@
+{
+    "id": "zapada-ska-004",
+    "title": "Zapada Ska Sesión 3 en Vivo",
+    "artist": "Rockola Covers",
+    "originalKey": "G",
+    "tempo": 155,
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "D", "Em", "C"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 1",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric": "Ska en vivo, energía y ritmo,"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric": ""
+          },
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric": "la trompeta y el bajo te harán saltar."
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PUENTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "D", "G", "C"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "C", "D", "G"]
+          }
+        ]
+      }
+    ]
+  }
+  

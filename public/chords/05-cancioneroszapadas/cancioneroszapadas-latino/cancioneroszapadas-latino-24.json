@@ -1,0 +1,81 @@
+{
+    "id": "zapada-latino-024",
+    "title": "Zapada Bossa Nova",
+    "artist": "Rockola Covers",
+    "originalKey": "D",
+    "tempo": 120,
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Dm7", "G7", "Cmaj7", "A7"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 1",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Dm7"
+          },
+          {
+            "type": "lyric": "Bossa nova suave,"
+          },
+          {
+            "type": "chord",
+            "content": "G7"
+          },
+          {
+            "type": "lyric": ""
+          },
+          {
+            "type": "chord",
+            "content": "Cmaj7"
+          },
+          {
+            "type": "lyric": "la guitarra y el ritmo te harán volar."
+          },
+          {
+            "type": "chord",
+            "content": "A7"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PUENTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Dm7", "A7", "G7", "Cmaj7"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Dm7", "A7", "G7", "Dm7"]
+          }
+        ]
+      }
+    ]
+  }
+  

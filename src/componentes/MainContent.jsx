@@ -32,13 +32,7 @@ const MainContent = () => {
   // DESCRIPCIÓN: Configuración de las tarjetas de acceso rápido
   // ======================================================
   const actionCards = [
-    {
-      title: "Inicio",
-      description: "Página principal",
-      icon: <BsHouse />,
-      path: "/",
-      color: "#ffd166" // Dorado
-    },
+ 
     {
       title: "Música",
       description: "Reproductor con visualizador de acordes",

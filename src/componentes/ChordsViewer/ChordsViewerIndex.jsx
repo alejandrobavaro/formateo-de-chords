@@ -1,11 +1,9 @@
 // ============================================
 // ARCHIVO: ChordsViewerIndex.jsx - VERSIÓN COMPLETA CORREGIDA
-// DESCRIPCIÓN: Visualizador de acordes con soporte para medleys
-// MEJORAS: Detecta medleys y muestra badge especial
-// DISEÑO: Respeta completamente el diseño original del Sass
+// CORRECCIÓN CRÍTICA: Manejo seguro de imágenes y DOM
 // ============================================
 
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { 
   BsArrowsFullscreen, 
   BsFullscreenExit, 
@@ -17,6 +15,48 @@ import {
 } from "react-icons/bs";
 import "../../assets/scss/_03-Componentes/ChordsViewer/_ChordsViewerIndex.scss";
 
+// ============================================
+// COMPONENTE DE IMAGEN SEGURA
+// ============================================
+const SafeImage = React.memo(({ src, alt, className, fallbackText = '🎵' }) => {
+  const [hasError, setHasError] = useState(false);
+  const [isLoaded, setIsLoaded] = useState(false);
+
+  const handleError = useCallback(() => {
+    setHasError(true);
+  }, []);
+
+  const handleLoad = useCallback(() => {
+    setIsLoaded(true);
+  }, []);
+
+  if (hasError) {
+    return (
+      <span className="logo-fallback">
+        {fallbackText}
+      </span>
+    );
+  }
+
+  return (
+    <img
+      src={src}
+      alt={alt}
+      className={className}
+      onError={handleError}
+      onLoad={handleLoad}
+      loading="lazy"
+      decoding="async"
+      style={{ display: isLoaded ? 'block' : 'none' }}
+    />
+  );
+});
+
+SafeImage.displayName = 'SafeImage';
+
+// ============================================
+// COMPONENTE PRINCIPAL
+// ============================================
 const ChordsViewerIndex = ({ 
   chordsData = null,
   transpositionProp = 0,
@@ -43,12 +83,14 @@ const ChordsViewerIndex = ({
 
   // ============================================
   // EFECTO: PROCESAR DATOS CUANDO CAMBIA chordsData
-  // DESCRIPCIÓN: Convierte los datos crudos en estructura procesada
-  // ESPECIAL: Detecta si es medley por la propiedad esMedley
   // ============================================
   useEffect(() => {
+    let isMounted = true;
+
     const procesarDatosReproductor = () => {
       try {
+        if (!isMounted) return;
+        
         setLoading(true);
         setError(null);
         
@@ -73,32 +115,44 @@ const ChordsViewerIndex = ({
               cancionesIncluidas: chordsData.cancionesIncluidas || 1
             };
             
-            setSelectedSong(cancionProcesada);
-            const densidad = analizarDensidadContenido(chordsData.content);
-            setContentDensity(densidad);
+            if (isMounted) {
+              setSelectedSong(cancionProcesada);
+              const densidad = analizarDensidadContenido(chordsData.content);
+              setContentDensity(densidad);
+            }
             
           } else if (typeof chordsData.content === 'string') {
             // Para contenido simple
-            setSelectedSong({
-              ...chordsData,
-              esMedley: false,
-              cancionesIncluidas: 1
-            });
-            setContentDensity('low');
+            if (isMounted) {
+              setSelectedSong({
+                ...chordsData,
+                esMedley: false,
+                cancionesIncluidas: 1
+              });
+              setContentDensity('low');
+            }
           }
         }
 
       } catch (err) {
-        console.error('Error procesando datos:', err);
-        setError(`Error: ${err.message}`);
-        setSelectedSong(crearEjemplo());
-        setContentDensity('medium');
+        if (isMounted) {
+          console.error('Error procesando datos:', err);
+          setError(`Error: ${err.message}`);
+          setSelectedSong(crearEjemplo());
+          setContentDensity('medium');
+        }
       } finally {
-        setLoading(false);
+        if (isMounted) {
+          setLoading(false);
+        }
       }
     };
 
     procesarDatosReproductor();
+    
+    return () => {
+      isMounted = false;
+    };
   }, [chordsData, songMetadata]);
 
   // ============================================
@@ -267,8 +321,6 @@ const ChordsViewerIndex = ({
 
   // ============================================
   // FUNCIÓN: renderizarContenido
-  // DESCRIPCIÓN: Renderiza el contenido musical
-  // ESPECIAL: No modifica el diseño, solo procesa los datos
   // ============================================
   const renderizarContenido = (contenido) => {
     if (!contenido || !Array.isArray(contenido)) return null;
@@ -277,7 +329,6 @@ const ChordsViewerIndex = ({
       
       switch (elemento.type) {
         case 'section':
-          // Verificar si es una sección especial que debe mostrar título
           const mostrarTitulo = esSeccionEspecial(elemento.name);
           
           return (
@@ -321,7 +372,6 @@ const ChordsViewerIndex = ({
 
   // ============================================
   // FUNCIÓN: esSeccionEspecial
-  // DESCRIPCIÓN: Determina qué secciones mostrar título
   // ============================================
   const esSeccionEspecial = (nombreSeccion) => {
     if (!nombreSeccion) return false;
@@ -392,6 +442,8 @@ const ChordsViewerIndex = ({
   // DETECCIÓN DE TAMAÑO DE PANTALLA
   // ============================================
   useEffect(() => {
+    let isMounted = true;
+
     const detectScreenSize = () => {
       const width = window.innerWidth;
       if (width < 768) return 'mobile';
@@ -399,14 +451,21 @@ const ChordsViewerIndex = ({
       return 'desktop';
     };
 
-    setScreenSize(detectScreenSize());
+    if (isMounted) {
+      setScreenSize(detectScreenSize());
+    }
     
     const handleResize = () => {
-      setScreenSize(detectScreenSize());
+      if (isMounted) {
+        setScreenSize(detectScreenSize());
+      }
     };
 
     window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
+    return () => {
+      isMounted = false;
+      window.removeEventListener('resize', handleResize);
+    };
   }, []);
 
   // ============================================
@@ -477,7 +536,7 @@ const ChordsViewerIndex = ({
   const columnasVisibles = screenSize === 'mobile' ? 1 : screenSize === 'tablet' ? 2 : 3;
 
   // ============================================
-  // RENDER PRINCIPAL - RESPETANDO DISEÑO ORIGINAL
+  // RENDER PRINCIPAL
   // ============================================
   return (
     <div 
@@ -495,7 +554,7 @@ const ChordsViewerIndex = ({
         {fullscreenMode ? <BsFullscreenExit /> : <BsArrowsFullscreen />}
       </button>
 
-      {/* HEADER ULTRA COMPACTO - DISEÑO ORIGINAL */}
+      {/* HEADER ULTRA COMPACTO */}
       <div className="header-una-linea-total">
         <div className="header-contenido-una-linea">
           
@@ -515,7 +574,7 @@ const ChordsViewerIndex = ({
                   )}
                 </span>
                 
-                {/* BADGE ESPECIAL PARA MEDLEYS - DISEÑO DISCRETO */}
+                {/* BADGE ESPECIAL PARA MEDLEYS */}
                 {selectedSong.esMedley && (
                   <span className="medley-badge-mini">
                     🎶 {selectedSong.cancionesIncluidas} canciones
@@ -527,7 +586,7 @@ const ChordsViewerIndex = ({
             )}
           </div>
           
-          {/* CONTROLES - DISEÑO ORIGINAL */}
+          {/* CONTROLES */}
           <div className="controles-una-linea">
             
             {/* TRANSPOSICIÓN */}
@@ -591,19 +650,16 @@ const ChordsViewerIndex = ({
         </div>
       </div>
 
-      {/* ÁREA DE VISUALIZACIÓN - DISEÑO ORIGINAL */}
+      {/* ÁREA DE VISUALIZACIÓN */}
       <div className="area-visual-ultra-compacta">
         
         {!selectedSong ? (
           <div className="instruccion-ultra-compacta">
             <div className="logo-banda-micro">
-              <img 
+              <SafeImage 
                 src="/img/04-gif/logogondraworldanimado6.gif" 
                 alt="Almango Pop Covers"
-                onError={(e) => {
-                  e.target.style.display = 'none';
-                  e.target.parentElement.innerHTML = '<span class="logo-fallback">🎵 Almango</span>';
-                }}
+                fallbackText="🎵 Almango"
               />
             </div>
             <p>Reproduce una canción para ver los acordes</p>
@@ -635,7 +691,7 @@ const ChordsViewerIndex = ({
         )}
       </div>
 
-      {/* LEYENDA - DISEÑO ORIGINAL */}
+      {/* LEYENDA */}
       {selectedSong && (
         <div className="leyenda-ultra-compacta">
           <div className="leyenda-contenido">
@@ -665,7 +721,7 @@ const ChordsViewerIndex = ({
         </div>
       )}
 
-      {/* IMPRESIÓN - DISEÑO ORIGINAL */}
+      {/* IMPRESIÓN */}
       <div className="impresion-oculta-ultra-compacta">
         {selectedSong && (
           <div className="pagina-a4-impresion">
@@ -687,39 +743,6 @@ const ChordsViewerIndex = ({
           </div>
         )}
       </div>
-      
-      {/* ESTILO INLINE PARA BADGE DE MEDLEY (MÍNIMO) */}
-      <style jsx>{`
-        .medley-badge-mini {
-          display: inline-flex;
-          align-items: center;
-          gap: 3px;
-          padding: 1px 6px;
-          background: rgba(106, 17, 203, 0.1);
-          border: 1px solid rgba(106, 17, 203, 0.3);
-          border-radius: 10px;
-          margin-left: 6px;
-          font-size: 9px;
-          color: #6a11cb;
-          font-weight: 600;
-        }
-        
-        .leyenda-item.medley-info .color-muestra.medley {
-          width: 12px;
-          height: 12px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          font-size: 8px;
-        }
-        
-        .medley-info-impresion {
-          font-size: 11px;
-          color: #6a11cb;
-          font-weight: 600;
-          margin: 2px 0 4px 0;
-        }
-      `}</style>
     </div>
   );
 };

@@ -1,0 +1,376 @@
+{
+  "id": "andres-calamaro-alta-suciedad",
+  "title": "Alta Suciedad",
+  "artist": "Andrés Calamaro",
+  "originalKey": "G",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "text",
+          "content": "Riff en G5-E5"
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "El campeón tiene miedo,"
+            },
+            {
+              "type": "lyric",
+              "content": "tiene miedo de pegar,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "no se quiere romper las manos"
+            },
+            {
+              "type": "lyric",
+              "content": "porque tiene que cantar."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Riff en G5-E5"
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "El ritmo del protector bucal,"
+            },
+            {
+              "type": "lyric",
+              "content": "el bombo de la ciudad,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "le golpea en el culo,"
+            },
+            {
+              "type": "lyric",
+              "content": "golpea y nada más."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["G5", "A5", "E5", "G5", "A5", "E5"]
+            },
+            {
+              "type": "lyric",
+              "content": "¡Alta suciedad!"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "(basura de la alta suciedad)"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["A5", "G5", "E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "no se puede confiar en nadie más,"
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["G5", "A5", "E5", "G5", "A5", "E5"]
+            },
+            {
+              "type": "lyric",
+              "content": "¡Alta suciedad!"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "(basura de la alta suciedad)"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["A5", "G5", "E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "no se puede confiar en nadie más."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 2",
+      "lines": [
+        {
+          "type": "text",
+          "content": "Riff en G5-E5"
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "Babe tiene prisa por aprender a ladrar,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "si solo es un cerdo nadie lo respetará."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Riff en G5-E5"
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "Es un chico muy malo, y se portó muy mal!"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "Pero lo perdonamos,"
+            },
+            {
+              "type": "lyric",
+              "content": "porque somos lo más bajo de la..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSO 3",
+      "lines": [
+        {
+          "type": "text",
+          "content": "Riff en G5-E5"
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "Señor banquero, devuélvame el dinero,"
+            },
+            {
+              "type": "lyric",
+              "content": "por ahora es lo único que quiero,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "estoy cansado de los que vienen de amigos,"
+            },
+            {
+              "type": "lyric",
+              "content": "y solo quieren rellenarme el agujero."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Riff en G5-E5"
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "Por ahora no les debo ni la hora,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "cool, baby, me dice mi abogada,"
+            },
+            {
+              "type": "lyric",
+              "content": "que por ahora no ha pasado nada."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO FINAL",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["G5", "A5", "E5", "G5", "A5", "E5"]
+            },
+            {
+              "type": "lyric",
+              "content": "¡Alta suciedad!"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "(basura de la alta suciedad)"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["A5", "G5", "E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "no se puede confiar en nadie más,"
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["G5", "A5", "E5", "G5", "A5", "E5"]
+            },
+            {
+              "type": "lyric",
+              "content": "¡Alta suciedad!"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "(basura de la alta suciedad)"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["A5", "G5", "E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "no se puede confiar en nadie más."
+        }
+      ]
+    }
+  ]
+}

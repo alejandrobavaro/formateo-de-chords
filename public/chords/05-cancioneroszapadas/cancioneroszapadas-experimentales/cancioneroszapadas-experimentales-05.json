@@ -1,0 +1,81 @@
+{
+    "id": "zapada-experimentales-005",
+    "title": "Zapada Experimental Sesión 3 en Vivo",
+    "artist": "Rockola Covers",
+    "originalKey": "Variada",
+    "tempo": 90,
+    "timeSignature": "Variado",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "B", "C", "G"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SECCIÓN 1",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Em"
+          },
+          {
+            "type": "lyric": "Improvisación en vivo,"
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "lyric": ""
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric": "la música experimental es libertad."
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SECCIÓN 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "F", "Dm", "E"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Em", "C", "G", "B", "Em"]
+          }
+        ]
+      }
+    ]
+  }
+  

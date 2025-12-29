@@ -1,0 +1,214 @@
+{
+    "artista": "Rockola Covers",
+    "discografia": [
+      {
+        "album_id": "homenajes-internacionales-00",
+        "album_name": "HOMENAJES INTERNACIONALES",
+        "year": "2024",
+          "cover_image": "/img/02-logos/logo-formateo-chords2.png",
+        "genre": "Homenajes",
+        "songs": [
+          {
+            "id": "homenaje-nirvana-01-smells-like-teen-spirit",
+            "track_number": 109,
+            "title": "Smells Like Teen Spirit",
+            "artist": "Nirvana",
+            "duration": "5:01",
+            "mp3_url": "/audio/homenajes/nirvana-smells-like-teen-spirit.mp3",
+            "chords_url": "/chords/homenajes/nirvana-smells-like-teen-spirit.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 117,
+              "tonalidad": "Fm",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Grunge",
+              "genre": "Rock",
+              "categoria": "Homenajes Nirvana"
+            }
+          },
+          {
+            "id": "homenaje-nirvana-02-come-as-you-are",
+            "track_number": 110,
+            "title": "Come as You Are",
+            "artist": "Nirvana",
+            "duration": "3:39",
+            "mp3_url": "/audio/homenajes/nirvana-come-as-you-are.mp3",
+            "chords_url": "/chords/homenajes/nirvana-come-as-you-are.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 120,
+              "tonalidad": "E Mayor",
+              "compas": "4/4",
+              "dificultad": "Fácil",
+              "style": "Grunge",
+              "genre": "Rock",
+              "categoria": "Homenajes Nirvana"
+            }
+          },
+          {
+            "id": "homenaje-nirvana-03-lithium",
+            "track_number": 111,
+            "title": "Lithium",
+            "artist": "Nirvana",
+            "duration": "4:17",
+            "mp3_url": "/audio/homenajes/nirvana-lithium.mp3",
+            "chords_url": "/chords/homenajes/nirvana-lithium.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 114,
+              "tonalidad": "E Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Grunge",
+              "genre": "Rock",
+              "categoria": "Homenajes Nirvana"
+            }
+          },
+          {
+            "id": "homenaje-nirvana-04-heart-shaped-box",
+            "track_number": 112,
+            "title": "Heart-Shaped Box",
+            "artist": "Nirvana",
+            "duration": "4:41",
+            "mp3_url": "/audio/homenajes/nirvana-heart-shaped-box.mp3",
+            "chords_url": "/chords/homenajes/nirvana-heart-shaped-box.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 90,
+              "tonalidad": "F# Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Grunge",
+              "genre": "Rock",
+              "categoria": "Homenajes Nirvana"
+            }
+          },
+          {
+            "id": "homenaje-foo-fighters-01-everlong",
+            "track_number": 113,
+            "title": "Everlong",
+            "artist": "Foo Fighters",
+            "duration": "4:10",
+            "mp3_url": "/audio/homenajes/foo-fighters-everlong.mp3",
+            "chords_url": "/chords/homenajes/foo-fighters-everlong.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 158,
+              "tonalidad": "D Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock Alternativo",
+              "genre": "Rock",
+              "categoria": "Homenajes Foo Fighters"
+            }
+          },
+          {
+            "id": "homenaje-foo-fighters-02-best-of-you",
+            "track_number": 114,
+            "title": "Best of You",
+            "artist": "Foo Fighters",
+            "duration": "4:16",
+            "mp3_url": "/audio/homenajes/foo-fighters-best-of-you.mp3",
+            "chords_url": "/chords/homenajes/foo-fighters-best-of-you.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 164,
+              "tonalidad": "A Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock Alternativo",
+              "genre": "Rock",
+              "categoria": "Homenajes Foo Fighters"
+            }
+          },
+          {
+            "id": "homenaje-foo-fighters-03-the-pretender",
+            "track_number": 115,
+            "title": "The Pretender",
+            "artist": "Foo Fighters",
+            "duration": "4:29",
+            "mp3_url": "/audio/homenajes/foo-fighters-the-pretender.mp3",
+            "chords_url": "/chords/homenajes/foo-fighters-the-pretender.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 172,
+              "tonalidad": "E Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock Alternativo",
+              "genre": "Rock",
+              "categoria": "Homenajes Foo Fighters"
+            }
+          },
+          {
+            "id": "homenaje-foo-fighters-04-learn-to-fly",
+            "track_number": 116,
+            "title": "Learn to Fly",
+            "artist": "Foo Fighters",
+            "duration": "3:55",
+            "mp3_url": "/audio/homenajes/foo-fighters-learn-to-fly.mp3",
+            "chords_url": "/chords/homenajes/foo-fighters-learn-to-fly.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 160,
+              "tonalidad": "A Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock Alternativo",
+              "genre": "Rock",
+              "categoria": "Homenajes Foo Fighters"
+            }
+          },
+          {
+            "id": "homenaje-system-of-a-down-01-chop-suey",
+            "track_number": 117,
+            "title": "Chop Suey!",
+            "artist": "System of a Down",
+            "duration": "3:30",
+            "mp3_url": "/audio/homenajes/system-of-a-down-chop-suey.mp3",
+            "chords_url": "/chords/homenajes/system-of-a-down-chop-suey.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 130,
+              "tonalidad": "Dm",
+              "compas": "4/4",
+              "dificultad": "Difícil",
+              "style": "Metal Alternativo",
+              "genre": "Rock",
+              "categoria": "Homenajes System of a Down"
+            }
+          },
+          {
+            "id": "homenaje-system-of-a-down-02-toxicity",
+            "track_number": 118,
+            "title": "Toxicity",
+            "artist": "System of a Down",
+            "duration": "3:39",
+            "mp3_url": "/audio/homenajes/system-of-a-down-toxicity.mp3",
+            "chords_url": "/chords/homenajes/system-of-a-down-toxicity.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 136,
+              "tonalidad": "Cm",
+              "compas": "4/4",
+              "dificultad": "Difícil",
+              "style": "Metal Alternativo",
+              "genre": "Rock",
+              "categoria": "Homenajes System of a Down"
+            }
+          }
+        ]
+      }
+    ]
+  }

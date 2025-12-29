@@ -1,0 +1,335 @@
+{
+  "artista": "Bon Jovi",
+  "categoria": "homenajes",
+  "discografia": [
+    {
+      "album_id": "homenajes-bonjovi-00",
+      "album_name": "HOMENAJE A BON JOVI",
+      "year": "2024",
+      "cover_image": "/img/02-logos/logo-formateo-chords2.png",
+      "genre": "Homenajes",
+      "songs": [
+        {
+          "id": "homenaje-bonjovi-01-always",
+          "track_number": 1,
+          "title": "Always",
+          "artist": "Bon Jovi",
+          "duration": "5:53",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-bon-jovi/bon-jovi-always.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-bon-jovi/bon-jovi-always.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 68,
+            "tonalidad": "Db Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Power Ballad",
+            "genre": "Rock",
+            "categoria": "Homenajes Bon Jovi"
+          }
+        },
+        {
+          "id": "homenaje-bonjovi-02-bed-of-roses",
+          "track_number": 2,
+          "title": "Bed of Roses",
+          "artist": "Bon Jovi",
+          "duration": "6:34",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-bon-jovi/bon-jovi-bed-of-roses.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-bon-jovi/bon-jovi-bed-of-roses.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 72,
+            "tonalidad": "G Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Power Ballad",
+            "genre": "Rock",
+            "categoria": "Homenajes Bon Jovi"
+          }
+        },
+        {
+          "id": "homenaje-bonjovi-03-como-yo-nadie-te-ha-amado",
+          "track_number": 3,
+          "title": "Como Yo Nadie Te Ha Amado",
+          "artist": "Bon Jovi",
+          "duration": "4:15",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-bon-jovi/bon-jovi-como-yo-nadie-te-ha-amado.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-bon-jovi/bon-jovi-como-yo-nadie-te-ha-amado.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 118,
+            "tonalidad": "E Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Bon Jovi"
+          }
+        },
+        {
+          "id": "homenaje-bonjovi-04-i-will-be-there-for-you",
+          "track_number": 4,
+          "title": "I'll Be There for You",
+          "artist": "Bon Jovi",
+          "duration": "5:46",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-bon-jovi/bon-jovi-i-will-be-there-for-you.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-bon-jovi/bon-jovi-i-will-be-there-for-you.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 65,
+            "tonalidad": "G Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Power Ballad",
+            "genre": "Rock",
+            "categoria": "Homenajes Bon Jovi"
+          }
+        },
+        {
+          "id": "homenaje-bonjovi-05-its-my-life",
+          "track_number": 5,
+          "title": "It's My Life",
+          "artist": "Bon Jovi",
+          "duration": "3:44",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-bon-jovi/bon-jovi-its-my-life.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-bon-jovi/bon-jovi-its-my-life.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 122,
+            "tonalidad": "B Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Bon Jovi"
+          }
+        },
+        {
+          "id": "homenaje-bonjovi-06-keep-the-faith",
+          "track_number": 6,
+          "title": "Keep the Faith",
+          "artist": "Bon Jovi",
+          "duration": "5:46",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-bon-jovi/bon-jovi-keep-the-faith.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-bon-jovi/bon-jovi-keep-the-faith.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 112,
+            "tonalidad": "E Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Bon Jovi"
+          }
+        },
+        {
+          "id": "homenaje-bonjovi-07-lie-to-me",
+          "track_number": 7,
+          "title": "Lie to Me",
+          "artist": "Bon Jovi",
+          "duration": "5:35",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-bon-jovi/bon-jovi-lie-to-me.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-bon-jovi/bon-jovi-lie-to-me.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 75,
+            "tonalidad": "C Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Power Ballad",
+            "genre": "Rock",
+            "categoria": "Homenajes Bon Jovi"
+          }
+        },
+        {
+          "id": "homenaje-bonjovi-08-livin-on-a-prayer",
+          "track_number": 8,
+          "title": "Livin' on a Prayer",
+          "artist": "Bon Jovi",
+          "duration": "4:11",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-bon-jovi/bon-jovi-livin-on-a-prayer.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-bon-jovi/bon-jovi-livin-on-a-prayer.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 122,
+            "tonalidad": "E Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock Arena",
+            "genre": "Rock",
+            "categoria": "Homenajes Bon Jovi"
+          }
+        },
+        {
+          "id": "homenaje-bonjovi-09-make-a-memory",
+          "track_number": 9,
+          "title": "Make a Memory",
+          "artist": "Bon Jovi",
+          "duration": "4:36",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-bon-jovi/bon-jovi-make-a-memory.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-bon-jovi/bon-jovi-make-a-memory.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 76,
+            "tonalidad": "D Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Power Ballad",
+            "genre": "Rock",
+            "categoria": "Homenajes Bon Jovi"
+          }
+        },
+        {
+          "id": "homenaje-bonjovi-10-midnight-in-chelsea",
+          "track_number": 10,
+          "title": "Midnight in Chelsea",
+          "artist": "Bon Jovi",
+          "duration": "4:50",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-bon-jovi/bon-jovi-midnight-in-chelsea.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-bon-jovi/bon-jovi-midnight-in-chelsea.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 68,
+            "tonalidad": "G Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Bon Jovi"
+          }
+        },
+        {
+          "id": "homenaje-bonjovi-11-never-say-goodbye",
+          "track_number": 11,
+          "title": "Never Say Goodbye",
+          "artist": "Bon Jovi",
+          "duration": "4:48",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-bon-jovi/bon-jovi-never-say-goodbye.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-bon-jovi/bon-jovi-never-say-goodbye.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 80,
+            "tonalidad": "E Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Bon Jovi"
+          }
+        },
+        {
+          "id": "homenaje-bonjovi-12-someday-ill-be-saturday-night",
+          "track_number": 12,
+          "title": "Someday I'll Be Saturday Night",
+          "artist": "Bon Jovi",
+          "duration": "4:39",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-bon-jovi/bon-jovi-someday-ill-be-saturday-night.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-bon-jovi/bon-jovi-someday-ill-be-saturday-night.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 115,
+            "tonalidad": "A Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Bon Jovi"
+          }
+        },
+        {
+          "id": "homenaje-bonjovi-13-something-for-the-pain",
+          "track_number": 13,
+          "title": "Something for the Pain",
+          "artist": "Bon Jovi",
+          "duration": "4:46",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-bon-jovi/bon-jovi-something-for-the-pain.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-bon-jovi/bon-jovi-something-for-the-pain.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 108,
+            "tonalidad": "D Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Bon Jovi"
+          }
+        },
+        {
+          "id": "homenaje-bonjovi-14-thank-you-for-loving-me",
+          "track_number": 14,
+          "title": "Thank You for Loving Me",
+          "artist": "Bon Jovi",
+          "duration": "5:09",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-bon-jovi/bon-jovi-thank-you-for-loving-me.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-bon-jovi/bon-jovi-thank-you-for-loving-me.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 66,
+            "tonalidad": "C Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Power Ballad",
+            "genre": "Rock",
+            "categoria": "Homenajes Bon Jovi"
+          }
+        },
+        {
+          "id": "homenaje-bonjovi-15-this-aint-a-love-song",
+          "track_number": 15,
+          "title": "This Ain't a Love Song",
+          "artist": "Bon Jovi",
+          "duration": "5:06",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-bon-jovi/bon-jovi-this-aint-a-love-song.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-bon-jovi/bon-jovi-this-aint-a-love-song.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 72,
+            "tonalidad": "F Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Power Ballad",
+            "genre": "Rock",
+            "categoria": "Homenajes Bon Jovi"
+          }
+        },
+        {
+          "id": "homenaje-bonjovi-16-wanted-dead-or-alive",
+          "track_number": 16,
+          "title": "Wanted Dead or Alive",
+          "artist": "Bon Jovi",
+          "duration": "5:08",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-bon-jovi/bon-jovi-wanted-dead-or-alive.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-bon-jovi/bon-jovi-wanted-dead-or-alive.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 122,
+            "tonalidad": "Em",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Bon Jovi"
+          }
+        }
+      ]
+    }
+  ]
+}

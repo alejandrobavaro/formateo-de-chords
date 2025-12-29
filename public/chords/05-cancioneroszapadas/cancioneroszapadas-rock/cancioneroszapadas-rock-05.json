@@ -1,0 +1,102 @@
+{
+    "id": "zapada-rock-005",
+    "title": "Zapada Grunge",
+    "artist": "Rockola Covers",
+    "originalKey": "E",
+    "tempo": 115,
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E5", "A5", "C5", "G5"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 1",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "E5"
+          },
+          {
+            "type": "lyric": "Grunge, potencia y crudeza,"
+          },
+          {
+            "type": "chord",
+            "content": "A5"
+          },
+          {
+            "type": "lyric": ""
+          },
+          {
+            "type": "chord",
+            "content": "C5"
+          },
+          {
+            "type": "lyric": "la guitarra distorsionada suena sin parar."
+          },
+          {
+            "type": "chord",
+            "content": "G5"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "E5"
+          },
+          {
+            "type": "lyric": "Grita y siente,"
+          },
+          {
+            "type": "chord",
+            "content": "A5"
+          },
+          {
+            "type": "lyric": ""
+          },
+          {
+            "type": "chord",
+            "content": "C5"
+          },
+          {
+            "type": "lyric": "el grunge es tu canción."
+          },
+          {
+            "type": "chord",
+            "content": "G5"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E5", "G5", "A5", "E5"]
+          }
+        ]
+      }
+    ]
+  }
+  

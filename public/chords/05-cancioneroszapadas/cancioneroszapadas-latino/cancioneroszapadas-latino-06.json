@@ -1,0 +1,102 @@
+{
+    "id": "zapada-latino-006",
+    "title": "Zapada Latino Variación 1 en C Mayor",
+    "artist": "Rockola Covers",
+    "originalKey": "C",
+    "tempo": 100,
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "F", "G", "C"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 1",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric": "Cumbia en C, ritmo y alegría,"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric": ""
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric": "la gaita y el tambor suenan sin parar."
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric": "Baila al compás,"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric": ""
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric": "la cumbia es pura emoción."
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "G", "F", "C"]
+          }
+        ]
+      }
+    ]
+  }
+  

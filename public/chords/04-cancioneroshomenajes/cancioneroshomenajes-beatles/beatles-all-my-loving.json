@@ -1,0 +1,361 @@
+{
+  "id": "beatles-all-my-loving",
+  "title": "All My Loving",
+  "artist": "The Beatles",
+  "originalKey": "G",
+  "tempo": "Upbeat",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Em", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "Close your eyes and I'll kiss you,"
+            },
+            {
+              "type": "chords",
+              "content": ["D", "Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "Tomorrow I'll miss you."
+            },
+            {
+              "type": "chords",
+              "content": ["G", "Em", "C", "A7"]
+            },
+            {
+              "type": "lyric",
+              "content": "Remember I'll always be true."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Em", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "And then while I'm away,"
+            },
+            {
+              "type": "chords",
+              "content": ["D", "Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "I'll write home every day."
+            },
+            {
+              "type": "chords",
+              "content": ["G", "A", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "And I'll send all my loving to you."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 3",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Em", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "I'll pretend that I'm kissing,"
+            },
+            {
+              "type": "chords",
+              "content": ["D", "Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "The lips I am missing."
+            },
+            {
+              "type": "chords",
+              "content": ["G", "Em"]
+            },
+            {
+              "type": "lyric",
+              "content": "And hope that my dreams"
+            },
+            {
+              "type": "chords",
+              "content": ["C", "A7"]
+            },
+            {
+              "type": "lyric",
+              "content": "Will come true."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 4",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Em", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "And then while I'm away,"
+            },
+            {
+              "type": "chords",
+              "content": ["D", "Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "I'll write home every day."
+            },
+            {
+              "type": "chords",
+              "content": ["G", "A", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "And I'll send all my loving to you."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Bm", "Bm7M", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "All my loving, I will send to you."
+            },
+            {
+              "type": "chords",
+              "content": ["Bm", "Bm7M", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "All my loving, darling, I'll be true."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO INTRO",
+      "lines": [
+        {
+          "type": "text",
+          "content": "[Solo de guitarra - Entrada]"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO",
+      "lines": [
+        {
+          "type": "text",
+          "content": "[Solo de guitarra]"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 5",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Em", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "Close your eyes and I'll kiss you,"
+            },
+            {
+              "type": "chords",
+              "content": ["D", "Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "Tomorrow I'll miss you."
+            },
+            {
+              "type": "chords",
+              "content": ["G", "Em", "C", "A7"]
+            },
+            {
+              "type": "lyric",
+              "content": "Remember I'll always be true."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 6",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Em", "A"]
+            },
+            {
+              "type": "lyric",
+              "content": "And then while I'm away,"
+            },
+            {
+              "type": "chords",
+              "content": ["D", "Bm"]
+            },
+            {
+              "type": "lyric",
+              "content": "I'll write home every day."
+            },
+            {
+              "type": "chords",
+              "content": ["G", "A", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "And I'll send all my loving to you."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS (REPETICIÓN)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["Bm", "Bm7M", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "All my loving, I will send to you."
+            },
+            {
+              "type": "chords",
+              "content": ["Bm", "Bm7M", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "All my loving, darling, I'll be true."
+            },
+            {
+              "type": "chords",
+              "content": ["Bm", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "All my loving, all my loving,"
+            },
+            {
+              "type": "chords",
+              "content": ["Bm", "D"]
+            },
+            {
+              "type": "lyric",
+              "content": "All my loving, I will send to you."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

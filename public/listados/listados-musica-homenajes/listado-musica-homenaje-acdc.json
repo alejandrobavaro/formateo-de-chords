@@ -1,0 +1,215 @@
+{
+    "artista": "AC/DC",
+    "categoria": "homenajes",
+    "discografia": [
+      {
+        "album_id": "homenajes-acdc-00",
+        "album_name": "HOMENAJE A AC/DC",
+        "year": "2024",
+        "cover_image": "/img/02-logos/logo-formateo-chords2.png",
+        "genre": "Homenajes",
+        "songs": [
+          {
+            "id": "homenaje-acdc-01-highway-to-hell",
+            "track_number": 1,
+            "title": "Highway to Hell",
+            "artist": "AC/DC",
+            "duration": "3:28",
+            "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-acdc/ac-dc-highway-to-hell.mp3",
+            "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-acdc/ac-dc-highway-to-hell.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 130,
+              "tonalidad": "A Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Hard Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes AC/DC"
+            }
+          },
+          {
+            "id": "homenaje-acdc-02-back-in-black",
+            "track_number": 2,
+            "title": "Back in Black",
+            "artist": "AC/DC",
+            "duration": "4:15",
+            "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-acdc/ac-dc-back-in-black.mp3",
+            "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-acdc/ac-dc-back-in-black.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 128,
+              "tonalidad": "E Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Hard Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes AC/DC"
+            }
+          },
+          {
+            "id": "homenaje-acdc-03-thunderstruck",
+            "track_number": 3,
+            "title": "Thunderstruck",
+            "artist": "AC/DC",
+            "duration": "4:52",
+            "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-acdc/ac-dc-thunderstruck.mp3",
+            "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-acdc/ac-dc-thunderstruck.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 133,
+              "tonalidad": "A Mayor",
+              "compas": "4/4",
+              "dificultad": "Difícil",
+              "style": "Hard Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes AC/DC"
+            }
+          },
+          {
+            "id": "homenaje-acdc-04-you-shook-me-all-night-long",
+            "track_number": 4,
+            "title": "You Shook Me All Night Long",
+            "artist": "AC/DC",
+            "duration": "3:30",
+            "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-acdc/ac-dc-you-shook-me-all-night-long.mp3",
+            "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-acdc/ac-dc-you-shook-me-all-night-long.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 127,
+              "tonalidad": "G Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Hard Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes AC/DC"
+            }
+          },
+          {
+            "id": "homenaje-acdc-05-tnt",
+            "track_number": 5,
+            "title": "T.N.T.",
+            "artist": "AC/DC",
+            "duration": "3:34",
+            "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-acdc/ac-dc-tnt.mp3",
+            "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-acdc/ac-dc-tnt.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 132,
+              "tonalidad": "A Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Hard Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes AC/DC"
+            }
+          },
+          {
+            "id": "homenaje-acdc-06-dirty-deeds-done-dirt-cheap",
+            "track_number": 6,
+            "title": "Dirty Deeds Done Dirt Cheap",
+            "artist": "AC/DC",
+            "duration": "4:11",
+            "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-acdc/ac-dc-dirty-deeds-done-dirt-cheap.mp3",
+            "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-acdc/ac-dc-dirty-deeds-done-dirt-cheap.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 125,
+              "tonalidad": "E Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Hard Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes AC/DC"
+            }
+          },
+          {
+            "id": "homenaje-acdc-07-hells-bells",
+            "track_number": 7,
+            "title": "Hells Bells",
+            "artist": "AC/DC",
+            "duration": "5:12",
+            "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-acdc/ac-dc-hells-bells.mp3",
+            "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-acdc/ac-dc-hells-bells.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 107,
+              "tonalidad": "D Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Hard Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes AC/DC"
+            }
+          },
+          {
+            "id": "homenaje-acdc-08-shoot-to-thrill",
+            "track_number": 8,
+            "title": "Shoot to Thrill",
+            "artist": "AC/DC",
+            "duration": "5:17",
+            "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-acdc/ac-dc-shoot-to-thrill.mp3",
+            "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-acdc/ac-dc-shoot-to-thrill.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 128,
+              "tonalidad": "E Mayor",
+              "compas": "4/4",
+              "dificultad": "Difícil",
+              "style": "Hard Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes AC/DC"
+            }
+          },
+          {
+            "id": "homenaje-acdc-09-for-those-about-to-rock",
+            "track_number": 9,
+            "title": "For Those About to Rock (We Salute You)",
+            "artist": "AC/DC",
+            "duration": "5:44",
+            "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-acdc/ac-dc-for-those-about-to-rock.mp3",
+            "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-acdc/ac-dc-for-those-about-to-rock.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 126,
+              "tonalidad": "E Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Hard Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes AC/DC"
+            }
+          },
+          {
+            "id": "homenaje-acdc-10-whole-lotta-rosie",
+            "track_number": 10,
+            "title": "Whole Lotta Rosie",
+            "artist": "AC/DC",
+            "duration": "5:33",
+            "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-acdc/ac-dc-whole-lotta-rosie.mp3",
+            "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-acdc/ac-dc-whole-lotta-rosie.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 134,
+              "tonalidad": "A Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Hard Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes AC/DC"
+            }
+          }
+        ]
+      }
+    ]
+  }

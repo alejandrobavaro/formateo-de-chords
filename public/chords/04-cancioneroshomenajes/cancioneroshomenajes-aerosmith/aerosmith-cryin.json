@@ -1,0 +1,768 @@
+{
+    "id": 50,
+    "title": "Cryin'",
+    "artist": "Aerosmith",
+    "originalKey": "F",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Gb5", "G#5", "C#5", "D#5"]
+          },
+          {
+            "type": "chords",
+            "content": ["Gb5", "G#5", "C#5", "D#5"]
+          },
+          {
+            "type": "chords",
+            "content": ["Gb5", "G#5", "C#5", "D#5"]
+          },
+          {
+            "type": "chords",
+            "content": ["Gb5", "G#5", "C#5", "D#5"]
+          },
+          {
+            "type": "chord",
+            "content": "Gb5"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "There was a time"
+          },
+          {
+            "type": "chord",
+            "content": "Dm"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "When I was so broken-hearted"
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "Love wasn't much of a friend of mine"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "The tables have turned, yeah"
+          },
+          {
+            "type": "chord",
+            "content": "Dm"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "'Cause me and them ways have parted"
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "That kind of love was the killin' kind"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D#5"
+          },
+          {
+            "type": "chord",
+            "content": "A#5"
+          },
+          {
+            "type": "lyric",
+            "content": "All I want"
+          },
+          {
+            "type": "chord",
+            "content": "D#5"
+          },
+          {
+            "type": "chord",
+            "content": "A#5"
+          },
+          {
+            "type": "lyric",
+            "content": "Is someone I can't resist"
+          },
+          {
+            "type": "chord",
+            "content": "G#5"
+          },
+          {
+            "type": "chord",
+            "content": "D#5"
+          },
+          {
+            "type": "lyric",
+            "content": "I know all right"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "Need to know by the way that I got kissed"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "I was cryin' when I met you"
+              },
+              {
+                "type": "chord",
+                "content": "Dm"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "lyric",
+                "content": "Now I'm tryin' to forget you"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "lyric",
+                "content": "Your love is sweet misery"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "I was cryin' just to get you"
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "lyric",
+                "content": "Now I'm dyin' 'cause I let you"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "lyric",
+                "content": "Do what you do down on me"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO CON VOCAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Gb5", "G#5", "C#5", "D#5"]
+          },
+          {
+            "type": "text",
+            "content": "Now there's not even breathin' room"
+          },
+          {
+            "type": "chords",
+            "content": ["Gb5", "G#5", "C#5", "D#5"]
+          },
+          {
+            "type": "text",
+            "content": "Between pleasure and pain"
+          },
+          {
+            "type": "chords",
+            "content": ["Gb5", "G#5", "C#5", "D#5"]
+          },
+          {
+            "type": "text",
+            "content": "Yeah you cry when we're makin' love"
+          },
+          {
+            "type": "chords",
+            "content": ["Gb5", "G#5", "C#5", "D#5"]
+          },
+          {
+            "type": "text",
+            "content": "Must be one and the same"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "It's down on me"
+          },
+          {
+            "type": "chord",
+            "content": "Dm"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "Yeah, I got to tell you one thing"
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "It's been on my mind"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "Girl I gotta say"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "We're partners in crime"
+          },
+          {
+            "type": "chord",
+            "content": "Dm"
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric",
+            "content": "You got that certain something"
+          },
+          {
+            "type": "chord",
+            "content": "A#"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "What you give to me"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "Takes my breath away"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "D#5"
+          },
+          {
+            "type": "chord",
+            "content": "A#5"
+          },
+          {
+            "type": "lyric",
+            "content": "Now the word out on the street"
+          },
+          {
+            "type": "chord",
+            "content": "D#5"
+          },
+          {
+            "type": "chord",
+            "content": "A#5"
+          },
+          {
+            "type": "lyric",
+            "content": "Is the devil's in your kiss"
+          },
+          {
+            "type": "chord",
+            "content": "G#5"
+          },
+          {
+            "type": "chord",
+            "content": "D#5"
+          },
+          {
+            "type": "lyric",
+            "content": "If our love goes up in flames"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric",
+            "content": "It's a fire I can't resist"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA (REPETICIÓN)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "I was cryin' when I met you"
+              },
+              {
+                "type": "chord",
+                "content": "Dm"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "lyric",
+                "content": "Now I'm tryin' to forget you"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "lyric",
+                "content": "Your love is sweet misery"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "I was cryin' just to get you"
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "lyric",
+                "content": "Now I'm dyin' 'cause I let you"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "lyric",
+                "content": "Do what you do down on me"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Gb5", "G#5", "C#5", "D#5"]
+          },
+          {
+            "type": "chords",
+            "content": ["Gb5", "G#5", "C#5", "D#5"]
+          },
+          {
+            "type": "chords",
+            "content": ["Gb5", "G#5", "C#5", "D#5"]
+          },
+          {
+            "type": "chords",
+            "content": ["Gb5", "G#5", "C#5", "D#5", "Gb5"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ",
+        "color": "principal",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "B5"
+          },
+          {
+            "type": "chord",
+            "content": "Gb5"
+          },
+          {
+            "type": "lyric",
+            "content": "'Cause what you got inside"
+          },
+          {
+            "type": "chord",
+            "content": "B5"
+          },
+          {
+            "type": "chord",
+            "content": "Gb5"
+          },
+          {
+            "type": "lyric",
+            "content": "Ain't where your love should stay"
+          },
+          {
+            "type": "chord",
+            "content": "E5"
+          },
+          {
+            "type": "chord",
+            "content": "B5"
+          },
+          {
+            "type": "lyric",
+            "content": "Yeah, our love, sweet love, ain't love"
+          },
+          {
+            "type": "chord",
+            "content": "C5"
+          },
+          {
+            "type": "lyric",
+            "content": "'Till you give your heart away"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA (REPETICIÓN FINAL)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ",
+            "color": "principal",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "I was cryin' when I met you"
+              },
+              {
+                "type": "chord",
+                "content": "Dm"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "lyric",
+                "content": "Now I'm tryin' to forget you"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "A#5"
+              },
+              {
+                "type": "lyric",
+                "content": "Your love is sweet misery"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "lyric",
+                "content": "I was cryin' just to get you"
+              },
+              {
+                "type": "chord",
+                "content": "Am"
+              },
+              {
+                "type": "chord",
+                "content": "A#"
+              },
+              {
+                "type": "lyric",
+                "content": "Now I'm dyin' I let you"
+              },
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "chord",
+                "content": "C"
+              },
+              {
+                "type": "chord",
+                "content": "A#5"
+              },
+              {
+                "type": "lyric",
+                "content": "Do what you do what you do down to me"
+              },
+              {
+                "type": "text",
+                "content": "Baby, baby, baby, baby"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO FINAL (GAITA)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F", "C", "Am"]
+          }
+        ]
+      }
+    ]
+  }
+  

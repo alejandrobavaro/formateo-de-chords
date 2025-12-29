@@ -1,0 +1,150 @@
+{
+  "artista": "Rockola Covers",
+  "discografia": [
+    {
+      "album_id": "remix-time-covers",
+      "album_name": "REMIX TIME COVERS",
+      "year": "2024",
+      "cover_image": "/img/09-discos/tapa-remix-time.jpg",
+      "songs": [
+        {
+          "id": "cover-mix-ccr-bonnie-tyler",
+          "track_number": 1,
+          "title": "MIX CCR Bonnie Tyler",
+          "artist": "Rockola Covers",
+          "duration": "12:30",
+          "mp3_url": "/audio/03-mp3-medleys/Intro-Ccr-Have-you-Ccr-Proud-Its-a-hearche.mp3",
+          "chords_url": [
+            "/chords/03-cancionerosmedleys/creedence-have-you-ever-seen-the-rain.json",
+            "/chords/03-cancionerosmedleys/creedence-proud-mary.json",
+            "/chords/03-cancionerosmedleys/bonnie-tyler-its-a-heartache.json"
+          ],
+          "details": {
+            "letra": "Medley que incluye:\n1. Creedence - Have You Ever Seen the Rain\n2. Creedence - Proud Mary\n3. Bonnie Tyler - It's a Heartache",
+            "acordes": ["C", "G", "F", "Am"],
+            "bpm": 120,
+            "tonalidad": "C Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia"
+          }
+        },
+        {
+          "id": "cover-stand-by-me-every-breath-you-take",
+          "track_number": 2,
+          "title": "Stand by Me / Every Breath You Take",
+          "artist": "Rockola Covers",
+          "duration": "08:45",
+          "mp3_url": "/audio/03-mp3-medleys/Beatles-Stand-by-me-Police-Every-breath-you.mp3",
+          "chords_url": [
+            "/chords/03-cancionerosmedleys/beatles-stand-by-me.json",
+            "/chords/03-cancionerosmedleys/police-every-breath-you-take.json"
+          ],
+          "details": {
+            "letra": "Medley que incluye:\n1. The Beatles - Stand by Me\n2. The Police - Every Breath You Take",
+            "acordes": ["A", "F#m", "D", "E"],
+            "bpm": 115,
+            "tonalidad": "A Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia"
+          }
+        },
+        {
+          "id": "cover-queen-medley",
+          "track_number": 3,
+          "title": "I Want to Break Free + Radio GaGa",
+          "artist": "Rockola Covers",
+          "duration": "07:50",
+          "mp3_url": "/audio/03-mp3-medleys/Queen-Radio-Gaga-I-want-to-break-free.mp3",
+          "chords_url": [
+            "/chords/03-cancionerosmedleys/queen-i-want-to-break-free.json",
+            "/chords/03-cancionerosmedleys/queen-radio-ga-ga.json"
+          ],
+          "details": {
+            "letra": "Medley que incluye:\n1. Queen - I Want to Break Free\n2. Queen - Radio Ga Ga",
+            "acordes": ["C", "F", "G", "Am"],
+            "bpm": 125,
+            "tonalidad": "C Mayor",
+            "compas": "4/4",
+            "dificultad": "Avanzada"
+          }
+        },
+        {
+          "id": "cover-take-on-me",
+          "track_number": 4,
+          "title": "Take on Me",
+          "artist": "Rockola Covers",
+          "duration": "03:50",
+          "mp3_url": "/audio/03-mp3-medleys/Aha-Take-on-me.mp3",
+          "chords_url": ["/chords/03-cancionerosmedleys/a-ha-take-on-me.json"],
+          "details": {
+            "letra": "A-ha - Take on Me (versión completa)",
+            "acordes": ["A", "E", "F#m", "D"],
+            "bpm": 140,
+            "tonalidad": "A Mayor",
+            "compas": "4/4",
+            "dificultad": "Avanzada"
+          }
+        },
+        {
+          "id": "cover-a-little-respect-your-love",
+          "track_number": 5,
+          "title": "A Little Respect / Your Love",
+          "artist": "Rockola Covers",
+          "duration": "06:15",
+          "mp3_url": "/audio/03-mp3-medleys/A-Little-Respect-Your-Love-19-09-2025.mp3",
+          "chords_url": [
+            "/chords/03-cancionerosmedleys/erasure-little-respect.json",
+            "/chords/03-cancionerosmedleys/the-wonders-that-thing-you-do.json"
+          ],
+          "details": {
+            "letra": "Medley que incluye:\n1. Erasure - A Little Respect\n2. The Outfield - Your Love",
+            "acordes": ["G", "C", "D", "Em"],
+            "bpm": 130,
+            "tonalidad": "G Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia"
+          }
+        },
+        {
+          "id": "cover-pretty-woman-that-thing-you-do",
+          "track_number": 6,
+          "title": "Pretty Woman / That Thing You Do",
+          "artist": "Rockola Covers",
+          "duration": "06:40",
+          "mp3_url": "/audio/03-mp3-medleys/Preaty-woman-The-Wonders-19-09-2025.mp3",
+          "chords_url": [
+            "/chords/03-cancionerosmedleys/roy-orbison-pretty-woman.json",
+            "/chords/03-cancionerosmedleys/the-wonders-that-thing-you-do.json"
+          ],
+          "details": {
+            "letra": "Medley que incluye:\n1. Roy Orbison - Pretty Woman\n2. The Wonders - That Thing You Do",
+            "acordes": ["E", "A", "B", "C#m"],
+            "bpm": 120,
+            "tonalidad": "E Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia"
+          }
+        },
+        {
+          "id": "cover-never-tear-us-apart",
+          "track_number": 7,
+          "title": "Never Tear Us Apart",
+          "artist": "Rockola Covers",
+          "duration": "04:20",
+          "mp3_url": "/audio/03-mp3-medleys/INXS-Never-tear-us-apart-1.mp3",
+          "chords_url": [
+            "/chords/03-cancionerosmedleys/inxs-never-tear-us-apart.json"
+          ],
+          "details": {
+            "letra": "INXS - Never Tear Us Apart (versión completa)",
+            "acordes": ["Am", "F", "C", "G"],
+            "bpm": 90,
+            "tonalidad": "Am",
+            "compas": "4/4",
+            "dificultad": "Básica"
+          }
+        }
+      ]
+    }
+  ]
+}

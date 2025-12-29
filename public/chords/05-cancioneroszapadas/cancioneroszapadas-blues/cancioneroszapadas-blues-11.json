@@ -1,0 +1,115 @@
+{
+    "id": "zapada-blues-011",
+    "title": "Zapada Blues en La",
+    "artist": "Rockola Covers",
+    "originalKey": "A",
+    "tempo": 85,
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A7", "D7", "A7", "E7"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 1",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A7"
+          },
+          {
+            "type": "lyric": "El blues en La, clásico y real,"
+          },
+          {
+            "type": "chord",
+            "content": "D7"
+          },
+          {
+            "type": "lyric": ""
+          },
+          {
+            "type": "chord",
+            "content": "A7"
+          },
+          {
+            "type": "lyric": "la guitarra canta sin parar."
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "TURNAROUND",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D7", "A7", "E7", "D7"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 2",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A7"
+          },
+          {
+            "type": "lyric": "Con cada nota, el alma se va,"
+          },
+          {
+            "type": "chord",
+            "content": "D7"
+          },
+          {
+            "type": "lyric": ""
+          },
+          {
+            "type": "chord",
+            "content": "A7"
+          },
+          {
+            "type": "lyric": "el blues es pasión y verdad."
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A7", "E7", "A7", "E7"]
+          }
+        ]
+      }
+    ]
+  }
+  

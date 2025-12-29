@@ -1,0 +1,214 @@
+{
+    "artista": "Coldplay",
+    "discografia": [
+      {
+        "album_id": "homenajes-coldplay",
+        "album_name": "HOMENAJES Coldplay",
+        "year": "2024",
+          "cover_image": "/img/02-logos/logo-formateo-chords2.png",
+        "genre": "Rock",
+        "songs": [
+          {
+            "id": "homenaje-coldplay-01-yellow",
+            "track_number": 1,
+            "title": "Yellow",
+            "artist": "Coldplay",
+            "duration": "4:29",
+            "mp3_url": "/audio/homenajes/coldplay-yellow.mp3",
+            "chords_url": "/chords/homenajes/coldplay-yellow.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 85,
+              "tonalidad": "Bb Mayor",
+              "compas": "4/4",
+              "dificultad": "Fácil",
+              "style": "Rock Alternativo",
+              "genre": "Rock",
+              "categoria": "Homenajes Coldplay"
+            }
+          },
+          {
+            "id": "homenaje-coldplay-02-the-scientist",
+            "track_number": 2,
+            "title": "The Scientist",
+            "artist": "Coldplay",
+            "duration": "5:09",
+            "mp3_url": "/audio/homenajes/coldplay-the-scientist.mp3",
+            "chords_url": "/chords/homenajes/coldplay-the-scientist.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 146,
+              "tonalidad": "F Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock Alternativo",
+              "genre": "Rock",
+              "categoria": "Homenajes Coldplay"
+            }
+          },
+          {
+            "id": "homenaje-coldplay-03-clocks",
+            "track_number": 3,
+            "title": "Clocks",
+            "artist": "Coldplay",
+            "duration": "5:07",
+            "mp3_url": "/audio/homenajes/coldplay-clocks.mp3",
+            "chords_url": "/chords/homenajes/coldplay-clocks.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 131,
+              "tonalidad": "Eb Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock Alternativo",
+              "genre": "Rock",
+              "categoria": "Homenajes Coldplay"
+            }
+          },
+          {
+            "id": "homenaje-coldplay-04-fix-you",
+            "track_number": 4,
+            "title": "Fix You",
+            "artist": "Coldplay",
+            "duration": "4:55",
+            "mp3_url": "/audio/homenajes/coldplay-fix-you.mp3",
+            "chords_url": "/chords/homenajes/coldplay-fix-you.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 138,
+              "tonalidad": "C Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock Alternativo",
+              "genre": "Rock",
+              "categoria": "Homenajes Coldplay"
+            }
+          },
+          {
+            "id": "homenaje-coldplay-05-viva-la-vida",
+            "track_number": 5,
+            "title": "Viva la Vida",
+            "artist": "Coldplay",
+            "duration": "4:01",
+            "mp3_url": "/audio/homenajes/coldplay-viva-la-vida.mp3",
+            "chords_url": "/chords/homenajes/coldplay-viva-la-vida.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 138,
+              "tonalidad": "Bb Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock Alternativo",
+              "genre": "Rock",
+              "categoria": "Homenajes Coldplay"
+            }
+          },
+          {
+            "id": "homenaje-coldplay-06-paradise",
+            "track_number": 6,
+            "title": "Paradise",
+            "artist": "Coldplay",
+            "duration": "4:38",
+            "mp3_url": "/audio/homenajes/coldplay-paradise.mp3",
+            "chords_url": "/chords/homenajes/coldplay-paradise.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 140,
+              "tonalidad": "F#m",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock Alternativo",
+              "genre": "Rock",
+              "categoria": "Homenajes Coldplay"
+            }
+          },
+          {
+            "id": "homenaje-coldplay-07-adventure-of-a-lifetime",
+            "track_number": 7,
+            "title": "Adventure of a Lifetime",
+            "artist": "Coldplay",
+            "duration": "4:23",
+            "mp3_url": "/audio/homenajes/coldplay-adventure-of-a-lifetime.mp3",
+            "chords_url": "/chords/homenajes/coldplay-adventure-of-a-lifetime.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 114,
+              "tonalidad": "F#m",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Pop Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes Coldplay"
+            }
+          },
+          {
+            "id": "homenaje-coldplay-08-hymn-for-the-weekend",
+            "track_number": 8,
+            "title": "Hymn for the Weekend",
+            "artist": "Coldplay",
+            "duration": "4:18",
+            "mp3_url": "/audio/homenajes/coldplay-hymn-for-the-weekend.mp3",
+            "chords_url": "/chords/homenajes/coldplay-hymn-for-the-weekend.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 90,
+              "tonalidad": "Bbm",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Pop",
+              "genre": "Pop",
+              "categoria": "Homenajes Coldplay"
+            }
+          },
+          {
+            "id": "homenaje-coldplay-09-a-sky-full-of-stars",
+            "track_number": 9,
+            "title": "A Sky Full of Stars",
+            "artist": "Coldplay",
+            "duration": "4:27",
+            "mp3_url": "/audio/homenajes/coldplay-a-sky-full-of-stars.mp3",
+            "chords_url": "/chords/homenajes/coldplay-a-sky-full-of-stars.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 125,
+              "tonalidad": "A Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Electro Pop",
+              "genre": "Pop",
+              "categoria": "Homenajes Coldplay"
+            }
+          },
+          {
+            "id": "homenaje-coldplay-10-in-my-place",
+            "track_number": 10,
+            "title": "In My Place",
+            "artist": "Coldplay",
+            "duration": "3:48",
+            "mp3_url": "/audio/homenajes/coldplay-in-my-place.mp3",
+            "chords_url": "/chords/homenajes/coldplay-in-my-place.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 134,
+              "tonalidad": "F#m",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock Alternativo",
+              "genre": "Rock",
+              "categoria": "Homenajes Coldplay"
+            }
+          }
+        ]
+      }
+    ]
+  }

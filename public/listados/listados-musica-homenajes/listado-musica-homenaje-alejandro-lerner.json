@@ -1,0 +1,115 @@
+{
+  "artista": "Alejandro Lerner",
+  "categoria": "homenajes",
+  "discografia": [
+    {
+      "album_id": "homenajes-lerner-00",
+      "album_name": "HOMENAJE A ALEJANDRO LERNER",
+      "year": "2024",
+      "cover_image": "/img/02-logos/logo-formateo-chords2.png",
+      "genre": "Homenajes",
+      "songs": [
+        {
+          "id": "homenaje-lerner-01-algo-de-mi-en-tu-corazon",
+          "track_number": 1,
+          "title": "Algo de Mi en Tu Corazón",
+          "artist": "Alejandro Lerner",
+          "duration": "4:25",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-alejandro-lerner/alejandro-lerner-algo-de-mi-en-tu-corazon.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-alejandro-lerner/alejandro-lerner-algo-de-mi-en-tu-corazon.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 95,
+            "tonalidad": "D Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Balada Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Alejandro Lerner"
+          }
+        },
+        {
+          "id": "homenaje-lerner-02-campeones-de-la-vida",
+          "track_number": 2,
+          "title": "Campeones de la Vida",
+          "artist": "Alejandro Lerner",
+          "duration": "4:10",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-alejandro-lerner/alejandro-lerner-campeones-de-la-vida.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-alejandro-lerner/alejandro-lerner-campeones-de-la-vida.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 110,
+            "tonalidad": "A Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Alejandro Lerner"
+          }
+        },
+        {
+          "id": "homenaje-lerner-03-juntos-para-siempre",
+          "track_number": 3,
+          "title": "Juntos Para Siempre",
+          "artist": "Alejandro Lerner",
+          "duration": "4:18",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-alejandro-lerner/alejandro-lerner-juntos-para-siempre.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-alejandro-lerner/alejandro-lerner-juntos-para-siempre.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 88,
+            "tonalidad": "E Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Balada",
+            "genre": "Rock",
+            "categoria": "Homenajes Alejandro Lerner"
+          }
+        },
+        {
+          "id": "homenaje-lerner-04-volver-a-empezar",
+          "track_number": 4,
+          "title": "Volver a Empezar",
+          "artist": "Alejandro Lerner",
+          "duration": "4:05",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-alejandro-lerner/alejandro-lerner-volver-a-empezar.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-alejandro-lerner/alejandro-lerner-volver-a-empezar.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 100,
+            "tonalidad": "G Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Alejandro Lerner"
+          }
+        },
+        {
+          "id": "homenaje-lerner-05-amigos",
+          "track_number": 5,
+          "title": "Amigos (con Enanitos Verdes)",
+          "artist": "Alejandro Lerner & Enanitos Verdes",
+          "duration": "4:22",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-alejandro-lerner/enanitos-verdes-ale-lerner-amigos.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-alejandro-lerner/enanitos-verdes-ale-lerner-amigos.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 102,
+            "tonalidad": "C Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock Pop",
+            "genre": "Rock",
+            "categoria": "Homenajes Alejandro Lerner"
+          }
+        }
+      ]
+    }
+  ]
+}

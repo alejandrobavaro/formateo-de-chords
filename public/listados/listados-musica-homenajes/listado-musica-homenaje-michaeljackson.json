@@ -1,0 +1,214 @@
+{
+    "artista": "Rockola Covers",
+    "discografia": [
+      {
+        "album_id": "homenajes-internacionales-00",
+        "album_name": "HOMENAJES INTERNACIONALES",
+        "year": "2024",
+          "cover_image": "/img/02-logos/logo-formateo-chords2.png",
+        "genre": "Homenajes",
+        "songs": [
+          {
+            "id": "homenaje-michael-jackson-01-billie-jean",
+            "track_number": 99,
+            "title": "Billie Jean",
+            "artist": "Michael Jackson",
+            "duration": "4:54",
+            "mp3_url": "/audio/homenajes/michael-jackson-billie-jean.mp3",
+            "chords_url": "/chords/homenajes/michael-jackson-billie-jean.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 117,
+              "tonalidad": "F#m",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Pop",
+              "genre": "Pop",
+              "categoria": "Homenajes Michael Jackson"
+            }
+          },
+          {
+            "id": "homenaje-michael-jackson-02-beat-it",
+            "track_number": 100,
+            "title": "Beat It",
+            "artist": "Michael Jackson",
+            "duration": "4:18",
+            "mp3_url": "/audio/homenajes/michael-jackson-beat-it.mp3",
+            "chords_url": "/chords/homenajes/michael-jackson-beat-it.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 138,
+              "tonalidad": "Ebm",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Pop Rock",
+              "genre": "Pop",
+              "categoria": "Homenajes Michael Jackson"
+            }
+          },
+          {
+            "id": "homenaje-michael-jackson-03-thriller",
+            "track_number": 101,
+            "title": "Thriller",
+            "artist": "Michael Jackson",
+            "duration": "5:57",
+            "mp3_url": "/audio/homenajes/michael-jackson-thriller.mp3",
+            "chords_url": "/chords/homenajes/michael-jackson-thriller.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 120,
+              "tonalidad": "C#m",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Pop",
+              "genre": "Pop",
+              "categoria": "Homenajes Michael Jackson"
+            }
+          },
+          {
+            "id": "homenaje-michael-jackson-04-black-or-white",
+            "track_number": 102,
+            "title": "Black or White",
+            "artist": "Michael Jackson",
+            "duration": "4:16",
+            "mp3_url": "/audio/homenajes/michael-jackson-black-or-white.mp3",
+            "chords_url": "/chords/homenajes/michael-jackson-black-or-white.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 112,
+              "tonalidad": "G Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Pop Rock",
+              "genre": "Pop",
+              "categoria": "Homenajes Michael Jackson"
+            }
+          },
+          {
+            "id": "homenaje-michael-jackson-05-smooth-criminal",
+            "track_number": 103,
+            "title": "Smooth Criminal",
+            "artist": "Michael Jackson",
+            "duration": "4:17",
+            "mp3_url": "/audio/homenajes/michael-jackson-smooth-criminal.mp3",
+            "chords_url": "/chords/homenajes/michael-jackson-smooth-criminal.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 118,
+              "tonalidad": "Dm",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Pop",
+              "genre": "Pop",
+              "categoria": "Homenajes Michael Jackson"
+            }
+          },
+          {
+            "id": "homenaje-michael-jackson-06-man-in-the-mirror",
+            "track_number": 104,
+            "title": "Man in the Mirror",
+            "artist": "Michael Jackson",
+            "duration": "5:19",
+            "mp3_url": "/audio/homenajes/michael-jackson-man-in-the-mirror.mp3",
+            "chords_url": "/chords/homenajes/michael-jackson-man-in-the-mirror.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 100,
+              "tonalidad": "G Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Gospel Pop",
+              "genre": "Pop",
+              "categoria": "Homenajes Michael Jackson"
+            }
+          },
+          {
+            "id": "homenaje-michael-jackson-07-the-way-you-make-me-feel",
+            "track_number": 105,
+            "title": "The Way You Make Me Feel",
+            "artist": "Michael Jackson",
+            "duration": "4:58",
+            "mp3_url": "/audio/homenajes/michael-jackson-the-way-you-make-me-feel.mp3",
+            "chords_url": "/chords/homenajes/michael-jackson-the-way-you-make-me-feel.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 114,
+              "tonalidad": "G Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Pop",
+              "genre": "Pop",
+              "categoria": "Homenajes Michael Jackson"
+            }
+          },
+          {
+            "id": "homenaje-michael-jackson-08-heal-the-world",
+            "track_number": 106,
+            "title": "Heal the World",
+            "artist": "Michael Jackson",
+            "duration": "6:25",
+            "mp3_url": "/audio/homenajes/michael-jackson-heal-the-world.mp3",
+            "chords_url": "/chords/homenajes/michael-jackson-heal-the-world.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 80,
+              "tonalidad": "D Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Balada",
+              "genre": "Pop",
+              "categoria": "Homenajes Michael Jackson"
+            }
+          },
+          {
+            "id": "homenaje-michael-jackson-09-dirty-diana",
+            "track_number": 107,
+            "title": "Dirty Diana",
+            "artist": "Michael Jackson",
+            "duration": "4:52",
+            "mp3_url": "/audio/homenajes/michael-jackson-dirty-diana.mp3",
+            "chords_url": "/chords/homenajes/michael-jackson-dirty-diana.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 125,
+              "tonalidad": "E Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes Michael Jackson"
+            }
+          },
+          {
+            "id": "homenaje-michael-jackson-10-you-are-not-alone",
+            "track_number": 108,
+            "title": "You Are Not Alone",
+            "artist": "Michael Jackson",
+            "duration": "5:45",
+            "mp3_url": "/audio/homenajes/michael-jackson-you-are-not-alone.mp3",
+            "chords_url": "/chords/homenajes/michael-jackson-you-are-not-alone.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 80,
+              "tonalidad": "Bb Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "R&B",
+              "genre": "Pop",
+              "categoria": "Homenajes Michael Jackson"
+            }
+          }
+        ]
+      }
+    ]
+  }

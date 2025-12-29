@@ -1,0 +1,654 @@
+{
+  "artista": "Rockola Covers",
+  "discografia": [
+    {
+      "album_id": "covers-discoingles",
+      "album_name": "COVERS DISCO INGLÉS",
+      "year": "2025",
+      "cover_image": "/img/09-discos/tapa-listado-covers.jpg",
+      "genre": "Disco",
+      "songs": [
+        {
+          "id": "abba-dancing-queen",
+          "track_number": 1,
+          "title": "Dancing Queen",
+          "artist": "ABBA",
+          "duration": "3:51",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-discoingles/abba-dancing-queen.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-discoingles/abba-dancing-queen.json",
+          "details": {
+            "letra": "",
+            "acordes": ["G", "D", "Em", "C"],
+            "bpm": 100,
+            "tonalidad": "G Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Disco Pop",
+            "genre": "Disco",
+            "categoria": "Covers Disco Inglés"
+          }
+        },
+        {
+          "id": "abba-gimme-gimme-gimme-a-man-after-midnight",
+          "track_number": 2,
+          "title": "Gimme! Gimme! Gimme! (A Man After Midnight)",
+          "artist": "ABBA",
+          "duration": "4:52",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-discoingles/abba-gimme-gimme-gimme-a-man-after-midnight.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-discoingles/abba-gimme-gimme-gimme-a-man-after-midnight.json",
+          "details": {
+            "letra": "",
+            "acordes": ["Am", "G", "F", "E"],
+            "bpm": 110,
+            "tonalidad": "Am",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Disco Pop",
+            "genre": "Disco",
+            "categoria": "Covers Disco Inglés"
+          }
+        },
+        {
+          "id": "backstreetboys-everybody",
+          "track_number": 3,
+          "title": "Everybody (Backstreet's Back)",
+          "artist": "Backstreet Boys",
+          "duration": "4:44",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-discoingles/backstreetboys-everybody.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-discoingles/backstreetboys-everybody.json",
+          "details": {
+            "letra": "",
+            "acordes": ["C", "G", "Am", "F"],
+            "bpm": 105,
+            "tonalidad": "C Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Disco Pop",
+            "genre": "Disco",
+            "categoria": "Covers Disco Inglés"
+          }
+        },
+        {
+          "id": "bee-gees-stayin-alive",
+          "track_number": 4,
+          "title": "Stayin' Alive",
+          "artist": "Bee Gees",
+          "duration": "4:45",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-discoingles/bee-gees-stayin-alive.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-discoingles/bee-gees-stayin-alive.json",
+          "details": {
+            "letra": "",
+            "acordes": ["F#m", "E", "D", "A"],
+            "bpm": 104,
+            "tonalidad": "F#m",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Disco Clásico",
+            "genre": "Disco",
+            "categoria": "Covers Disco Inglés"
+          }
+        },
+        {
+          "id": "bee-gees-you-should-be-dancing",
+          "track_number": 5,
+          "title": "You Should Be Dancing",
+          "artist": "Bee Gees",
+          "duration": "4:15",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-discoingles/bee-gees-you-should-be-dancing.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-discoingles/bee-gees-you-should-be-dancing.json",
+          "details": {
+            "letra": "",
+            "acordes": ["A", "D", "E", "F#m"],
+            "bpm": 120,
+            "tonalidad": "A Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Disco Clásico",
+            "genre": "Disco",
+            "categoria": "Covers Disco Inglés"
+          }
+        },
+        {
+          "id": "daft-punk-get-lucky",
+          "track_number": 6,
+          "title": "Get Lucky",
+          "artist": "Daft Punk",
+          "duration": "4:08",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-discoingles/daft-punk-get-lucky.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-discoingles/daft-punk-get-lucky.json",
+          "details": {
+            "letra": "",
+            "acordes": ["F#m", "D", "A", "E"],
+            "bpm": 116,
+            "tonalidad": "F#m",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Disco Electrónico",
+            "genre": "Disco",
+            "categoria": "Covers Disco Inglés"
+          }
+        },
+        {
+          "id": "david-guetta-titanium",
+          "track_number": 7,
+          "title": "Titanium",
+          "artist": "David Guetta",
+          "duration": "4:05",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-discoingles/david-guetta-titanium.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-discoingles/david-guetta-titanium.json",
+          "details": {
+            "letra": "",
+            "acordes": ["C", "G", "Am", "F"],
+            "bpm": 126,
+            "tonalidad": "C Mayor",
+            "compas": "4/4",
+            "dificultad": "Básica",
+            "style": "Disco Electrónico",
+            "genre": "Disco",
+            "categoria": "Covers Disco Inglés"
+          }
+        },
+        {
+          "id": "depeche-mode-i-just-cant-get-enough",
+          "track_number": 8,
+          "title": "I Just Can't Get Enough",
+          "artist": "Depeche Mode",
+          "duration": "3:42",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-discoingles/depeche-mode-i-just-cant-get-enough.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-discoingles/depeche-mode-i-just-cant-get-enough.json",
+          "details": {
+            "letra": "",
+            "acordes": ["C", "F", "G", "Am"],
+            "bpm": 115,
+            "tonalidad": "C Mayor",
+            "compas": "4/4",
+            "dificultad": "Básica",
+            "style": "Disco Electrónico",
+            "genre": "Disco",
+            "categoria": "Covers Disco Inglés"
+          }
+        },
+        {
+          "id": "donna-summer-hot-stuff",
+          "track_number": 9,
+          "title": "Hot Stuff",
+          "artist": "Donna Summer",
+          "duration": "5:14",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-discoingles/donna-summer-hot-stuff.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-discoingles/donna-summer-hot-stuff.json",
+          "details": {
+            "letra": "",
+            "acordes": ["Am", "G", "F", "C"],
+            "bpm": 118,
+            "tonalidad": "Am",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Disco Clásico",
+            "genre": "Disco",
+            "categoria": "Covers Disco Inglés"
+          }
+        },
+        {
+          "id": "electric-light-orchestra-last-train-to-london",
+          "track_number": 10,
+          "title": "Last Train to London",
+          "artist": "Electric Light Orchestra",
+          "duration": "4:31",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-discoingles/electric-light-orchestra-last-train-to-london.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-discoingles/electric-light-orchestra-last-train-to-london.json",
+          "details": {
+            "letra": "",
+            "acordes": ["D", "A", "Bm", "G"],
+            "bpm": 110,
+            "tonalidad": "D Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Disco Pop",
+            "genre": "Disco",
+            "categoria": "Covers Disco Inglés"
+          }
+        },
+        {
+          "id": "eurythmics-sweet-dreams",
+          "track_number": 11,
+          "title": "Sweet Dreams (Are Made of This)",
+          "artist": "Eurythmics",
+          "duration": "3:36",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-discoingles/eurythmics-sweet-dreams.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-discoingles/eurythmics-sweet-dreams.json",
+          "details": {
+            "letra": "",
+            "acordes": ["C", "Am", "F", "G"],
+            "bpm": 112,
+            "tonalidad": "C Mayor",
+            "compas": "4/4",
+            "dificultad": "Básica",
+            "style": "Disco Electrónico",
+            "genre": "Disco",
+            "categoria": "Covers Disco Inglés"
+          }
+        },
+        {
+          "id": "gorillaz-clint-eastwood",
+          "track_number": 12,
+          "title": "Clint Eastwood",
+          "artist": "Gorillaz",
+          "duration": "5:40",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-discoingles/gorillaz-clint-eastwood.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-discoingles/gorillaz-clint-eastwood.json",
+          "details": {
+            "letra": "",
+            "acordes": ["Gm", "Eb", "F", "Bb"],
+            "bpm": 95,
+            "tonalidad": "Gm",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Disco Alternativo",
+            "genre": "Disco",
+            "categoria": "Covers Disco Inglés"
+          }
+        },
+        {
+          "id": "grease-youre-the-one-that-i-want",
+          "track_number": 13,
+          "title": "You're the One That I Want",
+          "artist": "Grease",
+          "duration": "2:49",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-discoingles/grease-youre-the-one-that-i-want.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-discoingles/grease-youre-the-one-that-i-want.json",
+          "details": {
+            "letra": "",
+            "acordes": ["C", "G", "F", "Am"],
+            "bpm": 125,
+            "tonalidad": "C Mayor",
+            "compas": "4/4",
+            "dificultad": "Básica",
+            "style": "Disco Pop",
+            "genre": "Disco",
+            "categoria": "Covers Disco Inglés"
+          }
+        },
+        {
+          "id": "haddaway-what-is-love",
+          "track_number": 14,
+          "title": "What Is Love",
+          "artist": "Haddaway",
+          "duration": "4:30",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-discoingles/haddaway-what-is-love.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-discoingles/haddaway-what-is-love.json",
+          "details": {
+            "letra": "",
+            "acordes": ["Am", "F", "C", "G"],
+            "bpm": 124,
+            "tonalidad": "Am",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Disco Electrónico",
+            "genre": "Disco",
+            "categoria": "Covers Disco Inglés"
+          }
+        },
+        {
+          "id": "inxs-mistify",
+          "track_number": 15,
+          "title": "Mistify",
+          "artist": "INXS",
+          "duration": "4:30",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-discoingles/inxs-mistify.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-discoingles/inxs-mistify.json",
+          "details": {
+            "letra": "",
+            "acordes": ["D", "A", "Bm", "G"],
+            "bpm": 108,
+            "tonalidad": "D Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Disco Rock",
+            "genre": "Disco",
+            "categoria": "Covers Disco Inglés"
+          }
+        },
+        {
+          "id": "inxs-need-you-tonight",
+          "track_number": 16,
+          "title": "Need You Tonight",
+          "artist": "INXS",
+          "duration": "3:01",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-discoingles/inxs-need-you-tonight.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-discoingles/inxs-need-you-tonight.json",
+          "details": {
+            "letra": "",
+            "acordes": ["Em", "C", "G", "D"],
+            "bpm": 115,
+            "tonalidad": "Em",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Disco Rock",
+            "genre": "Disco",
+            "categoria": "Covers Disco Inglés"
+          }
+        },
+        {
+          "id": "inxs-new-sensation",
+          "track_number": 17,
+          "title": "New Sensation",
+          "artist": "INXS",
+          "duration": "3:40",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-discoingles/inxs-new-sensation.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-discoingles/inxs-new-sensation.json",
+          "details": {
+            "letra": "",
+            "acordes": ["A", "D", "E", "F#m"],
+            "bpm": 120,
+            "tonalidad": "A Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Disco Rock",
+            "genre": "Disco",
+            "categoria": "Covers Disco Inglés"
+          }
+        },
+        {
+          "id": "inxs-suicide-blonde",
+          "track_number": 18,
+          "title": "Suicide Blonde",
+          "artist": "INXS",
+          "duration": "3:52",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-discoingles/inxs-suicide-blonde.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-discoingles/inxs-suicide-blonde.json",
+          "details": {
+            "letra": "",
+            "acordes": ["G", "D", "C", "Em"],
+            "bpm": 118,
+            "tonalidad": "G Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Disco Rock",
+            "genre": "Disco",
+            "categoria": "Covers Disco Inglés"
+          }
+        },
+        {
+          "id": "kiss-i-was-made-for-loving-you",
+          "track_number": 19,
+          "title": "I Was Made for Lovin' You",
+          "artist": "KISS",
+          "duration": "4:31",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-discoingles/kiss-i-was-made-for-loving-you.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-discoingles/kiss-i-was-made-for-loving-you.json",
+          "details": {
+            "letra": "",
+            "acordes": ["Em", "C", "G", "D"],
+            "bpm": 122,
+            "tonalidad": "Em",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Disco Rock",
+            "genre": "Disco",
+            "categoria": "Covers Disco Inglés"
+          }
+        },
+        {
+          "id": "kool-the-gang-celebrate",
+          "track_number": 20,
+          "title": "Celebrate",
+          "artist": "Kool & The Gang",
+          "duration": "4:20",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-discoingles/kool-the-gang-celebrate.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-discoingles/kool-the-gang-celebrate.json",
+          "details": {
+            "letra": "",
+            "acordes": ["F", "Bb", "C", "Gm"],
+            "bpm": 110,
+            "tonalidad": "F Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Disco Funk",
+            "genre": "Disco",
+            "categoria": "Covers Disco Inglés"
+          }
+        },
+        {
+          "id": "lenny-kravitz-it-aint-over-til-its-over",
+          "track_number": 21,
+          "title": "It Ain't Over 'Til It's Over",
+          "artist": "Lenny Kravitz",
+          "duration": "4:02",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-discoingles/lenny-kravitz-it-aint-over-til-its-over.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-discoingles/lenny-kravitz-it-aint-over-til-its-over.json",
+          "details": {
+            "letra": "",
+            "acordes": ["Am", "G", "F", "C"],
+            "bpm": 98,
+            "tonalidad": "Am",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Disco Rock",
+            "genre": "Disco",
+            "categoria": "Covers Disco Inglés"
+          }
+        },
+        {
+          "id": "lipps-inc-funkytown",
+          "track_number": 22,
+          "title": "Funkytown",
+          "artist": "Lipps Inc",
+          "duration": "7:52",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-discoingles/lipps-inc-funkytown.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-discoingles/lipps-inc-funkytown.json",
+          "details": {
+            "letra": "",
+            "acordes": ["C", "F", "G", "Am"],
+            "bpm": 120,
+            "tonalidad": "C Mayor",
+            "compas": "4/4",
+            "dificultad": "Básica",
+            "style": "Disco Electrónico",
+            "genre": "Disco",
+            "categoria": "Covers Disco Inglés"
+          }
+        },
+        {
+          "id": "michael-jackson-billie-jean",
+          "track_number": 23,
+          "title": "Billie Jean",
+          "artist": "Michael Jackson",
+          "duration": "4:54",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-discoingles/michael-jackson-billie-jean.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-discoingles/michael-jackson-billie-jean.json",
+          "details": {
+            "letra": "",
+            "acordes": ["F#m", "E", "D", "A"],
+            "bpm": 117,
+            "tonalidad": "F#m",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Disco Pop",
+            "genre": "Disco",
+            "categoria": "Covers Disco Inglés"
+          }
+        },
+        {
+          "id": "michael-jackson-thriller",
+          "track_number": 24,
+          "title": "Thriller",
+          "artist": "Michael Jackson",
+          "duration": "5:57",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-discoingles/michael-jackson-thriller.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-discoingles/michael-jackson-thriller.json",
+          "details": {
+            "letra": "",
+            "acordes": ["Gm", "Eb", "F", "Bb"],
+            "bpm": 120,
+            "tonalidad": "Gm",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Disco Pop",
+            "genre": "Disco",
+            "categoria": "Covers Disco Inglés"
+          }
+        },
+        {
+          "id": "queen-another-one-bites-the-dust",
+          "track_number": 25,
+          "title": "Another One Bites the Dust",
+          "artist": "Queen",
+          "duration": "3:35",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-discoingles/queen-another-one-bites-the-dust.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-discoingles/queen-another-one-bites-the-dust.json",
+          "details": {
+            "letra": "",
+            "acordes": ["Em", "C", "G", "D"],
+            "bpm": 110,
+            "tonalidad": "Em",
+            "compas": "4/4",
+            "dificultad": "Básica",
+            "style": "Disco Rock",
+            "genre": "Disco",
+            "categoria": "Covers Disco Inglés"
+          }
+        },
+        {
+          "id": "queen-breakthru",
+          "track_number": 26,
+          "title": "Breakthru",
+          "artist": "Queen",
+          "duration": "4:08",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-discoingles/queen-breakthru.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-discoingles/queen-breakthru.json",
+          "details": {
+            "letra": "",
+            "acordes": ["C", "G", "Am", "F"],
+            "bpm": 125,
+            "tonalidad": "C Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Disco Rock",
+            "genre": "Disco",
+            "categoria": "Covers Disco Inglés"
+          }
+        },
+        {
+          "id": "robbie-williams-lovelight",
+          "track_number": 27,
+          "title": "Lovelight",
+          "artist": "Robbie Williams",
+          "duration": "4:02",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-discoingles/robbie-williams-lovelight.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-discoingles/robbie-williams-lovelight.json",
+          "details": {
+            "letra": "",
+            "acordes": ["D", "A", "Bm", "G"],
+            "bpm": 118,
+            "tonalidad": "D Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Disco Pop",
+            "genre": "Disco",
+            "categoria": "Covers Disco Inglés"
+          }
+        },
+        {
+          "id": "robbie-williams-rock-dj",
+          "track_number": 28,
+          "title": "Rock DJ",
+          "artist": "Robbie Williams",
+          "duration": "4:18",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-discoingles/robbie-williams-rock-dj.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-discoingles/robbie-williams-rock-dj.json",
+          "details": {
+            "letra": "",
+            "acordes": ["Am", "G", "F", "C"],
+            "bpm": 122,
+            "tonalidad": "Am",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Disco Pop",
+            "genre": "Disco",
+            "categoria": "Covers Disco Inglés"
+          }
+        },
+        {
+          "id": "rod-stewart-do-you-think-im-sexy",
+          "track_number": 29,
+          "title": "Do Ya Think I'm Sexy?",
+          "artist": "Rod Stewart",
+          "duration": "5:24",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-discoingles/rod-stewart-do-you-think-im-sexy.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-discoingles/rod-stewart-do-you-think-im-sexy.json",
+          "details": {
+            "letra": "",
+            "acordes": ["Em", "C", "G", "D"],
+            "bpm": 116,
+            "tonalidad": "Em",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Disco Pop",
+            "genre": "Disco",
+            "categoria": "Covers Disco Inglés"
+          }
+        },
+        {
+          "id": "rolling-stones-miss-you",
+          "track_number": 30,
+          "title": "Miss You",
+          "artist": "Rolling Stones",
+          "duration": "4:48",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-discoingles/rolling-stones-miss-you.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-discoingles/rolling-stones-miss-you.json",
+          "details": {
+            "letra": "",
+            "acordes": ["Am", "G", "F", "C"],
+            "bpm": 112,
+            "tonalidad": "Am",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Disco Rock",
+            "genre": "Disco",
+            "categoria": "Covers Disco Inglés"
+          }
+        },
+        {
+          "id": "village-people-ymca",
+          "track_number": 31,
+          "title": "Y.M.C.A.",
+          "artist": "Village People",
+          "duration": "4:47",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-discoingles/village-people-ymca.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-discoingles/village-people-ymca.json",
+          "details": {
+            "letra": "",
+            "acordes": ["C", "G", "F", "Am"],
+            "bpm": 126,
+            "tonalidad": "C Mayor",
+            "compas": "4/4",
+            "dificultad": "Básica",
+            "style": "Disco Clásico",
+            "genre": "Disco",
+            "categoria": "Covers Disco Inglés"
+          }
+        },
+        {
+          "id": "white-stripes-seven-nation-army",
+          "track_number": 32,
+          "title": "Seven Nation Army",
+          "artist": "The White Stripes",
+          "duration": "3:52",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-discoingles/white-stripes-seven-nation-army.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-discoingles/white-stripes-seven-nation-army.json",
+          "details": {
+            "letra": "",
+            "acordes": ["E", "G", "A", "C"],
+            "bpm": 124,
+            "tonalidad": "E Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Disco Alternativo",
+            "genre": "Disco",
+            "categoria": "Covers Disco Inglés"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+    "id": "zapada-electrónica-006",
+    "title": "Zapada Electrónica Sesión 3 en Vivo",
+    "artist": "Rockola Covers",
+    "originalKey": "A",
+    "tempo": 143,
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "F", "C", "G"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SECCIÓN 1",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric": "En vivo, la electrónica vibra,"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric": ""
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric": "sintetizadores y energía pura."
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "DROP",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "F", "C", "G"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "G", "F", "C", "Am"]
+          }
+        ]
+      }
+    ]
+  }
+  

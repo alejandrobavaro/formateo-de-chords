@@ -1,0 +1,81 @@
+{
+    "id": "zapada-funk-005",
+    "title": "Zapada Funk Sesión 3 en Vivo",
+    "artist": "Rockola Covers",
+    "originalKey": "F",
+    "tempo": 120,
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F", "Bb", "F", "C"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "GROOVE 1",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric": "Funk en vivo, energía pura,"
+          },
+          {
+            "type": "chord",
+            "content": "Bb"
+          },
+          {
+            "type": "lyric": ""
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric": "el groove no tiene fin."
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F", "C", "Bb", "F"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F", "Bb", "C", "F"]
+          }
+        ]
+      }
+    ]
+  }
+  

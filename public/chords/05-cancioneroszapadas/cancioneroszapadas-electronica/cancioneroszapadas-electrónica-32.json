@@ -1,0 +1,81 @@
+{
+    "id": "zapada-electrónica-032",
+    "title": "Zapada Dubstep",
+    "artist": "Rockola Covers",
+    "originalKey": "G",
+    "tempo": 140,
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "B", "C", "D"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SECCIÓN 1",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric": "Bajos profundos,"
+          },
+          {
+            "type": "chord",
+            "content": "B"
+          },
+          {
+            "type": "lyric": ""
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric": "el dubstep rompe el suelo."
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "DROP",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "B", "C", "D"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "D", "C", "B", "G"]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,81 @@
+{
+    "id": "zapada-metal-029",
+    "title": "Zapada Thrash Metal",
+    "artist": "Rockola Covers",
+    "originalKey": "B",
+    "tempo": 180,
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["B5", "A5", "E5", "B5"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "RIFF 1",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "B5"
+          },
+          {
+            "type": "lyric": "Thrash metal, velocidad y agresión,"
+          },
+          {
+            "type": "chord",
+            "content": "A5"
+          },
+          {
+            "type": "lyric": ""
+          },
+          {
+            "type": "chord",
+            "content": "E5"
+          },
+          {
+            "type": "lyric": "la batería y la guitarra no dan tregua."
+          },
+          {
+            "type": "chord",
+            "content": "B5"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["B5", "E5", "A5", "D5"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["B5", "A5", "E5", "B5"]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,102 @@
+{
+    "id": "zapada-pop-009",
+    "title": "Zapada Pop Electrónico",
+    "artist": "Rockola Covers",
+    "originalKey": "F",
+    "tempo": 128,
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F", "C", "G", "Am"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 1",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric": "Pop electrónico, beats y melodía,"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric": ""
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric": "el sintetizador y la voz te harán bailar."
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric": "Baila sin parar,"
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric": ""
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric": "el pop electrónico es tu canción."
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F", "Am", "G", "F"]
+          }
+        ]
+      }
+    ]
+  }
+  

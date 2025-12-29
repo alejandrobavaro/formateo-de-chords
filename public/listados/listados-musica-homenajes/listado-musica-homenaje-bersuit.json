@@ -1,0 +1,75 @@
+{
+  "artista": "Bersuit Vergarabat",
+  "categoria": "homenajes",
+  "discografia": [
+    {
+      "album_id": "homenajes-bersuit-00",
+      "album_name": "HOMENAJE A BERSUIT VERGARABAT",
+      "year": "2024",
+      "cover_image": "/img/02-logos/logo-formateo-chords2.png",
+      "genre": "Homenajes",
+      "songs": [
+        {
+          "id": "homenaje-bersuit-01-mi-caramelo",
+          "track_number": 1,
+          "title": "Mi Caramelo",
+          "artist": "Bersuit Vergarabat",
+          "duration": "4:20",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-bersuit/bersuit-mi-caramelo.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-bersuit/bersuit-mi-caramelo.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 120,
+            "tonalidad": "D Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Bersuit Vergarabat"
+          }
+        },
+        {
+          "id": "homenaje-bersuit-02-un-pacto",
+          "track_number": 2,
+          "title": "Un Pacto",
+          "artist": "Bersuit Vergarabat",
+          "duration": "4:10",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-bersuit/bersuit-un-pacto.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-bersuit/bersuit-un-pacto.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 115,
+            "tonalidad": "G Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Bersuit Vergarabat"
+          }
+        },
+        {
+          "id": "homenaje-bersuit-03-yo-tomo",
+          "track_number": 3,
+          "title": "Yo Tomo",
+          "artist": "Bersuit Vergarabat",
+          "duration": "3:48",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-bersuit/bersuit-yo-tomo.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-bersuit/bersuit-yo-tomo.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 130,
+            "tonalidad": "E Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Bersuit Vergarabat"
+          }
+        }
+      ]
+    }
+  ]
+}

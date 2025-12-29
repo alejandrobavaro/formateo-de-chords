@@ -1,0 +1,235 @@
+{
+  "artista": "Los Fabulosos Cadillacs, Los Pericos & Kapanga",
+  "categoria": "homenajes",
+  "discografia": [
+    {
+      "album_id": "homenajes-ska-reggae-00",
+      "album_name": "HOMENAJE SKA & REGGAE ARGENTINO",
+      "year": "2024",
+      "cover_image": "/img/02-logos/logo-formateo-chords2.png",
+      "genre": "Homenajes",
+      "songs": [
+        {
+          "id": "homenaje-cadillacs-01-demasiada-presion",
+          "track_number": 1,
+          "title": "Demasiada Presión",
+          "artist": "Los Fabulosos Cadillacs",
+          "duration": "3:45",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-cadillacs-pericos-kapanga/fabulosos-cadillacs-demasiada-presion.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-cadillacs-pericos-kapanga/fabulosos-cadillacs-demasiada-presion.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 140,
+            "tonalidad": "A Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Ska Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Los Fabulosos Cadillacs"
+          }
+        },
+        {
+          "id": "homenaje-cadillacs-02-leon-santillan",
+          "track_number": 2,
+          "title": "León Santillán",
+          "artist": "Los Fabulosos Cadillacs",
+          "duration": "4:20",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-cadillacs-pericos-kapanga/fabulosos-cadillacs-leon-santillan.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-cadillacs-pericos-kapanga/fabulosos-cadillacs-leon-santillan.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 125,
+            "tonalidad": "D Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Ska Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Los Fabulosos Cadillacs"
+          }
+        },
+        {
+          "id": "homenaje-cadillacs-03-mal-bicho",
+          "track_number": 3,
+          "title": "Mal Bicho",
+          "artist": "Los Fabulosos Cadillacs",
+          "duration": "4:15",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-cadillacs-pericos-kapanga/fabulosos-cadillacs-mal-bicho.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-cadillacs-pericos-kapanga/fabulosos-cadillacs-mal-bicho.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 135,
+            "tonalidad": "E Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Ska Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Los Fabulosos Cadillacs"
+          }
+        },
+        {
+          "id": "homenaje-cadillacs-04-matador",
+          "track_number": 4,
+          "title": "Matador",
+          "artist": "Los Fabulosos Cadillacs",
+          "duration": "4:30",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-cadillacs-pericos-kapanga/fabulosos-cadillacs-matador.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-cadillacs-pericos-kapanga/fabulosos-cadillacs-matador.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 130,
+            "tonalidad": "G Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Ska Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Los Fabulosos Cadillacs"
+          }
+        },
+        {
+          "id": "homenaje-cadillacs-05-vasos-vacios",
+          "track_number": 5,
+          "title": "Vasos Vacíos",
+          "artist": "Los Fabulosos Cadillacs",
+          "duration": "4:15",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-cadillacs-pericos-kapanga/fabulosos-cadillacs-vasos-vacios.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-cadillacs-pericos-kapanga/fabulosos-cadillacs-vasos-vacios.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 130,
+            "tonalidad": "E Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Ska Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Los Fabulosos Cadillacs"
+          }
+        },
+        {
+          "id": "homenaje-pericos-06-home-sweet-home",
+          "track_number": 6,
+          "title": "Home Sweet Home",
+          "artist": "Los Pericos",
+          "duration": "4:10",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-cadillacs-pericos-kapanga/pericos-home-sweet-home.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-cadillacs-pericos-kapanga/pericos-home-sweet-home.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 100,
+            "tonalidad": "D Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Reggae",
+            "genre": "Rock",
+            "categoria": "Homenajes Los Pericos"
+          }
+        },
+        {
+          "id": "homenaje-pericos-07-nada-que-perder",
+          "track_number": 7,
+          "title": "Nada que Perder",
+          "artist": "Los Pericos",
+          "duration": "4:25",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-cadillacs-pericos-kapanga/pericos-nada-que-perder.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-cadillacs-pericos-kapanga/pericos-nada-que-perder.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 105,
+            "tonalidad": "A Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Reggae",
+            "genre": "Rock",
+            "categoria": "Homenajes Los Pericos"
+          }
+        },
+        {
+          "id": "homenaje-pericos-08-torito",
+          "track_number": 8,
+          "title": "Torito",
+          "artist": "Los Pericos",
+          "duration": "3:55",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-cadillacs-pericos-kapanga/pericos-torito.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-cadillacs-pericos-kapanga/pericos-torito.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 110,
+            "tonalidad": "G Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Reggae",
+            "genre": "Rock",
+            "categoria": "Homenajes Los Pericos"
+          }
+        },
+        {
+          "id": "homenaje-pericos-09-waiting-for-you-love",
+          "track_number": 9,
+          "title": "Waiting for Your Love",
+          "artist": "Los Pericos",
+          "duration": "4:30",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-cadillacs-pericos-kapanga/pericos-waiting-for-you-love.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-cadillacs-pericos-kapanga/pericos-waiting-for-you-love.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 95,
+            "tonalidad": "E Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Reggae",
+            "genre": "Rock",
+            "categoria": "Homenajes Los Pericos"
+          }
+        },
+        {
+          "id": "homenaje-kapanga-10-el-mono-relojero",
+          "track_number": 10,
+          "title": "El Mono Relojero",
+          "artist": "Kapanga",
+          "duration": "3:40",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-cadillacs-pericos-kapanga/kapanga-el-mono-relojero.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-cadillacs-pericos-kapanga/kapanga-el-mono-relojero.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 142,
+            "tonalidad": "E Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Ska Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Kapanga"
+          }
+        },
+        {
+          "id": "homenaje-kapanga-11-me-mata",
+          "track_number": 11,
+          "title": "Me Mata",
+          "artist": "Kapanga",
+          "duration": "3:28",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-cadillacs-pericos-kapanga/kapanga-me-mata.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-cadillacs-pericos-kapanga/kapanga-me-mata.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 138,
+            "tonalidad": "A Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Ska Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Kapanga"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,934 @@
+{
+  "artista": "Rockola Covers",
+  "discografia": [
+    {
+      "album_id": "covers-latinobailableespanol",
+      "album_name": "COVERS LATINO BAILABLE ESPAÑOL",
+      "year": "2025",
+      "cover_image": "/img/09-discos/tapa-listado-covers.jpg",
+      "genre": "Latino Bailable",
+      "songs": [
+        {
+          "id": "andres-calamaro-brindo",
+          "track_number": 1,
+          "title": "Brindo",
+          "artist": "Andrés Calamaro",
+          "duration": "4:12",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-latinobailableespanol/andres-calamaro-brindo.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-latinobailableespanol/andres-calamaro-brindo.json",
+          "details": {
+            "letra": "",
+            "acordes": ["C", "G", "Am", "F"],
+            "bpm": 110,
+            "tonalidad": "C Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Rock Latino",
+            "genre": "Latino",
+            "categoria": "Covers Latino Bailable Español"
+          }
+        },
+        {
+          "id": "andres-calamaro-tuyo-siempre",
+          "track_number": 2,
+          "title": "Tuyo Siempre",
+          "artist": "Andrés Calamaro",
+          "duration": "4:35",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-latinobailableespanol/andres-calamaro-tuyo-siempre.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-latinobailableespanol/andres-calamaro-tuyo-siempre.json",
+          "details": {
+            "letra": "",
+            "acordes": ["G", "D", "Em", "C"],
+            "bpm": 88,
+            "tonalidad": "G Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Balada Latina",
+            "genre": "Latino",
+            "categoria": "Covers Latino Bailable Español"
+          }
+        },
+        {
+          "id": "autenticos-decadentes-corazon",
+          "track_number": 3,
+          "title": "Corazón",
+          "artist": "Auténticos Decadentes",
+          "duration": "3:45",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-latinobailableespanol/autenticos-decadentes-corazon.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-latinobailableespanol/autenticos-decadentes-corazon.json",
+          "details": {
+            "letra": "",
+            "acordes": ["D", "A", "Bm", "G"],
+            "bpm": 125,
+            "tonalidad": "D Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Rock Latino",
+            "genre": "Latino",
+            "categoria": "Covers Latino Bailable Español"
+          }
+        },
+        {
+          "id": "autenticos-decadentes-el-murguero",
+          "track_number": 4,
+          "title": "El Murguero",
+          "artist": "Auténticos Decadentes",
+          "duration": "4:20",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-latinobailableespanol/autenticos-decadentes-el-murguero.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-latinobailableespanol/autenticos-decadentes-el-murguero.json",
+          "details": {
+            "letra": "",
+            "acordes": ["Am", "G", "F", "C"],
+            "bpm": 132,
+            "tonalidad": "Am",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Rock Latino",
+            "genre": "Latino",
+            "categoria": "Covers Latino Bailable Español"
+          }
+        },
+        {
+          "id": "autenticos-decadentes-la-guitarra",
+          "track_number": 5,
+          "title": "La Guitarra",
+          "artist": "Auténticos Decadentes",
+          "duration": "3:55",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-latinobailableespanol/autenticos-decadentes-la-guitarra.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-latinobailableespanol/autenticos-decadentes-la-guitarra.json",
+          "details": {
+            "letra": "",
+            "acordes": ["E", "A", "B", "C#m"],
+            "bpm": 128,
+            "tonalidad": "E Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Rock Latino",
+            "genre": "Latino",
+            "categoria": "Covers Latino Bailable Español"
+          }
+        },
+        {
+          "id": "bacilos-mi-primer-millon",
+          "track_number": 6,
+          "title": "Mi Primer Millón",
+          "artist": "Bacilos",
+          "duration": "3:28",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-latinobailableespanol/bacilos-mi-primer-millon.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-latinobailableespanol/bacilos-mi-primer-millon.json",
+          "details": {
+            "letra": "",
+            "acordes": ["G", "D", "Em", "C"],
+            "bpm": 118,
+            "tonalidad": "G Mayor",
+            "compas": "4/4",
+            "dificultad": "Básica",
+            "style": "Pop Latino",
+            "genre": "Latino",
+            "categoria": "Covers Latino Bailable Español"
+          }
+        },
+        {
+          "id": "bersuit-yo-tomo",
+          "track_number": 7,
+          "title": "Yo Tomo",
+          "artist": "Bersuit Vergarabat",
+          "duration": "4:05",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-latinobailableespanol/bersuit-yo-tomo.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-latinobailableespanol/bersuit-yo-tomo.json",
+          "details": {
+            "letra": "",
+            "acordes": ["Am", "G", "F", "C"],
+            "bpm": 120,
+            "tonalidad": "Am",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Rock Latino",
+            "genre": "Latino",
+            "categoria": "Covers Latino Bailable Español"
+          }
+        },
+        {
+          "id": "bomba-estereo-fuego",
+          "track_number": 8,
+          "title": "Fuego",
+          "artist": "Bomba Estéreo",
+          "duration": "4:38",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-latinobailableespanol/bomba-estereo-fuego.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-latinobailableespanol/bomba-estereo-fuego.json",
+          "details": {
+            "letra": "",
+            "acordes": ["C", "G", "Am", "F"],
+            "bpm": 105,
+            "tonalidad": "C Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Electro Latino",
+            "genre": "Latino",
+            "categoria": "Covers Latino Bailable Español"
+          }
+        },
+        {
+          "id": "chayanne-provocame",
+          "track_number": 9,
+          "title": "Provócame",
+          "artist": "Chayanne",
+          "duration": "4:15",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-latinobailableespanol/chayanne-provocame.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-latinobailableespanol/chayanne-provocame.json",
+          "details": {
+            "letra": "",
+            "acordes": ["D", "A", "Bm", "G"],
+            "bpm": 122,
+            "tonalidad": "D Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Pop Latino",
+            "genre": "Latino",
+            "categoria": "Covers Latino Bailable Español"
+          }
+        },
+        {
+          "id": "daddy-yankee-llamada-de-emergencia",
+          "track_number": 10,
+          "title": "Llamada de Emergencia",
+          "artist": "Daddy Yankee",
+          "duration": "3:42",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-latinobailableespanol/daddy-yankee-llamada-de-emergencia.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-latinobailableespanol/daddy-yankee-llamada-de-emergencia.json",
+          "details": {
+            "letra": "",
+            "acordes": ["Am", "G", "F", "C"],
+            "bpm": 96,
+            "tonalidad": "Am",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Reggaetón",
+            "genre": "Latino",
+            "categoria": "Covers Latino Bailable Español"
+          }
+        },
+        {
+          "id": "enrique-iglesias-bailando",
+          "track_number": 11,
+          "title": "Bailando",
+          "artist": "Enrique Iglesias",
+          "duration": "4:03",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-latinobailableespanol/enrique-iglesias-bailando.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-latinobailableespanol/enrique-iglesias-bailando.json",
+          "details": {
+            "letra": "",
+            "acordes": ["Bm", "G", "D", "A"],
+            "bpm": 110,
+            "tonalidad": "Bm",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Pop Latino",
+            "genre": "Latino",
+            "categoria": "Covers Latino Bailable Español"
+          }
+        },
+        {
+          "id": "fabulosos-cadillacs-matador",
+          "track_number": 12,
+          "title": "Matador",
+          "artist": "Fabulosos Cadillacs",
+          "duration": "5:20",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-latinobailableespanol/fabulosos-cadillacs-matador.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-latinobailableespanol/fabulosos-cadillacs-matador.json",
+          "details": {
+            "letra": "",
+            "acordes": ["Am", "G", "F", "C"],
+            "bpm": 128,
+            "tonalidad": "Am",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Ska Latino",
+            "genre": "Latino",
+            "categoria": "Covers Latino Bailable Español"
+          }
+        },
+        {
+          "id": "gustavo-cordera-la-bomba-loca",
+          "track_number": 13,
+          "title": "La Bomba Loca",
+          "artist": "Gustavo Cordera",
+          "duration": "3:55",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-latinobailableespanol/gustavo-cordera-la-bomba-loca.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-latinobailableespanol/gustavo-cordera-la-bomba-loca.json",
+          "details": {
+            "letra": "",
+            "acordes": ["C", "G", "F", "Am"],
+            "bpm": 135,
+            "tonalidad": "C Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Cumbia",
+            "genre": "Latino",
+            "categoria": "Covers Latino Bailable Español"
+          }
+        },
+        {
+          "id": "juanes-a-dios-le-pido",
+          "track_number": 14,
+          "title": "A Dios le Pido",
+          "artist": "Juanes",
+          "duration": "3:26",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-latinobailableespanol/juanes-a-dios-le-pido.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-latinobailableespanol/juanes-a-dios-le-pido.json",
+          "details": {
+            "letra": "",
+            "acordes": ["Em", "C", "G", "D"],
+            "bpm": 108,
+            "tonalidad": "Em",
+            "compas": "4/4",
+            "dificultad": "Básica",
+            "style": "Pop Latino",
+            "genre": "Latino",
+            "categoria": "Covers Latino Bailable Español"
+          }
+        },
+        {
+          "id": "juanes-la-camisa-negra",
+          "track_number": 15,
+          "title": "La Camisa Negra",
+          "artist": "Juanes",
+          "duration": "3:36",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-latinobailableespanol/juanes-la-camisa-negra.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-latinobailableespanol/juanes-la-camisa-negra.json",
+          "details": {
+            "letra": "",
+            "acordes": ["Am", "G", "F", "C"],
+            "bpm": 126,
+            "tonalidad": "Am",
+            "compas": "4/4",
+            "dificultad": "Básica",
+            "style": "Pop Latino",
+            "genre": "Latino",
+            "categoria": "Covers Latino Bailable Español"
+          }
+        },
+        {
+          "id": "juanes-mala-gente",
+          "track_number": 16,
+          "title": "Mala Gente",
+          "artist": "Juanes",
+          "duration": "3:16",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-latinobailableespanol/juanes-mala-gente.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-latinobailableespanol/juanes-mala-gente.json",
+          "details": {
+            "letra": "",
+            "acordes": ["C", "G", "Am", "F"],
+            "bpm": 118,
+            "tonalidad": "C Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Pop Latino",
+            "genre": "Latino",
+            "categoria": "Covers Latino Bailable Español"
+          }
+        },
+        {
+          "id": "kapanga-el-mono-relojero",
+          "track_number": 17,
+          "title": "El Mono Relojero",
+          "artist": "Kapanga",
+          "duration": "3:42",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-latinobailableespanol/kapanga-el-mono-relojero.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-latinobailableespanol/kapanga-el-mono-relojero.json",
+          "details": {
+            "letra": "",
+            "acordes": ["G", "C", "D", "Em"],
+            "bpm": 132,
+            "tonalidad": "G Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Rock Latino",
+            "genre": "Latino",
+            "categoria": "Covers Latino Bailable Español"
+          }
+        },
+        {
+          "id": "kapanga-me-mata",
+          "track_number": 18,
+          "title": "Me Mata",
+          "artist": "Kapanga",
+          "duration": "4:08",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-latinobailableespanol/kapanga-me-mata.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-latinobailableespanol/kapanga-me-mata.json",
+          "details": {
+            "letra": "",
+            "acordes": ["Am", "G", "F", "C"],
+            "bpm": 128,
+            "tonalidad": "Am",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Rock Latino",
+            "genre": "Latino",
+            "categoria": "Covers Latino Bailable Español"
+          }
+        },
+        {
+          "id": "la-mosca-nos-volvimos-a-ilusionar",
+          "track_number": 19,
+          "title": "Nos Volvimos a Ilusionar",
+          "artist": "La Mosca",
+          "duration": "3:55",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-latinobailableespanol/la-mosca-nos-volvimos-a-ilusionar.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-latinobailableespanol/la-mosca-nos-volvimos-a-ilusionar.json",
+          "details": {
+            "letra": "",
+            "acordes": ["C", "G", "F", "Am"],
+            "bpm": 138,
+            "tonalidad": "C Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Cumbia",
+            "genre": "Latino",
+            "categoria": "Covers Latino Bailable Español"
+          }
+        },
+        {
+          "id": "los-del-rio-macarena",
+          "track_number": 20,
+          "title": "Macarena",
+          "artist": "Los del Río",
+          "duration": "4:12",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-latinobailableespanol/los-del-rio-macarena.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-latinobailableespanol/los-del-rio-macarena.json",
+          "details": {
+            "letra": "",
+            "acordes": ["Am", "G", "F", "C"],
+            "bpm": 103,
+            "tonalidad": "Am",
+            "compas": "4/4",
+            "dificultad": "Básica",
+            "style": "Flamenco Pop",
+            "genre": "Latino",
+            "categoria": "Covers Latino Bailable Español"
+          }
+        },
+        {
+          "id": "los-pericos-torito",
+          "track_number": 21,
+          "title": "Torito",
+          "artist": "Los Pericos",
+          "duration": "4:25",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-latinobailableespanol/los-pericos-torito.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-latinobailableespanol/los-pericos-torito.json",
+          "details": {
+            "letra": "",
+            "acordes": ["D", "A", "G", "Bm"],
+            "bpm": 115,
+            "tonalidad": "D Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Reggae Latino",
+            "genre": "Latino",
+            "categoria": "Covers Latino Bailable Español"
+          }
+        },
+        {
+          "id": "los-piojos-como-ali",
+          "track_number": 22,
+          "title": "Como Alí",
+          "artist": "Los Piojos",
+          "duration": "4:30",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-latinobailableespanol/los-piojos-como-ali.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-latinobailableespanol/los-piojos-como-ali.json",
+          "details": {
+            "letra": "",
+            "acordes": ["E", "A", "B", "C#m"],
+            "bpm": 122,
+            "tonalidad": "E Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Rock Latino",
+            "genre": "Latino",
+            "categoria": "Covers Latino Bailable Español"
+          }
+        },
+        {
+          "id": "luis-miguel-ahora-te-puedes-marchar",
+          "track_number": 23,
+          "title": "Ahora Te Puedes Marchar",
+          "artist": "Luis Miguel",
+          "duration": "3:12",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-latinobailableespanol/luis-miguel-ahora-te-puedes-marchar.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-latinobailableespanol/luis-miguel-ahora-te-puedes-marchar.json",
+          "details": {
+            "letra": "",
+            "acordes": ["C", "G", "Am", "F"],
+            "bpm": 125,
+            "tonalidad": "C Mayor",
+            "compas": "4/4",
+            "dificultad": "Básica",
+            "style": "Balada Latina",
+            "genre": "Latino",
+            "categoria": "Covers Latino Bailable Español"
+          }
+        },
+        {
+          "id": "luis-miguel-la-chica-del-bikini-azul",
+          "track_number": 24,
+          "title": "La Chica del Bikini Azul",
+          "artist": "Luis Miguel",
+          "duration": "3:00",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-latinobailableespanol/luis-miguel-la-chica-del-bikini-azul.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-latinobailableespanol/luis-miguel-la-chica-del-bikini-azul.json",
+          "details": {
+            "letra": "",
+            "acordes": ["G", "D", "C", "Em"],
+            "bpm": 138,
+            "tonalidad": "G Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Pop Latino",
+            "genre": "Latino",
+            "categoria": "Covers Latino Bailable Español"
+          }
+        },
+        {
+          "id": "marc-anthony-vivir-mi-vida",
+          "track_number": 25,
+          "title": "Vivir Mi Vida",
+          "artist": "Marc Anthony",
+          "duration": "4:15",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-latinobailableespanol/marc-anthony-vivir-mi-vida.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-latinobailableespanol/marc-anthony-vivir-mi-vida.json",
+          "details": {
+            "letra": "",
+            "acordes": ["Am", "G", "F", "C"],
+            "bpm": 128,
+            "tonalidad": "Am",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Salsa",
+            "genre": "Latino",
+            "categoria": "Covers Latino Bailable Español"
+          }
+        },
+        {
+          "id": "pericos-home-sweet-home",
+          "track_number": 26,
+          "title": "Home Sweet Home",
+          "artist": "Los Pericos",
+          "duration": "4:40",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-latinobailableespanol/pericos-home-sweet-home.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-latinobailableespanol/pericos-home-sweet-home.json",
+          "details": {
+            "letra": "",
+            "acordes": ["G", "C", "D", "Em"],
+            "bpm": 110,
+            "tonalidad": "G Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Reggae Latino",
+            "genre": "Latino",
+            "categoria": "Covers Latino Bailable Español"
+          }
+        },
+        {
+          "id": "pericos-nada-que-perder",
+          "track_number": 27,
+          "title": "Nada Que Perder",
+          "artist": "Los Pericos",
+          "duration": "4:18",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-latinobailableespanol/pericos-nada-que-perder.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-latinobailableespanol/pericos-nada-que-perder.json",
+          "details": {
+            "letra": "",
+            "acordes": ["D", "A", "G", "Bm"],
+            "bpm": 118,
+            "tonalidad": "D Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Reggae Latino",
+            "genre": "Latino",
+            "categoria": "Covers Latino Bailable Español"
+          }
+        },
+        {
+          "id": "pericos-waiting-for-you-love",
+          "track_number": 28,
+          "title": "Waiting for You Love",
+          "artist": "Los Pericos",
+          "duration": "4:55",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-latinobailableespanol/pericos-waiting-for-you-love.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-latinobailableespanol/pericos-waiting-for-you-love.json",
+          "details": {
+            "letra": "",
+            "acordes": ["C", "G", "Am", "F"],
+            "bpm": 112,
+            "tonalidad": "C Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Reggae Latino",
+            "genre": "Latino",
+            "categoria": "Covers Latino Bailable Español"
+          }
+        },
+        {
+          "id": "rafaga-mentirosa",
+          "track_number": 29,
+          "title": "Mentirosa",
+          "artist": "Ráfaga",
+          "duration": "4:05",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-latinobailableespanol/rafaga-mentirosa.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-latinobailableespanol/rafaga-mentirosa.json",
+          "details": {
+            "letra": "",
+            "acordes": ["C", "G", "F", "Am"],
+            "bpm": 140,
+            "tonalidad": "C Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Cumbia",
+            "genre": "Latino",
+            "categoria": "Covers Latino Bailable Español"
+          }
+        },
+        {
+          "id": "rafaga-una-cerveza",
+          "track_number": 30,
+          "title": "Una Cerveza",
+          "artist": "Ráfaga",
+          "duration": "3:48",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-latinobailableespanol/rafaga-una-cerveza.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-latinobailableespanol/rafaga-una-cerveza.json",
+          "details": {
+            "letra": "",
+            "acordes": ["Am", "G", "F", "C"],
+            "bpm": 135,
+            "tonalidad": "Am",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Cumbia",
+            "genre": "Latino",
+            "categoria": "Covers Latino Bailable Español"
+          }
+        },
+        {
+          "id": "ricky-martin-adios",
+          "track_number": 31,
+          "title": "Adiós",
+          "artist": "Ricky Martin",
+          "duration": "3:58",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-latinobailableespanol/ricky-martin-adios.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-latinobailableespanol/ricky-martin-adios.json",
+          "details": {
+            "letra": "",
+            "acordes": ["G", "D", "Em", "C"],
+            "bpm": 122,
+            "tonalidad": "G Mayor",
+            "compas": "4/4",
+            "dificultad": "Básica",
+            "style": "Pop Latino",
+            "genre": "Latino",
+            "categoria": "Covers Latino Bailable Español"
+          }
+        },
+        {
+          "id": "ricky-martin-dame-mas",
+          "track_number": 32,
+          "title": "Dame Más",
+          "artist": "Ricky Martin",
+          "duration": "4:08",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-latinobailableespanol/ricky-martin-dame-mas.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-latinobailableespanol/ricky-martin-dame-mas.json",
+          "details": {
+            "letra": "",
+            "acordes": ["Am", "G", "F", "C"],
+            "bpm": 128,
+            "tonalidad": "Am",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Pop Latino",
+            "genre": "Latino",
+            "categoria": "Covers Latino Bailable Español"
+          }
+        },
+        {
+          "id": "ricky-martin-dime-que-me-quieres",
+          "track_number": 33,
+          "title": "Dime Que Me Quieres",
+          "artist": "Ricky Martin",
+          "duration": "4:28",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-latinobailableespanol/ricky-martin-dime-que-me-quieres.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-latinobailableespanol/ricky-martin-dime-que-me-quieres.json",
+          "details": {
+            "letra": "",
+            "acordes": ["C", "G", "Am", "F"],
+            "bpm": 118,
+            "tonalidad": "C Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Pop Latino",
+            "genre": "Latino",
+            "categoria": "Covers Latino Bailable Español"
+          }
+        },
+        {
+          "id": "ricky-martin-la-bomba",
+          "track_number": 34,
+          "title": "La Bomba",
+          "artist": "Ricky Martin",
+          "duration": "4:35",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-latinobailableespanol/ricky-martin-la-bomba.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-latinobailableespanol/ricky-martin-la-bomba.json",
+          "details": {
+            "letra": "",
+            "acordes": ["Am", "G", "F", "C"],
+            "bpm": 132,
+            "tonalidad": "Am",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Pop Latino",
+            "genre": "Latino",
+            "categoria": "Covers Latino Bailable Español"
+          }
+        },
+        {
+          "id": "ricky-martin-la-copa-de-la-vida",
+          "track_number": 35,
+          "title": "La Copa de la Vida",
+          "artist": "Ricky Martin",
+          "duration": "4:30",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-latinobailableespanol/ricky-martin-la-copa-de-la-vida.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-latinobailableespanol/ricky-martin-la-copa-de-la-vida.json",
+          "details": {
+            "letra": "",
+            "acordes": ["G", "D", "Em", "C"],
+            "bpm": 130,
+            "tonalidad": "G Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Pop Latino",
+            "genre": "Latino",
+            "categoria": "Covers Latino Bailable Español"
+          }
+        },
+        {
+          "id": "ricky-martin-la-mordidita",
+          "track_number": 36,
+          "title": "La Mordidita",
+          "artist": "Ricky Martin",
+          "duration": "3:32",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-latinobailableespanol/ricky-martin-la-mordidita.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-latinobailableespanol/ricky-martin-la-mordidita.json",
+          "details": {
+            "letra": "",
+            "acordes": ["C", "G", "Am", "F"],
+            "bpm": 128,
+            "tonalidad": "C Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Pop Latino",
+            "genre": "Latino",
+            "categoria": "Covers Latino Bailable Español"
+          }
+        },
+        {
+          "id": "ricky-martin-livin-la-vida-loca",
+          "track_number": 37,
+          "title": "Livin' la Vida Loca",
+          "artist": "Ricky Martin",
+          "duration": "4:03",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-latinobailableespanol/ricky-martin-livin-la-vida-loca.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-latinobailableespanol/ricky-martin-livin-la-vida-loca.json",
+          "details": {
+            "letra": "",
+            "acordes": ["Am", "G", "F", "C"],
+            "bpm": 124,
+            "tonalidad": "Am",
+            "compas": "4/4",
+            "dificultad": "Básica",
+            "style": "Pop Latino",
+            "genre": "Latino",
+            "categoria": "Covers Latino Bailable Español"
+          }
+        },
+        {
+          "id": "ricky-martin-lola-unplugged",
+          "track_number": 38,
+          "title": "Lola (Unplugged)",
+          "artist": "Ricky Martin",
+          "duration": "5:20",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-latinobailableespanol/ricky-martin-lola-unplugged.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-latinobailableespanol/ricky-martin-lola-unplugged.json",
+          "details": {
+            "letra": "",
+            "acordes": ["G", "D", "Em", "C"],
+            "bpm": 92,
+            "tonalidad": "G Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Pop Latino",
+            "genre": "Latino",
+            "categoria": "Covers Latino Bailable Español"
+          }
+        },
+        {
+          "id": "ricky-martin-maria",
+          "track_number": 39,
+          "title": "María",
+          "artist": "Ricky Martin",
+          "duration": "4:22",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-latinobailableespanol/ricky-martin-maria.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-latinobailableespanol/ricky-martin-maria.json",
+          "details": {
+            "letra": "",
+            "acordes": ["C", "G", "Am", "F"],
+            "bpm": 130,
+            "tonalidad": "C Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Pop Latino",
+            "genre": "Latino",
+            "categoria": "Covers Latino Bailable Español"
+          }
+        },
+        {
+          "id": "ricky-martin-mas",
+          "track_number": 40,
+          "title": "Más",
+          "artist": "Ricky Martin",
+          "duration": "3:48",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-latinobailableespanol/ricky-martin-mas.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-latinobailableespanol/ricky-martin-mas.json",
+          "details": {
+            "letra": "",
+            "acordes": ["Am", "G", "F", "C"],
+            "bpm": 126,
+            "tonalidad": "Am",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Pop Latino",
+            "genre": "Latino",
+            "categoria": "Covers Latino Bailable Español"
+          }
+        },
+        {
+          "id": "ricky-martin-pegate",
+          "track_number": 41,
+          "title": "Pégate",
+          "artist": "Ricky Martin",
+          "duration": "3:40",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-latinobailableespanol/ricky-martin-pegate.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-latinobailableespanol/ricky-martin-pegate.json",
+          "details": {
+            "letra": "",
+            "acordes": ["G", "D", "Em", "C"],
+            "bpm": 124,
+            "tonalidad": "G Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Pop Latino",
+            "genre": "Latino",
+            "categoria": "Covers Latino Bailable Español"
+          }
+        },
+        {
+          "id": "ricky-martin-por-arriba-por-abajo",
+          "track_number": 42,
+          "title": "Por Arriba, Por Abajo",
+          "artist": "Ricky Martin",
+          "duration": "4:05",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-latinobailableespanol/ricky-martin-por-arriba-por-abajo.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-latinobailableespanol/ricky-martin-por-arriba-por-abajo.json",
+          "details": {
+            "letra": "",
+            "acordes": ["C", "G", "Am", "F"],
+            "bpm": 128,
+            "tonalidad": "C Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Pop Latino",
+            "genre": "Latino",
+            "categoria": "Covers Latino Bailable Español"
+          }
+        },
+        {
+          "id": "ricky-martin-que-mas-da",
+          "track_number": 43,
+          "title": "Qué Más Da",
+          "artist": "Ricky Martin",
+          "duration": "3:52",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-latinobailableespanol/ricky-martin-que-mas-da.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-latinobailableespanol/ricky-martin-que-mas-da.json",
+          "details": {
+            "letra": "",
+            "acordes": ["Am", "G", "F", "C"],
+            "bpm": 120,
+            "tonalidad": "Am",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Pop Latino",
+            "genre": "Latino",
+            "categoria": "Covers Latino Bailable Español"
+          }
+        },
+        {
+          "id": "ricky-martin-shake-your-bon-bon",
+          "track_number": 44,
+          "title": "Shake Your Bon-Bon",
+          "artist": "Ricky Martin",
+          "duration": "3:12",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-latinobailableespanol/ricky-martin-shake-your-bon-bon.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-latinobailableespanol/ricky-martin-shake-your-bon-bon.json",
+          "details": {
+            "letra": "",
+            "acordes": ["G", "C", "D", "Em"],
+            "bpm": 135,
+            "tonalidad": "G Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Pop Latino",
+            "genre": "Latino",
+            "categoria": "Covers Latino Bailable Español"
+          }
+        },
+        {
+          "id": "ricky-martin-vente-paca",
+          "track_number": 45,
+          "title": "Vente Pa' Ca",
+          "artist": "Ricky Martin",
+          "duration": "4:18",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-latinobailableespanol/ricky-martin-vente-paca.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-latinobailableespanol/ricky-martin-vente-paca.json",
+          "details": {
+            "letra": "",
+            "acordes": ["Am", "G", "F", "C"],
+            "bpm": 122,
+            "tonalidad": "Am",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Pop Latino",
+            "genre": "Latino",
+            "categoria": "Covers Latino Bailable Español"
+          }
+        },
+        {
+          "id": "vilma-palma-e-vampiros-la-pachanga",
+          "track_number": 46,
+          "title": "La Pachanga",
+          "artist": "Vilma Palma e Vampiros",
+          "duration": "4:25",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-latinobailableespanol/vilma-palma-e-vampiros-la-pachanga.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-latinobailableespanol/vilma-palma-e-vampiros-la-pachanga.json",
+          "details": {
+            "letra": "",
+            "acordes": ["C", "G", "F", "Am"],
+            "bpm": 138,
+            "tonalidad": "C Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Cumbia",
+            "genre": "Latino",
+            "categoria": "Covers Latino Bailable Español"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+    "id": "zapada-blues-004",
+    "title": "Zapada Blues Variación 1 en A Mayor",
+    "artist": "Rockola Covers",
+    "originalKey": "A",
+    "tempo": 90,
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A7", "D7", "A7", "E7"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 1",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A7"
+          },
+          {
+            "type": "lyric",
+            "content": "Blues en A, para empezar a tocar,"
+          },
+          {
+            "type": "chord",
+            "content": "D7"
+          },
+          {
+            "type": "lyric": ""
+          },
+          {
+            "type": "chord",
+            "content": "A7"
+          },
+          {
+            "type": "lyric": "siente el ritmo y déjate llevar."
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "TURNAROUND",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["D7", "A7", "E7", "D7"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 2",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A7"
+          },
+          {
+            "type": "lyric": "La guitarra llora, el bajo camina,"
+          },
+          {
+            "type": "chord",
+            "content": "D7"
+          },
+          {
+            "type": "lyric": ""
+          },
+          {
+            "type": "chord",
+            "content": "A7"
+          },
+          {
+            "type": "lyric": "el blues nunca se va a acabar."
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A7", "E7", "A7", "E7"]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,155 @@
+{
+  "artista": "Creedence Clearwater Revival",
+  "categoria": "homenajes",
+  "discografia": [
+    {
+      "album_id": "homenajes-ccr-00",
+      "album_name": "HOMENAJE A CREEDENCE CLEARWATER REVIVAL",
+      "year": "2024",
+      "cover_image": "/img/02-logos/logo-formateo-chords2.png",
+      "genre": "Homenajes",
+      "songs": [
+        {
+          "id": "homenaje-ccr-01-down-on-the-corner",
+          "track_number": 1,
+          "title": "Down on the Corner",
+          "artist": "Creedence Clearwater Revival",
+          "duration": "2:46",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-ccr/creedence-down-on-the-corner.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-ccr/creedence-down-on-the-corner.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 118,
+            "tonalidad": "F Mayor",
+            "compas": "4/4",
+            "dificultad": "Fácil",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Creedence Clearwater Revival"
+          }
+        },
+        {
+          "id": "homenaje-ccr-02-bad-moon-rising",
+          "track_number": 2,
+          "title": "Bad Moon Rising",
+          "artist": "Creedence Clearwater Revival",
+          "duration": "2:21",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-ccr/creedence-bad-moon-rising.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-ccr/creedence-bad-moon-rising.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 174,
+            "tonalidad": "D Mayor",
+            "compas": "4/4",
+            "dificultad": "Fácil",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Creedence Clearwater Revival"
+          }
+        },
+        {
+          "id": "homenaje-ccr-03-have-you-ever-seen-the-rain",
+          "track_number": 3,
+          "title": "Have You Ever Seen the Rain",
+          "artist": "Creedence Clearwater Revival",
+          "duration": "2:40",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-ccr/creedence-have-you-ever-seen-the-rain.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-ccr/creedence-have-you-ever-seen-the-rain.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 122,
+            "tonalidad": "C Mayor",
+            "compas": "4/4",
+            "dificultad": "Fácil",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Creedence Clearwater Revival"
+          }
+        },
+        {
+          "id": "homenaje-ccr-04-proud-mary",
+          "track_number": 4,
+          "title": "Proud Mary",
+          "artist": "Creedence Clearwater Revival",
+          "duration": "3:07",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-ccr/creedence-proud-mary.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-ccr/creedence-proud-mary.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 117,
+            "tonalidad": "G Mayor",
+            "compas": "4/4",
+            "dificultad": "Fácil",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Creedence Clearwater Revival"
+          }
+        },
+        {
+          "id": "homenaje-ccr-05-fortunate-son",
+          "track_number": 5,
+          "title": "Fortunate Son",
+          "artist": "Creedence Clearwater Revival",
+          "duration": "2:20",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-ccr/creedence-fortunate-son.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-ccr/creedence-fortunate-son.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 126,
+            "tonalidad": "C Mayor",
+            "compas": "4/4",
+            "dificultad": "Fácil",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Creedence Clearwater Revival"
+          }
+        },
+        {
+          "id": "homenaje-ccr-06-suzie-q",
+          "track_number": 6,
+          "title": "Suzie Q",
+          "artist": "Creedence Clearwater Revival",
+          "duration": "4:36",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-ccr/creedence-suzie-q.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-ccr/creedence-suzie-q.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 105,
+            "tonalidad": "E Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Creedence Clearwater Revival"
+          }
+        },
+        {
+          "id": "homenaje-ccr-07-travelin-band",
+          "track_number": 7,
+          "title": "Travelin' Band",
+          "artist": "Creedence Clearwater Revival",
+          "duration": "2:07",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-ccr/creedence-travelin-band.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-ccr/creedence-travelin-band.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 180,
+            "tonalidad": "A Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Creedence Clearwater Revival"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -19,7 +19,7 @@
 
 #### Componentes Implementados:
 ```javascript
-// SearchContext.jsx - Sistema centralizado de búsqueda
+// ASearchContext.jsx - Sistema centralizado de búsqueda
 - Carga automática de 15 bibliotecas musicales
 - Índice de búsqueda en memoria para máxima velocidad
 - Funciones de navegación entre canciones relacionadas
@@ -57,7 +57,7 @@ Al hacer clic se despliega:
 ```
 src/
 ├── componentes/
-│   ├── SearchContext.jsx              # 🧠 NUEVO: Gestión centralizada de búsqueda
+│   ├── ASearchContext.jsx              # 🧠 NUEVO: Gestión centralizada de búsqueda
 │   ├── Header.jsx                     # 🔍 MEJORADO: Búsqueda global integrada
 │   ├── ChordsViewer/
 │   │   ├── ChordsViewerIndex.jsx      # 🎵 MEJORADO: Integración con navegador
@@ -268,7 +268,7 @@ graph TB
 
 ### Agregar Nueva Biblioteca
 ```javascript
-// En SearchContext.jsx - SONG_LIBRARIES
+// En ASearchContext.jsx - SONG_LIBRARIES
 {
   id: 'nueva-biblioteca',
   name: 'Nombre de Biblioteca', 

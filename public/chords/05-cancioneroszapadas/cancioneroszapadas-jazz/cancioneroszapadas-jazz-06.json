@@ -1,0 +1,81 @@
+{
+    "id": "zapada-jazz-006",
+    "title": "Zapada Jazz Sesión 3 en Vivo",
+    "artist": "Rockola Covers",
+    "originalKey": "Bb",
+    "tempo": 147,
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Bbmaj7", "Ebmaj7", "F7", "Bbmaj7"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "IMPROVISACIÓN",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Bbmaj7"
+          },
+          {
+            "type": "lyric": "Improvisación en vivo,"
+          },
+          {
+            "type": "chord",
+            "content": "Ebmaj7"
+          },
+          {
+            "type": "lyric": ""
+          },
+          {
+            "type": "chord",
+            "content": "F7"
+          },
+          {
+            "type": "lyric": "el jazz es libertad."
+          },
+          {
+            "type": "chord",
+            "content": "Bbmaj7"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PUENTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Dm7", "G7", "Cm7", "F7"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Bbmaj7", "F7", "Ebmaj7", "Bbmaj7"]
+          }
+        ]
+      }
+    ]
+  }
+  

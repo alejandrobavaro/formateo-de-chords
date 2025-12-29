@@ -1,0 +1,440 @@
+{
+  "id": "aerosmith-crazy",
+  "title": "Crazy",
+  "artist": "Aerosmith",
+  "originalKey": "F",
+  "tempo": "Rock",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "lyric",
+          "content": "Come 'ere baby"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "You know you drive me up a wall the way you make good"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "of all the nasty tricks you pull."
+        },
+        {
+          "type": "chords",
+          "content": ["A#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Seems like we're makin' up more than we're makin'"
+        },
+        {
+          "type": "chords",
+          "content": ["A#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "love and it always seems you got somethin' on your mind other than me"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Girl, you got to change your crazy ways, you hear me"
+        },
+        {
+          "type": "chords",
+          "content": ["A#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Say you're leavin' on a seven thirty train and that you're headin' out"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "to Hollywood"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "Girl you been givin' me that line so many times it kinda gets like"
+        },
+        {
+          "type": "chords",
+          "content": ["A#"]
+        },
+        {
+          "type": "lyric",
+          "content": "feelin' bad looks good, yeah"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "That kinda lovin' turns a man to a slave"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "That kinda lovin' sends a man right to his grave"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["F", "Dm", "A#"]
+            },
+            {
+              "type": "lyric",
+              "content": "I go crazy, crazy, baby, I go crazy"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["A#m"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "You turn it on, then you're gone, yeah, you drive me"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm", "A#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "crazy, crazy, crazy for you baby"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm", "C", "Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "What can I do, honey, I feel like the color blue"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm", "C", "A#", "A#m"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 3",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "You're packin' up your stuff and talkin' like it's tough and tryin' to"
+        },
+        {
+          "type": "chords",
+          "content": ["A#"]
+        },
+        {
+          "type": "lyric",
+          "content": "tell me that it's time to go, yeah"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "But I know you ain't wearin' nothin' underneath that overcoat"
+        },
+        {
+          "type": "chords",
+          "content": ["A#"]
+        },
+        {
+          "type": "lyric",
+          "content": "And it's all a show, yeah"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "lyric",
+          "content": "That kinda lovin' makes me wanna pull down the shade, yeah"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": "That kinda lovin' yeah now I'm never, never, never, never"
+        },
+        {
+          "type": "chords",
+          "content": ["D#", "A#", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "gonna be the same"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["F", "Dm", "A#"]
+            },
+            {
+              "type": "lyric",
+              "content": "I go crazy, crazy, baby, I go crazy"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["A#m"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "You turn it on, then you're gone, yeah, you drive me"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm", "A#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "crazy, crazy, crazy for you baby"
+        },
+        {
+          "type": "chords",
+          "content": ["Gm", "C", "Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "What can I do, honey, I feel like the color blue"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm", "C", "A#", "A#m"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm losin' my mind, girl, 'cause I'm goin' crazy"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BRIDGE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F", "Dm", "A#", "A#m"]
+        },
+        {
+          "type": "chords",
+          "content": ["F", "Dm", "A#", "C"]
+        },
+        {
+          "type": "chords",
+          "content": ["F", "Dm", "A#", "A#m"]
+        },
+        {
+          "type": "chords",
+          "content": ["F", "Dm", "A#", "C"]
+        },
+        {
+          "type": "chords",
+          "content": ["Dm", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "I need your love, honey yeah"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm", "C"]
+        },
+        {
+          "type": "lyric",
+          "content": "I need your love"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS FINAL",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["F", "Dm", "A#"]
+            },
+            {
+              "type": "lyric",
+              "content": "I go crazy, crazy, baby, I go crazy"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["A#m"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "You turn it on, then you're gone, yeah, you drive me"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm", "A#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "crazy, crazy, crazy for you baby"
+        },
+        {
+          "type": "chords",
+          "content": ["F"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm losin' my mind, girl, 'cause I'm goin' crazy"
+        },
+        {
+          "type": "chords",
+          "content": ["F", "Dm", "A#", "A#m"]
+        },
+        {
+          "type": "chords",
+          "content": ["F", "Dm", "A#", "C"]
+        },
+        {
+          "type": "chords",
+          "content": ["F", "Dm", "A#", "A#m"]
+        },
+        {
+          "type": "chords",
+          "content": ["F", "Dm", "A#", "C"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+    "artista": "Rockola Covers",
+    "discografia": [
+      {
+        "album_id": "homenajes-internacionales-00",
+        "album_name": "HOMENAJES INTERNACIONALES",
+        "year": "2024",
+          "cover_image": "/img/02-logos/logo-formateo-chords2.png",
+        "genre": "Homenajes",
+        "songs": [
+          {
+            "id": "homenaje-robbie-williams-01-angels",
+            "track_number": 159,
+            "title": "Angels",
+            "artist": "Robbie Williams",
+            "duration": "4:25",
+            "mp3_url": "/audio/homenajes/robbie-williams-angels.mp3",
+            "chords_url": "/chords/homenajes/robbie-williams-angels.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 66,
+              "tonalidad": "C Mayor",
+              "compas": "4/4",
+              "dificultad": "Fácil",
+              "style": "Pop",
+              "genre": "Pop",
+              "categoria": "Homenajes Robbie Williams"
+            }
+          },
+          {
+            "id": "homenaje-robbie-williams-02-let-me-entertain-you",
+            "track_number": 160,
+            "title": "Let Me Entertain You",
+            "artist": "Robbie Williams",
+            "duration": "4:22",
+            "mp3_url": "/audio/homenajes/robbie-williams-let-me-entertain-you.mp3",
+            "chords_url": "/chords/homenajes/robbie-williams-let-me-entertain-you.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 128,
+              "tonalidad": "E Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock",
+              "genre": "Pop",
+              "categoria": "Homenajes Robbie Williams"
+            }
+          },
+          {
+            "id": "homenaje-robbie-williams-03-rock-dj",
+            "track_number": 161,
+            "title": "Rock DJ",
+            "artist": "Robbie Williams",
+            "duration": "4:18",
+            "mp3_url": "/audio/homenajes/robbie-williams-rock-dj.mp3",
+            "chords_url": "/chords/homenajes/robbie-williams-rock-dj.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 114,
+              "tonalidad": "C#m",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Pop Rock",
+              "genre": "Pop",
+              "categoria": "Homenajes Robbie Williams"
+            }
+          },
+          {
+            "id": "homenaje-robbie-williams-04-supreme",
+            "track_number": 162,
+            "title": "Supreme",
+            "artist": "Robbie Williams",
+            "duration": "4:18",
+            "mp3_url": "/audio/homenajes/robbie-williams-supreme.mp3",
+            "chords_url": "/chords/homenajes/robbie-williams-supreme.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 110,
+              "tonalidad": "A Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Pop",
+              "genre": "Pop",
+              "categoria": "Homenajes Robbie Williams"
+            }
+          },
+          {
+            "id": "homenaje-robbie-williams-05-feel",
+            "track_number": 163,
+            "title": "Feel",
+            "artist": "Robbie Williams",
+            "duration": "4:23",
+            "mp3_url": "/audio/homenajes/robbie-williams-feel.mp3",
+            "chords_url": "/chords/homenajes/robbie-williams-feel.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 76,
+              "tonalidad": "Db Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Balada",
+              "genre": "Pop",
+              "categoria": "Homenajes Robbie Williams"
+            }
+          },
+          {
+            "id": "homenaje-robbie-williams-06-come-undone",
+            "track_number": 164,
+            "title": "Come Undone",
+            "artist": "Robbie Williams",
+            "duration": "4:38",
+            "mp3_url": "/audio/homenajes/robbie-williams-come-undone.mp3",
+            "chords_url": "/chords/homenajes/robbie-williams-come-undone.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 80,
+              "tonalidad": "F Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Pop",
+              "genre": "Pop",
+              "categoria": "Homenajes Robbie Williams"
+            }
+          },
+          {
+            "id": "homenaje-robbie-williams-07-she's-the-one",
+            "track_number": 165,
+            "title": "She's the One",
+            "artist": "Robbie Williams",
+            "duration": "4:18",
+            "mp3_url": "/audio/homenajes/robbie-williams-shes-the-one.mp3",
+            "chords_url": "/chords/homenajes/robbie-williams-shes-the-one.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 112,
+              "tonalidad": "F Mayor",
+              "compas": "4/4",
+              "dificultad": "Fácil",
+              "style": "Pop",
+              "genre": "Pop",
+              "categoria": "Homenajes Robbie Williams"
+            }
+          },
+          {
+            "id": "homenaje-robbie-williams-08-better-man",
+            "track_number": 166,
+            "title": "Better Man",
+            "artist": "Robbie Williams",
+            "duration": "3:23",
+            "mp3_url": "/audio/homenajes/robbie-williams-better-man.mp3",
+            "chords_url": "/chords/homenajes/robbie-williams-better-man.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 104,
+              "tonalidad": "Bb Mayor",
+              "compas": "4/4",
+              "dificultad": "Fácil",
+              "style": "Pop",
+              "genre": "Pop",
+              "categoria": "Homenajes Robbie Williams"
+            }
+          },
+          {
+            "id": "homenaje-robbie-williams-09-millennium",
+            "track_number": 167,
+            "title": "Millennium",
+            "artist": "Robbie Williams",
+            "duration": "4:07",
+            "mp3_url": "/audio/homenajes/robbie-williams-millennium.mp3",
+            "chords_url": "/chords/homenajes/robbie-williams-millennium.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 104,
+              "tonalidad": "Dm",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Pop",
+              "genre": "Pop",
+              "categoria": "Homenajes Robbie Williams"
+            }
+          },
+          {
+            "id": "homenaje-robbie-williams-10-no-regrets",
+            "track_number": 168,
+            "title": "No Regrets",
+            "artist": "Robbie Williams",
+            "duration": "5:10",
+            "mp3_url": "/audio/homenajes/robbie-williams-no-regrets.mp3",
+            "chords_url": "/chords/homenajes/robbie-williams-no-regrets.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 78,
+              "tonalidad": "D Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Balada",
+              "genre": "Pop",
+              "categoria": "Homenajes Robbie Williams"
+            }
+          }
+        ]
+      }
+    ]
+  }

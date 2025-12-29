@@ -1,0 +1,102 @@
+{
+    "id": "zapada-urban-037",
+    "title": "Zapada Trap",
+    "artist": "Rockola Covers",
+    "originalKey": "F#m",
+    "tempo": 140,
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F#m", "D", "A", "E"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 1",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric": "Trap en F#m, bajo y flow,"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric": ""
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric": "el beat y la voz te harán vibrar."
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "F#m"
+          },
+          {
+            "type": "lyric": "Siente el bajo,"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric": ""
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric": "el trap es tu canción."
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F#m", "E", "D", "F#m"]
+          }
+        ]
+      }
+    ]
+  }
+  

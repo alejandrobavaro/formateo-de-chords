@@ -1,0 +1,81 @@
+{
+    "id": "zapada-electrónica-004",
+    "title": "Zapada Electrónica Variación 1 en A Mayor",
+    "artist": "Rockola Covers",
+    "originalKey": "A",
+    "tempo": 133,
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "F", "C", "G"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SECCIÓN 1",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Am"
+          },
+          {
+            "type": "lyric": "Sintetizadores y beats,"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric": ""
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric": "la electrónica es pura emoción."
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "DROP",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "F", "C", "G"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am", "G", "F", "C", "Am"]
+          }
+        ]
+      }
+    ]
+  }
+  

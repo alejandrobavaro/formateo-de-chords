@@ -19,7 +19,7 @@ import {
   BsHouse,
   BsGear
 } from "react-icons/bs";
-import { useSearch } from './SearchContext';
+import { useSearch } from './ASearchContext';
 import "../assets/scss/_03-Componentes/_Header.scss";
 
 // ======================================================

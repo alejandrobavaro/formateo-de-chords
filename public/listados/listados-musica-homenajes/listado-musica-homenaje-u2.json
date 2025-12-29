@@ -1,0 +1,214 @@
+{
+    "artista": "Rockola Covers",
+    "discografia": [
+      {
+        "album_id": "homenajes-internacionales-00",
+        "album_name": "HOMENAJES INTERNACIONALES",
+        "year": "2024",
+          "cover_image": "/img/02-logos/logo-formateo-chords2.png",
+        "genre": "Homenajes",
+        "songs": [
+          {
+            "id": "homenaje-u2-01-with-or-without-you",
+            "track_number": 189,
+            "title": "With or Without You",
+            "artist": "U2",
+            "duration": "4:56",
+            "mp3_url": "/audio/homenajes/u2-with-or-without-you.mp3",
+            "chords_url": "/chords/homenajes/u2-with-or-without-you.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 110,
+              "tonalidad": "D Mayor",
+              "compas": "4/4",
+              "dificultad": "Fácil",
+              "style": "Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes U2"
+            }
+          },
+          {
+            "id": "homenaje-u2-02-sunday-bloody-sunday",
+            "track_number": 190,
+            "title": "Sunday Bloody Sunday",
+            "artist": "U2",
+            "duration": "4:40",
+            "mp3_url": "/audio/homenajes/u2-sunday-bloody-sunday.mp3",
+            "chords_url": "/chords/homenajes/u2-sunday-bloody-sunday.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 126,
+              "tonalidad": "A Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes U2"
+            }
+          },
+          {
+            "id": "homenaje-u2-03-beautiful-day",
+            "track_number": 191,
+            "title": "Beautiful Day",
+            "artist": "U2",
+            "duration": "4:08",
+            "mp3_url": "/audio/homenajes/u2-beautiful-day.mp3",
+            "chords_url": "/chords/homenajes/u2-beautiful-day.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 136,
+              "tonalidad": "D Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes U2"
+            }
+          },
+          {
+            "id": "homenaje-u2-04-i-still-havent-found",
+            "track_number": 192,
+            "title": "I Still Haven't Found What I'm Looking For",
+            "artist": "U2",
+            "duration": "4:37",
+            "mp3_url": "/audio/homenajes/u2-i-still-havent-found.mp3",
+            "chords_url": "/chords/homenajes/u2-i-still-havent-found.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 104,
+              "tonalidad": "B Mayor",
+              "compas": "4/4",
+              "dificultad": "Fácil",
+              "style": "Gospel Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes U2"
+            }
+          },
+          {
+            "id": "homenaje-u2-05-one",
+            "track_number": 193,
+            "title": "One",
+            "artist": "U2",
+            "duration": "4:36",
+            "mp3_url": "/audio/homenajes/u2-one.mp3",
+            "chords_url": "/chords/homenajes/u2-one.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 128,
+              "tonalidad": "Ab Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes U2"
+            }
+          },
+          {
+            "id": "homenaje-u2-06-where-the-streets-have-no-name",
+            "track_number": 194,
+            "title": "Where the Streets Have No Name",
+            "artist": "U2",
+            "duration": "5:37",
+            "mp3_url": "/audio/homenajes/u2-where-the-streets-have-no-name.mp3",
+            "chords_url": "/chords/homenajes/u2-where-the-streets-have-no-name.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 126,
+              "tonalidad": "D Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes U2"
+            }
+          },
+          {
+            "id": "homenaje-u2-07-pride-in-the-name-of-love",
+            "track_number": 195,
+            "title": "Pride (In the Name of Love)",
+            "artist": "U2",
+            "duration": "3:48",
+            "mp3_url": "/audio/homenajes/u2-pride-in-the-name-of-love.mp3",
+            "chords_url": "/chords/homenajes/u2-pride-in-the-name-of-love.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 108,
+              "tonalidad": "D Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes U2"
+            }
+          },
+          {
+            "id": "homenaje-u2-08-vertigo",
+            "track_number": 196,
+            "title": "Vertigo",
+            "artist": "U2",
+            "duration": "3:13",
+            "mp3_url": "/audio/homenajes/u2-vertigo.mp3",
+            "chords_url": "/chords/homenajes/u2-vertigo.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 140,
+              "tonalidad": "F# Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes U2"
+            }
+          },
+          {
+            "id": "homenaje-u2-09-mysterious-ways",
+            "track_number": 197,
+            "title": "Mysterious Ways",
+            "artist": "U2",
+            "duration": "4:04",
+            "mp3_url": "/audio/homenajes/u2-mysterious-ways.mp3",
+            "chords_url": "/chords/homenajes/u2-mysterious-ways.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 116,
+              "tonalidad": "A Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes U2"
+            }
+          },
+          {
+            "id": "homenaje-u2-10-sweetest-thing",
+            "track_number": 198,
+            "title": "Sweetest Thing",
+            "artist": "U2",
+            "duration": "3:03",
+            "mp3_url": "/audio/homenajes/u2-sweetest-thing.mp3",
+            "chords_url": "/chords/homenajes/u2-sweetest-thing.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 132,
+              "tonalidad": "A Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Pop Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes U2"
+            }
+          }
+        ]
+      }
+    ]
+  }

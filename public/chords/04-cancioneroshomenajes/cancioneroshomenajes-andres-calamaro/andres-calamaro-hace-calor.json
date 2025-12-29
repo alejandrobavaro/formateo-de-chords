@@ -1,0 +1,573 @@
+{
+    "id": "andres-calamaro-hace-calor",
+    "title": "Hace Calor",
+    "artist": "Andrés Calamaro",
+    "originalKey": "G",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Huy huy hu... (x4 veces)"
+          },
+          {
+            "type": "chords",
+            "content": ["C7", "–", "D", "–", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Ah ah ah... aha ah ah... Huy huy huy huy huy ua."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Hace calor, hace calor,"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "yo estaba esperando que cantes mi canción"
+          },
+          {
+            "type": "chord",
+            "content": "C7"
+          },
+          {
+            "type": "lyric",
+            "content": "Y que abras esa botella y brindemos por ella,"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "y hagamos el amor en el balcón."
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Mi corazón, mi corazón"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "es un músculo sano pero necesita acción"
+          },
+          {
+            "type": "chord",
+            "content": "C7"
+          },
+          {
+            "type": "lyric",
+            "content": "Dame paz y dame guerra, y un dulce colocón"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "y yo te entregaré lo mejor"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "CORO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Ah ah ah... Ah ah ah..."
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "Dulce como el vino, salada como el mar,"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["C7"]
+          },
+          {
+            "type": "lyric",
+            "content": "princesa y vagabunda, garganta profunda,"
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "sálvame de esta soledad"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "–", "D"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (x2)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Huy huy hu... (x4 veces)"
+          },
+          {
+            "type": "chords",
+            "content": ["C7", "–", "D", "–", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Ah ah ah... aha ah ah... Huy huy huy huy huy ua."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Hace calor, hace calor,"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "yo estaba esperando que cantes mi canción"
+          },
+          {
+            "type": "chord",
+            "content": "C7"
+          },
+          {
+            "type": "lyric",
+            "content": "Y que abras esa botella y brindemos por ella,"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "y hagamos el amor en el balcón."
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Mi corazón, mi corazón"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "es un músculo sano pero necesita acción"
+          },
+          {
+            "type": "chord",
+            "content": "C7"
+          },
+          {
+            "type": "lyric",
+            "content": "Dame paz y dame guerra, y un dulce colocón"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "y yo te entregaré lo mejor"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "CORO (x2)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Ah ah ah... Ah ah ah..."
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "Dulce como el vino, salada como el mar,"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["C7"]
+          },
+          {
+            "type": "lyric",
+            "content": "princesa y vagabunda, garganta profunda,"
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "sálvame de esta soledad"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "–", "D"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "–", "C7", "–", "D", "–", "G", "–", "C7", "–", "D", "–", "G"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Hace calor, hace calor,"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "ella tiene la receta para estar mucho mejor,"
+          },
+          {
+            "type": "chord",
+            "content": "C7"
+          },
+          {
+            "type": "lyric",
+            "content": "sin truco sin prisa, me entrega su sonrisa"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "como una sacerdotisa del amor"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric",
+            "content": "Luna de miel, luna de papel,"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric",
+            "content": "luna llena piel canela dame noches de placer"
+          },
+          {
+            "type": "chord",
+            "content": "C7"
+          },
+          {
+            "type": "lyric",
+            "content": "A veces estoy mal, a veces estoy bien,"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric",
+            "content": "te daré mi corazón para que juegues con él."
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "CORO (x2)",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Ah, ah ah , ah ah ah"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "F"
+              },
+              {
+                "type": "lyric",
+                "content": "Podrían acusarme, ella es menor de edad,"
+              }
+            ]
+          },
+          {
+            "type": "chords",
+            "content": ["C7"]
+          },
+          {
+            "type": "lyric",
+            "content": "iremos a un hotel, iremos a cenar,"
+          },
+          {
+            "type": "chords",
+            "content": ["D"]
+          },
+          {
+            "type": "lyric",
+            "content": "pero nunca iremos juntos al altar"
+          },
+          {
+            "type": "chords",
+            "content": ["G", "–", "D"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "OUTRO (x2)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Huy huy hu... (x4 veces)"
+          },
+          {
+            "type": "chords",
+            "content": ["C7", "–", "D", "–", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Ah ah ah... aha ah ah... Huy huy huy huy huy ua."
+          }
+        ]
+      }
+    ]
+  }
+  

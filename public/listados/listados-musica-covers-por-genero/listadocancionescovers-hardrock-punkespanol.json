@@ -1,0 +1,314 @@
+{
+  "artista": "Rockola Covers",
+  "discografia": [
+    {
+      "album_id": "covers-hardrock-punkespanol",
+      "album_name": "COVERS HARD ROCK Y PUNK ESPAÑOL",
+      "year": "2025",
+      "cover_image": "/img/09-discos/tapa-listado-covers.jpg",
+      "genre": "Hard Rock/Punk",
+      "songs": [
+        {
+          "id": "andres-calamaro-alta-suciedad",
+          "track_number": 1,
+          "title": "Alta Suciedad",
+          "artist": "Andrés Calamaro",
+          "duration": "4:12",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-hardrock-punkespanol/andres-calamaro-alta-suciedad.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-hardrock-punkespanol/andres-calamaro-alta-suciedad.json",
+          "details": {
+            "letra": "",
+            "acordes": ["E", "A", "B", "C#m"],
+            "bpm": 110,
+            "tonalidad": "E Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Rock Urbano",
+            "genre": "Hard Rock",
+            "categoria": "Covers Hard Rock y Punk Español"
+          }
+        },
+        {
+          "id": "ataque-77-hacelo-por-mi",
+          "track_number": 2,
+          "title": "Hacelo por Mí",
+          "artist": "Ataque 77",
+          "duration": "2:45",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-hardrock-punkespanol/ataque-77-hacelo-por-mi.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-hardrock-punkespanol/ataque-77-hacelo-por-mi.json",
+          "details": {
+            "letra": "",
+            "acordes": ["Em", "G", "C", "D"],
+            "bpm": 160,
+            "tonalidad": "Em",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Punk Rock",
+            "genre": "Punk",
+            "categoria": "Covers Hard Rock y Punk Español"
+          }
+        },
+        {
+          "id": "ataque-77-no-me-arrepiento-de-este-amor",
+          "track_number": 3,
+          "title": "No Me Arrepiento de Este Amor",
+          "artist": "Ataque 77",
+          "duration": "3:20",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-hardrock-punkespanol/ataque-77-no-me-arrepiento-de-este-amor.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-hardrock-punkespanol/ataque-77-no-me-arrepiento-de-este-amor.json",
+          "details": {
+            "letra": "",
+            "acordes": ["Am", "G", "F", "C"],
+            "bpm": 150,
+            "tonalidad": "Am",
+            "compas": "4/4",
+            "dificultad": "Básica",
+            "style": "Punk Rock",
+            "genre": "Punk",
+            "categoria": "Covers Hard Rock y Punk Español"
+          }
+        },
+        {
+          "id": "autenticos-decadentes-un-osito-de-peluche",
+          "track_number": 4,
+          "title": "Un Osito de Peluche",
+          "artist": "Auténticos Decadentes",
+          "duration": "3:55",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-hardrock-punkespanol/autenticos-decadentes-un-osito-de-peluche.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-hardrock-punkespanol/autenticos-decadentes-un-osito-de-peluche.json",
+          "details": {
+            "letra": "",
+            "acordes": ["D", "A", "G", "Bm"],
+            "bpm": 125,
+            "tonalidad": "D Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Rock Alternativo",
+            "genre": "Hard Rock",
+            "categoria": "Covers Hard Rock y Punk Español"
+          }
+        },
+        {
+          "id": "catupecu-machu-eso-vive",
+          "track_number": 5,
+          "title": "Eso Vive",
+          "artist": "Catupecu Machu",
+          "duration": "4:30",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-hardrock-punkespanol/catupecu-machu-eso-vive.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-hardrock-punkespanol/catupecu-machu-eso-vive.json",
+          "details": {
+            "letra": "",
+            "acordes": ["C#m", "A", "E", "B"],
+            "bpm": 115,
+            "tonalidad": "C#m",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Rock Alternativo",
+            "genre": "Hard Rock",
+            "categoria": "Covers Hard Rock y Punk Español"
+          }
+        },
+        {
+          "id": "charly-garcia-cerca-de-la-revolucion",
+          "track_number": 6,
+          "title": "Cerca de la Revolución",
+          "artist": "Charly García",
+          "duration": "5:15",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-hardrock-punkespanol/charly-garcia-cerca-de-la-revolucion.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-hardrock-punkespanol/charly-garcia-cerca-de-la-revolucion-e.json",
+          "details": {
+            "letra": "",
+            "acordes": ["E", "A", "B", "C#m"],
+            "bpm": 105,
+            "tonalidad": "E Mayor",
+            "compas": "4/4",
+            "dificultad": "Avanzada",
+            "style": "Rock Progresivo",
+            "genre": "Hard Rock",
+            "categoria": "Covers Hard Rock y Punk Español"
+          }
+        },
+        {
+          "id": "divididos-que-tal",
+          "track_number": 7,
+          "title": "¿Qué Tal?",
+          "artist": "Divididos",
+          "duration": "4:05",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-hardrock-punkespanol/divididos-que-tal.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-hardrock-punkespanol/divididos-que-tal-d7.json",
+          "details": {
+            "letra": "",
+            "acordes": ["D7", "G", "C", "Am"],
+            "bpm": 118,
+            "tonalidad": "D Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Rock Nacional",
+            "genre": "Hard Rock",
+            "categoria": "Covers Hard Rock y Punk Español"
+          }
+        },
+        {
+          "id": "divididos-que-ves",
+          "track_number": 8,
+          "title": "¿Qué Ves?",
+          "artist": "Divididos",
+          "duration": "3:40",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-hardrock-punkespanol/divididos-que-ves.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-hardrock-punkespanol/divididos-que-ves-am.json",
+          "details": {
+            "letra": "",
+            "acordes": ["Am", "G", "F", "C"],
+            "bpm": 122,
+            "tonalidad": "Am",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Rock Nacional",
+            "genre": "Hard Rock",
+            "categoria": "Covers Hard Rock y Punk Español"
+          }
+        },
+        {
+          "id": "divididos-sobrio-a-las-pinas",
+          "track_number": 9,
+          "title": "Sobrio a las Piñas",
+          "artist": "Divididos",
+          "duration": "4:25",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-hardrock-punkespanol/divididos-sobrio-a-las-pinas.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-hardrock-punkespanol/divididos-sobrio-a-las-pinas-e.json",
+          "details": {
+            "letra": "",
+            "acordes": ["E", "A", "B", "C#m"],
+            "bpm": 112,
+            "tonalidad": "E Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Rock Nacional",
+            "genre": "Hard Rock",
+            "categoria": "Covers Hard Rock y Punk Español"
+          }
+        },
+        {
+          "id": "eruca-sativa-magoo",
+          "track_number": 10,
+          "title": "Magoo",
+          "artist": "Eruca Sativa",
+          "duration": "3:55",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-hardrock-punkespanol/eruca-sativa-magoo.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-hardrock-punkespanol/eruca-sativa-magoo-am.json",
+          "details": {
+            "letra": "",
+            "acordes": ["Am", "G", "F", "C"],
+            "bpm": 128,
+            "tonalidad": "Am",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Rock Psicodélico",
+            "genre": "Hard Rock",
+            "categoria": "Covers Hard Rock y Punk Español"
+          }
+        },
+        {
+          "id": "fito-paez-el-diablo-en-tu-corazon",
+          "track_number": 11,
+          "title": "El Diablo en Tu Corazón",
+          "artist": "Fito Páez",
+          "duration": "4:18",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-hardrock-punkespanol/fito-paez-el-diablo-en-tu-corazon.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-hardrock-punkespanol/fito-paez-el-diablo-en-tu-corazon.json",
+          "details": {
+            "letra": "",
+            "acordes": ["C", "G", "Am", "F"],
+            "bpm": 120,
+            "tonalidad": "C Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Rock Alternativo",
+            "genre": "Hard Rock",
+            "categoria": "Covers Hard Rock y Punk Español"
+          }
+        },
+        {
+          "id": "gustavo-cerati-la-excepcion",
+          "track_number": 12,
+          "title": "La Excepción",
+          "artist": "Gustavo Cerati",
+          "duration": "4:50",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-hardrock-punkespanol/gustavo-cerati-la-excepcion.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-hardrock-punkespanol/gustavo-cerati-la-excepcion.json",
+          "details": {
+            "letra": "",
+            "acordes": ["D", "A", "Bm", "G"],
+            "bpm": 110,
+            "tonalidad": "D Mayor",
+            "compas": "4/4",
+            "dificultad": "Avanzada",
+            "style": "Rock Alternativo",
+            "genre": "Hard Rock",
+            "categoria": "Covers Hard Rock y Punk Español"
+          }
+        },
+        {
+          "id": "intoxicados-quieren-rock",
+          "track_number": 13,
+          "title": "Quieren Rock",
+          "artist": "Intoxicados",
+          "duration": "3:10",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-hardrock-punkespanol/intoxicados-quieren-rock.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-hardrock-punkespanol/intoxicados-quieren-rock.json",
+          "details": {
+            "letra": "",
+            "acordes": ["E", "A", "G", "D"],
+            "bpm": 155,
+            "tonalidad": "E Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Punk Rock",
+            "genre": "Punk",
+            "categoria": "Covers Hard Rock y Punk Español"
+          }
+        },
+        {
+          "id": "pappo-blues-local",
+          "track_number": 14,
+          "title": "Blues Local",
+          "artist": "Pappo",
+          "duration": "4:35",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-hardrock-punkespanol/pappo-blues-local.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-hardrock-punkespanol/pappo-blues-local.json",
+          "details": {
+            "letra": "",
+            "acordes": ["A", "D", "E", "A7"],
+            "bpm": 100,
+            "tonalidad": "A Mayor",
+            "compas": "12/8",
+            "dificultad": "Avanzada",
+            "style": "Blues Rock",
+            "genre": "Hard Rock",
+            "categoria": "Covers Hard Rock y Punk Español"
+          }
+        },
+        {
+          "id": "pappo-el-viejo",
+          "track_number": 15,
+          "title": "El Viejo",
+          "artist": "Pappo",
+          "duration": "5:20",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-hardrock-punkespanol/pappo-el-viejo.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-hardrock-punkespanol/pappo-el-viejo.json",
+          "details": {
+            "letra": "",
+            "acordes": ["G", "C", "D", "Em"],
+            "bpm": 95,
+            "tonalidad": "G Mayor",
+            "compas": "12/8",
+            "dificultad": "Avanzada",
+            "style": "Blues Rock",
+            "genre": "Hard Rock",
+            "categoria": "Covers Hard Rock y Punk Español"
+          }
+        }
+      ]
+    }
+  ]
+}

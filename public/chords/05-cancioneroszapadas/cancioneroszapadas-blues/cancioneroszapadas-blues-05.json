@@ -1,0 +1,115 @@
+{
+    "id": "zapada-blues-005",
+    "title": "Zapada Blues Versión Acústica 2",
+    "artist": "Rockola Covers",
+    "originalKey": "A",
+    "tempo": 95,
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "E", "A", "D"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 1",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric": "Acústico y puro, el blues suena así,"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric": ""
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric": "con el alma y la guitarra aquí."
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "TURNAROUND",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "A", "D", "E"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 2",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric": "Las cuerdas vibran, la voz se alza,"
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric": ""
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric": "el blues es libertad y más."
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "D", "A", "E"]
+          }
+        ]
+      }
+    ]
+  }
+  

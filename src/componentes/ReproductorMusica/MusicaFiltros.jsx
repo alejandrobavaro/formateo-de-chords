@@ -41,8 +41,8 @@ const MusicaFiltros = ({
   // DESCRIPCIÓN DE CATEGORÍA
   const getDescripcionCategoria = (cat) => {
     const descripciones = {
-      'original': 'Música original de Ale Gondra y Almango Pop',
-      'covers': 'Covers clásicas y modernas',
+      'original': 'Musica Original',
+      'covers': 'Covers Versionados',
       'medleys': 'Canciones Enganchadas'
     };
     return descripciones[cat] || '';

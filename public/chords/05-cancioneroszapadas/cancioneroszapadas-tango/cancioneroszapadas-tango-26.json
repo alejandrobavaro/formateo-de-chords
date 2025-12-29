@@ -1,0 +1,102 @@
+{
+    "id": "zapada-tango-026",
+    "title": "Zapada Tango",
+    "artist": "Rockola Covers",
+    "originalKey": "Dm",
+    "tempo": 55,
+    "timeSignature": "2/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Dm", "A7", "Dm", "E7"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 1",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Dm"
+          },
+          {
+            "type": "lyric": "Tango clásico, pasión y melancolía,"
+          },
+          {
+            "type": "chord",
+            "content": "A7"
+          },
+          {
+            "type": "lyric": ""
+          },
+          {
+            "type": "chord",
+            "content": "Dm"
+          },
+          {
+            "type": "lyric": "el bandoneón y el piano te harán suspirar."
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Dm"
+          },
+          {
+            "type": "lyric": "Baila y siente,"
+          },
+          {
+            "type": "chord",
+            "content": "A7"
+          },
+          {
+            "type": "lyric": ""
+          },
+          {
+            "type": "chord",
+            "content": "Dm"
+          },
+          {
+            "type": "lyric": "el tango es tu canción."
+          },
+          {
+            "type": "chord",
+            "content": "E7"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Dm", "E7", "A7", "Dm"]
+          }
+        ]
+      }
+    ]
+  }
+  

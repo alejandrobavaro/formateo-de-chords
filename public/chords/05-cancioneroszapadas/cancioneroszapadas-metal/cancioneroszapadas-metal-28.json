@@ -1,0 +1,81 @@
+{
+    "id": "zapada-metal-028",
+    "title": "Zapada Heavy Metal",
+    "artist": "Rockola Covers",
+    "originalKey": "E",
+    "tempo": 140,
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E5", "D5", "A5", "E5"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "RIFF 1",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "E5"
+          },
+          {
+            "type": "lyric": "Heavy metal, potencia y velocidad,"
+          },
+          {
+            "type": "chord",
+            "content": "D5"
+          },
+          {
+            "type": "lyric": ""
+          },
+          {
+            "type": "chord",
+            "content": "A5"
+          },
+          {
+            "type": "lyric": "la guitarra y el bajo rugen sin parar."
+          },
+          {
+            "type": "chord",
+            "content": "E5"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SOLO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E5", "G5", "A5", "D5"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E5", "D5", "A5", "E5"]
+          }
+        ]
+      }
+    ]
+  }
+  

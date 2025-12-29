@@ -1,0 +1,403 @@
+{
+    "id": "los-pericos-torito",
+    "title": "Torito",
+    "artist": "Los Pericos",
+    "originalKey": "A",
+    "tempo": "Moderate",
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "G"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Vengan a ver, al nuevo Rey, nuevo Rey"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "No hubo otro igual, al parecer, mejor que él"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "Lo llaman Tori, Tori, Torito,"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Torito (Va a ir al matadero)"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "1º VOZ ALE",
+            "color": "ale",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "A"
+              },
+              {
+                "type": "lyric",
+                "content": "Tori, Tori, Torito,"
+              }
+            ]
+          },
+          {
+            "type": "voice",
+            "name": "2º VOZ PATO",
+            "color": "pato",
+            "lines": [
+              {
+                "type": "chord",
+                "content": "G"
+              },
+              {
+                "type": "lyric",
+                "content": "Torito (Va a ir al matadero)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Siempre soñó con ser leal, ser leal"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Nunca restó su dignidad, dignidad."
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETIR)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A"]
+          },
+          {
+            "type": "lyric",
+            "content": "Lo llaman Tori, Tori, Torito,"
+          },
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Torito (Va a ir al matadero)"
+          },
+          {
+            "type": "chords",
+            "content": ["A"]
+          },
+          {
+            "type": "lyric",
+            "content": "Tori, Tori, Torito,"
+          },
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Torito (Va a ir al matadero)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "BIS",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["F#m", "D", "G", "F#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "Vida dura por la que pasa él"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "G", "F#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "No disimula los golpes dejan marcas"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "G", "F#m"]
+          },
+          {
+            "type": "lyric",
+            "content": "Va a ir al matadero,"
+          },
+          {
+            "type": "chords",
+            "content": ["D", "G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Va a ir al matadero."
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETIR)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "G"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ ALE",
+        "color": "ale",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "Vengan a ver, al nuevo Rey, nuevo Rey"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          }
+        ]
+      },
+      {
+        "type": "voice",
+        "name": "1º VOZ PATO",
+        "color": "pato",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric",
+            "content": "No hubo otro igual, al parecer, mejor que él"
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO (REPETIR)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A"]
+          },
+          {
+            "type": "lyric",
+            "content": "Lo llaman Tori, Tori, Torito,"
+          },
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Torito (Va a ir al matadero)"
+          },
+          {
+            "type": "chords",
+            "content": ["A"]
+          },
+          {
+            "type": "lyric",
+            "content": "Tori, Tori, Torito,"
+          },
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Torito (Va a ir al matadero)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A"]
+          },
+          {
+            "type": "lyric",
+            "content": "Lo llaman Tori, Tori, Torito,"
+          },
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Torito (Va a ir al matadero)"
+          },
+          {
+            "type": "chords",
+            "content": ["A"]
+          },
+          {
+            "type": "lyric",
+            "content": "Tori, Tori, Torito,"
+          },
+          {
+            "type": "chords",
+            "content": ["G"]
+          },
+          {
+            "type": "lyric",
+            "content": "Torito (Va a ir al matadero)"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "INTRO (REPETIR)",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["A", "G"]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,102 @@
+{
+    "id": "zapada-folklore-005",
+    "title": "Zapada Folklore Sesión 3 en Vivo",
+    "artist": "Rockola Covers",
+    "originalKey": "G",
+    "tempo": 113,
+    "timeSignature": "3/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "D", "G", "C"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 1",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric": "En vivo y con pasión,"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric": ""
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric": "el folklore se siente en el corazón."
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTRIBILLO",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric": "Con el bombo y la guitarra,"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric": ""
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric": "el folklore es mi inspiración."
+          },
+          {
+            "type": "chord",
+            "content": "C"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["G", "C", "D", "G"]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,94 @@
+{
+  "artista": "Rockola Covers",
+  "discografia": [
+    {
+      "album_id": "covers-festivos-bso",
+      "album_name": "COVERS FESTIVOS Y BSO",
+      "year": "2025",
+      "cover_image": "/img/09-discos/tapa-listado-covers.jpg",
+      "genre": "Festivo/BSO",
+      "songs": [
+        {
+          "id": "hakuna-matata",
+          "track_number": 1,
+          "title": "Hakuna Matata",
+          "artist": "Elton John",
+          "duration": "3:33",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-festivos-bso/hakuna-matata.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-festivos-bso/hakuna-matata.json",
+          "details": {
+            "letra": "",
+            "acordes": ["C", "G", "Am", "F"],
+            "bpm": 95,
+            "tonalidad": "C Mayor",
+            "compas": "4/4",
+            "dificultad": "Básica",
+            "style": "BSO Infantil",
+            "genre": "Festivo",
+            "categoria": "Covers Festivos y BSO"
+          }
+        },
+        {
+          "id": "hallelujah",
+          "track_number": 2,
+          "title": "Hallelujah",
+          "artist": "Leonard Cohen",
+          "duration": "4:39",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-festivos-bso/hallelujah.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-festivos-bso/hallelujah.json",
+          "details": {
+            "letra": "",
+            "acordes": ["C", "Am", "F", "G"],
+            "bpm": 72,
+            "tonalidad": "C Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Balada Espiritual",
+            "genre": "Festivo",
+            "categoria": "Covers Festivos y BSO"
+          }
+        },
+        {
+          "id": "queen-flash",
+          "track_number": 3,
+          "title": "Flash",
+          "artist": "Queen",
+          "duration": "2:48",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-festivos-bso/queen-flash.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-festivos-bso/queen-flash.json",
+          "details": {
+            "letra": "",
+            "acordes": ["C", "G", "F", "Am"],
+            "bpm": 120,
+            "tonalidad": "C Mayor",
+            "compas": "4/4",
+            "dificultad": "Intermedia",
+            "style": "Rock Sinfónico",
+            "genre": "BSO",
+            "categoria": "Covers Festivos y BSO"
+          }
+        },
+        {
+          "id": "villancico-noche-de-paz",
+          "track_number": 4,
+          "title": "Noche de Paz",
+          "artist": "Tradicional",
+          "duration": "3:12",
+          "mp3_url": "/audio/02-mp3-covers/mp3cancionescovers-festivos-bso/villancico-noche-de-paz.mp3",
+          "chords_url": "/chords/02-cancioneroscovers/cancionescovers-festivos-bso/villancico-noche-de-paz.json",
+          "details": {
+            "letra": "",
+            "acordes": ["C", "F", "G", "Am"],
+            "bpm": 65,
+            "tonalidad": "C Mayor",
+            "compas": "3/4",
+            "dificultad": "Básica",
+            "style": "Villancico",
+            "genre": "Festivo",
+            "categoria": "Covers Festivos y BSO"
+          }
+        }
+      ]
+    }
+  ]
+}

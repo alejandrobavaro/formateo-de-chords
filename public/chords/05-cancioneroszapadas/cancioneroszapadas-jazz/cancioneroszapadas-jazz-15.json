@@ -1,0 +1,81 @@
+{
+    "id": "zapada-jazz-015",
+    "title": "Zapada Jazz Fusion",
+    "artist": "Rockola Covers",
+    "originalKey": "F",
+    "tempo": 125,
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Fmaj7#11", "Bbmaj7", "Dm7", "G7"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SECCIÓN A",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Fmaj7#11"
+          },
+          {
+            "type": "lyric": "Fusión de estilos,"
+          },
+          {
+            "type": "chord",
+            "content": "Bbmaj7"
+          },
+          {
+            "type": "lyric": ""
+          },
+          {
+            "type": "chord",
+            "content": "Dm7"
+          },
+          {
+            "type": "lyric": "jazz y rock en armonía."
+          },
+          {
+            "type": "chord",
+            "content": "G7"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PUENTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Am7", "D7", "Gm7", "C7"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Fmaj7#11", "G7", "Bbmaj7", "Fmaj7#11"]
+          }
+        ]
+      }
+    ]
+  }
+  

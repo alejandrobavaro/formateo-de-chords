@@ -1,0 +1,481 @@
+{
+  "id": "alejandro-lerner-campeones-de-la-vida",
+  "title": "Campeones de la Vida",
+  "artist": "Alejandro Lerner",
+  "originalKey": "Am",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "lyric",
+          "content": "Aunque las puertas se cierren"
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "lyric",
+          "content": "aunque no me sienta bien"
+        },
+        {
+          "type": "chord",
+          "content": "Dm"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "lyric",
+          "content": "Aunque el tiempo pegue fuerte,"
+        },
+        {
+          "type": "chord",
+          "content": "Dm"
+        },
+        {
+          "type": "chord",
+          "content": "Gsus4"
+        },
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "lyric",
+          "content": "sé que voy a estar de pie."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "F"
+        },
+        {
+          "type": "chord",
+          "content": "Gsus4"
+        },
+        {
+          "type": "chord",
+          "content": "F/A"
+        },
+        {
+          "type": "chord",
+          "content": "G/B"
+        },
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "chord",
+          "content": "E"
+        },
+        {
+          "type": "lyric",
+          "content": "Aunque el tiempo pegue fuerte"
+        },
+        {
+          "type": "lyric",
+          "content": "sé que voy a estar de pie."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "lyric",
+          "content": "Yerba buena nunca muere"
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "no se cansa de pelear,"
+        },
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "chord",
+          "content": "Dm"
+        },
+        {
+          "type": "lyric",
+          "content": "aunque llueva, nieve o truene"
+        },
+        {
+          "type": "chord",
+          "content": "Gsus4"
+        },
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "lyric",
+          "content": "te tenés que levantar."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "lyric",
+          "content": "Aunque llueva, nieve o truene"
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "lyric",
+          "content": "te tenés que levantar."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PUENTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am", "–", "E/G#", "–", "C7/G", "–", "C7", "–", "D/F#", "–", "F", "–", "C/E", "–", "B/Eb", "–", "E"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "lyric",
+          "content": "Aunque no haya navidades"
+        },
+        {
+          "type": "chord",
+          "content": "Em"
+        },
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "lyric",
+          "content": "a la hora de la fe."
+        },
+        {
+          "type": "chord",
+          "content": "Dm"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "lyric",
+          "content": "Cuando la campana suene"
+        },
+        {
+          "type": "chord",
+          "content": "Dm"
+        },
+        {
+          "type": "chord",
+          "content": "Gsus4"
+        },
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "lyric",
+          "content": "sé que voy a estar de pie."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ ALE",
+      "color": "ale",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "Am"
+        },
+        {
+          "type": "lyric",
+          "content": "Que no nos falte el trabajo,"
+        },
+        {
+          "type": "chord",
+          "content": "E/G#"
+        },
+        {
+          "type": "chord",
+          "content": "Am7/G"
+        },
+        {
+          "type": "chord",
+          "content": "D/F#"
+        },
+        {
+          "type": "lyric",
+          "content": "ni las ganas de soñar"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "voice",
+      "name": "1º VOZ PATO",
+      "color": "pato",
+      "lines": [
+        {
+          "type": "chord",
+          "content": "C/G"
+        },
+        {
+          "type": "chord",
+          "content": "F/G"
+        },
+        {
+          "type": "chord",
+          "content": "F/A"
+        },
+        {
+          "type": "chord",
+          "content": "G/B"
+        },
+        {
+          "type": "chord",
+          "content": "C"
+        },
+        {
+          "type": "chord",
+          "content": "E"
+        },
+        {
+          "type": "lyric",
+          "content": "que el sueño traiga trabajo"
+        },
+        {
+          "type": "lyric",
+          "content": "y el trabajo dignidad."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PUENTE 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Am", "–", "E/G#", "–", "C7/G", "–", "C7", "–", "D/F#", "–", "C/G", "–", "F/G", "–", "F/A", "–", "G/B", "–", "C", "–", "Gsus4"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "El futuro que no viene,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "el pasado que se fue"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Dm", "–", "Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "lo que queda es el presente"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "–", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "para poder estar bien."
+        },
+        {
+          "type": "chords",
+          "content": ["F/A", "–", "G/B", "–", "C", "–", "Gsus4"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO (x2)",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "C"
+            },
+            {
+              "type": "lyric",
+              "content": "El futuro que no viene,"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "chord",
+              "content": "G"
+            },
+            {
+              "type": "lyric",
+              "content": "el pasado que se fue"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Dm", "–", "Am"]
+        },
+        {
+          "type": "lyric",
+          "content": "lo que queda es el presente"
+        },
+        {
+          "type": "chords",
+          "content": ["C", "–", "G"]
+        },
+        {
+          "type": "lyric",
+          "content": "para poder estar bien."
+        },
+        {
+          "type": "chords",
+          "content": ["F/A", "–", "G/B", "–", "C"]
+        }
+      ]
+    }
+  ]
+}

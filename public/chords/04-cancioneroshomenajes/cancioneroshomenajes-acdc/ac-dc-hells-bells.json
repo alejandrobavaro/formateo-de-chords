@@ -1,0 +1,680 @@
+{
+  "id": "ac-dc-hells-bells",
+  "title": "Hells Bells",
+  "artist": "AC/DC",
+  "originalKey": "E",
+  "tempo": "Mid-Tempo Rock",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E5", "G5", "D/F#", "E5", "G5", "D/F#", "E5"]
+        },
+        {
+          "type": "chords",
+          "content": ["G5", "D/F#", "E5", "G5", "D/F#", "E5"]
+        },
+        {
+          "type": "chords",
+          "content": ["G5", "D/F#", "E5", "D", "A", "G5", "D/F#", "E5"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRIMERA PARTE",
+      "lines": [
+        {
+          "type": "text",
+          "content": "(Riff: E5 A5 G5 D/F# E5)"
+        },
+        {
+          "type": "text",
+          "content": "(Riff: E5 A5 G5 D/F# E5)"
+        },
+        {
+          "type": "chords",
+          "content": ["E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm a rolling thunder"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Pouring rain"
+        },
+        {
+          "type": "chords",
+          "content": ["G5", "D/F#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm coming on"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Like a hurricane"
+        },
+        {
+          "type": "chords",
+          "content": ["G5", "D/F#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "My lightning's flashing"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Across the sky"
+        },
+        {
+          "type": "chords",
+          "content": ["G5", "D/F#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "You're only young"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "But you're gonna die"
+        },
+        {
+          "type": "chords",
+          "content": ["G5", "D/F#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "I won't take no prisoners"
+        },
+        {
+          "type": "chords",
+          "content": ["G5", "D5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Won't spare no lives"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Nobody's putting up a fight"
+        },
+        {
+          "type": "chords",
+          "content": ["G5", "D5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["B5"]
+        },
+        {
+          "type": "lyric",
+          "content": "I got my bell"
+        },
+        {
+          "type": "chords",
+          "content": ["A5", "E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm gonna take you to hell"
+        },
+        {
+          "type": "chords",
+          "content": ["B5"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm gonna get you, Satan get you"
+        },
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 1",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["E5"]
+            },
+            {
+              "type": "lyric",
+              "content": "Hell's bells"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "Yeah, hell's bells"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G5", "D/F#", "E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "You got me ringing"
+        },
+        {
+          "type": "chords",
+          "content": ["G5", "D/F#", "E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hell's bells"
+        },
+        {
+          "type": "chords",
+          "content": ["D5", "A5", "G5", "D/F#", "E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "My temperature's high"
+        },
+        {
+          "type": "chords",
+          "content": ["E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hell's bells"
+        },
+        {
+          "type": "text",
+          "content": "(Riff: E5 A5 G5 D/F# E5)"
+        },
+        {
+          "type": "text",
+          "content": "(Riff: E5 A5)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SEGUNDA PARTE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G5", "D/F#", "E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'll give you black sensations"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Up and down your spine"
+        },
+        {
+          "type": "chords",
+          "content": ["G5", "D/F#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "If you're into evil"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "You're a friend of mine"
+        },
+        {
+          "type": "chords",
+          "content": ["G5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D/F#", "E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "See my white light flashing"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "As I split the night"
+        },
+        {
+          "type": "chords",
+          "content": ["G5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D/F#", "E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "'Cause if God's on the left"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Then I'm sticking to the right"
+        },
+        {
+          "type": "chords",
+          "content": ["G5", "D/F#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-ESTRIBILLO 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "I won't take no prisoners"
+        },
+        {
+          "type": "chords",
+          "content": ["G5", "D5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Won't spare no lives"
+        },
+        {
+          "type": "chords",
+          "content": ["A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Nobody's putting up a fight"
+        },
+        {
+          "type": "chords",
+          "content": ["G5", "D5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["B5"]
+        },
+        {
+          "type": "lyric",
+          "content": "I got my bell"
+        },
+        {
+          "type": "chords",
+          "content": ["A5", "E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm gonna take you to hell"
+        },
+        {
+          "type": "chords",
+          "content": ["B5"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'm gonna get you, Satan get you"
+        },
+        {
+          "type": "chords",
+          "content": ["D5"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "ESTRIBILLO 2",
+      "lines": [
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {
+              "type": "chords",
+              "content": ["E5"]
+            },
+            {
+              "type": "lyric",
+              "content": "Hell's bells"
+            }
+          ]
+        },
+        {
+          "type": "voice",
+          "name": "2º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {
+              "type": "lyric",
+              "content": "Satan's coming to you"
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G5", "D/F#", "E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hell's bells"
+        },
+        {
+          "type": "chords",
+          "content": ["G5", "D/F#", "E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "He's ringing them now"
+        },
+        {
+          "type": "chords",
+          "content": ["G5", "D/F#", "E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Those hell's bells"
+        },
+        {
+          "type": "chords",
+          "content": ["D5", "A5", "G5", "D/F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "The temperature's high"
+        },
+        {
+          "type": "chords",
+          "content": ["E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hell's bells"
+        },
+        {
+          "type": "chords",
+          "content": ["G5", "A5", "G5", "D/F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "Across the sky"
+        },
+        {
+          "type": "chords",
+          "content": ["E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hell's bells"
+        },
+        {
+          "type": "chords",
+          "content": ["G5", "D/F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "They're taking you down"
+        },
+        {
+          "type": "chords",
+          "content": ["E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hell's bells"
+        },
+        {
+          "type": "chords",
+          "content": ["G5", "D/F#"]
+        },
+        {
+          "type": "lyric",
+          "content": "They're dragging you under"
+        },
+        {
+          "type": "chords",
+          "content": ["E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hell's bells"
+        },
+        {
+          "type": "chords",
+          "content": ["G5", "A5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Gonna split the night"
+        },
+        {
+          "type": "chords",
+          "content": ["E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hell's bells"
+        },
+        {
+          "type": "chords",
+          "content": ["G5"]
+        },
+        {
+          "type": "lyric",
+          "content": "There's no way to fight, yeah"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E5", "D5", "E5", "G5", "A5"]
+        },
+        {
+          "type": "chords",
+          "content": ["E5", "D5", "E5", "G5", "A5"]
+        },
+        {
+          "type": "chords",
+          "content": ["E5", "D5", "E5", "G5", "A5"]
+        },
+        {
+          "type": "chords",
+          "content": ["E5", "D5", "E5", "G5", "A5"]
+        },
+        {
+          "type": "chords",
+          "content": ["A5", "G5", "D5", "A5", "G5", "D5"]
+        },
+        {
+          "type": "chords",
+          "content": ["B5", "A5", "E5", "B5", "D5"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["E5", "D5", "E5", "G5", "A5"]
+        },
+        {
+          "type": "chords",
+          "content": ["E5", "D5", "E5", "G5", "A5"]
+        },
+        {
+          "type": "chords",
+          "content": ["E5", "D5", "E5", "G5", "A5"]
+        },
+        {
+          "type": "chords",
+          "content": ["E5", "D5", "E5", "G5", "A5"]
+        },
+        {
+          "type": "chords",
+          "content": ["E5", "D5", "E5"]
+        },
+        {
+          "type": "lyric",
+          "content": "Hell's bells"
+        }
+      ]
+    }
+  ]
+}

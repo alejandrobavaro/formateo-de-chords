@@ -1,0 +1,214 @@
+{
+    "artista": "Rockola Covers",
+    "discografia": [
+      {
+        "album_id": "homenajes-internacionales-00",
+        "album_name": "HOMENAJES INTERNACIONALES",
+        "year": "2024",
+          "cover_image": "/img/02-logos/logo-formateo-chords2.png",
+        "genre": "Homenajes",
+        "songs": [
+          {
+            "id": "homenaje-inxs-01-need-you-tonight",
+            "track_number": 79,
+            "title": "Need You Tonight",
+            "artist": "INXS",
+            "duration": "3:01",
+            "mp3_url": "/audio/homenajes/inxs-need-you-tonight.mp3",
+            "chords_url": "/chords/homenajes/inxs-need-you-tonight.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 116,
+              "tonalidad": "A Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes INXS"
+            }
+          },
+          {
+            "id": "homenaje-inxs-02-new-sensation",
+            "track_number": 80,
+            "title": "New Sensation",
+            "artist": "INXS",
+            "duration": "3:40",
+            "mp3_url": "/audio/homenajes/inxs-new-sensation.mp3",
+            "chords_url": "/chords/homenajes/inxs-new-sensation.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 124,
+              "tonalidad": "E Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes INXS"
+            }
+          },
+          {
+            "id": "homenaje-inxs-03-beautiful-girl",
+            "track_number": 81,
+            "title": "Beautiful Girl",
+            "artist": "INXS",
+            "duration": "3:28",
+            "mp3_url": "/audio/homenajes/inxs-beautiful-girl.mp3",
+            "chords_url": "/chords/homenajes/inxs-beautiful-girl.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 96,
+              "tonalidad": "A Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes INXS"
+            }
+          },
+          {
+            "id": "homenaje-inxs-04-mystify",
+            "track_number": 82,
+            "title": "Mystify",
+            "artist": "INXS",
+            "duration": "3:18",
+            "mp3_url": "/audio/homenajes/inxs-mystify.mp3",
+            "chords_url": "/chords/homenajes/inxs-mystify.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 120,
+              "tonalidad": "D Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes INXS"
+            }
+          },
+          {
+            "id": "homenaje-inxs-05-never-tear-us-apart",
+            "track_number": 83,
+            "title": "Never Tear Us Apart",
+            "artist": "INXS",
+            "duration": "3:05",
+            "mp3_url": "/audio/homenajes/inxs-never-tear-us-apart.mp3",
+            "chords_url": "/chords/homenajes/inxs-never-tear-us-apart.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 68,
+              "tonalidad": "F Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Balada",
+              "genre": "Rock",
+              "categoria": "Homenajes INXS"
+            }
+          },
+          {
+            "id": "homenaje-inxs-06-suicide-blonde",
+            "track_number": 84,
+            "title": "Suicide Blonde",
+            "artist": "INXS",
+            "duration": "3:52",
+            "mp3_url": "/audio/homenajes/inxs-suicide-blonde.mp3",
+            "chords_url": "/chords/homenajes/inxs-suicide-blonde.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 114,
+              "tonalidad": "E Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes INXS"
+            }
+          },
+          {
+            "id": "homenaje-inxs-07-kick",
+            "track_number": 85,
+            "title": "Kick",
+            "artist": "INXS",
+            "duration": "3:14",
+            "mp3_url": "/audio/homenajes/inxs-kick.mp3",
+            "chords_url": "/chords/homenajes/inxs-kick.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 124,
+              "tonalidad": "A Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes INXS"
+            }
+          },
+          {
+            "id": "homenaje-inxs-08-disappear",
+            "track_number": 86,
+            "title": "Disappear",
+            "artist": "INXS",
+            "duration": "4:10",
+            "mp3_url": "/audio/homenajes/inxs-disappear.mp3",
+            "chords_url": "/chords/homenajes/inxs-disappear.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 116,
+              "tonalidad": "B Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes INXS"
+            }
+          },
+          {
+            "id": "homenaje-inxs-09-what-you-need",
+            "track_number": 87,
+            "title": "What You Need",
+            "artist": "INXS",
+            "duration": "3:36",
+            "mp3_url": "/audio/homenajes/inxs-what-you-need.mp3",
+            "chords_url": "/chords/homenajes/inxs-what-you-need.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 122,
+              "tonalidad": "E Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes INXS"
+            }
+          },
+          {
+            "id": "homenaje-inxs-10-bitter-tears",
+            "track_number": 88,
+            "title": "Bitter Tears",
+            "artist": "INXS",
+            "duration": "3:51",
+            "mp3_url": "/audio/homenajes/inxs-bitter-tears.mp3",
+            "chords_url": "/chords/homenajes/inxs-bitter-tears.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 118,
+              "tonalidad": "G Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes INXS"
+            }
+          }
+        ]
+      }
+    ]
+  }

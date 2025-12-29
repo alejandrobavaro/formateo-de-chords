@@ -1,0 +1,214 @@
+{
+    "artista": "Los Piojos",
+    "discografia": [
+      {
+        "album_id": "homenajes-los-piojos",
+        "album_name": "HOMENAJES Los Piojos",
+        "year": "2024",
+          "cover_image": "/img/02-logos/logo-formateo-chords2.png",
+        "genre": "Rock",
+        "songs": [
+          {
+            "id": "homenaje-los-piojos-01-verano-del-92",
+            "track_number": 1,
+            "title": "Verano del 92",
+            "artist": "Los Piojos",
+            "duration": "4:15",
+            "mp3_url": "/audio/homenajes/piojos-verano-del-92.mp3",
+            "chords_url": "/chords/homenajes/piojos-verano-del-92.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 126,
+              "tonalidad": "E Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes Los Piojos"
+            }
+          },
+          {
+            "id": "homenaje-los-piojos-02-el-balneario-de-los-doctores-croto",
+            "track_number": 2,
+            "title": "El Balneario de los Doctores Croto",
+            "artist": "Los Piojos",
+            "duration": "4:40",
+            "mp3_url": "/audio/homenajes/piojos-el-balneario-de-los-doctores-croto.mp3",
+            "chords_url": "/chords/homenajes/piojos-el-balneario-de-los-doctores-croto.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 118,
+              "tonalidad": "A Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes Los Piojos"
+            }
+          },
+          {
+            "id": "homenaje-los-piojos-03-tan-solo",
+            "track_number": 3,
+            "title": "Tan Sólo",
+            "artist": "Los Piojos",
+            "duration": "4:25",
+            "mp3_url": "/audio/homenajes/piojos-tan-solo.mp3",
+            "chords_url": "/chords/homenajes/piojos-tan-solo.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 120,
+              "tonalidad": "D Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes Los Piojos"
+            }
+          },
+          {
+            "id": "homenaje-los-piojos-04-ruleta",
+            "track_number": 4,
+            "title": "Ruleta",
+            "artist": "Los Piojos",
+            "duration": "4:18",
+            "mp3_url": "/audio/homenajes/piojos-ruleta.mp3",
+            "chords_url": "/chords/homenajes/piojos-ruleta.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 124,
+              "tonalidad": "G Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes Los Piojos"
+            }
+          },
+          {
+            "id": "homenaje-los-piojos-05-vicios-y-virtudes",
+            "track_number": 5,
+            "title": "Vicios y Virtudes",
+            "artist": "Los Piojos",
+            "duration": "4:32",
+            "mp3_url": "/audio/homenajes/piojos-vicios-y-virtudes.mp3",
+            "chords_url": "/chords/homenajes/piojos-vicios-y-virtudes.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 122,
+              "tonalidad": "C Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes Los Piojos"
+            }
+          },
+          {
+            "id": "homenaje-los-piojos-06-andando",
+            "track_number": 6,
+            "title": "Andando",
+            "artist": "Los Piojos",
+            "duration": "4:05",
+            "mp3_url": "/audio/homenajes/piojos-andando.mp3",
+            "chords_url": "/chords/homenajes/piojos-andando.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 128,
+              "tonalidad": "E Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes Los Piojos"
+            }
+          },
+          {
+            "id": "homenaje-los-piojos-07-cristo-rosa",
+            "track_number": 7,
+            "title": "Cristo Rosa",
+            "artist": "Los Piojos",
+            "duration": "4:50",
+            "mp3_url": "/audio/homenajes/piojos-cristo-rosa.mp3",
+            "chords_url": "/chords/homenajes/piojos-cristo-rosa.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 116,
+              "tonalidad": "A Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes Los Piojos"
+            }
+          },
+          {
+            "id": "homenaje-los-piojos-08-azul-campo",
+            "track_number": 8,
+            "title": "Azul Campo",
+            "artist": "Los Piojos",
+            "duration": "4:15",
+            "mp3_url": "/audio/homenajes/piojos-azul-campo.mp3",
+            "chords_url": "/chords/homenajes/piojos-azul-campo.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 120,
+              "tonalidad": "D Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes Los Piojos"
+            }
+          },
+          {
+            "id": "homenaje-los-piojos-09-ya-no-sos-igual",
+            "track_number": 9,
+            "title": "Ya No Sos Igual",
+            "artist": "Los Piojos",
+            "duration": "4:28",
+            "mp3_url": "/audio/homenajes/piojos-ya-no-sos-igual.mp3",
+            "chords_url": "/chords/homenajes/piojos-ya-no-sos-igual.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 124,
+              "tonalidad": "G Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes Los Piojos"
+            }
+          },
+          {
+            "id": "homenaje-los-piojos-10-hoy-es-hoy",
+            "track_number": 10,
+            "title": "Hoy Es Hoy",
+            "artist": "Los Piojos",
+            "duration": "4:10",
+            "mp3_url": "/audio/homenajes/piojos-hoy-es-hoy.mp3",
+            "chords_url": "/chords/homenajes/piojos-hoy-es-hoy.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 130,
+              "tonalidad": "C Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes Los Piojos"
+            }
+          }
+        ]
+      }
+    ]
+  }

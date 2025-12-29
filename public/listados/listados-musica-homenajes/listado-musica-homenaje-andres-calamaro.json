@@ -1,0 +1,155 @@
+{
+  "artista": "Andrés Calamaro",
+  "categoria": "homenajes",
+  "discografia": [
+    {
+      "album_id": "homenajes-calamaro-00",
+      "album_name": "HOMENAJE A ANDRÉS CALAMARO",
+      "year": "2024",
+      "cover_image": "/img/02-logos/logo-formateo-chords2.png",
+      "genre": "Homenajes",
+      "songs": [
+        {
+          "id": "homenaje-calamaro-01-10-anos-despues",
+          "track_number": 1,
+          "title": "10 Años Después",
+          "artist": "Andrés Calamaro",
+          "duration": "4:30",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-andres-calamaro/andres-calamaro-10-anos-despues.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-andres-calamaro/andres-calamaro-10-anos-despues.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 110,
+            "tonalidad": "D Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Andrés Calamaro"
+          }
+        },
+        {
+          "id": "homenaje-calamaro-02-alta-suciedad",
+          "track_number": 2,
+          "title": "Alta Suciedad",
+          "artist": "Andrés Calamaro",
+          "duration": "4:05",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-andres-calamaro/andres-calamaro-alta-suciedad.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-andres-calamaro/andres-calamaro-alta-suciedad.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 126,
+            "tonalidad": "A Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Andrés Calamaro"
+          }
+        },
+        {
+          "id": "homenaje-calamaro-03-brindo",
+          "track_number": 3,
+          "title": "Brindo",
+          "artist": "Andrés Calamaro",
+          "duration": "4:18",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-andres-calamaro/andres-calamaro-brindo.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-andres-calamaro/andres-calamaro-brindo.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 105,
+            "tonalidad": "G Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Andrés Calamaro"
+          }
+        },
+        {
+          "id": "homenaje-calamaro-04-crimenes-perfectos",
+          "track_number": 4,
+          "title": "Crímenes Perfectos",
+          "artist": "Andrés Calamaro",
+          "duration": "3:50",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-andres-calamaro/andres-calamaro-crimenes-perfectos.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-andres-calamaro/andres-calamaro-crimenes-perfectos.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 115,
+            "tonalidad": "E Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Andrés Calamaro"
+          }
+        },
+        {
+          "id": "homenaje-calamaro-05-flaca",
+          "track_number": 5,
+          "title": "Flaca",
+          "artist": "Andrés Calamaro",
+          "duration": "4:14",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-andres-calamaro/andres-calamaro-flaca.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-andres-calamaro/andres-calamaro-flaca-en-a.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 124,
+            "tonalidad": "A Mayor",
+            "compas": "4/4",
+            "dificultad": "Fácil",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Andrés Calamaro"
+          }
+        },
+        {
+          "id": "homenaje-calamaro-06-hace-calor",
+          "track_number": 6,
+          "title": "Hace Calor",
+          "artist": "Andrés Calamaro",
+          "duration": "3:45",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-andres-calamaro/andres-calamaro-hace-calor.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-andres-calamaro/andres-calamaro-hace-calor.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 130,
+            "tonalidad": "C Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Andrés Calamaro"
+          }
+        },
+        {
+          "id": "homenaje-calamaro-07-tuyo-siempre",
+          "track_number": 7,
+          "title": "Tuyo Siempre",
+          "artist": "Andrés Calamaro",
+          "duration": "4:20",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-andres-calamaro/andres-calamaro-tuyo-siempre.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-andres-calamaro/andres-calamaro-tuyo-siempre.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 95,
+            "tonalidad": "D Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Balada Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Andrés Calamaro"
+          }
+        }
+      ]
+    }
+  ]
+}

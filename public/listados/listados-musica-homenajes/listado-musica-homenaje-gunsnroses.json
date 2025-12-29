@@ -1,0 +1,214 @@
+{
+    "artista": "Rockola Covers",
+    "discografia": [
+      {
+        "album_id": "homenajes-internacionales-00",
+        "album_name": "HOMENAJES INTERNACIONALES",
+        "year": "2024",
+          "cover_image": "/img/02-logos/logo-formateo-chords2.png",
+        "genre": "Homenajes",
+        "songs": [
+          {
+            "id": "homenaje-gunsnroses-01-sweet-child-o-mine",
+            "track_number": 69,
+            "title": "Sweet Child o' Mine",
+            "artist": "Guns N' Roses",
+            "duration": "5:56",
+            "mp3_url": "/audio/homenajes/gunsnroses-sweet-child-o-mine.mp3",
+            "chords_url": "/chords/homenajes/gunsnroses-sweet-child-o-mine.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 125,
+              "tonalidad": "D Mayor",
+              "compas": "4/4",
+              "dificultad": "Difícil",
+              "style": "Hard Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes Guns N' Roses"
+            }
+          },
+          {
+            "id": "homenaje-gunsnroses-02-welcome-to-the-jungle",
+            "track_number": 70,
+            "title": "Welcome to the Jungle",
+            "artist": "Guns N' Roses",
+            "duration": "4:31",
+            "mp3_url": "/audio/homenajes/gunsnroses-welcome-to-the-jungle.mp3",
+            "chords_url": "/chords/homenajes/gunsnroses-welcome-to-the-jungle.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 123,
+              "tonalidad": "F# Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Hard Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes Guns N' Roses"
+            }
+          },
+          {
+            "id": "homenaje-gunsnroses-03-november-rain",
+            "track_number": 71,
+            "title": "November Rain",
+            "artist": "Guns N' Roses",
+            "duration": "8:57",
+            "mp3_url": "/audio/homenajes/gunsnroses-november-rain.mp3",
+            "chords_url": "/chords/homenajes/gunsnroses-november-rain.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 62,
+              "tonalidad": "Bm",
+              "compas": "4/4",
+              "dificultad": "Difícil",
+              "style": "Power Ballad",
+              "genre": "Rock",
+              "categoria": "Homenajes Guns N' Roses"
+            }
+          },
+          {
+            "id": "homenaje-gunsnroses-04-paradise-city",
+            "track_number": 72,
+            "title": "Paradise City",
+            "artist": "Guns N' Roses",
+            "duration": "6:46",
+            "mp3_url": "/audio/homenajes/gunsnroses-paradise-city.mp3",
+            "chords_url": "/chords/homenajes/gunsnroses-paradise-city.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 98,
+              "tonalidad": "G Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Hard Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes Guns N' Roses"
+            }
+          },
+          {
+            "id": "homenaje-gunsnroses-05-dont-cry",
+            "track_number": 73,
+            "title": "Don't Cry",
+            "artist": "Guns N' Roses",
+            "duration": "4:44",
+            "mp3_url": "/audio/homenajes/gunsnroses-dont-cry.mp3",
+            "chords_url": "/chords/homenajes/gunsnroses-dont-cry.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 72,
+              "tonalidad": "G Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Power Ballad",
+              "genre": "Rock",
+              "categoria": "Homenajes Guns N' Roses"
+            }
+          },
+          {
+            "id": "homenaje-gunsnroses-06-civil-war",
+            "track_number": 74,
+            "title": "Civil War",
+            "artist": "Guns N' Roses",
+            "duration": "7:42",
+            "mp3_url": "/audio/homenajes/gunsnroses-civil-war.mp3",
+            "chords_url": "/chords/homenajes/gunsnroses-civil-war.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 84,
+              "tonalidad": "D Mayor",
+              "compas": "4/4",
+              "dificultad": "Difícil",
+              "style": "Hard Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes Guns N' Roses"
+            }
+          },
+          {
+            "id": "homenaje-gunsnroses-07-knockin-on-heavens-door",
+            "track_number": 75,
+            "title": "Knockin' on Heaven's Door",
+            "artist": "Guns N' Roses",
+            "duration": "5:36",
+            "mp3_url": "/audio/homenajes/gunsnroses-knockin-on-heavens-door.mp3",
+            "chords_url": "/chords/homenajes/gunsnroses-knockin-on-heavens-door.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 72,
+              "tonalidad": "G Mayor",
+              "compas": "4/4",
+              "dificultad": "Fácil",
+              "style": "Acústico",
+              "genre": "Rock",
+              "categoria": "Homenajes Guns N' Roses"
+            }
+          },
+          {
+            "id": "homenaje-gunsnroses-08-you-could-be-mine",
+            "track_number": 76,
+            "title": "You Could Be Mine",
+            "artist": "Guns N' Roses",
+            "duration": "5:43",
+            "mp3_url": "/audio/homenajes/gunsnroses-you-could-be-mine.mp3",
+            "chords_url": "/chords/homenajes/gunsnroses-you-could-be-mine.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 126,
+              "tonalidad": "E Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Hard Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes Guns N' Roses"
+            }
+          },
+          {
+            "id": "homenaje-gunsnroses-09-live-and-let-die",
+            "track_number": 77,
+            "title": "Live and Let Die",
+            "artist": "Guns N' Roses",
+            "duration": "3:04",
+            "mp3_url": "/audio/homenajes/gunsnroses-live-and-let-die.mp3",
+            "chords_url": "/chords/homenajes/gunsnroses-live-and-let-die.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 142,
+              "tonalidad": "G Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Hard Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes Guns N' Roses"
+            }
+          },
+          {
+            "id": "homenaje-gunsnroses-10-patience",
+            "track_number": 78,
+            "title": "Patience",
+            "artist": "Guns N' Roses",
+            "duration": "5:56",
+            "mp3_url": "/audio/homenajes/gunsnroses-patience.mp3",
+            "chords_url": "/chords/homenajes/gunsnroses-patience.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 62,
+              "tonalidad": "G Mayor",
+              "compas": "4/4",
+              "dificultad": "Fácil",
+              "style": "Acústico",
+              "genre": "Rock",
+              "categoria": "Homenajes Guns N' Roses"
+            }
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,215 @@
+{
+  "artista": "Rockola Covers",
+  "categoria": "homenajes",
+  "discografia": [
+    {
+      "album_id": "homenajes-green-day-offspring-00",
+      "album_name": "HOMENAJE A GREEN DAY & THE OFFSPRING",
+      "year": "2024",
+      "cover_image": "/img/02-logos/logo-formateo-chords2.png",
+      "genre": "Homenajes",
+      "songs": [
+        {
+          "id": "homenaje-green-day-01-basket-case",
+          "track_number": 1,
+          "title": "Basket Case",
+          "artist": "Green Day",
+          "duration": "3:01",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-green-day/green-day-basket-case.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-green-day/green-day-basket-case.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 185,
+            "tonalidad": "E Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Punk Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Green Day"
+          }
+        },
+        {
+          "id": "homenaje-green-day-02-american-idiot",
+          "track_number": 2,
+          "title": "American Idiot",
+          "artist": "Green Day",
+          "duration": "2:54",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-green-day/green-day-american-idiot.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-green-day/green-day-american-idiot.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 189,
+            "tonalidad": "F# Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Punk Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Green Day"
+          }
+        },
+        {
+          "id": "homenaje-green-day-03-when-i-come-around",
+          "track_number": 3,
+          "title": "When I Come Around",
+          "artist": "Green Day",
+          "duration": "2:58",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-green-day/green-day-when-i-come-around.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-green-day/green-day-when-i-come-around.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 156,
+            "tonalidad": "F Mayor",
+            "compas": "4/4",
+            "dificultad": "Fácil",
+            "style": "Punk Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Green Day"
+          }
+        },
+        {
+          "id": "homenaje-green-day-04-good-riddance",
+          "track_number": 4,
+          "title": "Good Riddance (Time of Your Life)",
+          "artist": "Green Day",
+          "duration": "2:34",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-green-day/green-day-good-riddance.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-green-day/green-day-good-riddance.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 148,
+            "tonalidad": "G Mayor",
+            "compas": "4/4",
+            "dificultad": "Fácil",
+            "style": "Acústico",
+            "genre": "Rock",
+            "categoria": "Homenajes Green Day"
+          }
+        },
+        {
+          "id": "homenaje-green-day-05-holiday",
+          "track_number": 5,
+          "title": "Holiday",
+          "artist": "Green Day",
+          "duration": "3:52",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-green-day/green-day-holiday.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-green-day/green-day-holiday.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 136,
+            "tonalidad": "E Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Punk Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Green Day"
+          }
+        },
+        {
+          "id": "homenaje-offspring-01-pretty-fly",
+          "track_number": 6,
+          "title": "Pretty Fly (For a White Guy)",
+          "artist": "The Offspring",
+          "duration": "3:08",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-offspring/offspring-pretty-fly.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-offspring/offspring-pretty-fly.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 104,
+            "tonalidad": "E Mayor",
+            "compas": "4/4",
+            "dificultad": "Fácil",
+            "style": "Punk Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes The Offspring"
+          }
+        },
+        {
+          "id": "homenaje-offspring-02-self-esteem",
+          "track_number": 7,
+          "title": "Self Esteem",
+          "artist": "The Offspring",
+          "duration": "4:17",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-offspring/offspring-self-esteem.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-offspring/offspring-self-esteem.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 128,
+            "tonalidad": "G Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Punk Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes The Offspring"
+          }
+        },
+        {
+          "id": "homenaje-offspring-03-the-kids-arent-alright",
+          "track_number": 8,
+          "title": "The Kids Aren't Alright",
+          "artist": "The Offspring",
+          "duration": "3:00",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-offspring/offspring-the-kids-arent-alright.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-offspring/offspring-the-kids-arent-alright.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 100,
+            "tonalidad": "D Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Punk Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes The Offspring"
+          }
+        },
+        {
+          "id": "homenaje-offspring-04-why-dont-you-get-a-job",
+          "track_number": 9,
+          "title": "Why Don't You Get a Job?",
+          "artist": "The Offspring",
+          "duration": "2:52",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-offspring/offspring-why-dont-you-get-a-job.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-offspring/offspring-why-dont-you-get-a-job.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 175,
+            "tonalidad": "A Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Punk Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes The Offspring"
+          }
+        },
+        {
+          "id": "homenaje-offspring-05-come-out-and-play",
+          "track_number": 10,
+          "title": "Come Out and Play",
+          "artist": "The Offspring",
+          "duration": "3:17",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-offspring/offspring-come-out-and-play.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-offspring/offspring-come-out-and-play.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 130,
+            "tonalidad": "E Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Punk Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes The Offspring"
+          }
+        }
+      ]
+    }
+  ]
+}

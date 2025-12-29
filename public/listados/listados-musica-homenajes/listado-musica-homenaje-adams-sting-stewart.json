@@ -1,0 +1,215 @@
+{
+  "artista": "Bryan Adams, Sting, Rod Stewart",
+  "categoria": "homenajes",
+  "discografia": [
+    {
+      "album_id": "homenajes-adams-sting-stewart-00",
+      "album_name": "HOMENAJE A BRYAN ADAMS, STING Y ROD STEWART",
+      "year": "2024",
+      "cover_image": "/img/02-logos/logo-formateo-chords2.png",
+      "genre": "Homenajes",
+      "songs": [
+        {
+          "id": "homenaje-bryan-adams-01-summer-of-69",
+          "track_number": 1,
+          "title": "Summer of '69",
+          "artist": "Bryan Adams",
+          "duration": "3:36",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-adams-sting-stewart/bryan-adams-summer-of-69.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-adams-sting-stewart/bryan-adams-summer-of-69.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 126,
+            "tonalidad": "D Mayor",
+            "compas": "4/4",
+            "dificultad": "Fácil",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Bryan Adams"
+          }
+        },
+        {
+          "id": "homenaje-bryan-adams-02-everything-i-do",
+          "track_number": 2,
+          "title": "(Everything I Do) I Do It for You",
+          "artist": "Bryan Adams",
+          "duration": "6:34",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-adams-sting-stewart/bryan-adams-everything-i-do.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-adams-sting-stewart/bryan-adams-everything-i-do.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 63,
+            "tonalidad": "Db Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Power Ballad",
+            "genre": "Rock",
+            "categoria": "Homenajes Bryan Adams"
+          }
+        },
+        {
+          "id": "homenaje-bryan-adams-03-heaven",
+          "track_number": 3,
+          "title": "Heaven",
+          "artist": "Bryan Adams",
+          "duration": "4:03",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-adams-sting-stewart/bryan-adams-heaven.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-adams-sting-stewart/bryan-adams-heaven.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 122,
+            "tonalidad": "B Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Bryan Adams"
+          }
+        },
+        {
+          "id": "homenaje-bryan-adams-04-please-forgive-me",
+          "track_number": 4,
+          "title": "Please Forgive Me",
+          "artist": "Bryan Adams",
+          "duration": "5:55",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-adams-sting-stewart/bryan-adams-please-forgive-me.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-adams-sting-stewart/bryan-adams-please-forgive-me.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 118,
+            "tonalidad": "E Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Bryan Adams"
+          }
+        },
+        {
+          "id": "homenaje-bryan-adams-05-have-you-ever-really-loved-a-woman",
+          "track_number": 5,
+          "title": "Have You Ever Really Loved a Woman",
+          "artist": "Bryan Adams",
+          "duration": "6:34",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-adams-sting-stewart/bryan-adams-have-you-ever-really-loved-a-woman.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-adams-sting-stewart/bryan-adams-have-you-ever-really-loved-a-woman.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 63,
+            "tonalidad": "D Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Ballad",
+            "genre": "Rock",
+            "categoria": "Homenajes Bryan Adams"
+          }
+        },
+        {
+          "id": "homenaje-sting-01-every-breath-you-take",
+          "track_number": 6,
+          "title": "Every Breath You Take",
+          "artist": "Sting",
+          "duration": "4:13",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-adams-sting-stewart/Beatles-Stand-by-me-Police-Every-breath-you.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-adams-sting-stewart/police-every-breath-you-take.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 117,
+            "tonalidad": "Ab Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Sting"
+          }
+        },
+        {
+          "id": "homenaje-rod-stewart-01-maggie-may",
+          "track_number": 7,
+          "title": "Maggie May",
+          "artist": "Rod Stewart",
+          "duration": "5:46",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-adams-sting-stewart/rod-stewart-maggie-may.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-adams-sting-stewart/rod-stewart-maggie-may.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 102,
+            "tonalidad": "D Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Rod Stewart"
+          }
+        },
+        {
+          "id": "homenaje-rod-stewart-02-have-i-told-you-lately",
+          "track_number": 8,
+          "title": "Have I Told You Lately",
+          "artist": "Rod Stewart",
+          "duration": "3:59",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-adams-sting-stewart/rod-stewart-have-i-told-you-lately.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-adams-sting-stewart/rod-stewart-have-i-told-you-lately.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 120,
+            "tonalidad": "C Mayor",
+            "compas": "4/4",
+            "dificultad": "Fácil",
+            "style": "Ballad",
+            "genre": "Rock",
+            "categoria": "Homenajes Rod Stewart"
+          }
+        },
+        {
+          "id": "homenaje-rod-stewart-03-sailing",
+          "track_number": 9,
+          "title": "Sailing",
+          "artist": "Rod Stewart",
+          "duration": "4:38",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-adams-sting-stewart/rod-stewart-sailing.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-adams-sting-stewart/rod-stewart-sailing.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 108,
+            "tonalidad": "G Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Ballad",
+            "genre": "Rock",
+            "categoria": "Homenajes Rod Stewart"
+          }
+        },
+        {
+          "id": "homenaje-rod-stewart-04-i-dont-want-to-talk-about-it",
+          "track_number": 10,
+          "title": "I Don't Want to Talk About It",
+          "artist": "Rod Stewart",
+          "duration": "4:48",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-adams-sting-stewart/rod-stewart-i-dont-want-to-talk-about-it.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-adams-sting-stewart/rod-stewart-i-dont-want-to-talk-about-it.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 96,
+            "tonalidad": "C Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Ballad",
+            "genre": "Rock",
+            "categoria": "Homenajes Rod Stewart"
+          }
+        }
+      ]
+    }
+  ]
+}

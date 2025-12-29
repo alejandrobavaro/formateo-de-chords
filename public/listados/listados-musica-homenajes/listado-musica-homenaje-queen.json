@@ -1,0 +1,214 @@
+{
+    "artista": "Rockola Covers",
+    "discografia": [
+      {
+        "album_id": "homenajes-internacionales-00",
+        "album_name": "HOMENAJES INTERNACIONALES",
+        "year": "2024",
+          "cover_image": "/img/02-logos/logo-formateo-chords2.png",
+        "genre": "Homenajes",
+        "songs": [
+          {
+            "id": "homenaje-queen-01-bohemian-rhapsody",
+            "track_number": 139,
+            "title": "Bohemian Rhapsody",
+            "artist": "Queen",
+            "duration": "5:55",
+            "mp3_url": "/audio/homenajes/queen-bohemian-rhapsody.mp3",
+            "chords_url": "/chords/homenajes/queen-bohemian-rhapsody.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 72,
+              "tonalidad": "Bb Mayor",
+              "compas": "4/4",
+              "dificultad": "Difícil",
+              "style": "Rock Ópera",
+              "genre": "Rock",
+              "categoria": "Homenajes Queen"
+            }
+          },
+          {
+            "id": "homenaje-queen-02-we-will-rock-you",
+            "track_number": 140,
+            "title": "We Will Rock You",
+            "artist": "Queen",
+            "duration": "2:01",
+            "mp3_url": "/audio/homenajes/queen-we-will-rock-you.mp3",
+            "chords_url": "/chords/homenajes/queen-we-will-rock-you.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 82,
+              "tonalidad": "F Mayor",
+              "compas": "4/4",
+              "dificultad": "Fácil",
+              "style": "Arena Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes Queen"
+            }
+          },
+          {
+            "id": "homenaje-queen-03-we-are-the-champions",
+            "track_number": 141,
+            "title": "We Are the Champions",
+            "artist": "Queen",
+            "duration": "3:00",
+            "mp3_url": "/audio/homenajes/queen-we-are-the-champions.mp3",
+            "chords_url": "/chords/homenajes/queen-we-are-the-champions.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 64,
+              "tonalidad": "Bb Mayor",
+              "compas": "6/8",
+              "dificultad": "Media",
+              "style": "Arena Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes Queen"
+            }
+          },
+          {
+            "id": "homenaje-queen-04-dont-stop-me-now",
+            "track_number": 142,
+            "title": "Don't Stop Me Now",
+            "artist": "Queen",
+            "duration": "3:29",
+            "mp3_url": "/audio/homenajes/queen-dont-stop-me-now.mp3",
+            "chords_url": "/chords/homenajes/queen-dont-stop-me-now.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 156,
+              "tonalidad": "F Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes Queen"
+            }
+          },
+          {
+            "id": "homenaje-queen-05-somebody-to-love",
+            "track_number": 143,
+            "title": "Somebody to Love",
+            "artist": "Queen",
+            "duration": "4:56",
+            "mp3_url": "/audio/homenajes/queen-somebody-to-love.mp3",
+            "chords_url": "/chords/homenajes/queen-somebody-to-love.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 112,
+              "tonalidad": "Ab Mayor",
+              "compas": "4/4",
+              "dificultad": "Difícil",
+              "style": "Gospel Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes Queen"
+            }
+          },
+          {
+            "id": "homenaje-queen-06-love-of-my-life",
+            "track_number": 144,
+            "title": "Love of My Life",
+            "artist": "Queen",
+            "duration": "3:39",
+            "mp3_url": "/audio/homenajes/queen-love-of-my-life.mp3",
+            "chords_url": "/chords/homenajes/queen-love-of-my-life.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 72,
+              "tonalidad": "C Mayor",
+              "compas": "6/8",
+              "dificultad": "Media",
+              "style": "Balada",
+              "genre": "Rock",
+              "categoria": "Homenajes Queen"
+            }
+          },
+          {
+            "id": "homenaje-queen-07-crazy-little-thing-called-love",
+            "track_number": 145,
+            "title": "Crazy Little Thing Called Love",
+            "artist": "Queen",
+            "duration": "2:43",
+            "mp3_url": "/audio/homenajes/queen-crazy-little-thing-called-love.mp3",
+            "chords_url": "/chords/homenajes/queen-crazy-little-thing-called-love.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 148,
+              "tonalidad": "D Mayor",
+              "compas": "4/4",
+              "dificultad": "Fácil",
+              "style": "Rockabilly",
+              "genre": "Rock",
+              "categoria": "Homenajes Queen"
+            }
+          },
+          {
+            "id": "homenaje-queen-08-radio-ga-ga",
+            "track_number": 146,
+            "title": "Radio Ga Ga",
+            "artist": "Queen",
+            "duration": "5:49",
+            "mp3_url": "/audio/homenajes/queen-radio-ga-ga.mp3",
+            "chords_url": "/chords/homenajes/queen-radio-ga-ga.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 112,
+              "tonalidad": "C Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Synth-pop",
+              "genre": "Rock",
+              "categoria": "Homenajes Queen"
+            }
+          },
+          {
+            "id": "homenaje-queen-09-i-want-to-break-free",
+            "track_number": 147,
+            "title": "I Want to Break Free",
+            "artist": "Queen",
+            "duration": "3:20",
+            "mp3_url": "/audio/homenajes/queen-i-want-to-break-free.mp3",
+            "chords_url": "/chords/homenajes/queen-i-want-to-break-free.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 108,
+              "tonalidad": "D Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Synth-pop",
+              "genre": "Rock",
+              "categoria": "Homenajes Queen"
+            }
+          },
+          {
+            "id": "homenaje-queen-10-killer-queen",
+            "track_number": 148,
+            "title": "Killer Queen",
+            "artist": "Queen",
+            "duration": "3:01",
+            "mp3_url": "/audio/homenajes/queen-killer-queen.mp3",
+            "chords_url": "/chords/homenajes/queen-killer-queen.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 112,
+              "tonalidad": "Eb Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Glam Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes Queen"
+            }
+          }
+        ]
+      }
+    ]
+  }

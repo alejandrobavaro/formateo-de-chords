@@ -1,0 +1,214 @@
+{
+    "artista": "García, Páez, Spinetta",
+    "discografia": [
+      {
+        "album_id": "homenajes-garcia-paez-spinetta",
+        "album_name": "HOMENAJES García, Páez, Spinetta",
+        "year": "2024",
+          "cover_image": "/img/02-logos/logo-formateo-chords2.png",
+        "genre": "Rock",
+        "songs": [
+          {
+            "id": "homenaje-charly-garcia-01-demoliendo-hoteles",
+            "track_number": 1,
+            "title": "Demoliendo Hoteles",
+            "artist": "Charly García",
+            "duration": "3:22",
+            "mp3_url": "/audio/homenajes/charly-garcia-demoliendo-hoteles.mp3",
+            "chords_url": "/chords/homenajes/charly-garcia-demoliendo-hoteles.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 140,
+              "tonalidad": "A Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes Charly García"
+            }
+          },
+          {
+            "id": "homenaje-charly-garcia-02-rezo-por-vos",
+            "track_number": 2,
+            "title": "Rezo por Vos",
+            "artist": "Charly García",
+            "duration": "4:15",
+            "mp3_url": "/audio/homenajes/charly-garcia-rezo-por-vos.mp3",
+            "chords_url": "/chords/homenajes/charly-garcia-rezo-por-vos.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 112,
+              "tonalidad": "E Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes Charly García"
+            }
+          },
+          {
+            "id": "homenaje-charly-garcia-03-cerca-de-la-revolucion",
+            "track_number": 3,
+            "title": "Cerca de la Revolución",
+            "artist": "Charly García",
+            "duration": "4:40",
+            "mp3_url": "/audio/homenajes/charly-garcia-cerca-de-la-revolucion.mp3",
+            "chords_url": "/chords/homenajes/charly-garcia-cerca-de-la-revolucion.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 126,
+              "tonalidad": "D Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes Charly García"
+            }
+          },
+          {
+            "id": "homenaje-fito-paez-01-11-y-6",
+            "track_number": 4,
+            "title": "11 y 6",
+            "artist": "Fito Páez",
+            "duration": "3:28",
+            "mp3_url": "/audio/homenajes/fito-paez-11-y-6.mp3",
+            "chords_url": "/chords/homenajes/fito-paez-11-y-6.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 118,
+              "tonalidad": "F Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes Fito Páez"
+            }
+          },
+          {
+            "id": "homenaje-fito-paez-02-el-amor-despues-del-amor",
+            "track_number": 5,
+            "title": "El Amor Después del Amor",
+            "artist": "Fito Páez",
+            "duration": "5:10",
+            "mp3_url": "/audio/homenajes/fito-paez-el-amor-despues-del-amor.mp3",
+            "chords_url": "/chords/homenajes/fito-paez-el-amor-despues-del-amor.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 104,
+              "tonalidad": "G Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes Fito Páez"
+            }
+          },
+          {
+            "id": "homenaje-fito-paez-03-y-dale-alegria-a-mi-corazon",
+            "track_number": 6,
+            "title": "Y Dale Alegría a Mi Corazón",
+            "artist": "Fito Páez",
+            "duration": "4:15",
+            "mp3_url": "/audio/homenajes/fito-paez-y-dale-alegria-a-mi-corazon.mp3",
+            "chords_url": "/chords/homenajes/fito-paez-y-dale-alegria-a-mi-corazon.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 122,
+              "tonalidad": "C Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes Fito Páez"
+            }
+          },
+          {
+            "id": "homenaje-luis-alberto-spinetta-01-muchacha-ojos-de-papel",
+            "track_number": 7,
+            "title": "Muchacha (Ojos de Papel)",
+            "artist": "Luis Alberto Spinetta",
+            "duration": "3:08",
+            "mp3_url": "/audio/homenajes/spinetta-muchacha-ojos-de-papel.mp3",
+            "chords_url": "/chords/homenajes/spinetta-muchacha-ojos-de-papel.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 96,
+              "tonalidad": "G Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes Luis Alberto Spinetta"
+            }
+          },
+          {
+            "id": "homenaje-luis-alberto-spinetta-02-barro-tal-vez",
+            "track_number": 8,
+            "title": "Barro Tal Vez",
+            "artist": "Luis Alberto Spinetta",
+            "duration": "4:22",
+            "mp3_url": "/audio/homenajes/spinetta-barro-tal-vez.mp3",
+            "chords_url": "/chords/homenajes/spinetta-barro-tal-vez.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 108,
+              "tonalidad": "Em",
+              "compas": "4/4",
+              "dificultad": "Difícil",
+              "style": "Rock Progresivo",
+              "genre": "Rock",
+              "categoria": "Homenajes Luis Alberto Spinetta"
+            }
+          },
+          {
+            "id": "homenaje-luis-alberto-spinetta-03-aguas-clarvas",
+            "track_number": 9,
+            "title": "Aguas Claras",
+            "artist": "Luis Alberto Spinetta",
+            "duration": "4:05",
+            "mp3_url": "/audio/homenajes/spinetta-aguas-claras.mp3",
+            "chords_url": "/chords/homenajes/spinetta-aguas-claras.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 88,
+              "tonalidad": "D Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes Luis Alberto Spinetta"
+            }
+          },
+          {
+            "id": "homenaje-luis-alberto-spinetta-04-esta-sembrada-mi-tierra",
+            "track_number": 10,
+            "title": "Esta Sembrada Mi Tierra",
+            "artist": "Luis Alberto Spinetta",
+            "duration": "4:18",
+            "mp3_url": "/audio/homenajes/spinetta-esta-sembrada-mi-tierra.mp3",
+            "chords_url": "/chords/homenajes/spinetta-esta-sembrada-mi-tierra.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 112,
+              "tonalidad": "A Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes Luis Alberto Spinetta"
+            }
+          }
+        ]
+      }
+    ]
+  }

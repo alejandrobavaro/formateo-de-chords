@@ -1,0 +1,81 @@
+{
+    "id": "zapada-jazz-016",
+    "title": "Zapada Smooth Jazz",
+    "artist": "Rockola Covers",
+    "originalKey": "Eb",
+    "tempo": 95,
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Ebmaj7", "Abmaj7", "Bb7", "Ebmaj7"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SECCIÓN A",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "Ebmaj7"
+          },
+          {
+            "type": "lyric": "Smooth jazz relajado,"
+          },
+          {
+            "type": "chord",
+            "content": "Abmaj7"
+          },
+          {
+            "type": "lyric": ""
+          },
+          {
+            "type": "chord",
+            "content": "Bb7"
+          },
+          {
+            "type": "lyric": "melodías que fluyen."
+          },
+          {
+            "type": "chord",
+            "content": "Ebmaj7"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PUENTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Fm7", "Bb7", "Ebmaj7", "Abmaj7"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Ebmaj7", "Bb7", "Abmaj7", "Ebmaj7"]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,81 @@
+{
+    "id": "zapada-experimentales-003",
+    "title": "Zapada Experimental Variación 1 en Variada",
+    "artist": "Rockola Covers",
+    "originalKey": "Variada",
+    "tempo": 80,
+    "timeSignature": "Variado",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "F", "G", "Am"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SECCIÓN 1",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "C"
+          },
+          {
+            "type": "lyric": "Sonidos que rompen el molde,"
+          },
+          {
+            "type": "chord",
+            "content": "F"
+          },
+          {
+            "type": "lyric": ""
+          },
+          {
+            "type": "chord",
+            "content": "G"
+          },
+          {
+            "type": "lyric": "la música experimental es arte."
+          },
+          {
+            "type": "chord",
+            "content": "Am"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "SECCIÓN 2",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["Dm", "Bb", "C", "F"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["C", "G", "Am", "F", "C"]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,215 @@
+{
+  "artista": "Aerosmith",
+  "categoria": "homenajes",
+  "discografia": [
+    {
+      "album_id": "homenajes-aerosmith-00",
+      "album_name": "HOMENAJE A AEROSMITH",
+      "year": "2024",
+      "cover_image": "/img/02-logos/logo-formateo-chords2.png",
+      "genre": "Homenajes",
+      "songs": [
+        {
+          "id": "homenaje-aerosmith-01-i-dont-wanna-miss-a-thing",
+          "track_number": 1,
+          "title": "I Don't Want to Miss a Thing",
+          "artist": "Aerosmith",
+          "duration": "4:56",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-aerosmith/aerosmith-i-dont-want-to-miss-a-thing.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-aerosmith/aerosmith-i-dont-want-to-miss-a-thing.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 65,
+            "tonalidad": "C Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Power Ballad",
+            "genre": "Rock",
+            "categoria": "Homenajes Aerosmith"
+          }
+        },
+        {
+          "id": "homenaje-aerosmith-02-dream-on",
+          "track_number": 2,
+          "title": "Dream On",
+          "artist": "Aerosmith",
+          "duration": "4:26",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-aerosmith/aerosmith-dream-on.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-aerosmith/aerosmith-dream-on.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 136,
+            "tonalidad": "D Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Aerosmith"
+          }
+        },
+        {
+          "id": "homenaje-aerosmith-03-walk-this-way",
+          "track_number": 3,
+          "title": "Walk This Way",
+          "artist": "Aerosmith",
+          "duration": "3:40",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-aerosmith/aerosmith-walk-this-way.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-aerosmith/aerosmith-walk-this-way.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 109,
+            "tonalidad": "E Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Hard Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Aerosmith"
+          }
+        },
+        {
+          "id": "homenaje-aerosmith-04-crazy",
+          "track_number": 4,
+          "title": "Crazy",
+          "artist": "Aerosmith",
+          "duration": "5:16",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-aerosmith/aerosmith-crazy.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-aerosmith/aerosmith-crazy.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 98,
+            "tonalidad": "A Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Aerosmith"
+          }
+        },
+        {
+          "id": "homenaje-aerosmith-05-cryin",
+          "track_number": 5,
+          "title": "Cryin'",
+          "artist": "Aerosmith",
+          "duration": "5:08",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-aerosmith/aerosmith-cryin.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-aerosmith/aerosmith-cryin.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 112,
+            "tonalidad": "G Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Aerosmith"
+          }
+        },
+        {
+          "id": "homenaje-aerosmith-06-amazing",
+          "track_number": 6,
+          "title": "Amazing",
+          "artist": "Aerosmith",
+          "duration": "5:56",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-aerosmith/aerosmith-amazing.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-aerosmith/aerosmith-amazing.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 72,
+            "tonalidad": "C Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Ballad",
+            "genre": "Rock",
+            "categoria": "Homenajes Aerosmith"
+          }
+        },
+        {
+          "id": "homenaje-aerosmith-07-what-it-takes",
+          "track_number": 7,
+          "title": "What It Takes",
+          "artist": "Aerosmith",
+          "duration": "5:11",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-aerosmith/aerosmith-what-it-takes.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-aerosmith/aerosmith-what-it-takes.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 124,
+            "tonalidad": "E Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Aerosmith"
+          }
+        },
+        {
+          "id": "homenaje-aerosmith-08-pink",
+          "track_number": 8,
+          "title": "Pink",
+          "artist": "Aerosmith",
+          "duration": "3:55",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-aerosmith/aerosmith-pink.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-aerosmith/aerosmith-pink.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 122,
+            "tonalidad": "A Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Aerosmith"
+          }
+        },
+        {
+          "id": "homenaje-aerosmith-09-hole-in-my-soul",
+          "track_number": 9,
+          "title": "Hole in My Soul",
+          "artist": "Aerosmith",
+          "duration": "6:10",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-aerosmith/aerosmith-hole-in-my-soul.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-aerosmith/aerosmith-hole-in-my-soul.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 80,
+            "tonalidad": "D Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Aerosmith"
+          }
+        },
+        {
+          "id": "homenaje-aerosmith-10-i-dont-wanna-miss-a-thing-alt",
+          "track_number": 10,
+          "title": "I Don't Wanna Miss a Thing (Alternate)",
+          "artist": "Aerosmith",
+          "duration": "4:56",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-aerosmith/aerosmith-i-dont-wanna-miss-a-thing.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-aerosmith/aerosmith-i-dont-wanna-miss-a-thing.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 65,
+            "tonalidad": "C Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Power Ballad",
+            "genre": "Rock",
+            "categoria": "Homenajes Aerosmith"
+          }
+        }
+      ]
+    }
+  ]
+}

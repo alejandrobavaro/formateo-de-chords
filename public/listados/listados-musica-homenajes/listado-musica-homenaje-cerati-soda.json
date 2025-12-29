@@ -1,0 +1,395 @@
+{
+  "artista": "Cerati/Soda Stereo",
+  "categoria": "homenajes",
+  "discografia": [
+    {
+      "album_id": "homenajes-cerati-soda-00",
+      "album_name": "HOMENAJE A CERATI/SODA STEREO",
+      "year": "2025",
+      "cover_image": "/img/02-logos/logo-formateo-chords2.png",
+      "genre": "Rock",
+      "songs": [
+        {
+          "id": "homenaje-soda-stereo-01-de-musica-ligera",
+          "track_number": 1,
+          "title": "De Música Ligera",
+          "artist": "Soda Stereo",
+          "duration": "3:32",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-cerati-soda/de-musica-ligera.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-cerati-soda/de-musica-ligera.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 136,
+            "tonalidad": "Em",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Soda Stereo"
+          }
+        },
+        {
+          "id": "homenaje-soda-stereo-02-persiana-americana",
+          "track_number": 2,
+          "title": "Persiana Americana",
+          "artist": "Soda Stereo",
+          "duration": "4:52",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-cerati-soda/persiana-americana.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-cerati-soda/persiana-americana.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 126,
+            "tonalidad": "D Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Soda Stereo"
+          }
+        },
+        {
+          "id": "homenaje-soda-stereo-03-en-la-ciudad-de-la-furia",
+          "track_number": 3,
+          "title": "En la Ciudad de la Furia",
+          "artist": "Soda Stereo",
+          "duration": "5:46",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-cerati-soda/en-la-ciudad-de-la-furia.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-cerati-soda/en-la-ciudad-de-la-furia.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 112,
+            "tonalidad": "Am",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Soda Stereo"
+          }
+        },
+        {
+          "id": "homenaje-soda-stereo-04-primavera-0",
+          "track_number": 4,
+          "title": "Primavera 0",
+          "artist": "Soda Stereo",
+          "duration": "3:41",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-cerati-soda/primavera-0.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-cerati-soda/primavera-0.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 124,
+            "tonalidad": "E Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Soda Stereo"
+          }
+        },
+        {
+          "id": "homenaje-soda-stereo-05-signos",
+          "track_number": 5,
+          "title": "Signos",
+          "artist": "Soda Stereo",
+          "duration": "5:17",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-cerati-soda/signos.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-cerati-soda/signos.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 118,
+            "tonalidad": "G Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Soda Stereo"
+          }
+        },
+        {
+          "id": "homenaje-soda-stereo-06-te-para-tres",
+          "track_number": 6,
+          "title": "Te Para Tres",
+          "artist": "Soda Stereo",
+          "duration": "4:22",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-cerati-soda/te-para-tres.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-cerati-soda/te-para-tres.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 120,
+            "tonalidad": "A Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Soda Stereo"
+          }
+        },
+        {
+          "id": "homenaje-soda-stereo-07-juegos-de-seduccion",
+          "track_number": 7,
+          "title": "Juegos de Seducción",
+          "artist": "Soda Stereo",
+          "duration": "3:18",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-cerati-soda/juegos-de-seduccion.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-cerati-soda/juegos-de-seduccion.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 130,
+            "tonalidad": "E Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Soda Stereo"
+          }
+        },
+        {
+          "id": "homenaje-soda-stereo-08-proxima-senal",
+          "track_number": 8,
+          "title": "Próxima Señal",
+          "artist": "Soda Stereo",
+          "duration": "5:08",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-cerati-soda/proxima-senal.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-cerati-soda/proxima-senal.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 116,
+            "tonalidad": "D Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Soda Stereo"
+          }
+        },
+        {
+          "id": "homenaje-soda-stereo-09-hombre-al-agua",
+          "track_number": 9,
+          "title": "Hombre al Agua",
+          "artist": "Soda Stereo",
+          "duration": "4:41",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-cerati-soda/hombre-al-agua.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-cerati-soda/hombre-al-agua.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 122,
+            "tonalidad": "Am",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Soda Stereo"
+          }
+        },
+        {
+          "id": "homenaje-soda-stereo-10-tratame-suavemente",
+          "track_number": 10,
+          "title": "Trátame Suavemente",
+          "artist": "Soda Stereo",
+          "duration": "3:20",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-cerati-soda/tratame-suavemente.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-cerati-soda/tratame-suavemente.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 128,
+            "tonalidad": "G Mayor",
+            "compas": "4/4",
+            "dificultad": "Fácil",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Soda Stereo"
+          }
+        },
+        {
+          "id": "homenaje-cerati-soda-11-adios",
+          "track_number": 11,
+          "title": "Adios",
+          "artist": "Gustavo Cerati",
+          "duration": "0:00",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-cerati-soda/adios.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-cerati-soda/adios.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 0,
+            "tonalidad": "",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Cerati/Soda"
+          }
+        },
+        {
+          "id": "homenaje-cerati-soda-12-crimen",
+          "track_number": 12,
+          "title": "Crimen",
+          "artist": "Gustavo Cerati",
+          "duration": "0:00",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-cerati-soda/crimen.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-cerati-soda/crimen.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 0,
+            "tonalidad": "",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Cerati/Soda"
+          }
+        },
+        {
+          "id": "homenaje-cerati-soda-13-el-mareo",
+          "track_number": 13,
+          "title": "El Mareo",
+          "artist": "Gustavo Cerati",
+          "duration": "0:00",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-cerati-soda/el-mareo.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-cerati-soda/el-mareo.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 0,
+            "tonalidad": "",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Cerati/Soda"
+          }
+        },
+        {
+          "id": "homenaje-cerati-soda-14-la-excepcion",
+          "track_number": 14,
+          "title": "La Excepcion",
+          "artist": "Gustavo Cerati",
+          "duration": "0:00",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-cerati-soda/la-excepcion.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-cerati-soda/la-excepcion.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 0,
+            "tonalidad": "",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Cerati/Soda"
+          }
+        },
+        {
+          "id": "homenaje-cerati-soda-15-puente",
+          "track_number": 15,
+          "title": "Puente",
+          "artist": "Gustavo Cerati",
+          "duration": "0:00",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-cerati-soda/puente.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-cerati-soda/puente.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 0,
+            "tonalidad": "",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Cerati/Soda"
+          }
+        },
+        {
+          "id": "homenaje-cerati-soda-16-profugos",
+          "track_number": 16,
+          "title": "Profugos",
+          "artist": "Soda Stereo",
+          "duration": "0:00",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-cerati-soda/profugos.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-cerati-soda/profugos.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 0,
+            "tonalidad": "",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Cerati/Soda"
+          }
+        },
+        {
+          "id": "homenaje-cerati-soda-17-sueles-dejarme-solo",
+          "track_number": 17,
+          "title": "Sueles Dejarme Solo",
+          "artist": "Soda Stereo",
+          "duration": "0:00",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-cerati-soda/sueles-dejarme-solo.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-cerati-soda/sueles-dejarme-solo.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 0,
+            "tonalidad": "",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Cerati/Soda"
+          }
+        },
+        {
+          "id": "homenaje-cerati-soda-18-un-misil-en-mi-placard",
+          "track_number": 18,
+          "title": "Un Misil En Mi Placard",
+          "artist": "Soda Stereo",
+          "duration": "0:00",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-cerati-soda/un-misil-en-mi-placard.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-cerati-soda/un-misil-en-mi-placard.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 0,
+            "tonalidad": "",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Cerati/Soda"
+          }
+        },
+        {
+          "id": "homenaje-cerati-soda-19-zoom",
+          "track_number": 19,
+          "title": "Zoom",
+          "artist": "Soda Stereo",
+          "duration": "0:00",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-cerati-soda/zoom.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-cerati-soda/zoom.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 0,
+            "tonalidad": "",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Cerati/Soda"
+          }
+        }
+      ]
+    }
+  ]
+}

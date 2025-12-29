@@ -1,0 +1,81 @@
+{
+    "id": "zapada-metal-004",
+    "title": "Zapada Metal Versión Acústica 2",
+    "artist": "Rockola Covers",
+    "originalKey": "E",
+    "tempo": 150,
+    "timeSignature": "4/4",
+    "content": [
+      {
+        "type": "section",
+        "name": "INTRO",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "D", "A", "E"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "ESTROFA 1",
+        "lines": [
+          {
+            "type": "chord",
+            "content": "E"
+          },
+          {
+            "type": "lyric": "Metal acústico, melodía y fuerza,"
+          },
+          {
+            "type": "chord",
+            "content": "D"
+          },
+          {
+            "type": "lyric": ""
+          },
+          {
+            "type": "chord",
+            "content": "A"
+          },
+          {
+            "type": "lyric": "la guitarra suena con pasión."
+          },
+          {
+            "type": "chord",
+            "content": "E"
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "PUENTE",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["B", "A", "E", "D"]
+          }
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "name": "FINAL",
+        "lines": [
+          {
+            "type": "chords",
+            "content": ["E", "D", "A", "E"]
+          }
+        ]
+      }
+    ]
+  }
+  

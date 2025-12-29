@@ -1,0 +1,731 @@
+{
+  "id": "bryan-adams-all-for-love",
+  "title": "All For Love",
+  "artist": "Bryan Adams",
+  "originalKey": "A",
+  "tempo": "Balada Rock",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "When it's love you give"
+        },
+        {
+          "type": "text",
+          "content": "(I'll be a man of good faith.)"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Then in love you live."
+        },
+        {
+          "type": "text",
+          "content": "(I'll make a stand. I won't break.)"
+        },
+        {
+          "type": "chords",
+          "content": ["A/C#"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'll be the rock you can build on,"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "be there when you're old,"
+        },
+        {
+          "type": "chords",
+          "content": ["A/E"]
+        },
+        {
+          "type": "lyric",
+          "content": "To have and to hold."
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "When there's love inside"
+        },
+        {
+          "type": "text",
+          "content": "(I swear I'll always be strong.)"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Then there's a reason why."
+        },
+        {
+          "type": "text",
+          "content": "(I'll prove to you we belong.)"
+        },
+        {
+          "type": "chords",
+          "content": ["A/C#"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'll be the wall that protects you"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "from the wind and the rain,"
+        },
+        {
+          "type": "chords",
+          "content": ["A/E"]
+        },
+        {
+          "type": "lyric",
+          "content": "From the hurt and pain."
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["N.C."]
+        },
+        {
+          "type": "lyric",
+          "content": "Let's make it all for one and all for love."
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Let the one you hold be the one you want,"
+        },
+        {
+          "type": "chords",
+          "content": ["A/E"]
+        },
+        {
+          "type": "lyric",
+          "content": "the one you need,"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A/C#"]
+        },
+        {
+          "type": "lyric",
+          "content": "'Cause when it's all for one"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "it's one for all."
+        },
+        {
+          "type": "chords",
+          "content": ["F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A/C#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7"]
+        },
+        {
+          "type": "lyric",
+          "content": "When there's someone that should know"
+        },
+        {
+          "type": "chords",
+          "content": ["A/C#"]
+        },
+        {
+          "type": "lyric",
+          "content": "then just let your feelings show"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A/E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "And make it all for one and all for love."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 3",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "When it's love you make"
+        },
+        {
+          "type": "text",
+          "content": "(I'll be the fire in your night.)"
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "Then it's love you take."
+        },
+        {
+          "type": "text",
+          "content": "(I will defend, I will fight.)"
+        },
+        {
+          "type": "chords",
+          "content": ["A/C#"]
+        },
+        {
+          "type": "lyric",
+          "content": "I'll be there when you need me."
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A/E"]
+        },
+        {
+          "type": "lyric",
+          "content": "When honor's at stake,"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "this vow I will make:"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["Asus/B", "A/C#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["N.C."]
+        },
+        {
+          "type": "lyric",
+          "content": "Let's make it all for one and all for love."
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Let the one you hold be the one you want,"
+        },
+        {
+          "type": "chords",
+          "content": ["A/E"]
+        },
+        {
+          "type": "lyric",
+          "content": "the one you need,"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A/C#"]
+        },
+        {
+          "type": "lyric",
+          "content": "'Cause when it's all for one"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "it's one for all."
+        },
+        {
+          "type": "chords",
+          "content": ["F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A/C#"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7"]
+        },
+        {
+          "type": "lyric",
+          "content": "When there's someone that should know"
+        },
+        {
+          "type": "chords",
+          "content": ["A/C#"]
+        },
+        {
+          "type": "lyric",
+          "content": "then just let your feelings show"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A/E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "And make it all for one and all for love."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "BRIDGE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "Don't lay our love to rest"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "'cause we could stand up to your test."
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": "We got everything and more than we had planned,"
+        },
+        {
+          "type": "chords",
+          "content": ["A/C#"]
+        },
+        {
+          "type": "lyric",
+          "content": "More than the rivers that run the land."
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "We've got it all in our hands."
+        },
+        {
+          "type": "chords",
+          "content": ["D", "Bm7", "Asus", "A", "Asus", "A", "D", "Bm7", "Esus"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL CHORUS",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "Now it's all for one and all for love."
+        },
+        {
+          "type": "text",
+          "content": "(It's all for love.)"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Let the one you hold be the one you want,"
+        },
+        {
+          "type": "chords",
+          "content": ["A/E"]
+        },
+        {
+          "type": "lyric",
+          "content": "the one you need,"
+        },
+        {
+          "type": "chords",
+          "content": ["E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A/C#"]
+        },
+        {
+          "type": "lyric",
+          "content": "'Cause when it's all for one"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": "it's one for all."
+        },
+        {
+          "type": "text",
+          "content": "(It's one for all.)"
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7"]
+        },
+        {
+          "type": "lyric",
+          "content": "When there's someone that should know"
+        },
+        {
+          "type": "chords",
+          "content": ["A/C#"]
+        },
+        {
+          "type": "lyric",
+          "content": "then just let your feelings show"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A/E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["F#m"]
+        },
+        {
+          "type": "lyric",
+          "content": "When there's someone that you want,"
+        },
+        {
+          "type": "chords",
+          "content": ["A/C#"]
+        },
+        {
+          "type": "lyric",
+          "content": "when there's someone that you need"
+        },
+        {
+          "type": "chords",
+          "content": ["D"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A/E"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Bm7"]
+        },
+        {
+          "type": "lyric",
+          "content": "Let's make it all,"
+        },
+        {
+          "type": "chords",
+          "content": ["Dm"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Dm7"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["Esus"]
+        },
+        {
+          "type": "lyric",
+          "content": ""
+        },
+        {
+          "type": "chords",
+          "content": ["A"]
+        },
+        {
+          "type": "lyric",
+          "content": "all for one and all for love."
+        }
+      ]
+    }
+  ]
+}

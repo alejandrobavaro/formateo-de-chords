@@ -1,0 +1,214 @@
+{
+    "artista": "Rockola Covers",
+    "discografia": [
+      {
+        "album_id": "homenajes-internacionales-00",
+        "album_name": "HOMENAJES INTERNACIONALES",
+        "year": "2024",
+          "cover_image": "/img/02-logos/logo-formateo-chords2.png",
+        "genre": "Homenajes",
+        "songs": [
+          {
+            "id": "homenaje-elton-john-01-your-song",
+            "track_number": 49,
+            "title": "Your Song",
+            "artist": "Elton John",
+            "duration": "4:01",
+            "mp3_url": "/audio/homenajes/elton-john-your-song.mp3",
+            "chords_url": "/chords/homenajes/elton-john-your-song.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 66,
+              "tonalidad": "Db Mayor",
+              "compas": "4/4",
+              "dificultad": "Fácil",
+              "style": "Pop",
+              "genre": "Pop",
+              "categoria": "Homenajes Elton John"
+            }
+          },
+          {
+            "id": "homenaje-elton-john-02-rocket-man",
+            "track_number": 50,
+            "title": "Rocket Man",
+            "artist": "Elton John",
+            "duration": "4:41",
+            "mp3_url": "/audio/homenajes/elton-john-rocket-man.mp3",
+            "chords_url": "/chords/homenajes/elton-john-rocket-man.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 112,
+              "tonalidad": "F Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Pop Rock",
+              "genre": "Pop",
+              "categoria": "Homenajes Elton John"
+            }
+          },
+          {
+            "id": "homenaje-elton-john-03-tiny-dancer",
+            "track_number": 51,
+            "title": "Tiny Dancer",
+            "artist": "Elton John",
+            "duration": "6:15",
+            "mp3_url": "/audio/homenajes/elton-john-tiny-dancer.mp3",
+            "chords_url": "/chords/homenajes/elton-john-tiny-dancer.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 126,
+              "tonalidad": "C Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Pop Rock",
+              "genre": "Pop",
+              "categoria": "Homenajes Elton John"
+            }
+          },
+          {
+            "id": "homenaje-elton-john-04-goodbye-yellow-brick-road",
+            "track_number": 52,
+            "title": "Goodbye Yellow Brick Road",
+            "artist": "Elton John",
+            "duration": "3:13",
+            "mp3_url": "/audio/homenajes/elton-john-goodbye-yellow-brick-road.mp3",
+            "chords_url": "/chords/homenajes/elton-john-goodbye-yellow-brick-road.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 104,
+              "tonalidad": "F Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Pop Rock",
+              "genre": "Pop",
+              "categoria": "Homenajes Elton John"
+            }
+          },
+          {
+            "id": "homenaje-elton-john-05-candle-in-the-wind",
+            "track_number": 53,
+            "title": "Candle in the Wind",
+            "artist": "Elton John",
+            "duration": "3:50",
+            "mp3_url": "/audio/homenajes/elton-john-candle-in-the-wind.mp3",
+            "chords_url": "/chords/homenajes/elton-john-candle-in-the-wind.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 76,
+              "tonalidad": "C Mayor",
+              "compas": "4/4",
+              "dificultad": "Fácil",
+              "style": "Balada",
+              "genre": "Pop",
+              "categoria": "Homenajes Elton John"
+            }
+          },
+          {
+            "id": "homenaje-george-michael-01-careless-whisper",
+            "track_number": 54,
+            "title": "Careless Whisper",
+            "artist": "George Michael",
+            "duration": "5:00",
+            "mp3_url": "/audio/homenajes/george-michael-careless-whisper.mp3",
+            "chords_url": "/chords/homenajes/george-michael-careless-whisper.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 102,
+              "tonalidad": "Dm",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Pop",
+              "genre": "Pop",
+              "categoria": "Homenajes George Michael"
+            }
+          },
+          {
+            "id": "homenaje-george-michael-02-faith",
+            "track_number": 55,
+            "title": "Faith",
+            "artist": "George Michael",
+            "duration": "3:16",
+            "mp3_url": "/audio/homenajes/george-michael-faith.mp3",
+            "chords_url": "/chords/homenajes/george-michael-faith.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 100,
+              "tonalidad": "G Mayor",
+              "compas": "4/4",
+              "dificultad": "Fácil",
+              "style": "Pop Rock",
+              "genre": "Pop",
+              "categoria": "Homenajes George Michael"
+            }
+          },
+          {
+            "id": "homenaje-george-michael-03-freedom-90",
+            "track_number": 56,
+            "title": "Freedom! '90",
+            "artist": "George Michael",
+            "duration": "6:30",
+            "mp3_url": "/audio/homenajes/george-michael-freedom-90.mp3",
+            "chords_url": "/chords/homenajes/george-michael-freedom-90.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 110,
+              "tonalidad": "C Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Pop",
+              "genre": "Pop",
+              "categoria": "Homenajes George Michael"
+            }
+          },
+          {
+            "id": "homenaje-george-michael-04-last-christmas",
+            "track_number": 57,
+            "title": "Last Christmas",
+            "artist": "George Michael",
+            "duration": "4:27",
+            "mp3_url": "/audio/homenajes/george-michael-last-christmas.mp3",
+            "chords_url": "/chords/homenajes/george-michael-last-christmas.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 108,
+              "tonalidad": "G Mayor",
+              "compas": "4/4",
+              "dificultad": "Fácil",
+              "style": "Pop Navideño",
+              "genre": "Pop",
+              "categoria": "Homenajes George Michael"
+            }
+          },
+          {
+            "id": "homenaje-george-michael-05-father-figure",
+            "track_number": 58,
+            "title": "Father Figure",
+            "artist": "George Michael",
+            "duration": "5:36",
+            "mp3_url": "/audio/homenajes/george-michael-father-figure.mp3",
+            "chords_url": "/chords/homenajes/george-michael-father-figure.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 94,
+              "tonalidad": "F#m",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Pop",
+              "genre": "Pop",
+              "categoria": "Homenajes George Michael"
+            }
+          }
+        ]
+      }
+    ]
+  }

@@ -1,36 +1,145 @@
 // ============================================
-// ARCHIVO: MMusicaEscucha.jsx - VERSIÓN COMPLETA CON MEJOR CONTRASTE
+// ARCHIVO: MMusicaEscucha.jsx - VERSIÓN COMPLETA
+// DESCRIPCIÓN: Componente principal del reproductor de música con soporte para ZAPADAS
+// CORRECCIONES: Manejo específico para categoría zapadas
 // ============================================
 
-import React, { useState, useEffect, useRef, useCallback } from 'react';
+import React, { useState, useEffect, useRef, useCallback, memo } from 'react';
 import { useMusicaContexto } from './MusicaContexto';
 import { loadAllMusicData, loadChordsData } from './services/musicDataService';
 import MusicaCancionesLista from './MusicaCancionesLista';
 import MusicaReproductor from './MusicaReproductor';
 import ChordsViewerIndex from '../ChordsViewer/ChordsViewerIndex';
 import { 
-  BsMusicNoteBeamed, 
-  BsPlayCircle, 
-  BsPauseCircle, 
-  BsVolumeUp, 
-  BsDownload,
-  BsSkipForward,
-  BsSkipBackward,
-  BsListUl,
-  BsChevronDown,
-  BsChevronUp,
-  BsSearch,
-  BsFilter,
-  BsCollectionPlay,
-  BsVolumeMute,
-  BsVolumeDown,
-  BsVolumeUp as BsVolumeUpIcon
-} from "react-icons/bs";
+  FiMusic,
+  FiPlayCircle,
+  FiPauseCircle,
+  FiVolume2,
+  FiDownload,
+  FiSkipForward,
+  FiSkipBack,
+  FiList,
+  FiChevronDown,
+  FiChevronUp,
+  FiSearch,
+  FiFilter,
+  FiPlay,
+  FiVolumeX,
+  FiVolume1,
+  FiVolume,
+  FiStar,
+  FiZap
+} from "react-icons/fi";
 import '../../assets/scss/_03-Componentes/_MMusicaEscucha.scss';
 
+// ============================================
+// COMPONENTE ERROR BOUNDARY
+// ============================================
+class ErrorBoundary extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { hasError: false, error: null, errorInfo: null };
+  }
+
+  static getDerivedStateFromError(error) {
+    return { hasError: true, error };
+  }
+
+  componentDidCatch(error, errorInfo) {
+    console.error('❌ Error capturado en ErrorBoundary:', error);
+    console.error('📋 Información del error:', errorInfo);
+    this.setState({ errorInfo });
+  }
+
+  handleReload = () => {
+    window.location.reload();
+  }
+
+  handleReset = () => {
+    this.setState({ hasError: false, error: null, errorInfo: null });
+  }
+
+  render() {
+    if (this.state.hasError) {
+      return (
+        <div className="error-boundary-container">
+          <div className="error-boundary-content">
+            <div className="error-boundary-icon">⚠️</div>
+            <h2 className="error-boundary-title">¡Ups! Algo salió mal</h2>
+            <p className="error-boundary-message">
+              Se produjo un error al cargar el reproductor de música.
+            </p>
+            <div className="error-boundary-actions">
+              <button 
+                className="error-boundary-btn error-boundary-btn-primary"
+                onClick={this.handleReload}
+              >
+                Recargar página completa
+              </button>
+              <button 
+                className="error-boundary-btn error-boundary-btn-secondary"
+                onClick={this.handleReset}
+              >
+                Intentar nuevamente
+              </button>
+            </div>
+          </div>
+        </div>
+      );
+    }
+
+    return this.props.children;
+  }
+}
+
+// ============================================
+// COMPONENTE DE IMAGEN SEGURO
+// ============================================
+const SafeImage = memo(({ src, alt, className, fallbackSrc, onError, onLoad }) => {
+  const [imgSrc, setImgSrc] = useState(src);
+  const [hasError, setHasError] = useState(false);
+
+  useEffect(() => {
+    setImgSrc(src);
+    setHasError(false);
+  }, [src]);
+
+  const handleError = (e) => {
+    if (!hasError && fallbackSrc && imgSrc !== fallbackSrc) {
+      setImgSrc(fallbackSrc);
+      setHasError(true);
+    } else if (onError) {
+      onError(e);
+    }
+  };
+
+  const handleLoad = (e) => {
+    if (onLoad) {
+      onLoad(e);
+    }
+  };
+
+  return (
+    <img
+      src={imgSrc}
+      alt={alt}
+      className={className}
+      onError={handleError}
+      onLoad={handleLoad}
+      loading="lazy"
+      decoding="async"
+    />
+  );
+});
+
+SafeImage.displayName = 'SafeImage';
+
+// ============================================
+// COMPONENTE PRINCIPAL MMusicaEscucha
+// ============================================
 const MMusicaEscucha = () => {
   // ============================================
-  // ESTADOS PRINCIPALES - 3 CATEGORÍAS
+  // ESTADOS PRINCIPALES - 5 CATEGORÍAS
   // ============================================
   const [categoria, setCategoria] = useState('original');
   const [bloques, setBloques] = useState({});
@@ -48,6 +157,7 @@ const MMusicaEscucha = () => {
   const [autoExpandChords, setAutoExpandChords] = useState(true);
   const [isDraggingProgress, setIsDraggingProgress] = useState(false);
   const [showVolumeSlider, setShowVolumeSlider] = useState(false);
+  const [isLoadingChords, setIsLoadingChords] = useState(false);
 
   // ============================================
   // CONTEXTO Y REFERENCIAS
@@ -56,6 +166,8 @@ const MMusicaEscucha = () => {
   const chordsContainerRef = useRef(null);
   const progressBarRef = useRef(null);
   const volumeSliderRef = useRef(null);
+  const chordsAbortControllerRef = useRef(null);
+  
   const { 
     currentSong,
     isPlaying,
@@ -72,13 +184,15 @@ const MMusicaEscucha = () => {
   } = useMusicaContexto();
 
   // ============================================
-  // FUNCIONES AUXILIARES - 3 CATEGORÍAS
+  // FUNCIONES AUXILIARES - 5 CATEGORÍAS
   // ============================================
   const getNombreCategoria = (cat) => {
     const nombres = {
       'original': 'Original',
       'covers': 'Covers',
-      'medleys': 'Medleys'
+      'medleys': 'Medleys',
+      'homenajes': 'Homenajes',
+      'zapadas': 'Zapadas'
     };
     return nombres[cat] || cat;
   };
@@ -87,180 +201,49 @@ const MMusicaEscucha = () => {
     const iconos = {
       'original': '🎤',
       'covers': '🎸',
-      'medleys': '🎶'
+      'medleys': '🎶',
+      'homenajes': '👑',
+      'zapadas': '🎹'
     };
     return iconos[cat] || '🎵';
   };
 
   const getDescripcionCategoria = (cat) => {
     const descripciones = {
-      'original': 'Música original de Ale Gondra y Almango Pop',
-      'covers': 'Versiones de canciones clásicas y modernas',
-      'medleys': 'Mezclas especiales y canciones enganchadas'
+      'original': 'Música Original',
+      'covers': 'Covers Versionados',
+      'medleys': 'Enganchados',
+      'homenajes': 'Tributos Musicales',
+      'zapadas': 'Sesiones Espontáneas'
     };
     return descripciones[cat] || '';
   };
 
   // ============================================
-  // EFECTOS PRINCIPALES
+  // FUNCIÓN: getPortadaDefault
   // ============================================
-  useEffect(() => {
-    const cargarDatos = async () => {
-      setLoading(true);
-      setError(null);
-      try {
-        const config = await loadAllMusicData();
-        setAllMusicConfig(config);
-      } catch (err) {
-        console.error('Error cargando datos:', err);
-        setError('Error cargando música. Recarga la página.');
-      } finally {
-        setLoading(false);
-      }
-    };
-    cargarDatos();
-  }, []);
-
-  useEffect(() => {
-    const organizarBloques = () => {
-      if (!allMusicConfig) return;
-      try {
-        const configCat = allMusicConfig[categoria] || {};
-        const bloquesData = {};
-        
-        Object.keys(configCat).forEach(discoId => {
-          const disco = configCat[discoId];
-          bloquesData[discoId] = {
-            nombre: disco.nombre,
-            portada: disco.portada || '/img/default-cover.png',
-            genero: disco.genero,
-            artista: disco.artista,
-            canciones: disco.canciones || []
-          };
-        });
-
-        const todasCanciones = Object.values(configCat).flatMap(disco => disco.canciones || []);
-        if (todasCanciones.length > 0) {
-          bloquesData.todo = {
-            nombre: `Todas (${getNombreCategoria(categoria)})`,
-            portada: categoria === 'original' ? '/img/default-cover.png' : 
-                    categoria === 'covers' ? '/img/covers-default.jpg' : 
-                    '/img/medleys-default.jpg',
-            genero: 'Todos',
-            artista: 'Varios',
-            canciones: todasCanciones
-          };
-        }
-
-        setBloques(bloquesData);
-        
-        let bloquePorDefecto = '';
-        if (bloquesData.todo) {
-          bloquePorDefecto = 'todo';
-        } else if (Object.keys(bloquesData).length > 0) {
-          bloquePorDefecto = Object.keys(bloquesData)[0];
-        }
-        
-        setBloqueActual(bloquePorDefecto);
-        setCancionesFiltradas(bloquesData[bloquePorDefecto]?.canciones || []);
-        
-      } catch (err) {
-        console.error('Error organizando bloques:', err);
-        setError('Error procesando datos.');
-      }
-    };
-    
-    organizarBloques();
-  }, [categoria, allMusicConfig]);
-
-  useEffect(() => {
-    if (!bloques[bloqueActual]) return;
-    
-    let canciones = bloques[bloqueActual].canciones || [];
-    
-    if (searchQuery.trim()) {
-      const query = searchQuery.toLowerCase();
-      canciones = canciones.filter(c => 
-        (c.nombre?.toLowerCase() || '').includes(query) || 
-        (c.artista?.toLowerCase() || '').includes(query) ||
-        (c.detalles?.genero?.toLowerCase() || '').includes(query) ||
-        (c.detalles?.style?.toLowerCase() || '').includes(query)
-      );
-    }
-    
-    setCancionesFiltradas(canciones);
-    
-    if (canciones.length > 0) {
-      updatePlaylist(canciones.map(c => ({
-        id: c.id,
-        nombre: c.nombre,
-        artista: c.artista,
-        duracion: c.duracion || '3:30',
-        imagen: c.imagen || (categoria === 'original' ? '/img/default-cover.png' : 
-                           categoria === 'covers' ? '/img/covers-default.jpg' : 
-                           '/img/medleys-default.jpg'),
-        url: c.url || '/audio/default-song.mp3',
-        album: c.disco || getNombreCategoria(categoria),
-        tipo: categoria
-      })));
-    }
-  }, [bloqueActual, bloques, searchQuery, updatePlaylist, categoria]);
-
-  useEffect(() => {
-    if (currentSong && cancionesFiltradas.length > 0) {
-      const cancionEncontrada = cancionesFiltradas.find(c => c.id === currentSong.id);
-      if (cancionEncontrada) {
-        cargarChords(cancionEncontrada);
-      }
-    }
-  }, [currentSong, cancionesFiltradas]);
-
-  // ============================================
-  // FUNCIÓN: cargarChords
-  // ============================================
-  const cargarChords = async (cancion) => {
-    try {
-      console.log('🎵 Cargando chords para:', cancion.nombre);
-      setCancionConChords(cancion);
-      setTransposition(0);
-      
-      if (cancion.chords_url) {
-        try {
-          const chordsData = await loadChordsData(cancion.chords_url);
-          
-          console.log('📦 Chords cargados:', {
-            title: chordsData.title,
-            artist: chordsData.artist,
-            esMedley: chordsData.esMedley || false,
-            cancionesIncluidas: chordsData.cancionesIncluidas || 1,
-            tieneContent: !!chordsData.content,
-            longitudContent: Array.isArray(chordsData.content) ? chordsData.content.length : 'N/A'
-          });
-          
-          setDatosChords(chordsData);
-          
-          if (autoExpandChords && chordsContainerRef.current) {
-            setTimeout(() => {
-              chordsContainerRef.current.style.height = 'auto';
-              chordsContainerRef.current.style.minHeight = '800px';
-            }, 100);
-          }
-          
-        } catch (fetchError) {
-          console.error('Error fetch chords_url:', fetchError);
-          setDatosChords(crearChordsEjemploEstructurado(cancion));
-        }
-      } else {
-        console.log('ℹ️ No hay chords_url, usando datos de ejemplo estructurado');
-        setDatosChords(crearChordsEjemploEstructurado(cancion));
-      }
-    } catch (err) {
-      console.error('Error general en cargarChords:', err);
-      setDatosChords(crearChordsEjemploEstructurado(cancion));
+  const getPortadaDefault = (cat) => {
+    switch(cat) {
+      case 'original': return '/img/default-cover.png';
+      case 'covers': return '/img/09-discos/tapa-listado-covers.jpg';
+      case 'medleys': return '/img/medleys-default.jpg';
+      case 'homenajes': return '/img/Logo Almango pop Somprero 4.jpg';
+      case 'zapadas': return '/img/300.jpg';
+      default: return '/img/default-cover.png';
     }
   };
 
+  // ============================================
+  // FUNCIÓN: crearChordsEjemploEstructurado
+  // ============================================
   const crearChordsEjemploEstructurado = (cancion) => {
+    const esZapada = cancion.esZapada || categoria === 'zapadas';
+    
+    let introText = "Esta es una canción de ejemplo";
+    if (esZapada) {
+      introText = "Improvisación en vivo - Sesión espontánea";
+    }
+    
     return {
       id: `ejemplo-${Date.now()}`,
       title: cancion.nombre || "Canción Ejemplo",
@@ -286,7 +269,7 @@ const MMusicaEscucha = () => {
           name: "ESTROFA",
           lines: [
             { type: "chord", content: "C" },
-            { type: "lyric", content: "Esta es una canción de ejemplo" },
+            { type: "lyric", content: introText },
             { type: "chord", content: "G" },
             { type: "lyric", content: "Para mostrar cómo funciona" },
             { type: "chord", content: "Am" },
@@ -300,10 +283,386 @@ const MMusicaEscucha = () => {
   };
 
   // ============================================
-  // FUNCIONES DE CONTROL DEL REPRODUCTOR
+  // EFECTO PRINCIPAL: Cargar datos musicales
+  // ============================================
+  useEffect(() => {
+    let isMounted = true;
+
+    const cargarDatos = async () => {
+      if (!isMounted) return;
+      
+      setLoading(true);
+      setError(null);
+      
+      try {
+        console.log('🔄 Iniciando carga de datos musicales...');
+        const config = await loadAllMusicData();
+        
+        if (!isMounted) return;
+        
+        console.log('✅ Datos cargados:', {
+          original: Object.keys(config.original || {}).length,
+          covers: Object.keys(config.covers || {}).length,
+          medleys: Object.keys(config.medleys || {}).length,
+          homenajes: Object.keys(config.homenajes || {}).length,
+          zapadas: Object.keys(config.zapadas || {}).length
+        });
+        
+        setAllMusicConfig(config);
+      } catch (err) {
+        if (!isMounted) return;
+        
+        console.error('❌ Error cargando datos:', err);
+        setError(`Error cargando música: ${err.message}. Recarga la página.`);
+      } finally {
+        if (isMounted) {
+          setTimeout(() => {
+            if (isMounted) {
+              setLoading(false);
+            }
+          }, 500);
+        }
+      }
+    };
+    
+    cargarDatos();
+    
+    return () => {
+      isMounted = false;
+    };
+  }, []);
+
+  // ============================================
+  // EFECTO: Organizar bloques
+  // ============================================
+  useEffect(() => {
+    let isMounted = true;
+    let timeoutId;
+    
+    const organizarBloques = () => {
+      if (!allMusicConfig || !isMounted) return;
+      
+      try {
+        console.log(`🎯 Organizando bloques para categoría: ${categoria}`);
+        
+        const configCat = allMusicConfig[categoria] || {};
+        console.log(`📊 Configuración de ${categoria}:`, Object.keys(configCat).length, 'bloques');
+        
+        const bloquesData = {};
+        
+        // Procesar cada "disco" o "artista" en la categoría
+        Object.keys(configCat).forEach(discoId => {
+          const disco = configCat[discoId];
+          
+          // CORRECCIÓN ESPECÍFICA PARA ZAPADAS
+          let nombreMostrar = disco.nombre || '';
+          let artistaMostrar = disco.artista || '';
+          
+          if (categoria === 'zapadas') {
+            // Para zapadas, el artista siempre es "Almango Pop"
+            artistaMostrar = 'Almango Pop';
+            
+            // El nombre del disco lo mantenemos como está
+            if (nombreMostrar.includes('ZAPADAS')) {
+              // Ya está bien
+            } else {
+              nombreMostrar = 'ZAPADAS DE TODOS LOS ESTILOS';
+            }
+          }
+          
+          bloquesData[discoId] = {
+            nombre: nombreMostrar,
+            portada: disco.portada || getPortadaDefault(categoria),
+            genero: disco.genero || (categoria === 'zapadas' ? 'Zapadas' : 'Varios'),
+            artista: artistaMostrar || 'Varios',
+            canciones: disco.canciones || []
+          };
+        });
+
+        // Agregar opción "Todos" solo si hay múltiples bloques
+        const todasCanciones = Object.values(configCat).flatMap(disco => disco.canciones || []);
+        if (todasCanciones.length > 0 && Object.keys(bloquesData).length > 1) {
+          bloquesData.todo = {
+            nombre: `Todos los ${getNombreCategoria(categoria).toLowerCase()}`,
+            portada: getPortadaDefault(categoria),
+            genero: 'Todos',
+            artista: 'Varios',
+            canciones: todasCanciones
+          };
+        }
+
+        if (isMounted) {
+          requestAnimationFrame(() => {
+            if (isMounted) {
+              setBloques(bloquesData);
+              
+              // Seleccionar bloque por defecto
+              let bloquePorDefecto = '';
+              if (bloquesData.todo) {
+                bloquePorDefecto = 'todo';
+              } else if (Object.keys(bloquesData).length > 0) {
+                bloquePorDefecto = Object.keys(bloquesData)[0];
+              }
+              
+              console.log(`🎵 Bloque por defecto: ${bloquePorDefecto}`);
+              setBloqueActual(bloquePorDefecto);
+              setCancionesFiltradas(bloquesData[bloquePorDefecto]?.canciones || []);
+            }
+          });
+        }
+        
+      } catch (err) {
+        if (isMounted) {
+          console.error('❌ Error organizando bloques:', err);
+          setError('Error procesando datos. Intenta recargar la página.');
+        }
+      }
+    };
+    
+    timeoutId = setTimeout(organizarBloques, 100);
+    
+    return () => {
+      isMounted = false;
+      clearTimeout(timeoutId);
+    };
+  }, [categoria, allMusicConfig]);
+
+  // ============================================
+  // EFECTO: Filtrar canciones
+  // ============================================
+  useEffect(() => {
+    let isMounted = true;
+    let timeoutId;
+    
+    const actualizarCanciones = () => {
+      if (!bloques[bloqueActual] || !isMounted) return;
+      
+      let canciones = bloques[bloqueActual].canciones || [];
+      
+      // CORRECCIÓN ESPECÍFICA PARA ZAPADAS: Validar URLs
+      if (categoria === 'zapadas') {
+        canciones = canciones.map(cancion => {
+          // Verificar y corregir URL del MP3
+          let urlMP3 = cancion.url;
+          
+          if (!urlMP3 || urlMP3 === '/audio/default-song.mp3') {
+            // Intentar construir URL basada en el ID
+            if (cancion.id && cancion.id.includes('zapada-')) {
+              const idParts = cancion.id.split('-');
+              if (idParts.length >= 3) {
+                const estilo = idParts[1]; // "rock", "blues", etc.
+                const numero = idParts[2]; // "001", "04", etc.
+                
+                // Construir URL real
+                urlMP3 = `/audio/05-mp3-zapadas/mp3-zapadas-${estilo}/mp3-zapadas-${estilo}-${numero}.mp3`;
+              }
+            }
+          }
+          
+          return {
+            ...cancion,
+            url: urlMP3 || '/audio/default-song.mp3'
+          };
+        });
+      }
+      
+      // Aplicar filtro de búsqueda
+      if (searchQuery.trim()) {
+        const query = searchQuery.toLowerCase();
+        canciones = canciones.filter(c => {
+          const nombre = (c.nombre || '').toLowerCase();
+          const artista = (c.artista || '').toLowerCase();
+          const genero = (c.detalles?.genero || '').toLowerCase();
+          const estilo = (c.detalles?.style || '').toLowerCase();
+          const tipo = (c.detalles?.tipo || '').toLowerCase();
+          
+          return nombre.includes(query) || 
+                 artista.includes(query) ||
+                 genero.includes(query) ||
+                 estilo.includes(query) ||
+                 tipo.includes(query);
+        });
+      }
+      
+      if (isMounted) {
+        requestAnimationFrame(() => {
+          if (isMounted) {
+            setCancionesFiltradas(canciones);
+            
+            // Actualizar playlist para navegación
+            if (canciones.length > 0) {
+              const playlist = canciones.map(c => ({
+                id: c.id,
+                nombre: c.nombre,
+                artista: c.artista,
+                duracion: c.duracion || '3:30',
+                imagen: c.imagen || getPortadaDefault(categoria),
+                url: c.url || '/audio/default-song.mp3',
+                album: c.disco || getNombreCategoria(categoria),
+                tipo: categoria,
+                esHomenaje: categoria === 'homenajes',
+                esZapada: categoria === 'zapadas'
+              }));
+              
+              updatePlaylist(playlist);
+              console.log(`🎧 Playlist actualizada: ${playlist.length} canciones en ${categoria}`);
+            }
+          }
+        });
+      }
+    };
+    
+    timeoutId = setTimeout(actualizarCanciones, 100);
+    
+    return () => {
+      isMounted = false;
+      clearTimeout(timeoutId);
+    };
+  }, [bloqueActual, bloques, searchQuery, updatePlaylist, categoria]);
+
+  // ============================================
+  // EFECTO: Cargar chords cuando cambia la canción actual
+  // ============================================
+  useEffect(() => {
+    let isMounted = true;
+    let timeoutId;
+    
+    const cargarChordsParaCancion = async () => {
+      // Cancelar cualquier carga previa de chords
+      if (chordsAbortControllerRef.current) {
+        chordsAbortControllerRef.current.abort();
+      }
+      
+      if (!isMounted || !currentSong || cancionesFiltradas.length === 0) return;
+      
+      const cancionEncontrada = cancionesFiltradas.find(c => c.id === currentSong.id);
+      if (cancionEncontrada && isMounted) {
+        try {
+          await cargarChords(cancionEncontrada);
+        } catch (error) {
+          if (isMounted && error.name !== 'AbortError') {
+            console.error('Error cargando chords:', error);
+          }
+        }
+      }
+    };
+    
+    timeoutId = setTimeout(cargarChordsParaCancion, 150);
+    
+    return () => {
+      isMounted = false;
+      clearTimeout(timeoutId);
+      if (chordsAbortControllerRef.current) {
+        chordsAbortControllerRef.current.abort();
+      }
+    };
+  }, [currentSong, cancionesFiltradas]);
+
+  // ============================================
+  // FUNCIÓN: cargarChords
+  // ============================================
+  const cargarChords = async (cancion, signal) => {
+    // Si hay una carga en curso, cancelarla
+    if (isLoadingChords) {
+      console.log('⏸️ Cancelando carga anterior de chords...');
+      if (chordsAbortControllerRef.current) {
+        chordsAbortControllerRef.current.abort();
+      }
+    }
+    
+    setIsLoadingChords(true);
+    
+    const controller = new AbortController();
+    chordsAbortControllerRef.current = controller;
+    
+    try {
+      console.log('🎵 Cargando chords para:', cancion.nombre);
+      
+      if (controller.signal.aborted) {
+        console.log('🚫 Carga abortada antes de comenzar');
+        return;
+      }
+      
+      setCancionConChords(cancion);
+      setTransposition(0);
+      
+      if (cancion.chords_url) {
+        try {
+          const chordsData = await loadChordsData(cancion.chords_url);
+          
+          if (controller.signal.aborted) {
+            console.log('🚫 Carga abortada durante fetch');
+            return;
+          }
+          
+          console.log('📦 Chords cargados:', {
+            title: chordsData.title,
+            artist: chordsData.artist
+          });
+          
+          requestAnimationFrame(() => {
+            setDatosChords(chordsData);
+            
+            if (autoExpandChords && chordsContainerRef.current) {
+              setTimeout(() => {
+                if (chordsContainerRef.current) {
+                  chordsContainerRef.current.style.height = 'auto';
+                  chordsContainerRef.current.style.minHeight = '800px';
+                }
+              }, 100);
+            }
+          });
+          
+        } catch (fetchError) {
+          if (fetchError.name === 'AbortError') {
+            console.log('🚫 Carga de chords abortada');
+            return;
+          }
+          
+          console.error('Error fetch chords_url:', fetchError);
+          setDatosChords(crearChordsEjemploEstructurado(cancion));
+        }
+      } else {
+        console.log('ℹ️ No hay chords_url, usando datos de ejemplo estructurado');
+        setDatosChords(crearChordsEjemploEstructurado(cancion));
+      }
+    } catch (err) {
+      if (err.name === 'AbortError') {
+        console.log('🚫 Carga de chords abortada');
+        return;
+      }
+      
+      console.error('Error general en cargarChords:', err);
+      setDatosChords(crearChordsEjemploEstructurado(cancion));
+    } finally {
+      setTimeout(() => {
+        setIsLoadingChords(false);
+      }, 100);
+    }
+  };
+
+  // ============================================
+  // FUNCIÓN: manejarReproducirCancion
   // ============================================
   const manejarReproducirCancion = useCallback((cancion) => {
-    const audioUrl = cancion.url || '/audio/default-song.mp3';
+    console.log('▶️ Intentando reproducir:', cancion.nombre);
+    
+    // CORRECCIÓN ESPECÍFICA PARA ZAPADAS
+    let audioUrl = cancion.url || '/audio/default-song.mp3';
+    
+    // Si es zapada y la URL es default, intentar construir URL real
+    if (categoria === 'zapadas' && (audioUrl === '/audio/default-song.mp3' || !audioUrl.includes('mp3-zapadas'))) {
+      if (cancion.id && cancion.id.includes('zapada-')) {
+        const idParts = cancion.id.split('-');
+        if (idParts.length >= 3) {
+          const estilo = idParts[1]; // "rock", "blues", etc.
+          const numero = idParts[2]; // "001", "04", etc.
+          audioUrl = `/audio/05-mp3-zapadas/mp3-zapadas-${estilo}/mp3-zapadas-${estilo}-${numero}.mp3`;
+        }
+      }
+    }
+    
+    console.log('🔊 URL de audio final:', audioUrl);
     
     const cancionFormateada = {
       id: cancion.id,
@@ -311,11 +670,12 @@ const MMusicaEscucha = () => {
       artista: cancion.artista,
       album: cancion.disco || getNombreCategoria(categoria),
       duracion: cancion.duracion || '3:30',
-      imagen: cancion.imagen || (categoria === 'original' ? '/img/default-cover.png' : 
-                               categoria === 'covers' ? '/img/covers-default.jpg' : 
-                               '/img/medleys-default.jpg'),
+      imagen: cancion.imagen || getPortadaDefault(categoria),
       url: audioUrl,
-      tipo: categoria
+      tipo: categoria,
+      detalles: cancion.detalles || {},
+      esHomenaje: categoria === 'homenajes',
+      esZapada: categoria === 'zapadas'
     };
 
     const esActual = currentSong?.id === cancion.id;
@@ -323,19 +683,44 @@ const MMusicaEscucha = () => {
       pauseSong();
     } else {
       playSong(cancionFormateada);
-      cargarChords(cancion);
+      
+      // Cargar chords para la canción con un pequeño delay
+      setTimeout(() => {
+        cargarChords(cancion);
+      }, 200);
     }
   }, [currentSong, isPlaying, pauseSong, playSong, categoria]);
 
+  // ============================================
+  // FUNCIÓN: cambiarCategoria
+  // ============================================
   const cambiarCategoria = (cat) => {
-    setCategoria(cat);
-    setSearchQuery('');
-    setCancionConChords(null);
-    setDatosChords(null);
-    setTransposition(0);
-    setMostrarFiltros(false);
+    console.log(`🔄 Cambiando categoría a: ${cat}`);
+    
+    // Cancelar cualquier carga en curso
+    if (chordsAbortControllerRef.current) {
+      chordsAbortControllerRef.current.abort();
+    }
+    
+    // Resetear estados relacionados con la categoría anterior
+    requestAnimationFrame(() => {
+      setCategoria(cat);
+      setSearchQuery('');
+      setCancionConChords(null);
+      setDatosChords(null);
+      setTransposition(0);
+      setMostrarFiltros(false);
+      setMostrarListaMobile(false);
+      setIsLoadingChords(false);
+      
+      // Resetear la playlist actual
+      updatePlaylist([]);
+    });
   };
 
+  // ============================================
+  // FUNCIONES DE UTILIDAD
+  // ============================================
   const formatTime = (time) => {
     if (!time || isNaN(time)) return "0:00";
     const minutes = Math.floor(time / 60);
@@ -377,9 +762,6 @@ const MMusicaEscucha = () => {
     }
   };
 
-  // ============================================
-  // FUNCIONES PARA LA BARRA DE PROGRESO
-  // ============================================
   const handleProgressClick = (e) => {
     if (!progressBarRef.current || !duration) return;
     
@@ -429,9 +811,6 @@ const MMusicaEscucha = () => {
     };
   }, []);
 
-  // ============================================
-  // FUNCIÓN: Ajustar altura del contenedor de acordes
-  // ============================================
   const ajustarAlturaChords = () => {
     if (chordsContainerRef.current && datosChords) {
       const contentHeight = chordsContainerRef.current.scrollHeight;
@@ -454,13 +833,109 @@ const MMusicaEscucha = () => {
   }, [datosChords, autoExpandChords]);
 
   // ============================================
+  // FUNCIÓN: Renderizar mensaje cuando no hay canciones
+  // ============================================
+  const renderMensajeSinCanciones = () => {
+    if (loading) return null;
+    
+    if (error) {
+      return (
+        <div className="error-micro">
+          <span className="error-icono">⚠️</span>
+          <span className="error-texto">{error}</span>
+          <button 
+            onClick={() => window.location.reload()}
+            className="btn-reintentar-micro"
+          >
+            Reintentar
+          </button>
+        </div>
+      );
+    }
+    
+    if (cancionesFiltradas.length === 0) {
+      if (searchQuery) {
+        return (
+          <div className="sin-resultados-micro">
+            <span className="sin-resultados-icono">🔍</span>
+            <div className="sin-resultados-contenido">
+              <p>No se encontraron canciones con "{searchQuery}"</p>
+              <p className="sin-resultados-sugerencia">
+                Intenta con otros términos o{' '}
+                <button 
+                  onClick={() => setSearchQuery('')}
+                  className="btn-limpiar-busqueda-micro"
+                >
+                  limpiar búsqueda
+                </button>
+              </p>
+            </div>
+          </div>
+        );
+      } else {
+        return (
+          <div className="sin-resultados-micro">
+            <span className="sin-resultados-icono">
+              {categoria === 'homenajes' ? '👑' : 
+               categoria === 'zapadas' ? '🎹' : '🎵'}
+            </span>
+            <div className="sin-resultados-contenido">
+              <p>
+                {categoria === 'homenajes' ? 'No hay homenajes disponibles todavía' :
+                 categoria === 'zapadas' ? 'No hay sesiones de zapadas disponibles' :
+                 'No se encontraron canciones'}
+              </p>
+            </div>
+          </div>
+        );
+      }
+    }
+    
+    return null;
+  };
+
+  // ============================================
   // RENDERIZADO COMPLETO
   // ============================================
   return (
     <div className="reproductor-almango-estructura-mas-altura reproductor-independiente">
       <audio ref={audioRef} />
 
-      {/* HEADER ULTRA COMPACTO - TODO EN 1 LÍNEA */}
+      {/* ============================================
+      SECCIÓN: BOTONES DE CATEGORÍA EN UNA SOLA LÍNEA
+      ============================================ */}
+      <div className="botones-categoria-lineal-header">
+        <div className="contenedor-botones-categoria-lineal">
+          <div className="nav-categorias-compacta nav-categorias-lineal">
+            <div className="nav-botones-compactos linea-horizontal-botones">
+              {['original', 'covers', 'medleys', 'homenajes', 'zapadas'].map(cat => (
+                <button
+                  key={cat}
+                  className={`nav-btn-rockero nav-btn-${cat} ${categoria === cat ? 'nav-activo' : 'nav-inactivo'}`}
+                  onClick={() => cambiarCategoria(cat)}
+                  title={getDescripcionCategoria(cat)}
+                >
+                  <span className="nav-contenido-rockero">
+                    <span className="nav-icono-rockero">
+                      {getIconoCategoria(cat)}
+                    </span>
+                    <span className="nav-texto-rockero">
+                      {getNombreCategoria(cat).toUpperCase()}
+                    </span>
+                    <span className="nav-subtitulo-rockero">
+                      {getDescripcionCategoria(cat)}
+                    </span>
+                  </span>
+                </button>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* ============================================
+      HEADER ULTRA COMPACTO
+      ============================================ */}
       <div className="header-ultra-compacto-todo-en-uno">
         
         {/* IZQUIERDA: TÍTULO Y CONTROLES BÁSICOS */}
@@ -470,24 +945,17 @@ const MMusicaEscucha = () => {
             onClick={() => setMostrarListaMobile(!mostrarListaMobile)}
             title={mostrarListaMobile ? "Ocultar lista" : "Mostrar lista"}
           >
-            <BsListUl />
+            <FiList />
             <span className="contador-micro">{cancionesFiltradas.length}</span>
           </button>
 
           {currentSong && (
             <div className="info-cancion-micro">
-              <img 
-                src={currentSong.imagen || 
-                     (categoria === 'original' ? '/img/default-cover.png' : 
-                      categoria === 'covers' ? '/img/covers-default.jpg' : 
-                      '/img/medleys-default.jpg')} 
+              <SafeImage 
+                src={currentSong.imagen || getPortadaDefault(categoria)} 
+                fallbackSrc={getPortadaDefault(categoria)}
                 alt="Portada" 
                 className="portada-micro"
-                onError={(e) => {
-                  e.target.src = categoria === 'original' ? '/img/default-cover.png' : 
-                                categoria === 'covers' ? '/img/covers-default.jpg' : 
-                                '/img/medleys-default.jpg';
-                }}
               />
               <div className="detalles-micro">
                 <div className="titulo-micro">{currentSong.nombre}</div>
@@ -546,7 +1014,7 @@ const MMusicaEscucha = () => {
             disabled={!currentSong || cancionesFiltradas.length === 0}
             title="Canción anterior"
           >
-            <BsSkipBackward />
+            <FiSkipBack />
           </button>
           
           <button 
@@ -555,7 +1023,7 @@ const MMusicaEscucha = () => {
             disabled={!currentSong}
             title={isPlaying ? "Pausar" : "Reproducir"}
           >
-            {isPlaying ? <BsPauseCircle /> : <BsPlayCircle />}
+            {isPlaying ? <FiPauseCircle /> : <FiPlayCircle />}
           </button>
           
           <button 
@@ -564,7 +1032,7 @@ const MMusicaEscucha = () => {
             disabled={!currentSong || cancionesFiltradas.length === 0}
             title="Siguiente canción"
           >
-            <BsSkipForward />
+            <FiSkipForward />
           </button>
         </div>
 
@@ -576,8 +1044,8 @@ const MMusicaEscucha = () => {
               onClick={() => setShowVolumeSlider(!showVolumeSlider)}
               title={volume === 0 ? "Activar sonido" : "Ajustar volumen"}
             >
-              {volume === 0 ? <BsVolumeMute /> : 
-               volume < 0.3 ? <BsVolumeDown /> : <BsVolumeUpIcon />}
+              {volume === 0 ? <FiVolumeX /> : 
+               volume < 0.3 ? <FiVolume1 /> : <FiVolume2 />}
             </button>
             
             {showVolumeSlider && (
@@ -605,7 +1073,7 @@ const MMusicaEscucha = () => {
             disabled={!currentSong}
             title="Descargar MP3"
           >
-            <BsDownload />
+            <FiDownload />
           </button>
           
           <div className="contador-canciones-micro">
@@ -615,7 +1083,9 @@ const MMusicaEscucha = () => {
         </div>
       </div>
 
-      {/* NAVEGACIÓN Y FILTROS COMPACTOS */}
+      {/* ============================================
+      NAVEGACIÓN Y FILTROS COMPACTOS
+      ============================================ */}
       <div className="controles-superiores-compactos">
         
         <button 
@@ -623,40 +1093,26 @@ const MMusicaEscucha = () => {
           onClick={() => setMostrarFiltros(!mostrarFiltros)}
           title={mostrarFiltros ? "Ocultar filtros" : "Mostrar filtros"}
         >
-          <BsFilter />
-          <span>Filtros</span>
+          <FiFilter />
+          <span className="toggle-filtros-texto">Filtros</span>
+          <span className="toggle-filtros-indicador">{mostrarFiltros ? '▲' : '▼'}</span>
         </button>
 
         <div className={`filtros-contenedor ${mostrarFiltros ? 'visible' : ''}`}>
-          <div className="nav-categorias-compacta">
-            <div className="nav-botones-compactos">
-              {['original', 'covers', 'medleys'].map(cat => (
-                <button
-                  key={cat}
-                  className={`nav-btn-compacto ${categoria === cat ? 'nav-activo' : ''}`}
-                  onClick={() => cambiarCategoria(cat)}
-                  title={getDescripcionCategoria(cat)}
-                >
-                  <span className="nav-contenido-compacto">
-                    <span className="nav-icono-compacto">{getIconoCategoria(cat)}</span>
-                    <span className="nav-texto-compacto">{getNombreCategoria(cat)}</span>
-                    <span className="nav-descripcion-micro">{getDescripcionCategoria(cat)}</span>
-                  </span>
-                </button>
-              ))}
-            </div>
-          </div>
-
           <div className="filtros-micro">
             <div className="filtros-contenedor-micro">
               <select
                 className="filtro-select-micro"
                 value={bloqueActual}
                 onChange={(e) => setBloqueActual(e.target.value)}
-                aria-label={categoria === 'original' ? "Seleccionar disco" : 
-                           categoria === 'covers' ? "Seleccionar género" : 
-                           "Seleccionar medley"}
-                disabled={loading}
+                aria-label={
+                  categoria === 'original' ? "Seleccionar disco" : 
+                  categoria === 'covers' ? "Seleccionar género" : 
+                  categoria === 'homenajes' ? "Seleccionar artista homenajeado" :
+                  categoria === 'zapadas' ? "Seleccionar sesión" :
+                  "Seleccionar medley"
+                }
+                disabled={loading || Object.keys(bloques).length === 0}
               >
                 {Object.keys(bloques).map(bloqueId => (
                   <option key={bloqueId} value={bloqueId}>
@@ -667,8 +1123,8 @@ const MMusicaEscucha = () => {
                 ))}
               </select>
               
-              <div className="buscador-con-icono">
-                <BsSearch className="icono-busqueda" />
+              <div className="buscador-con-icono buscador-enfocado">
+                <FiSearch className="icono-busqueda" />
                 <input
                   type="text"
                   className="filtro-busqueda-micro"
@@ -696,8 +1152,11 @@ const MMusicaEscucha = () => {
                   <div className="filtro-info-micro-contenedor">
                     <div className="filtro-info-micro">
                       <span className="filtro-actual-micro">
-                        <span className="filtro-icono-micro">📁</span>
-                        {bloques[bloqueActual].nombre}
+                        <span className="filtro-icono-micro">
+                          {categoria === 'homenajes' ? '👑' : 
+                           categoria === 'zapadas' ? '🎹' : '📁'}
+                        </span>
+                        <span className="filtro-nombre-micro">{bloques[bloqueActual].nombre}</span>
                         {bloques[bloqueActual].genero && 
                           <span className="filtro-genero-micro">
                             <span className="separador-filtro-micro"> • </span>
@@ -726,7 +1185,9 @@ const MMusicaEscucha = () => {
         </div>
       </div>
 
-      {/* CONTENIDO PRINCIPAL */}
+      {/* ============================================
+      CONTENIDO PRINCIPAL
+      ============================================ */}
       <div className="contenido-estructura-optimizada-compacta">
         
         {/* ESTRUCTURA DESKTOP */}
@@ -738,6 +1199,7 @@ const MMusicaEscucha = () => {
                 <span className="panel-contador-micro">{cancionesFiltradas.length}</span>
                 {bloqueActual && bloques[bloqueActual] && bloqueActual !== 'todo' && (
                   <span className="panel-bloque-micro">
+                    {categoria === 'homenajes' ? '🎭 ' : ''}
                     {bloques[bloqueActual].nombre}
                   </span>
                 )}
@@ -747,50 +1209,28 @@ const MMusicaEscucha = () => {
             <div className="panel-contenido-lista-compacta">
               {loading ? (
                 <div className="cargando-micro">
-                  <BsMusicNoteBeamed className="icono-cargando-micro" />
+                  <div className="spinner-micro"></div>
                   <span>Cargando {getNombreCategoria(categoria).toLowerCase()}...</span>
                 </div>
-              ) : error ? (
-                <div className="error-micro">
-                  <span>⚠️</span>
-                  <span>{error}</span>
-                  <button 
-                    onClick={() => window.location.reload()}
-                    className="btn-reintentar-micro"
-                  >
-                    Reintentar
-                  </button>
-                </div>
-              ) : cancionesFiltradas.length === 0 ? (
-                <div className="sin-resultados-micro">
-                  <span>🔍</span>
-                  <div>
-                    <p>No se encontraron canciones</p>
-                    {searchQuery && (
-                      <p className="sin-resultados-sugerencia">
-                        Intenta con otros términos o <button 
-                          onClick={() => setSearchQuery('')}
-                          className="btn-limpiar-busqueda-micro"
-                        >
-                          limpiar búsqueda
-                        </button>
-                      </p>
-                    )}
-                  </div>
-                </div>
               ) : (
-                <div className="lista-canciones-con-scroll">
-                  <div className="lista-canciones-compacta">
-                    <MusicaCancionesLista
-                      songs={cancionesFiltradas}
-                      currentSong={currentSong}
-                      onPlaySong={manejarReproducirCancion}
-                      onViewDetails={cargarChords}
-                      showCategory={categoria}
-                      compactView={true}
-                    />
-                  </div>
-                </div>
+                <>
+                  {renderMensajeSinCanciones()}
+                  
+                  {cancionesFiltradas.length > 0 && (
+                    <div className="lista-canciones-con-scroll">
+                      <div className="lista-canciones-compacta">
+                        <MusicaCancionesLista
+                          songs={cancionesFiltradas}
+                          currentSong={currentSong}
+                          onPlaySong={manejarReproducirCancion}
+                          onViewDetails={cargarChords}
+                          showCategory={categoria}
+                          compactView={true}
+                        />
+                      </div>
+                    </div>
+                  )}
+                </>
               )}
             </div>
           </div>
@@ -799,18 +1239,11 @@ const MMusicaEscucha = () => {
             <div className="panel-info-cancion-micro compacto">
               {currentSong ? (
                 <div className="info-cancion-nano-en-linea">
-                  <img 
-                    src={currentSong.imagen || 
-                         (categoria === 'original' ? '/img/default-cover.png' : 
-                          categoria === 'covers' ? '/img/covers-default.jpg' : 
-                          '/img/medleys-default.jpg')} 
+                  <SafeImage 
+                    src={currentSong.imagen || getPortadaDefault(categoria)} 
+                    fallbackSrc={getPortadaDefault(categoria)}
                     alt="Portada" 
                     className="portada-img-nano-en-linea"
-                    onError={(e) => {
-                      e.target.src = categoria === 'original' ? '/img/default-cover.png' : 
-                                    categoria === 'covers' ? '/img/covers-default.jpg' : 
-                                    '/img/medleys-default.jpg';
-                    }}
                   />
                   <div className="detalles-nano-en-linea">
                     <div className="titulo-nano-en-linea">{currentSong.nombre}</div>
@@ -819,14 +1252,18 @@ const MMusicaEscucha = () => {
                       <span className="separador-nano">•</span>
                       <span className="album-nano-en-linea">{currentSong.album || getNombreCategoria(categoria)}</span>
                       <span className="separador-nano">•</span>
-                      <span className="categoria-nano-en-linea">{getNombreCategoria(categoria)}</span>
+                      <span className="categoria-nano-en-linea categoria-badge">{getNombreCategoria(categoria)}</span>
                     </div>
                   </div>
                 </div>
               ) : (
                 <div className="sin-cancion-nano-en-linea">
                   <span className="icono-sin-cancion">{getIconoCategoria(categoria)}</span>
-                  <span>Selecciona una canción para ver los acordes</span>
+                  <span>
+                    {categoria === 'homenajes' ? 'Selecciona un homenaje para ver los acordes' :
+                     categoria === 'zapadas' ? 'Selecciona una sesión para ver los acordes' :
+                     'Selecciona una canción para ver los acordes'}
+                  </span>
                 </div>
               )}
             </div>
@@ -854,7 +1291,12 @@ const MMusicaEscucha = () => {
               </div>
               
               <div className="panel-contenido-chords-expandido">
-                {datosChords ? (
+                {isLoadingChords ? (
+                  <div className="sin-chords-micro">
+                    <div className="spinner-chords"></div>
+                    <p>Cargando letra y acordes...</p>
+                  </div>
+                ) : datosChords ? (
                   <div className="chords-viewer-integrado-expandido">
                     <ChordsViewerIndex 
                       chordsData={datosChords}
@@ -862,7 +1304,9 @@ const MMusicaEscucha = () => {
                       songMetadata={{
                         coverImage: currentSong?.imagen,
                         album: currentSong?.album,
-                        category: getNombreCategoria(categoria)
+                        category: getNombreCategoria(categoria),
+                        isHomenaje: categoria === 'homenajes',
+                        isZapada: categoria === 'zapadas'
                       }}
                       compactMode="extreme"
                       autoExpand={autoExpandChords}
@@ -870,36 +1314,36 @@ const MMusicaEscucha = () => {
                   </div>
                 ) : cancionConChords ? (
                   <div className="sin-chords-micro">
-                    <BsMusicNoteBeamed className="icono-cargando-chords" />
+                    <div className="spinner-chords"></div>
                     <p>Cargando letra y acordes...</p>
                   </div>
                 ) : (
                   <div className="instrucciones-chords-micro">
                     <div className="logo-titulo-micro">
                       <span className="icono-instrucciones">{getIconoCategoria(categoria)}</span>
-                      <span>Reproduce una canción para ver sus acordes</span>
+                      <span className="titulo-instrucciones">
+                        {categoria === 'homenajes' ? 'Homenajes Musicales' :
+                         categoria === 'zapadas' ? 'Sesiones de Zapadas' :
+                         'Rockola Cancioneros'}
+                      </span>
                     </div>
                     
                     <div className="logo-animado-container-micro">
-                      <img 
-                        src="/img/04-gif/logogondraworldanimado6.gif" 
-                        alt="Almango Pop Covers" 
-                        className="logo-animado-banda-micro"
-                        onError={(e) => {
-                          e.target.style.display = 'none';
-                          e.target.parentElement.innerHTML = 
-                            '<span class="logo-fallback-micro">🎵 Almango Pop Covers</span>';
-                        }}
+                      <SafeImage 
+                        src={categoria === 'homenajes' ? '/img/Logo Almango pop Somprero 4.jpg' :
+                             categoria === 'zapadas' ? '/img/300.jpg' :
+                             '/img/02-logos/logo-formateo-chords.png'} 
+                        fallbackSrc="/img/default-cover.png"
+                        alt={getNombreCategoria(categoria)} 
+                        className="logo-principal-instrucciones"
                       />
                     </div>
                     
                     <div className="logo-descripcion-micro">
-                      <p>Selecciona una canción de la lista para ver su letra completa con acordes</p>
-                      <p className="hint-micro">
-                        Usa los botones <strong>+</strong> y <strong>-</strong> para transponer los acordes
-                      </p>
-                      <p className="hint-micro">
-                        Presiona <strong>A4</strong> para activar el modo hoja de impresión
+                      <p className="descripcion-principal">
+                        {categoria === 'homenajes' ? 'Selecciona un tributo musical para ver su letra completa con acordes' :
+                         categoria === 'zapadas' ? 'Selecciona una sesión espontánea para ver su letra completa con acordes' :
+                         'Selecciona una canción de la lista para ver su letra completa con acordes'}
                       </p>
                     </div>
                   </div>
@@ -917,7 +1361,7 @@ const MMusicaEscucha = () => {
               onClick={() => setMostrarListaMobile(!mostrarListaMobile)}
               title={mostrarListaMobile ? "Ocultar lista" : "Mostrar lista"}
             >
-              <BsListUl />
+              <FiList />
               <span>{mostrarListaMobile ? 'Ocultar lista' : 'Mostrar lista'}</span>
               <span className="contador-toggle">{cancionesFiltradas.length}</span>
             </button>
@@ -935,13 +1379,13 @@ const MMusicaEscucha = () => {
               <div className="panel-contenido-mobile-lista">
                 {loading ? (
                   <div className="cargando-micro">
-                    <BsMusicNoteBeamed className="icono-cargando-micro" />
+                    <div className="spinner-micro"></div>
                     <span>Cargando...</span>
                   </div>
                 ) : error ? (
                   <div className="error-micro">
-                    <span>⚠️</span>
-                    <span>{error}</span>
+                    <span className="error-icono">⚠️</span>
+                    <span className="error-texto">{error}</span>
                   </div>
                 ) : (
                   <MusicaCancionesLista
@@ -992,7 +1436,12 @@ const MMusicaEscucha = () => {
             </div>
             
             <div className="panel-contenido-chords-mobile">
-              {datosChords ? (
+              {isLoadingChords ? (
+                <div className="sin-chords-micro">
+                  <div className="spinner-chords"></div>
+                  <p>Cargando letra y acordes...</p>
+                </div>
+              ) : datosChords ? (
                 <div className="chords-viewer-integrado-mobile-expandido">
                   <ChordsViewerIndex 
                     chordsData={datosChords}
@@ -1003,23 +1452,43 @@ const MMusicaEscucha = () => {
                 </div>
               ) : cancionConChords ? (
                 <div className="sin-chords-micro">
-                  <BsMusicNoteBeamed className="icono-cargando-chords" />
-                  <p>Cargando letra y acordes...</p>
+                  <div className="spinner-chords"></div>
+                    <p>Cargando letra y acordes...</p>
                 </div>
               ) : (
                 <div className="instrucciones-chords-micro-mobile">
-                  <span className="icono-instrucciones-mobile">{getIconoCategoria(categoria)}</span>
-                  <p>Selecciona una canción para ver los acordes</p>
+                  <div className="logo-mobile-container">
+                    <SafeImage 
+                      src={categoria === 'homenajes' ? '/img/Logo Almango pop Somprero 4.jpg' :
+                           categoria === 'zapadas' ? '/img/300.jpg' :
+                           '/img/02-logos/logo-formateo-chords.png'} 
+                      fallbackSrc="/img/default-cover.png"
+                      alt={getNombreCategoria(categoria)} 
+                      className="logo-mobile-instrucciones"
+                    />
+                  </div>
+                  <p className="instrucciones-mobile-texto">
+                    {categoria === 'homenajes' ? 'Selecciona un homenaje para ver los acordes' :
+                     categoria === 'zapadas' ? 'Selecciona una zapada para ver los acordes' :
+                     'Selecciona una canción para ver los acordes'}
+                  </p>
                 </div>
               )}
             </div>
           </div>
         </div>
-
       </div>
-
     </div>
   );
 };
 
-export default MMusicaEscucha;
+// ============================================
+// EXPORTACIÓN CON ERROR BOUNDARY
+// ============================================
+const MMusicaEscuchaWithErrorBoundary = () => (
+  <ErrorBoundary>
+    <MMusicaEscucha />
+  </ErrorBoundary>
+);
+
+export default MMusicaEscuchaWithErrorBoundary;

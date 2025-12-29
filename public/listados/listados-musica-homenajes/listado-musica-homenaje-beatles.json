@@ -1,0 +1,295 @@
+{
+    "artista": "The Beatles",
+    "categoria": "homenajes",
+    "discografia": [
+      {
+        "album_id": "homenajes-beatles-00",
+        "album_name": "HOMENAJE A THE BEATLES",
+        "year": "2024",
+        "cover_image": "/img/02-logos/logo-formateo-chords2.png",
+        "genre": "Homenajes",
+        "songs": [
+          {
+            "id": "homenaje-beatles-01-a-hard-days-night",
+            "track_number": 1,
+            "title": "A Hard Day's Night",
+            "artist": "The Beatles",
+            "duration": "2:34",
+            "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-beatles/beatles-a-hard-days-night.mp3",
+            "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-beatles/beatles-a-hard-days-night.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 138,
+              "tonalidad": "G Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes The Beatles"
+            }
+          },
+          {
+            "id": "homenaje-beatles-02-all-my-loving",
+            "track_number": 2,
+            "title": "All My Loving",
+            "artist": "The Beatles",
+            "duration": "2:08",
+            "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-beatles/beatles-all-my-loving.mp3",
+            "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-beatles/beatles-all-my-loving.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 144,
+              "tonalidad": "E Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Pop",
+              "genre": "Rock",
+              "categoria": "Homenajes The Beatles"
+            }
+          },
+          {
+            "id": "homenaje-beatles-03-come-together",
+            "track_number": 3,
+            "title": "Come Together",
+            "artist": "The Beatles",
+            "duration": "4:20",
+            "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-beatles/beatles-come-together.mp3",
+            "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-beatles/beatles-come-together.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 83,
+              "tonalidad": "A Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes The Beatles"
+            }
+          },
+          {
+            "id": "homenaje-beatles-04-dont-let-me-down",
+            "track_number": 4,
+            "title": "Don't Let Me Down",
+            "artist": "The Beatles",
+            "duration": "3:35",
+            "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-beatles/beatles-dont-let-me-down.mp3",
+            "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-beatles/beatles-dont-let-me-down.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 72,
+              "tonalidad": "E Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes The Beatles"
+            }
+          },
+          {
+            "id": "homenaje-beatles-05-golden-slumbers",
+            "track_number": 5,
+            "title": "Golden Slumbers",
+            "artist": "The Beatles",
+            "duration": "1:32",
+            "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-beatles/beatles-golden-slumbers.mp3",
+            "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-beatles/beatles-golden-slumbers.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 66,
+              "tonalidad": "C Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Balada",
+              "genre": "Rock",
+              "categoria": "Homenajes The Beatles"
+            }
+          },
+          {
+            "id": "homenaje-beatles-06-help",
+            "track_number": 6,
+            "title": "Help!",
+            "artist": "The Beatles",
+            "duration": "2:19",
+            "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-beatles/beatles-help.mp3",
+            "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-beatles/beatles-help.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 104,
+              "tonalidad": "G Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes The Beatles"
+            }
+          },
+          {
+            "id": "homenaje-beatles-07-here-comes-the-sun",
+            "track_number": 7,
+            "title": "Here Comes the Sun",
+            "artist": "The Beatles",
+            "duration": "3:06",
+            "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-beatles/beatles-here-comes-the-sun.mp3",
+            "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-beatles/beatles-here-comes-the-sun.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 129,
+              "tonalidad": "A Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes The Beatles"
+            }
+          },
+          {
+            "id": "homenaje-beatles-08-hey-jude",
+            "track_number": 8,
+            "title": "Hey Jude",
+            "artist": "The Beatles",
+            "duration": "7:11",
+            "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-beatles/beatles-hey-jude.mp3",
+            "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-beatles/beatles-hey-jude.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 72,
+              "tonalidad": "F Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Pop",
+              "genre": "Rock",
+              "categoria": "Homenajes The Beatles"
+            }
+          },
+          {
+            "id": "homenaje-beatles-09-i-saw-her-standing-there",
+            "track_number": 9,
+            "title": "I Saw Her Standing There",
+            "artist": "The Beatles",
+            "duration": "2:53",
+            "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-beatles/beatles-i-saw-her-standing-there.mp3",
+            "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-beatles/beatles-i-saw-her-standing-there.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 126,
+              "tonalidad": "E Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes The Beatles"
+            }
+          },
+          {
+            "id": "homenaje-beatles-10-let-it-be",
+            "track_number": 10,
+            "title": "Let It Be",
+            "artist": "The Beatles",
+            "duration": "4:03",
+            "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-beatles/beatles-let-it-be.mp3",
+            "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-beatles/beatles-let-it-be.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 72,
+              "tonalidad": "C Mayor",
+              "compas": "4/4",
+              "dificultad": "Fácil",
+              "style": "Pop",
+              "genre": "Rock",
+              "categoria": "Homenajes The Beatles"
+            }
+          },
+          {
+            "id": "homenaje-beatles-11-love-me-do",
+            "track_number": 11,
+            "title": "Love Me Do",
+            "artist": "The Beatles",
+            "duration": "2:22",
+            "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-beatles/beatles-love-me-do.mp3",
+            "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-beatles/beatles-love-me-do.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 112,
+              "tonalidad": "G Mayor",
+              "compas": "4/4",
+              "dificultad": "Fácil",
+              "style": "Pop",
+              "genre": "Rock",
+              "categoria": "Homenajes The Beatles"
+            }
+          },
+          {
+            "id": "homenaje-beatles-12-something",
+            "track_number": 12,
+            "title": "Something",
+            "artist": "The Beatles",
+            "duration": "3:03",
+            "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-beatles/beatles-something.mp3",
+            "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-beatles/beatles-something.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 68,
+              "tonalidad": "C Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Balada",
+              "genre": "Rock",
+              "categoria": "Homenajes The Beatles"
+            }
+          },
+          {
+            "id": "homenaje-beatles-13-twist-and-shout",
+            "track_number": 13,
+            "title": "Twist and Shout",
+            "artist": "The Beatles",
+            "duration": "2:35",
+            "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-beatles/beatles-twist-and-shout.mp3",
+            "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-beatles/beatles-twist-and-shout.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 124,
+              "tonalidad": "D Mayor",
+              "compas": "4/4",
+              "dificultad": "Fácil",
+              "style": "Rock",
+              "genre": "Rock",
+              "categoria": "Homenajes The Beatles"
+            }
+          },
+          {
+            "id": "homenaje-beatles-14-yesterday",
+            "track_number": 14,
+            "title": "Yesterday",
+            "artist": "The Beatles",
+            "duration": "2:05",
+            "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-beatles/beatles-yesterday.mp3",
+            "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-beatles/beatles-yesterday.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 96,
+              "tonalidad": "F Mayor",
+              "compas": "4/4",
+              "dificultad": "Fácil",
+              "style": "Pop",
+              "genre": "Rock",
+              "categoria": "Homenajes The Beatles"
+            }
+          }
+        ]
+      }
+    ]
+  }

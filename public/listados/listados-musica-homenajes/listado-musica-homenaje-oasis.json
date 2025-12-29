@@ -1,0 +1,214 @@
+{
+    "artista": "Rockola Covers",
+    "discografia": [
+      {
+        "album_id": "homenajes-internacionales-00",
+        "album_name": "HOMENAJES INTERNACIONALES",
+        "year": "2024",
+          "cover_image": "/img/02-logos/logo-formateo-chords2.png",
+        "genre": "Homenajes",
+        "songs": [
+          {
+            "id": "homenaje-oasis-01-wonderwall",
+            "track_number": 119,
+            "title": "Wonderwall",
+            "artist": "Oasis",
+            "duration": "4:18",
+            "mp3_url": "/audio/homenajes/oasis-wonderwall.mp3",
+            "chords_url": "/chords/homenajes/oasis-wonderwall.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 87,
+              "tonalidad": "F#m",
+              "compas": "4/4",
+              "dificultad": "Fácil",
+              "style": "Britpop",
+              "genre": "Rock",
+              "categoria": "Homenajes Oasis"
+            }
+          },
+          {
+            "id": "homenaje-oasis-02-dont-look-back-in-anger",
+            "track_number": 120,
+            "title": "Don't Look Back in Anger",
+            "artist": "Oasis",
+            "duration": "4:48",
+            "mp3_url": "/audio/homenajes/oasis-dont-look-back-in-anger.mp3",
+            "chords_url": "/chords/homenajes/oasis-dont-look-back-in-anger.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 85,
+              "tonalidad": "C Mayor",
+              "compas": "4/4",
+              "dificultad": "Fácil",
+              "style": "Britpop",
+              "genre": "Rock",
+              "categoria": "Homenajes Oasis"
+            }
+          },
+          {
+            "id": "homenaje-oasis-03-champagne-supernova",
+            "track_number": 121,
+            "title": "Champagne Supernova",
+            "artist": "Oasis",
+            "duration": "7:27",
+            "mp3_url": "/audio/homenajes/oasis-champagne-supernova.mp3",
+            "chords_url": "/chords/homenajes/oasis-champagne-supernova.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 136,
+              "tonalidad": "A Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Britpop",
+              "genre": "Rock",
+              "categoria": "Homenajes Oasis"
+            }
+          },
+          {
+            "id": "homenaje-oasis-04-live-forever",
+            "track_number": 122,
+            "title": "Live Forever",
+            "artist": "Oasis",
+            "duration": "4:36",
+            "mp3_url": "/audio/homenajes/oasis-live-forever.mp3",
+            "chords_url": "/chords/homenajes/oasis-live-forever.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 92,
+              "tonalidad": "D Mayor",
+              "compas": "4/4",
+              "dificultad": "Fácil",
+              "style": "Britpop",
+              "genre": "Rock",
+              "categoria": "Homenajes Oasis"
+            }
+          },
+          {
+            "id": "homenaje-oasis-05-supersonic",
+            "track_number": 123,
+            "title": "Supersonic",
+            "artist": "Oasis",
+            "duration": "4:43",
+            "mp3_url": "/audio/homenajes/oasis-supersonic.mp3",
+            "chords_url": "/chords/homenajes/oasis-supersonic.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 146,
+              "tonalidad": "E Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Britpop",
+              "genre": "Rock",
+              "categoria": "Homenajes Oasis"
+            }
+          },
+          {
+            "id": "homenaje-oasis-06-she-is-love",
+            "track_number": 124,
+            "title": "She Is Love",
+            "artist": "Oasis",
+            "duration": "3:09",
+            "mp3_url": "/audio/homenajes/oasis-she-is-love.mp3",
+            "chords_url": "/chords/homenajes/oasis-she-is-love.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 84,
+              "tonalidad": "D Mayor",
+              "compas": "4/4",
+              "dificultad": "Fácil",
+              "style": "Britpop",
+              "genre": "Rock",
+              "categoria": "Homenajes Oasis"
+            }
+          },
+          {
+            "id": "homenaje-oasis-07-stand-by-me",
+            "track_number": 125,
+            "title": "Stand by Me",
+            "artist": "Oasis",
+            "duration": "5:56",
+            "mp3_url": "/audio/homenajes/oasis-stand-by-me.mp3",
+            "chords_url": "/chords/homenajes/oasis-stand-by-me.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 94,
+              "tonalidad": "C Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Britpop",
+              "genre": "Rock",
+              "categoria": "Homenajes Oasis"
+            }
+          },
+          {
+            "id": "homenaje-oasis-08-the-importance-of-being-idle",
+            "track_number": 126,
+            "title": "The Importance of Being Idle",
+            "artist": "Oasis",
+            "duration": "3:39",
+            "mp3_url": "/audio/homenajes/oasis-the-importance-of-being-idle.mp3",
+            "chords_url": "/chords/homenajes/oasis-the-importance-of-being-idle.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 104,
+              "tonalidad": "A Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Britpop",
+              "genre": "Rock",
+              "categoria": "Homenajes Oasis"
+            }
+          },
+          {
+            "id": "homenaje-oasis-09-stop-crying-your-heart-out",
+            "track_number": 127,
+            "title": "Stop Crying Your Heart Out",
+            "artist": "Oasis",
+            "duration": "5:03",
+            "mp3_url": "/audio/homenajes/oasis-stop-crying-your-heart-out.mp3",
+            "chords_url": "/chords/homenajes/oasis-stop-crying-your-heart-out.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 72,
+              "tonalidad": "C Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Britpop",
+              "genre": "Rock",
+              "categoria": "Homenajes Oasis"
+            }
+          },
+          {
+            "id": "homenaje-oasis-10-let-there-be-love",
+            "track_number": 128,
+            "title": "Let There Be Love",
+            "artist": "Oasis",
+            "duration": "5:31",
+            "mp3_url": "/audio/homenajes/oasis-let-there-be-love.mp3",
+            "chords_url": "/chords/homenajes/oasis-let-there-be-love.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 70,
+              "tonalidad": "F Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Britpop",
+              "genre": "Rock",
+              "categoria": "Homenajes Oasis"
+            }
+          }
+        ]
+      }
+    ]
+  }
