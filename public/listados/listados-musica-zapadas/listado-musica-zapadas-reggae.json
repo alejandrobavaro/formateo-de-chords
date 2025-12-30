@@ -1,0 +1,95 @@
+{
+    "artista": "Almango Pop",
+    "categoria": "zapadas",
+    "discografia": [
+      {
+        "album_id": "zapadas-reggae-00",
+        "album_name": "ZAPADAS REGGAE",
+        "year": "2025",
+        "cover_image": "/img/02-logos/logo-formateo-chords2.png",
+        "genre": "Reggae",
+        "songs": [
+          {
+            "id": "zapada-reggae-002",
+            "track_number": 1,
+            "title": "Zapada Reggae Variación 1 en A Mayor",
+            "artist": "Almango Pop",
+            "duration": "4:15",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-reggae/mp3-zapadas-reggae-02.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-reggae/cancioneroszapadas-reggae-02.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 83,
+              "tonalidad": "A Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Reggae",
+              "genre": "Reggae",
+              "categoria": "Zapadas Reggae"
+            }
+          },
+          {
+            "id": "zapada-reggae-003",
+            "track_number": 2,
+            "title": "Zapada Reggae Versión Acústica 2",
+            "artist": "Almango Pop",
+            "duration": "5:20",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-reggae/mp3-zapadas-reggae-03.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-reggae/cancioneroszapadas-reggae-03.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 88,
+              "tonalidad": "A Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Reggae Acústico",
+              "genre": "Reggae",
+              "categoria": "Zapadas Reggae"
+            }
+          },
+          {
+            "id": "zapada-reggae-004",
+            "track_number": 3,
+            "title": "Zapada Reggae Sesión 3 en Vivo",
+            "artist": "Almango Pop",
+            "duration": "3:25",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-reggae/mp3-zapadas-reggae-04.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-reggae/cancioneroszapadas-reggae-04.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 93,
+              "tonalidad": "A Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Reggae en Vivo",
+              "genre": "Reggae",
+              "categoria": "Zapadas Reggae"
+            }
+          },
+          {
+            "id": "zapada-reggae-023",
+            "track_number": 4,
+            "title": "Zapada Reggae",
+            "artist": "Almango Pop",
+            "duration": "4:40",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-reggae/mp3-zapadas-reggae-23.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-reggae/cancioneroszapadas-reggae-23.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 78,
+              "tonalidad": "A Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Reggae",
+              "genre": "Reggae",
+              "categoria": "Zapadas Reggae"
+            }
+          }
+        ]
+      }
+    ]
+  }

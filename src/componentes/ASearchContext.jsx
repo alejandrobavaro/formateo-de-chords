@@ -1,7 +1,7 @@
 // ============================================
 // ARCHIVO: ASearchContext.jsx - VERSIÓN COMPLETA
 // DESCRIPCIÓN: Contexto de búsqueda global para todas las categorías
-// CORRECCIONES: Incluye zapadas en el sistema de carga
+// CORRECCIONES: Zapadas ahora divididas por género en archivos separados
 // ============================================
 
 import React, { createContext, useContext, useState, useEffect, useCallback } from 'react';
@@ -385,18 +385,148 @@ export const SearchProvider = ({ children }) => {
     },
     
     // ======================================================
-    // 🎹 ZAPADAS - ARCHIVO ESPECÍFICO
+    // 🎹 ZAPADAS POR GÉNERO (17 archivos individuales)
     // ======================================================
     { 
-      id: 'zapadas', 
-      name: 'Zapadas', 
-      path: '/listados/listados-musica-zapadas/listado-musica-zapadas.json',
-      type: 'zapadas'
+      id: 'zapadas-blues', 
+      name: 'Zapadas Blues', 
+      path: '/listados/listados-musica-zapadas/listado-musica-zapadas-blues.json',
+      type: 'zapadas',
+      genre: 'Blues',
+      artista_real: 'Almango Pop'
+    },
+    { 
+      id: 'zapadas-rock', 
+      name: 'Zapadas Rock', 
+      path: '/listados/listados-musica-zapadas/listado-musica-zapadas-rock.json',
+      type: 'zapadas',
+      genre: 'Rock',
+      artista_real: 'Almango Pop'
+    },
+    { 
+      id: 'zapadas-country', 
+      name: 'Zapadas Country', 
+      path: '/listados/listados-musica-zapadas/listado-musica-zapadas-country.json',
+      type: 'zapadas',
+      genre: 'Country',
+      artista_real: 'Almango Pop'
+    },
+    { 
+      id: 'zapadas-electronica', 
+      name: 'Zapadas Electrónica', 
+      path: '/listados/listados-musica-zapadas/listado-musica-zapadas-electronica.json',
+      type: 'zapadas',
+      genre: 'Electrónica',
+      artista_real: 'Almango Pop'
+    },
+    { 
+      id: 'zapadas-experimentales', 
+      name: 'Zapadas Experimentales', 
+      path: '/listados/listados-musica-zapadas/listado-musica-zapadas-experimentales.json',
+      type: 'zapadas',
+      genre: 'Experimental',
+      artista_real: 'Almango Pop'
+    },
+    { 
+      id: 'zapadas-folklore', 
+      name: 'Zapadas Folklore', 
+      path: '/listados/listados-musica-zapadas/listado-musica-zapadas-folklore.json',
+      type: 'zapadas',
+      genre: 'Folklore',
+      artista_real: 'Almango Pop'
+    },
+    { 
+      id: 'zapadas-funk', 
+      name: 'Zapadas Funk', 
+      path: '/listados/listados-musica-zapadas/listado-musica-zapadas-funk.json',
+      type: 'zapadas',
+      genre: 'Funk',
+      artista_real: 'Almango Pop'
+    },
+    { 
+      id: 'zapadas-jazz', 
+      name: 'Zapadas Jazz', 
+      path: '/listados/listados-musica-zapadas/listado-musica-zapadas-jazz.json',
+      type: 'zapadas',
+      genre: 'Jazz',
+      artista_real: 'Almango Pop'
+    },
+    { 
+      id: 'zapadas-latino', 
+      name: 'Zapadas Latino', 
+      path: '/listados/listados-musica-zapadas/listado-musica-zapadas-latino.json',
+      type: 'zapadas',
+      genre: 'Latino',
+      artista_real: 'Almango Pop'
+    },
+    { 
+      id: 'zapadas-metal', 
+      name: 'Zapadas Metal', 
+      path: '/listados/listados-musica-zapadas/listado-musica-zapadas-metal.json',
+      type: 'zapadas',
+      genre: 'Metal',
+      artista_real: 'Almango Pop'
+    },
+    { 
+      id: 'zapadas-pop', 
+      name: 'Zapadas Pop', 
+      path: '/listados/listados-musica-zapadas/listado-musica-zapadas-pop.json',
+      type: 'zapadas',
+      genre: 'Pop',
+      artista_real: 'Almango Pop'
+    },
+    { 
+      id: 'zapadas-r&b', 
+      name: 'Zapadas R&B', 
+      path: '/listados/listados-musica-zapadas/listado-musica-zapadas-r&b.json',
+      type: 'zapadas',
+      genre: 'R&B',
+      artista_real: 'Almango Pop'
+    },
+    { 
+      id: 'zapadas-reggae', 
+      name: 'Zapadas Reggae', 
+      path: '/listados/listados-musica-zapadas/listado-musica-zapadas-reggae.json',
+      type: 'zapadas',
+      genre: 'Reggae',
+      artista_real: 'Almango Pop'
+    },
+    { 
+      id: 'zapadas-ska', 
+      name: 'Zapadas Ska', 
+      path: '/listados/listados-musica-zapadas/listado-musica-zapadas-ska.json',
+      type: 'zapadas',
+      genre: 'Ska',
+      artista_real: 'Almango Pop'
+    },
+    { 
+      id: 'zapadas-soul', 
+      name: 'Zapadas Soul', 
+      path: '/listados/listados-musica-zapadas/listado-musica-zapadas-soul.json',
+      type: 'zapadas',
+      genre: 'Soul',
+      artista_real: 'Almango Pop'
+    },
+    { 
+      id: 'zapadas-tango', 
+      name: 'Zapadas Tango', 
+      path: '/listados/listados-musica-zapadas/listado-musica-zapadas-tango.json',
+      type: 'zapadas',
+      genre: 'Tango',
+      artista_real: 'Almango Pop'
+    },
+    { 
+      id: 'zapadas-urban', 
+      name: 'Zapadas Urban', 
+      path: '/listados/listados-musica-zapadas/listado-musica-zapadas-urban.json',
+      type: 'zapadas',
+      genre: 'Urban',
+      artista_real: 'Almango Pop'
     }
   ];
 
   // ============================================
-  // CARGAR DATOS DE UNA BIBLIOTECA
+  // CARGAR DATOS DE UNA BIBLIOTECA CON MANEJO DE ERRORES
   // ============================================
   const loadLibraryData = useCallback(async (library) => {
     try {
@@ -404,8 +534,17 @@ export const SearchProvider = ({ children }) => {
       const response = await fetch(library.path);
       
       if (!response.ok) {
-        console.warn(`⚠️ No se pudo cargar: ${library.path} - Status: ${response.status}`);
-        return { ...library, rawData: null, albums: [], songs: [], error: `HTTP ${response.status}` };
+        const errorMsg = `No se pudo cargar ${library.name} (${response.status})`;
+        console.warn(`⚠️ ${errorMsg}`);
+        return { 
+          ...library, 
+          rawData: null, 
+          albums: [], 
+          songs: [], 
+          discografia: [],
+          error: errorMsg,
+          failed: true 
+        };
       }
 
       const text = await response.text();
@@ -415,38 +554,78 @@ export const SearchProvider = ({ children }) => {
           text.trim().startsWith('<html') ||
           text.includes('Page Not Found') ||
           text.includes('404')) {
-        console.warn(`⚠️ Archivo devuelve HTML (404): ${library.path}`);
-        return { ...library, rawData: null, albums: [], songs: [], error: '404 HTML' };
+        const errorMsg = `Archivo no encontrado (404): ${library.path}`;
+        console.warn(`⚠️ ${errorMsg}`);
+        return { 
+          ...library, 
+          rawData: null, 
+          albums: [], 
+          songs: [], 
+          discografia: [],
+          error: errorMsg,
+          failed: true 
+        };
       }
 
       if (!text.trim()) {
-        console.warn(`⚠️ Archivo vacío: ${library.path}`);
-        return { ...library, rawData: null, albums: [], songs: [], error: 'Empty file' };
+        const errorMsg = `Archivo vacío: ${library.path}`;
+        console.warn(`⚠️ ${errorMsg}`);
+        return { 
+          ...library, 
+          rawData: null, 
+          albums: [], 
+          songs: [], 
+          discografia: [],
+          error: errorMsg,
+          failed: true 
+        };
       }
 
       let data;
       try {
         data = JSON.parse(text);
       } catch (parseError) {
-        console.error(`❌ Error parseando JSON de ${library.path}:`, parseError.message);
-        return { ...library, rawData: null, albums: [], songs: [], error: 'Invalid JSON' };
+        const errorMsg = `Error parseando JSON: ${parseError.message}`;
+        console.error(`❌ ${errorMsg} de ${library.path}`);
+        return { 
+          ...library, 
+          rawData: null, 
+          albums: [], 
+          songs: [], 
+          discografia: [],
+          error: errorMsg,
+          failed: true 
+        };
       }
       
-      console.log(`✅ Biblioteca cargada: ${library.name}`, { type: library.type, albums: data.albums?.length || 0, songs: data.songs?.length || 0 });
+      console.log(`✅ Biblioteca cargada: ${library.name}`, { 
+        type: library.type, 
+        albums: data.albums?.length || 0, 
+        songs: data.songs?.length || 0,
+        discografia: data.discografia?.length || 0
+      });
 
       return {
         ...library,
         rawData: data,
         albums: data.albums || [],
         songs: data.songs || [],
-        // Para homenajes, originales y zapadas, usar discografía
         discografia: data.discografia || [],
         artista: data.artista || library.name,
-        error: null
+        error: null,
+        failed: false
       };
     } catch (error) {
       console.error(`💥 Error cargando ${library.name}:`, error);
-      return { ...library, rawData: null, albums: [], songs: [], error: error.message };
+      return { 
+        ...library, 
+        rawData: null, 
+        albums: [], 
+        songs: [], 
+        discografia: [],
+        error: error.message,
+        failed: true 
+      };
     }
   }, []);
 
@@ -469,16 +648,28 @@ export const SearchProvider = ({ children }) => {
       const libraryResults = await Promise.all(libraryPromises);
 
       libraryResults.forEach((libraryData) => {
-        if (libraryData.error) {
+        const libraryId = libraryData.id;
+        
+        // REGISTRAR ERRORES
+        if (libraryData.failed || libraryData.error) {
           errors.push({
             library: libraryData.name,
             path: libraryData.path,
-            error: libraryData.error
+            error: libraryData.error || 'Error desconocido',
+            type: libraryData.type
           });
+          
+          // Aun así, agregar la biblioteca vacía para mantener la estructura
+          librariesMap[libraryId] = {
+            ...libraryData,
+            songs: [],
+            albums: [],
+            discografia: []
+          };
           return;
         }
 
-        const libraryId = libraryData.id;
+        // PROCESAR BIBLIOTECA EXITOSA
         librariesMap[libraryId] = libraryData;
         
         // PROCESAR CANCIONES SEGÚN EL TIPO DE BIBLIOTECA
@@ -505,7 +696,8 @@ export const SearchProvider = ({ children }) => {
                 artista: song.artist,
                 duracion: song.duration || '3:30',
                 url: song.mp3_file || song.url || `/audio/default-${libraryData.type}.mp3`,
-                chords_url: song.file ? `${album.basePath || '/chords/'}${song.file}` : null
+                chords_url: song.file ? `${album.basePath || '/chords/'}${song.file}` : null,
+                esZapada: false
               }))
             );
           }
@@ -559,22 +751,28 @@ export const SearchProvider = ({ children }) => {
       
       console.log('🎉 Carga completada:', {
         bibliotecas: Object.keys(librariesMap).length,
+        exitosas: Object.keys(librariesMap).length - errors.length,
+        fallidas: errors.length,
         canciones: allSongsData.length,
-        indice: searchMap.size,
-        errores: errors.length
+        indice: searchMap.size
       });
 
       // Mostrar errores si los hay
       if (errors.length > 0) {
         console.warn('📋 Bibliotecas con errores:');
-        errors.forEach(err => {
-          console.warn(`  - ${err.library}: ${err.error} (${err.path})`);
+        errors.forEach((err, index) => {
+          console.warn(`  ${index + 1}. ${err.library} (${err.type}): ${err.error}`);
         });
       }
 
     } catch (error) {
       console.error('💥 Error crítico cargando bibliotecas:', error);
-      setLoadingErrors([{ library: 'General', error: error.message }]);
+      setLoadingErrors([{ 
+        library: 'General', 
+        path: 'All libraries', 
+        error: error.message,
+        type: 'system'
+      }]);
     } finally {
       setIsLoading(false);
     }
@@ -633,117 +831,14 @@ export const SearchProvider = ({ children }) => {
   }, [searchIndex]);
 
   // ============================================
-  // OBTENER CANCIONES POR TIPO
-  // ============================================
-  const getSongsByType = useCallback((type) => {
-    const songs = allSongs.filter(song => song.libraryType === type);
-    console.log(`🎵 Canciones de tipo ${type}:`, songs.length);
-    return songs;
-  }, [allSongs]);
-
-  // ============================================
-  // OBTENER CANCIONES DE UNA BIBLIOTECA
-  // ============================================
-  const getSongsByLibrary = useCallback((libraryId) => {
-    const songs = allSongs.filter(song => song.libraryId === libraryId);
-    console.log(`🎵 Canciones en biblioteca ${libraryId}:`, songs.length);
-    return songs;
-  }, [allSongs]);
-
-  // ============================================
-  // OBTENER ÁLBUMES DE UNA BIBLIOTECA
-  // ============================================
-  const getAlbumsByLibrary = useCallback((libraryId) => {
-    const library = librariesData[libraryId];
-    if (!library) return [];
-    
-    const albums = library.albums || [];
-    console.log(`📀 Álbumes en biblioteca ${libraryId}:`, albums.length);
-    return albums;
-  }, [librariesData]);
-
-  // ============================================
-  // OBTENER CANCIONES DE UN ÁLBUM
-  // ============================================
-  const getSongsByAlbum = useCallback((libraryId, albumId) => {
-    const library = librariesData[libraryId];
-    if (!library) return [];
-    
-    let songs = [];
-    
-    if (library.albums && library.albums.length > 0) {
-      const album = library.albums.find(a => a.album_id === albumId);
-      songs = album?.songs || [];
-    } else if (library.discografia && library.discografia.length > 0) {
-      const disco = library.discografia.find(d => d.album_id === albumId);
-      songs = disco?.songs || [];
-    }
-    
-    console.log(`🎶 Canciones en álbum ${albumId}:`, songs.length);
-    return songs;
-  }, [librariesData]);
-
-  // ============================================
-  // OBTENER CANCIÓN SIGUIENTE/ANTERIOR EN LA LISTA
-  // ============================================
-  const getAdjacentSongs = useCallback((currentSong) => {
-    if (!currentSong) {
-      console.log('❌ No hay canción actual para obtener adyacentes');
-      return { previous: null, next: null };
-    }
-    
-    const librarySongs = getSongsByLibrary(currentSong.libraryId);
-    const currentIndex = librarySongs.findIndex(song => 
-      song.id === currentSong.id
-    );
-    
-    const result = {
-      previous: currentIndex > 0 ? librarySongs[currentIndex - 1] : null,
-      next: currentIndex < librarySongs.length - 1 ? librarySongs[currentIndex + 1] : null
-    };
-    
-    console.log(`🔍 Canciones adyacentes para ${currentSong.nombre || currentSong.title}:`, {
-      currentIndex,
-      total: librarySongs.length,
-      previous: result.previous?.nombre || result.previous?.title,
-      next: result.next?.nombre || result.next?.title
-    });
-    
-    return result;
-  }, [getSongsByLibrary]);
-
-  // ============================================
-  // OBTENER RUTA PARA NAVEGACIÓN
-  // ============================================
-  const getSongNavigationPath = useCallback((song) => {
-    if (!song || !song.libraryId) {
-      console.log('❌ No se puede generar ruta: canción o libraryId faltante');
-      return null;
-    }
-    
-    const encodedSongId = encodeURIComponent(song.id);
-    const path = `/chords-viewer?library=${song.libraryId}&song=${encodedSongId}`;
-    console.log(`🛣️ Ruta generada: ${path}`);
-    return path;
-  }, []);
-
-  // ============================================
-  // OBTENER CANCIÓN POR ID
-  // ============================================
-  const getSongById = useCallback((songId) => {
-    const song = allSongs.find(s => s.id === songId);
-    console.log(`🔎 Buscando canción por ID: ${songId}`, song ? '✅ Encontrada' : '❌ No encontrada');
-    return song;
-  }, [allSongs]);
-
-  // ============================================
-  // OBTENER ESTADÍSTICAS
+  // OBTENER ESTADÍSTICAS POR TIPO
   // ============================================
   const getStats = useCallback(() => {
     const stats = {
       total: allSongs.length,
       byType: {},
-      byLibrary: {}
+      byLibrary: {},
+      failedLibraries: loadingErrors.length
     };
 
     // Contar por tipo
@@ -756,6 +851,30 @@ export const SearchProvider = ({ children }) => {
     });
 
     return stats;
+  }, [allSongs, loadingErrors]);
+
+  // ============================================
+  // OBTENER ZAPADAS POR GÉNERO ESPECÍFICO
+  // ============================================
+  const getZapadasByGenre = useCallback((genre) => {
+    const zapadasSongs = allSongs.filter(song => 
+      song.libraryType === 'zapadas' && song.libraryId === `zapadas-${genre.toLowerCase()}`
+    );
+    return zapadasSongs;
+  }, [allSongs]);
+
+  // ============================================
+  // OBTENER TODOS LOS GÉNEROS DE ZAPADAS DISPONIBLES
+  // ============================================
+  const getAvailableZapadasGenres = useCallback(() => {
+    const zapadasLibraries = SONG_LIBRARIES.filter(lib => lib.type === 'zapadas');
+    return zapadasLibraries.map(lib => ({
+      id: lib.id.replace('zapadas-', ''),
+      name: lib.name.replace('Zapadas ', ''),
+      genre: lib.genre,
+      path: lib.path,
+      songCount: allSongs.filter(song => song.libraryId === lib.id).length
+    }));
   }, [allSongs]);
 
   // ============================================
@@ -781,15 +900,35 @@ export const SearchProvider = ({ children }) => {
     
     // FUNCIONES DE BÚSQUEDA
     searchSongs,
-    getSongNavigationPath,
-    getSongById,
+    getSongNavigationPath: (song) => {
+      if (!song || !song.libraryId) return null;
+      const encodedSongId = encodeURIComponent(song.id);
+      return `/chords-viewer?library=${song.libraryId}&song=${encodedSongId}`;
+    },
+    getSongById: (songId) => allSongs.find(s => s.id === songId),
     
     // FUNCIONES DE NAVEGACIÓN Y FILTRADO
-    getSongsByType,
-    getSongsByLibrary,
-    getAlbumsByLibrary,
-    getSongsByAlbum,
-    getAdjacentSongs,
+    getSongsByType: (type) => allSongs.filter(song => song.libraryType === type),
+    getSongsByLibrary: (libraryId) => allSongs.filter(song => song.libraryId === libraryId),
+    getAlbumsByLibrary: (libraryId) => librariesData[libraryId]?.albums || [],
+    getSongsByAlbum: (libraryId, albumId) => {
+      const library = librariesData[libraryId];
+      if (!library) return [];
+      
+      let songs = [];
+      if (library.albums?.length > 0) {
+        const album = library.albums.find(a => a.album_id === albumId);
+        songs = album?.songs || [];
+      } else if (library.discografia?.length > 0) {
+        const disco = library.discografia.find(d => d.album_id === albumId);
+        songs = disco?.songs || [];
+      }
+      return songs;
+    },
+    
+    // FUNCIONES ESPECÍFICAS PARA ZAPADAS
+    getZapadasByGenre,
+    getAvailableZapadasGenres,
     
     // UTILIDADES
     getStats,

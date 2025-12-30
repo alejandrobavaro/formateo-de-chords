@@ -1,0 +1,115 @@
+{
+    "artista": "Almango Pop",
+    "categoria": "zapadas",
+    "discografia": [
+      {
+        "album_id": "zapadas-funk-00",
+        "album_name": "ZAPADAS FUNK",
+        "year": "2025",
+        "cover_image": "/img/02-logos/logo-formateo-chords2.png",
+        "genre": "Funk",
+        "songs": [
+          {
+            "id": "zapada-funk-003",
+            "track_number": 1,
+            "title": "Zapada Funk Variación 1 en F Mayor",
+            "artist": "Almango Pop",
+            "duration": "4:15",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-funk/mp3-zapadas-funk-03.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-funk/cancioneroszapadas-funk-03.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 110,
+              "tonalidad": "F Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Funk",
+              "genre": "Funk",
+              "categoria": "Zapadas Funk"
+            }
+          },
+          {
+            "id": "zapada-funk-004",
+            "track_number": 2,
+            "title": "Zapada Funk Versión Acústica 2",
+            "artist": "Almango Pop",
+            "duration": "5:20",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-funk/mp3-zapadas-funk-04.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-funk/cancioneroszapadas-funk-04.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 115,
+              "tonalidad": "F Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Funk Acústico",
+              "genre": "Funk",
+              "categoria": "Zapadas Funk"
+            }
+          },
+          {
+            "id": "zapada-funk-005",
+            "track_number": 3,
+            "title": "Zapada Funk Sesión 3 en Vivo",
+            "artist": "Almango Pop",
+            "duration": "3:25",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-funk/mp3-zapadas-funk-05.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-funk/cancioneroszapadas-funk-05.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 120,
+              "tonalidad": "F Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Funk en Vivo",
+              "genre": "Funk",
+              "categoria": "Zapadas Funk"
+            }
+          },
+          {
+            "id": "zapada-funk-017",
+            "track_number": 4,
+            "title": "Zapada Funk Groove",
+            "artist": "Almango Pop",
+            "duration": "5:10",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-funk/mp3-zapadas-funk-17.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-funk/cancioneroszapadas-funk-17.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 105,
+              "tonalidad": "F Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Funk Groove",
+              "genre": "Funk",
+              "categoria": "Zapadas Funk"
+            }
+          },
+          {
+            "id": "zapada-funk-018",
+            "track_number": 5,
+            "title": "Zapada Funk Rock",
+            "artist": "Almango Pop",
+            "duration": "4:35",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-funk/mp3-zapadas-funk-18.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-funk/cancioneroszapadas-funk-18.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 112,
+              "tonalidad": "G Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Funk Rock",
+              "genre": "Funk",
+              "categoria": "Zapadas Funk"
+            }
+          }
+        ]
+      }
+    ]
+  }

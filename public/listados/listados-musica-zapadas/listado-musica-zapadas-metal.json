@@ -1,0 +1,115 @@
+{
+    "artista": "Almango Pop",
+    "categoria": "zapadas",
+    "discografia": [
+      {
+        "album_id": "zapadas-metal-00",
+        "album_name": "ZAPADAS METAL",
+        "year": "2025",
+        "cover_image": "/img/02-logos/logo-formateo-chords2.png",
+        "genre": "Metal",
+        "songs": [
+          {
+            "id": "zapada-metal-003",
+            "track_number": 1,
+            "title": "Zapada Metal Variación 1 en E Mayor",
+            "artist": "Almango Pop",
+            "duration": "4:15",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-metal/mp3-zapadas-metal-03.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-metal/cancioneroszapadas-metal-03.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 145,
+              "tonalidad": "E Mayor",
+              "compas": "4/4",
+              "dificultad": "Difícil",
+              "style": "Heavy Metal",
+              "genre": "Metal",
+              "categoria": "Zapadas Metal"
+            }
+          },
+          {
+            "id": "zapada-metal-004",
+            "track_number": 2,
+            "title": "Zapada Metal Versión Acústica 2",
+            "artist": "Almango Pop",
+            "duration": "5:20",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-metal/mp3-zapadas-metal-04.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-metal/cancioneroszapadas-metal-04.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 150,
+              "tonalidad": "E Mayor",
+              "compas": "4/4",
+              "dificultad": "Difícil",
+              "style": "Metal Acústico",
+              "genre": "Metal",
+              "categoria": "Zapadas Metal"
+            }
+          },
+          {
+            "id": "zapada-metal-005",
+            "track_number": 3,
+            "title": "Zapada Metal Sesión 3 en Vivo",
+            "artist": "Almango Pop",
+            "duration": "3:25",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-metal/mp3-zapadas-metal-05.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-metal/cancioneroszapadas-metal-05.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 155,
+              "tonalidad": "E Mayor",
+              "compas": "4/4",
+              "dificultad": "Difícil",
+              "style": "Metal en Vivo",
+              "genre": "Metal",
+              "categoria": "Zapadas Metal"
+            }
+          },
+          {
+            "id": "zapada-metal-028",
+            "track_number": 4,
+            "title": "Zapada Heavy Metal",
+            "artist": "Almango Pop",
+            "duration": "5:15",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-metal/mp3-zapadas-metal-28.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-metal/cancioneroszapadas-metal-28.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 140,
+              "tonalidad": "E Mayor",
+              "compas": "4/4",
+              "dificultad": "Difícil",
+              "style": "Heavy Metal",
+              "genre": "Metal",
+              "categoria": "Zapadas Metal"
+            }
+          },
+          {
+            "id": "zapada-metal-029",
+            "track_number": 5,
+            "title": "Zapada Thrash Metal",
+            "artist": "Almango Pop",
+            "duration": "4:45",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-metal/mp3-zapadas-metal-29.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-metal/cancioneroszapadas-metal-29.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 180,
+              "tonalidad": "B Mayor",
+              "compas": "4/4",
+              "dificultad": "Difícil",
+              "style": "Thrash Metal",
+              "genre": "Metal",
+              "categoria": "Zapadas Metal"
+            }
+          }
+        ]
+      }
+    ]
+  }

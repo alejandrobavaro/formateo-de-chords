@@ -1,214 +1,215 @@
 {
-    "artista": "Enanitos Verdes",
-    "discografia": [
-      {
-        "album_id": "homenajes-enanitos-verdes",
-        "album_name": "HOMENAJES Enanitos Verdes",
-        "year": "2024",
-          "cover_image": "/img/02-logos/logo-formateo-chords2.png",
-        "genre": "Rock",
-        "songs": [
-          {
-            "id": "homenaje-enanitos-verdes-01-lamento-boliviano",
-            "track_number": 1,
-            "title": "Lamento Boliviano",
-            "artist": "Enanitos Verdes",
-            "duration": "4:40",
-            "mp3_url": "/audio/homenajes/enanitos-verdes-lamento-boliviano.mp3",
-            "chords_url": "/chords/homenajes/enanitos-verdes-lamento-boliviano.json",
-            "details": {
-              "letra": "",
-              "acordes": [],
-              "bpm": 124,
-              "tonalidad": "Am",
-              "compas": "4/4",
-              "dificultad": "Fácil",
-              "style": "Rock",
-              "genre": "Rock",
-              "categoria": "Homenajes Enanitos Verdes"
-            }
-          },
-          {
-            "id": "homenaje-enanitos-verdes-02-por-el-resto",
-            "track_number": 2,
-            "title": "Por el Resto",
-            "artist": "Enanitos Verdes",
-            "duration": "4:12",
-            "mp3_url": "/audio/homenajes/enanitos-verdes-por-el-resto.mp3",
-            "chords_url": "/chords/homenajes/enanitos-verdes-por-el-resto.json",
-            "details": {
-              "letra": "",
-              "acordes": [],
-              "bpm": 118,
-              "tonalidad": "E Mayor",
-              "compas": "4/4",
-              "dificultad": "Media",
-              "style": "Rock",
-              "genre": "Rock",
-              "categoria": "Homenajes Enanitos Verdes"
-            }
-          },
-          {
-            "id": "homenaje-enanitos-verdes-03-la-muralla-verde",
-            "track_number": 3,
-            "title": "La Muralla Verde",
-            "artist": "Enanitos Verdes",
-            "duration": "4:25",
-            "mp3_url": "/audio/homenajes/enanitos-verdes-la-muralla-verde.mp3",
-            "chords_url": "/chords/homenajes/enanitos-verdes-la-muralla-verde.json",
-            "details": {
-              "letra": "",
-              "acordes": [],
-              "bpm": 120,
-              "tonalidad": "D Mayor",
-              "compas": "4/4",
-              "dificultad": "Media",
-              "style": "Rock",
-              "genre": "Rock",
-              "categoria": "Homenajes Enanitos Verdes"
-            }
-          },
-          {
-            "id": "homenaje-enanitos-verdes-04-te-vi-en-un-tren",
-            "track_number": 4,
-            "title": "Te Vi en un Tren",
-            "artist": "Enanitos Verdes",
-            "duration": "4:08",
-            "mp3_url": "/audio/homenajes/enanitos-verdes-te-vi-en-un-tren.mp3",
-            "chords_url": "/chords/homenajes/enanitos-verdes-te-vi-en-un-tren.json",
-            "details": {
-              "letra": "",
-              "acordes": [],
-              "bpm": 116,
-              "tonalidad": "G Mayor",
-              "compas": "4/4",
-              "dificultad": "Media",
-              "style": "Rock",
-              "genre": "Rock",
-              "categoria": "Homenajes Enanitos Verdes"
-            }
-          },
-          {
-            "id": "homenaje-enanitos-verdes-05-amanecer-en-ti",
-            "track_number": 5,
-            "title": "Amanecer en Ti",
-            "artist": "Enanitos Verdes",
-            "duration": "4:32",
-            "mp3_url": "/audio/homenajes/enanitos-verdes-amanecer-en-ti.mp3",
-            "chords_url": "/chords/homenajes/enanitos-verdes-amanecer-en-ti.json",
-            "details": {
-              "letra": "",
-              "acordes": [],
-              "bpm": 112,
-              "tonalidad": "C Mayor",
-              "compas": "4/4",
-              "dificultad": "Media",
-              "style": "Balada Rock",
-              "genre": "Rock",
-              "categoria": "Homenajes Enanitos Verdes"
-            }
-          },
-          {
-            "id": "homenaje-enanitos-verdes-06-guitarras-blancas",
-            "track_number": 6,
-            "title": "Guitarras Blancas",
-            "artist": "Enanitos Verdes",
-            "duration": "4:15",
-            "mp3_url": "/audio/homenajes/enanitos-verdes-guitarras-blancas.mp3",
-            "chords_url": "/chords/homenajes/enanitos-verdes-guitarras-blancas.json",
-            "details": {
-              "letra": "",
-              "acordes": [],
-              "bpm": 122,
-              "tonalidad": "A Mayor",
-              "compas": "4/4",
-              "dificultad": "Media",
-              "style": "Rock",
-              "genre": "Rock",
-              "categoria": "Homenajes Enanitos Verdes"
-            }
-          },
-          {
-            "id": "homenaje-enanitos-verdes-07-el-extraño-de-pelo-largo",
-            "track_number": 7,
-            "title": "El Extraño de Pelo Largo",
-            "artist": "Enanitos Verdes",
-            "duration": "3:55",
-            "mp3_url": "/audio/homenajes/enanitos-verdes-el-extrano-de-pelo-largo.mp3",
-            "chords_url": "/chords/homenajes/enanitos-verdes-el-extrano-de-pelo-largo.json",
-            "details": {
-              "letra": "",
-              "acordes": [],
-              "bpm": 126,
-              "tonalidad": "E Mayor",
-              "compas": "4/4",
-              "dificultad": "Media",
-              "style": "Rock",
-              "genre": "Rock",
-              "categoria": "Homenajes Enanitos Verdes"
-            }
-          },
-          {
-            "id": "homenaje-enanitos-verdes-08-mariposas",
-            "track_number": 8,
-            "title": "Mariposas",
-            "artist": "Enanitos Verdes",
-            "duration": "4:20",
-            "mp3_url": "/audio/homenajes/enanitos-verdes-mariposas.mp3",
-            "chords_url": "/chords/homenajes/enanitos-verdes-mariposas.json",
-            "details": {
-              "letra": "",
-              "acordes": [],
-              "bpm": 118,
-              "tonalidad": "D Mayor",
-              "compas": "4/4",
-              "dificultad": "Media",
-              "style": "Rock",
-              "genre": "Rock",
-              "categoria": "Homenajes Enanitos Verdes"
-            }
-          },
-          {
-            "id": "homenaje-enanitos-verdes-09-yo-te-vi",
-            "track_number": 9,
-            "title": "Yo Te Vi",
-            "artist": "Enanitos Verdes",
-            "duration": "3:48",
-            "mp3_url": "/audio/homenajes/enanitos-verdes-yo-te-vi.mp3",
-            "chords_url": "/chords/homenajes/enanitos-verdes-yo-te-vi.json",
-            "details": {
-              "letra": "",
-              "acordes": [],
-              "bpm": 120,
-              "tonalidad": "G Mayor",
-              "compas": "4/4",
-              "dificultad": "Media",
-              "style": "Rock",
-              "genre": "Rock",
-              "categoria": "Homenajes Enanitos Verdes"
-            }
-          },
-          {
-            "id": "homenaje-enanitos-verdes-10-mi-primer-dia-sin-ti",
-            "track_number": 10,
-            "title": "Mi Primer Día Sin Ti",
-            "artist": "Enanitos Verdes",
-            "duration": "4:05",
-            "mp3_url": "/audio/homenajes/enanitos-verdes-mi-primer-dia-sin-ti.mp3",
-            "chords_url": "/chords/homenajes/enanitos-verdes-mi-primer-dia-sin-ti.json",
-            "details": {
-              "letra": "",
-              "acordes": [],
-              "bpm": 114,
-              "tonalidad": "C Mayor",
-              "compas": "4/4",
-              "dificultad": "Media",
-              "style": "Balada Rock",
-              "genre": "Rock",
-              "categoria": "Homenajes Enanitos Verdes"
-            }
+  "artista": "Enanitos Verdes",
+  "categoria": "homenajes",
+  "discografia": [
+    {
+      "album_id": "homenajes-enanitos-verdes-00",
+      "album_name": "HOMENAJE A ENANITOS VERDES",
+      "year": "2024",
+      "cover_image": "/img/02-logos/logo-formateo-chords2.png",
+      "genre": "Rock",
+      "songs": [
+        {
+          "id": "homenaje-enanitos-verdes-01-lamento-boliviano",
+          "track_number": 1,
+          "title": "Lamento Boliviano",
+          "artist": "Enanitos Verdes",
+          "duration": "4:40",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-enanitosverdes/enanitos-verdes-lamento-boliviano.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-enanitosverdes/enanitos-verdes-lamento-boliviano.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 124,
+            "tonalidad": "Am",
+            "compas": "4/4",
+            "dificultad": "Fácil",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Enanitos Verdes"
           }
-        ]
-      }
-    ]
-  }
+        },
+        {
+          "id": "homenaje-enanitos-verdes-02-por-el-resto",
+          "track_number": 2,
+          "title": "Por el Resto",
+          "artist": "Enanitos Verdes",
+          "duration": "4:12",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-enanitosverdes/enanitos-verdes-por-el-resto.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-enanitosverdes/enanitos-verdes-por-el-resto.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 118,
+            "tonalidad": "E Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Enanitos Verdes"
+          }
+        },
+        {
+          "id": "homenaje-enanitos-verdes-03-la-muralla-verde",
+          "track_number": 3,
+          "title": "La Muralla Verde",
+          "artist": "Enanitos Verdes",
+          "duration": "4:25",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-enanitosverdes/enanitos-verdes-la-muralla-verde.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-enanitosverdes/enanitos-verdes-la-muralla-verde.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 120,
+            "tonalidad": "D Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Enanitos Verdes"
+          }
+        },
+        {
+          "id": "homenaje-enanitos-verdes-04-te-vi-en-un-tren",
+          "track_number": 4,
+          "title": "Te Vi en un Tren",
+          "artist": "Enanitos Verdes",
+          "duration": "4:08",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-enanitosverdes/enanitos-verdes-te-vi-en-un-tren.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-enanitosverdes/enanitos-verdes-te-vi-en-un-tren.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 116,
+            "tonalidad": "G Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Enanitos Verdes"
+          }
+        },
+        {
+          "id": "homenaje-enanitos-verdes-05-amanecer-en-ti",
+          "track_number": 5,
+          "title": "Amanecer en Ti",
+          "artist": "Enanitos Verdes",
+          "duration": "4:32",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-enanitosverdes/enanitos-verdes-amanecer-en-ti.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-enanitosverdes/enanitos-verdes-amanecer-en-ti.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 112,
+            "tonalidad": "C Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Balada Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Enanitos Verdes"
+          }
+        },
+        {
+          "id": "homenaje-enanitos-verdes-06-guitarras-blancas",
+          "track_number": 6,
+          "title": "Guitarras Blancas",
+          "artist": "Enanitos Verdes",
+          "duration": "4:15",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-enanitosverdes/enanitos-verdes-guitarras-blancas.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-enanitosverdes/enanitos-verdes-guitarras-blancas.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 122,
+            "tonalidad": "A Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Enanitos Verdes"
+          }
+        },
+        {
+          "id": "homenaje-enanitos-verdes-07-el-extrano-de-pelo-largo",
+          "track_number": 7,
+          "title": "El Extraño de Pelo Largo",
+          "artist": "Enanitos Verdes",
+          "duration": "3:55",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-enanitosverdes/enanitos-verdes-el-extrano-de-pelo-largo.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-enanitosverdes/enanitos-verdes-el-extrano-de-pelo-largo.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 126,
+            "tonalidad": "E Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Enanitos Verdes"
+          }
+        },
+        {
+          "id": "homenaje-enanitos-verdes-08-mariposas",
+          "track_number": 8,
+          "title": "Mariposas",
+          "artist": "Enanitos Verdes",
+          "duration": "4:20",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-enanitosverdes/enanitos-verdes-mariposas.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-enanitosverdes/enanitos-verdes-mariposas.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 118,
+            "tonalidad": "D Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Enanitos Verdes"
+          }
+        },
+        {
+          "id": "homenaje-enanitos-verdes-09-yo-te-vi",
+          "track_number": 9,
+          "title": "Yo Te Vi",
+          "artist": "Enanitos Verdes",
+          "duration": "3:48",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-enanitosverdes/enanitos-verdes-yo-te-vi.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-enanitosverdes/enanitos-verdes-yo-te-vi.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 120,
+            "tonalidad": "G Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Enanitos Verdes"
+          }
+        },
+        {
+          "id": "homenaje-enanitos-verdes-10-mi-primer-dia-sin-ti",
+          "track_number": 10,
+          "title": "Mi Primer Día Sin Ti",
+          "artist": "Enanitos Verdes",
+          "duration": "4:05",
+          "mp3_url": "/audio/04-mp3-homenajes/mp3-homenajes-enanitosverdes/enanitos-verdes-mi-primer-dia-sin-ti.mp3",
+          "chords_url": "/chords/04-cancioneroshomenajes/cancioneroshomenajes-enanitosverdes/enanitos-verdes-mi-primer-dia-sin-ti.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 114,
+            "tonalidad": "C Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Balada Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Enanitos Verdes"
+          }
+        }
+      ]
+    }
+  ]
+}

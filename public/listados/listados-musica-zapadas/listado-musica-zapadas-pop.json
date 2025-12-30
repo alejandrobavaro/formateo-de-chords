@@ -1,0 +1,135 @@
+{
+    "artista": "Almango Pop",
+    "categoria": "zapadas",
+    "discografia": [
+      {
+        "album_id": "zapadas-pop-00",
+        "album_name": "ZAPADAS POP",
+        "year": "2025",
+        "cover_image": "/img/02-logos/logo-formateo-chords2.png",
+        "genre": "Pop",
+        "songs": [
+          {
+            "id": "zapada-pop-005",
+            "track_number": 1,
+            "title": "Zapada Pop Variación 1 en C Mayor",
+            "artist": "Almango Pop",
+            "duration": "4:15",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-pop/mp3-zapadas-pop-05.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-pop/cancioneroszapadas-pop-05.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 103,
+              "tonalidad": "C Mayor",
+              "compas": "4/4",
+              "dificultad": "Fácil",
+              "style": "Pop",
+              "genre": "Pop",
+              "categoria": "Zapadas Pop"
+            }
+          },
+          {
+            "id": "zapada-pop-006",
+            "track_number": 2,
+            "title": "Zapada Pop Versión Acústica 2",
+            "artist": "Almango Pop",
+            "duration": "5:20",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-pop/mp3-zapadas-pop-06.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-pop/cancioneroszapadas-pop-06.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 108,
+              "tonalidad": "C Mayor",
+              "compas": "4/4",
+              "dificultad": "Fácil",
+              "style": "Pop Acústico",
+              "genre": "Pop",
+              "categoria": "Zapadas Pop"
+            }
+          },
+          {
+            "id": "zapada-pop-007",
+            "track_number": 3,
+            "title": "Zapada Pop Acústico",
+            "artist": "Almango Pop",
+            "duration": "3:55",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-pop/mp3-zapadas-pop-07.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-pop/cancioneroszapadas-pop-07.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 98,
+              "tonalidad": "C Mayor",
+              "compas": "4/4",
+              "dificultad": "Fácil",
+              "style": "Pop Acústico",
+              "genre": "Pop",
+              "categoria": "Zapadas Pop"
+            }
+          },
+          {
+            "id": "zapada-pop-008",
+            "track_number": 4,
+            "title": "Zapada Pop Rock",
+            "artist": "Almango Pop",
+            "duration": "4:10",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-pop/mp3-zapadas-pop-08.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-pop/cancioneroszapadas-pop-08.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 122,
+              "tonalidad": "G Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Pop Rock",
+              "genre": "Pop",
+              "categoria": "Zapadas Pop"
+            }
+          },
+          {
+            "id": "zapada-pop-009",
+            "track_number": 5,
+            "title": "Zapada Pop Electrónico",
+            "artist": "Almango Pop",
+            "duration": "4:25",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-pop/mp3-zapadas-pop-09.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-pop/cancioneroszapadas-pop-09.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 128,
+              "tonalidad": "F Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Pop Electrónico",
+              "genre": "Pop",
+              "categoria": "Zapadas Pop"
+            }
+          },
+          {
+            "id": "zapada-pop-010",
+            "track_number": 6,
+            "title": "Zapada Indie Pop",
+            "artist": "Almango Pop",
+            "duration": "3:40",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-pop/mp3-zapadas-pop-10.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-pop/cancioneroszapadas-pop-10.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 112,
+              "tonalidad": "A Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Indie Pop",
+              "genre": "Pop",
+              "categoria": "Zapadas Pop"
+            }
+          }
+        ]
+      }
+    ]
+  }

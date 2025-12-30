@@ -1,0 +1,135 @@
+{
+    "artista": "Almango Pop",
+    "categoria": "zapadas",
+    "discografia": [
+      {
+        "album_id": "zapadas-rock-00",
+        "album_name": "ZAPADAS ROCK",
+        "year": "2025",
+        "cover_image": "/img/02-logos/logo-formateo-chords2.png",
+        "genre": "Rock",
+        "songs": [
+          {
+            "id": "zapada-rock-001",
+            "track_number": 1,
+            "title": "Zapada Rock Clásico",
+            "artist": "Almango Pop",
+            "duration": "4:30",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-rock/mp3-zapadas-rock-01.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-rock/cancioneroszapadas-rock-01.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 120,
+              "tonalidad": "E Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock Clásico",
+              "genre": "Rock",
+              "categoria": "Zapadas Rock"
+            }
+          },
+          {
+            "id": "zapada-rock-002",
+            "track_number": 2,
+            "title": "Zapada Hard Rock",
+            "artist": "Almango Pop",
+            "duration": "3:45",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-rock/mp3-zapadas-rock-02.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-rock/cancioneroszapadas-rock-02.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 130,
+              "tonalidad": "A Mayor",
+              "compas": "4/4",
+              "dificultad": "Difícil",
+              "style": "Hard Rock",
+              "genre": "Rock",
+              "categoria": "Zapadas Rock"
+            }
+          },
+          {
+            "id": "zapada-rock-003",
+            "track_number": 3,
+            "title": "Zapada Rock Progresivo",
+            "artist": "Almango Pop",
+            "duration": "8:15",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-rock/mp3-zapadas-rock-03.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-rock/cancioneroszapadas-rock-03.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 95,
+              "tonalidad": "Variada",
+              "compas": "Variado",
+              "dificultad": "Difícil",
+              "style": "Rock Progresivo",
+              "genre": "Rock",
+              "categoria": "Zapadas Rock"
+            }
+          },
+          {
+            "id": "zapada-rock-004",
+            "track_number": 4,
+            "title": "Zapada Rock Alternativo",
+            "artist": "Almango Pop",
+            "duration": "5:20",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-rock/mp3-zapadas-rock-04.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-rock/cancioneroszapadas-rock-04.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 110,
+              "tonalidad": "D Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Rock Alternativo",
+              "genre": "Rock",
+              "categoria": "Zapadas Rock"
+            }
+          },
+          {
+            "id": "zapada-rock-005",
+            "track_number": 5,
+            "title": "Zapada Grunge",
+            "artist": "Almango Pop",
+            "duration": "4:45",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-rock/mp3-zapadas-rock-05.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-rock/cancioneroszapadas-rock-05.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 115,
+              "tonalidad": "E Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Grunge",
+              "genre": "Rock",
+              "categoria": "Zapadas Rock"
+            }
+          },
+          {
+            "id": "zapada-rock-006",
+            "track_number": 6,
+            "title": "Zapada Punk Rock",
+            "artist": "Almango Pop",
+            "duration": "2:30",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-rock/mp3-zapadas-rock-06.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-rock/cancioneroszapadas-rock-06.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 180,
+              "tonalidad": "G Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Punk Rock",
+              "genre": "Rock",
+              "categoria": "Zapadas Rock"
+            }
+          }
+        ]
+      }
+    ]
+  }

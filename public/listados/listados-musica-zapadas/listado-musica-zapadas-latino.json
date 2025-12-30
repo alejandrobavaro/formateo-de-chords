@@ -1,0 +1,135 @@
+{
+    "artista": "Almango Pop",
+    "categoria": "zapadas",
+    "discografia": [
+      {
+        "album_id": "zapadas-latino-00",
+        "album_name": "ZAPADAS LATINO",
+        "year": "2025",
+        "cover_image": "/img/02-logos/logo-formateo-chords2.png",
+        "genre": "Latino",
+        "songs": [
+          {
+            "id": "zapada-latino-006",
+            "track_number": 1,
+            "title": "Zapada Latino Variación 1 en C Mayor",
+            "artist": "Almango Pop",
+            "duration": "4:15",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-latino/mp3-zapadas-latino-06.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-latino/cancioneroszapadas-latino-06.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 100,
+              "tonalidad": "C Mayor",
+              "compas": "4/4",
+              "dificultad": "Fácil",
+              "style": "Cumbia",
+              "genre": "Latino",
+              "categoria": "Zapadas Latino"
+            }
+          },
+          {
+            "id": "zapada-latino-019",
+            "track_number": 2,
+            "title": "Zapada Cumbia",
+            "artist": "Almango Pop",
+            "duration": "4:05",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-latino/mp3-zapadas-latino-19.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-latino/cancioneroszapadas-latino-19.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 95,
+              "tonalidad": "C Mayor",
+              "compas": "4/4",
+              "dificultad": "Fácil",
+              "style": "Cumbia",
+              "genre": "Latino",
+              "categoria": "Zapadas Latino"
+            }
+          },
+          {
+            "id": "zapada-latino-020",
+            "track_number": 3,
+            "title": "Zapada Salsa",
+            "artist": "Almango Pop",
+            "duration": "5:25",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-latino/mp3-zapadas-latino-20.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-latino/cancioneroszapadas-latino-20.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 210,
+              "tonalidad": "F Mayor",
+              "compas": "4/4",
+              "dificultad": "Difícil",
+              "style": "Salsa",
+              "genre": "Latino",
+              "categoria": "Zapadas Latino"
+            }
+          },
+          {
+            "id": "zapada-latino-021",
+            "track_number": 4,
+            "title": "Zapada Merengue",
+            "artist": "Almango Pop",
+            "duration": "3:50",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-latino/mp3-zapadas-latino-21.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-latino/cancioneroszapadas-latino-21.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 128,
+              "tonalidad": "A Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Merengue",
+              "genre": "Latino",
+              "categoria": "Zapadas Latino"
+            }
+          },
+          {
+            "id": "zapada-latino-022",
+            "track_number": 5,
+            "title": "Zapada Bachata",
+            "artist": "Almango Pop",
+            "duration": "4:15",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-latino/mp3-zapadas-latino-22.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-latino/cancioneroszapadas-latino-22.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 120,
+              "tonalidad": "Bm",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Bachata",
+              "genre": "Latino",
+              "categoria": "Zapadas Latino"
+            }
+          },
+          {
+            "id": "zapada-latino-024",
+            "track_number": 6,
+            "title": "Zapada Bossa Nova",
+            "artist": "Almango Pop",
+            "duration": "3:55",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-latino/mp3-zapadas-latino-24.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-latino/cancioneroszapadas-latino-24.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 120,
+              "tonalidad": "D Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Bossa Nova",
+              "genre": "Jazz Latino",
+              "categoria": "Zapadas Latino"
+            }
+          }
+        ]
+      }
+    ]
+  }

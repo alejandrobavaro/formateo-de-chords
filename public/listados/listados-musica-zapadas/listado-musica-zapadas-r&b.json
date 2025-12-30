@@ -1,0 +1,95 @@
+{
+    "artista": "Almango Pop",
+    "categoria": "zapadas",
+    "discografia": [
+      {
+        "album_id": "zapadas-r&b-00",
+        "album_name": "ZAPADAS R&B",
+        "year": "2025",
+        "cover_image": "/img/02-logos/logo-formateo-chords2.png",
+        "genre": "R&B",
+        "songs": [
+          {
+            "id": "zapada-r&b-002",
+            "track_number": 1,
+            "title": "Zapada R&B Variación 1 en F Mayor",
+            "artist": "Almango Pop",
+            "duration": "4:15",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-r&b/mp3-zapadas-r&b-02.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-r&b/cancioneroszapadas-r&b-02.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 93,
+              "tonalidad": "F Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "R&B",
+              "genre": "R&B",
+              "categoria": "Zapadas R&B"
+            }
+          },
+          {
+            "id": "zapada-r&b-003",
+            "track_number": 2,
+            "title": "Zapada R&B Versión Acústica 2",
+            "artist": "Almango Pop",
+            "duration": "5:20",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-r&b/mp3-zapadas-r&b-03.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-r&b/cancioneroszapadas-r&b-03.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 98,
+              "tonalidad": "F Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "R&B Acústico",
+              "genre": "R&B",
+              "categoria": "Zapadas R&B"
+            }
+          },
+          {
+            "id": "zapada-r&b-004",
+            "track_number": 3,
+            "title": "Zapada R&B Sesión 3 en Vivo",
+            "artist": "Almango Pop",
+            "duration": "3:25",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-r&b/mp3-zapadas-r&b-04.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-r&b/cancioneroszapadas-r&b-04.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 103,
+              "tonalidad": "F Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "R&B en Vivo",
+              "genre": "R&B",
+              "categoria": "Zapadas R&B"
+            }
+          },
+          {
+            "id": "zapada-r&b-040",
+            "track_number": 4,
+            "title": "Zapada R&B",
+            "artist": "Almango Pop",
+            "duration": "4:45",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-r&b/mp3-zapadas-r&b-40.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-r&b/cancioneroszapadas-r&b-40.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 88,
+              "tonalidad": "F Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "R&B",
+              "genre": "R&B",
+              "categoria": "Zapadas R&B"
+            }
+          }
+        ]
+      }
+    ]
+  }

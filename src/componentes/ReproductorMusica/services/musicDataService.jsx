@@ -2,6 +2,7 @@
 // ARCHIVO: musicDataService.jsx - VERSIÓN COMPLETA CON RUTAS ACTUALIZADAS
 // DESCRIPCIÓN: Servicio para cargar datos musicales de 5 categorías con nuevas rutas
 // RUTAS ACTUALIZADAS: Todas las rutas apuntan a public/listados/
+// ZAPADAS ACTUALIZADAS: Ahora carga 17 archivos separados por género
 // ============================================
 
 // ============================================
@@ -48,10 +49,6 @@ export const loadMusicData = async (jsonPath) => {
 // - Artista correcto para canciones de homenajes
 // - Portada única para homenajes y zapadas
 // ============================================
-// ============================================
-// FUNCIÓN: transformToConfigDiscos - VERSIÓN MEJORADA
-// DESCRIPCIÓN: Transforma datos del formato original a configuración interna
-// ============================================
 const transformToConfigDiscos = (artistData) => {
   const config = {};
 
@@ -92,7 +89,7 @@ const transformToConfigDiscos = (artistData) => {
     }
 
     if (album.genre?.includes('Zapadas')) {
-      portadaDefault = '/img/02-logos/logo-formateo-chords2.png';
+      portadaDefault = '/img/300.jpg';
     }
 
     // CORREGIR NOMBRE DEL DISCO PARA HOMENAJES
@@ -172,7 +169,7 @@ const transformToConfigDiscos = (artistData) => {
 const transformCoversFormat = (coverData) => {
   const config = {};
 
-  // Usar "albums" en lugar de "discografia"
+  // Usar "discografia" en lugar de "discografia"
   coverData.albums.forEach((album, albumIndex) => {
     const artistaSlug = coverData.artist.toLowerCase().replace(/\s+/g, '-');
     const discoId = `${artistaSlug}-${album.album_id || albumIndex}`;
@@ -236,6 +233,94 @@ const transformCoversFormat = (coverData) => {
   console.log(`📊 Covers transformados: ${Object.keys(config).length} discos`);
   return config;
 };
+
+// ============================================
+// FUNCIÓN: transformZapadasData - VERSIÓN ESPECÍFICA
+// DESCRIPCIÓN: Transforma datos de zapadas SIN afectar otras categorías
+// ============================================
+const transformZapadasData = (zapadasData) => {
+  const config = {};
+
+  // DETECTAR SI ES ZAPADA POR EL NOMBRE DEL ARCHIVO
+  const esZapada = zapadasData.categoria === 'zapadas' || 
+                  (zapadasData.discografia && zapadasData.discografia[0]?.genre?.includes('Zapadas'));
+
+  zapadasData.discografia.forEach((album, albumIndex) => {
+    // PARA ZAPADAS, SIEMPRE USAR "Almango Pop" como artista
+    const artistaNombre = 'Almango Pop';
+    const artistaSlug = artistaNombre.toLowerCase().replace(/\s+/g, '-');
+    const discoId = `${artistaSlug}-${album.album_id || albumIndex}`;
+
+    // PORTADA ESPECÍFICA PARA ZAPADAS
+    const portadaDefault = '/img/300.jpg';
+
+    // NOMBRE DEL DISCO PARA ZAPADAS
+    let nombreDisco = album.album_name || 'ZAPADAS DE TODOS LOS ESTILOS';
+    if (!nombreDisco.includes('ZAPADAS')) {
+      nombreDisco = 'ZAPADAS DE TODOS LOS ESTILOS';
+    }
+
+    config[discoId] = {
+      id: discoId,
+      nombre: nombreDisco,
+      artista: artistaNombre,
+      portada: album.cover_image || portadaDefault,
+      año: album.year || '2024',
+      genero: album.genre || 'Zapadas',
+      categoria: 'zapadas',
+      canciones: album.songs.map((song, songIndex) => {
+        // ARTISTA SIEMPRE "Almango Pop" PARA ZAPADAS
+        const artistaCancion = 'Almango Pop';
+        
+        // CONSTRUIR URL DE MP3 BASADA EN EL ID
+        let mp3Url = song.mp3_url || song.url || '';
+        let chordsUrl = song.chords_url || null;
+        
+        // CORRECCIÓN CRÍTICA: Construir URL automática para zapadas
+        if (!mp3Url || mp3Url === '/audio/default-song.mp3') {
+          // Ejemplo: ID "zapada-rock-001" → estilo: "rock", número: "001"
+          const match = song.id.match(/zapada-(\w+)-(\d+)/i);
+          if (match) {
+            const estilo = match[1].toLowerCase(); // "rock", "blues", etc.
+            const numero = match[2]; // "001", "02", etc.
+            mp3Url = `/audio/05-mp3-zapadas/mp3-zapadas-${estilo}/mp3-zapadas-${estilo}-${numero}.mp3`;
+          }
+        }
+        
+        // CORRECCIÓN CRÍTICA: Construir URL de chords automática
+        if (!chordsUrl) {
+          const match = song.id.match(/zapada-(\w+)-(\d+)/i);
+          if (match) {
+            const estilo = match[1].toLowerCase();
+            const numero = match[2];
+            chordsUrl = `/chords/05-cancioneroszapadas/cancioneroszapadas-${estilo}/cancioneroszapadas-${estilo}-${numero}.json`;
+          }
+        }
+
+        return {
+          id: song.id || `zapada-${albumIndex}-${songIndex}`,
+          nombre: song.title,
+          artista: artistaCancion,
+          duracion: song.duration || '3:30',
+          url: mp3Url || '/audio/default-song.mp3',
+          chords_url: chordsUrl,
+          imagen: album.cover_image || portadaDefault,
+          disco: discoId,
+          detalles: song.details || {},
+          esMedley: false,
+          cancionesIncluidas: 1,
+          track_number: song.track_number || songIndex + 1,
+          esHomenaje: false,
+          esZapada: true
+        };
+      })
+    };
+  });
+
+  console.log(`🎹 Zapadas transformadas: ${Object.keys(config).length} discos`);
+  return config;
+};
+
 // ============================================
 // FUNCIÓN: loadHomenajesData - VERSIÓN MEJORADA
 // DESCRIPCIÓN: Carga todos los archivos JSON de homenajes individuales con mejor manejo de errores
@@ -262,7 +347,7 @@ const loadHomenajesData = async () => {
       '/listados/listados-musica-homenajes/listado-musica-homenaje-elton-john-georgemichael.json',
       '/listados/listados-musica-homenajes/listado-musica-homenaje-enanitosverdes.json',
       '/listados/listados-musica-homenajes/listado-musica-homenaje-garcia-paez-spinetta.json',
-          '/listados/listados-musica-homenajes/listado-musica-homenaje-green-day-offspring.json',
+      '/listados/listados-musica-homenajes/listado-musica-homenaje-green-day-offspring.json',
       '/listados/listados-musica-homenajes/listado-musica-homenaje-gunsnroses.json',
       '/listados/listados-musica-homenajes/listado-musica-homenaje-inxs.json',
       '/listados/listados-musica-homenajes/listado-musica-homenaje-labersuit.json',
@@ -378,14 +463,14 @@ const loadHomenajesData = async () => {
     // SI NO SE CARGÓ NINGÚN HOMENAJE, CREAR HOMENAJES DE EJEMPLO
     if (Object.keys(homenajesConfig).length === 0) {
       console.log('🔄 Creando homenajes de ejemplo...');
-      homenajesConfig = await crearHomenajesEjemplo();
+      homenajesConfig = crearHomenajesEjemplo();
     }
 
     return homenajesConfig;
 
   } catch (error) {
     console.error('❌ Error crítico en loadHomenajesData:', error);
-    return await crearHomenajesEjemplo();
+    return crearHomenajesEjemplo();
   }
 };
 
@@ -393,7 +478,7 @@ const loadHomenajesData = async () => {
 // FUNCIÓN AUXILIAR: crearHomenajesEjemplo
 // DESCRIPCIÓN: Crea datos de homenajes de ejemplo
 // ============================================
-const crearHomenajesEjemplo = async () => {
+const crearHomenajesEjemplo = () => {
   const homenajesEjemplo = {
     'homenaje-ejemplo-00': {
       id: 'homenaje-ejemplo-00',
@@ -453,89 +538,190 @@ const crearHomenajesEjemplo = async () => {
 };
 
 // ============================================
-// FUNCIÓN: loadZapadasData - VERSIÓN CON RUTAS ACTUALIZADAS
-// DESCRIPCIÓN: Carga datos de zapadas
+// FUNCIÓN: loadZapadasData - VERSIÓN ACTUALIZADA PARA MÚLTIPLES ARCHIVOS
+// DESCRIPCIÓN: Carga datos de zapadas desde los 17 archivos separados por género
 // ============================================
 const loadZapadasData = async () => {
   try {
-    console.log('📥 Cargando ZAPADAS...');
+    console.log('📥 Cargando ZAPADAS por género (17 archivos)...');
     
-    // NUEVA RUTA PARA ZAPADAS
-    const zapadasPath = '/listados/listados-musica-zapadas/listado-musica-zapadas.json';
-    
-    try {
-      const zapadasData = await loadMusicData(zapadasPath);
-      
-      // VERIFICAR QUE SE CARGÓ CORRECTAMENTE
-      if (zapadasData && Object.keys(zapadasData).length > 0) {
-        const zapadasDiscos = Object.keys(zapadasData).length;
-        const zapadasCanciones = Object.values(zapadasData)
-          .reduce((acc, disco) => acc + (disco.canciones?.length || 0), 0);
+    // LISTA DE TODOS LOS ARCHIVOS DE ZAPADAS POR GÉNERO
+    const zapadasFiles = [
+      '/listados/listados-musica-zapadas/listado-musica-zapadas-blues.json',
+      '/listados/listados-musica-zapadas/listado-musica-zapadas-country.json',
+      '/listados/listados-musica-zapadas/listado-musica-zapadas-electronica.json',
+      '/listados/listados-musica-zapadas/listado-musica-zapadas-experimentales.json',
+      '/listados/listados-musica-zapadas/listado-musica-zapadas-folklore.json',
+      '/listados/listados-musica-zapadas/listado-musica-zapadas-funk.json',
+      '/listados/listados-musica-zapadas/listado-musica-zapadas-jazz.json',
+      '/listados/listados-musica-zapadas/listado-musica-zapadas-latino.json',
+      '/listados/listados-musica-zapadas/listado-musica-zapadas-metal.json',
+      '/listados/listados-musica-zapadas/listado-musica-zapadas-pop.json',
+      '/listados/listados-musica-zapadas/listado-musica-zapadas-r&b.json',
+      '/listados/listados-musica-zapadas/listado-musica-zapadas-reggae.json',
+      '/listados/listados-musica-zapadas/listado-musica-zapadas-rock.json',
+      '/listados/listados-musica-zapadas/listado-musica-zapadas-ska.json',
+      '/listados/listados-musica-zapadas/listado-musica-zapadas-soul.json',
+      '/listados/listados-musica-zapadas/listado-musica-zapadas-tango.json',
+      '/listados/listados-musica-zapadas/listado-musica-zapadas-urban.json'
+    ];
 
-        console.log(`✅ Zapadas cargadas: ${zapadasDiscos} discos, ${zapadasCanciones} canciones`);
+    let zapadasConfig = {};
+    let cargasExitosas = 0;
+    let cargasFallidas = 0;
+    let archivosConProblemas = [];
+
+    // CARGAR CADA ARCHIVO DE ZAPADAS POR GÉNERO
+    for (const file of zapadasFiles) {
+      try {
+        console.log(`📄 Intentando cargar zapadas: ${file}`);
+        const response = await fetch(file);
         
-        return zapadasData;
+        if (!response.ok) {
+          console.log(`⚠️ Archivo no encontrado (${response.status}): ${file}`);
+          cargasFallidas++;
+          archivosConProblemas.push({file, error: `HTTP ${response.status}`});
+          continue;
+        }
+
+        const responseText = await response.text();
+        
+        // Verificar si es HTML (error 404)
+        if (responseText.trim().startsWith('<!DOCTYPE') || 
+            responseText.trim().startsWith('<html') ||
+            responseText.includes('Page Not Found')) {
+          console.log(`❌ El archivo devuelve HTML (probablemente 404): ${file}`);
+          cargasFallidas++;
+          archivosConProblemas.push({file, error: 'Devuelve HTML (404)'});
+          continue;
+        }
+
+        // Intentar parsear como JSON
+        let zapadaData;
+        try {
+          zapadaData = JSON.parse(responseText);
+        } catch (parseError) {
+          console.error(`❌ Error parseando JSON de ${file}:`, parseError.message);
+          cargasFallidas++;
+          archivosConProblemas.push({file, error: `JSON inválido: ${parseError.message}`});
+          continue;
+        }
+        
+        // VERIFICAR ESTRUCTURA
+        if (!zapadaData.artista || !zapadaData.discografia) {
+          console.error(`❌ Estructura inválida en ${file}: falta "artista" o "discografia"`);
+          cargasFallidas++;
+          archivosConProblemas.push({file, error: 'Estructura JSON inválida'});
+          continue;
+        }
+
+        // AGREGAR INFORMACIÓN DEL ARCHIVO FUENTE
+        zapadaData._sourceFile = file.split('/').pop();
+        
+        // FORZAR CATEGORÍA PARA ZAPADAS Y AGREGAR GÉNERO
+        zapadaData.categoria = 'zapadas';
+        
+        // Extraer el género del nombre del archivo
+        const matchGenero = file.match(/zapadas-([^\.]+)\.json/);
+        if (matchGenero) {
+          let genero = matchGenero[1].replace('&', 'and');
+          // Formatear el nombre del género
+          genero = genero.split('-')
+            .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+            .join(' ');
+          
+          // Asignar el género a cada disco
+          if (zapadaData.discografia && zapadaData.discografia.length > 0) {
+            zapadaData.discografia.forEach(disco => {
+              disco.genre = `Zapadas ${genero}`;
+            });
+          }
+        }
+        
+        // TRANSFORMAR LOS DATOS USANDO LA FUNCIÓN EXISTENTE
+        const config = transformZapadasData(zapadaData);
+        
+        // AGREGAR AL RESULTADO
+        Object.assign(zapadasConfig, config);
+        
+        cargasExitosas++;
+        
+        console.log(`✅ Zapadas cargadas: ${file.split('/').pop()}`);
+
+      } catch (error) {
+        console.error(`❌ Error cargando ${file}:`, error.message);
+        cargasFallidas++;
+        archivosConProblemas.push({file, error: error.message});
       }
-    } catch (error) {
-      console.log('ℹ️ No se pudo cargar el archivo de zapadas:', error.message);
+    }
+
+    console.log(`📊 Resumen Zapadas: ${cargasExitosas} exitosas, ${cargasFallidas} fallidas`);
+    
+    // MOSTRAR ARCHIVOS CON PROBLEMAS
+    if (archivosConProblemas.length > 0) {
+      console.warn('📋 Archivos de zapadas con problemas:');
+      archivosConProblemas.forEach((item, index) => {
+        console.warn(`${index + 1}. ${item.file} - ${item.error}`);
+      });
     }
     
-    // SI FALLA EL ARCHIVO, CREAR ZAPADAS DE EJEMPLO
-    console.log('🔄 Creando zapadas de ejemplo...');
-    
-    const zapadasEjemplo = {
-      artista: "Almango Pop",
-      categoria: "zapadas",
-      discografia: [
+    console.log(`🎹 Total discos de zapadas: ${Object.keys(zapadasConfig).length}`);
+
+    // SI NO SE CARGÓ NINGUNA ZAPADA, CREAR ZAPADAS DE EJEMPLO
+    if (Object.keys(zapadasConfig).length === 0) {
+      console.log('🔄 Creando zapadas de ejemplo...');
+      zapadasConfig = crearZapadasEjemplo();
+    }
+
+    return zapadasConfig;
+
+  } catch (error) {
+    console.error('❌ Error crítico en loadZapadasData:', error);
+    return crearZapadasEjemplo();
+  }
+};
+
+// ============================================
+// FUNCIÓN AUXILIAR: crearZapadasEjemplo
+// DESCRIPCIÓN: Crea datos de zapadas de ejemplo
+// ============================================
+const crearZapadasEjemplo = () => {
+  const zapadasEjemplo = {
+    'zapadas-ejemplo-00': {
+      id: 'zapadas-ejemplo-00',
+      nombre: 'ZAPADAS DE EJEMPLO',
+      artista: 'Almango Pop',
+      portada: '/img/300.jpg',
+      año: '2024',
+      genero: 'Zapadas',
+      categoria: 'zapadas',
+      canciones: [
         {
-          album_id: "zapadas-ejemplo-00",
-          album_name: "ZAPADAS DE EJEMPLO",
-          year: "2024",
-          cover_image: "/img/02-logos/logo-formateo-chords2.png",
-          genre: "Zapadas",
-          songs: [
-            {
-              id: "zapada-ejemplo-01",
-              title: "Sesión de Ejemplo 1",
-              artist: "Almango Pop",
-              duration: "4:30",
-              mp3_url: "/audio/default-song.mp3",
-              chords_url: null,
-              track_number: 1,
-              details: {
-                style: "Rock",
-                genre: "Zapadas",
-                categoria: "Zapadas Ejemplo"
-              }
-            },
-            {
-              id: "zapada-ejemplo-02",
-              title: "Jam Session 2",
-              artist: "Almango Pop",
-              duration: "3:45",
-              mp3_url: "/audio/default-song.mp3",
-              chords_url: null,
-              track_number: 2,
-              details: {
-                style: "Blues",
-                genre: "Zapadas",
-                categoria: "Zapadas Ejemplo"
-              }
-            }
-          ]
+          id: 'zapada-rock-001',
+          nombre: 'Zapada Rock Clásico',
+          artista: 'Almango Pop',
+          duracion: '4:30',
+          url: '/audio/05-mp3-zapadas/mp3-zapadas-rock/mp3-zapadas-rock-01.mp3',
+          chords_url: '/chords/05-cancioneroszapadas/cancioneroszapadas-rock/cancioneroszapadas-rock-01.json',
+          imagen: '/img/300.jpg',
+          disco: 'zapadas-ejemplo-00',
+          detalles: {
+            style: 'Rock Clásico',
+            genre: 'Rock',
+            categoria: 'Zapadas'
+          },
+          esMedley: false,
+          cancionesIncluidas: 1,
+          track_number: 1,
+          esHomenaje: false,
+          esZapada: true
         }
       ]
-    };
-    
-    const zapadasConfig = transformToConfigDiscos(zapadasEjemplo);
-    console.log(`📊 Zapadas de ejemplo creadas: ${Object.keys(zapadasConfig).length} discos`);
-    
-    return zapadasConfig;
-    
-  } catch (error) {
-    console.error('❌ Error en loadZapadasData:', error);
-    return {};
-  }
+    }
+  };
+  
+  console.log('✅ Zapadas de ejemplo creadas');
+  return zapadasEjemplo;
 };
 
 // ============================================
@@ -546,7 +732,7 @@ export const loadAllMusicData = async () => {
   try {
     console.log('='.repeat(60));
     console.log('🔄 INICIANDO CARGA DE DATOS MUSICALES (5 CATEGORÍAS)');
-    console.log('📁 Todas las rutas actualizadas a public/listados/');
+    console.log('📁 Zapadas divididas en 17 archivos por género');
     console.log('='.repeat(60));
 
     // ================================
@@ -655,9 +841,9 @@ export const loadAllMusicData = async () => {
     }
 
     // ================================
-    // CATEGORÍA 5: ZAPADAS
+    // CATEGORÍA 5: ZAPADAS (POR GÉNERO)
     // ================================
-    console.log('\n📥 CATEGORÍA 5: Cargando ZAPADAS...');
+    console.log('\n📥 CATEGORÍA 5: Cargando ZAPADAS por género (17 archivos)...');
 
     let zapadasData = {};
     try {
@@ -667,7 +853,23 @@ export const loadAllMusicData = async () => {
       const zapadasCanciones = Object.values(zapadasData)
         .reduce((acc, disco) => acc + (disco.canciones?.length || 0), 0);
 
-      console.log(`✅ Zapadas: ${zapadasDiscos} discos, ${zapadasCanciones} canciones`);
+      console.log(`✅ Zapadas: ${zapadasDiscos} géneros, ${zapadasCanciones} canciones`);
+      
+      // MOSTRAR GÉNEROS DE ZAPADAS CARGADOS
+      if (zapadasDiscos > 0) {
+        console.log('\n🎹 GÉNEROS DE ZAPADAS CARGADOS:');
+        const generosUnicos = [...new Set(Object.values(zapadasData).map(disco => disco.genero))];
+        generosUnicos.slice(0, 5).forEach((genero, index) => {
+          const cancionesEnGenero = Object.values(zapadasData)
+            .filter(disco => disco.genero === genero)
+            .reduce((acc, disco) => acc + (disco.canciones?.length || 0), 0);
+          console.log(`${index + 1}. ${genero} - ${cancionesEnGenero} canciones`);
+        });
+        
+        if (generosUnicos.length > 5) {
+          console.log(`   ... y ${generosUnicos.length - 5} más`);
+        }
+      }
 
     } catch (error) {
       console.log('❌ Error cargando zapadas:', error.message);
@@ -999,6 +1201,32 @@ export const getAvailableCategories = () => {
 };
 
 // ============================================
+// FUNCIÓN: getAvailableZapadasGenres
+// DESCRIPCIÓN: Retorna todos los géneros de zapadas disponibles
+// ============================================
+export const getAvailableZapadasGenres = () => {
+  return [
+    { id: 'zapadas-blues', name: 'Zapadas Blues', icon: '🎹', desc: 'Sesiones Blues' },
+    { id: 'zapadas-rock', name: 'Zapadas Rock', icon: '🎹', desc: 'Sesiones Rock' },
+    { id: 'zapadas-country', name: 'Zapadas Country', icon: '🎹', desc: 'Sesiones Country' },
+    { id: 'zapadas-electronica', name: 'Zapadas Electrónica', icon: '🎹', desc: 'Sesiones Electrónicas' },
+    { id: 'zapadas-experimentales', name: 'Zapadas Experimentales', icon: '🎹', desc: 'Sesiones Experimentales' },
+    { id: 'zapadas-folklore', name: 'Zapadas Folklore', icon: '🎹', desc: 'Sesiones Folklore' },
+    { id: 'zapadas-funk', name: 'Zapadas Funk', icon: '🎹', desc: 'Sesiones Funk' },
+    { id: 'zapadas-jazz', name: 'Zapadas Jazz', icon: '🎹', desc: 'Sesiones Jazz' },
+    { id: 'zapadas-latino', name: 'Zapadas Latino', icon: '🎹', desc: 'Sesiones Latino' },
+    { id: 'zapadas-metal', name: 'Zapadas Metal', icon: '🎹', desc: 'Sesiones Metal' },
+    { id: 'zapadas-pop', name: 'Zapadas Pop', icon: '🎹', desc: 'Sesiones Pop' },
+    { id: 'zapadas-r&b', name: 'Zapadas R&B', icon: '🎹', desc: 'Sesiones R&B' },
+    { id: 'zapadas-reggae', name: 'Zapadas Reggae', icon: '🎹', desc: 'Sesiones Reggae' },
+    { id: 'zapadas-ska', name: 'Zapadas Ska', icon: '🎹', desc: 'Sesiones Ska' },
+    { id: 'zapadas-soul', name: 'Zapadas Soul', icon: '🎹', desc: 'Sesiones Soul' },
+    { id: 'zapadas-tango', name: 'Zapadas Tango', icon: '🎹', desc: 'Sesiones Tango' },
+    { id: 'zapadas-urban', name: 'Zapadas Urban', icon: '🎹', desc: 'Sesiones Urban' }
+  ];
+};
+
+// ============================================
 // FUNCIÓN: searchSongs
 // DESCRIPCIÓN: Busca canciones en todas las categorías
 // ============================================
@@ -1147,8 +1375,26 @@ export const getFileFromCategory = (category) => {
     // Homenajes
     'homenajes': '/listados/listados-musica-homenajes/',
     
-    // Zapadas
-    'zapadas': '/listados/listados-musica-zapadas/listado-musica-zapadas.json'
+    // Zapadas (lista de archivos)
+    'zapadas': [
+      '/listados/listados-musica-zapadas/listado-musica-zapadas-blues.json',
+      '/listados/listados-musica-zapadas/listado-musica-zapadas-country.json',
+      '/listados/listados-musica-zapadas/listado-musica-zapadas-electronica.json',
+      '/listados/listados-musica-zapadas/listado-musica-zapadas-experimentales.json',
+      '/listados/listados-musica-zapadas/listado-musica-zapadas-folklore.json',
+      '/listados/listados-musica-zapadas/listado-musica-zapadas-funk.json',
+      '/listados/listados-musica-zapadas/listado-musica-zapadas-jazz.json',
+      '/listados/listados-musica-zapadas/listado-musica-zapadas-latino.json',
+      '/listados/listados-musica-zapadas/listado-musica-zapadas-metal.json',
+      '/listados/listados-musica-zapadas/listado-musica-zapadas-pop.json',
+      '/listados/listados-musica-zapadas/listado-musica-zapadas-r&b.json',
+      '/listados/listados-musica-zapadas/listado-musica-zapadas-reggae.json',
+      '/listados/listados-musica-zapadas/listado-musica-zapadas-rock.json',
+      '/listados/listados-musica-zapadas/listado-musica-zapadas-ska.json',
+      '/listados/listados-musica-zapadas/listado-musica-zapadas-soul.json',
+      '/listados/listados-musica-zapadas/listado-musica-zapadas-tango.json',
+      '/listados/listados-musica-zapadas/listado-musica-zapadas-urban.json'
+    ]
   };
   
   return categoryMap[category] || null;
@@ -1162,7 +1408,9 @@ export default {
   loadMusicData,
   loadChordsData,
   loadCoversByCategory,
+  loadZapadasData,
   getAvailableCategories,
+  getAvailableZapadasGenres,
   searchSongs,
   getFileFromCategory
 };

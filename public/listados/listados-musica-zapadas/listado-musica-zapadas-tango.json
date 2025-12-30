@@ -1,0 +1,95 @@
+{
+    "artista": "Almango Pop",
+    "categoria": "zapadas",
+    "discografia": [
+      {
+        "album_id": "zapadas-tango-00",
+        "album_name": "ZAPADAS TANGO",
+        "year": "2025",
+        "cover_image": "/img/02-logos/logo-formateo-chords2.png",
+        "genre": "Tango",
+        "songs": [
+          {
+            "id": "zapada-tango-002",
+            "track_number": 1,
+            "title": "Zapada Tango Variación 1 en Dm",
+            "artist": "Almango Pop",
+            "duration": "4:15",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-tango/mp3-zapadas-tango-02.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-tango/cancioneroszapadas-tango-02.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 60,
+              "tonalidad": "Dm",
+              "compas": "2/4",
+              "dificultad": "Difícil",
+              "style": "Tango Clásico",
+              "genre": "Tango",
+              "categoria": "Zapadas Tango"
+            }
+          },
+          {
+            "id": "zapada-tango-003",
+            "track_number": 2,
+            "title": "Zapada Tango Versión Acústica 2",
+            "artist": "Almango Pop",
+            "duration": "5:20",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-tango/mp3-zapadas-tango-03.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-tango/cancioneroszapadas-tango-03.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 65,
+              "tonalidad": "Dm",
+              "compas": "2/4",
+              "dificultad": "Difícil",
+              "style": "Tango Acústico",
+              "genre": "Tango",
+              "categoria": "Zapadas Tango"
+            }
+          },
+          {
+            "id": "zapada-tango-004",
+            "track_number": 3,
+            "title": "Zapada Tango Sesión 3 en Vivo",
+            "artist": "Almango Pop",
+            "duration": "3:25",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-tango/mp3-zapadas-tango-04.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-tango/cancioneroszapadas-tango-04.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 70,
+              "tonalidad": "Dm",
+              "compas": "2/4",
+              "dificultad": "Difícil",
+              "style": "Tango en Vivo",
+              "genre": "Tango",
+              "categoria": "Zapadas Tango"
+            }
+          },
+          {
+            "id": "zapada-tango-026",
+            "track_number": 4,
+            "title": "Zapada Tango",
+            "artist": "Almango Pop",
+            "duration": "3:40",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-tango/mp3-zapadas-tango-26.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-tango/cancioneroszapadas-tango-26.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 55,
+              "tonalidad": "Dm",
+              "compas": "2/4",
+              "dificultad": "Difícil",
+              "style": "Tango Tradicional",
+              "genre": "Tango",
+              "categoria": "Zapadas Tango"
+            }
+          }
+        ]
+      }
+    ]
+  }

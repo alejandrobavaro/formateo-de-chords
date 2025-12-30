@@ -1,0 +1,95 @@
+{
+    "artista": "Almango Pop",
+    "categoria": "zapadas",
+    "discografia": [
+      {
+        "album_id": "zapadas-soul-00",
+        "album_name": "ZAPADAS SOUL",
+        "year": "2025",
+        "cover_image": "/img/02-logos/logo-formateo-chords2.png",
+        "genre": "Soul",
+        "songs": [
+          {
+            "id": "zapada-soul-002",
+            "track_number": 1,
+            "title": "Zapada Soul Variación 1 en Bb Mayor",
+            "artist": "Almango Pop",
+            "duration": "4:15",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-soul/mp3-zapadas-soul-02.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-soul/cancioneroszapadas-soul-02.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 97,
+              "tonalidad": "Bb Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Soul",
+              "genre": "Soul",
+              "categoria": "Zapadas Soul"
+            }
+          },
+          {
+            "id": "zapada-soul-003",
+            "track_number": 2,
+            "title": "Zapada Soul Versión Acústica 2",
+            "artist": "Almango Pop",
+            "duration": "5:20",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-soul/mp3-zapadas-soul-03.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-soul/cancioneroszapadas-soul-03.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 102,
+              "tonalidad": "Bb Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Soul Acústico",
+              "genre": "Soul",
+              "categoria": "Zapadas Soul"
+            }
+          },
+          {
+            "id": "zapada-soul-004",
+            "track_number": 3,
+            "title": "Zapada Soul Sesión 3 en Vivo",
+            "artist": "Almango Pop",
+            "duration": "3:25",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-soul/mp3-zapadas-soul-04.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-soul/cancioneroszapadas-soul-04.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 107,
+              "tonalidad": "Bb Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Soul en Vivo",
+              "genre": "Soul",
+              "categoria": "Zapadas Soul"
+            }
+          },
+          {
+            "id": "zapada-soul-039",
+            "track_number": 4,
+            "title": "Zapada Soul",
+            "artist": "Almango Pop",
+            "duration": "5:20",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-soul/mp3-zapadas-soul-39.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-soul/cancioneroszapadas-soul-39.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 92,
+              "tonalidad": "Bb Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Soul",
+              "genre": "Soul",
+              "categoria": "Zapadas Soul"
+            }
+          }
+        ]
+      }
+    ]
+  }

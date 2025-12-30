@@ -1,9 +1,20 @@
 // ============================================
-// ARCHIVO: MusicaFiltros.jsx - VERSIÓN 3 CATEGORÍAS
+// ARCHIVO: MusicaFiltros.jsx - VERSIÓN 5 CATEGORÍAS
+// DESCRIPCIÓN: Filtros para las 5 categorías musicales
 // ============================================
 
 import React, { useState } from 'react';
-import { BsFilter, BsSearch, BsMusicNoteBeamed, BsCollectionPlay } from 'react-icons/bs';
+import { 
+  BsFilter, 
+  BsSearch, 
+  BsMusicNoteBeamed, 
+  BsCollectionPlay,
+  BsMic,
+  BsGuitar,
+  BsVinyl,
+  BsStar,
+  BsKeyboard
+} from 'react-icons/bs';
 import './MusicaFiltros.scss';
 
 const MusicaFiltros = ({ 
@@ -18,14 +29,16 @@ const MusicaFiltros = ({
 }) => {
   const [mostrarFiltros, setMostrarFiltros] = useState(false);
   
-  // ICONOS POR CATEGORÍA
+  // ICONOS POR CATEGORÍA (5 CATEGORÍAS)
   const getIconoCategoria = (cat) => {
     const iconos = {
-      'original': '🎤',
-      'covers': '🎸', 
-      'medleys': '🎶'
+      'original': <BsMic />,
+      'covers': <BsGuitar />, 
+      'medleys': <BsVinyl />,
+      'homenajes': <BsStar />,
+      'zapadas': <BsKeyboard />
     };
-    return iconos[cat] || '🎵';
+    return iconos[cat] || <BsMusicNoteBeamed />;
   };
   
   // NOMBRES DE CATEGORÍA
@@ -33,7 +46,9 @@ const MusicaFiltros = ({
     const nombres = {
       'original': 'Original',
       'covers': 'Covers',
-      'medleys': 'Medleys'
+      'medleys': 'Medleys',
+      'homenajes': 'Homenajes',
+      'zapadas': 'Zapadas'
     };
     return nombres[cat] || cat;
   };
@@ -43,9 +58,23 @@ const MusicaFiltros = ({
     const descripciones = {
       'original': 'Musica Original',
       'covers': 'Covers Versionados',
-      'medleys': 'Canciones Enganchadas'
+      'medleys': 'Canciones Enganchadas',
+      'homenajes': 'Tributos Musicales',
+      'zapadas': 'Sesiones Espontáneas'
     };
     return descripciones[cat] || '';
+  };
+
+  // TÍTULO PARA EL SELECTOR DE BLOQUE
+  const getTituloBloques = (cat) => {
+    const titulos = {
+      'original': 'Seleccionar Disco',
+      'covers': 'Seleccionar Género',
+      'medleys': 'Seleccionar Medley',
+      'homenajes': 'Seleccionar Artista',
+      'zapadas': 'Seleccionar Estilo'
+    };
+    return titulos[cat] || 'Seleccionar';
   };
 
   return (
@@ -65,7 +94,7 @@ const MusicaFiltros = ({
       <div className={`filtros-contenedor ${mostrarFiltros ? 'visible' : ''}`}>
         
         {/* ============================================
-            SELECTOR DE CATEGORÍA (3 OPCIONES)
+            SELECTOR DE CATEGORÍA (5 OPCIONES)
         ============================================ */}
         <div className="categorias-seccion">
           <h3 className="filtros-titulo">
@@ -74,7 +103,7 @@ const MusicaFiltros = ({
           </h3>
           
           <div className="categorias-grid">
-            {['original', 'covers', 'medleys'].map(cat => (
+            {['original', 'covers', 'medleys', 'homenajes', 'zapadas'].map(cat => (
               <button
                 key={cat}
                 className={`categoria-card ${categoria === cat ? 'categoria-activa' : ''}`}
@@ -111,11 +140,7 @@ const MusicaFiltros = ({
           <div className="bloques-seccion">
             <h3 className="filtros-titulo">
               <BsCollectionPlay />
-              <span>
-                {categoria === 'original' ? 'Seleccionar Disco' : 
-                 categoria === 'covers' ? 'Seleccionar Género' : 
-                 'Seleccionar Medley'}
-              </span>
+              <span>{getTituloBloques(categoria)}</span>
             </h3>
             
             <div className="bloques-grid">

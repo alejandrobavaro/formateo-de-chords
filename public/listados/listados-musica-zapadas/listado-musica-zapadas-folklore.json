@@ -1,0 +1,115 @@
+{
+    "artista": "Almango Pop",
+    "categoria": "zapadas",
+    "discografia": [
+      {
+        "album_id": "zapadas-folklore-00",
+        "album_name": "ZAPADAS FOLKLORE",
+        "year": "2025",
+        "cover_image": "/img/02-logos/logo-formateo-chords2.png",
+        "genre": "Folklore",
+        "songs": [
+          {
+            "id": "zapada-folklore-003",
+            "track_number": 1,
+            "title": "Zapada Folklore Variación 1 en G Mayor",
+            "artist": "Almango Pop",
+            "duration": "4:15",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-folklore/mp3-zapadas-folklore-03.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-folklore/cancioneroszapadas-folklore-03.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 103,
+              "tonalidad": "G Mayor",
+              "compas": "3/4",
+              "dificultad": "Media",
+              "style": "Folklore Argentino",
+              "genre": "Folklore",
+              "categoria": "Zapadas Folklore"
+            }
+          },
+          {
+            "id": "zapada-folklore-004",
+            "track_number": 2,
+            "title": "Zapada Folklore Versión Acústica 2",
+            "artist": "Almango Pop",
+            "duration": "5:20",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-folklore/mp3-zapadas-folklore-04.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-folklore/cancioneroszapadas-folklore-04.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 108,
+              "tonalidad": "G Mayor",
+              "compas": "3/4",
+              "dificultad": "Media",
+              "style": "Folklore Acústico",
+              "genre": "Folklore",
+              "categoria": "Zapadas Folklore"
+            }
+          },
+          {
+            "id": "zapada-folklore-005",
+            "track_number": 3,
+            "title": "Zapada Folklore Sesión 3 en Vivo",
+            "artist": "Almango Pop",
+            "duration": "3:25",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-folklore/mp3-zapadas-folklore-05.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-folklore/cancioneroszapadas-folklore-05.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 113,
+              "tonalidad": "G Mayor",
+              "compas": "3/4",
+              "dificultad": "Media",
+              "style": "Folklore en Vivo",
+              "genre": "Folklore",
+              "categoria": "Zapadas Folklore"
+            }
+          },
+          {
+            "id": "zapada-folklore-025",
+            "track_number": 4,
+            "title": "Zapada Folklore Argentino",
+            "artist": "Almango Pop",
+            "duration": "4:30",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-folklore/mp3-zapadas-folklore-25.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-folklore/cancioneroszapadas-folklore-25.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 98,
+              "tonalidad": "G Mayor",
+              "compas": "3/4",
+              "dificultad": "Media",
+              "style": "Folklore Argentino",
+              "genre": "Folklore",
+              "categoria": "Zapadas Folklore"
+            }
+          },
+          {
+            "id": "zapada-folklore-027",
+            "track_number": 5,
+            "title": "Zapada Chamamé",
+            "artist": "Almango Pop",
+            "duration": "3:20",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-folklore/mp3-zapadas-folklore-27.mp3",
+            "chords_url": "#",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 110,
+              "tonalidad": "A Mayor",
+              "compas": "2/4",
+              "dificultad": "Media",
+              "style": "Chamamé",
+              "genre": "Folklore",
+              "categoria": "Zapadas Folklore"
+            }
+          }
+        ]
+      }
+    ]
+  }

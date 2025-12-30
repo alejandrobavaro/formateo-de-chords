@@ -1,0 +1,115 @@
+{
+    "artista": "Almango Pop",
+    "categoria": "zapadas",
+    "discografia": [
+      {
+        "album_id": "zapadas-urban-00",
+        "album_name": "ZAPADAS URBAN",
+        "year": "2025",
+        "cover_image": "/img/02-logos/logo-formateo-chords2.png",
+        "genre": "Urban",
+        "songs": [
+          {
+            "id": "zapada-urban-003",
+            "track_number": 1,
+            "title": "Zapada Urban Variación 1 en A Mayor",
+            "artist": "Almango Pop",
+            "duration": "4:15",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-urban/mp3-zapadas-urban-03.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-urban/cancioneroszapadas-urban-03.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 100,
+              "tonalidad": "A Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Urban",
+              "genre": "Urban",
+              "categoria": "Zapadas Urban"
+            }
+          },
+          {
+            "id": "zapada-urban-004",
+            "track_number": 2,
+            "title": "Zapada Urban Versión Acústica 2",
+            "artist": "Almango Pop",
+            "duration": "5:20",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-urban/mp3-zapadas-urban-04.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-urban/cancioneroszapadas-urban-04.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 105,
+              "tonalidad": "A Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Urban Acústico",
+              "genre": "Urban",
+              "categoria": "Zapadas Urban"
+            }
+          },
+          {
+            "id": "zapada-urban-005",
+            "track_number": 3,
+            "title": "Zapada Urban Sesión 3 en Vivo",
+            "artist": "Almango Pop",
+            "duration": "3:25",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-urban/mp3-zapadas-urban-05.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-urban/cancioneroszapadas-urban-05.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 110,
+              "tonalidad": "A Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Urban en Vivo",
+              "genre": "Urban",
+              "categoria": "Zapadas Urban"
+            }
+          },
+          {
+            "id": "zapada-urban-036",
+            "track_number": 4,
+            "title": "Zapada Reggaeton",
+            "artist": "Almango Pop",
+            "duration": "4:10",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-urban/mp3-zapadas-urban-36.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-urban/cancioneroszapadas-urban-36.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 95,
+              "tonalidad": "A Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Reggaeton",
+              "genre": "Urban",
+              "categoria": "Zapadas Urban"
+            }
+          },
+          {
+            "id": "zapada-urban-037",
+            "track_number": 5,
+            "title": "Zapada Trap",
+            "artist": "Almango Pop",
+            "duration": "4:30",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-urban/mp3-zapadas-urban-37.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-urban/cancioneroszapadas-urban-37.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 140,
+              "tonalidad": "F#m",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Trap",
+              "genre": "Urban",
+              "categoria": "Zapadas Urban"
+            }
+          }
+        ]
+      }
+    ]
+  }

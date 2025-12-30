@@ -1,0 +1,135 @@
+{
+    "artista": "Almango Pop",
+    "categoria": "zapadas",
+    "discografia": [
+      {
+        "album_id": "zapadas-jazz-00",
+        "album_name": "ZAPADAS JAZZ",
+        "year": "2025",
+        "cover_image": "/img/02-logos/logo-formateo-chords2.png",
+        "genre": "Jazz",
+        "songs": [
+          {
+            "id": "zapada-jazz-004",
+            "track_number": 1,
+            "title": "Zapada Jazz Variación 1 en Bb Mayor",
+            "artist": "Almango Pop",
+            "duration": "4:15",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-jazz/mp3-zapadas-jazz-04.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-jazz/cancioneroszapadas-jazz-04.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 137,
+              "tonalidad": "Bb Mayor",
+              "compas": "4/4",
+              "dificultad": "Difícil",
+              "style": "Jazz Standard",
+              "genre": "Jazz",
+              "categoria": "Zapadas Jazz"
+            }
+          },
+          {
+            "id": "zapada-jazz-005",
+            "track_number": 2,
+            "title": "Zapada Jazz Versión Acústica 2",
+            "artist": "Almango Pop",
+            "duration": "5:20",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-jazz/mp3-zapadas-jazz-05.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-jazz/cancioneroszapadas-jazz-05.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 142,
+              "tonalidad": "Bb Mayor",
+              "compas": "4/4",
+              "dificultad": "Difícil",
+              "style": "Jazz Acústico",
+              "genre": "Jazz",
+              "categoria": "Zapadas Jazz"
+            }
+          },
+          {
+            "id": "zapada-jazz-006",
+            "track_number": 3,
+            "title": "Zapada Jazz Sesión 3 en Vivo",
+            "artist": "Almango Pop",
+            "duration": "3:25",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-jazz/mp3-zapadas-jazz-06.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-jazz/cancioneroszapadas-jazz-06.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 147,
+              "tonalidad": "Bb Mayor",
+              "compas": "4/4",
+              "dificultad": "Difícil",
+              "style": "Jazz en Vivo",
+              "genre": "Jazz",
+              "categoria": "Zapadas Jazz"
+            }
+          },
+          {
+            "id": "zapada-jazz-014",
+            "track_number": 4,
+            "title": "Zapada Jazz Standard",
+            "artist": "Almango Pop",
+            "duration": "7:45",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-jazz/mp3-zapadas-jazz-14.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-jazz/cancioneroszapadas-jazz-14.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 132,
+              "tonalidad": "Bb Mayor",
+              "compas": "4/4",
+              "dificultad": "Difícil",
+              "style": "Jazz Standard",
+              "genre": "Jazz",
+              "categoria": "Zapadas Jazz"
+            }
+          },
+          {
+            "id": "zapada-jazz-015",
+            "track_number": 5,
+            "title": "Zapada Jazz Fusion",
+            "artist": "Almango Pop",
+            "duration": "8:30",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-jazz/mp3-zapadas-jazz-15.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-jazz/cancioneroszapadas-jazz-15.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 125,
+              "tonalidad": "F Mayor",
+              "compas": "4/4",
+              "dificultad": "Difícil",
+              "style": "Jazz Fusion",
+              "genre": "Jazz",
+              "categoria": "Zapadas Jazz"
+            }
+          },
+          {
+            "id": "zapada-jazz-016",
+            "track_number": 6,
+            "title": "Zapada Smooth Jazz",
+            "artist": "Almango Pop",
+            "duration": "5:55",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-jazz/mp3-zapadas-jazz-16.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-jazz/cancioneroszapadas-jazz-16.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 95,
+              "tonalidad": "Eb Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Smooth Jazz",
+              "genre": "Jazz",
+              "categoria": "Zapadas Jazz"
+            }
+          }
+        ]
+      }
+    ]
+  }

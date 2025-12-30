@@ -1,0 +1,95 @@
+{
+    "artista": "Almango Pop",
+    "categoria": "zapadas",
+    "discografia": [
+      {
+        "album_id": "zapadas-country-00",
+        "album_name": "ZAPADAS COUNTRY",
+        "year": "2025",
+        "cover_image": "/img/02-logos/logo-formateo-chords2.png",
+        "genre": "Country",
+        "songs": [
+          {
+            "id": "zapada-country-002",
+            "track_number": 1,
+            "title": "Zapada Country Variación 1 en G Mayor",
+            "artist": "Almango Pop",
+            "duration": "4:15",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-country/mp3-zapadas-country-02.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-country/cancioneroszapadas-country-02.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 125,
+              "tonalidad": "G Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Country",
+              "genre": "Country",
+              "categoria": "Zapadas Country"
+            }
+          },
+          {
+            "id": "zapada-country-003",
+            "track_number": 2,
+            "title": "Zapada Country Versión Acústica 2",
+            "artist": "Almango Pop",
+            "duration": "5:20",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-country/mp3-zapadas-country-03.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-country/cancioneroszapadas-country-03.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 130,
+              "tonalidad": "G Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Country Acústico",
+              "genre": "Country",
+              "categoria": "Zapadas Country"
+            }
+          },
+          {
+            "id": "zapada-country-004",
+            "track_number": 3,
+            "title": "Zapada Country Sesión 3 en Vivo",
+            "artist": "Almango Pop",
+            "duration": "3:25",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-country/mp3-zapadas-country-04.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-country/cancioneroszapadas-country-04.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 135,
+              "tonalidad": "G Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Country en Vivo",
+              "genre": "Country",
+              "categoria": "Zapadas Country"
+            }
+          },
+          {
+            "id": "zapada-country-038",
+            "track_number": 4,
+            "title": "Zapada Country",
+            "artist": "Almango Pop",
+            "duration": "3:55",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-country/mp3-zapadas-country-38.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-country/cancioneroszapadas-country-38.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 120,
+              "tonalidad": "G Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Country",
+              "genre": "Country",
+              "categoria": "Zapadas Country"
+            }
+          }
+        ]
+      }
+    ]
+  }

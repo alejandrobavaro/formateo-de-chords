@@ -1,0 +1,135 @@
+{
+    "artista": "Almango Pop",
+    "categoria": "zapadas",
+    "discografia": [
+      {
+        "album_id": "zapadas-electronica-00",
+        "album_name": "ZAPADAS ELECTRÓNICA",
+        "year": "2025",
+        "cover_image": "/img/02-logos/logo-formateo-chords2.png",
+        "genre": "Electrónica",
+        "songs": [
+          {
+            "id": "zapada-electronica-004",
+            "track_number": 1,
+            "title": "Zapada Electrónica Variación 1 en A Mayor",
+            "artist": "Almango Pop",
+            "duration": "4:15",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-electronica/mp3-zapadas-electrónica-04.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-electronica/cancioneroszapadas-electrónica-04.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 133,
+              "tonalidad": "A Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Electrónica",
+              "genre": "Electrónica",
+              "categoria": "Zapadas Electrónica"
+            }
+          },
+          {
+            "id": "zapada-electronica-005",
+            "track_number": 2,
+            "title": "Zapada Electrónica Versión Acústica 2",
+            "artist": "Almango Pop",
+            "duration": "5:20",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-electronica/mp3-zapadas-electrónica-05.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-electronica/cancioneroszapadas-electrónica-05.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 138,
+              "tonalidad": "A Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Electrónica Acústica",
+              "genre": "Electrónica",
+              "categoria": "Zapadas Electrónica"
+            }
+          },
+          {
+            "id": "zapada-electronica-006",
+            "track_number": 3,
+            "title": "Zapada Electrónica Sesión 3 en Vivo",
+            "artist": "Almango Pop",
+            "duration": "3:25",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-electronica/mp3-zapadas-electrónica-06.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-electronica/cancioneroszapadas-electrónica-06.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 143,
+              "tonalidad": "A Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Electrónica en Vivo",
+              "genre": "Electrónica",
+              "categoria": "Zapadas Electrónica"
+            }
+          },
+          {
+            "id": "zapada-electronica-030",
+            "track_number": 4,
+            "title": "Zapada Electrónica",
+            "artist": "Almango Pop",
+            "duration": "6:30",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-electronica/mp3-zapadas-electrónica-30.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-electronica/cancioneroszapadas-electrónica-30.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 128,
+              "tonalidad": "A Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Electrónica",
+              "genre": "Electrónica",
+              "categoria": "Zapadas Electrónica"
+            }
+          },
+          {
+            "id": "zapada-electronica-031",
+            "track_number": 5,
+            "title": "Zapada House",
+            "artist": "Almango Pop",
+            "duration": "7:15",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-electronica/mp3-zapadas-electrónica-31.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-electronica/cancioneroszapadas-electrónica-31.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 128,
+              "tonalidad": "F#m",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "House",
+              "genre": "Electrónica",
+              "categoria": "Zapadas Electrónica"
+            }
+          },
+          {
+            "id": "zapada-electronica-032",
+            "track_number": 6,
+            "title": "Zapada Dubstep",
+            "artist": "Almango Pop",
+            "duration": "4:50",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-electronica/mp3-zapadas-electrónica-32.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-electronica/cancioneroszapadas-electrónica-32.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 140,
+              "tonalidad": "G Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Dubstep",
+              "genre": "Electrónica",
+              "categoria": "Zapadas Electrónica"
+            }
+          }
+        ]
+      }
+    ]
+  }

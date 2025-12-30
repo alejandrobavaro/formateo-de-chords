@@ -1,0 +1,155 @@
+{
+    "artista": "Almango Pop",
+    "categoria": "zapadas",
+    "discografia": [
+      {
+        "album_id": "zapadas-blues-00",
+        "album_name": "ZAPADAS BLUES",
+        "year": "2025",
+        "cover_image": "/img/02-logos/logo-formateo-chords2.png",
+        "genre": "Zapadas Blues",
+        "songs": [
+          {
+            "id": "zapada-blues-004",
+            "track_number": 1,
+            "title": "Zapada Blues Variación 1 en A Mayor",
+            "artist": "Almango Pop",
+            "duration": "4:15",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-blues/mp3-zapadas-blues-04.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-blues/cancioneroszapadas-blues-04.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 90,
+              "tonalidad": "A Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Blues",
+              "genre": "Blues",
+              "categoria": "Zapadas Blues"
+            }
+          },
+          {
+            "id": "zapada-blues-005",
+            "track_number": 2,
+            "title": "Zapada Blues Versión Acústica 2",
+            "artist": "Almango Pop",
+            "duration": "5:20",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-blues/mp3-zapadas-blues-05.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-blues/cancioneroszapadas-blues-05.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 95,
+              "tonalidad": "A Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Blues Acústico",
+              "genre": "Blues",
+              "categoria": "Zapadas Blues"
+            }
+          },
+          {
+            "id": "zapada-blues-006",
+            "track_number": 3,
+            "title": "Zapada Blues Sesión 3 en Vivo",
+            "artist": "Almango Pop",
+            "duration": "3:25",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-blues/mp3-zapadas-blues-06.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-blues/cancioneroszapadas-blues-06.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 100,
+              "tonalidad": "A Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Blues en Vivo",
+              "genre": "Blues",
+              "categoria": "Zapadas Blues"
+            }
+          },
+          {
+            "id": "zapada-blues-011",
+            "track_number": 4,
+            "title": "Zapada Blues en La",
+            "artist": "Almango Pop",
+            "duration": "6:20",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-blues/mp3-zapadas-blues-11.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-blues/cancioneroszapadas-blues-11.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 85,
+              "tonalidad": "A Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Blues Clásico",
+              "genre": "Blues",
+              "categoria": "Zapadas Blues"
+            }
+          },
+          {
+            "id": "zapada-blues-012",
+            "track_number": 5,
+            "title": "Zapada Blues Rock",
+            "artist": "Almango Pop",
+            "duration": "5:15",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-blues/mp3-zapadas-blues-12.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-blues/cancioneroszapadas-blues-12.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 92,
+              "tonalidad": "E Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Blues Rock",
+              "genre": "Blues",
+              "categoria": "Zapadas Blues"
+            }
+          },
+          {
+            "id": "zapada-blues-013",
+            "track_number": 6,
+            "title": "Zapada Blues Acústico",
+            "artist": "Almango Pop",
+            "duration": "4:50",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-blues/mp3-zapadas-blues-13.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-blues/cancioneroszapadas-blues-13.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 78,
+              "tonalidad": "G Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Blues Acústico",
+              "genre": "Blues",
+              "categoria": "Zapadas Blues"
+            }
+          },
+          {
+            "id": "zapada-johnnybgoode",
+            "track_number": 7,
+            "title": "Zapada Johnny B. Goode",
+            "artist": "Almango Pop",
+            "duration": "3:45",
+            "mp3_url": "/audio/05-mp3-zapadas/mp3-zapadas-blues/mp3-zapadas-blues-johnnybgoode.mp3",
+            "chords_url": "/chords/05-cancioneroszapadas/cancioneroszapadas-blues/zapadabluesblues-johnnybgoode.json",
+            "details": {
+              "letra": "",
+              "acordes": [],
+              "bpm": 140,
+              "tonalidad": "A Mayor",
+              "compas": "4/4",
+              "dificultad": "Media",
+              "style": "Blues Rock",
+              "genre": "Blues",
+              "categoria": "Zapadas Blues"
+            }
+          }
+        ]
+      }
+    ]
+  }

@@ -1,7 +1,7 @@
 // ============================================
-// ARCHIVO: MMusicaEscucha.jsx - VERSIÓN COMPLETA
+// ARCHIVO: MMusicaEscucha.jsx - VERSIÓN COMPLETA CORREGIDA
 // DESCRIPCIÓN: Componente principal del reproductor de música con soporte para ZAPADAS
-// CORRECCIONES: Manejo específico para categoría zapadas
+// CORRECCIONES: Manejo específico para categoría zapadas (manteniendo artista original)
 // ============================================
 
 import React, { useState, useEffect, useRef, useCallback, memo } from 'react';
@@ -354,15 +354,12 @@ const MMusicaEscucha = () => {
         Object.keys(configCat).forEach(discoId => {
           const disco = configCat[discoId];
           
-          // CORRECCIÓN ESPECÍFICA PARA ZAPADAS
+          // CORRECCIÓN: PARA ZAPADAS MANTENER EL ARTISTA ORIGINAL DEL JSON ("Rockola Covers")
           let nombreMostrar = disco.nombre || '';
           let artistaMostrar = disco.artista || '';
           
+          // PARA ZAPADAS: Solo ajustar nombre del disco si es necesario
           if (categoria === 'zapadas') {
-            // Para zapadas, el artista siempre es "Almango Pop"
-            artistaMostrar = 'Almango Pop';
-            
-            // El nombre del disco lo mantenemos como está
             if (nombreMostrar.includes('ZAPADAS')) {
               // Ya está bien
             } else {
@@ -428,7 +425,7 @@ const MMusicaEscucha = () => {
   }, [categoria, allMusicConfig]);
 
   // ============================================
-  // EFECTO: Filtrar canciones
+  // EFECTO: Filtrar canciones - VERSIÓN CORREGIDA
   // ============================================
   useEffect(() => {
     let isMounted = true;
@@ -439,31 +436,58 @@ const MMusicaEscucha = () => {
       
       let canciones = bloques[bloqueActual].canciones || [];
       
-      // CORRECCIÓN ESPECÍFICA PARA ZAPADAS: Validar URLs
+      // CORRECCIÓN ESPECÍFICA PARA ZAPADAS: Construir URLs automáticamente
       if (categoria === 'zapadas') {
         canciones = canciones.map(cancion => {
+          console.log('🎹 Procesando zapada:', cancion.id, cancion.nombre);
+          
           // Verificar y corregir URL del MP3
           let urlMP3 = cancion.url;
+          let chordsUrl = cancion.chords_url;
           
+          // Si no tiene URL o es la default, construirla
           if (!urlMP3 || urlMP3 === '/audio/default-song.mp3') {
-            // Intentar construir URL basada en el ID
-            if (cancion.id && cancion.id.includes('zapada-')) {
-              const idParts = cancion.id.split('-');
-              if (idParts.length >= 3) {
-                const estilo = idParts[1]; // "rock", "blues", etc.
-                const numero = idParts[2]; // "001", "04", etc.
-                
-                // Construir URL real
-                urlMP3 = `/audio/05-mp3-zapadas/mp3-zapadas-${estilo}/mp3-zapadas-${estilo}-${numero}.mp3`;
-              }
+            // Extraer estilo y número del ID
+            // Ejemplo: "zapada-rock-001" → estilo: "rock", número: "001"
+            const match = cancion.id.match(/zapada-(\w+)-(\d+)/i);
+            
+            if (match) {
+              const estilo = match[1].toLowerCase(); // "rock", "blues", etc.
+              const numero = match[2]; // "001", "002", etc.
+              
+              // Construir URL siguiendo la estructura de carpetas
+              urlMP3 = `/audio/05-mp3-zapadas/mp3-zapadas-${estilo}/mp3-zapadas-${estilo}-${numero}.mp3`;
+              console.log('🔧 URL MP3 construida:', urlMP3);
+            } else {
+              console.log('⚠️ No se pudo construir URL para:', cancion.id);
+              urlMP3 = '/audio/default-song.mp3';
+            }
+          }
+          
+          // Construir URL de chords si no existe
+          if (!chordsUrl) {
+            const match = cancion.id.match(/zapada-(\w+)-(\d+)/i);
+            
+            if (match) {
+              const estilo = match[1].toLowerCase();
+              const numero = match[2];
+              
+              // Construir URL de chords siguiendo la estructura
+              chordsUrl = `/chords/05-cancioneroszapadas/cancioneroszapadas-${estilo}/cancioneroszapadas-${estilo}-${numero}.json`;
+              console.log('🔧 URL chords construida:', chordsUrl);
             }
           }
           
           return {
             ...cancion,
-            url: urlMP3 || '/audio/default-song.mp3'
+            url: urlMP3,
+            chords_url: chordsUrl,
+            // Asegurar que tenga la propiedad esZapada
+            esZapada: true
           };
         });
+        
+        console.log(`✅ ${canciones.length} zapadas procesadas`);
       }
       
       // Aplicar filtro de búsqueda
@@ -494,7 +518,7 @@ const MMusicaEscucha = () => {
               const playlist = canciones.map(c => ({
                 id: c.id,
                 nombre: c.nombre,
-                artista: c.artista,
+                artista: c.artista, // Mantener artista original del JSON
                 duracion: c.duracion || '3:30',
                 imagen: c.imagen || getPortadaDefault(categoria),
                 url: c.url || '/audio/default-song.mp3',
@@ -642,22 +666,26 @@ const MMusicaEscucha = () => {
   };
 
   // ============================================
-  // FUNCIÓN: manejarReproducirCancion
+  // FUNCIÓN: manejarReproducirCancion - VERSIÓN CORREGIDA
   // ============================================
   const manejarReproducirCancion = useCallback((cancion) => {
     console.log('▶️ Intentando reproducir:', cancion.nombre);
     
-    // CORRECCIÓN ESPECÍFICA PARA ZAPADAS
+    // CORRECCIÓN ESPECÍFICA PARA ZAPADAS: Verificar y construir URL si es necesario
     let audioUrl = cancion.url || '/audio/default-song.mp3';
     
-    // Si es zapada y la URL es default, intentar construir URL real
-    if (categoria === 'zapadas' && (audioUrl === '/audio/default-song.mp3' || !audioUrl.includes('mp3-zapadas'))) {
-      if (cancion.id && cancion.id.includes('zapada-')) {
-        const idParts = cancion.id.split('-');
-        if (idParts.length >= 3) {
-          const estilo = idParts[1]; // "rock", "blues", etc.
-          const numero = idParts[2]; // "001", "04", etc.
+    // Si es zapada y la URL no es válida, intentar construirla
+    if (categoria === 'zapadas') {
+      console.log('🎹 Detectando zapada:', cancion.id);
+      
+      // Si la URL es inválida o default, intentar construirla
+      if (!audioUrl || audioUrl === '/audio/default-song.mp3') {
+        const match = cancion.id.match(/zapada-(\w+)-(\d+)/i);
+        if (match) {
+          const estilo = match[1].toLowerCase();
+          const numero = match[2];
           audioUrl = `/audio/05-mp3-zapadas/mp3-zapadas-${estilo}/mp3-zapadas-${estilo}-${numero}.mp3`;
+          console.log('🔧 URL construida para zapada:', audioUrl);
         }
       }
     }
@@ -667,7 +695,7 @@ const MMusicaEscucha = () => {
     const cancionFormateada = {
       id: cancion.id,
       nombre: cancion.nombre,
-      artista: cancion.artista,
+      artista: cancion.artista, // Mantener artista original del JSON
       album: cancion.disco || getNombreCategoria(categoria),
       duracion: cancion.duracion || '3:30',
       imagen: cancion.imagen || getPortadaDefault(categoria),
