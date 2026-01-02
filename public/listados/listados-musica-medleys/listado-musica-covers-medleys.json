@@ -15,9 +15,9 @@
           "duration": "12:30",
           "mp3_url": "/audio/03-mp3-medleys/Intro-Ccr-Have-you-Ccr-Proud-Its-a-hearche.mp3",
           "chords_url": [
-            "/chords/03-cancionerosmedleys/creedence-have-you-ever-seen-the-rain.json",
-            "/chords/03-cancionerosmedleys/creedence-proud-mary.json",
-            "/chords/03-cancionerosmedleys/bonnie-tyler-its-a-heartache.json"
+            "/chords/creedence-have-you-ever-seen-the-rain.json",
+            "/chords/creedence-proud-mary.json",
+            "/chords/bonnie-tyler-its-a-heartache.json"
           ],
           "details": {
             "letra": "Medley que incluye:\n1. Creedence - Have You Ever Seen the Rain\n2. Creedence - Proud Mary\n3. Bonnie Tyler - It's a Heartache",
@@ -36,8 +36,8 @@
           "duration": "08:45",
           "mp3_url": "/audio/03-mp3-medleys/Beatles-Stand-by-me-Police-Every-breath-you.mp3",
           "chords_url": [
-            "/chords/03-cancionerosmedleys/beatles-stand-by-me.json",
-            "/chords/03-cancionerosmedleys/police-every-breath-you-take.json"
+            "/chords/beatles-stand-by-me.json",
+            "/chords/police-every-breath-you-take.json"
           ],
           "details": {
             "letra": "Medley que incluye:\n1. The Beatles - Stand by Me\n2. The Police - Every Breath You Take",
@@ -56,8 +56,8 @@
           "duration": "07:50",
           "mp3_url": "/audio/03-mp3-medleys/Queen-Radio-Gaga-I-want-to-break-free.mp3",
           "chords_url": [
-            "/chords/03-cancionerosmedleys/queen-i-want-to-break-free.json",
-            "/chords/03-cancionerosmedleys/queen-radio-ga-ga.json"
+            "/chords/queen-i-want-to-break-free.json",
+            "/chords/queen-radio-ga-ga.json"
           ],
           "details": {
             "letra": "Medley que incluye:\n1. Queen - I Want to Break Free\n2. Queen - Radio Ga Ga",
@@ -75,7 +75,7 @@
           "artist": "Almango Pop",
           "duration": "03:50",
           "mp3_url": "/audio/03-mp3-medleys/Aha-Take-on-me.mp3",
-          "chords_url": ["/chords/03-cancionerosmedleys/a-ha-take-on-me.json"],
+          "chords_url": ["/chords/a-ha-take-on-me.json"],
           "details": {
             "letra": "A-ha - Take on Me (versión completa)",
             "acordes": ["A", "E", "F#m", "D"],
@@ -93,8 +93,8 @@
           "duration": "06:15",
           "mp3_url": "/audio/03-mp3-medleys/A-Little-Respect-Your-Love-19-09-2025.mp3",
           "chords_url": [
-            "/chords/03-cancionerosmedleys/erasure-little-respect.json",
-            "/chords/03-cancionerosmedleys/the-wonders-that-thing-you-do.json"
+            "/chords/erasure-little-respect.json",
+            "/chords/the-wonders-that-thing-you-do.json"
           ],
           "details": {
             "letra": "Medley que incluye:\n1. Erasure - A Little Respect\n2. The Outfield - Your Love",
@@ -113,8 +113,8 @@
           "duration": "06:40",
           "mp3_url": "/audio/03-mp3-medleys/Preaty-woman-The-Wonders-19-09-2025.mp3",
           "chords_url": [
-            "/chords/03-cancionerosmedleys/roy-orbison-pretty-woman.json",
-            "/chords/03-cancionerosmedleys/the-wonders-that-thing-you-do.json"
+            "/chords/roy-orbison-pretty-woman.json",
+            "/chords/the-wonders-that-thing-you-do.json"
           ],
           "details": {
             "letra": "Medley que incluye:\n1. Roy Orbison - Pretty Woman\n2. The Wonders - That Thing You Do",
@@ -133,7 +133,7 @@
           "duration": "04:20",
           "mp3_url": "/audio/03-mp3-medleys/INXS-Never-tear-us-apart-1.mp3",
           "chords_url": [
-            "/chords/03-cancionerosmedleys/inxs-never-tear-us-apart.json"
+            "/chords/inxs-never-tear-us-apart.json"
           ],
           "details": {
             "letra": "INXS - Never Tear Us Apart (versión completa)",

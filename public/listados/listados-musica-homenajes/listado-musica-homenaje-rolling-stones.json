@@ -1,214 +1,214 @@
 {
-    "artista": "Rockola Covers",
-    "discografia": [
-      {
-        "album_id": "homenajes-internacionales-00",
-        "album_name": "HOMENAJES INTERNACIONALES",
-        "year": "2024",
-          "cover_image": "/img/02-logos/logo-formateo-chords2.png",
-        "genre": "Homenajes",
-        "songs": [
-          {
-            "id": "homenaje-rolling-stones-01-satisfaction",
-            "track_number": 169,
-            "title": "(I Can't Get No) Satisfaction",
-            "artist": "The Rolling Stones",
-            "duration": "3:44",
-            "mp3_url": "/audio/homenajes/rolling-stones-satisfaction.mp3",
-            "chords_url": "/chords/homenajes/rolling-stones-satisfaction.json",
-            "details": {
-              "letra": "",
-              "acordes": [],
-              "bpm": 138,
-              "tonalidad": "E Mayor",
-              "compas": "4/4",
-              "dificultad": "Fácil",
-              "style": "Rock and Roll",
-              "genre": "Rock",
-              "categoria": "Homenajes The Rolling Stones"
-            }
-          },
-          {
-            "id": "homenaje-rolling-stones-02-paint-it-black",
-            "track_number": 170,
-            "title": "Paint It Black",
-            "artist": "The Rolling Stones",
-            "duration": "3:22",
-            "mp3_url": "/audio/homenajes/rolling-stones-paint-it-black.mp3",
-            "chords_url": "/chords/homenajes/rolling-stones-paint-it-black.json",
-            "details": {
-              "letra": "",
-              "acordes": [],
-              "bpm": 156,
-              "tonalidad": "Em",
-              "compas": "4/4",
-              "dificultad": "Media",
-              "style": "Rock Psicodélico",
-              "genre": "Rock",
-              "categoria": "Homenajes The Rolling Stones"
-            }
-          },
-          {
-            "id": "homenaje-rolling-stones-03-angie",
-            "track_number": 171,
-            "title": "Angie",
-            "artist": "The Rolling Stones",
-            "duration": "4:31",
-            "mp3_url": "/audio/homenajes/rolling-stones-angie.mp3",
-            "chords_url": "/chords/homenajes/rolling-stones-angie.json",
-            "details": {
-              "letra": "",
-              "acordes": [],
-              "bpm": 72,
-              "tonalidad": "C Mayor",
-              "compas": "4/4",
-              "dificultad": "Fácil",
-              "style": "Balada",
-              "genre": "Rock",
-              "categoria": "Homenajes The Rolling Stones"
-            }
-          },
-          {
-            "id": "homenaje-rolling-stones-04-start-me-up",
-            "track_number": 172,
-            "title": "Start Me Up",
-            "artist": "The Rolling Stones",
-            "duration": "3:33",
-            "mp3_url": "/audio/homenajes/rolling-stones-start-me-up.mp3",
-            "chords_url": "/chords/homenajes/rolling-stones-start-me-up.json",
-            "details": {
-              "letra": "",
-              "acordes": [],
-              "bpm": 128,
-              "tonalidad": "E Mayor",
-              "compas": "4/4",
-              "dificultad": "Fácil",
-              "style": "Rock",
-              "genre": "Rock",
-              "categoria": "Homenajes The Rolling Stones"
-            }
-          },
-          {
-            "id": "homenaje-rolling-stones-05-sympathy-for-the-devil",
-            "track_number": 173,
-            "title": "Sympathy for the Devil",
-            "artist": "The Rolling Stones",
-            "duration": "6:18",
-            "mp3_url": "/audio/homenajes/rolling-stones-sympathy-for-the-devil.mp3",
-            "chords_url": "/chords/homenajes/rolling-stones-sympathy-for-the-devil.json",
-            "details": {
-              "letra": "",
-              "acordes": [],
-              "bpm": 116,
-              "tonalidad": "E Mayor",
-              "compas": "4/4",
-              "dificultad": "Media",
-              "style": "Rock",
-              "genre": "Rock",
-              "categoria": "Homenajes The Rolling Stones"
-            }
-          },
-          {
-            "id": "homenaje-rolling-stones-06-gimme-shelter",
-            "track_number": 174,
-            "title": "Gimme Shelter",
-            "artist": "The Rolling Stones",
-            "duration": "4:31",
-            "mp3_url": "/audio/homenajes/rolling-stones-gimme-shelter.mp3",
-            "chords_url": "/chords/homenajes/rolling-stones-gimme-shelter.json",
-            "details": {
-              "letra": "",
-              "acordes": [],
-              "bpm": 132,
-              "tonalidad": "Am",
-              "compas": "4/4",
-              "dificultad": "Media",
-              "style": "Rock",
-              "genre": "Rock",
-              "categoria": "Homenajes The Rolling Stones"
-            }
-          },
-          {
-            "id": "homenaje-rolling-stones-07-beast-of-burden",
-            "track_number": 175,
-            "title": "Beast of Burden",
-            "artist": "The Rolling Stones",
-            "duration": "4:24",
-            "mp3_url": "/audio/homenajes/rolling-stones-beast-of-burden.mp3",
-            "chords_url": "/chords/homenajes/rolling-stones-beast-of-burden.json",
-            "details": {
-              "letra": "",
-              "acordes": [],
-              "bpm": 84,
-              "tonalidad": "E Mayor",
-              "compas": "4/4",
-              "dificultad": "Media",
-              "style": "Rock",
-              "genre": "Rock",
-              "categoria": "Homenajes The Rolling Stones"
-            }
-          },
-          {
-            "id": "homenaje-rolling-stones-08-wild-horses",
-            "track_number": 176,
-            "title": "Wild Horses",
-            "artist": "The Rolling Stones",
-            "duration": "5:42",
-            "mp3_url": "/audio/homenajes/rolling-stones-wild-horses.mp3",
-            "chords_url": "/chords/homenajes/rolling-stones-wild-horses.json",
-            "details": {
-              "letra": "",
-              "acordes": [],
-              "bpm": 70,
-              "tonalidad": "G Mayor",
-              "compas": "3/4",
-              "dificultad": "Media",
-              "style": "Country Rock",
-              "genre": "Rock",
-              "categoria": "Homenajes The Rolling Stones"
-            }
-          },
-          {
-            "id": "homenaje-rolling-stones-09-its-only-rock-n-roll",
-            "track_number": 177,
-            "title": "It's Only Rock 'n Roll (But I Like It)",
-            "artist": "The Rolling Stones",
-            "duration": "5:07",
-            "mp3_url": "/audio/homenajes/rolling-stones-its-only-rock-n-roll.mp3",
-            "chords_url": "/chords/homenajes/rolling-stones-its-only-rock-n-roll.json",
-            "details": {
-              "letra": "",
-              "acordes": [],
-              "bpm": 130,
-              "tonalidad": "E Mayor",
-              "compas": "4/4",
-              "dificultad": "Media",
-              "style": "Rock",
-              "genre": "Rock",
-              "categoria": "Homenajes The Rolling Stones"
-            }
-          },
-          {
-            "id": "homenaje-rolling-stones-10-miss-you",
-            "track_number": 178,
-            "title": "Miss You",
-            "artist": "The Rolling Stones",
-            "duration": "4:48",
-            "mp3_url": "/audio/homenajes/rolling-stones-miss-you.mp3",
-            "chords_url": "/chords/homenajes/rolling-stones-miss-you.json",
-            "details": {
-              "letra": "",
-              "acordes": [],
-              "bpm": 108,
-              "tonalidad": "D Mayor",
-              "compas": "4/4",
-              "dificultad": "Media",
-              "style": "Disco Rock",
-              "genre": "Rock",
-              "categoria": "Homenajes The Rolling Stones"
-            }
+  "artista": "Rockola Covers",
+  "discografia": [
+    {
+      "album_id": "homenajes-internacionales-00",
+      "album_name": "HOMENAJE A ROLLINGS STONES",
+      "year": "2024",
+        "cover_image": "/img/02-logos/logo-formateo-chords2.png",
+      "genre": "Homenajes",
+      "songs": [
+        {
+          "id": "homenaje-rolling-stones-01-satisfaction",
+          "track_number": 169,
+          "title": "(I Can't Get No) Satisfaction",
+          "artist": "The Rolling Stones",
+          "duration": "3:44",
+          "mp3_url": "/audio/homenajes/rolling-stones-satisfaction.mp3",
+          "chords_url": "/chords/homenajes/rolling-stones-satisfaction.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 138,
+            "tonalidad": "E Mayor",
+            "compas": "4/4",
+            "dificultad": "Fácil",
+            "style": "Rock and Roll",
+            "genre": "Rock",
+            "categoria": "Homenajes The Rolling Stones"
           }
-        ]
-      }
-    ]
-  }
+        },
+        {
+          "id": "homenaje-rolling-stones-02-paint-it-black",
+          "track_number": 170,
+          "title": "Paint It Black",
+          "artist": "The Rolling Stones",
+          "duration": "3:22",
+          "mp3_url": "/audio/homenajes/rolling-stones-paint-it-black.mp3",
+          "chords_url": "/chords/homenajes/rolling-stones-paint-it-black.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 156,
+            "tonalidad": "Em",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock Psicodélico",
+            "genre": "Rock",
+            "categoria": "Homenajes The Rolling Stones"
+          }
+        },
+        {
+          "id": "homenaje-rolling-stones-03-angie",
+          "track_number": 171,
+          "title": "Angie",
+          "artist": "The Rolling Stones",
+          "duration": "4:31",
+          "mp3_url": "/audio/homenajes/rolling-stones-angie.mp3",
+          "chords_url": "/chords/homenajes/rolling-stones-angie.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 72,
+            "tonalidad": "C Mayor",
+            "compas": "4/4",
+            "dificultad": "Fácil",
+            "style": "Balada",
+            "genre": "Rock",
+            "categoria": "Homenajes The Rolling Stones"
+          }
+        },
+        {
+          "id": "homenaje-rolling-stones-04-start-me-up",
+          "track_number": 172,
+          "title": "Start Me Up",
+          "artist": "The Rolling Stones",
+          "duration": "3:33",
+          "mp3_url": "/audio/homenajes/rolling-stones-start-me-up.mp3",
+          "chords_url": "/chords/homenajes/rolling-stones-start-me-up.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 128,
+            "tonalidad": "E Mayor",
+            "compas": "4/4",
+            "dificultad": "Fácil",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes The Rolling Stones"
+          }
+        },
+        {
+          "id": "homenaje-rolling-stones-05-sympathy-for-the-devil",
+          "track_number": 173,
+          "title": "Sympathy for the Devil",
+          "artist": "The Rolling Stones",
+          "duration": "6:18",
+          "mp3_url": "/audio/homenajes/rolling-stones-sympathy-for-the-devil.mp3",
+          "chords_url": "/chords/homenajes/rolling-stones-sympathy-for-the-devil.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 116,
+            "tonalidad": "E Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes The Rolling Stones"
+          }
+        },
+        {
+          "id": "homenaje-rolling-stones-06-gimme-shelter",
+          "track_number": 174,
+          "title": "Gimme Shelter",
+          "artist": "The Rolling Stones",
+          "duration": "4:31",
+          "mp3_url": "/audio/homenajes/rolling-stones-gimme-shelter.mp3",
+          "chords_url": "/chords/homenajes/rolling-stones-gimme-shelter.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 132,
+            "tonalidad": "Am",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes The Rolling Stones"
+          }
+        },
+        {
+          "id": "homenaje-rolling-stones-07-beast-of-burden",
+          "track_number": 175,
+          "title": "Beast of Burden",
+          "artist": "The Rolling Stones",
+          "duration": "4:24",
+          "mp3_url": "/audio/homenajes/rolling-stones-beast-of-burden.mp3",
+          "chords_url": "/chords/homenajes/rolling-stones-beast-of-burden.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 84,
+            "tonalidad": "E Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes The Rolling Stones"
+          }
+        },
+        {
+          "id": "homenaje-rolling-stones-08-wild-horses",
+          "track_number": 176,
+          "title": "Wild Horses",
+          "artist": "The Rolling Stones",
+          "duration": "5:42",
+          "mp3_url": "/audio/homenajes/rolling-stones-wild-horses.mp3",
+          "chords_url": "/chords/homenajes/rolling-stones-wild-horses.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 70,
+            "tonalidad": "G Mayor",
+            "compas": "3/4",
+            "dificultad": "Media",
+            "style": "Country Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes The Rolling Stones"
+          }
+        },
+        {
+          "id": "homenaje-rolling-stones-09-its-only-rock-n-roll",
+          "track_number": 177,
+          "title": "It's Only Rock 'n Roll (But I Like It)",
+          "artist": "The Rolling Stones",
+          "duration": "5:07",
+          "mp3_url": "/audio/homenajes/rolling-stones-its-only-rock-n-roll.mp3",
+          "chords_url": "/chords/homenajes/rolling-stones-its-only-rock-n-roll.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 130,
+            "tonalidad": "E Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes The Rolling Stones"
+          }
+        },
+        {
+          "id": "homenaje-rolling-stones-10-miss-you",
+          "track_number": 178,
+          "title": "Miss You",
+          "artist": "The Rolling Stones",
+          "duration": "4:48",
+          "mp3_url": "/audio/homenajes/rolling-stones-miss-you.mp3",
+          "chords_url": "/chords/homenajes/rolling-stones-miss-you.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 108,
+            "tonalidad": "D Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Disco Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes The Rolling Stones"
+          }
+        }
+      ]
+    }
+  ]
+}

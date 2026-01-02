@@ -1,0 +1,215 @@
+{
+  "artista": "La Ley & Mana",
+  "categoria": "homenajes",
+  "discografia": [
+    {
+      "album_id": "homenajes-la-ley-mana-00",
+      "album_name": "HOMENAJE A LA LEY & Mana",
+      "year": "2024",
+      "cover_image": "/img/02-logos/logo-formateo-chords2.png",
+      "genre": "Rock Latino / Alternativo",
+      "songs": [
+        {
+          "id": "homenaje-la-ley-01-el-duelo",
+          "track_number": 1,
+          "title": "El Duelo",
+          "artist": "La Ley",
+          "duration": "4:22",
+          "mp3_url": "/audio/la-ley-el-duelo.mp3",
+          "chords_url": "/chords/la-ley-el-duelo.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 116,
+            "tonalidad": "Em",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock Alternativo",
+            "genre": "Rock",
+            "categoria": "Homenajes La Ley"
+          }
+        },
+        {
+          "id": "homenaje-la-ley-02-intentare",
+          "track_number": 2,
+          "title": "Intentaré",
+          "artist": "La Ley",
+          "duration": "4:08",
+          "mp3_url": "/audio/la-ley-intentare.mp3",
+          "chords_url": "/chords/la-ley-intentare.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 112,
+            "tonalidad": "D Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock Alternativo",
+            "genre": "Rock",
+            "categoria": "Homenajes La Ley"
+          }
+        },
+        {
+          "id": "homenaje-la-ley-03-mentira",
+          "track_number": 3,
+          "title": "Mentira",
+          "artist": "La Ley",
+          "duration": "4:35",
+          "mp3_url": "/audio/la-ley-mentira.mp3",
+          "chords_url": "/chords/la-ley-mentira.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 118,
+            "tonalidad": "G Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock Alternativo",
+            "genre": "Rock",
+            "categoria": "Homenajes La Ley"
+          }
+        },
+        {
+          "id": "homenaje-la-ley-04-aqui",
+          "track_number": 4,
+          "title": "Aquí",
+          "artist": "La Ley",
+          "duration": "4:15",
+          "mp3_url": "/audio/la-ley-aqui.mp3",
+          "chords_url": "/chords/la-ley-aqui.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 120,
+            "tonalidad": "C Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock Alternativo",
+            "genre": "Rock",
+            "categoria": "Homenajes La Ley"
+          }
+        },
+        {
+          "id": "homenaje-la-ley-05-fuera-de-mi",
+          "track_number": 5,
+          "title": "Fuera de Mí",
+          "artist": "La Ley",
+          "duration": "4:28",
+          "mp3_url": "/audio/la-ley-fuera-de-mi.mp3",
+          "chords_url": "/chords/la-ley-fuera-de-mi.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 114,
+            "tonalidad": "A Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock Alternativo",
+            "genre": "Rock",
+            "categoria": "Homenajes La Ley"
+          }
+        },
+        {
+          "id": "homenaje-mana-01-rayando-el-sol",
+          "track_number": 6,
+          "title": "Rayando el Sol",
+          "artist": "Mana",
+          "duration": "4:10",
+          "mp3_url": "/audio/mana-rayando-el-sol.mp3",
+          "chords_url": "/chords/mana-rayando-el-sol.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 122,
+            "tonalidad": "E Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock Latino",
+            "genre": "Rock",
+            "categoria": "Homenajes Mana"
+          }
+        },
+        {
+          "id": "homenaje-mana-02-clavado-en-un-bar",
+          "track_number": 7,
+          "title": "Clavado en un Bar",
+          "artist": "Mana",
+          "duration": "5:10",
+          "mp3_url": "/audio/mana-clavado-en-un-bar.mp3",
+          "chords_url": "/chords/mana-clavado-en-un-bar.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 104,
+            "tonalidad": "D Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock Latino",
+            "genre": "Rock",
+            "categoria": "Homenajes Mana"
+          }
+        },
+        {
+          "id": "homenaje-mana-03-en-el-muelle-de-san-blas",
+          "track_number": 8,
+          "title": "En el Muelle de San Blas",
+          "artist": "Mana",
+          "duration": "5:52",
+          "mp3_url": "/audio/mana-en-el-muelle-de-san-blas.mp3",
+          "chords_url": "/chords/mana-en-el-muelle-de-san-blas.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 96,
+            "tonalidad": "G Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Balada Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Mana"
+          }
+        },
+        {
+          "id": "homenaje-mana-04-labios-compartidos",
+          "track_number": 9,
+          "title": "Labios Compartidos",
+          "artist": "Mana",
+          "duration": "4:00",
+          "mp3_url": "/audio/mana-labios-compartidos.mp3",
+          "chords_url": "/chords/mana-labios-compartidos.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 128,
+            "tonalidad": "A Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock Latino",
+            "genre": "Rock",
+            "categoria": "Homenajes Mana"
+          }
+        },
+        {
+          "id": "homenaje-mana-05-mariposa-trachiconera",
+          "track_number": 10,
+          "title": "Mariposa Traicionera",
+          "artist": "Mana",
+          "duration": "4:24",
+          "mp3_url": "/audio/mana-mariposa-trachiconera.mp3",
+          "chords_url": "/chords/mana-mariposa-trachiconera.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 118,
+            "tonalidad": "E Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock Latino",
+            "genre": "Rock",
+            "categoria": "Homenajes Mana"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -286,9 +286,9 @@ export const SearchProvider = ({ children }) => {
       genre: 'Rock Alternativo'
     },
     { 
-      id: 'homenaje-laley-maná', 
-      name: 'La Ley & Maná', 
-      path: '/listados/listados-musica-homenajes/listado-musica-homenaje-laley-maná.json',
+      id: 'homenaje-laley-Mana', 
+      name: 'La Ley & Mana', 
+      path: '/listados/listados-musica-homenajes/listado-musica-homenaje-laley-Mana.json',
       type: 'homenajes',
       genre: 'Rock Latino'
     },
@@ -337,7 +337,7 @@ export const SearchProvider = ({ children }) => {
     { 
       id: 'homenaje-phillcollins', 
       name: 'Phil Collins', 
-      path: '/listados/listados-musica-homenajes/listado-musica-homenaje-phillcollins.json',
+      path: '/listados/listados-musica-homenajes/listado-musica-homenaje-philcollins.json',
       type: 'homenajes',
       genre: 'Pop Rock'
     },

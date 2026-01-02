@@ -1,0 +1,751 @@
+{
+  "id": "mana-clavado-en-un-bar",
+  "title": "Clavado En Un Bar",
+  "artist": "Mana",
+  "originalKey": "G",
+  "tempo": "Moderate",
+  "timeSignature": "4/4",
+  "content": [
+    {
+      "type": "section",
+      "name": "INTRO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "C", "G", "C", "D"]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "C", "G", "C", "D"]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "C", "G", "C", "D"]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "C", "Em"]
+        },
+        {
+          "type": "text",
+          "content": "Oh yeah!"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 1",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "D"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Aquí me tiene bien clavado"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "Soltando las penas en un bar"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "C"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "Brindando por tu amor"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "Dm"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Aquí me tiene abandonado"},
+            {"type": "chord", "content": "Dm"},
+            {"type": "lyric", "content": "Bebiendo tequila pa' olvidar"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "C"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "Y sacudirme así el dolor"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-CHORUS",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "D", "Em"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "¿Dónde estás? Bendita"},
+            {"type": "chord", "content": "D"},
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric": ""}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "C", "D"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "¿Dónde te has metido?"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "C"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Bm"},
+            {"type": "lyric", "content": "Abre un poco el corazón"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "C"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Bm"},
+            {"type": "lyric", "content": "Deja amarte, corazón"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "C", "D"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Bm"},
+            {"type": "lyric", "content": "Ven y sácame de este bar"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "G"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Estoy clavado"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Estoy herido"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "C"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "Estoy ahogado en un bar"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Desesperado"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "Em", "C"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Bm"},
+            {"type": "lyric", "content": "En el olvido amor"},
+            {"type": "chord", "content": "Em"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric": "Estoy ahogado en un bar Hey!"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "INTERLUDIO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "C", "G", "C", "D"]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "C", "G", "C", "D"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 2",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "D"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Sé que te gustan demasiados"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "Que te pretende cantidad"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "C"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "Pero eso no es felicidad"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Y mi amor nunca se raja"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "Y mi amor nunca jamás te va a fallar"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "C"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "Nunca jamás"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "PRE-CHORUS (REPEAT)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "D", "Em"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Donde estás bendita"},
+            {"type": "chord", "content": "D"},
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric": ""}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "C", "D"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Donde te has metido?"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "C"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Bm"},
+            {"type": "lyric", "content": "Abre un poco el corazón"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "C"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Bm"},
+            {"type": "lyric", "content": "Deja amarte, corazón"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "C", "D"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "Bm"},
+            {"type": "lyric", "content": "Ven y sácame de este bar"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "CHORUS (REPEAT)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["C", "G"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "C"},
+            {"type": "lyric", "content": "Estoy clavado"},
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Estoy herido"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "C"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "Estoy ahogado en un bar"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Desesperado"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "Em", "C"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Bm"},
+            {"type": "lyric", "content": "En el olvido amor"},
+            {"type": "chord", "content": "Em"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric": "Estoy ahogado en un bar Hey!"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "THIRD VERSE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Voy desesperando"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "Em", "C"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Bm"},
+            {"type": "lyric", "content": "Voy en el olvido"},
+            {"type": "chord", "content": "Em"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric": "Estoy ahogado en un bar"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "Am", "C"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Déjate querer amor"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "Bm"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Quiero ser tu todo"},
+            {"type": "chord", "content": "Bm"},
+            {"type": "lyric": "Y tu corazón"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "Am", "C"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Ven a rescatarme amor"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D", "C"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Yo quiero ser tu sol"},
+            {"type": "chord", "content": "D"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric": "Yo quiero ser tu mar ¡No!"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "SOLO",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "D", "Em", "C", "F"]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D", "Em", "C"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "VERSE 1 (REPEAT)",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "text",
+          "content": "Oh, oh, oh, oh, oh, oh"
+        },
+        {
+          "type": "chords",
+          "content": ["Em"]
+        },
+        {
+          "type": "text",
+          "content": "Oh, oh, oh, oh, oh"
+        },
+        {
+          "type": "chords",
+          "content": ["C"]
+        },
+        {
+          "type": "text",
+          "content": "Eh, eh"
+        },
+        {
+          "type": "chords",
+          "content": ["G", "D"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Aquí me tiene bien clavado"},
+            {"type": "chord", "content": "D"},
+            {"type": "lyric", "content": "Soltando las penas en un bar"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "C"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "Brindando por tu amor"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "Dm"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Aquí me tiene abandonado"},
+            {"type": "chord", "content": "Dm"},
+            {"type": "lyric", "content": "Bebiendo tequila pa' olvidar"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Em", "C"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Em"},
+            {"type": "lyric", "content": "Y sacudirme hacia el dolor"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FOURTH VERSE",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "G"},
+            {"type": "lyric", "content": "Desesperando"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["Bm", "Em", "C"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ PATO",
+          "color": "pato",
+          "lines": [
+            {"type": "chord", "content": "Bm"},
+            {"type": "lyric", "content": "Voy en el olvido"},
+            {"type": "chord", "content": "Em"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric": "Estoy ahogado en un bar"}
+          ]
+        },
+        {
+          "type": "chords",
+          "content": ["B", "Bm", "Em", "C"]
+        },
+        {
+          "type": "voice",
+          "name": "1º VOZ ALE",
+          "color": "ale",
+          "lines": [
+            {"type": "chord", "content": "B"},
+            {"type": "lyric", "content": "Desesperando"},
+            {"type": "chord", "content": "Bm"},
+            {"type": "lyric": "Voy en el olvido"},
+            {"type": "chord", "content": "Em"},
+            {"type": "chord", "content": "C"},
+            {"type": "lyric": "Estoy ahogado en un bar"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "name": "FINAL",
+      "lines": [
+        {
+          "type": "chords",
+          "content": ["G", "C", "G", "C", "D"]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "C", "G", "C", "D"]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "C", "G", "C", "D"]
+        },
+        {
+          "type": "chords",
+          "content": ["G", "C", "G", "C", "D", "G"]
+        }
+      ]
+    }
+  ]
+}

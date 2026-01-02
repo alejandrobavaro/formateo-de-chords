@@ -1,214 +1,214 @@
 {
-    "artista": "Rockola Covers",
-    "discografia": [
-      {
-        "album_id": "homenajes-internacionales-00",
-        "album_name": "HOMENAJES INTERNACIONALES",
-        "year": "2024",
-          "cover_image": "/img/02-logos/logo-formateo-chords2.png",
-        "genre": "Homenajes",
-        "songs": [
-          {
-            "id": "homenaje-redhotchili-01-californication",
-            "track_number": 149,
-            "title": "Californication",
-            "artist": "Red Hot Chili Peppers",
-            "duration": "5:21",
-            "mp3_url": "/audio/homenajes/redhotchili-californication.mp3",
-            "chords_url": "/chords/homenajes/redhotchili-californication.json",
-            "details": {
-              "letra": "",
-              "acordes": [],
-              "bpm": 96,
-              "tonalidad": "Dm",
-              "compas": "4/4",
-              "dificultad": "Media",
-              "style": "Funk Rock",
-              "genre": "Rock",
-              "categoria": "Homenajes Red Hot Chili Peppers"
-            }
-          },
-          {
-            "id": "homenaje-redhotchili-02-under-the-bridge",
-            "track_number": 150,
-            "title": "Under the Bridge",
-            "artist": "Red Hot Chili Peppers",
-            "duration": "4:24",
-            "mp3_url": "/audio/homenajes/redhotchili-under-the-bridge.mp3",
-            "chords_url": "/chords/homenajes/redhotchili-under-the-bridge.json",
-            "details": {
-              "letra": "",
-              "acordes": [],
-              "bpm": 84,
-              "tonalidad": "A Mayor",
-              "compas": "4/4",
-              "dificultad": "Media",
-              "style": "Rock Alternativo",
-              "genre": "Rock",
-              "categoria": "Homenajes Red Hot Chili Peppers"
-            }
-          },
-          {
-            "id": "homenaje-redhotchili-03-scar-tissue",
-            "track_number": 151,
-            "title": "Scar Tissue",
-            "artist": "Red Hot Chili Peppers",
-            "duration": "3:37",
-            "mp3_url": "/audio/homenajes/redhotchili-scar-tissue.mp3",
-            "chords_url": "/chords/homenajes/redhotchili-scar-tissue.json",
-            "details": {
-              "letra": "",
-              "acordes": [],
-              "bpm": 90,
-              "tonalidad": "D Mayor",
-              "compas": "4/4",
-              "dificultad": "Media",
-              "style": "Rock Alternativo",
-              "genre": "Rock",
-              "categoria": "Homenajes Red Hot Chili Peppers"
-            }
-          },
-          {
-            "id": "homenaje-redhotchili-04-cant-stop",
-            "track_number": 152,
-            "title": "Can't Stop",
-            "artist": "Red Hot Chili Peppers",
-            "duration": "4:29",
-            "mp3_url": "/audio/homenajes/redhotchili-cant-stop.mp3",
-            "chords_url": "/chords/homenajes/redhotchili-cant-stop.json",
-            "details": {
-              "letra": "",
-              "acordes": [],
-              "bpm": 112,
-              "tonalidad": "E Mayor",
-              "compas": "4/4",
-              "dificultad": "Media",
-              "style": "Funk Rock",
-              "genre": "Rock",
-              "categoria": "Homenajes Red Hot Chili Peppers"
-            }
-          },
-          {
-            "id": "homenaje-redhotchili-05-otherside",
-            "track_number": 153,
-            "title": "Otherside",
-            "artist": "Red Hot Chili Peppers",
-            "duration": "4:15",
-            "mp3_url": "/audio/homenajes/redhotchili-otherside.mp3",
-            "chords_url": "/chords/homenajes/redhotchili-otherside.json",
-            "details": {
-              "letra": "",
-              "acordes": [],
-              "bpm": 84,
-              "tonalidad": "Am",
-              "compas": "4/4",
-              "dificultad": "Media",
-              "style": "Rock Alternativo",
-              "genre": "Rock",
-              "categoria": "Homenajes Red Hot Chili Peppers"
-            }
-          },
-          {
-            "id": "homenaje-redhotchili-06-by-the-way",
-            "track_number": 154,
-            "title": "By the Way",
-            "artist": "Red Hot Chili Peppers",
-            "duration": "3:37",
-            "mp3_url": "/audio/homenajes/redhotchili-by-the-way.mp3",
-            "chords_url": "/chords/homenajes/redhotchili-by-the-way.json",
-            "details": {
-              "letra": "",
-              "acordes": [],
-              "bpm": 122,
-              "tonalidad": "F Mayor",
-              "compas": "4/4",
-              "dificultad": "Media",
-              "style": "Funk Rock",
-              "genre": "Rock",
-              "categoria": "Homenajes Red Hot Chili Peppers"
-            }
-          },
-          {
-            "id": "homenaje-redhotchili-07-snow-hey-oh",
-            "track_number": 155,
-            "title": "Snow (Hey Oh)",
-            "artist": "Red Hot Chili Peppers",
-            "duration": "5:34",
-            "mp3_url": "/audio/homenajes/redhotchili-snow-hey-oh.mp3",
-            "chords_url": "/chords/homenajes/redhotchili-snow-hey-oh.json",
-            "details": {
-              "letra": "",
-              "acordes": [],
-              "bpm": 106,
-              "tonalidad": "Em",
-              "compas": "4/4",
-              "dificultad": "Difícil",
-              "style": "Rock Alternativo",
-              "genre": "Rock",
-              "categoria": "Homenajes Red Hot Chili Peppers"
-            }
-          },
-          {
-            "id": "homenaje-redhotchili-08-dani-california",
-            "track_number": 156,
-            "title": "Dani California",
-            "artist": "Red Hot Chili Peppers",
-            "duration": "4:42",
-            "mp3_url": "/audio/homenajes/redhotchili-dani-california.mp3",
-            "chords_url": "/chords/homenajes/redhotchili-dani-california.json",
-            "details": {
-              "letra": "",
-              "acordes": [],
-              "bpm": 96,
-              "tonalidad": "G Mayor",
-              "compas": "4/4",
-              "dificultad": "Media",
-              "style": "Funk Rock",
-              "genre": "Rock",
-              "categoria": "Homenajes Red Hot Chili Peppers"
-            }
-          },
-          {
-            "id": "homenaje-redhotchili-09-give-it-away",
-            "track_number": 157,
-            "title": "Give It Away",
-            "artist": "Red Hot Chili Peppers",
-            "duration": "4:43",
-            "mp3_url": "/audio/homenajes/redhotchili-give-it-away.mp3",
-            "chords_url": "/chords/homenajes/redhotchili-give-it-away.json",
-            "details": {
-              "letra": "",
-              "acordes": [],
-              "bpm": 92,
-              "tonalidad": "E Mayor",
-              "compas": "4/4",
-              "dificultad": "Media",
-              "style": "Funk Rock",
-              "genre": "Rock",
-              "categoria": "Homenajes Red Hot Chili Peppers"
-            }
-          },
-          {
-            "id": "homenaje-redhotchili-10-soul-to-squeeze",
-            "track_number": 158,
-            "title": "Soul to Squeeze",
-            "artist": "Red Hot Chili Peppers",
-            "duration": "4:50",
-            "mp3_url": "/audio/homenajes/redhotchili-soul-to-squeeze.mp3",
-            "chords_url": "/chords/homenajes/redhotchili-soul-to-squeeze.json",
-            "details": {
-              "letra": "",
-              "acordes": [],
-              "bpm": 82,
-              "tonalidad": "E Mayor",
-              "compas": "4/4",
-              "dificultad": "Media",
-              "style": "Rock Alternativo",
-              "genre": "Rock",
-              "categoria": "Homenajes Red Hot Chili Peppers"
-            }
+  "artista": "Rockola Covers",
+  "discografia": [
+    {
+      "album_id": "homenajes-internacionales-00",
+      "album_name": "HOMENAJE A RED HOT CHILI PEPPERS",
+      "year": "2024",
+        "cover_image": "/img/02-logos/logo-formateo-chords2.png",
+      "genre": "Homenajes",
+      "songs": [
+        {
+          "id": "homenaje-redhotchili-01-californication",
+          "track_number": 149,
+          "title": "Californication",
+          "artist": "Red Hot Chili Peppers",
+          "duration": "5:21",
+          "mp3_url": "/audio/homenajes/redhotchili-californication.mp3",
+          "chords_url": "/chords/homenajes/redhotchili-californication.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 96,
+            "tonalidad": "Dm",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Funk Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Red Hot Chili Peppers"
           }
-        ]
-      }
-    ]
-  }
+        },
+        {
+          "id": "homenaje-redhotchili-02-under-the-bridge",
+          "track_number": 150,
+          "title": "Under the Bridge",
+          "artist": "Red Hot Chili Peppers",
+          "duration": "4:24",
+          "mp3_url": "/audio/homenajes/redhotchili-under-the-bridge.mp3",
+          "chords_url": "/chords/homenajes/redhotchili-under-the-bridge.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 84,
+            "tonalidad": "A Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock Alternativo",
+            "genre": "Rock",
+            "categoria": "Homenajes Red Hot Chili Peppers"
+          }
+        },
+        {
+          "id": "homenaje-redhotchili-03-scar-tissue",
+          "track_number": 151,
+          "title": "Scar Tissue",
+          "artist": "Red Hot Chili Peppers",
+          "duration": "3:37",
+          "mp3_url": "/audio/homenajes/redhotchili-scar-tissue.mp3",
+          "chords_url": "/chords/homenajes/redhotchili-scar-tissue.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 90,
+            "tonalidad": "D Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock Alternativo",
+            "genre": "Rock",
+            "categoria": "Homenajes Red Hot Chili Peppers"
+          }
+        },
+        {
+          "id": "homenaje-redhotchili-04-cant-stop",
+          "track_number": 152,
+          "title": "Can't Stop",
+          "artist": "Red Hot Chili Peppers",
+          "duration": "4:29",
+          "mp3_url": "/audio/homenajes/redhotchili-cant-stop.mp3",
+          "chords_url": "/chords/homenajes/redhotchili-cant-stop.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 112,
+            "tonalidad": "E Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Funk Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Red Hot Chili Peppers"
+          }
+        },
+        {
+          "id": "homenaje-redhotchili-05-otherside",
+          "track_number": 153,
+          "title": "Otherside",
+          "artist": "Red Hot Chili Peppers",
+          "duration": "4:15",
+          "mp3_url": "/audio/homenajes/redhotchili-otherside.mp3",
+          "chords_url": "/chords/homenajes/redhotchili-otherside.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 84,
+            "tonalidad": "Am",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock Alternativo",
+            "genre": "Rock",
+            "categoria": "Homenajes Red Hot Chili Peppers"
+          }
+        },
+        {
+          "id": "homenaje-redhotchili-06-by-the-way",
+          "track_number": 154,
+          "title": "By the Way",
+          "artist": "Red Hot Chili Peppers",
+          "duration": "3:37",
+          "mp3_url": "/audio/homenajes/redhotchili-by-the-way.mp3",
+          "chords_url": "/chords/homenajes/redhotchili-by-the-way.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 122,
+            "tonalidad": "F Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Funk Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Red Hot Chili Peppers"
+          }
+        },
+        {
+          "id": "homenaje-redhotchili-07-snow-hey-oh",
+          "track_number": 155,
+          "title": "Snow (Hey Oh)",
+          "artist": "Red Hot Chili Peppers",
+          "duration": "5:34",
+          "mp3_url": "/audio/homenajes/redhotchili-snow-hey-oh.mp3",
+          "chords_url": "/chords/homenajes/redhotchili-snow-hey-oh.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 106,
+            "tonalidad": "Em",
+            "compas": "4/4",
+            "dificultad": "Difícil",
+            "style": "Rock Alternativo",
+            "genre": "Rock",
+            "categoria": "Homenajes Red Hot Chili Peppers"
+          }
+        },
+        {
+          "id": "homenaje-redhotchili-08-dani-california",
+          "track_number": 156,
+          "title": "Dani California",
+          "artist": "Red Hot Chili Peppers",
+          "duration": "4:42",
+          "mp3_url": "/audio/homenajes/redhotchili-dani-california.mp3",
+          "chords_url": "/chords/homenajes/redhotchili-dani-california.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 96,
+            "tonalidad": "G Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Funk Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Red Hot Chili Peppers"
+          }
+        },
+        {
+          "id": "homenaje-redhotchili-09-give-it-away",
+          "track_number": 157,
+          "title": "Give It Away",
+          "artist": "Red Hot Chili Peppers",
+          "duration": "4:43",
+          "mp3_url": "/audio/homenajes/redhotchili-give-it-away.mp3",
+          "chords_url": "/chords/homenajes/redhotchili-give-it-away.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 92,
+            "tonalidad": "E Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Funk Rock",
+            "genre": "Rock",
+            "categoria": "Homenajes Red Hot Chili Peppers"
+          }
+        },
+        {
+          "id": "homenaje-redhotchili-10-soul-to-squeeze",
+          "track_number": 158,
+          "title": "Soul to Squeeze",
+          "artist": "Red Hot Chili Peppers",
+          "duration": "4:50",
+          "mp3_url": "/audio/homenajes/redhotchili-soul-to-squeeze.mp3",
+          "chords_url": "/chords/homenajes/redhotchili-soul-to-squeeze.json",
+          "details": {
+            "letra": "",
+            "acordes": [],
+            "bpm": 82,
+            "tonalidad": "E Mayor",
+            "compas": "4/4",
+            "dificultad": "Media",
+            "style": "Rock Alternativo",
+            "genre": "Rock",
+            "categoria": "Homenajes Red Hot Chili Peppers"
+          }
+        }
+      ]
+    }
+  ]
+}
